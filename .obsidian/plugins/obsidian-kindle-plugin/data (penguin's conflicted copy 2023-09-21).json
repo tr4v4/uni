@@ -1,0 +1,12 @@
+{
+  "amazonRegion": "italy",
+  "highlightsFolder": "0. inputs",
+  "lastSyncMode": "amazon",
+  "isLoggedIn": true,
+  "syncOnBoot": true,
+  "downloadBookMetadata": false,
+  "lastSyncDate": "2023-09-21T06:57:37.283Z",
+  "fileNameTemplate": "{{authorsLastNames}} - {{title}}",
+  "fileTemplate": "---\ntags:\n- category/book\n- status/pending\n- topic\ndate: <%tp.file.creation_date(\"DD-MM-YYYY HH:mm:ss\")%>\nauthor: {{author}}\n{% if pages %}pages: {{pages}}{% endif %}\n{% if url %}reference: {{url}}{% endif %}\n---\n\n# {{title}}\n---\n\n## Highlights\n{{highlights}}\n",
+  "highlightTemplate": "> {{ text }}\n\n\n"
+}

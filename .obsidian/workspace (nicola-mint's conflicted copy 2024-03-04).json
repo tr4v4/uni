@@ -1,0 +1,357 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a81ce858f279312",
+        "type": "tabs",
+        "dimension": 52.777777777777786,
+        "children": [
+          {
+            "id": "852b1670cef287e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Algebra e geometria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a09abd663c3b986a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Sottospazio generato.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d277f3381d7d1514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "424cd896e45e944f",
+        "type": "tabs",
+        "dimension": 47.222222222222214,
+        "children": [
+          {
+            "id": "7d245cbe5b48703d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 29022024111734.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 38.07692307692307,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md"
+              }
+            }
+          },
+          {
+            "id": "bcec95b56259cf2f",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 29.326923076923077,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498683,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b911b80298a3340",
+        "type": "tabs",
+        "dimension": 32.59615384615385,
+        "children": [
+          {
+            "id": "bd9ea1fdabd9c2e9",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "d277f3381d7d1514",
+  "lastOpenFiles": [
+    "0. mocs/Algebra e geometria.md",
+    "0. mocs/Algoritmi e strutture dati.md",
+    "1. lectures/Lecture 29022024091237.md",
+    "2. notes/Sottospazio generato.md",
+    "1. lectures/Lecture 29022024111734.md",
+    "2. notes/Sottospazio vettoriale.md",
+    "2. notes/Sottospazi vettoriali di R2.md",
+    "2. notes/Combinazione lineare.md",
+    "1. lectures/Lecture 28022024091940.md",
+    "2. notes/Definizione di essere sottoinsieme.md",
+    "media/excalidraw/Drawing 2024-03-02 17.45.06.excalidraw.md",
+    "2. notes/Spazio vettoriale.md",
+    "2. notes/Sottospazi vettoriali di R3.md",
+    "media/excalidraw/Drawing 2024-03-02 15.36.35.excalidraw.md",
+    "2. notes/Sottospazi vettoriali dei polinomi.md",
+    "2. notes/Implicazione.md",
+    "1. lectures/Lecture 27022024091857.md",
+    "2. notes/Sistema lineare.md",
+    "2. notes/Sistema lineare omogeneo.md",
+    "0. mocs/Analisi I.md",
+    "2. notes/Sommatorie notevoli.md",
+    "2. notes/Java.md",
+    "2. notes/OOP.md",
+    "1. lectures/Lecture 28022024111804.md",
+    "2. notes/Notazione asintotica.md",
+    "1. lectures/Lecture 27022024111544.md",
+    "media/algoritmo-ricerca-binaria-ricorsivo.png",
+    "media/incremento-bit.png",
+    "media/java-exceptions.png",
+    "media/java-exceptions.png.crdownload",
+    "media/teorema-media-integrale.png",
+    "media/riemann-integral.gif",
+    "media/integrale-riemann.png",
+    "media/algoritmo-contatore-binario.png",
+    "media/ricerca-valore-minimo.png",
+    "media/passi-ricerca-binaria.png",
+    "media/ricerca-binaria.png",
+    "3. projects/aijsodijas.canvas",
+    "media/albero-informatico.png.crdownload",
+    "media/hack_examples.zip",
+    "media/Unconfirmed 502276.crdownload",
+    "media/architettura-hack.png.png.crdownload",
+    "media/esame2019.07.01.pdf",
+    "media/Unconfirmed 160668.crdownload",
+    "media/esame2019.05.30.pdf",
+    "media/Unconfirmed 614779.crdownload",
+    "media/esame2019.02.12.pdf",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

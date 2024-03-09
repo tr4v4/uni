@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "be87dbf0eb3ad46c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8409aa5ac4ea576",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag: #topic/logica-per-informatica tag:#status/finished  tag:#category/note  tag:#topic/analisi-I  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 40.22346368715084,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 25.251396648044693,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849869,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c07fefb67aca329",
+        "type": "tabs",
+        "dimension": 34.52513966480447,
+        "children": [
+          {
+            "id": "7ba327b9ab87f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "d8409aa5ac4ea576",
+  "lastOpenFiles": [
+    "0. mocs/Programmazione.md",
+    "1. lectures/Lecture 16102023160400.md",
+    "0. mocs/Analisi I.md",
+    "2. notes/Passaggio per costante.md",
+    "2. notes/SR Latch.md",
+    "2. notes/Circuiti sequenziali.md",
+    "1. lectures/Lecture 16102023093744.md",
+    "2. notes/Insiemi numerici.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "2. notes/Macchina multilivello.md",
+    "1. lectures/Lecture 16102023125805.md",
+    "media/microarchitettura-hack.png",
+    "media/ram-logica.png",
+    "media/program-counter.png",
+    "media/1-bit-register-inside.png",
+    "media/1-bit-register.png",
+    "2. notes/Spazio di funzione.md",
+    "media/flip-flop.png",
+    "2. notes/Clock.md",
+    "2. notes/CISC e RISC.md",
+    "2. notes/Limite finito al finito di funzione.md",
+    "2. notes/Limiti di polinomi.md",
+    "2. notes/Limite finito di successione.md",
+    "2. notes/Limite infinito di successione.md",
+    "2. notes/Limite infinito al finito di funzione.md",
+    "2. notes/Limiti di successioni standard.md",
+    "2. notes/Limite di funzione.md",
+    "2. notes/Teorema del confronto.md",
+    "0. mocs/Logica per l'informatica.md",
+    "1. lectures/Lecture 12102023091734.md",
+    "2. notes/Deduzione naturale.md",
+    "2. notes/Albero di deduzione naturale.md",
+    "media/limite-infinito-finito.png",
+    "media/teorema-dei-due-carabinieri.jpg",
+    "media/teorema-dei-due-carabinieri.jpg.crdownload",
+    "media/arctan.png",
+    "media/arctan.png.crdownload",
+    "media/arccos.png",
+    "media/arcsin.png.crdownload",
+    "media/full-adder.png.crdownload",
+    "media/half-adder.png.png.crdownload",
+    "media/tavola-goniometrica.png.crdownload",
+    "media/tangente.png.crdownload",
+    "media/seno-coseno.webp.crdownload",
+    "media/coseno.gif.crdownload",
+    "media/seno.gif.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

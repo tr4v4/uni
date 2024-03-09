@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "f41fbf39c613f3d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21d7b293a977c15f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 06102023134057.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.86538461538461,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. lectures/Lecture 06102023134057.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. lectures/Lecture 06102023134057.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. lectures/Lecture 06102023134057.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "02579abd5075675b",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 29.61538461538462,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "1. lectures/Lecture 06102023134057.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.19753086419753077,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c07fefb67aca329",
+        "type": "tabs",
+        "dimension": 34.51923076923077,
+        "children": [
+          {
+            "id": "7ba327b9ab87f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "21d7b293a977c15f",
+  "lastOpenFiles": [
+    "1. lectures/Untitled.md",
+    "1. lectures/Lecture 06102023134057.md",
+    "2. notes/Relazione.md",
+    "Untitled.canvas",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 19092023091712.md",
+    "2. notes/NAND.md",
+    "2. notes/Maggiorante.md",
+    "2. notes/Linker.md",
+    "Untitled 1",
+    "Untitled",
+    "1. lectures/Lecture 02102023093041.md",
+    "2. notes/Successione monotona.md",
+    "0. mocs/Programmazione.md",
+    "1. lectures/Lecture 06102023094618.md",
+    "0. mocs/Logica per l'informatica.md",
+    "1. lectures/Lecture 28092023090721.md",
+    "2. notes/Limite.md",
+    "3. projects/Nand2Tetris/Nand2Tetris.md",
+    "3. projects/Nand2Tetris/Kanban Nand2Tetris.md",
+    "2. notes/HDL.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "1. lectures/Lecture 05102023130513.md",
+    "1. lectures/Lecture 03102023091610.md",
+    "2. notes/Comandi iterativi.md",
+    "2. notes/Espressione.md",
+    "2. notes/Untitled.md",
+    "2. notes/Successione numerica.md",
+    "2. notes/Limiti di polinomi.md",
+    "media/somma-binaria-in-complemento.png",
+    "media/complemento-a-2.png",
+    "media/definizione-limite-infinito-minore.png",
+    "media/definizione-limite-infinito-maggiore.png",
+    "media/definizione-limite-finito-convergente.png",
+    "0. mocs",
+    "media/procedimento-diagonale-cantor.png",
+    "media/n-to-r.png",
+    "3. projects/Nand2Tetris",
+    "media/pla.png",
+    "media/multiplexer.png",
+    "media/multiplexer.png.crdownload",
+    "1. notes/ZF.tex",
+    "media/or-nand.png",
+    "media/triangolo-rettangolo.png.crdownload",
+    "media/leggi-booleane.webp.crdownload",
+    "media/geometrie-euclidee-e-non.gif.crdownload",
+    "media/somma-angoli-interni-triangolo.png.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

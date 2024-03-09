@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fe352c2c3f55ed1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b7f765441caf41",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag: #topic/logica-per-informatica tag:#status/finished  tag:#category/note  tag:#topic/analisi-I  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 40.22346368715084,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Analisi I.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Analisi I.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. mocs/Analisi I.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 25.251396648044693,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0. mocs/Analisi I.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849869,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c07fefb67aca329",
+        "type": "tabs",
+        "dimension": 34.52513966480447,
+        "children": [
+          {
+            "id": "7ba327b9ab87f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "50b7f765441caf41",
+  "lastOpenFiles": [
+    "1. lectures/Lecture 20102023135306.md",
+    "2. notes/Limite finito al finito di funzione.md",
+    "2. notes/Limite al finito di funzione.md",
+    "2. notes/Tipologie di limite di funzione.md",
+    "2. notes/Limite di funzione.md",
+    "2. notes/Limite.md",
+    "2. notes/Punto di accumulazione.md",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 16102023093744.md",
+    "2. notes/Forme indeterminate.md",
+    "2. notes/Limite infinito all'infinito di funzione.md",
+    "2. notes/Limite all'infinito di funzione.md",
+    "2. notes/Gerarchia degli infiniti.md",
+    "media/gerarchia-degli-infiniti.jpg",
+    "2. notes/Limite destro e sinistro di funzione.md",
+    "2. notes/Limite finito all'infinito di funzione.md",
+    "2. notes/Limite infinito al finito di funzione.md",
+    "2. notes/Adder.md",
+    "2. notes/Algebra di Boole.md",
+    "2. notes/Codifica floating-point.md",
+    "2. notes/w-bit register.md",
+    "2. notes/PC.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "1. lectures/Lecture 19102023130600.md",
+    "2. notes/Pipelining.md",
+    "1. lectures/Lecture 18102023151217.md",
+    "0. mocs/Logica per l'informatica.md",
+    "media/livelli-cache.png",
+    "media/pipelining.png",
+    "media/esame2019.07.01.pdf",
+    "media/Unconfirmed 160668.crdownload",
+    "media/esame2019.05.30.pdf",
+    "media/Unconfirmed 614779.crdownload",
+    "media/esame2019.02.12.pdf",
+    "media/Unconfirmed 801877.crdownload",
+    "media/esame2019.01.09.pdf",
+    "media/Unconfirmed 823933.crdownload",
+    "media/regola-eliminazione-and.png",
+    "media/regola-introduzione-and.png",
+    "media/regole-di-inferenza.png",
+    "media/implementazione-ram.png",
+    "media/w-bit-register.png",
+    "media/schema-circuito-sequenziale.png",
+    "media/segnale-commutazione-al-fronte.png",
+    "1. lectures/f.cpp",
+    "media/teorema-dei-due-carabinieri.jpg.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

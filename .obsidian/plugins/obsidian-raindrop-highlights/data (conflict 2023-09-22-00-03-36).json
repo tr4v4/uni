@@ -1,0 +1,48 @@
+{
+  "version": "0.0.18",
+  "username": "Nicola Travaglini",
+  "isConnected": true,
+  "ribbonIcon": true,
+  "appendMode": false,
+  "collectionsFolders": true,
+  "onlyBookmarksWithHl": false,
+  "highlightsFolder": "0. inputs",
+  "collectionGroups": false,
+  "syncCollections": {
+    "0": {
+      "id": 0,
+      "title": "All bookmarks",
+      "sync": true,
+      "lastSyncDate": "2023-09-18T16:33:51.832Z"
+    },
+    "37678280": {
+      "id": 37678280,
+      "title": "AI",
+      "sync": false
+    },
+    "37678282": {
+      "id": 37678282,
+      "title": "Politics",
+      "sync": false
+    },
+    "37678289": {
+      "id": 37678289,
+      "title": "Climate Change",
+      "sync": false
+    },
+    "-1": {
+      "id": -1,
+      "title": "Unsorted",
+      "sync": false
+    },
+    "-99": {
+      "id": -99,
+      "title": "Trash",
+      "sync": false
+    }
+  },
+  "template": "{% if is_new_article %}\n# {{title}}\n---\n> {% if excerpt %}{{excerpt}}{% endif %}\n\n## Highlights\n{% endif -%}{% for highlight in highlights %}\n{% if highlight.color == \"red\" -%}\n    {%- set callout = \"danger\" -%}\n{%- elif highlight.color == \"blue\" -%}\n    {%- set callout = \"info\" -%}\n{%- elif highlight.color == \"green\" -%}\n    {%- set callout = \"check\" -%}\n{%- else -%}\n    {%- set callout = \"quote\" -%}\n{%- endif -%}\n> [!{{callout}}]+ Updated on {{highlight.lastUpdate}}\n>\n> {{highlight.text.split(\"\\n\") | join(\"\\n>\")}}\n{% if highlight.note -%}> > {{highlight.note + \"\\n\"}}{%- endif %}\n\n{%- endfor -%}\n",
+  "metadataTemplate": "tags:\n- \"#category/article\"\n- \"#status/finished\"\n- \"#topic/\"\ndate: <%tp.file.creation_date(\"DD-MM-YYYY HH:mm:ss\")%>\n{% if link %}url: {{link}}{% endif %}",
+  "filenameTemplate": "{{title}}",
+  "autoSyncInterval": 0
+}

@@ -1,0 +1,15 @@
+{
+  "encore-settings@@theme-dark": "encore-theme-dark-carbon",
+  "encore-settings@@theme-light": "encore-theme-light",
+  "encore-settings@@colors": "encore-colors-colorful",
+  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-mobile-translucency": false,
+  "encore-settings@@encore-bright-accent": false,
+  "encore-settings@@encore-coloured-tooltip": false,
+  "encore-settings@@blur-amount": "encore-blur-full",
+  "encore-settings@@encore-mobile-oled-mode": false,
+  "encore-settings@@encore-disable-grain": true,
+  "encore-settings@@encore-no-calendar": false,
+  "encore-settings@@encore-disable-logo-on-hr": false,
+  "encore-settings@@encore-disable-clickability-fix": false
+}

@@ -1,0 +1,308 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0c5830d6e8bff45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7914d2e7e75ab23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Programmazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7002c7594be5cd47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 09102023151504.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7d42237b57925525",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0485170ee182f131",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Dichiarazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.86538461538461,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. notes/Dichiarazione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. notes/Dichiarazione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. notes/Dichiarazione.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "02579abd5075675b",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 29.61538461538462,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2. notes/Dichiarazione.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849869,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c07fefb67aca329",
+        "type": "tabs",
+        "dimension": 34.51923076923077,
+        "children": [
+          {
+            "id": "7ba327b9ab87f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0485170ee182f131",
+  "lastOpenFiles": [
+    "1. lectures/Lecture 09102023151504.md",
+    "1. lectures/Lecture 09102023151504 (penguin's conflicted copy 2023-10-09).md",
+    "0. mocs/Programmazione.md",
+    "2. notes/Dichiarazione.md",
+    "2. notes/Scope.md",
+    "2. notes/Istruzione.md",
+    "2. notes/Assegnamento.md",
+    "2. notes/Debugging.md",
+    "2. notes/Coefficiente binomiale.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "1. lectures/Lecture 09102023132029.md",
+    "2. notes/Conversione binario-decimale.md",
+    "2. notes/Complemento a 2.md",
+    "2. notes/Codifica numeri interi.md",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 09102023094657.md",
+    "2. notes/Funzione esponenziale.md",
+    "2. notes/Dimostrazione successioni monotone hanno limite.md",
+    "0. mocs/Logica per l'informatica.md",
+    "1. lectures/Lecture 28092023090721.md",
+    "2. notes/ZF.md",
+    "2. notes/Dimostrazione in teoria assiomatica degli insiemi.md",
+    "2. notes/Assioma del singoletto.md",
+    "2. notes/Assioma dell'unione.md",
+    "2. notes/Funzione matematica.md",
+    "1. lectures/Lecture 05102023130513.md",
+    "media/tecnica-delle-divisioni-successive.png",
+    "media/tecnica-delle-moltiplicazioni-successive.png",
+    "media/conversione-binario-ottale-esadecimale.png",
+    "media/codifiche-informatiche.png",
+    "media/rapporto-logaritmo-esponenziale.png",
+    "media/dimostrazione-rappresentazione-esponenziale-irrazionale.png",
+    "media/somma-binaria-in-complemento.png",
+    "media/complemento-a-2.png",
+    "media/definizione-limite-infinito-minore.png",
+    "media/definizione-limite-infinito-maggiore.png",
+    "0. mocs",
+    "3. projects/Nand2Tetris",
+    "media/multiplexer.png.crdownload",
+    "1. notes/ZF.tex",
+    "Untitled 1",
+    "media/triangolo-rettangolo.png.crdownload",
+    "media/leggi-booleane.webp.crdownload",
+    "media/geometrie-euclidee-e-non.gif.crdownload",
+    "media/somma-angoli-interni-triangolo.png.crdownload",
+    "media/triangolo-di-tartaglia.png.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

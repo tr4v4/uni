@@ -1,0 +1,325 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc348516976b3caa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f9da5347562a595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Architettura degli elaboratori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "135bf79cbd5b3917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/ISA HACK.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b554fadad3415de9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46439156aed426ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 02112023130607.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a449760dc3ff1bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Cache.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f12d7bd4b27bac59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Linker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 40.22346368715084,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. notes/Linker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. notes/Linker.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. notes/Linker.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 25.251396648044693,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2. notes/Linker.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849869,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c07fefb67aca329",
+        "type": "tabs",
+        "dimension": 34.52513966480447,
+        "children": [
+          {
+            "id": "7ba327b9ab87f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "f12d7bd4b27bac59",
+  "lastOpenFiles": [
+    "2. notes/Teorema di Rolle.md",
+    "2. notes/Teorema di Fermat.md",
+    "2. notes/Teorema di Lagrange.md",
+    "2. notes/Massimo e minimo relativo.md",
+    "2. notes/Punto interno.md",
+    "2. notes/Teorema di Cauchy.md",
+    "2. notes/Cache.md",
+    "1. lectures/Lecture 02112023130607.md",
+    "media/gerarchie-interrupt.png",
+    "2. notes/Workflow di compilazione.md",
+    "2. notes/ISA HACK.md",
+    "1. lectures/Lecture 02112023091408.md",
+    "0. mocs/Logica per l'informatica.md",
+    "media/livello-isa.png",
+    "2. notes/Microarchitettura HACK.md",
+    "2. notes/Architettura HACK.md",
+    "2. notes/ISA.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "1. lectures/Lecture 26102023132035.md",
+    "1. lectures/Lecture 31102023161330.md",
+    "2. notes/Teorema degli zeri.md",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 30102023093826.md",
+    "2. notes/Funzioni continue.md",
+    "2. notes/Funzioni derivabili.md",
+    "2. notes/Regole di derivazione.md",
+    "2. notes/Implicazione.md",
+    "2. notes/NOT.md",
+    "media/hack_examples.zip",
+    "media/Unconfirmed 502276.crdownload",
+    "media/c-instruction-isa-hack.png",
+    "media/architettura-hack.png",
+    "media/architettura-hack.png.png.crdownload",
+    "media/regole-introduzione-OR.png",
+    "Pasted Image 20231028114436_757.png",
+    "Pasted Image 20231028114421_755.png",
+    "media/classe-c-k.png",
+    "media/rapporto-continuità-derivabilità.png",
+    "media/approccio-geometrico-rigoroso-derivata.png",
+    "media/esame2019.07.01.pdf",
+    "media/Unconfirmed 160668.crdownload",
+    "media/esame2019.05.30.pdf",
+    "media/Unconfirmed 614779.crdownload",
+    "media/esame2019.02.12.pdf",
+    "media/Unconfirmed 801877.crdownload",
+    "media/esame2019.01.09.pdf",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

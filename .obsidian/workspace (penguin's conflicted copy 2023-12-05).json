@@ -1,0 +1,299 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "8904b9c5ad939368",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98234ee6272dd1e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 36.388888888888886,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          },
+          {
+            "id": "bcec95b56259cf2f",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 8
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 31.01851851851852,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498683,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b911b80298a3340",
+        "type": "tabs",
+        "dimension": 32.592592592592595,
+        "children": [
+          {
+            "id": "bd9ea1fdabd9c2e9",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-google-tasks:Google Tasks": false
+    }
+  },
+  "active": "98234ee6272dd1e2",
+  "lastOpenFiles": [
+    "2. notes/Tipologie di limite di funzione.md",
+    "2. notes/Funzioni continue.md",
+    "2. notes/Albero binario.md",
+    "2. notes/Albero binario di ricerca.md",
+    "2. notes/Funzioni derivabili.md",
+    "0. mocs/Analisi I.md",
+    "2. notes/Limite di funzione.md",
+    "2. notes/Logica del primo ordine.md",
+    "2. notes/Definizione di essere sottoinsieme.md",
+    "2. notes/Assioma di estensionalità.md",
+    "0. mocs/Logica per l'informatica.md",
+    "2. notes/Generalizzazione.md",
+    "0. mocs/Programmazione.md",
+    "1. lectures/Lecture 20112023130829.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "2. notes/Paginazione.md",
+    "2. notes/Algoritmi di paginazione.md",
+    "2. notes/FIFO paginazione.md",
+    "2. notes/LRU.md",
+    "2. notes/Frammentazione.md",
+    "2. notes/Frammentazione interna.md",
+    "2. notes/Frammentazione esterna.md",
+    "2. notes/Combinazione segmentazione-paginazione.md",
+    "2. notes/Segmentazione.md",
+    "2. notes/Defrag.md",
+    "1. lectures/Lecture 09112023093612.md",
+    "media/albero-binario-di-ricerca.png",
+    "media/albero-binario.png",
+    "media/albero-informatico.png",
+    "media/albero-informatico.png.crdownload",
+    "3. projects/aijsodijas.canvas",
+    "media/eliminazione-esiste.png",
+    "media/introduzione-esiste.png",
+    "media/eliminazione-per-ogni.png",
+    "media/introduzione-per-ogni.png",
+    "media/implementazione-call-vm-hack.png",
+    "media/somma-virtual-machine-hack.png",
+    "media/implementazione-function-vm-hack.png",
+    "media/hack_examples.zip",
+    "media/Unconfirmed 502276.crdownload",
+    "media/architettura-hack.png.png.crdownload",
+    "media/esame2019.07.01.pdf",
+    "media/Unconfirmed 160668.crdownload",
+    "media/esame2019.05.30.pdf",
+    "media/Unconfirmed 614779.crdownload",
+    "media/esame2019.02.12.pdf",
+    "media/Unconfirmed 801877.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}
