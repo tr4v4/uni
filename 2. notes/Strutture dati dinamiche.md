@@ -21,7 +21,7 @@ Gli [[Array|array]], per esempio, sono l'**emblema di struttura statica**, che i
 
 ## Tipologie
 Le strutture dati dinamiche più note sono:
-- [[Liste]]
+- [[Lista]]
 - [[Albero informatico|Alberi]]
 
 ## Referenze

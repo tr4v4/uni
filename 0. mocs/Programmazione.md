@@ -42,7 +42,7 @@ SORT date DESC
 	- [[Strutture dati]]
 	- [[Puntatori]]
 	- [[Strutture dati dinamiche]]
-		- [[Liste]]
+		- [[Lista]]
 	- [[Ricorsione]]
 	- [[Albero informatico]]
 	- [[Classe informatica]] e [[Oggetto informatico]]

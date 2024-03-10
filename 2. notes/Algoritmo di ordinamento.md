@@ -51,11 +51,12 @@ Per esempio $(10, 2) < (10, 6)$.
 
 ## Categorie
 Questi algoritmi si dividono in 3 principali categorie, a _seconda del modo in cui attuano l'operazione di ordinamento_:
-- **[[Algoritmo di ordinamento incrementale|incrementali]]**
-- **[[Algoritmo di ordinamento divide et impera|divide et impera]]**
+- [[Algoritmo di ordinamento comparativo|comparativi]]
+	- **[[Algoritmo di ordinamento incrementale|incrementali]]**
+	- **[[Algoritmo di ordinamento divide et impera|divide et impera]]**
 - **[[Algoritmo di ordinamento non-comparativo|non-comparativi]]**
 
-## Tabella riassuntiva
+## Tabelle riassuntive
 
 |                    | Caso ottimo         | Caso medio          | Caso pessimo        |
 | ------------------ | ------------------- | ------------------- | ------------------- |

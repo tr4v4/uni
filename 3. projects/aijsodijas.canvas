@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"b6d349607945eddc","x":-420,"y":-220,"width":300,"height":200,"type":"text","text":"# Mappa\n- attributi:\n\t- matrice/griglia 20x10, dove 0 è vuoto, 1 è una cella occupata da un pezzo del tetramino corrente e 2 è una cella occupata da un pezzo di tetramino fissato\n- metodi:\n\t- stampa(win), considerare il bordo"},
+		{"id":"ba005e55dfcb789e","x":-160,"y":-640,"width":250,"height":60,"type":"text","text":"# Tetrafrog"},
+		{"id":"8e19bcd12ee26753","x":500,"y":-340,"width":250,"height":60,"type":"text","text":"# Tetramino\n- attributi:\n\t- matrice 4x3\n- metodi:\n\t- stampa(win)"},
+		{"id":"abbc62b252168147","x":220,"y":-120,"width":250,"height":60,"type":"text","text":"## O"},
+		{"id":"d36fd6f4ed72409a","x":520,"y":-120,"width":250,"height":60,"type":"text","text":"## I"},
+		{"id":"4299244224166725","x":880,"y":-120,"width":250,"height":60,"type":"text","text":"## J"},
+		{"id":"eedb1cf1d2c98a14","x":345,"y":40,"width":250,"height":60,"type":"text","text":"## L"},
+		{"id":"843dc8fc402ef601","x":660,"y":40,"width":250,"height":60,"type":"text","text":"## S"},
+		{"id":"2b7b5fda37f47ce4","x":1005,"y":40,"width":250,"height":60,"type":"text","text":"## Z"},
+		{"id":"98cd87e1264f6f5a","x":660,"y":180,"width":250,"height":60,"type":"text","text":"## T"}
+	],
+	"edges":[
+		{"id":"5708466c080953ed","fromNode":"ba005e55dfcb789e","fromSide":"bottom","toNode":"b6d349607945eddc","toSide":"top"},
+		{"id":"679c97ee3832ea29","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"98cd87e1264f6f5a","toSide":"bottom"},
+		{"id":"f8d415b909438a2a","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"2b7b5fda37f47ce4","toSide":"top"},
+		{"id":"e59189722ff829b2","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"843dc8fc402ef601","toSide":"top"},
+		{"id":"8eee38c0319119c5","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"eedb1cf1d2c98a14","toSide":"top"},
+		{"id":"cab8eaa631fbb28b","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"4299244224166725","toSide":"top"},
+		{"id":"fb06f76f7b79ab23","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"d36fd6f4ed72409a","toSide":"top"},
+		{"id":"ae6422063825f2e5","fromNode":"8e19bcd12ee26753","fromSide":"bottom","toNode":"abbc62b252168147","toSide":"top"}
+	]
+}

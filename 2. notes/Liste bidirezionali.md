@@ -10,6 +10,6 @@ links:
 # Liste bidirezionali
 ---
 ## Introduzione
-> Le **liste bidirezionali** sono particolari casi di [[Liste|liste]] che oltre a puntare al nodo successivo puntano anche a quello precedente.
+> Le **liste bidirezionali** sono particolari casi di [[Lista|liste]] che oltre a puntare al nodo successivo puntano anche a quello precedente.
 
 ## Referenze

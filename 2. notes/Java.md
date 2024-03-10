@@ -8,6 +8,7 @@ links:
   - "[[Lecture 28022024111804]]"
   - "[[Lecture 29022024091237]]"
   - "[[Lecture 04032024091423]]"
+  - "[[Lecture 07032024091439]]"
 ---
 # Java
 ---
@@ -60,3 +61,4 @@ Java basa la sua struttura sull'[[Ereditarietà|ereditarietà]] e sul [[Polimorf
 - `javadoc NomeFile.java` per la generazione della documentazione automatica Java (_JavaDoc_)
 
 ## Referenze
+- [[Garbage collector]]

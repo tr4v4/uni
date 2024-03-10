@@ -43,6 +43,7 @@ SORT date DESC
 	- [[Java]]
 	- [[Algoritmo di ordinamento]]
 	- [[Strutture dati elementari]]
+		- [[Lista]]
 	- [[Albero binario di ricerca]]
 	- [[Tabella hash]]
 	- [[Strutture heap]] (+ applicazioni)

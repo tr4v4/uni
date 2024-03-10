@@ -12,6 +12,6 @@ links:
 ## Introduzione
 > Il **FIFO paginazione** è un [[Algoritmi di paginazione|algoritmo di paginazione]] basato sul concetto [[FIFO]] (_First-In First-Out_), che _privilegia quindi la rimozione della [[Paginazione|pagina]] inserita nel working set da più tempo_ (la più vecchia).
 
-Si implementa attraverso una semplice [[Liste|lista]] ([[coda|coda]]) o con un _counter di page fault_ associato a ogni pagina: ad ogni page fault il counter di ogni blocco in RAM viene incrementato, e quando c'è da scegliere il blocco "vittima" _viene preso quello con il counter più alto_.
+Si implementa attraverso una semplice [[Lista|lista]] ([[coda|coda]]) o con un _counter di page fault_ associato a ogni pagina: ad ogni page fault il counter di ogni blocco in RAM viene incrementato, e quando c'è da scegliere il blocco "vittima" _viene preso quello con il counter più alto_.
 
 ## Referenze

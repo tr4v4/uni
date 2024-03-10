@@ -3,24 +3,70 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/algoritmi-e-strutture-dati
 date: 10-11-2023 19:08:58
 links:
   - "[[Lecture 08112023095400]]"
   - "[[Lecture 15112023091814]]"
   - "[[Lecture 17112023102404]]"
+  - "[[Lecture 07032024091439]]"
 ---
-# Liste
+# Lista
 ---
 ## Introduzione
-> Le **liste** sono [[Strutture dati dinamiche|strutture dati dinamiche]] composte da _sequenze di nodi_, ovvero [[Strutture dati|strutture dati]] che contengono una serie di valori e un _[[Puntatori|puntatore]] a il nodo successivo_.
+> Le **liste** sono [[Strutture dati dinamiche|strutture dati dinamiche]] [[Strutture dati elementari|elementari]] composte da _sequenze di nodi_, ovvero [[Strutture dati|strutture dati]] che contengono una serie di valori e un _[[Puntatori|puntatore]] a il nodo successivo_. Dispongono di 3 principali operazioni: `ricerca`, `inserimento` e `rimozione`.
 
 Graficamente parlando, una lista si presenta, a partire da un puntatore **head**, come una serie di nodi connessi in sequenza.
 ![[lista.png]]
 
 <u>Nota bene</u>: il puntatore _head **non è un nodo**_, ma solo un puntatore al primo nodo. Se si ha _head_ si ha tutta la lista.
 
-## Implementazione
-In [[C++]] una lista si realizza mediante una _struttura che con un campo che contiene un puntatore alla struttura stessa_, nel seguente modo:
+## Implementazioni
+### Array
+E' possibile implementare una lista con un [[Array|array]], e anzi offre vantaggi notevoli. L'ordine degli elementi è determinato dagli _indici_, e l'accesso a un suo elemento avviene in tempo costante ($O(1)$). Tuttavia lo _spazio è allocato staticamente_, e quindi è limitato.
+
+### Liste concatenate
+L'ordinamento è in questo caso determinato da una _catena di [[Puntatori|puntatori]]_, e lo [[Allocazione dinamica della memoria|spazio viene allocato dinamicamente]]. Il [[Complessità computazionale|costo]] di accesso dipende dalla posizione in cui si trova l'elemento (per cui lineare).
+
+Le liste concatenate sono attribuite a [[Newell]], [[Shaw]], [[Simon]] (sviluppatori di [[IPL]]), che le idearono come soluzione al problema della _rilocalizzazione di un array_ (necessaria al suo ridimensionamento), che non sempre è possibile.
+
+#### Semplici
+I nodi contengono:
+- dati
+- puntatore al nodo successivo (se è `NIL` allora è l'ultimo nodo)
+
+Operazioni:
+- `search` (come una ricerca lineare): $\Theta(n)$ (nell'ottimo $O(1)$, pessimo e medio $\Theta(n)$)
+- `insert` (in testa): $O(1)$
+- `append` (in coda): $\Theta(n)$
+- `delete`: $\Theta(n)$ (nell'ottimo $O(1)$, pessimo e medio $\Theta(n)$)
+
+#### Doppiamente concatenate
+I nodi contengono:
+- dati
+- puntatore al nodo successivo (se è `NIL` è l'ultimo)
+- puntatore al nodo precedente (se è `NIL` è il primo)
+
+Tutte le operazioni hanno lo stesso costo delle liste concatenate semplici.
+
+#### Circolari
+In questo caso l'accesso alla testa dalla coda è costante, e viceversa. Il lato estremamente negativo di questa implementazione è che non c'è alcun valore `NIL` che indichi la fine della lista.
+
+#### Con doppi puntatori
+Si tratta dell'implementazione migliore, con gli stessi costi dell'implementazione circolare ma senza il problema del `NIL` mancante: è più semplice a livello implementativo.
+
+Per cui ha costi:
+- `search`: $\Theta(n)$ (nell'ottimo $O(1)$, pessimo e medio $\Theta(n)$)
+- `insert` (in testa): $O(1)$
+- `append` (in coda): $O(1)$
+- `delete`: $\Theta(n)$ (nell'ottimo $O(1)$, pessimo e medio $\Theta(n)$)
+
+#### Resoconto
+Questa è la tabella riassuntiva dei costi complessivi (in $O$-[[O-grande|grande]]) delle operazioni di una lista per ogni implementazione con lista concatenata vista sopra:
+![[implementazioni-lista.png]]
+
+### In C++
+In [[C++]] una lista (concatenata semplice) si realizza mediante una _struttura che con un campo che contiene un puntatore alla struttura stessa_, nel seguente modo:
 ```cpp
 struct list {
 	int val;
@@ -31,7 +77,7 @@ struct list {
 Si tratta a tutti gli effetti di una definizione [[Ricorsione|ricorsiva]], ammessa in C++. Diremmo, in logica, che una lista così implementata è equivalente a
 $$L = \epsilon \cup (\text{Int} \times L)$$
 
-## Operazioni
+## Operazioni in C++
 ### Creazione
 Per creare una lista **conviene sempre lavorare sulla testa**, quindi _partire dal fondo per poi risalire aggiungendo di volta in volta un nuovo nodo_. In pratica la lista viene creata al contrario.
 
@@ -45,7 +91,7 @@ head->val = 13;
 head->next = NULL;
 ```
 
-A questo punto, per procedere, basterà reiterare le fasi dell'[[Liste#In testa|inserimento in testa]].
+A questo punto, per procedere, basterà reiterare le fasi dell'[[Lista#In testa|inserimento in testa]].
 
 ### Accesso
 Essendo una struttura che come campi ha puntatori, per accedere ad ogni elemento bisognerebbe usare la _[[Puntatori#Dereferenziazione|dereferenziazione]]_ di ogni puntatore per ogni nodo.

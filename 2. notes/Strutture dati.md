@@ -3,14 +3,20 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/algoritmi-e-strutture-dati
 date: 05-11-2023 13:40:42
 links:
   - "[[Lecture 31102023091528]]"
+  - "[[Lecture 07032024091439]]"
 ---
 # Strutture dati
 ---
 ## Introduzione
-> Una **struttura dati** è un [[Tipi di dati|tipo di dati]] composto da _elementi eterogenei_ raggruppati sotto un unico nome.
+> Una **struttura dati** definisce come i _dati sono logicamente organizzati_, e le _operazioni per accedere e modificarli_.
+
+<u>Nota bene</u>: _non definisce quali [[Tipi di dati|tipi di dati]] sono memorizzati, ma piuttosto come sono memorizzati_. Ad esempio una liste di interi o di stringhe sono la stessa struttura dati, solo di tipo diverso.
+
+In [[C]]/[[C++]] è possibile definirli come un tipo di dati composto da _elementi eterogenei_ raggruppati sotto un unico nome.
 
 Le strutture inizializzate sono chiamate **record**, mentre i nomi degli elementi al loro interno sono detti **campi**.
 
