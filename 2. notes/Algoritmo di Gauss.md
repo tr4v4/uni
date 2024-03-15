@@ -8,6 +8,7 @@ links:
   - "[[Lecture 21022024091849]]"
   - "[[Lecture 22022024111644]]"
   - "[[Lecture 07032024111604]]"
+  - "[[Lecture 12032024091825]]"
 ---
 # Algoritmo di Gauss
 ---
@@ -44,8 +45,8 @@ L'idea di base è di applicare queste proprietà per risolvere problemi generali
 
 #### Per l'indipendenza lineare
 Lo stesso principio si può applicare per determinare l'indipendenza o meno di vettori $v_{1}, \cdots, v_{m}$. Infatti riducendoli a scala (dopo averli disposti per righe) e ottenendo $w_{1}, \cdots, w_{k}$ vettori, si distinguono 2 casi:
-- $k < m \implies v_{1}, \cdots, v_{m}$ sono dipendenti, perché fondamentalmente le operazioni elementari di Gauss hanno dimostrato come un (o più) vettore fosse combinazione lineare degli altri, e per il [[Teorema del completamento|teorema del completamento]] in uno spazio di $k$ dimensioni si possono avere al massimo $k$ vettori indipendenti;
-- $k = m \implies v_{1}, \cdots, v_{m}$ sono indipendenti, perché sapendo che la dimensione è proprio $m$, e che generano $V$, per il [[Teorema GEL|teorema GEL]] allora sono anche indipendenti;
+- $k < m \implies v_{1}, \cdots, v_{m}$ _sono dipendenti_, perché fondamentalmente le operazioni elementari di Gauss hanno dimostrato come un (o più) vettore fosse combinazione lineare degli altri, e per il [[Teorema del completamento|teorema del completamento]] in uno spazio di $k$ dimensioni si possono avere al massimo $k$ vettori indipendenti;
+- $k = m \implies v_{1}, \cdots, v_{m}$ _sono indipendenti_, perché sapendo che la dimensione è proprio $m$, e che generano $V$, per il [[Teorema GEL|teorema GEL]] allora sono anche indipendenti;
 
 #### Per il completamento a base
 O ancora possiamo sfruttare i teoremi per completare una base di $V$ a una base di $\mathbb{R}^{n}$. Di fatto, se abbiamo un insieme generatore $\{v_{1}, \cdots, v_{m}\}$, se vogliamo completarlo a una base di $\mathbb{R}^{n}$, per il teorema del completamento significa che ci basta aggiungere $n-m$ vettori linearmente indipendenti a $\{v_{1}, \cdots, v_{m}\}$ (ovviamento se $n-m = 0$ allora è già base di $\mathbb{R}^{n}$). Allora l'idea è quella di _mettere tali vettori come righe di una matrice, ridurla a scala, e a quel punto aggiungere delle righe non nulle negli spazi in cui manca il pivot_! Questo, per il secondo teorema, ci garantisce che tali righe aggiunte siano linearmente indipendenti: per cui li riportiamo a stato di vettore ed ecco che abbiamo ottenuto una base di $\mathbb{R}^{n}$.
@@ -67,5 +68,24 @@ Ora potremmo semplicemente riscrivere queste righe come vettori e avremmo una ba
 $$\mathbb{R}^{4} = \langle (2, 2, 5, 1), (1, 1, 4, -1), (0, 1, 0, 0), (0, 0, 0, 1) \rangle$$
 
 e l'esercizio si conclude.
+
+#### Per l'appartenenza a un insieme generatore
+Per verificare se un certo vettore è generato da un insieme di vettori $V$ si può usare la _definizione di [[Sottospazio generato|sottospazio generato]]_, che ci dice che
+$$v \in \langle v_{1}, \cdots, v_{n} \rangle \iff \exists \lambda_{1}, \cdots, \lambda_{n} \in \mathbb{R} : v = \lambda_{1}v_{1} + \cdots + \lambda_{n}v_{n}$$
+
+Ma, sfruttando l'algoritmo di Gauss, possiamo:
+1. ridurre a base i vettori generatori $v_{1}, \cdots, v_{n}$;
+2. quindi verificare se "_iniettando_" il vettore $v$ all'interno dei vettori base trovati $w_{1}, \cdots, w_{m}$ (ciò che si ricava da $v_{1}, \cdots, v_{n}$) il sottospazio generato è linearmente indipendente o meno (sempre con Gauss);
+
+Infatti non possiamo prendere direttamente tutti i $v, v_{1}, \cdots, v_{n}$, metterle in una righe di una matrice e applicare l'algoritmo: se infatti vale che
+$$v \in \langle v_{1}, \cdots, v_{n} \rangle \implies v_{1}, \cdots, v_{n}, v \text{ sono dipendenti}$$
+**non vale il contrario**
+$$v_{1}, \cdots, v_{n}, v \text{ sono dipendenti} \implies v \in \langle v_{1}, \cdots, v_{n} \rangle$$
+
+questo perché nel secondo caso stiamo assumendo che $v$ sia [[Combinazione lineare|combinazione lineare]] degli altri, ma la teoria ci dice che _uno di loro è combinazione lineare degli altri, non per forza $v$_. Si potrebbe avere il caso in cui $v_{1}$ è combinazione lineare degli altri mentre tutti gli altri sono linearmente indipendenti: non possiamo dire che $v$ è combinazione lineare di $v_{1}, \cdots, v_{n}$.
+
+L'idea, allora, è proprio di ridurre a base i vettori generatori $v_{1}, \cdots, v_{n}$ per trovare la base $\{w_{1}, \cdots, w_{m}\}$, con cui scopriamo la dimensione di $V$. Per cui, aggiungendo il vettore $v$ a questa base e riducendo con Gauss possono accadere 2 cose:
+- $\dim(V) = rr(A|\underline{b}) \implies$ si scopre quindi che $v$ è combinazione lineare della base di $V$, per cui è generato da $\{v_{1}, \cdots, v_{n}\}$
+- $\dim(V) \neq rr(A|\underline{b}) \implies$ si scopre che $v$ non è combinazione lineare della base di $V$, per cui $w_{1}, \cdots, w_{m}, v$ sono linearmente indipendenti, di conseguenza generano uno spazio più grande di $V$ e $v$ non è generato da $\{v_{1}, \cdots, v_{n}\}$
 
 ## Referenze

@@ -6,6 +6,7 @@ tags:
 date: 10-03-2024 21:52:45
 links:
   - "[[Lecture 07032024091439]]"
+  - "[[Lecture 11032024094827]]"
 ---
 # Strutture dati elementari
 ---

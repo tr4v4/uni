@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "37fbc2204c67eee8",
+        "id": "24c2ae6b0c841134",
         "type": "tabs",
         "children": [
           {
-            "id": "76c66f66d7d4b8c9",
+            "id": "50957061fcc0b3db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md"
-              }
+              "state": {}
             }
           },
           {
@@ -191,7 +181,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Algoritmi e strutture dati.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,53 +240,54 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "random-note:Open random note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false,
-      "obsidian-google-tasks:Google Tasks": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false
     }
   },
-  "active": "76c66f66d7d4b8c9",
+  "active": "50957061fcc0b3db",
   "lastOpenFiles": [
-    "1. lectures/Lecture 07032024091439.md",
-    "2. notes/Lista.md",
-    "2. notes/Prototipo vs Implementazione.md",
-    "2. notes/Strutture dati.md",
-    "2. notes/Strutture dati elementari.md",
-    "media/implementazioni-lista.png",
-    "2. notes/Garbage collector.md",
-    "2. notes/Java.md",
-    "2. notes/Puntatori.md",
-    "2. notes/Allocazione dinamica della memoria.md",
-    "2. notes/Dizionario.md",
-    "2. notes/Ricerca lineare.md",
-    "2. notes/Complessità computazionale.md",
+    "1. lectures/Lecture 14032024140617.md",
+    "1. lectures/Lecture 11032024131300.md",
+    "2. notes/Successione numerica.md",
+    "2. notes/Intorno.md",
+    "2. notes/Funzioni continue.md",
+    "0. mocs/Analisi I.md",
+    "0. mocs/Algebra e geometria.md",
+    "2. notes/Immagine di funzione.md",
+    "2. notes/Applicazione lineare.md",
+    "1. lectures/Lecture 14032024111404.md",
+    "2. notes/Teorema fondamentale dei morfismi.md",
     "0. mocs/Algoritmi e strutture dati.md",
-    "1. lectures/Lecture 05032024111158.md",
-    "2. notes/Radix sort.md",
+    "1. lectures/Lecture 14032024091535.md",
+    "2. notes/Algoritmo di ordinamento comparativo.md",
+    "2. notes/Algoritmo di ordinamento non-comparativo.md",
+    "2. notes/Teorema del completamento.md",
+    "1. lectures/Lecture 12032024111356.md",
+    "2. notes/Algoritmo di Gauss.md",
+    "2. notes/Dimensione.md",
+    "2. notes/Base.md",
+    "1. lectures/Lecture 06032024091542.md",
+    "1. lectures/Lecture 12032024091825.md",
+    "2. notes/Sistemi equivalenti.md",
+    "2. notes/Sottospazio generato.md",
+    "2. notes/Indipendenza lineare.md",
+    "2. notes/Combinazione lineare.md",
+    "media/dequeue-array.png",
+    "media/enqueue-array.png",
+    "media/push-dinamico.png",
+    "media/pop-dinamico.png",
+    "media/pila-lista.png",
+    "media/pila-array.png",
+    "Pasted image 20240312174948.png",
+    "media/implementazioni-lista.png",
     "media/radix-sort-pseudo.png",
     "media/radix-sort.png",
-    "2. notes/Counting sort.md",
-    "2. notes/Selection sort.md",
-    "2. notes/Algoritmo di ordinamento.md",
-    "2. notes/Algoritmo di ordinamento non-comparativo.md",
-    "media/counting-sort-pseudo.png",
-    "2. notes/Algoritmo di ordinamento incrementale.md",
-    "2. notes/Algoritmo di ordinamento comparativo.md",
-    "1. lectures/Lecture 07032024141028.md",
-    "2. notes/Integrale improprio.md",
-    "0. mocs/Analisi I.md",
-    "2. notes/Algoritmo di ordinamento divide et impera.md",
     "Untitled Document",
     "netlify.toml",
     "templates",
-    "media/w-bit-register.png",
-    "media/triangolo-rettangolo.png",
-    "media/triangolo-di-tartaglia.png",
-    "media/traduzione.png",
-    "media/teorema-media-integrale.png",
-    "media/teorema-dei-due-carabinieri.jpg",
     "media/esame2019.07.01.pdf",
     "media/excalidraw",
     "media/esame2019.05.30.pdf",

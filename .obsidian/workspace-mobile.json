@@ -10,16 +10,31 @@
           {
             "id": "0240f951aab7c20a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Algebra e geometria.md",
+                "file": "0. mocs/Analisi I.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "5865a5dc8a11316a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Coordinate rispetto a una base.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "0. mocs/Algebra e geometria.md",
+            "file": "2. notes/Coordinate rispetto a una base.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +129,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "0. mocs/Algebra e geometria.md",
+            "file": "2. notes/Coordinate rispetto a una base.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -126,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "0. mocs/Algebra e geometria.md"
+            "file": "2. notes/Coordinate rispetto a una base.md"
           }
         }
       }
@@ -149,15 +164,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0240f951aab7c20a",
+  "active": "5865a5dc8a11316a",
   "lastOpenFiles": [
+    "0. mocs/Analisi I.md",
+    "0. mocs/Algebra e geometria.md",
     "2. notes/Tesi di Church-Turing.md",
     "1. lectures/Lecture 13102023133536.md",
     "2. notes/Limite finito al finito di funzione.md",
     "2. notes/Formule trigonometriche.md",
     "2. notes/Circonferenza goniometrica.md",
     "2. notes/Prodotto scalare.md",
-    "0. mocs/Algebra e geometria.md",
     "0. mocs/Algoritmi e strutture dati.md",
     "2. notes/Dimostrazione in teoria assiomatica degli insiemi.md",
     "2. notes/Complemento a 2.md",
@@ -176,7 +192,6 @@
     "2. notes/Sottostruttura algebrica.md",
     "2. notes/Teorema di Lagrange.md",
     "2. notes/Codifica floating-point.md",
-    "2. notes/Funzioni continue.md",
     "media/architettura-von-neumann.png",
     "Untitled",
     "Untitled 1"
