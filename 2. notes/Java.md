@@ -9,6 +9,7 @@ links:
   - "[[Lecture 29022024091237]]"
   - "[[Lecture 04032024091423]]"
   - "[[Lecture 07032024091439]]"
+  - "[[Lecture 12032024111356]]"
 ---
 # Java
 ---
@@ -62,3 +63,6 @@ Java basa la sua struttura sull'[[Ereditarietà|ereditarietà]] e sul [[Polimorf
 
 ## Referenze
 - [[Garbage collector]]
+- [[Classe astratta]]
+- [[Interfaccia]]
+- [[Generics]]

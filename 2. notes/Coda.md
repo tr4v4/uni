@@ -10,7 +10,7 @@ links:
 # Coda
 ---
 ## Introduzione
-> La **coda** è una [[Strutture dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[FIFO]] che supporta due operazioni: `ENQUEUE` e `DEQUEUE`. Viene utilizzata per esempio nello [[Scheduling|scheduling]] dei processi nei [[SO|sistemi operativi]], o nella visita [[Bread-first-search|bread-first-search]] su [[Grafo|grafi]].
+> La **coda** è una [[Strutture dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[FIFO]] che supporta due operazioni: `ENQUEUE` e `DEQUEUE`. Viene utilizzata per esempio nello [[Scheduling|scheduling]] dei processi nei [[SO|sistemi operativi]], o nella visita [[BFS|breadth-first-search]] su [[Grafo|grafi]].
 
 ## Implementazioni
 ### [[Lista|Liste]] concatenate circolari

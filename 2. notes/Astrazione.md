@@ -10,7 +10,7 @@ links:
 # Astrazione
 ---
 ## Introduzione
-> L'**astrazione** è un processo tipico del pensiero scientifico che permette di definire enti, concetti o procedure matematiche, estraendo e isolando alcune caratteristiche comuni a più oggetti e trascurandone altre.
+> L'**astrazione** è un _processo tipico del pensiero scientifico che permette di definire enti, concetti o procedure matematiche, estraendo e isolando alcune caratteristiche comuni a più oggetti e trascurandone altre_.
 
 ### Esempi
 Un esempio calzante di astrazione si vede nell'[[Insieme quoziente|insieme quoziente]], dove di un insieme $A$ si tiene in considerazione una caratteristica/proprietà (l'[[Relazione di equivalenza|equivalenza]]) comune ad ogni [[Classe di equivalenza|classe di equivalenza]].

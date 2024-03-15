@@ -3,10 +3,12 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/algoritmi-e-strutture-dati
 date: 30-11-2023 18:05:47
 links:
   - "[[Lecture 28112023101904]]"
   - "[[Lecture 29112023092601]]"
+  - "[[Lecture 14032024091535]]"
 ---
 # Albero binario
 ---
@@ -18,7 +20,36 @@ links:
 Da un punto di vista [[Algebra astratta|algebrico]], l'albero binario è un [[ADT]] definito dalla _tripla_
 $$T' ::= \varnothing \ | \ \mathcal{N}(T', \mathbb{N}, T')$$
 
+### Definizioni
+Dizionario delle caratteristiche di un albero binario:
+- _profondità di un nodo_ $u$: lunghezza del percorso unico dalla radice al nodo $u$;
+- _livello_: l'insieme di tutti i nodi alla stessa profondità;
+- _altezza_: massima profondità di un albero
+	- l'albero vuoto ha altezza -1;
+	- l'albero con solo radice ha altezza 0;
+
+### Tipologie
+Un albero binario può essere:
+- _completo_ se ogni nodo intermedio ha due figli;
+- _perfetto_ se è completo e tutte le foglie sono alla stessa profondità;
+
+## Teoremi
+### Caratterizzazione
+> Ogni albero non vuoto con $n$ nodi ha esattamente $n-1$ archi.
+
+Si dimostra [[Induzione strutturale|per induzione]], e può essere usato per capire se una struttura è un albero o meno.
+
+### Profondità
+Il numero di nodi di un albero binario di profondità $n$ è pari a
+$$\sum\limits_{i = 0}^{n} 2^{i} = 2^{n+1} - 1$$
+
 ## Implementazione
+Ogni nodo ha:
+- `parent` --> [[Puntatori|puntatore]] al nodo padre
+- `key`, `data` --> associazione chiave-valore
+- `left`, `right` --> puntatore ai figli
+
+### In [[C++]]
 Si utilizzano [[Strutture dati|strutture]] con 3 campi:
 ```cpp
 struct btree {
@@ -30,6 +61,8 @@ struct btree {
 
 ## Operazioni
 ### Creazione
+
+#### In C++
 ```cpp
 pbtree create_btree(int n) {
 	if (n == 0) return(NULL);
@@ -44,6 +77,33 @@ pbtree create_btree(int n) {
 ```
 
 ### Visita
+Ci sono due principali paradigmi di visita: [[DFS]] e [[BFS]].
+
+#### DFS
+In questo caso sappiamo di dover dividere la visita in 3 casi: _pre-fissa_, _post-fissa_, _in-fissa_.
+
+##### Pre-ordine
+![[dfs-pre-ordine.png]]
+
+[[Complessità computazionale|Costo]]: $\Theta(n)$, tranquillamente verificabile con il [[Master Theorem|master theorem]] ma triviale per il fatto che dobbiamo visitare tutti gli $n$ nodi dell'albero.
+
+##### Post-ordine
+![[dfs-post-ordine.png]]
+
+Costo: $\Theta(n)$.
+
+##### In-ordine
+![[dfs-in-ordine.png]]
+
+Costo: $\Theta(n)$.
+
+<u>Nota bene</u>: nel caso di un _[[Albero non-binario|albero non-binario]]_, per la _verifica in-fissa bisogna stabilire una posizione nel quale stampare il nodo corrente_: tra il primo e tutti i rimanenti? Come penultimo?
+
+#### BFS
+Si utilizza una [[Coda|coda]] come struttura di supporto per salvare i nodi da visitare:
+![[bfs-tree.png]]
+
+#### In C++
 ```cpp
 // Visita prefissa
 void pre_visit(pbtree t) {
@@ -74,7 +134,11 @@ void post_visit(pbtree t) {
 ```
 
 ### Ricerca
-La ricerca di un valore in un albero, _per quanto elegante_, se implementata [[Ricorsione|ricorsivamente]] ha una **[[Complessità computazionale|complessità compiutazionale]] pessima**: di fatto _bisogna provare tutte le possibili strade dell'albero_, esattamente come avviene per la ricerca in un array disordinato.
+La ricerca di un valore in un albero, _per quanto elegante_, se implementata [[Ricorsione|ricorsivamente]] ha una **complessità computazionale pessima**: di fatto _bisogna provare tutte le possibili strade dell'albero_, esattamente come avviene per la ricerca in un array disordinato.
+
+Solitamente, infatti, la ricerca si computa su [[Albero binario di ricerca|alberi binari di ricerca]].
+
+#### In C++
 ```cpp
 bool search(btree *t, int n) {
 	if (t == NULL) return false;
@@ -83,10 +147,5 @@ bool search(btree *t, int n) {
 }
 ```
 
-Solitamente, infatti, la ricerca si computa per [[Albero binario di ricerca|alberi binari di ricerca]].
-
-## Osservazioni
-Il numero di nodi di un albero binario di profondità $n$ è pari a
-$$\sum\limits_{i = 0}^{n} 2^{i} = 2^{n+1} - 1$$
-
 ## Referenze
+- [[Albero non-binario]]
