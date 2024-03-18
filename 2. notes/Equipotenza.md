@@ -14,7 +14,7 @@ links:
 ## Definizione
 > Due insiemi $A$ e $B$ si definiscono **equipotenti** quando hanno lo stesso numero di elementi, quindi stessa [[Cardinalità|cardinalità]], ovvero
 > $$|A| = |B|$$
-> Se esiste una [[Biiettività di una funzione|funzione biunivoca]] tra $A$ e $B$ allora essi sono equipotenti, in questo modo:
+> Se esiste una [[Funzione biiettiva|funzione biunivoca]] tra $A$ e $B$ allora essi sono equipotenti, in questo modo:
 > $$\exists f: A \to B \text{ biunivoca} \implies |A| = |B|$$
 
 ![[insiemi-equipotenti.png]]

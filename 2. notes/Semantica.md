@@ -37,5 +37,5 @@ Dalle semantiche si formano le logiche su cui sono basate le matematiche: **il r
 - [[Semantica classica]]
 
 ## Referenze
-[^1]: la semantica non è [[Suriettività di una funzione|suriettiva]]! Non potrebbe associare infatti tutti i significati denotativi a una connotazione
+[^1]: la semantica non è [[Funzione suriettiva|suriettiva]]! Non potrebbe associare infatti tutti i significati denotativi a una connotazione
 [^2]: è lo stesso rapporto _dicotomico_ che si presenta tra **bit** e **significato dei bit**, per cui _[[RAM#Definizione|è il programma a dare un significato ai dati]]_

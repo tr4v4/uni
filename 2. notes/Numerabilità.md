@@ -19,7 +19,7 @@ links:
 <u>Osservazione</u>: **$\aleph_{0}$ è il più piccolo degli infiniti**[^1].
 
 ## Dimostrazioni
-In generale, per dimostrare che un insieme è equipotente a un altro basta trovare una [[Biiettività di una funzione|funzione biunivoca]] tra di essi. Ma per essere numerabile, un insieme basta che sia _codominio_ di una funzione suriettiva. Vale a dire che
+In generale, per dimostrare che un insieme è equipotente a un altro basta trovare una [[Funzione biiettiva|funzione biunivoca]] tra di essi. Ma per essere numerabile, un insieme basta che sia _codominio_ di una funzione suriettiva. Vale a dire che
 $$f: \mathbb{N} \to A \text{ su} \implies |A| = |\mathbb{N}|$$
 
 ### $\mathbb{P} \to \mathbb{N}$

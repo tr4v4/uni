@@ -11,7 +11,7 @@ links:
 # Numeri reali
 ---
 ## Introduzione
-Immaginiamo di porre su una retta tutti i [[Numeri razionali|numeri razionali]]. Possiamo dire che tutti i punti della retta sono associati a un numero razionale? O meglio, esiste una [[Biiettività di una funzione|funzione biunivoca]] tra $\mathbb{Q}$ e i punti della retta?
+Immaginiamo di porre su una retta tutti i [[Numeri razionali|numeri razionali]]. Possiamo dire che tutti i punti della retta sono associati a un numero razionale? O meglio, esiste una [[Funzione biiettiva|funzione biunivoca]] tra $\mathbb{Q}$ e i punti della retta?
 
 Fino a un certo punto, nella storia, si è sempre creduto che i **numeri razionali contenessero ogni possibile numero**, e che in certo senso allora la **realtà fosse misurabile e rappresentabile con delle frazioni**. Ma con il [[Teorema di Pitagora|teorema di Pitagora]] _le cose cambiarono_.
 

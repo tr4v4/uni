@@ -11,6 +11,6 @@ links:
 ---
 ## Introduzione
 Ricordiamo che $\mathbb{N} \subsetneqq \mathbb{Z}$.
-E' possibile trovare una [[Biiettività di una funzione|funzione biunivoca]] tra i due insiemi, dimostrando che $\mathbb{Z}$ è [[Numerabilità|numerabile]].
+E' possibile trovare una [[Funzione biiettiva|funzione biunivoca]] tra i due insiemi, dimostrando che $\mathbb{Z}$ è [[Numerabilità|numerabile]].
 
 ## Referenze

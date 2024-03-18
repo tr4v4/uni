@@ -10,10 +10,10 @@ links:
   - "[[Lecture 11102023131154]]"
   - "[[Lecture 12102023091734]]"
 ---
-# Biiettività di una funzione
+# Funzione biiettiva
 ---
 ## Definizione
-> Una [[Funzione matematica|funzione]] si dice **biiettiva** (o **biunivoca**) se è [[Iniettività di una funzione|iniettiva]] e [[Suriettività di una funzione|suriettiva]].
+> Una [[Funzione matematica|funzione]] si dice **biiettiva** (o **biunivoca**) se è [[Funzione iniettiva|iniettiva]] e [[Funzione suriettiva|suriettiva]].
 
 Come conseguenza fondamentale, **se una funzione è biunivoca ogni elemento del suo codominio sarà associato ad un solo elemento del dominio** ($1-1 \text{ e } su$).
 

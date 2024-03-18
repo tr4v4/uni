@@ -14,7 +14,7 @@ links:
 # Dimostrazione R non numerabile
 ---
 ## Introduzione
-Vogliamo dimostrare che $\mathbb{R}$, l'insieme dei [[Numeri reali|numeri reali]] appartenga ad un **ordine di infinito superiore** a $\mathbb{N}$, l'insieme dei [[Numeri naturali|numeri naturali]]. Per farlo dobbiamo dimostrare che non può esistere una [[Biiettività di una funzione|funzione biunivoca]] tra $\mathbb{N}$ e $\mathbb{R}$.
+Vogliamo dimostrare che $\mathbb{R}$, l'insieme dei [[Numeri reali|numeri reali]] appartenga ad un **ordine di infinito superiore** a $\mathbb{N}$, l'insieme dei [[Numeri naturali|numeri naturali]]. Per farlo dobbiamo dimostrare che non può esistere una [[Funzione biiettiva|funzione biunivoca]] tra $\mathbb{N}$ e $\mathbb{R}$.
 
 ## Dimostrazione
 [[Dimostrazione per assurdo|Per assurdo]], supponiamo che tale funzione esista, dimostrando che l'intervallo $[0, 1[$ sia numerabile. Quindi

@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 Ricordiamo che $\mathbb{N} \subsetneqq \mathbb{Q}$.
-Invertendo dominio e codominio ci basta trovare una [[Suriettività di una funzione|funzione suriettiva]] per dimostrare che $\mathbb{Q}$ è [[Numerabilità|numerabile]]. E questa funzione esiste, costruendo una struttura simile:
+Invertendo dominio e codominio ci basta trovare una [[Funzione suriettiva|funzione suriettiva]] per dimostrare che $\mathbb{Q}$ è [[Numerabilità|numerabile]]. E questa funzione esiste, costruendo una struttura simile:
 ![[Q-numerabile.png]]
 
 ## Referenze

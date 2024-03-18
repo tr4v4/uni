@@ -10,7 +10,7 @@ links:
 # Isomorfismo
 ---
 ## Introduzione
-> Un **isomorfismo** tra due [[Strutture algebriche|strutture algebriche]] dello stesso tipo è un _[[Morfismo|morfismo]] dalla prima alla seconda che sia una [[Biiettività di una funzione|funzione biiettiva]] la cui [[Invertibilità di una funzione|inversa]] sia anch'essa un morfismo_.
+> Un **isomorfismo** tra due [[Strutture algebriche|strutture algebriche]] dello stesso tipo è un _[[Morfismo|morfismo]] dalla prima alla seconda che sia una [[Funzione biiettiva|funzione biiettiva]] la cui [[Invertibilità di una funzione|inversa]] sia anch'essa un morfismo_.
 
 La proprietà fondamentale di due strutture isomorfe è che **è possibile trattarle come uguali**: tutte le operazioni effettuate su di una possono essere effettuate sull'altra, _a seconda di cosa sia più conveniente_[^1].
 

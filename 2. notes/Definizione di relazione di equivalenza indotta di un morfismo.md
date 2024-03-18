@@ -15,6 +15,6 @@ links:
 > dove $x_{1}, x_{2} \in \mathbb{A}$.
 > Meno formalmente diciamo che _due elementi di una [[Strutture algebriche|struttura algebrica]] $\mathcal{A}$ sono equivalenti rispetto a un morfismo tra $\mathcal{A}$ e $\mathcal{B}$ sse sono mappati su uno stesso elemento di $\mathcal{B}$_.
 
-Come corollario si ottiene che $\sim_{f}$ di $f$ si ha sse $f$ non è [[Iniettività di una funzione|iniettiva]], perché altrimenti non si potrebbe avere $f(x_{1}) = f(x_{2})$.
+Come corollario si ottiene che $\sim_{f}$ di $f$ si ha sse $f$ non è [[Funzione iniettiva|iniettiva]], perché altrimenti non si potrebbe avere $f(x_{1}) = f(x_{2})$.
 
 ## Referenze

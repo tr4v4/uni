@@ -45,9 +45,9 @@ il che significa che **ad ogni elemento del dominio deve corrispondere un solo e
 ![[funzione-matematica.png]]
 
 ## Proprietà
-- [[Iniettività di una funzione]]
-- [[Suriettività di una funzione]]
-- [[Biiettività di una funzione]]
+- [[Funzione iniettiva]]
+- [[Funzione suriettiva]]
+- [[Funzione biiettiva]]
 - [[Invertibilità di una funzione]]
 - [[Grafico di una funzione]]
 - [[Parità di una funzione]]

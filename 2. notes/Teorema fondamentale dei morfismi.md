@@ -15,7 +15,7 @@ links:
 > 2. $\mathbb{A}_{/\sim_{f}}$ è [[Isomorfismo|isomorfo]] a $Imm(f)$;
 > 
 > dove $p: \mathbb{A} \to \mathbb{A}_{/\sim_{f}}$ è la [[Definizione di proiezione|proiezione]] di $\mathbb{A}$ sulla [[Definizione di relazione di equivalenza indotta di un morfismo|relazione di equivalenza indotta]] del morfismo $f$.
-> Equivalentemente è possibile dire che _c'è una corrispondenza [[Biiettività di una funzione|biunivoca]] tra le [[Classe di equivalenza|classi di equivalenza]] di_ $\mathbb{A}_{/\sim_{f}}$ _e_ $Imm(f) \subseteq \mathbb{B}$.
+> Equivalentemente è possibile dire che _c'è una corrispondenza [[Funzione biiettiva|biunivoca]] tra le [[Classe di equivalenza|classi di equivalenza]] di_ $\mathbb{A}_{/\sim_{f}}$ _e_ $Imm(f) \subseteq \mathbb{B}$.
 
 Graficamente si produce il seguente schema:
 ![[Drawing 2023-12-29 21.26.53.excalidraw|800]]

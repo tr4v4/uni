@@ -27,7 +27,7 @@ Avremo quindi:
 - $\pi_{G}: \{R, G, B\} \to \{B, R, G\}$
 - $\pi_{B}: \{R, G, B\} \to \{G, B, R\}$
 
-Come si vede dal grafico sottostante, si ottiene una corrispondenza [[Biiettività di una funzione|biunivoca]] tra ogni elemento di $\mathbb{A}$ e un sottoinsieme stretto di $Perm(\mathbb{A})$:
+Come si vede dal grafico sottostante, si ottiene una corrispondenza [[Funzione biiettiva|biunivoca]] tra ogni elemento di $\mathbb{A}$ e un sottoinsieme stretto di $Perm(\mathbb{A})$:
 ![[Drawing 2023-12-30 16.20.21.excalidraw|800]]
 
 Per cui, in quanto $\pi_{\cdot}$ _isomorfa_, è possibile trattare $\mathcal{A}$ come il sottogruppo di permutazioni di $\mathbb{A}$, o in gergo:
@@ -39,7 +39,7 @@ $$\pi_{a}(b) = a \circ b \ \ \ \ \ \ \ \ \ a, b \in \mathbb{A}$$
 Questa funzione è da interpretare in questo modo: $a$ è un elemento statico, che determina la $a$-esima permutazione; $b$ rappresenta un qualunque elemento di $\mathbb{A}$ che viene permutato su $a$.
 
 Per dimostrare che questa funzione sia un _isomorfismo_ tra $\mathcal{A}$ e il suo gruppo di permutazioni, dobbiamo:
-- dimostrare che $\pi_{a}$ sia biiettiva, quindi sia [[Iniettività di una funzione|iniettiva]] che [[Suriettività di una funzione|suriettiva]]
+- dimostrare che $\pi_{a}$ sia biiettiva, quindi sia [[Funzione iniettiva|iniettiva]] che [[Funzione suriettiva|suriettiva]]
 - dimostrare che $\pi_{a}$ sia un morfismo tra $\mathcal{A}$ e il suo gruppo di permutazioni
 
 ### Biiettività

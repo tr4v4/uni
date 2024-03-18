@@ -14,7 +14,7 @@ links:
 > $$\exists f^{-1}: C \to D | \forall d \in D: f^{-1}(f(d))=b \land \forall c \in C: f(f^{-1}(b))=a$$
 
 <u>Osservazione</u>:
-> $f$ è invertibile $\iff$ $f$ è [[Biiettività di una funzione|biunivoca]]
+> $f$ è invertibile $\iff$ $f$ è [[Funzione biiettiva|biunivoca]]
 
 ![[funzione-invertibile.png]]
 ## Referenze

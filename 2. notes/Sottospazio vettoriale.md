@@ -50,7 +50,7 @@ Verifichiamo per esempio che $S = \{(x, 3x) | x \in \mathbb{R}\}$ è sottospazio
 3. $S$ è chiuso rispetto al prodotto perché preso $u_{1} = (x_{1}, 3x_{1})$ e $\lambda \in \mathbb{R}$, il prodotto $\lambda u_{1} = (\lambda x_{1}, \lambda 3 x_{1}) = (\lambda x_{1}, 3(\lambda x_{1})) \in S$ per definizione
 
 Quindi $S$ è un sottospazio di $V$.
-<u>Nota bene</u>: essendo $\mathbb{R}^{2}$ in [[Biiettività di una funzione|corrispondenza biunivoca]] con il piano cartesiano, il sottospazio $S$ corrisponde alla retta $y = 3x$.
+<u>Nota bene</u>: essendo $\mathbb{R}^{2}$ in [[Funzione biiettiva|corrispondenza biunivoca]] con il piano cartesiano, il sottospazio $S$ corrisponde alla retta $y = 3x$.
 
 Verifichiamo ora se $S = \{(x_{1}, x_{2}, x_{3}) | x_{1} + 2x_{2} - x_{3} \geq 0\}$ è sottospazio di $V = \mathbb{R}^{3}$. Quindi:
 1. $S \neq \varnothing$, sì perché $(0, 0, 0) \in S$

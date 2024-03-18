@@ -111,7 +111,7 @@ che può essere soddisfatto solo se $f(c) = 0$.
 Questo tipo di dimostrazione è **costruttiva**, perché non si limita a dimostrare l'esistenza di $c \in ]a, b[ : f(c) = 0$, ma fornisce anche un procedimento da cui dedurre un algoritmo per approssimare le radici di $f$.
 
 ## Conseguenze
-Per il teorema degli zeri si prova per esempio come **tutti i polinomi di grado dispari si annullino per forza**. Sappiamo che sono [[Funzioni continue#Funzioni|funzioni continuie]] e [[Suriettività di una funzione|suriettive]], e perciò in tutto il loro dominio dovranno per forza annullarsi in almeno un punto.
+Per il teorema degli zeri si prova per esempio come **tutti i polinomi di grado dispari si annullino per forza**. Sappiamo che sono [[Funzioni continue#Funzioni|funzioni continuie]] e [[Funzione suriettiva|suriettive]], e perciò in tutto il loro dominio dovranno per forza annullarsi in almeno un punto.
 
 > Ogni polinomio di grado dispari ha almeno una radice.
 

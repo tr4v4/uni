@@ -77,7 +77,7 @@ SORT date DESC
 		- [[Teorema fondamentale del calcolo integrale]]
 		- [[Teorema di Torricelli-Barrow]]
 		- [[Tecniche d'integrazione]]
-	- Struttura spazio $\mathbb{R}^{n}$
+	- [[Spazio euclideo]] $\mathbb{R}^{n}$
 	- [[Funzione a più variabili]]
 	- [[Integrale a più variabili]]
 

@@ -4,19 +4,20 @@ tags:
   - status/finished
   - topic/analisi-I
   - topic/logica-per-informatica
+  - topic/algebra-e-geometria
 date: 24-09-2023 13:57:57
 links:
   - "[[Lecture 22092023133316]]"
   - "[[Lecture 11102023131154]]"
   - "[[Lecture 12102023091734]]"
+  - "[[Lecture 14032024111404]]"
 ---
-# Suriettività di una funzione
+# Funzione suriettiva
 ---
 ## Definizione
 > Una [[Funzione matematica|funzione]] si dice **suriettiva** se _ogni elemento del codominio è [[Immagine di funzione|immagine]] di almeno un elemento del dominio_. Deve rispettare allora la seguente legge:
-> $$Im f = C$$
-> dove $Im f$ è l'_immagine_ della funzione, definita come
-> $$Im f = \{c \in C | \exists d \in D : f(d) = c\}, \, Imf \subseteq C$$
+> $$\Im(f) = C$$
+> dove $\Im(f)$ è l'_immagine_ della funzione.
 > Si può anche scrivere che una funzione è suriettiva quando
 > $$\forall c \in C | \exists d \in D : f(d) = c$$
 

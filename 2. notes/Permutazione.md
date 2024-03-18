@@ -10,7 +10,7 @@ links:
 # Permutazione
 ---
 ## Introduzione
-> Una **permutazione** di un [[Insieme|insieme]] $\mathbb{A}$ è una [[Funzione matematica|funzione]] [[Biiettività di una funzione|biiettiva]]:
+> Una **permutazione** di un [[Insieme|insieme]] $\mathbb{A}$ è una [[Funzione matematica|funzione]] [[Funzione biiettiva|biiettiva]]:
 > $$\pi: \mathbb{A} \to \mathbb{A}$$
 > In [[Calcolo combinatorio|combinatoria]] consiste in tutti i possibili modi di arrangiare $n$ elementi in un insieme.
 

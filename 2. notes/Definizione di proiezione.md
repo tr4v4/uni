@@ -16,7 +16,7 @@ links:
 
 <u>Nota bene</u>: l'elemento che viene scelto per rappresentare la classe di equivalenza nell'[[Insieme quoziente|insieme quoziente]] $\mathbb{A}_{/\sim_{f}}$ è detto _rappresentante_.
 
-Nota anche che, in quanto definita da $\mathbb{A}$ al suo quozientamento rispetto a $\sim_{f}$, _la funzione di proiezione è sempre [[Suriettività di una funzione|suriettiva]]_. Viceversa _è efficace sse NON è [[Iniettività di una funzione|iniettiva]], perché se lo fosse non avverrebbe alcuna [[Astrazione|astrazione]] di $\mathbb{A}$_.
+Nota anche che, in quanto definita da $\mathbb{A}$ al suo quozientamento rispetto a $\sim_{f}$, _la funzione di proiezione è sempre [[Funzione suriettiva|suriettiva]]_. Viceversa _è efficace sse NON è [[Funzione iniettiva|iniettiva]], perché se lo fosse non avverrebbe alcuna [[Astrazione|astrazione]] di $\mathbb{A}$_.
 
 Possiamo fondamentalmente definire **la proiezione di un insieme rispetto a un morfismo come alla sua astrazione rispetto ad una certa proprietà, che raggruppa gli elementi che hanno la stessa immagine nella propria classe di equivalenza**.
 

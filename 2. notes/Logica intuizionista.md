@@ -3,7 +3,6 @@ tags:
   - category/note
   - status/finished
   - topic/logica-per-informatica
-  - topic/programmazione
 date: 27-12-2023 16:49:54
 links:
   - "[[Lecture 05122023161837]]"

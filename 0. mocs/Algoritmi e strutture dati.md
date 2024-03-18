@@ -44,7 +44,8 @@ SORT date DESC
 	- [[Algoritmo di ordinamento]]
 	- [[Strutture dati elementari]]
 		- [[Lista]], [[Pila]], [[Coda]]
-	- [[Albero binario]]/[[Albero non-binario]]
+	- [[Albero informatico]]
+		- [[Albero binario]]/[[Albero non-binario]]
 		- [[DFS]], [[BFS]]
 	- [[Tabella hash]]
 	- [[Strutture heap]] (+ applicazioni)

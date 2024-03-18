@@ -4,19 +4,21 @@ tags:
   - status/finished
   - topic/analisi-I
   - topic/logica-per-informatica
+  - topic/algebra-e-geometria
 date: 24-09-2023 13:53:35
 links:
   - "[[Lecture 18092023093106]]"
   - "[[Lecture 22092023133316]]"
   - "[[Lecture 11102023131154]]"
   - "[[Lecture 12102023091734]]"
+  - "[[Lecture 14032024111404]]"
 ---
-# Iniettività di una funzione
+# Funzione iniettiva
 ---
 ## Definizione
 > Una [[Funzione matematica|funzione]] si dice **iniettiva** se _a diversi punti del dominio corrispondono diversi punti del codominio_. Deve rispettare quindi la suddetta legge:
-> $$\forall d, d' \in D : d \neq d' \land f(d) \neq f(d')$$
-> oppure
+> $$d \neq d' \implies f(d) \neq f(d') \ \ \ \forall d, d' \in D$$
+> oppure la contronominale
 > $$\forall x, y \in D, (f(x) = f(y) \implies x = y)$$
 
 Se, quindi, "invertendo il verso delle frecce" tra _dominio_ e _codominio_ la funzione risultante rimane valida, allora la funzione è iniettiva. Per poterlo essere, quindi, significa che elementi del dominio differenti non possono corrispondere ad uno stesso elemento del codominio: altrimenti, invertendo i due insiemi, **non verrebbe più rispettata la regola fondamentale**.
