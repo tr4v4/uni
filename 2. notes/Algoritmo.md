@@ -96,7 +96,7 @@ Si tratta di una stima approssimativa, ma che è sufficiente a rispondere alla d
 L'algoritmo è lento, perché il _tempo di esecuzione ha una crescita esponenziale rispetto ad $n$_. E' perciò inutilizzabile.
 
 ##### Algoritmo 3
-Questo algoritmo prevede di memorizzare in un [[Array!array]] i valori man mano calcolati, e di inserire di volta in volta nell'array la somma delle due celle precedenti. Il risultato finale sarà in $F[n]$[^2].
+Questo algoritmo prevede di memorizzare in un [[Array|array]] i valori man mano calcolati, e di inserire di volta in volta nell'array la somma delle due celle precedenti. Il risultato finale sarà in $F[n]$[^2].
 ![[fibonacci-array.png]]
 
 ###### Tempo di calcolo

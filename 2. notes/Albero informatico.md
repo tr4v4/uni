@@ -8,6 +8,7 @@ date: 30-11-2023 17:46:29
 links:
   - "[[Lecture 28112023101904]]"
   - "[[Lecture 14032024091535]]"
+  - "[[Lecture 18032024091043]]"
 ---
 # Albero informatico
 ---
@@ -27,6 +28,9 @@ Esistono differenti tipologie di alberi, tra cui:
 - [[Albero binario|alberi binari]]
 - [[Albero binario di ricerca|alberi binari di ricerca]]
 - [[Albero non-binario|alberi non-binari]]
+
+### Speciali
+- [[Albero AVL|alberi AVL]]
 
 ## Osservazione
 Se ci viene chiesto di implementare un [[Algoritmo|algoritmo]] su alberi, binari o non-binari che siano, se l'algoritmo richiesto è [[Ricorsione|ricorsivo]] il suggerimento è di partire dalla base delle visite [[DFS]] (solitamente post-ordine); se invece l'algoritmo richiesto è iterativo, si suggerisce di partire dalla base delle visite [[BFS]] (ovvero usando una [[Coda|coda]]).

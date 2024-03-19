@@ -6,6 +6,7 @@ tags:
 date: 10-03-2024 22:07:10
 links:
   - "[[Lecture 07032024091439]]"
+  - "[[Lecture 18032024091043]]"
 ---
 # Dizionario
 ---
@@ -80,5 +81,16 @@ Nonostante il costo logaritmico della ricerca binaria, il costo è comunque domi
 <u>Nota bene</u>: l'_unico effettivo miglioramento dalla prima implementazione con array non ordinato si è verificato in `search`_.
 
 Scopriremo che la migliore soluzione è attraverso [[Tabella hash|tabelle hash]].
+
+### Albero binario di ricerca
+Possiamo decidere di implementare il dizionario usando un [[Albero binario di ricerca|albero binario di ricerca]] come struttura d'appoggio! Le 3 operazioni assumono il seguente aspetto:
+![[dizionario-bst.png]]
+
+Per cui i costi diventano:
+- `search`: $O(\log{n})$ medio e $\Theta(h)$ pessimo
+- `insert`: $O(\log{n})$ medio e $\Theta(h)$ pessimo
+- `delete`: $O(\log{n})$ medio e $\Theta(h)$ pessimo
+
+L'idea è che il costo allora dipende dall'altezza (ricordando che anche nel caso medio $\log{n}$ è l'[[Albero binario di ricerca#Caso medio|altezza media dell'albero binario]]), e l'altezza è $O(n)$, per cui nel caso di un albero-lista è proprio $n$: **dobbiamo mantenere tale altezza logaritmica per cercare di non rendere lineare ogni operazione nel caso pessimo**. L'unico modo per farlo è attraverso l'implementazione di [[Albero AVL|alberi AVL]].
 
 ## Referenze

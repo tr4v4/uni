@@ -21,7 +21,7 @@ L'applicazione $L_{A}$ è fondamentale per il teorema sottostante.
 > E' possibile rappresentare qualunque altra funzione lineare $\mathbb{R}^{n} \to \mathbb{R}^{m}$ come $L_{A}$. Pertanto, per il [[Teorema di esistenza e unicità di un'applicazione lineare|teorema dell'esistenza e unicità di un'applicazione lineare]], abbiamo che _tutte le funzioni lineari sono del tipo $L_{A}$ per una certa matrice $A$_:
 > $$f: \mathbb{R}^{n} \to \mathbb{R}^{m} \text{ lineare} \implies f = L_{A}$$
 
-Questo è possibile attraverso una **serie di passaggi che da $f$, fissate le basi canoniche di $\mathbb{R}^{n}$ e $\mathbb{R}^{m}$, ci portano alla forma di una matrice moltiplicata per un vettore, ovvero proprio $L_{A}$**. La dimostrazione è lunga e si tratta solo di raccoglimenti e sostituzioni, l'importante è capire che ogni funzione $\mathbb{R}^{n} \to \mathbb{R}^{m}$ è riconducibile a $L_{A}$.
+Questo è possibile attraverso una **serie di passaggi che da $f$, fissate le basi canoniche di $\mathbb{R}^{n}$ e $\mathbb{R}^{m}$, ci portano per la sua linearità alla forma di una matrice moltiplicata per un vettore, ovvero proprio $L_{A}$**. La dimostrazione è lunga e si tratta solo di raccoglimenti e sostituzioni, l'importante è capire che ogni funzione $\mathbb{R}^{n} \to \mathbb{R}^{m}$ è riconducibile a $L_{A}$.
 
 ### Esempio
 Prendiamo in esame $f: \mathbb{R}^{3} \to \mathbb{R}^{2}$ definita come $(x_{1}, x_{2}, x_{3}) \to (x_{1}+x_{2}, x_{1}-x_{3})$. Proietto allora una base di $\mathbb{R}^{3}$, per comodità quella canonica $e_{1} = (1, 0, 0)$, $e_{2} = (0, 1, 0)$ ed $e_{3} = (0, 0, 1)$, su $f$, ottenendo:

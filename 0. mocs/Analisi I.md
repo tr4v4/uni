@@ -78,6 +78,14 @@ SORT date DESC
 		- [[Teorema di Torricelli-Barrow]]
 		- [[Tecniche d'integrazione]]
 	- [[Spazio euclideo]] $\mathbb{R}^{n}$
+		- [[Prodotto scalare]]
+		- [[Ortogonalità]]
+		- [[Norma euclidea]]
+		- [[Quadrato di un binomio]]
+		- [[Normalizzazione]]
+		- [[Coordinate polari]]
+		- [[Disuguaglianza triangolare]], [[Disuguaglianza di Cauchy-Schwarz]]
+		- [[Distanza tra punti]]
 	- [[Funzione a più variabili]]
 	- [[Integrale a più variabili]]
 

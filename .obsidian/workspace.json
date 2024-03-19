@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f62906c499f1c758",
+        "id": "09f9f0e56f7f2638",
         "type": "tabs",
         "children": [
           {
-            "id": "03f83409fce71dcf",
+            "id": "b30150b62afa087c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. mocs/Analisi I.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bea7bd200379f9a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 18032024130735.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9bd13511ae3aee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Funzioni continue.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. lectures/Lecture 18032024130735.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. lectures/Lecture 18032024130735.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. lectures/Lecture 18032024130735.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "1. lectures/Lecture 18032024130735.md"
-              }
+              "state": {}
             }
           },
           {
@@ -216,7 +181,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1. lectures/Lecture 18032024130735.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -283,44 +247,43 @@
       "obsidian-google-tasks:Google Tasks": false
     }
   },
-  "active": "bea7bd200379f9a1",
+  "active": "b30150b62afa087c",
   "lastOpenFiles": [
-    "2. notes/Funzioni continue.md",
-    "1. lectures/Lecture 18032024130735.md",
-    "2. notes/Grafico di una funzione.md",
-    "1. lectures/Lecture 14032024140617.md",
-    "0. mocs/Analisi I.md",
     "0. mocs/Algoritmi e strutture dati.md",
-    "2. notes/Algoritmo di ordinamento comparativo.md",
-    "1. lectures/Lecture 18032024091043.md",
+    "2. notes/Albero informatico.md",
     "2. notes/Albero binario di ricerca.md",
     "2. notes/Albero binario.md",
-    "2. notes/Albero informatico.md",
+    "1. lectures/Lecture 19032024112453.md",
+    "1. lectures/Lecture 18032024091043.md",
+    "2. notes/Dizionario.md",
+    "media/dizionario-bst.png",
+    "media/albero-perfetto.png",
+    "media/albero-lista.png",
+    "media/bts-disconnect.png",
+    "media/bst-predecessor.png",
+    "media/bst-delete.png",
     "2. notes/Albero non-binario.md",
-    "1. lectures/Lecture 11032024131300.md",
-    "2. notes/Spazio euclideo.md",
-    "2. notes/Norma euclidea.md",
-    "2. notes/Prodotto scalare.md",
-    "1. lectures/Ortogonalità.md",
-    "2. notes/Logica intuizionista.md",
+    "2. notes/BFS.md",
+    "2. notes/DFS.md",
+    "2. notes/Strutture dati elementari.md",
+    "2. notes/Coda.md",
+    "2. notes/Pila.md",
+    "2. notes/Lista.md",
     "0. mocs/Algebra e geometria.md",
+    "1. lectures/Lecture 19032024091914.md",
     "2. notes/Applicazione lineare.md",
-    "1. lectures/Lecture 14032024111404.md",
     "2. notes/Teorema di esistenza e unicità di un'applicazione lineare.md",
     "2. notes/Applicazione lineare definita da una matrice.md",
-    "1. lectures/Lecture 12032024091825.md",
-    "1. lectures/Lecture 07032024111604.md",
+    "2. notes/Sottospazio generato.md",
+    "2. notes/Combinazione lineare.md",
     "2. notes/Immagine di funzione.md",
+    "media/excalidraw/Drawing 2024-03-17 15.54.19.excalidraw.md",
+    "2. notes/Nucleo.md",
+    "0. mocs/Analisi I.md",
     "media/bfs-non-binary-tree.png",
     "media/bfs-tree.png",
     "media/dfs-in-ordine.png",
     "media/dfs-post-ordine.png",
-    "media/dfs-pre-ordine.png",
-    "media/dequeue-array.png",
-    "media/enqueue-array.png",
-    "media/push-dinamico.png",
-    "media/pop-dinamico.png",
-    "media/pila-lista.png",
     "Untitled Document",
     "netlify.toml",
     "templates",

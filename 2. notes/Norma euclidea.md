@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/analisi-I
 date: 17-03-2024 22:16:58
 links:
@@ -32,5 +32,6 @@ $$||x|| \geq 0, \ ||x|| = 0 \iff x = \underline{0} \ \ \ \forall x \in \mathbb{R
 
 ## Referenze
 - [[Disuguaglianza triangolare]]
+- [[Quadrato di un binomio]]
 
 [^1]: di fatto la [[Prodotto scalare#Positività|stessa del prodotto scalare]]

@@ -40,8 +40,8 @@ Un albero binario può essere:
 Si dimostra [[Induzione strutturale|per induzione]], e può essere usato per capire se una struttura è un albero o meno.
 
 ### Profondità
-Il numero di nodi di un albero binario di profondità $n$ è pari a
-$$\sum\limits_{i = 0}^{n} 2^{i} = 2^{n+1} - 1$$
+Il numero di nodi di un albero binario _perfetto_ di profondità $h$ è pari a
+$$\sum\limits_{i = 0}^{h} 2^{i} = 2^{h+1} - 1$$
 
 ## Implementazione
 Ogni nodo ha:
