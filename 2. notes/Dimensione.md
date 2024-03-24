@@ -6,6 +6,7 @@ tags:
 date: 07-03-2024 19:11:40
 links:
   - "[[Lecture 06032024091542]]"
+  - "[[Lecture 21032024111439]]"
 ---
 # Dimensione
 ---
@@ -27,7 +28,7 @@ Si prenda $W = \langle (1, 3, 4, 0), (2, 1, -5, 7) \rangle \leq \mathbb{R}^{4}$,
 ## Proprietà
 > Sia $V$ spazio vettoriale e $W \leq V$ ([[Sottospazio vettoriale|sottospazio]]), allora
 > 1. $\dim(W) \leq \dim(V)$
-> 2. $\dim(W) = \dim(V) \implies W = V$
+> 2. $\dim(W) = \dim(V) \iff W = V$
 
 ### Dimostrazione
 #### $\dim(W) \leq \dim(V)$
@@ -35,9 +36,12 @@ Sia $\beta_{w} = \{w_{1}, \cdots, w_{n}\}$ base di $W$, sapendo $W \leq V$ sappi
 
 **Qed**.
 
-#### $\dim(W) = \dim(V) \implies W = V$
-Per ipotesi abbiamo, prese le basi $\beta_{w} = \{w_{1}, \cdots, w_{n}\}$ di $W$ e $\beta_{v} = \{v_{1}, \cdots, v_{r}\}$ di $V$, che $n = r$. Per cui sempre per il teorema del completamento possiamo aggiungere a $\{w_{1}, \cdots, w_{n}\}$ $r-n = 0$ vettori per ottenere una base di $V$, perciò anche $V = \langle \beta_{w} \rangle$. Si ottiene allora
+#### $\dim(W) = \dim(V) \iff W = V$
+Primo verso dell'implicazione: per ipotesi abbiamo, prese le basi $\beta_{w} = \{w_{1}, \cdots, w_{n}\}$ di $W$ e $\beta_{v} = \{v_{1}, \cdots, v_{r}\}$ di $V$, che $n = r$. Per cui sempre per il teorema del completamento possiamo aggiungere a $\{w_{1}, \cdots, w_{n}\}$ $r-n = 0$ vettori per ottenere una base di $V$, perciò anche $V = \langle \beta_{w} \rangle$. Si ottiene allora
 $$W = \langle \beta_{w} \rangle = V$$
+
+Secondo verso dell'implicazione: per ipotesi sappiamo $W = V$, per cui per il [[Base#Elementi delle basi|teorema degli elementi di una base]] abbiamo che due basi $\beta_{W}$ e $\beta_{V}$ hanno lo stesso numero di elementi, e perciò
+$$\dim(W) = \dim(V)$$
 
 **Qed**.
 

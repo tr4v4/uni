@@ -4,15 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "41a43bd4e366a4be",
+        "id": "68de62dee09db15e",
         "type": "tabs",
+        "dimension": 53.67268041237113,
         "children": [
           {
-            "id": "bb1ff740cd140a3c",
+            "id": "9ca6e302fb1a509b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa93204b9eaa5c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Albero binario di ricerca.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "61b3b447e8103f41",
+        "type": "tabs",
+        "dimension": 46.32731958762887,
+        "children": [
+          {
+            "id": "a4f064a083028bcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 18032024091043.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ceeb372b5eddc6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 19032024112453.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -83,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. lectures/Lecture 18032024091043.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. lectures/Lecture 18032024091043.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 18032024091043.md"
+              }
             }
           },
           {
@@ -148,7 +201,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 18032024091043.md"
+              }
             }
           },
           {
@@ -167,7 +222,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -180,6 +236,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "1. lectures/Lecture 18032024091043.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,43 +303,44 @@
       "obsidian-google-tasks:Google Tasks": false
     }
   },
-  "active": "bb1ff740cd140a3c",
+  "active": "a4f064a083028bcc",
   "lastOpenFiles": [
-    "0. mocs/Algoritmi e strutture dati.md",
-    "2. notes/Concatenamento separato.md",
-    "2. notes/Tabella hash.md",
-    "1. lectures/Lecture 21032024091145.md",
-    "2. notes/Collisione hash.md",
-    "media/concatenamento-separato.png",
-    "media/pseudo-concatenamento-separato.png",
-    "2. notes/Funzione hash.md",
-    "2. notes/Metodo della divisione.md",
-    "2. notes/Metodo della codifica algebrica.md",
-    "2. notes/Metodo della moltiplicazione.md",
-    "2. notes/Albero AVL.md",
-    "2. notes/Dizionario.md",
-    "2. notes/Strutture dati elementari.md",
-    "2. notes/Prototipo vs Implementazione.md",
     "1. lectures/Lecture 19032024112453.md",
     "2. notes/Albero binario di ricerca.md",
-    "2. notes/Albero bilanciato.md",
-    "media/costi-implementazioni-dizionario.png",
-    "2. notes/Albero binario.md",
-    "media/avl-delete.png",
-    "media/avl-insert.png",
-    "media/balance.png",
-    "media/sbilanciamento-SD-2.png",
-    "media/sbilanciamento-SD.png",
-    "media/sbilanciamento-SS.png",
-    "media/rotazioni-semplici.png",
+    "0. mocs/Algoritmi e strutture dati.md",
+    "1. lectures/Lecture 18032024091043.md",
+    "2. notes/Albero non-binario.md",
+    "2. notes/DFS.md",
+    "2. notes/BFS.md",
     "0. mocs/Algebra e geometria.md",
-    "2. notes/Albero di Fibonacci.md",
-    "2. notes/Teorema della dimensione.md",
-    "2. notes/Fattore di bilanciamento.md",
-    "2. notes/Lista.md",
-    "1. lectures/Lecture 07032024091439.md",
-    "2. notes/Algebra astratta.md",
-    "2. notes/ADT.md",
+    "1. lectures/Lecture 19032024091914.md",
+    "2. notes/Albero binario.md",
+    "2. notes/Applicazione lineare.md",
+    "2. notes/Teorema di esistenza e unicità di un'applicazione lineare.md",
+    "2. notes/Applicazione lineare definita da una matrice.md",
+    "2. notes/Sottospazio generato.md",
+    "2. notes/Combinazione lineare.md",
+    "2. notes/Immagine di funzione.md",
+    "media/excalidraw/Drawing 2024-03-17 15.54.19.excalidraw.md",
+    "2. notes/Nucleo.md",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 18032024130735.md",
+    "1. lectures/Lecture 14032024140617.md",
+    "2. notes/Algoritmo.md",
+    "2. notes/Norma euclidea.md",
+    "1. lectures/Ortogonalità.md",
+    "2. notes/Distanza tra punti.md",
+    "2. notes/Disuguaglianza triangolare.md",
+    "media/bfs-non-binary-tree.png",
+    "media/bfs-tree.png",
+    "media/dfs-in-ordine.png",
+    "media/dfs-post-ordine.png",
+    "media/dfs-pre-ordine.png",
+    "media/dequeue-array.png",
+    "media/enqueue-array.png",
+    "media/push-dinamico.png",
+    "media/pop-dinamico.png",
+    "media/pila-lista.png",
     "Untitled Document",
     "netlify.toml",
     "templates",

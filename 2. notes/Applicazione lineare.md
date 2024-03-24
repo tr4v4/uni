@@ -8,6 +8,7 @@ links:
   - "[[Lecture 07032024111604]]"
   - "[[Lecture 12032024091825]]"
   - "[[Lecture 14032024111404]]"
+  - "[[Lecture 19032024091914]]"
 ---
 # Applicazione lineare
 ---
@@ -39,6 +40,19 @@ Dato $V = \{f: \mathbb{R} \to \mathbb{R}\}$ un insieme di [[Funzioni derivabili|
 
 #### $\mathbb{R}^{n} \to \mathbb{R}^{m}$
 Ovvero ogni [[Applicazione lineare definita da una matrice|applicazioni lineari definite da una matrice]].
+
+### Forme
+Abbiamo 3 modi per definire un'applicazione lineare:
+1. assegnare $f(e_{1}), \cdots, f(e_{n})$ (che è la _formula chiave_)
+2. dare la legge $f(x_{1}, \cdots, x_{n}) = (\cdots)$
+3. dare la matrice $A$ dell'[[Applicazione lineare definita da una matrice|applicazione lineare definita da una matrice]] $L_{A}$
+
+E' facile passare da una all'altra:
+- $1 \longrightarrow 3$ si fa per definizione di $A$, mettendo quindi i risultati $f(e_{1}), \cdots, f(e_{n})$ come colonne di $A$;
+- $3 \longrightarrow 2$ si ottiene con la moltiplicazione $A \underline{x} = A \cdot \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix}$
+- $2 \longrightarrow 1$ si ottiene calcolando semplicemente i risultati di $f$ per ogni base canonica del dominio
+
+<u>Nota bene</u>: _ci è comodo sempre ottenere la matrice $A$_.
 
 ## Proposizioni
 ### $f \text{ lineare} \implies f(0_{V}) = 0_{W}$

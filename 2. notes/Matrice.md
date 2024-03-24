@@ -7,6 +7,7 @@ date: 20-02-2024 20:43:18
 links:
   - "[[Lecture 20022024091619]]"
   - "[[Lecture 21022024091849]]"
+  - "[[Lecture 21032024111439]]"
 ---
 # Matrice
 ---
@@ -56,6 +57,16 @@ Importante è anche notare che $M_{m \times n} (\mathbb{R})$ con $+$ e $\cdot$ f
 
 ## Forme
 - [[Matrice a scala|Forma a scala]]
+
+## Proposizioni
+### Indipendenza
+In virtù del [[Teorema della dimensione#Corollario|corollario del teorema della dimensione]], si ha che _la [[Dimensione|dimensione]] dello [[Sottospazio generato|spazio generato]] dalle righe è la stessa dello spazio generato dalle colonne_. Una conseguenza di ciò è che
+> Presa una matrice $A \in M_{m \times n} (\mathbb{R})$, e ridotta a scala con [[Algoritmo di Gauss|Gauss]], allora ottenute $r \leq m$ righe linearmente indipendenti, **aggiungendo delle colonne ad $A$ scalata le righe rimangono linearmente indipendenti**.
+
+<u>Nota bene</u>: ovviamente _questo vale anche per $A^{T}$, ovvero per le colonne_, per cui aggiungendo delle colonne ad $A^{T}$ scalata le righe rimangono sempre linearmente indipendenti.
+
+### Base del sottospazio delle colonne
+> Presa una matrice $A$ e ridotta a scala in $A'$ con $r$ pivot, tale che le righe non nulle di $A'$ sono una base del sottospazio generato dalle righe di $A$, allora **le colonne di $A$ corrispondenti ai pivot di $A'$ sono una base del sottospazio generato dalle colonne di $A$**.
 
 ## Definizioni
 - [[Rango righe]]

@@ -47,6 +47,7 @@ SORT date DESC
 		- [[Funzione suriettiva]], [[Funzione iniettiva]]
 		- [[Teorema di esistenza e unicità di un'applicazione lineare]]
 		- [[Nucleo]], [[Immagine di funzione]]
+		- [[Teorema della dimensione]]
 	- [[Autovalore]] e [[Autovettore]]
 	- [[Diagonalizzabilità di matrici]]
 	- [[Ortogonalità]]

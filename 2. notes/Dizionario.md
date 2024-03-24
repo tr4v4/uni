@@ -7,6 +7,7 @@ date: 10-03-2024 22:07:10
 links:
   - "[[Lecture 07032024091439]]"
   - "[[Lecture 18032024091043]]"
+  - "[[Lecture 19032024112453]]"
 ---
 # Dizionario
 ---
@@ -92,5 +93,11 @@ Per cui i costi diventano:
 - `delete`: $O(\log{n})$ medio e $\Theta(h)$ pessimo
 
 L'idea è che il costo allora dipende dall'altezza (ricordando che anche nel caso medio $\log{n}$ è l'[[Albero binario di ricerca#Caso medio|altezza media dell'albero binario]]), e l'altezza è $O(n)$, per cui nel caso di un albero-lista è proprio $n$: **dobbiamo mantenere tale altezza logaritmica per cercare di non rendere lineare ogni operazione nel caso pessimo**. L'unico modo per farlo è attraverso l'implementazione di [[Albero AVL|alberi AVL]].
+
+### Riassunto
+In definitiva, aggiungendo un'implementazione con gli alberi AVL, i costo di ogni implementazione della struttura dati dizionari si riassumono nella seguente tabella:
+![[costi-implementazioni-dizionario.png]]
+
+Si noti come _gli alberi AVL in particolare assicurino un costo logaritmico per tutte le operazioni_.
 
 ## Referenze

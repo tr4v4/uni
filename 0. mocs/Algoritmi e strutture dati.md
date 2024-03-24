@@ -44,6 +44,7 @@ SORT date DESC
 	- [[Algoritmo di ordinamento]]
 	- [[Strutture dati elementari]]
 		- [[Lista]], [[Pila]], [[Coda]]
+		- [[Dizionario]] ([[Prototipo vs Implementazione]])
 	- [[Albero informatico]]
 		- [[Albero binario]]/[[Albero non-binario]] ([[DFS]], [[BFS]])
 		- [[Albero binario di ricerca]], [[Albero AVL]]
