@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "70f0b8fbf4cb2aa0",
+        "id": "436d37ab5bc4b3e7",
         "type": "tabs",
         "children": [
           {
-            "id": "b9bf41144dd367c6",
+            "id": "bafb26903deb03e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Analisi I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d9b2f2366331e31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 21032024140949.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e40378a241842dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 27032024141122.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. lectures/Lecture 27032024141122.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. lectures/Lecture 27032024141122.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 27032024141122.md"
+              }
             }
           },
           {
@@ -148,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 27032024141122.md"
+              }
             }
           },
           {
@@ -180,6 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "1. lectures/Lecture 27032024141122.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,44 +282,44 @@
       "obsidian-google-tasks:Google Tasks": false
     }
   },
-  "active": "b9bf41144dd367c6",
+  "active": "e40378a241842dd0",
   "lastOpenFiles": [
+    "2. notes/Limite formulato per successione.md",
+    "1. lectures/Lecture 27032024141122.md",
+    "2. notes/Disuguaglianza triangolare.md",
+    "1. lectures/Lecture 21032024140949.md",
+    "0. mocs/Analisi I.md",
+    "1. lectures/Lecture 26032024111318.md",
     "0. mocs/Algoritmi e strutture dati.md",
     "1. lectures/Lecture 27032024112108.md",
-    "2. notes/Struttura heap.md",
-    "1. lectures/Lecture 26032024111318.md",
-    "2. notes/Array heap.md",
-    "2. notes/Selection sort.md",
-    "2. notes/Heap sort.md",
-    "2. notes/Algoritmo di ordinamento.md",
-    "2. notes/Algoritmo di ordinamento incrementale.md",
-    "2. notes/Algoritmo di ordinamento comparativo.md",
-    "media/deleteMax.png",
-    "media/heapify.png",
-    "media/fixHeap.png",
-    "media/array-heap.png",
-    "media/albero-heap.png",
-    "2. notes/Albero quasi perfetto.md",
-    "2. notes/Albero perfetto.md",
-    "2. notes/Albero informatico.md",
-    "media/albero-quasi-perfetto.png",
-    "2. notes/Albero binario.md",
-    "2. notes/Albero bilanciato.md",
-    "2. notes/Albero AVL.md",
-    "2. notes/Collisione hash.md",
-    "0. mocs/Analisi I.md",
-    "1. lectures/Lecture 27032024141122.md",
-    "2. notes/Concatenamento separato.md",
-    "2. notes/Tabella hash.md",
-    "2. notes/Funzione hash.md",
+    "2. notes/Interrupt.md",
+    "1. lectures/Lecture 27032024091734.md",
+    "1. lectures/Lecture 26032024091342.md",
+    "0. mocs/Algebra e geometria.md",
+    "1. lectures/Lecture 18032024130735.md",
+    "2. notes/Distanza tra punti.md",
+    "2. notes/Funzione a più variabili.md",
+    "1. lectures/Ortogonalità.md",
+    "1. lectures/Lecture 14032024140617.md",
+    "templates/lecture.md",
+    "2. notes/Sommatorie notevoli.md",
+    "2. notes/Algoritmo di ordinamento divide et impera.md",
+    "1. lectures/Lecture 26032024111220.md",
+    "2. notes/Teorema della dimensione.md",
+    "2. notes/Matrice.md",
+    "2. notes/Immagine di funzione.md",
     "1. lectures/Lecture 25032024091657.md",
-    "2. notes/Ispezione lineare.md",
-    "2. notes/Dizionario.md",
-    "2. notes/Fattore di carico.md",
+    "2. notes/Tabella hash.md",
+    "media/ispezione-lineare.png",
+    "media/concatenamento-separato.png",
+    "media/pseudo-concatenamento-separato.png",
     "media/costi-implementazioni-dizionario.png",
-    "media/costi-implementazione-dizionario.png",
-    "media/confronti-costi-medi-ispezioni.png",
-    "media/doppio-hashing.png",
+    "media/avl-delete.png",
+    "media/avl-insert.png",
+    "media/balance.png",
+    "media/sbilanciamento-SD-2.png",
+    "media/sbilanciamento-SD.png",
+    "media/sbilanciamento-SS.png",
     "Untitled Document",
     "netlify.toml",
     "templates",

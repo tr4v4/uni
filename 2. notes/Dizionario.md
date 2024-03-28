@@ -8,6 +8,7 @@ links:
   - "[[Lecture 07032024091439]]"
   - "[[Lecture 18032024091043]]"
   - "[[Lecture 19032024112453]]"
+  - "[[Lecture 25032024091657]]"
 ---
 # Dizionario
 ---
@@ -96,8 +97,10 @@ L'idea è che il costo allora dipende dall'altezza (ricordando che anche nel cas
 
 ### Riassunto
 In definitiva, aggiungendo un'implementazione con gli alberi AVL, i costo di ogni implementazione della struttura dati dizionari si riassumono nella seguente tabella:
-![[costi-implementazioni-dizionario.png]]
+![[costi-implementazione-dizionario.png]]
 
-Si noti come _gli alberi AVL in particolare assicurino un costo logaritmico per tutte le operazioni_.
+Si noti come _gli alberi AVL in particolare assicurino un costo logaritmico per tutte le operazioni_. Invece le [[Tabella hash|tabelle hash]] garantiscano nel caso medio per ogni operazione un costo costante $O(1)$.
+
+Di fatto nonostante queste abbiano un costo pessimo lineare, la maggior parte delle implementazioni di dizionari fanno tipicamente uso di tabelle hash.
 
 ## Referenze

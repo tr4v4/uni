@@ -6,6 +6,7 @@ tags:
 date: 18-03-2024 21:10:04
 links:
   - "[[Lecture 14032024140617]]"
+  - "[[Lecture 18032024130735]]"
 ---
 # Distanza tra punti
 ---
@@ -45,6 +46,21 @@ $$\text{dist}(x, \underline{\lambda}v)^{2} = g(\underline{\lambda}) = |x - \frac
 
 da cui
 $$\text{dist}(x, \lambda v) = \sqrt{|x|^{2} - \frac{(xv)^{2}}{|v|^{2}}}$$
+
+### Esempio
+Dato un punto $x = (1, 1, 2) \in \mathbb{R}^{3}$ e $v = (0, 0, 1) \in \mathbb{R}^{3}$, e il [[Sottospazio generato|sottospazio generato]] dalla retta definita da $v$ $l_{v} = \{t(0, 0, 1) | t \in \mathbb{R}\} = \{(0, 0, t) | t \in \mathbb{R}\}$, vogliamo trovare il punto $y$ di $l_{v}$ che _abbia la minima distanza da $x$_.
+
+Sappiamo che la formula per trovare tale $y \in l_{v}$ è
+$$y=\frac{xv}{|v|^{2}}v$$
+
+e sappiamo che la distanza tra $x$ e $y$ è definita da
+$$\text{dist}(x, y)^{2} = ||y||^{2} - \frac{(xv)^{2}}{|v|^{2}}$$
+
+Per cui svolgendo i calcoli ci viene
+$$y = \frac{xv}{|v|^{2}}v = \frac{2}{1}(0, 0, 1) = (0, 0, 2)$$
+
+e che la distanza tra $x$ e $y$ è
+$$\text{dist}((0, 0, 2), (1, 1, 2))^{2} = ||(1, 1, 2)||^{2} - \frac{2^{2}}{1^{2}} = 6-4 = 2 \implies \text{dist}(x, y) = \sqrt{2}$$
 
 ## Referenze
 [^1]: letteralmente un [[Sottospazio vettoriale|sottospazio vettoriale]] di $\mathbb{R}^{n}$

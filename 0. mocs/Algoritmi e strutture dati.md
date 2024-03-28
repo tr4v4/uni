@@ -49,7 +49,12 @@ SORT date DESC
 		- [[Albero binario]]/[[Albero non-binario]] ([[DFS]], [[BFS]])
 		- [[Albero binario di ricerca]], [[Albero AVL]]
 	- [[Tabella hash]]
-	- [[Strutture heap]] (+ applicazioni)
+		- [[Funzione hash]] ([[Metodo della divisione]], [[Metodo della moltiplicazione]], [[Metodo della codifica algebrica]])
+		- [[Collisione hash]] ([[Concatenamento separato]], [[Indirizzamento aperto]])
+	- [[Struttura heap]] (+ applicazioni)
+		- [[Array heap]]
+		- [[Heap sort]]
+		- [[Coda con priorità]] ([[D-heap]])
 	- [[Strutture union-find]]
 	- [[Tecniche algoritmiche]]
 		- [[Divide et impera]]

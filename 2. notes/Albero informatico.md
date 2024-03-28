@@ -28,9 +28,10 @@ Esistono differenti tipologie di alberi, tra cui:
 - [[Albero binario|alberi binari]]
 - [[Albero binario di ricerca|alberi binari di ricerca]]
 - [[Albero non-binario|alberi non-binari]]
+- [[Albero bilanciato|alberi bilanciati]]
 
-### Speciali
-- [[Albero AVL|alberi AVL]]
+### Topologie
+- [[Albero quasi perfetto|alberi quasi perfetti]]
 
 ## Osservazione
 Se ci viene chiesto di implementare un [[Algoritmo|algoritmo]] su alberi, binari o non-binari che siano, se l'algoritmo richiesto è [[Ricorsione|ricorsivo]] il suggerimento è di partire dalla base delle visite [[DFS]] (solitamente post-ordine); se invece l'algoritmo richiesto è iterativo, si suggerisce di partire dalla base delle visite [[BFS]] (ovvero usando una [[Coda|coda]]).

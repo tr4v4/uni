@@ -7,6 +7,7 @@ date: 05-03-2024 19:41:57
 links:
   - "[[Lecture 04032024091423]]"
   - "[[Lecture 05032024111158]]"
+  - "[[Lecture 26032024111318]]"
 ---
 # Algoritmo di ordinamento incrementale
 ---
@@ -17,5 +18,6 @@ links:
 I più studiati algoritmi di ordinamento incrementali sono:
 - [[Selection sort]]
 - [[Insertion sort]]
+- [[Heap sort]]
 
 ## Referenze

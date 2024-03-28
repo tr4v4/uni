@@ -6,6 +6,7 @@ tags:
 date: 24-03-2024 22:11:02
 links:
   - "[[Lecture 21032024091145]]"
+  - "[[Lecture 25032024091657]]"
 ---
 # Collisione hash
 ---
@@ -21,5 +22,12 @@ La _probabilità_ di una qualsiasi funzione hash di generare una _collisione tra
 Esistono una serie di provvedimenti e tecniche che si utilizzano per mitigare il problema delle collisioni, tra cui:
 - [[Concatenamento separato]]
 - [[Indirizzamento aperto]]
+
+### Confronti
+![[confronti-costi-medi-ispezioni.png]]
+
+Come si può notare dall'immagine non esiste un metodo migliore e uno peggiore per gestire le collisioni: dipende strettamente dai casi. Infatti
+- per tabelle hash con _[[Fattore di carico|fattore di carico]] $\alpha < 0.5$ (riempite fino al 50%) conviene usare l'indirizzamento aperto_;
+- per tabelle hash con _fattore di carico $\alpha \geq 0.5$ (riempite oltre il 50%) conviene usate il concatenamento separato_;
 
 ## Referenze
