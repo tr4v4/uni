@@ -87,7 +87,20 @@ SORT date DESC
 		- [[Disuguaglianza triangolare]], [[Disuguaglianza di Cauchy-Schwarz]]
 		- [[Distanza tra punti]]
 	- [[Funzione a più variabili]]
-	- [[Integrale a più variabili]]
+		- [[Insieme di livello]]
+		- [[Derivata parziale]], [[Gradiente]]
+		- [[Funzione differenziabile]], [[Rapporto tra derivabilità e differenziabilità]], [[Piano tangente]]
+		- [[Derivata direzionale]], [[Teorema del gradiente]]
+	- [[Curva]]
+		- [[Derivata lungo una curva]]
+		- [[Ortogonalità del gradiente]]
+	- [[Studio del gradiente]]
+		- [[Derivata parziale seconda]], [[Teorema di Schwarz]], [[Matrice hessiana]]
+		- [[Forma quadratica]], [[Forma quadratica hessiana]], [[Classificazione forme quadratiche]]
+		- [[Sviluppo in serie di Taylor#Resto di Lagrange]]
+		- [[Classificazione dei punti critici]]
+	- [[Integrale multiplo]]
+		- [[Insieme semplice]]
 
 ```dataview
 TABLE

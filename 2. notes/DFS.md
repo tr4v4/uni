@@ -16,7 +16,7 @@ links:
 - [[Albero binario#DFS]]
 
 ## Osservazione
-Nota come l'approccio DFS, a differenza del [[BFS]], non abbia bisogno nell'implementazione pratica di una struttura dati d'appoggio perché **utilizza lo [[Stack|stack]] stesso della macchina come struttura per visitare alberi e grafi in profondità**.
+Nota come l'approccio DFS, a differenza del [[BFS]], non abbia bisogno nell'implementazione pratica di una [[Strutture dati|struttura dati]] d'appoggio come la [[Pila|pila]], perché **utilizza lo [[Stack|stack]] stesso della macchina come struttura per visitare alberi e grafi in profondità**.
 
 ## Referenze
 - [[BFS]]

@@ -8,6 +8,9 @@ links:
   - "[[Lecture 10112023134301]]"
   - "[[Lecture 13112023094129]]"
   - "[[Lecture 17112023134446]]"
+  - "[[Lecture 03052024102451]]"
+  - "[[Lecture 06052024131425]]"
+  - "[[Lecture 09052024141025]]"
 ---
 # Sviluppo in serie di Taylor
 ---
@@ -105,6 +108,81 @@ Ora sì che diamo un'informazione tangibile sulla funzione: stiamo dicendo che $
 Se noi decidessimo di voler sviluppare ancora una volta $e^{x}$ (per un grado maggiore), otterremmo alla fine
 $$\frac{x^{2}}{2} + \frac{x^{3}}{6} + o(x^{3})$$
 che di per sé non è sbagliata, ma _semplicemente ininfluente_. Infatti ciò che più condiziona il comportamento della funzione per $x \to 0$ è il monomio di grado inferiore, in questo caso $\frac{x^{2}}{2}$: tutti gli altri monomi, che _sicuramente approssimano con più precisione $e^{x}$_, _non costituiscono però ai fini del limite una precisazione utile, significativa_.
+
+## Resto di Lagrange
+Finora abbiamo preso in considerazione e analizzato solo quella che viene definita _formula di Taylor con resto secondo Peano_. Esiste tuttavia un altro sviluppo di Taylor, equivalente a quello di Peano, più generale: la **formula di Taylor di ordine 2 con resto di Lagrange**.
+
+Questa è fondamentale per lo [[Studio del gradiente|studio delle funzioni a più variabili]], e in particolare _per dimostrare che la classificazione dei punti critici può avvenire sulla base dello studio del segno della [[Forma quadratica|forma quadratica]] della [[Matrice hessiana|matrice hessiana]]_.
+
+<u>Nota bene</u>: _di ordine 2_ perché ci interessa studiare fino al secondo ordine di sviluppo.
+
+### Formula
+La formula di Peano per lo sviluppo di Taylor di ordine 2 è
+$$f(\bar{x}+h) = f(\bar{x}) + f'(\bar{x})h + \frac{f''(\bar{x})}{2}h^{2} + o(h^{2}) \ \ \ \ \ h \to 0$$
+
+Invece si ha che la formula dello sviluppo di Taylor di ordine 2 con resto secondo Lagrange si esprime come:
+> Sia $f: \mathbb{R} \to \mathbb{R}$ con $f', f''$ continue, allora fissato $\bar{x} \in \mathbb{R}$ e $h \in \mathbb{R}$, allora si ha che
+> $$\exists \theta \in ]0, 1[ \ : \ \  f(\bar{x} + h) = f(\bar{x}) + f'(\bar{x})h + \frac{f''(\bar{x} + \theta h)}{2}h^{2}$$
+
+<u>Osservazione</u>: _manca l'o-piccolo_!
+
+<u>Osservazione</u>: il [[Teorema di Lagrange|teorema di Lagrange]] dimostra che $\exists \theta \in ]0, 1[$ tale che $f(\bar{x} + h) = f(\bar{x}) + f'(\bar{x} + \theta h)h$. Infatti si ha $f'(\bar{x} + \theta h) = \frac{f(\bar{x}+h) - f(\bar{x})}{h}$ e $c = \bar{x} + \theta h \in ]\bar{x}, \bar{x}+h[$.
+
+<u>Osservazione</u>: posso ovviamente scrivere anche questa formula di Taylor con $x = \bar{x} + h$, ottenendo $$f(x) = f(\bar{x}) + f'(\bar{x})(x - \bar{x}) + \frac{f''(c)}{2}(x - \bar{x})^{2}$$
+con $c \in ]x, \bar{x}[$
+
+### Differenze
+La più importante differenza tra le due formulazioni di Taylor è che:
+- _con resto di Peano_ --> la formula vale _solo per $h \to 0$_, ossia per punti $x$ molto vicini a $\bar{x}$;
+- _con resto di Lagrange_ --> la formula vale _per qualsiasi $h$_, ossia per ogni punto $x$, che sia lontano o vicino a $\bar{x}$ (questo ci è garantito dal teorema di Lagrange).
+
+### Dimostrazione
+Vogliamo dimostrare l'equivalenza tra le due formule, e in particolare che quella con il resto di Lagrange $\implies$ quella con il resto di Peano, ossia
+$$\exists \theta \in ]0, 1[ \ : \ \  f(\bar{x} + h) = f(\bar{x}) + f'(\bar{x})h + \frac{f''(\bar{x} + \theta h)}{2}h^{2}$$
+$$\implies$$$$f(\bar{x}+h) = f(\bar{x}) + f'(\bar{x})h + \frac{f''(\bar{x})}{2}h^{2} + o(h^{2}) \ \ \ \ \ h \to 0$$
+Ciò che facciamo è allora sottrarre la seconda dalla prima. Otteniamo:
+$$\frac{f''(\bar{x} + \theta h)}{2}h^{2} - \frac{f''(\bar{x})}{2}h^{2} + o(h^{2}) = 0$$
+Per cui ci basta verificare che $\frac{f''(\bar{x} + \theta h)}{2}h^{2} - \frac{f''(\bar{x})}{2}h^{2}$ sia un o-piccolo di $h^{2}$, ovvero
+$$\lim_{h \to 0} \left(\frac{f''(\bar{x} + \theta h)}{2}h^{2} - \frac{f''(\bar{x})}{2}h^{2}\right) \cdot \frac{1}{h^{2}} = 0$$
+ossia
+$$\lim_{h \to 0} \left(\frac{f''(\bar{x} + \theta h)}{2} - \frac{f''(\bar{x})}{2}\right) = 0$$
+e avendo $h \to 0$ e _$f''$ continua_
+$$\frac{f''(\bar{x})}{2} - \frac{f''(\bar{x})}{2} = 0$$
+il che è ovvio.
+
+**Qed**.
+
+### In $\mathbb{R}^{n}$
+Lo sviluppo di Taylor di ordine 2 con resto di Lagrange vale anche per [[Funzione a più variabili|funzioni a più variabili]].
+> Data $f: \mathbb{R}^{n} \to \mathbb{R}$, $\bar{x} \in \mathbb{R}^{n}$, $\partial^{2}_{jk}f$ continue $\forall j, k \in \{1, \cdots, n\}$, allora per ogni $h \in \mathbb{R}^{n}$ si ha che $$\exists \theta \in ]0, 1[ \ : \ \ f(\bar{x} + h) = f(\bar{x}) + < \nabla f(\bar{x}), h > + \frac{1}{2} <Hf(\bar{x} + \theta h)h, h>$$
+
+<u>Nota bene</u>: posso ugualmente scrivere lo sviluppo di Taylor in $\mathbb{R}^{n}$ di ordine 2 con il resto di Peano, ottenendo
+$$\forall \bar{x}, \bar{x}+h \in \mathbb{R} \ : \ \ f(\bar{x}+h) = f(\bar{x}) + <\nabla f(\bar{x}), h> + \frac{1}{2} <Hf(\bar{x})h, h> + o(|h|^{2})$$
+
+<u>Osservazione</u>: in entrambe le equazioni, _graficamente parlando si ottiene un paraboloide o un'iperboloide che approssima la funzione in $\bar{x}$_.
+
+#### Dimostrazione
+Per dimostrare la validità della formula considero una [[Curva|curva]] $r: \mathbb{R} \to \mathbb{R}$ definita come $r(t) = f(\bar{x} + th)$. Scrivo Taylor per $r$ nell'intervallo $[0, 1]$:
+$$\exists \theta \in ]0, 1[ \ : \ \ r(1) = r(0) + r'(0)(1-0) + \frac{1}{2}r''(0 + \theta1)(1-0)^{2} = r(0) + r'(0) + \frac{1}{2}r''(\theta)$$
+
+Ma io so che $r(1) = f(\bar{x} + h)$ e $r(0) = f(\bar{x})$, allora voglio riscrivere lo sviluppo di $f$ usando $r$, ma prima mi serve sapere quanto vale $r'(0)$ e $r''(\theta)$: calcolo la [[Derivata lungo una curva|derivata lungo una curva]].
+
+In particolare
+$$r'(t) = \frac{d}{dt}f(\bar{x}+th) = <\nabla f(\bar{x}+th), \frac{d}{dt}(\bar{x}+th)> = <\nabla f(\bar{x}+th), h>$$
+da cui, srotolando il prodotto scalare ottengo
+$$<\nabla f(\bar{x} + th), h> = \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x} + th)h_{j}$$
+Allora $r'(0)$ sarà uguale a
+$$r'(0) = \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x})h_{j} = <\nabla f(\bar{x}), h>$$
+
+Mi manca
+$$r''(t) = \frac{d}{dt} \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} \frac{d}{dt} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} <\nabla \partial_{j}f(\bar{x} + th), h> h_{j} = \sum\limits_{j=1}^{n} \sum\limits_{k=1}^{n} \partial_{kj}f(\bar{x} + th)h_{k}h_{j} = <Hf(\bar{x} + th), h>$$
+da cui
+$$r''(\theta) = <Hf(\bar{x} + \theta h)h, h>$$
+
+Quindi, riunendo i pezzi, si ha infine
+$$f(\bar{x} + h) = f(\bar{x}) + <\nabla f(\bar{x}), h> + \frac{1}{2}<Hf(\bar{x} + \theta h)h, h>$$
+
+**Qed**.
 
 ## Referenze
 - [[Polinomi di Taylor]]

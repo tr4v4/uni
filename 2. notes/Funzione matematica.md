@@ -48,7 +48,7 @@ il che significa che **ad ogni elemento del dominio deve corrispondere un solo e
 - [[Funzione iniettiva]]
 - [[Funzione suriettiva]]
 - [[Funzione biiettiva]]
-- [[Invertibilità di una funzione]]
+- [[Funzione inversa]]
 - [[Grafico di una funzione]]
 - [[Parità di una funzione]]
 - [[Disparità di una funzione]]

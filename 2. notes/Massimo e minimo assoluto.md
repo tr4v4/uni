@@ -6,6 +6,7 @@ tags:
 date: 26-10-2023 21:24:53
 links:
   - "[[Lecture 23102023094009]]"
+  - "[[Lecture 03052024102451]]"
 ---
 # Massimo e minimo assoluto
 ---
@@ -19,5 +20,12 @@ links:
 >    e $f(x_{0})$ è il **minimo assoluto**.
 
 In alcune funzioni (come quelle [[Funzioni trigonometriche|trigonometriche]]) i punti di minimo e massimo assoluto sono _infiniti_.
+
+### In $\mathbb{R}^{n}$
+Chiaramente si può estendere il concetto di massimo e minimo assoluto su [[Funzione a più variabili|funzioni a più variabili]].
+> Data una funzione $f: \mathbb{R}^{n} \to \mathbb{R}$ un punto $\bar{x} \in \mathbb{R}^{n}$ si dice di massimo (o minimo) locale/relativo se
+> $$f(\bar{x}) \geq f(x) \ \ \forall x \in \mathbb{R}^{n}$$
+> o
+> $$f(\bar{x}) \leq f(x) \ \ \forall x \in \mathbb{R}^{n}$$
 
 ## Referenze

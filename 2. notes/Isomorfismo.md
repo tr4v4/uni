@@ -8,13 +8,14 @@ date: 02-12-2023 14:57:02
 links:
   - "[[Lecture 30112023091742]]"
   - "[[Lecture 21032024111439]]"
+  - "[[Lecture 09042024091802]]"
 ---
 # Isomorfismo
 ---
 ## Introduzione
-> Un **isomorfismo** tra due [[Strutture algebriche|strutture algebriche]] dello stesso tipo è un _[[Morfismo|morfismo]] dalla prima alla seconda che sia una [[Funzione biiettiva|funzione biiettiva]] la cui [[Invertibilità di una funzione|inversa]] sia anch'essa un morfismo_.
+> Un **isomorfismo** tra due [[Strutture algebriche|strutture algebriche]] dello stesso tipo è un _[[Morfismo|morfismo]] dalla prima alla seconda che sia una [[Funzione biiettiva|funzione biiettiva]] la cui [[Funzione inversa|inversa]] sia anch'essa un morfismo_.
 
-Nell'ambito dell'[[Algebra lineare|algebra lineare]] si ha che due [[Spazio vettoriale|spazi vettoriali]] $V, W$ si dicono isomorfi se esista un'[[Applicazione lineare|applicazione lineare]] $F: V \to W$ biiettiva (quindi sia iniettiva che suriettiva).
+Nell'ambito dell'[[Algebra lineare|algebra lineare]] si ha che due [[Spazio vettoriale|spazi vettoriali]] $V, W$ si dicono isomorfi se esista un'[[Applicazione lineare|applicazione lineare]] $f: V \to W$ biiettiva (quindi sia iniettiva che suriettiva). Per cui un'applicazione lineare $f: V \to W$ se è [[Funzione inversa|invertibile]] è anche isomorfismo.
 
 La proprietà fondamentale di due strutture isomorfe è che **è possibile trattarle come uguali**: tutte le operazioni effettuate su di una possono essere effettuate sull'altra, _a seconda di cosa sia più conveniente_[^1].
 

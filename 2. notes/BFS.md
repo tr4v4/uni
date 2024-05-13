@@ -6,6 +6,7 @@ tags:
 date: 15-03-2024 17:06:52
 links:
   - "[[Lecture 14032024091535]]"
+  - "[[Lecture 29042024091854]]"
 ---
 # BFS
 ---
@@ -14,6 +15,7 @@ links:
 
 ## Alberi
 - [[Albero binario#BFS]]
+- [[BFS su grafi]]
 
 ## Referenze
 - [[DFS]]

@@ -3,15 +3,17 @@ tags:
   - category/note
   - status/finished
   - topic/analisi-I
+  - topic/algebra-e-geometria
 date: 17-03-2024 22:16:58
 links:
   - "[[Lecture 11032024131300]]"
+  - "[[Lecture 24042024092014]]"
 ---
 # Norma euclidea
 ---
 ## Introduzione
 > Preso un [[Vettore|vettore]] $x$ appartenente allo [[Spazio euclideo|spazio euclideo]] $\mathbb{R}^{n}$ si definisce la sua **norma**, anche detta **modulo** o **lunghezza**, come
-> $$||x|| = \sqrt{x \cdot x}$$
+> $$||x|| = \sqrt{<x, x>}$$
 > ovvero come la _radice quadrata del [[Prodotto scalare|prodotto scalare]] di $x$ con se stesso_.
 > La _norma esiste sempre_ e si ha
 > $$||x|| \geq 0 \ \ \ \forall x \in \mathbb{R}^{n}$$

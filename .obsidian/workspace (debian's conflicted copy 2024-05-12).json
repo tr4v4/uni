@@ -1,0 +1,355 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "77bb8723bf43f4d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2385483d91be3411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92fef4e2232a298c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 02052024091854.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14148b989310f96d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 06052024092734.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e3bda82ce97b411d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62f5bef96eb1dd18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.00260543823242,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md"
+              }
+            }
+          },
+          {
+            "id": "bcec95b56259cf2f",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2. notes/Minimum spanning tree.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498683,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obisidian-note-linker:Note Linker": false
+    }
+  },
+  "active": "62f5bef96eb1dd18",
+  "lastOpenFiles": [
+    "2. notes/Classificazione forme quadratiche.md",
+    "2. notes/Forma quadratica hessiana.md",
+    "2. notes/Forma quadratica.md",
+    "2. notes/Classificazione dei punti critici.md",
+    "1. lectures/Lecture 02052024091854.md",
+    "2. notes/Minimum spanning tree.md",
+    "2. notes/Componenti connesse.md",
+    "0. mocs/Algoritmi e strutture dati.md",
+    "1. lectures/Lecture 06052024092734.md",
+    "2. notes/Algoritmi di visita su grafi.md",
+    "0. mocs/Analisi I.md",
+    "0. mocs/Algebra e geometria.md",
+    "1. lectures/Lecture 10052024144525.md",
+    "1. lectures/Lecture 09052024141025.md",
+    "2. notes/Diagonalizzabilità.md",
+    "1. lectures/Lecture 06052024131425.md",
+    "1. lectures/diagonalizz.md",
+    "2. notes/Studio del gradiente.md",
+    "1. lectures/Lecture 08052024092049.md",
+    "1. lectures/Lecture 30042024091716.md",
+    "2. notes/Cambio di base.md",
+    "1. lectures/Lecture 02052024112324.md",
+    "2. notes/Algoritmo di Gram-Schmidt.md",
+    "2. notes/Sottospazio ortogonale.md",
+    "2. notes/Base ortogonale.md",
+    "1. lectures/Lecture 07052024091544.md",
+    "media/scc.png",
+    "media/ordinamento-topologico.png",
+    "media/dfs-grafo-orientato.png",
+    "media/raggio-di-curvatura.png",
+    "media/raggio-di-curvatura.jpg",
+    "media/raggio-di-curvatura.jpg.crdownload",
+    "media/raggio-di-curvatura.png.crdownload",
+    "media/curva-retta-3d.png",
+    "media/codici-di-huffman.png",
+    "media/albero-di-Huffman.png",
+    "media/moltiplicazione-in-colonna.png",
+    "media/torri-di-hanoi.jpeg",
+    "media/torri-di-hanoi.jpeg.crdownload",
+    "media/linee-di-livello-circonferenze.png.crdownload",
+    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
+    "Untitled Document",
+    "netlify.toml",
+    "templates",
+    "media/esame2019.07.01.pdf",
+    "media/excalidraw",
+    "3. projects/aijsodijas.canvas",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

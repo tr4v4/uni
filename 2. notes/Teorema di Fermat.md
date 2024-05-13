@@ -6,6 +6,7 @@ tags:
 date: 02-11-2023 22:32:51
 links:
   - "[[Lecture 30102023093826]]"
+  - "[[Lecture 03052024102451]]"
 ---
 # Teorema di Fermat
 ---
@@ -67,5 +68,42 @@ Presa per esempio la funzione
 ![[ipotesi-fermat.png]]
 
 ci si rende facilmente conto come _pur essendo gli estremi dei massimi e dei minimi relativi, la loro derivata prima non si annulli_. I punti presi in considerazione, per questo, devono necessariamente essere interni.
+
+## In $\mathbb{R}^{n}$
+Lo stesso risultato può essere ottenuto per [[Funzione a più variabili|funzioni a più variabili]]:
+> Sia $f: \mathbb{R}^{n} \to \mathbb{R}$ una funzione [[Funzione differenziabile|differenziabile]], e sia $\bar{x} \in \mathbb{R}^{n}$ un punto di [[Massimo e minimo relativo|massimo o minimo locale]] (o [[Massimo e minimo assoluto|globale]]), allora vale
+> $$\nabla f(\bar{x}) = \underline{0}$$
+> ovvero che il [[Gradiente|gradiente]] si annulla per quel punto.
+
+### Dimostrazione
+Dimostriamo per il caso di massimo locale (il minimo è simmetrico).
+
+Dalle ipotesi abbiamo che essendo $\bar{x}$ massimo locale vale
+$$\exists \delta > 0 : f(\bar{x}) \geq f(x) \ \ \forall x \in \mathbb{R}^{n} \cap I_{\delta}$$
+
+e $f$, in quanto differenziabile, può essere [[Sviluppo in serie di Taylor|sviluppata con Taylor]] al 1° ordine come
+$$f(x) = f(\bar{x}) + <\nabla f(\bar{x}), (x - \bar{x})> + o(||x - \bar{x}||)$$
+
+Allora sostituiamo in $f(\bar{x}) \geq f(x)$ lo sviluppo appena ottenuto in $f(x)$, e otteniamo
+$$f(\bar{x}) \geq f(\bar{x}) + <\nabla f(\bar{x}), (x - \bar{x})> + o(||x - \bar{x}||)$$
+ossia
+$$< \nabla f(\bar{x}), (x - \bar{x}) > \leq o(||x - \bar{x}||)$$
+
+che si ottiene $\iff$ $< \nabla f(\bar{x}), (x - \bar{x}) > = o(||x - \bar{x}||)$, per cui verifichiamo il [[Limite|limite]] dell'[[O-piccolo|o-piccolo]]:
+$$\lim_{x \to \bar{x}} \frac{<\nabla f(\bar{x}), (x - \bar{x}) >}{||x - \bar{x}||} = 0$$
+
+e sfruttiamo le proprietà del [[Prodotto scalare|prodotto scalare]] per riscrivere il limite come
+$$\lim_{x \to \bar{x}} <\nabla f(\bar{x}), \frac{x - \bar{x}}{||x - \bar{x}||} > = 0$$
+
+Ora usiamo la [[Disuguaglianza di Cauchy-Schwarz|disuguaglianza di Cauchy-Schwarz]] per scrivere $<\nabla f(\bar{x}), \frac{x - \bar{x}}{||x - \bar{x}||} > \leq <||\nabla f(\bar{x})||, ||\frac{x - \bar{x}}{||x - \bar{x}||}||>$, per cui otteniamo
+$$\lim_{x \to \bar{x}} <\nabla f(\bar{x}), \frac{x - \bar{x}}{||x - \bar{x}||} > \leq \lim_{x \to \bar{x}} <||\nabla f(\bar{x})||, ||\frac{x - \bar{x}}{||x - \bar{x}||}||> = \lim_{x \to \bar{x}} <||\nabla f(\bar{x})||, 1> = 0$$
+
+Ora si ha che
+$$\lim_{x \to \bar{x}} <||\nabla f(\bar{x})||, 1> = 0 \iff ||\nabla f(\bar{x})|| = 0 \iff \nabla f(\bar{x}) = 0$$
+
+perciò, per il [[Teorema del confronto|teorema del confronto]] si deve avere che
+$$\lim_{x \to \bar{x}} <\nabla f(\bar{x}), \frac{x - \bar{x}}{||x - \bar{x}||} > = 0 \iff \nabla f(\bar{x}) = 0$$
+
+**Qed**.
 
 ## Referenze

@@ -1,0 +1,311 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "97c577c8f3568043",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b8577a612db6ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.00260543823242,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md"
+              }
+            }
+          },
+          {
+            "id": "bcec95b56259cf2f",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0. mocs/Algoritmi e strutture dati.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498683,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false
+    }
+  },
+  "active": "2b8577a612db6ad4",
+  "lastOpenFiles": [
+    "media/codici-di-huffman.png",
+    "2. notes/Shortest Job First.md",
+    "2. notes/Problema dello zaino.md",
+    "2. notes/Programmazione dinamica.md",
+    "media/albero-di-Huffman.png",
+    "2. notes/Codifica di Huffman.md",
+    "2. notes/Matrice simile.md",
+    "2. notes/Matrice diagonalizzabile.md",
+    "2. notes/Diagonalizzabilità.md",
+    "0. mocs/Algebra e geometria.md",
+    "1. lectures/Lecture 18042024111552.md",
+    "0. mocs/Algoritmi e strutture dati.md",
+    "1. lectures/Lecture 17042024113805.md",
+    "1. lectures/Lecture 18042024093835.md",
+    "2. notes/Determinante.md",
+    "2. notes/Autovettore.md",
+    "2. notes/Matrice.md",
+    "2. notes/Polinomio caratteristico.md",
+    "2. notes/Autospazio.md",
+    "2. notes/Endomorfismo.md",
+    "2. notes/Gruppo.md",
+    "2. notes/Monoide.md",
+    "2. notes/Semigruppo.md",
+    "2. notes/Relazione di equivalenza.md",
+    "2. notes/Definizione di relazione di equivalenza indotta di un morfismo.md",
+    "2. notes/Autovalore.md",
+    "1. lectures/Lecture 16042024091615.md",
+    "media/moltiplicazione-in-colonna.png",
+    "media/torri-di-hanoi.jpeg",
+    "media/torri-di-hanoi.jpeg.crdownload",
+    "media/quick-union-euristica.png",
+    "media/quick-find-euristica.png",
+    "media/quick-union-find.png",
+    "media/quick-union-union.png",
+    "media/quick-union.png",
+    "media/quick-find-union.png",
+    "media/quick-find.png",
+    "media/linee-di-livello-circonferenze.png.crdownload",
+    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
+    "Untitled Document",
+    "netlify.toml",
+    "templates",
+    "media/esame2019.07.01.pdf",
+    "media/excalidraw",
+    "media/esame2019.05.30.pdf",
+    "media/esame2019.02.12.pdf",
+    "3. projects/aijsodijas.canvas",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

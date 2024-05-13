@@ -8,6 +8,8 @@ links:
   - "[[Lecture 20022024091619]]"
   - "[[Lecture 21022024091849]]"
   - "[[Lecture 21032024111439]]"
+  - "[[Lecture 04042024112239]]"
+  - "[[Lecture 16042024091615]]"
 ---
 # Matrice
 ---
@@ -55,8 +57,14 @@ Importante è anche notare che $M_{m \times n} (\mathbb{R})$ con $+$ e $\cdot$ f
 - $0 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$ come elemento neutro per $+$
 - $I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ come elemento neutro per $\cdot$
 
+Quest'ultima matrice è di fatto la [[Matrice identità|matrice identità]].
+
 ## Forme
-- [[Matrice a scala|Forma a scala]]
+- [[Matrice a scala]]
+- [[Matrice triangolare]]
+- [[Matrice identità]]
+- [[Matrice diagonale]]
+- [[Matrice diagonalizzabile]]
 
 ## Proposizioni
 ### Indipendenza

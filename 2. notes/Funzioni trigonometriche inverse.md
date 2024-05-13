@@ -16,7 +16,7 @@ Le principali [[Funzioni trigonometriche|funzioni trigonometriche]] _inverse_ so
 - **arcotangente**
 
 ### Arcoseno e arcocoseno
-Il seno da $\mathbb{R}$ a $\mathbb{R}$ non è [[Invertibilità di una funzione|invertibile]]: è infatti una funzione né [[Funzione iniettiva|iniettiva]] né [[Funzione suriettiva|suriettiva]]. Per poter renderla invertibile devo restringere sia il dominio che il codominio:
+Il seno da $\mathbb{R}$ a $\mathbb{R}$ non è [[Funzione inversa|invertibile]]: è infatti una funzione né [[Funzione iniettiva|iniettiva]] né [[Funzione suriettiva|suriettiva]]. Per poter renderla invertibile devo restringere sia il dominio che il codominio:
 - per renderla suriettiva --> restringo il codominio = $[-1, 1]$
 - per renderla iniettiva --> restringo il dominio (facendo attenzione a non perdere la suriettività) = $[-\frac{\pi}{2}, \frac{\pi}{2}]$
 
@@ -25,7 +25,7 @@ $$f: [-1, 1] \to \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$$
 ![[arcsin.png]]
 <u>Attenzione</u>: come conseguenza del fatto che l'inversione di funzione ci è costato in dominio e codominio, $\arcsin(\sin(x)) = x$ solo quando $x \in [-\frac{\pi}{2}, \frac{\pi}{2}]$.
 
-Il coseno da $\mathbb{R}$ a $\mathbb{R}$ non è [[Invertibilità di una funzione|invertibile]]: è infatti una funzione né [[Funzione iniettiva|iniettiva]] né [[Funzione suriettiva|suriettiva]]. Per poter renderla invertibile devo restringere sia il dominio che il codominio:
+Il coseno da $\mathbb{R}$ a $\mathbb{R}$ non è [[Funzione inversa|invertibile]]: è infatti una funzione né [[Funzione iniettiva|iniettiva]] né [[Funzione suriettiva|suriettiva]]. Per poter renderla invertibile devo restringere sia il dominio che il codominio:
 - per renderla suriettiva --> restringo il codominio = $[-1, 1]$
 - per renderla iniettiva --> restringo il dominio (facendo attenzione a non perdere la suriettività) = $[0, \pi]$
 

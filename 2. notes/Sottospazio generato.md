@@ -8,6 +8,8 @@ links:
   - "[[Lecture 28022024091940]]"
   - "[[Lecture 29022024111734]]"
   - "[[Lecture 05032024091733]]"
+  - "[[Lecture 26032024091342]]"
+  - "[[Lecture 27032024091734]]"
 ---
 # Sottospazio generato
 ---
@@ -130,4 +132,7 @@ Qui non ci rimane che distinguere per casi:
 Graficamente parlando, preso il sottospazio generato da $U$ ci accorgiamo che _se $k$ è diverso da 2 abbiamo due vettori su due rette diverse_, che quindi [[Sottospazi vettoriali di R2|come già dimostrato]] portano $U = \mathbb{R}^{2}$; _se invece $k$ è uguale a 2, avremo lo spazio generato da $\langle (1, 1), (2, 2) \rangle$_, ovvero tutte le coppie sulla retta $y=x$, ed è per questo che distinguiamo per le _coppie in cui $b \neq a$, che non stanno nella retta_, da quelle in cui _$b = a$, che invece appartengono a tale retta_.
 
 ## Referenze
+- [[Forme dei sottospazi]]
+
 [^1]: esattamente quello che avevamo visto per il secondo caso dei [[Sottospazi vettoriali di R2|sottospazi di R2]] (_la retta_)
+[^2]: che sappiamo essere sottospazio di $V$ perché $\ker(f) \leq V$;

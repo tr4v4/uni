@@ -6,6 +6,7 @@ tags:
 date: 20-10-2023 18:35:45
 links:
   - "[[Lecture 20102023135306]]"
+  - "[[Lecture 18032024130735]]"
 ---
 # Funzioni continue
 ---
@@ -13,16 +14,19 @@ links:
 Per poter definire quando una funzione è continua dobbiamo avere bene in mente il concetto di [[Punto di accumulazione|punto di accumulazione]] e di [[Punto isolato|punto isolato]].
 
 ## Definizione
-> Una [[Funzione matematica|funzione]] si dice **continua** in $x_{0}$ per un insieme $A$  (t.c. $x_{0} \in A$) in due casi:
+> Una [[Funzione matematica|funzione]] $f$ si dice **continua** in $x_{0}$ per un insieme $A \subseteq \mathbb{R}^{n}$ (t.c. $x_{0} \in A$) in due casi:
 > - $x_{0}$ è un _punto isolato_
 > - $x_{0}$ è un _punto di accumulazione_ e $\lim_{x \to x_{0}} f(x) = f(x_{0})$
 
 In particolare capita spesso il secondo caso, per cui la definizione generale che viene data alla continuità per un punto è
 $$\lim_{x \to x_{0}} f(x) = f(x_{0})$$
 ovvero, per la [[Limite finito al finito di funzione|definizione di limite finito al finito]]
-$$\forall \epsilon > 0, \exists \delta > 0: \forall x \in A: 0 < |x-x_{0}| < \delta \implies |f(x)-f(x_{0})| < \epsilon$$
+$$\forall \epsilon > 0, \exists \delta > 0: \forall x \in A: 0 < ||x-x_{0}|| < \delta \implies ||f(x)-f(x_{0})|| < \epsilon$$
 
 <u>Nota bene</u>: dell'ipotesi $0 < |x-x_{0}| < \delta$ _in questo caso_ si può anche omettere la diversità $x \neq x_{0}$, riducendola a $|x-x_{0}| < \delta$. Questo perché in primo luogo $x_{0}$ sappiamo essere all'interno del dominio ($A$); ma soprattutto perché se $x=x_{0}$ come conseguenza avremo $|f(x_{0})-f(x_{0})| < \epsilon$ che ovviamente _è sempre vero_.
+
+Si può anche definire la continuità di una funzione per [[Successione numerica|successioni]], ovvero dicendo che $f$ è continua in $x_{0} \in A$ se
+$$\forall (x_{k})_{k \in \mathbb{N}} \in \mathbb{R}^{n} : \begin{cases} x_{k} \in A & \forall k \in \mathbb{N} \\ x_{k} \to x & k \to +\infty \end{cases} \implies f(x_{k}) \stackrel{k \to +\infty}{\longrightarrow} f(x)$$
 
 ### Regola
 > Ricordare che **la continuità vale solo per i punti del dominio**. Non si può parlare di continuità di un punto per una funzione se questo non appartiene al suo dominio.

@@ -41,6 +41,8 @@ Dimostriamo [[Induzione strutturale|per induzione]] che `left(i) = 2*i`:
 - _caso base_ --> `left(1) = 2*1 = 2`, che è vero;
 - _caso induttivo_ --> per ipotesi induttiva supponiamo `left(i-1) = 2(i-1) = 2*i - 2`, allora dimostriamo che `left(i) = 2*i = left(i-1) + 2` che è vero. 
 
+**Qed**.
+
 ## Operazioni
 ### Array heap binario max-heap
 #### `findMax`

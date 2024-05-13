@@ -9,6 +9,7 @@ links:
   - "[[Lecture 10112023134301]]"
   - "[[Lecture 13112023094129]]"
   - "[[Lecture 21022024111657]]"
+  - "[[Lecture 27032024141122]]"
 ---
 # O-piccolo
 ---
@@ -18,6 +19,8 @@ links:
 > 2. $g(x) \stackrel{x \to x_{0}}{\longrightarrow} 0$
 > 
 > si ha che
+> $$\forall \epsilon > 0, \exists \delta > 0 : \forall x \neq x_{0}, 0 < |x - x_{0}| < \delta \implies \frac{|g(x)|}{|f(x)|} < \epsilon$$
+> o, con la notazione di [[Limite finito al finito di funzione|limite]] che
 > $$\lim_{x \to x_{0}} \frac{g(x)}{f(x)} = 0$$
 > ovvero, **$g(x)$ è un o-piccolo di $f(x)$ se per $x \to x_{0}$ tende a $0$ più velocemente di $f(x)$, o in altre parole se $g(x)$ è un [[Infinitesimi|infinitesimo]] di ordine superiore a $f(x)$**.
 > In tal caso si scrive
@@ -45,6 +48,28 @@ Nello studio degli [[Algoritmo|algoritmi]] gli $o$-piccoli fanno parte della [[N
 Vale che
 $$f = o(g) \implies f = O(g)$$
 ma _non necessariamente il contrario_.
+
+## In $\mathbb{R}^{n}$
+Gli o-piccolo nello [[Spazio euclideo|spazio euclideo]] $\mathbb{R}^{n}$ generalizzano la definizione data in precedenza usando la [[Norma euclidea|norma]].
+> Sia $A \subseteq \mathbb{R}^{n}$ un [[Insieme|insieme]] [[Insieme aperto|aperto]]; assumiamo $x_{0} \in A$, allora una funzione $g: A \to \mathbb{R}$ si dice _o-piccolo_ di $|f(x)|$ se, data l'ipotesi $g(x) \stackrel{x \to x_{0}}{\longrightarrow} 0$, si ha che
+> $$\forall \epsilon > 0 \ \exists \delta > 0 : \forall x \neq x_{0}, 0 < ||x - x_{0}|| < \delta \implies \frac{|g(x)|}{|f(x)|} < \epsilon$$
+> ovvero, per la notazione di limite, che
+> $$\lim_{x \to x_{0}}\frac{|g(x)|}{|f(x)|} = 0$$
+
+### Esempio
+Consideriamo una funzione $g: \mathbb{R}^{2} \to \mathbb{R}$ del tipo $g(x, y) = x^{2}+y^{2}$; consideriamo ora $f: \mathbb{R}^{2} \to \mathbb{R}$ del tipo $f(x, y) = \sqrt{x^{2}+y^{2}} = ||(x, y)||$. Vogliamo verificare che $g(x, y) = o(f(x, y))$ per $(x, y) \to (0, 0)$.
+
+Facciamolo prima usando la definizione di limite:
+$$\forall \epsilon > 0, \exists \delta > 0: \forall (x, y) \neq (0, 0), 0 < ||(x, y)-(0, 0)|| < \delta \implies \frac{|x^{2}+y^{2}|}{|\sqrt{x^{2}+y^{2}}|} < \epsilon$$
+ovvero
+$$\forall \epsilon > 0, \exists \delta > 0: \forall (x, y) \neq (0, 0), 0 < ||(x, y)|| < \delta \implies \frac{||(x, y)||^{2}}{||(x, y)||} < \epsilon$$
+per cui
+$$\forall \epsilon > 0, \exists \delta > 0: \forall (x, y) \neq (0, 0), 0 < ||(x, y)|| < \delta \implies ||(x, y)|| < \epsilon$$
+allora scelgo $\delta = \epsilon$ e ottengo una trivialità ($A \implies A$).
+
+Ora usiamo semplicemente la nozione di limite:
+$$\lim_{(x, y) \to (0, 0)} \frac{|x^{2}+y^{2}|}{\sqrt{x^{2}+y^{2}}} = 0 \ \iff \ \lim_{(x, y) \to (0, 0)} \frac{||(x, y)||^{2}}{||(x, y)||} = 0 \ \iff \ \lim_{(x, y) \to (0, 0)} ||(x, y)|| = 0$$
+il che è banalmente vero.
 
 ## Regole
 - [[Algebra degli o-piccoli]]

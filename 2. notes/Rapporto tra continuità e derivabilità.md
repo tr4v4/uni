@@ -6,14 +6,17 @@ tags:
 date: 27-10-2023 20:01:08
 links:
   - "[[Lecture 27102023135003]]"
+  - "[[Lecture 21032024140949]]"
 ---
 # Rapporto tra continuità e derivabilità
 ---
 ## Introduzione
-C'è uno stretto legame tra la derivabilità e la continuità di una funzione, che in breve si sintetizza con la legge:
+Si ha che per le [[Funzione matematica|funzioni]] che lavorano nello [[Spazio euclideo|spazio euclideo]] $\mathbb{R}^{n}$ per $n = 1$ esiste un legame stretto tra la [[Funzioni derivabili|derivabilità]] e la [[Funzioni continue|continuità]] di una funzione, che in breve si sintetizza con la legge:
 $$f \text{ derivabile} \implies f \text{ continua}$$
 
 <u>Attenzione</u>: _non vale il contrario_. Se una funzione è continua non per forza è derivabile.
+
+E' importante tenere a mente che **questo vale solo per funzioni definite in $\mathbb{R}^{1}$: è falso invece per $\mathbb{R}^{n}$ con $n > 1$**. Basti prendere in esame la funzione $f: \mathbb{R}^{2} \to \mathbb{R}$ definita come $f(x, y) = \begin{cases} \frac{xy}{x^{2}+y^{2}} & (x, y) \neq (0, 0) \\ 0 & (x, y) = (0, 0) \end{cases}$, che è [[Derivata parziale|derivabile parzialmente]] in $(0, 0)$, ma discontinua per lo stesso punto.
 
 ### Esempio
 Prendiamo in esame $f = |x|$. Sappiamo dimostrare, usando i limiti destri e sinistri, che **per l'origine il [[Valore assoluto|valore assoluto]] è continuo**. Essendo continuo in tutti i punti del dominio, _possiamo creare la funzione derivata_.

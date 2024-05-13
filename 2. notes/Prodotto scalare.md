@@ -8,29 +8,55 @@ date: 21-02-2024 09:05:50
 links:
   - "[[Lecture 20022024091619]]"
   - "[[Lecture 11032024131300]]"
+  - "[[Lecture 24042024092014]]"
 ---
 # Prodotto scalare
 ---
 ## Introduzione
-> Data una riga $1 \times n$ e una colonna $m \times 1$, ovvero due [[Vettore|vettori]], aventi la stessa lunghezza ($n = m$)
-> $$A = (a_{1}, a_{2}, ..., a_{n})$$
-> $$B = (b_{1}, b_{2}, ..., b_{m})$$
-> si definisce **prodotto scalare** (o **dot-product**) la somma dei prodotti di ogni coefficiente di $A$ con il corrispondente coefficiente di $B$, ovvero:
-> $$A \cdot B = \sum\limits_{k=1}^{n} a_{k}b_{k} = a_{1} \cdot b_{1} + \cdots + a_{n} \cdot b_{m} \in \mathbb{R}$$
+> Il **prodotto scalare** (o **dot-product**) ([[Spazio euclideo|euclideo]]) è una [[Funzione matematica|funzione]] $<,>: \mathbb{R}^{n} \times \mathbb{R}^{n} \to \mathbb{R}$ tale che presi due [[Vettore|vettori]] $v, w \in \mathbb{R}^{n}$, quindi del tipo $v = (v_{1}, \cdots, v_{n})$ e $w = (w_{1}, \cdots, w_{n})$, si ha che
+> $$<v, w> = v_{1}w_{1} + \cdots + v_{n}w_{n}$$
+> o, alternativamente
+> $$<v, w> = \sum\limits_{k=1}^{n} v_{k}w_{k}$$
 > <u>Attenzione</u>: _il risultato è un numero_!
+
+### In $\mathbb{R}^{2}$
+In $\mathbb{R}^{2}$ immaginiamo di prendere in considerazione due vettori $v = (x_{1}, y_{1})$ e $w = (x_{2}, y_{2})$. Sappiamo quindi che il loro prodotto scalare è
+$$<v, w> = x_{1}x_{2} + y_{1}y_{2} \in \mathbb{R}$$
+
+Un'interpretazione geometrica di questo valore può fornircela la seguente immagine:
+![[Drawing 2024-05-05 17.08.05.excalidraw|750]]
+
+Di fatto si dimostra che, considerato $\theta = \theta_{2}-\theta_{1}$ ovvero la differenza dei due angoli formati da $v$ e $w$, si ha la seguente uguaglianza
+$$<v, w> = ||v|| \cdot ||w|| \cdot \cos{\theta}$$
+
+<u>Nota bene</u>: ciò vale _solo in $\mathbb{R}^{2}$_.
+
+#### Dimostrazione
+Vogliamo dimostrare l'uguaglianza precedente, per cui partiamo da $<v, w>$:
+$$<v, w> = x_{1}x_{2} + y_{1}y_{2}$$
+
+Notiamo, dal disegno, che $x_{1} = ||v||\cos{\theta_{1}}$ mentre $y_{1} = ||v||\sin{\theta_{1}}$[^1]; similmente per $x_{2}, y_{2}$, perciò il prodotto scalare diventa:
+$$<v, w> = ||v||\cos{\theta_{1}} \cdot ||w||\cos{\theta_{2}} + ||v||\sin{\theta_{1}} \cdot ||w||\sin{\theta_{2}}$$
+quindi, raccogliamo le [[Norma euclidea|norme]] e otteniamo
+$$<v, w> = ||v|| \cdot ||w|| \cdot (\cos{\theta_{1}}\cos{\theta_{2}} + \sin{\theta_{1}}\sin{\theta_{2}})$$
+
+Ora, usando la [[Trigonometria|trigonometria]], concludiamo che
+$$<v, w> = ||v|| \cdot ||w|| \cdot \cos{(\theta_{2} - \theta_{1})} = ||v|| \cdot ||w|| \cdot \cos{\theta}$$
+
+**Qed**.
 
 ## Proprietà
 ### Simmetria
-$$x \cdot y = y \cdot x \ \ \ \forall x, y \in \mathbb{R}^{n}$$
+$$<x, y> = <y, x> \ \ \ \forall x, y \in \mathbb{R}^{n}$$
 
-### Linearità
-$$(\lambda x + \mu y) \cdot z = \lambda(x \cdot z) + \mu(y \cdot z) \ \ \ \forall x, y, z \in \mathbb{R}^{n}, \ \forall \lambda, \mu \in \mathbb{R}$$
-
-<u>Nota bene</u>: il primo membro è una [[Combinazione lineare|combinazione lineare]]!
+### Bilinearità
+$$<\lambda x, y> = \lambda <x, y>$$
+$$<x+y, z> = <x, z> + <y, z>$$
 
 ### Positività
-$$x \cdot x \geq 0, \ \ x \cdot x = 0 \iff x = \underline{0} \ \ \ \forall x \in \mathbb{R}^{n}$$
+$$<x, x> \geq 0, \ \ <x, x> = 0 \iff x = \underline{0} \ \ \ \forall x \in \mathbb{R}^{n}$$
 
-Questo è vero perché $x \cdot x = \sum\limits_{k=1}^{n} x_{k}^{2} \geq 0$ perché somma di termini positivi.
+Questo è vero perché $<x, x> = \sum\limits_{k=1}^{n} x_{k}^{2} \geq 0$ perché somma di termini positivi.
 
 ## Referenze
+[^1]: la rappresentazione in [[Coordinate polari|forma polare]] dei vettori
