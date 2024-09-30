@@ -8,7 +8,7 @@ LANDING_BUTTON = "Click to steal some pizza Dai Gemelli🍕"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "I have nothing left but grazia di Coen"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "2-mocs/universita"
+LANDING_PAGE = "0-mocs/universita"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Bless you"
 PYTHON_VERSION = "3.8"
