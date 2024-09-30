@@ -53,7 +53,6 @@ Allora questa matrice esiste.
 
 **Qed**.
 
-
 ## Proposizioni
 ### Composizione di applicazioni lineari
 > Siano $f: V \to W$ e $g: W \to Z$ applicazioni lineari, e $\beta, \beta', \mu$ basi ordinate di $V, W, Z$ tali che possiamo definire le seguenti matrici associate a $f$ e a $g$ come
@@ -129,7 +128,6 @@ Ci calcoliamo l'inversa di $A_{\beta c}$ usando allora il metodo standard che us
 Si guardi infatti il seguente schema
 ![[Drawing 2024-04-15 20.17.55.excalidraw|750]]
 Fondamentalmente se noi a $A_{cc'}$ ci aggiungiamo due funzioni identità tra le due basi $\beta$ e $\beta'$ in modo da ottenere una $I_{\beta c}$ e una $I_{c'\beta'}$, possiamo scrivere $L_{A_{\beta\beta'}}$ come la composizione di 3 funzioni, e quindi $A_{\beta\beta'}$ come la moltiplicazione di 3 matrici[^1].
-
 
 ### Esercizio
 Determinare se possibile un'applicazione lineare $f: \mathbb{R}^{3} \to \mathbb{R}^{3}$ tale che:

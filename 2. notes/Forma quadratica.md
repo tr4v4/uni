@@ -44,7 +44,7 @@ Una proprietà importante che si studia delle forme quadratiche è il loro **seg
 > Sia $A \in M_{n}(\mathbb{R})$ simmetrica ($A = A^{T}$), allora si dice che:
 > 1. $A$ è _definita positiva_ se $<Ah, h> > 0 \ \ \forall h \neq \underline{0}$
 > 2. $A$ è _definita negativa_ se $<Ah, h> < 0 \ \ \forall h \neq \underline{0}$
-> 3. $A$ è _indefinita_ se $\exists h', h'' \in \mathbb{R}^{n}$ tali che $<Ah', h'> < 0 < <A'', h''>$
+> 3. $A$ è _indefinita_ se $\exists h', h'' \in \mathbb{R}^{n}$ tali che $<Ah', h'> < 0 < <Ah'', h''>$
 
 <u>Osservazione</u>: sono tutte disuguaglianze strette.
 

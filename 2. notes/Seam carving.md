@@ -34,7 +34,7 @@ Usiamo quindi una matrice di supporto $W$ per mantenere i pesi complessivi calco
 - _caso induttivo $i > 1$_ --> alla riga $i$-esima posso ricavare il peso minore del percorso fino alla $j$-esima cella sfruttando le 3 celle superiori (2 se si è ai bordi), di fatto scelgo tra queste quella con peso complessivo minore e la sommo al peso della cella $i, j$
 	- $j = 1$ ---> $W[i, j] = E[i, j] + \min(W[i-1, j], W[i-1, j+1])$
 	- $1 < j < N$ ---> $W[i, j] = E[i, j] + \min(W[i-1, j-1], W[i-1, j], W[i-1, j+1])$
-	- $j = n$ ---> $W[i, j] = E[i, j] + \min(W[i-1, j-1], W[i-1, j])$
+	- $j = N$ ---> $W[i, j] = E[i, j] + \min(W[i-1, j-1], W[i-1, j])$
 
 Il **peso della cucitura minima sarà il valore minimo dell'ultima riga di $W$**.
 

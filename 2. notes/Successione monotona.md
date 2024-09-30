@@ -10,7 +10,7 @@ links:
 # Successione monotona
 ---
 ## Introduzione
-> Si definisce una successione **monotona** se è _crescente_ o _decrescente_.
+> Si definisce una [[Successione numerica|successione]] **monotona** se è _crescente_ o _decrescente_.
 
 ### Successione crescente
 > $a_{n}$ si dice **crescente** se
@@ -33,8 +33,8 @@ links:
 
 Per cui, è [[Dimostrazione successioni monotone hanno limite|dimostrabile]] che
 > Se $a_{n}$ è crescente, allora
-> $$\lim_{n \to +\infty} a_{n} = sup\{a_{n} | n \in \mathbb{N}\}$$
+> $$\lim_{n \to +\infty} a_{n} = \sup\{a_{n} | n \in \mathbb{N}\}$$
 > e viceversa, se $a_{n}$ è decrescente, allora si avrà
-> $$\lim_{n \to +\infty} a_{n} = inf\{a_{n} | n \in \mathbb{N}\}$$
+> $$\lim_{n \to +\infty} a_{n} = \inf\{a_{n} | n \in \mathbb{N}\}$$
 
 ## Referenze

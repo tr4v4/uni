@@ -87,7 +87,7 @@ Assumendo di avere accesso diretto al nodo `v` con valore `e`, allora se `k` è 
 Il costo allora è quello di `moveUp`: $O(\log_{d}{n})$.
 
 ### `moveUp(Node v)`
-E' una _funzione ausiliaria usata per sistemare la relazione padre-figlio e quindi la proprietà heap dell'albero min-heap_. In particolare risale controlla se il nodo in esame `v` (a patto che non sia la radice) abbia chiave minore del padre; se sì allora lo scambia di posto con il padre e ripete l'algoritmo sempre per `v`.
+E' una _funzione ausiliaria usata per sistemare la relazione padre-figlio e quindi la proprietà heap dell'albero min-heap_. In particolare risale controllando se il nodo in esame `v` (a patto che non sia la radice) abbia chiave minore del padre; se sì allora lo scambia di posto con il padre e ripete l'algoritmo sempre per `v`.
 
 <u>Nota bene</u>: può scambiare tranquillamente il figlio `v` con il padre se la chiave di `v` è minore di quella del padre perché si assume di essere già in un min-heap, e quindi di avere un padre con chiave minore di tutti i figli a patto di `v`.
 

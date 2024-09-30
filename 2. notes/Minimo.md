@@ -12,8 +12,8 @@ links:
 ---
 ## Definizione
 > Il **minimo** di un insieme di $A \subseteq \mathbb{R}$ è definito come
-> $$b := min(A) = \forall a \in A: b \leq a$$
+> $$b := \min(A) = \forall a \in A: b \leq a : b \in A$$
 
-Il **minimo non c'è sempre**. Se esiste un minimo, esso è **il più piccolo dei [[Minorante|minoranti]]** ($inf$).
+Il **minimo non c'è sempre**. Se esiste un minimo, esso è **il più piccolo dei [[Minorante|minoranti]]** ($\inf$).
 
 ## Referenze

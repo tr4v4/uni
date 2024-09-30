@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 > Si scrive come
-> $$\binom{n}{m} = \frac{n!}{(n-m)!m!} = $$
+> $$\binom{n}{m} = \frac{n!}{(n-m)!m!}$$
 
 Regole:
 - se $m=0$ allora fa 1

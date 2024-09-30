@@ -39,7 +39,7 @@ Altra osservazione: come avviene per il seno, se vogliamo sviluppare il coseno a
 $$\ln(1 + t) = \sum\limits_{j = 1}^{n} \frac{(-1)^{j-1}}{j} t^{j} + o(t^{n})$$
 $$\ln(1 + t) = t - \frac{t^{2}}{2} + \frac{t^{3}}{3} - \frac{t^{4}}{4} + ... + o(t^{n})$$
 
-<u>Da notare</u> che non possiamo sviluppare $\ln$ nell'origine, in quanto non è un punto del suo [[Lecture 21102023141854|dominio naturale]] e quindi neanche [[Funzioni derivabili|derivabile]] in $x = 0$. Possiamo però sviluppare per $1 + t$ nell'origine.
+<u>Da notare</u> che non possiamo sviluppare $\ln$ nell'origine, in quanto non è un punto del suo [[Dominio naturale|dominio naturale]] e quindi neanche [[Funzioni derivabili|derivabile]] in $x = 0$. Possiamo però sviluppare per $1 + t$ nell'origine.
 
 ### $(1 + t)^{\alpha}$
 $$(1 + t)^{\alpha} = \sum\limits_{j = 0}^{n} \binom{\alpha}{j} \cdot t^{j} + o(t^{n}) \ \ \ \ (\alpha \in \mathbb{R})$$

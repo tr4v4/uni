@@ -10,7 +10,7 @@ links:
 # Estremo superiore
 ---
 ## Introduzione
-> L'estremo superiore di un [[Insieme|insieme]] è definito come il **minimo dei [[Maggiorante|maggiorante]]**, e indicato con
+> L'estremo superiore di un [[Insieme|insieme]] è definito come il **minimo dei [[Maggiorante|maggioranti]]**, e indicato con
 > $$\sup A$$
 > dove $A$ è l'insieme.
 

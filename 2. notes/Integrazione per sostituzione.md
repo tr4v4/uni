@@ -24,7 +24,7 @@ $$G(z) = \int_{\alpha}^{z} f(h(t))h'(t) \ dt$$
 $$H(z) = \int_{h(\alpha)}^{h(z)} f(x) \ dx$$
 
 Devo dimostrare
-$$G(z) = H(z) \ \ \ \forall x \in I$$
+$$G(z) = H(z) \ \ \ \forall z \in I$$
 
 In generale, _per dimostrare l'uguaglianza tra due funzioni basta vedere se hanno lo stesso valore per un certo punto, e se la loro derivata è uguale_. Verifichiamo entrambe le cose.
 

@@ -31,11 +31,10 @@ e che $\det(A)$ dove $A$ è la matrice associata $\in M_{n}(\mathbb{R})$ a $L_{A
 ## Corollario
 Inchiodata una funzione che soddisfi il [[Prototipo vs Implementazione|prototipo]] di determinante, si derivano le seguenti conseguenze:
 1. _se $B$ si ottiene da $A$ scambiando due righe allora $$\det(A) = -\det(B)$$_;
-2. _se $B$ si ottiene da $A$ sommando a una riga da $A$ una qualunque combinazione lineare delle altre righe allora $$\det(A) = \det(B)$$_;
+2. _se $B$ si ottiene da $A$ sommando a una riga di $A$ una qualunque combinazione lineare delle altre righe allora $$\det(A) = \det(B)$$_;
 3. _se $A$ è una [[Matrice triangolare|matrice triangolare]] superiore (o inferiore) allora $\det(A)$ è il prodotto degli elementi che si trovano sulla sua diagonale principale_;
 
 Con queste 3 nuove regole, e con la 2° legge del determinante, **riusciamo a determinare il determinante di qualunque matrice usando semplicemente l'[[Algoritmo di Gauss|algoritmo di Gauss]]**! Infatti le operazioni di _scambio di righe_, _moltiplicazione per scalare_ e _somma di combinazione lineare_ non sono altro che le [[Operazioni elementari|operazioni elementari]]. Per cui fondamentalmente riducendo [[Matrice a scala|a scala]] una qualunque matrice, e seguendo i passi del valore del determinante associato a tale matrice, possiamo sempre ricavare il suo determinante, **senza usare alcuna formula**.
-
 
 ## Calcolo
 Proprio da quest'ultima osservazione si ottiene un _calcolo metodico del determinante di una matrice basato sull'algoritmo di Gauss_.
@@ -89,7 +88,6 @@ $$b_{ij} = \frac{1}{\det(A)}\Gamma_{ji} = \frac{1}{\det(A)} (-1)^{i+j} \det(A_{j
 ed essendo $\det(A) \neq 0$ questa inversa esiste.
 
 **Qed**.
-
 
 ### Invertibilità di una funzione
 > Sia $f: \mathbb{R}^{n} \to \mathbb{R}^{n}$ un'[[Applicazione lineare|applicazione lineare]], e sia $A$ la matrice associata a $f$ rispetto alla [[Base canonica|base canonica]] di $\mathbb{R}^{n}$ ($f = L_{A}$), allora si ha che

@@ -45,5 +45,4 @@ Il limite del primo termine è $f'(x)$, poiché dalle ipotesi sappiamo che è de
 Questa legge non solo esprime il rapporto tra derivabilità e continuità, ma mette in evidenza che **la derivabilità è sintomo di una maggiore regolarità di una semplice funzione continua**. Vale a dire che una funzione derivabile è più vincolata, fa parte infatti di un [[Definizione di essere sottoinsieme|sottoinsieme]] stretto delle funzioni continue:
 ![[rapporto-continuità-derivabilità.png]]
 
-
 ## Referenze

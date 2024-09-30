@@ -45,7 +45,6 @@ il che è vero per le assunzioni iniziali.
 
 **Qed**.
 
-
 ## Proposizioni
 ### Verifica con base
 > Sia $W = \langle w_{1}, \cdots, w_{k} \rangle$, allora il sottospazio ortogonale è dato da

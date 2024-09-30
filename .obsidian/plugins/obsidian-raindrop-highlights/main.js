@@ -13747,7 +13747,7 @@ var import_obsidian4 = require("obsidian");
 var defaultMetadataTemplate_default = "{% if link %}link: {{link}}{% endif %}\n{% if tags|length %}tags: {%for tag in tags %}\n- {{tag}}{% endfor %}{% endif %}\n";
 
 // src/templates/templateInstructions.html
-var templateInstructions_default = 'Template (<a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>) for\nrendering every synced Raindrop.io highlights & annotations.\n\n<p>\n  <b>Available variables to use</b>\n</p>\n\nMetadata\n<ul>\n  <li><span class="u-pop">{{now}}</span> (Moment) - Present time</li>\n</ul>\n\nArticle Metadata\n<ul>\n  <li><span class="u-pop">{{is_new_article}}</span> (bool) - New file indicator</li>\n  <li><span class="u-pop">{{id}}</span> (number) - Article identifier</li>\n  <li><span class="u-pop">{{title}}</span> (string) - Title</li>\n  <li><span class="u-pop">{{excerpt}}</span> (string) - Article excerpt</li>\n  <li><span class="u-pop">{{note}}</span> (string) - Article note</li>\n  <li><span class="u-pop">{{link}}</span> (string) - Link to source</li>\n  <li><span class="u-pop">{{highlights}}</span> (Highlight[]) - List of your Highlights (Detail attributes refer to the following <span class="u-pop">Highlight</span> section)</li>\n  <li><span class="u-pop">{{collection}}</span> (Collection) - Collection data (Detail attributes refer to the following <span class="u-pop">Collection</span> section</li>\n  <li><span class="u-pop">{{creator}}</span> (Creator) - Creator data (Detail attributes refer to the following <span class="u-pop">Creator</span> section</li>\n  <li><span class="u-pop">{{tags}}</span> (string[]) - List of tag</li>\n  <li><span class="u-pop">{{cover}}</span> (string) - Article cover</li>\n  <li><span class="u-pop">{{created}}</span> (Moment) - Created on</li>\n  <li><span class="u-pop">{{type}}</span> (string) - Article type</li>\n  <li><span class="u-pop">{{important}}</span> (bool) - Favorite article</li>\n</ul>\n\nCreator\n<ul>\n  <li><span class="u-pop">{{name}}</span> (string) - Creator name</li>\n  <li><span class="u-pop">{{id}}</span> (number) - Creator id</li>\n</ul>\n\nCollection\n<ul>\n  <li><span class="u-pop">{{title}}</span> (string) - Collection title</li>\n</ul>\n\nHighlight\n<ul>\n  <li><span class="u-pop">{{id}}</span> (string) - Highlight identifier</li>\n  <li><span class="u-pop">{{text}}</span> (string) - Text</li>\n  <li><span class="u-pop">{{color}}</span> (string) - Highlight color</li>\n  <li><span class="u-pop">{{created}}</span> (Moment) - Created on</li>\n  <li><span class="u-pop">{{lastUpdate}}</span> (Moment) - Updated on</li>\n  <li><span class="u-pop">{{note}}</span> (string) - Annotation</li>\n</ul>\n\nFilter\n<ul>\n  <li><span class="u-pop">date(format: string)</span> Convert Moment object to string - example: <code>{{ now | date("YYYY/MM/DD") }}</code>. For more syntax, refer to <a href="https://momentjs.com/docs/#/displaying/format/">format reference</a>.</li>\n</ul>\n';
+var templateInstructions_default = 'Template (<a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>) for\nrendering every synced Raindrop.io highlights & annotations.\n\n<p>\n  <b>Available variables to use</b>\n</p>\n\nMetadata\n<ul>\n  <li><span class="u-pop">{{now}}</span> (Moment) - Present time</li>\n</ul>\n\nArticle Metadata\n<ul>\n  <li><span class="u-pop">{{is_new_article}}</span> (bool) - New file indicator</li>\n  <li><span class="u-pop">{{id}}</span> (number) - Article identifier</li>\n  <li><span class="u-pop">{{title}}</span> (string) - Title</li>\n  <li><span class="u-pop">{{excerpt}}</span> (string) - Article excerpt</li>\n  <li><span class="u-pop">{{note}}</span> (string) - Article note</li>\n  <li><span class="u-pop">{{link}}</span> (string) - Link to source</li>\n  <li><span class="u-pop">{{highlights}}</span> (Highlight[]) - List of your Highlights (Detail attributes refer to the following <span class="u-pop">Highlight</span> section)</li>\n  <li><span class="u-pop">{{collection}}</span> (Collection) - Collection data (Detail attributes refer to the following <span class="u-pop">Collection</span> section</li>\n  <li><span class="u-pop">{{creator}}</span> (Creator) - Creator data (Detail attributes refer to the following <span class="u-pop">Creator</span> section</li>\n  <li><span class="u-pop">{{tags}}</span> (string[]) - List of tag</li>\n  <li><span class="u-pop">{{cover}}</span> (string) - Article cover</li>\n  <li><span class="u-pop">{{created}}</span> (Moment) - Created on</li>\n  <li><span class="u-pop">{{type}}</span> (string) - Article type</li>\n  <li><span class="u-pop">{{important}}</span> (bool) - Favorite article</li>\n  <li><span class="u-pop">{{raindropUrl}}</span> (string) - Link to raindrop page</li>\n</ul>\n\nCreator\n<ul>\n  <li><span class="u-pop">{{name}}</span> (string) - Creator name</li>\n  <li><span class="u-pop">{{id}}</span> (number) - Creator id</li>\n</ul>\n\nCollection\n<ul>\n  <li><span class="u-pop">{{title}}</span> (string) - Collection title</li>\n</ul>\n\nHighlight\n<ul>\n  <li><span class="u-pop">{{id}}</span> (string) - Highlight identifier</li>\n  <li><span class="u-pop">{{text}}</span> (string) - Text</li>\n  <li><span class="u-pop">{{color}}</span> (string) - Highlight color</li>\n  <li><span class="u-pop">{{created}}</span> (Moment) - Created on</li>\n  <li><span class="u-pop">{{lastUpdate}}</span> (Moment) - Updated on</li>\n  <li><span class="u-pop">{{note}}</span> (string) - Annotation</li>\n</ul>\n\nFilter\n<ul>\n  <li><span class="u-pop">date(format: string)</span> Convert Moment object to string - example: <code>{{ now | date("YYYY/MM/DD") }}</code>. For more syntax, refer to <a href="https://momentjs.com/docs/#/displaying/format/">format reference</a>.</li>\n</ul>\n';
 
 // src/templates/metadataTemplateInstructions.html
 var metadataTemplateInstructions_default = 'Metadata template (<a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>) for\nrendering every synced Raindrop.io highlights & annotations.\n\n<p>\n	Some notes:\n</p>\n<ul>\n	<li>The rendered result is placed in the front matter of the generated post.</li>\n	<li>If the rendered result does not follow the YAML syntax, the plugin will reject the update.</li>\n	<li><code>raindrop_id</code> and <code>raindrop_highlights</code> properties are transparently added and updated by the plugin.</li>\n	<li>Available variables to use are the same as the previous template.</li>\n</ul>\n';
@@ -14271,7 +14271,8 @@ var FAKE_RENDER_CONTEXT = {
     name: "fake_name",
     id: 1e4
   },
-  now: (0, import_moment.default)()
+  now: (0, import_moment.default)(),
+  raindropUrl: "https://example.com"
 };
 var Renderer = class {
   constructor(plugin) {
@@ -14357,7 +14358,8 @@ ${newMdContent}`;
       type: bookmark.type,
       important: bookmark.important,
       creator: bookmark.creator,
-      now: (0, import_moment.default)()
+      now: (0, import_moment.default)(),
+      raindropUrl: `https://app.raindrop.io/my/${bookmark.collectionId}/item/${bookmark.id}/edit`
     };
     const env = this.createEnv();
     const content = env.renderString(template, context);
@@ -14769,6 +14771,7 @@ var RaindropSync = class {
     }
     const bookmark = await this.api.getRaindrop(raindropId);
     await this.updateFileContent(file, bookmark);
+    new import_obsidian5.Notice(`Sync ${bookmark.title} completed`);
   }
   getSyncFolder(collection) {
     if (this.plugin.settings.autoSyncSuccessNotice) {
@@ -15732,7 +15735,7 @@ var RaindropAPI = class {
 var defaultTemplate_default = '{% if is_new_article %}\n# Metadata\n{% if link %}Source URL:: {{link}}{% endif %}\n{% if tags|length %}Topics:: #{{ tags | join(", #") }}{% endif %}\n\n---\n# {{title}}\n\n{% if excerpt %}{{excerpt}}{% endif %}\n\n## Highlights\n{% endif -%}{% for highlight in highlights %}\n{% if highlight.color == "red" -%}\n    {%- set callout = "danger" -%}\n{%- elif highlight.color == "blue" -%}\n    {%- set callout = "info" -%}\n{%- elif highlight.color == "green" -%}\n    {%- set callout = "check" -%}\n{%- else -%}\n    {%- set callout = "quote" -%}\n{%- endif -%}\n> [!{{callout}}]+ Updated on {{highlight.lastUpdate}}\n>\n> {{highlight.text.split("\\n") | join("\\n>")}}\n{% if highlight.note -%}> > {{highlight.note + "\\n"}}{%- endif %}\n\n{%- endfor -%}\n';
 
 // src/constants.ts
-var VERSION = "0.0.21";
+var VERSION = "0.0.22";
 var DEFAULT_SETTINGS = {
   version: VERSION,
   username: void 0,
@@ -15829,6 +15832,7 @@ var RaindropPlugin = class extends import_obsidian8.Plugin {
       name: "Sync this bookmark",
       callback: async () => {
         const file = app.workspace.getActiveFile();
+        await this.raindropSync.syncSingle({ file });
       }
     });
     this.addCommand({

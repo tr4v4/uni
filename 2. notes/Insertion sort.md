@@ -30,7 +30,7 @@ Per analizzare la [[Complessità computazionale|complessità computazionale]] de
 In effetti, mentre il _ciclo `for` viene eseguito sempre interamente_, il _ciclo `while` potrebbe_, per via della seconda condizione $A[j] < A[j-1]$, _non essere eseguito affatto_. Di conseguenza intuiamo come i casi si diversifichino.
 
 ### Caso ottimo
-Nel caso ottimo l'array è già ordinato, per cui il ciclo `while` non viene mai eseguito. Rimane solo il `for`, eseguito sempre $n-1$ volta. La complessità computazionale sarà
+Nel caso ottimo l'array è già ordinato, per cui il ciclo `while` non viene mai eseguito. Rimane solo il `for`, eseguito sempre $n-1$ volte. La complessità computazionale sarà
 $$\Theta(n)$$
 
 Ma non è così semplice. Di fatto, preso un array ordinato e scombinati solo $k$ elementi di esso, avremo $\Theta(n)$ cicli per il `for`, e un massimo di $O(nk)$ cicli per il `while` (perché per riordinare quei $k$ elementi al massimo ci vorranno $n$ iterazioni). Per cui per array quasi ordinati il costo computazionale sarà

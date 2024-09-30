@@ -48,6 +48,34 @@
         "a": 1,
         "rgb": 9175295
       }
+    },
+    {
+      "query": "tag:#topic/calcolo-numerico",
+      "color": {
+        "a": 1,
+        "rgb": 4803004
+      }
+    },
+    {
+      "query": "tag:#topic/tecnologie-web",
+      "color": {
+        "a": 1,
+        "rgb": 12375706
+      }
+    },
+    {
+      "query": "tag:#topic/linguaggi-di-programmazione",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#topic/reti-di-calcolatori",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.10670531822408894,
+  "scale": 0.08569080617323405,
   "close": true
 }

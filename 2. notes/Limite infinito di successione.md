@@ -13,7 +13,7 @@ links:
 > Presa una [[Successione numerica|successione]] $(a_{n})_{n}$, si dice
 > $$\lim_{n \to +\infty} a_{n} = +\infty$$
 > se
-> $$\forall k \in \mathbb{R}, \exists \delta = \delta(k) > 0 : \forall n > d : a_{n} \geq k$$
+> $$\forall k \in \mathbb{R}, \exists \delta = \delta(k) > 0 : \forall n > \delta : a_{n} \geq k$$
 > Il che significa: **preso un qualunque valore k, esiste sempre una soglia delta tale per cui la successione oltre quella soglia produce valori sempre più grandi di k**.
 > <u>Nota</u>: ci si può anche solo limitare a $\forall k > 0$ dato che cerchiamo valori tendenti a $+\infty$.
 > 

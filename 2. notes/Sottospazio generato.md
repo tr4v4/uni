@@ -115,7 +115,7 @@ Arrivati a questo punto siamo in grado di dire che un qualunque $(a, b) \in \mat
 $$\mathbb{R}^{2} = \langle (2, 1), (-1, -1) \rangle$$
 
 ### $U = \langle (1, 1), (2, k) \rangle$
-Dobbiamo determinare qual è il sottospazio generato da $U = \langle (1, 1), (2, k) \rangle$ al variare di $k \in \mathbb{R}$. Lo spazio vettoriale di riferimento sarà allora $\mathbb{R}^{2}$ (per vettori come coppie di numeri). Allora faccio un'assunzione, ovvero, affinché una qualsiasi coppia $(a, b)$ di $\mathbb{R}^{2}$ appartenga a a $U$, devo avere una combinazione lineare di $U$ t.c. possa ottenere $(a, b)$, o in formule:
+Dobbiamo determinare qual è il sottospazio generato da $U = \langle (1, 1), (2, k) \rangle$ al variare di $k \in \mathbb{R}$. Lo spazio vettoriale di riferimento sarà allora $\mathbb{R}^{2}$ (per vettori come coppie di numeri). Allora faccio un'assunzione, ovvero, affinché una qualsiasi coppia $(a, b)$ di $\mathbb{R}^{2}$ appartenga a $U$, devo avere una combinazione lineare di $U$ t.c. possa ottenere $(a, b)$, o in formule:
 $$(a, b) \in U \iff \exists \lambda_{1}, \lambda_{2} \in \mathbb{R} : (a, b) = \lambda_{1}(1, 1) + \lambda_{2}(2, k) = (\lambda_{1} + 2\lambda_{2}, \lambda_{1} + k\lambda_{2})$$
 
 Di nuovo ci troviamo a dover risolvere un _sistema_, ma questa volta _parametrico_, del tipo

@@ -15,7 +15,7 @@ Abbiamo esteso il concetto di [[Derivata|derivata]] con le [[Derivata parziale|d
 
 ## Definizione
 > Sia $f: \mathbb{R}^{n} \to \mathbb{R}$ una [[Funzione a più variabili|funzione a più variabili]] [[Funzione differenziabile|differenziabile]], e data una curva $r: ]a, b[ \to \mathbb{R}^{n}$ [[Funzioni derivabili|derivabile]], allora la [[Funzione composta|funzione composta]] $(f \circ r): ]a, b[ \to \mathbb{R}$ è derivabile, _la sua derivata identifica la derivata di $f$ lungo $r$_ e si ha
-> $$(f \circ r)'(t) = \frac{\partial}{\partial t}(f \circ r) = \frac{\partial}{\partial t}(f(r(t))) = <\nabla f(r(t)), r'(t)>$$
+> $$(f \circ r)'(t) = \frac{\partial}{\partial t}(f \circ r)(t) = \frac{\partial}{\partial t}(f(r(t))) = <\nabla f(r(t)), r'(t)>$$
 > <u>Nota bene</u>: è una _versione del [[Teorema del gradiente|teorema del gradiente]] ma per derivate rispetto a una curva, e non una direzione_.
 
 ### Dimostrazione

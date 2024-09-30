@@ -19,7 +19,7 @@ links:
 
 Equivalentemente possiamo scrivere lo sviluppo usando $\bar{x} = \bar{x_{0}} + \bar{h}$, per cui viene
 $$f(\bar{x}) = f(\bar{x_{0}}) + \nabla f(\bar{x_{0}}) \cdot (\bar{x} - \bar{x_{0}}) + o(||\bar{x} - \bar{x_{0}}||)$$
-che è la versione da cui possiamo identificare il _polinomio di Taylor_ $f(\bar{x}) + \nabla f(\bar{x}) \cdot (\bar{t} - \bar{x})$.
+che è la versione da cui possiamo identificare il _polinomio di Taylor_ $f(\bar{x}_{0}) + \nabla f(\bar{x}_{0}) \cdot (\bar{x} - \bar{x}_{0})$.
 
 ### In $\mathbb{R}^{2}$
 In $\mathbb{R}^{2}$ si ha che $\nabla f(x_{0}, y_{0}) = (\partial_{x}f(x_{0}, y_{0}), \partial_{y}f(x_{0}, y_{0}))$, per cui il polinomio di Taylor al 1° ordine che _approssima_ una funzione $f: \mathbb{R}^{2} \to \mathbb{R}$ in un punto $(x_{0}, y_{0}) \in \mathbb{R}^{2}$ è
@@ -102,7 +102,6 @@ Scelgo allora $(x_{j}, y_{j}) = \left(\frac{1}{j}, \frac{1}{j}\right)$. Così fa
 $$\lim_{j \to +\infty} \frac{\sqrt{|\frac{1}{j}|}\sqrt{|\frac{1}{j}|}}{\sqrt{\frac{1}{j}^{2} + \frac{1}{j}^{2}}} = \lim_{j \to +\infty} \frac{\frac{1}{j}}{\sqrt{2} \frac{1}{j}} = \frac{1}{\sqrt{2}} \neq 0$$
 
 Per cui **$f$ non è differenziabile in $(0, 0)$, nonostante esistano le derivate parziali**!
-
 
 ## Proposizioni
 ### Continuità

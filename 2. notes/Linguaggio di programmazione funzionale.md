@@ -4,15 +4,18 @@ tags:
   - status/finished
   - topic/logica-per-informatica
   - topic/programmazione
+  - topic/linguaggi-di-programmazione
 date: 06-11-2023 22:09:24
 links:
   - "[[Lecture 02112023091408]]"
   - "[[Lecture 22112023134305]]"
+  - "[[Lecture 17092024110611]]"
 ---
 # Linguaggio di programmazione funzionale
 ---
 ## Introduzione
 > Un **linguaggio di programmazione funzionale** è un tipo di [[Linguaggio di programmazione|linguaggio di programmazione]] che, a differenza degli [[Linguaggio di programmazione imperativo|imperativi]], si _concentrano sul cosa fare piuttosto che sul come_, demandando al [[Compilatore|compilatore]] il "lavoro sporco".
+> Il risultato di un programma è il valore esplicito di un'espressione: programmare diventa essere in grado di costruire la funzione che calcola il risultato voluto, e tale costruzione di solito utilizza come unico costrutto di base la [[Ricorsione|ricorsione]][^3].
 
 Si basa sulle [[Funzione informatica|funzioni]], avvicinando il più possibile quelle informatiche a quelle [[Funzione matematica|matematiche]]. Non esistono [[Comandi iterativi|cicli]], [[Memorie|memorie]] né [[Strutture dati|strutture dati]]. Di fatto la maggior parte di questi linguaggi adotta come unico tipo di dato "base" il [[ADT|tipo di dato astratto]].
 
@@ -53,3 +56,4 @@ Le proprietà, invece, che li contrappongono in modo netto dai linguaggi imperat
 ## Referenze
 [^1]: come per i linguaggi imperativi (es. [[C]]/[[C++]])
 [^2]: proprio perché ci si vuole avvicinare il più possibile a una visione astratta
+[^3]: in particolare [[Ricorsione strutturale|ricorsione strutturale]]

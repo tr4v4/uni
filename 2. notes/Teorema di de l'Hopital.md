@@ -38,7 +38,7 @@ $$\lim_{n \to +\infty} \frac{f(x_{n})}{g(x_{n})} = l$$
 
 Ora, dalle ipotesi del teorema sappiamo che $f(x_{0}) = g(x_{0}) = 0$, per cui
 $$\frac{f(x_{n})}{g(x_{n})} = \frac{f(x_{n}) - f(x_{0})}{g(x_{n}) - g(x_{0})}$$
-Sapendo che $f(x)$ e $g(x)$ sono continue in $[x_{0}, x_{n}]$ e derivabili in $]x_{0}, x_{n}[$, e soprattutto che $g(x)$ non in annulla nell'intervallo (dalle ipotesi del teorema), possiamo applicare [[Teorema di Cauchy|Cauchy]], e sapere come conseguenza che
+Sapendo che $f(x)$ e $g(x)$ sono continue in $[x_{0}, x_{n}]$ e derivabili in $]x_{0}, x_{n}[$, e soprattutto che $g'(x)$ non si annulla nell'intervallo (dalle ipotesi del teorema), possiamo applicare [[Teorema di Cauchy|Cauchy]], e sapere come conseguenza che
 $$\exists c \in ]x_{0}, x_{n}[ : \frac{f(x_{n}) - f(x_{0})}{g(x_{n}) - g(x_{0})} = \frac{f'(c)}{g'(c)}$$
 
 Sappiamo quindi che tra $x_{0}$ e $x_{n}$ esiste un $c$ che rende vera l'uguaglianza. Ma per il [[Teorema del confronto|teorema del confronto]], per $n \to +\infty$ si ha che

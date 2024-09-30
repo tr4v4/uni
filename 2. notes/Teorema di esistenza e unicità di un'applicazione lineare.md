@@ -63,7 +63,7 @@ In termini tecnici si riassume questa proprietà con la seguente proposizione:
 In particolare questo si sposa bene con l'[[Applicazione lineare definita da una matrice|applicazione lineare definita da una matrice]]: $L_{A}$.
 
 ## Significato
-Prendiamo un lo spazio euclideo $\mathbb{R}^{2}$, il piano cartesiano. Preso un punto $(a, b) \in \mathbb{R}^{2}$ so che esiste ed è unica una retta passante per l'origine e per $(a, b)$: questa retta è l'applicazione lineare, e ciò è una conseguenza diretta del teorema, che sappiamo valere per spazi di dimensione anche superiore a $2$! Presi due punti di $\mathbb{R}^{3}$, per esempio, sappiamo che esiste ed è unico il piano passante per l'origine e quei due punti.
+Prendiamo lo spazio euclideo $\mathbb{R}^{2}$, il piano cartesiano. Preso un punto $(a, b) \in \mathbb{R}^{2}$ so che esiste ed è unica una retta passante per l'origine e per $(a, b)$: questa retta è l'applicazione lineare, e ciò è una conseguenza diretta del teorema, che sappiamo valere per spazi di dimensione anche superiore a $2$! Presi due punti di $\mathbb{R}^{3}$, per esempio, sappiamo che esiste ed è unico il piano passante per l'origine e quei due punti.
 
 ## Referenze
 [^1]: questa condizione non necessaria permette ad $f$ di non essere per forza [[Funzione iniettiva|iniettiva]]

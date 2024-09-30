@@ -10,7 +10,7 @@ links:
 # Normalizzazione
 ---
 ## Introduzione
-> L'operazione di **normalizzazione** applicata a un [[Vettore|vettore]] $v$ consiste nel _portarlo nel range $[0, 1]$_. In particolare cerco un $r > 0$ t.c. $|rx| = 1$, ovvero, per le [[Norma euclidea#Proprietà|proprietà della norma]], $r|x| = 1$, quindi
+> L'operazione di **normalizzazione** applicata a un [[Vettore|vettore]] $v$ consiste nel _portarlo nel range $[0, 1]$_. In particolare cerco un $r > 0$ t.c. $||rx|| = 1$, ovvero, per le [[Norma euclidea#Proprietà|proprietà della norma]], $r||x|| = 1$, quindi
 > $$r = \frac{1}{||x||}$$
 > Il vettore $$\frac{x}{||x||} \in \mathbb{R}^{n}$$
 _ha norma 1_ e si dice, appunto, _normalizzato_ di $x \in \mathbb{R}^{n} \setminus \{\underline{0}\}$.

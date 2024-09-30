@@ -38,7 +38,7 @@ Nonostante nella maggior parte dei casi ciò che si ordina è un array di interi
 ### In-place e stabilità
 > Un algoritmo di ordinamento si dice **in-place** quando _riordina gli elementi direttamente nell'array di input, senza l'ausilio di un array aggiuntivo per il calcolo_.
 
-> Un algoritmo di ordinamento si dice **stabile** quando dato in input un array di chiave-valore, _valori con la stessa chiave appaiono nell'array ordinato nello stesso ordine in cui apaiono nell'array in input_[^1].
+> Un algoritmo di ordinamento si dice **stabile** quando dato in input un array di chiave-valore, _valori con la stessa chiave appaiono nell'array ordinato nello stesso ordine in cui appaiono nell'array in input_[^1].
 
 Fondamentalmente un algoritmo stabile, nel caso due o più elementi dell'array siano uguali (abbiano le stesse chiavi), _mantiene il loro ordine di apparizione nell'array in input anche dopo l'ordinamento_. Questa è una _proprietà fondamentale_ degli algoritmi di ordinamento.
 

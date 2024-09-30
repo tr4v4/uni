@@ -20,31 +20,6 @@ Si prendano $e_{1}, e_{2} \in \mathbb{R}^{2}$: questi formano una base ortonorma
 In generale diremo che _$\{e_{1}, \cdots, e_{n}\}$ è una base ortonormale di $\mathbb{R}^{n}$_.
 
 ## Proposizioni
-### Lineare indipendenza
-> Siano $v_{1}, \cdots, v_{k} \in \mathbb{R}^{n}$ vettori non nulli e a due a due ortogonali, allora $v_{1}, \cdots, v_{k}$ sono [[Indipendenza lineare|linearmente indipendenti]].
-
-Come importante corollario della proposizione si ha che, per il [[Teorema del completamento|teorema del completamento]], **il numero massimo di vettori non nulli di $\mathbb{R}^{n}$ ortogonali tra loro è $n$**.
-
-#### Dimostrazione
-Devo dimostrare l'indipendenza lineare di $v_{1}, \cdots, v_{k}$, allora uso la definizione e dimostro
-$$\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k} = \underline{0} \iff \lambda_{1} = \cdots = \lambda_{k} = 0$$
-
-Prendiamo in considerazione solo il seguente caso
-$$<\underline{0}, v_{1}> = 0$$
-Allora sostituisco il vettore nullo con $\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k}$ e dimostro
-$$<\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k}, v_{1}> = 0 \iff \lambda_{1} = \cdots = \lambda_{k} = 0$$
-
-Quindi, per la bilinearità del prodotto scalare posso scrivere
-$$\lambda_{1}<v_{1}, v_{1}> + \cdots + \lambda_{k}<v_{k}, v_{1}> = 0$$
-ed essendo i vettori ortogonali a due a due ho $<v_{i}, v_{1}> = 0 \ \ \forall i \neq 1$, perciò non rimane che
-$$\lambda_{1} <v_{1}, v_{1}> = 0$$
-ed essendo $v_{1}$ non nullo per ipotesi allora il risultato viene $\iff$
-$$\lambda_{1} = 0$$
-
-Ripetendo questo procedimento per i $k$ vettori si ottiene che ogni scalare $\lambda$ dev'essere uguale a 0, confermando la tesi.
-
-**Qed**.
-
 ### Coordinate rispetto a una base
 > Sia $\beta = \{v_{1}, \cdots, v_{n}\}$ una base ortonormale di $\mathbb{R}^{n}$, allora preso un vettore $v \in \mathbb{R}^{n}$ si ha che
 > $$(v)_{\beta} = (<v, v_{1}>, \cdots, <v, v_{n}>)$$

@@ -72,7 +72,7 @@ SORT date DESC
 	- [[Integrale]]
 		- [[Integrale di Riemann]]
 		- [[Teorema della media integrale]]
-		- [[Primitiva]]
+		- [[Primitiva]], [[Caratterizzazione delle primitive su un intervallo]]
 		- [[Funzione integrale]]
 		- [[Teorema fondamentale del calcolo integrale]]
 		- [[Teorema di Torricelli-Barrow]]

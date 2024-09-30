@@ -35,7 +35,7 @@ Disegnando i 3 triangoli possiamo facilmente identificare due funzioni $g_{1}, g
 
 Definiamo infatti:
 - $g_{1}(x) = 0 \ \ \forall x \in [0, 1] = [a, b]$
-- $g_{2}(x) = 1$
+- $g_{2}(x) = x$
 
 Allora usiamo la formula di riduzione:
 $$\int_{A}xy \ dx \ dy = \int_{0}^{1} \left(\int_{0}^{x} xy \ dy\right) \ dx = \int_{0}^{1} \left[x \frac{y^{2}}{2}\right]_{0}^{x} \ dx = \int_{0}^{1} \left[x \frac{x^{2}}{2} - x \frac{0}{2}\right] \ dx = \int_{0}^{1} \left[\frac{x^{3}}{2}\right] \ dx = \left[\frac{x^{4}}{8}\right]_{0}^{1} = \frac{1}{8}$$

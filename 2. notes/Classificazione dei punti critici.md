@@ -69,4 +69,6 @@ $$f(\bar{x} + tv^{+}) - f(\bar{x}) = \frac{t^{2}}{2} <Hf(\bar{x})v^{+}, v^{+}> +
 Sapendo che $<Hf(\bar{x})v^{+}, v^{+}> > 0$ la dimostrazione si conclude immediatamente, infatti
 $$f(\bar{x} + tv^{+}) - f(\bar{x}) = \frac{t^{2}}{2}\left(<Hf(\bar{x})v^{+}, v^{+}> + \frac{o(t^{2})}{t^{2}}\right) > 0 \ \ \ \ \forall t \to 0$$
 
+**Qed**.
+
 ## Referenze

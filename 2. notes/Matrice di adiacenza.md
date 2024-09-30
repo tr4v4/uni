@@ -19,7 +19,7 @@ Dividiamo l'implementazione a seconda del tipo di grafo in questione, nonostante
 Per i [[Grafo non orientato|grafi non orientati]] si utilizza una matrice $n \times n$[^1] compilata secondo la seguente equazione:
 $$M(u, v) = \begin{cases}1 & \{u, v\} \in E \\ 0 & \{u, v\} \notin E \end{cases}$$
 
-Trattandosi di un grafo orientato, nella posizione $(u, v)$ e $(v, u)$ il valore dell'arco sarà identico: il risultato è che _$M$ è una [[Matrice simmetrica|matrice simmetrica]]_!
+Trattandosi di un grafo non orientato, nella posizione $(u, v)$ e $(v, u)$ il valore dell'arco sarà identico: il risultato è che _$M$ è una [[Matrice simmetrica|matrice simmetrica]]_!
 
 ### Grafo orientato
 Per i [[Grafo orientato|grafi orientati]] la questione è bene o male la stessa, ma la matrice viene compilata secondo la seguente equazione:
@@ -40,7 +40,7 @@ Analizziamo ora i costi computazionali dei principali metodi esposti dalla strut
 - `aggiungiVertici(vertice v)` --> dobbiamo _ridimensionare la matrice_ --> $\Theta(n^{2})$
 - `aggiungiArco(vertice x, vertice y)` --> basta accedere a `M[x,y]` e mettere 1 --> $O(1)$
 - `rimuoviVertice(vertice v)` --> dobbiamo ridimensionare la matrice --> $\Theta(n^{2})$
-- `rimuoviArco(arco e)` --> basta accedere a `M[x, y]` e mettere 1 --> $O(1)$
+- `rimuoviArco(arco e)` --> basta accedere a `M[x, y]` e mettere 0 --> $O(1)$
 
 ## Referenze
 [^1]: dove $n = |V|$

@@ -22,7 +22,7 @@ $$\sqrt{a} = b$$
 ## Dimostrazione
 ### Lemmi
 Per poter dimostrare questo teorema c'è prima bisogno di dichiarare alcuni [[Lemma|lemmi]].
-Per cui da $\forall x, y \in \mathbb{R}: x, y, \geq 0$ si ha
+Per cui da $\forall x, y \in \mathbb{R}: x, y \geq 0$ si ha
 $$x^{2} \leq y^{2} \iff x \leq y$$
 $$x^{2} \geq y^{2} \iff x \geq y$$
 $$x^{2} = y^{2} \iff x = y$$
@@ -44,8 +44,8 @@ $$c^{2} \leq (a+1)^{2} \iff c \leq a+1$$
 Per cui abbiamo trovato che $a + 1$ è un maggiorante di $A$, il che prova che $A$ **è superiormente limitato**.
 
 Per la **proprietà di completezza** allora
-$$\exists sup \ A := b \in \mathbb{R}_{+}$$
-Se noi dimostriamo che $b^{2} = a$ allora abbiamo per forza che $b = \sqrt{a}$. Noi sappiamo per forza, infatti, che per la definizione stessa di $A$ è ovvio che il suo $sup$ sia $\sqrt{a}$, ma per dimostrarlo correttamente dobbiamo essere certi del fatto che $b^{2} = a$.
+$$\exists \sup \ A := b \in \mathbb{R}_{+}$$
+Se noi dimostriamo che $b^{2} = a$ allora abbiamo per forza che $b = \sqrt{a}$. Noi sappiamo per forza, infatti, che per la definizione stessa di $A$ è ovvio che il suo $\sup$ sia $\sqrt{a}$, ma per dimostrarlo correttamente dobbiamo essere certi del fatto che $b^{2} = a$.
 
 Procediamo allora [[Dimostrazione per assurdo|per assurdo]], mostrando che non può essere $b^{2} < a$ né $b^{2} > a$.
 
@@ -55,7 +55,7 @@ $$\exists \epsilon > 0: (b+\epsilon)^{2} < a$$
 
 Dalla definizione stessa di $A$ allora
 $$(b + \epsilon) \in A$$
-(perché $c^{2} \leq a$), il che vorrebbe dire però che è più piccolo di $sup \ A = b$. Per cui
+(perché $c^{2} \leq a$), il che vorrebbe dire però che è più piccolo di $\sup \ A = b$. Per cui
 $$(b + \epsilon) \leq sup \ A = b$$
 da cui
 $$b + \epsilon \leq b$$

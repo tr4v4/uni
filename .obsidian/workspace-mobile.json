@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3422f77e0ceddbbd",
+        "id": "9399f073a532befc",
         "type": "tabs",
         "children": [
           {
-            "id": "02482ea7b0df0992",
+            "id": "0f694d54e7b1d370",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 02052024091854.md",
+                "file": "2. notes/Macchina astratta.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "961f1dd3c4b08461",
@@ -97,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1. lectures/Lecture 02052024091854.md",
+            "file": "2. notes/Macchina astratta.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "1. lectures/Lecture 02052024091854.md",
+            "file": "2. notes/Macchina astratta.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -126,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "1. lectures/Lecture 02052024091854.md"
+            "file": "2. notes/Macchina astratta.md"
           }
         }
       }
@@ -135,6 +135,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "obsidian-google-tasks:Google Tasks": false,
       "random-note:Open random note": false,
       "3d-graph:3D Graph": false,
@@ -149,34 +150,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02482ea7b0df0992",
+  "active": "0f694d54e7b1d370",
   "lastOpenFiles": [
-    "0. mocs/Algoritmi e strutture dati.md",
-    "1. lectures/Lecture 06052024092734.md",
-    "1. lectures/Lecture 07052024111936.md",
-    "2. notes/D-heap.md",
-    "2. notes/Array heap.md",
-    "2. notes/Coda con priorità.md",
-    "1. lectures/Lecture 06052024131425.md",
-    "0. mocs/Analisi I.md",
-    "2. notes/Teorema di Weierstrass.md",
-    "2. notes/Teorema di Weierstrass esteso.md",
-    "2. notes/Derivata parziale seconda.md",
-    "2. notes/Studio del gradiente.md",
-    "2. notes/Teorema di Schwarz.md",
-    "2. notes/Derivata direzionale.md",
-    "2. notes/Derivata lungo una curva.md",
-    "1. lectures/Lecture 24042024092014.md",
-    "0. mocs/Algebra e geometria.md",
-    "2. notes/Prodotto scalare.md",
-    "2. notes/Diagonalizzabilità.md",
-    "2. notes/Sistema lineare.md",
-    "2. notes/Controimmagine.md",
-    "media/excalidraw/Drawing 2024-03-31 12.19.58.excalidraw.md",
-    "2. notes/Teorema della dimensione.md",
-    "2. notes/Applicazione lineare.md",
-    "1. lectures/Lecture 18042024111552.md",
-    "2. notes/Polinomio caratteristico.md",
+    "2. notes/Macchina fisica.md",
+    "2. notes/Macchina astratta.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Interprete.md",
+    "2. notes/Linguaggio macchina.md",
+    "2. notes/Algebra delle derivate.md",
+    "2. notes/Regole di derivazione.md",
+    "2. notes/Derivata.md",
+    "2. notes/Teorema del completamento.md",
+    "2. notes/Base ortonormale.md",
+    "2. notes/Sottospazio vettoriale.md",
+    "2. notes/Sottospazi vettoriali dei polinomi.md",
+    "2. notes/Codici correttori.md",
+    "2. notes/Rappresentazione dell'informazione.md",
+    "2. notes/Notazione asintotica.md",
+    "2. notes/Sommatorie notevoli.md",
+    "2. notes/BFS su grafi.md",
+    "2. notes/Algoritmo di ordinamento.md",
+    "2. notes/Dizionario.md",
+    "2. notes/Albero binario.md",
+    "2. notes/Albero AVL.md",
+    "2. notes/Algoritmo di ordinamento comparativo.md",
+    "2. notes/Funzione differenziabile.md",
+    "2. notes/Funzione integrale.md",
+    "2. notes/Sviluppo in serie di Taylor.md",
+    "2. notes/Semianello.md",
+    "media/insieme-semplice-asse-y.jpg",
+    "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",
     "Untitled",
     "Untitled 1"

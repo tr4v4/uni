@@ -12,8 +12,8 @@ links:
 ---
 ## Definizione
 > Il **massimo** di un insieme di $A \subseteq \mathbb{R}$ è definito come
-> $$c := max(A) = \forall a \in A: a \leq c$$
+> $$c := \max(A) = \forall a \in A: a \leq c : c \in A$$
 
-Il **massimo non c'è sempre**. Se esiste un massimo, esso è **il più piccolo dei [[Maggiorante|maggioranti]]** ($sup$).
+Il **massimo non c'è sempre**. Se esiste un massimo, esso è **il più piccolo dei [[Maggiorante|maggioranti]]** ($\sup$).
 
 ## Referenze

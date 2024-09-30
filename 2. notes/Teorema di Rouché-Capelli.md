@@ -68,7 +68,7 @@ $$\dim(\Im(L_{A})) = rc(A) < n$$
 Ora, sempre per il teorema della dimensione devo avere
 $$\dim(\mathbb{R}^{n}) = \dim(\ker(L_{A})) + \dim(\Im(L_{A})) \iff n = \dim(\ker(L_{A})) + rk(A)$$
 e ciò avviene allora $\iff$
-$$\dim(\ker(L_{A})) = n - rk(A) > 1$$
+$$\dim(\ker(L_{A})) = n - rk(A) > 0$$
 
 Posso allora sempre scrivere per il teorema di struttura per sistemi lineari la soluzione di $A\underline{x} = \underline{b}$ come
 $$S = \{v + z | z \in \ker(L_{A})\}$$

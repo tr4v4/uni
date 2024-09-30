@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f67dbf3a4c339e02",
+        "id": "97222e2e19d2c387",
         "type": "tabs",
         "children": [
           {
-            "id": "5855d83e0778b2f9",
+            "id": "a5a53af6b35f2f01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Calcolo numerico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "012b006547ea6cb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 26092024092021.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.00260543823242,
+    "width": 270,
     "collapsed": true
   },
   "right": {
@@ -83,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. lectures/Lecture 26092024092021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. lectures/Lecture 26092024092021.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 26092024092021.md"
+              }
             }
           },
           {
@@ -148,15 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
-            }
-          },
-          {
-            "id": "bcec95b56259cf2f",
-            "type": "leaf",
-            "state": {
-              "type": "google-calendar-view-month",
-              "state": {}
+              "state": {
+                "file": "1. lectures/Lecture 26092024092021.md"
+              }
             }
           },
           {
@@ -167,7 +182,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -180,6 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "1. lectures/Lecture 26092024092021.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,7 +219,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.31214753848498683,
+                  "scale": 0.3121475384849868,
                   "close": true
                 }
               }
@@ -240,51 +257,53 @@
       "audio-recorder:Start/stop recording": false,
       "random-note:Open random note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
       "3d-graph:3D Graph": false,
       "obsidian-google-tasks:Google Tasks": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "5855d83e0778b2f9",
+  "active": "012b006547ea6cb2",
   "lastOpenFiles": [
-    "2. notes/Insieme semplice.md",
-    "2. notes/Integrale multiplo.md",
-    "0. mocs/Analisi I.md",
-    "2. notes/Classificazione dei punti critici.md",
-    "media/excalidraw/Drawing 2024-05-13 21.42.27.excalidraw.md",
-    "1. lectures/Lecture 13052024131457.md",
+    "0. mocs/Calcolo numerico.md",
+    "2. notes/Grammatiche.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 24092024110820.md",
+    "1. lectures/Lecture 26092024120454.md",
+    "2. notes/Linguaggio di programmazione.md",
+    "2. notes/Descrivere un linguaggio di programmazione.md",
+    "2. notes/Linguaggio formale.md",
+    "2. notes/Rappresentazione finita di un linguaggio.md",
+    "2. notes/Albero di deduzione naturale.md",
+    "2. notes/Regole di inferenza.md",
+    "2. notes/Dimostrazione R non numerabile.md",
+    "2. notes/Teorema di Cantor.md",
+    "1. lectures/Lecture 19092024125624.md",
+    "2. notes/Implementazione.md",
+    "2. notes/Pragmatica.md",
+    "2. notes/Semantica.md",
+    "2. notes/Sintassi.md",
+    "1. lectures/Lecture 24092024092227.md",
+    "1. lectures/Lecture 26092024092021.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 27092024132110.md",
+    "1. lectures/Lecture 25092024132223.md",
+    "1. lectures/Lecture 20092024132015.md",
+    "0. mocs/Tecnologie web.md",
+    "1. lectures/Lecture 26092024150810.md",
+    "media/rete-generica.png",
+    "media/compilatore-e-interprete.png",
+    "media/traduzione-compilatore.png",
+    "media/traduzione-interprete.png",
+    "media/URL-URN.png",
+    "media/interprete.png",
+    "media/macchina-astratta.png",
+    "media/esiti-esami.png",
+    "3. projects/aijsodijas.canvas",
+    "media/teorema-media-integrale.png",
     "media/insieme-semplice-asse-x.jpg",
-    "media/insieme-semplice-asse-y.jpg",
-    "2. notes/funzione di.md",
-    "2. notes/Sottografico di funzione.md",
-    "2. notes/Theta.md",
-    "2. notes/Componenti connesse.md",
-    "0. mocs/Algoritmi e strutture dati.md",
-    "1. lectures/Lecture 09052024092229.md",
-    "1. lectures/Lecture 13052024092533.md",
-    "2. notes/Minimum spanning tree.md",
-    "media/regola-taglio-2.png",
-    "2. notes/Algoritmo di Kruskal.md",
-    "media/regola-ciclo-2.png",
-    "media/regola-taglio-1.png",
-    "media/regola-ciclo-1.png",
-    "1. lectures/Lecture 06052024092734.md",
-    "1. lectures/Lecture 02052024091854.md",
-    "1. lectures/Lecture 08052024111814.md",
-    "1. lectures/Lecture 07052024111936.md",
-    "2. notes/Teorema di Weierstrass.md",
-    "2. notes/Teorema di Schwarz.md",
-    "2. notes/Derivata lungo una curva.md",
-    "1. lectures/Lecture 10052024144525.md",
-    "2. notes/Studio del gradiente.md",
-    "2. notes/Classificazione forme quadratiche.md",
-    "2. notes/Forma quadratica.md",
-    "media/scc.png",
-    "media/ordinamento-topologico.png",
-    "media/dfs-grafo-orientato.png",
-    "media/raggio-di-curvatura.png",
     "media/raggio-di-curvatura.jpg.crdownload",
     "media/raggio-di-curvatura.png.crdownload",
     "media/torri-di-hanoi.jpeg.crdownload",
@@ -295,7 +314,6 @@
     "templates",
     "media/esame2019.07.01.pdf",
     "media/excalidraw",
-    "3. projects/aijsodijas.canvas",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

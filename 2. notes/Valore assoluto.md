@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 > Il **valore assoluto** si definisce come
-> $$|a| := max\{a, -a\}$$
+> $$|a| := \max\{a, -a\}$$
 
 ## Proprietà
 Di seguito le principali proprietà

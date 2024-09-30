@@ -56,7 +56,6 @@ esponenziale.
 
 <u>Attenzione</u>: si dimostra che non è possibile applicare un numero di mosse minori di questo.
 
-
 #### Moltiplicazione di interi
 Non solo l'approccio _divide et impera_ aiuta a risolvere problemi complessi con semplicità, ma **a volte consente di ridurre il costo computazionale di algoritmi standard**. Per esempio, la moltiplicazione in colonna tra due interi richiederebbe di norma $n^{2}$ operazioni[^1]:
 ![[moltiplicazione-in-colonna.png]]

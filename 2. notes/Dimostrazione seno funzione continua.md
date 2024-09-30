@@ -19,7 +19,7 @@ Ora, se $x \to x_{0}$, allora si può dire che $h \to 0$. Riscriviamo allora il 
 $$\lim_{h \to 0} \sin(x_{0} + h) = \sin(x_{0})$$
 
 Dalle [[Formule trigonometriche|formule trigonometriche]] sappiamo che
-$$\sin(x_{0} + h) = \sin(x_{0})\cdot\cos(h) + cos(x_{0})\cdot\sin(h)$$
+$$\sin(x_{0} + h) = \sin(x_{0})\cdot\cos(h) + \cos(x_{0})\cdot\sin(h)$$
 
 Per $h \to 0$ avremo allora:
 - $\cos(h) = 1$

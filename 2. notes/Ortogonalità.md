@@ -34,4 +34,29 @@ per cui è ortogonale a $x$.
 > L'unico vettore di $\mathbb{R}^{n}$ perpendicolare a tutti gli altri è il vettore nullo $\underline{0}$, ovvero
 > $$<v, w> = 0 \ \ \forall w \in \mathbb{R}^{n} \iff v = \underline{0}$$
 
+### Lineare indipendenza
+> Siano $v_{1}, \cdots, v_{k} \in \mathbb{R}^{n}$ vettori non nulli e a due a due ortogonali, allora $v_{1}, \cdots, v_{k}$ sono [[Indipendenza lineare|linearmente indipendenti]].
+
+Come importante corollario della proposizione si ha che, per il [[Teorema del completamento|teorema del completamento]], **il numero massimo di vettori non nulli di $\mathbb{R}^{n}$ ortogonali tra loro è $n$**.
+
+#### Dimostrazione
+Devo dimostrare l'indipendenza lineare di $v_{1}, \cdots, v_{k}$, allora uso la definizione e dimostro
+$$\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k} = \underline{0} \iff \lambda_{1} = \cdots = \lambda_{k} = 0$$
+
+Prendiamo in considerazione solo il seguente caso
+$$<\underline{0}, v_{1}> = 0$$
+Allora sostituisco il vettore nullo con $\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k}$ e dimostro
+$$<\lambda_{1}v_{1} + \cdots + \lambda_{k}v_{k}, v_{1}> = 0 \iff \lambda_{1} = \cdots = \lambda_{k} = 0$$
+
+Quindi, per la bilinearità del prodotto scalare posso scrivere
+$$\lambda_{1}<v_{1}, v_{1}> + \cdots + \lambda_{k}<v_{k}, v_{1}> = 0$$
+ed essendo i vettori ortogonali a due a due ho $<v_{i}, v_{1}> = 0 \ \ \forall i \neq 1$, perciò non rimane che
+$$\lambda_{1} <v_{1}, v_{1}> = 0$$
+ed essendo $v_{1}$ non nullo per ipotesi allora il risultato viene $\iff$
+$$\lambda_{1} = 0$$
+
+Ripetendo questo procedimento per i $k$ vettori si ottiene che ogni scalare $\lambda$ dev'essere uguale a 0, confermando la tesi.
+
+**Qed**.
+
 ## Referenze

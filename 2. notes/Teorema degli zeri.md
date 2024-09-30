@@ -35,7 +35,7 @@ $$f: A \to \mathbb{R}, \ \ \bar{x} \in A \cap \mathcal{D}(A)$$
 $$f \text{ continua in } \bar{x} \implies \forall x_{n} \in A: x_{n} \to \bar{x} \implies f(x_{n}) \stackrel{n \to +\infty}{\longrightarrow} f(\bar{x})$$
 
 ### Dimostrazione
-Assumendo che $f(a) < 0$ e $f(b) > 0$, vogliamo costruire due successioni $a_{n}$  e $b_{n}$ tali che:
+Assumendo che $f(a) < 0$ e $f(b) > 0$, vogliamo costruire due successioni $a_{n}$ e $b_{n}$ tali che:
 - $a_{1} = a$
 - $b_{1} = b$
 - $a_{n} \nearrow$ ([[Successione monotona#Successione crescente|crescente]])
@@ -111,7 +111,7 @@ che può essere soddisfatto solo se $f(c) = 0$.
 Questo tipo di dimostrazione è **costruttiva**, perché non si limita a dimostrare l'esistenza di $c \in ]a, b[ : f(c) = 0$, ma fornisce anche un procedimento da cui dedurre un algoritmo per approssimare le radici di $f$.
 
 ## Conseguenze
-Per il teorema degli zeri si prova per esempio come **tutti i polinomi di grado dispari si annullino per forza**. Sappiamo che sono [[Funzioni continue#Funzioni|funzioni continuie]] e [[Funzione suriettiva|suriettive]], e perciò in tutto il loro dominio dovranno per forza annullarsi in almeno un punto.
+Per il teorema degli zeri si prova per esempio come **tutti i polinomi di grado dispari si annullino per forza**. Sappiamo che sono [[Funzioni continue#Funzioni|funzioni continue]] e [[Funzione suriettiva|suriettive]], e perciò in tutto il loro dominio dovranno per forza annullarsi in almeno un punto.
 
 > Ogni polinomio di grado dispari ha almeno una radice.
 

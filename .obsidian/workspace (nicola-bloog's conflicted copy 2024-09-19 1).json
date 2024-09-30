@@ -1,0 +1,293 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a835a201568f107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5da247a66ccee077",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849868,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "obisidian-note-linker:Note Linker": false
+    }
+  },
+  "active": "5da247a66ccee077",
+  "lastOpenFiles": [
+    "1. lectures/Lecture 18092024131539.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 18092024161523.md",
+    "1. lectures/Lecture 16092024131302.md",
+    "0. mocs/Calcolo numerico.md",
+    "2. notes/Rappresentazione dell'informazione.md",
+    "2. notes/Codifica floating-point.md",
+    "2. notes/Conversione binario-decimale.md",
+    "2. notes/Estremo superiore.md",
+    "2. notes/Maggiorante.md",
+    "2. notes/Proprietà di completezza di R.md",
+    "2. notes/Regole di inferenza di EM.md",
+    "1. lectures/Lecture 05102023130513.md",
+    "2. notes/Codifica numeri interi.md",
+    "2. notes/Heap sort.md",
+    "2. notes/Teorema di Binet.md",
+    "1. lectures/Lecture 13122023131453.md",
+    "1. lectures/Lecture 29022024091237.md",
+    "2. notes/Stringhe.md",
+    "2. notes/Paginazione.md",
+    "2. notes/Storia degli elaboratori.md",
+    "2. notes/Equazione di ricorrenza.md",
+    "2. notes/Funzione matematica.md",
+    "2. notes/Sottospazio vettoriale.md",
+    "2. notes/Induzione strutturale.md",
+    "2. notes/Commutazione al fronte.md",
+    "media/esiti-esami.png",
+    "3. projects/aijsodijas.canvas",
+    "media/teorema-media-integrale.png",
+    "media/insieme-semplice-asse-x.jpg",
+    "media/insieme-semplice-asse-y.jpg",
+    "media/regola-taglio-2.png",
+    "media/regola-ciclo-2.png",
+    "media/regola-taglio-1.png",
+    "media/regola-ciclo-1.png",
+    "media/scc.png",
+    "media/ordinamento-topologico.png",
+    "media/raggio-di-curvatura.jpg.crdownload",
+    "media/raggio-di-curvatura.png.crdownload",
+    "media/torri-di-hanoi.jpeg.crdownload",
+    "media/linee-di-livello-circonferenze.png.crdownload",
+    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
+    "Untitled Document",
+    "netlify.toml",
+    "templates",
+    "media/esame2019.07.01.pdf",
+    "media/excalidraw",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

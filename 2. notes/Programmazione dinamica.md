@@ -25,7 +25,7 @@ Se volessimo rappresentare un problema come [[Albero informatico|alberi]] cui no
 Il processo risolutivo di un algoritmo di programmazione dinamica involve sempre 4 passaggi fondamentali:
 1. **identificazione dei sottoproblemi**;
 2. **risoluzione dei sottoproblemi** sfruttando un approccio [[Induzione strutturale|induttivo]] --> si risolvono i casi base, poi si trova un meccanismo per risolvere tutti gli altri sottoproblemi usando le soluzioni calcolate in precedenza;
-3. **ricostruzione della soluzione effettiva** --> questo perché la soluzione ottenuta è come se fosse un risultato in [[Logica classica|logica classica]], per cui _fornisce un valore ma non il modo per ottenerlo_; 
+3. **ricostruzione della soluzione effettiva** --> questo perché la soluzione ottenuta è come se fosse un risultato in [[Logica classica|logica classica]], per cui _fornisce un valore ma non il modo per ottenerlo_;
 
 ## Esempi
 ### Fibonacci

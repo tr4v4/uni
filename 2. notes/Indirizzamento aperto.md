@@ -25,7 +25,7 @@ Prima di tutto tra la funzione `hash` $h$ e le operazioni `search`, `insert` e `
 
 <u>Nota bene</u>: la funzione d'ispezione è delicata. Se fatta male _potrebbe non visitare ogni slot solo una volta, ed entrare in un loop senza uscirne_: questo non consentirebbe la visita di ogni casella della tabella. Si dice allora che tale funzione **deve fornire una [[Permutazione|permutazione]] degli indici $0, \cdots, m-1$ della tabella hash**.
 
-In secondo luogo, la rimozione `delete` dev'essere gestita con criterio. Non possiamo infatti semplicemente mettere a `NIL` la cella da rimuovere, perché questo andrebbe a corrompere il fuzionamento della funzione di ispezione $h(k, i)$: _se questa smette di cercare $k$ non appena trova una cella `NIL`, non possiamo sapere se questa identifica la fine della sequenza da ricercare o se si tratta di un buco_. Allora l'idea è di **usare un marcatore `DELETED` per identificare le chiavi che sono state rimosse, in modo da non interrompere l'ispezione**.
+In secondo luogo, la rimozione `delete` dev'essere gestita con criterio. Non possiamo infatti semplicemente mettere a `NIL` la cella da rimuovere, perché questo andrebbe a corrompere il funzionamento della funzione di ispezione $h(k, i)$: _se questa smette di cercare $k$ non appena trova una cella `NIL`, non possiamo sapere se questa identifica la fine della sequenza da ricercare o se si tratta di un buco_. Allora l'idea è di **usare un marcatore `DELETED` per identificare le chiavi che sono state rimosse, in modo da non interrompere l'ispezione**.
 
 ![[indirizzamento-aperto-search.png]]
 ![[indirizzamento-aperto-insert.png]]
@@ -54,6 +54,6 @@ Assumendo [[Uniformità semplice|hashing uniforme semplice]], otteniamo due _teo
 ### Caso medio
 Di conseguenza per entrambi casi si ha che se $\alpha$ è costante il tempo di accesso è $O(1)$, e invece:
 - $\alpha = 0.5 \implies$ la ricerca senza successo richiede in media al massimo 2 ispezioni; la ricerca con successo meno di 2;
-- $\alpha = 0.9 \implies$ la ricerca senza successo richiede in media al massimo 10 ispezioni; la ricerca; la ricerca senza successo meno di 3;
+- $\alpha = 0.9 \implies$ la ricerca senza successo richiede in media al massimo 10 ispezioni; la ricerca con successo meno di 3;
 
 ## Referenze

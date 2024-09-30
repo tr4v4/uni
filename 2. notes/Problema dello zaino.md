@@ -52,7 +52,7 @@ Non ci resta che risolvere in modo efficiente il sottoproblema $P(i, j)$, per cu
 			- $V[i, j] = v[i] + V[i-1, j-p[i]]$
 
 Riassumendo si hanno le seguenti formule:
-$$\begin{align} V[i, 0] =& 0 \\ V[1, j] =& \begin{cases} v[1] & j \geq p[1] \\ V[1, j] = 0 & j < p[1] \end{cases} \\ V[i, j] =& \begin{cases} V[i-1, j] & j < p[i] \\ \max(V[i-1, j], V[i-1, j-p[i]]+v[i] & j \geq p[i] \end{cases} \end{align}$$
+$$\begin{align} V[i, 0] =& 0 \\ V[1, j] =& \begin{cases} v[1] & j \geq p[1] \\ 0 & j < p[1] \end{cases} \\ V[i, j] =& \begin{cases} V[i-1, j] & j < p[i] \\ \max(V[i-1, j], V[i-1, j-p[i]]+v[i]) & j \geq p[i] \end{cases} \end{align}$$
 
 La soluzione si troverà nell'ultima cella in basso a destra, ovvero in $V(n, P)$.
 

@@ -28,7 +28,7 @@ Considerazioni:
 > Un [[Insieme finito|insieme finito]] non può essere equipotente ad un suo sottoinsieme proprio.
 
 ### Insiemi infiniti
-> Un [[Insieme infinito|insieme infinito]] può essere equipotente ad un suo sottinsieme proprio.
+> Un [[Insieme infinito|insieme infinito]] può essere equipotente ad un suo sottoinsieme proprio.
 
 Questo risulta meno ovvio, ma _nel mondo degli infiniti l'intuizione fa sbagliare_.
 

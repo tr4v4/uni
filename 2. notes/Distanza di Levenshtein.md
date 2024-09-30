@@ -42,7 +42,7 @@ L'algoritmo che consente di trovare la distanza di Levenshtein di due stringhe $
 Il sottoproblema $P(i, j)$ vuole trasformare un prefisso di $S[1, \cdots, i]$ in un prefisso di $T[1, \cdots, j]$. Ci salviamo in una [[Matrice|matrice]] d'appoggio $L[i, j]$ ogni costo della trasformazione del prefisso per $i \in \{0, \cdots, n\}$ e $j \in \{0, \cdots, m\}$.
 
 Risolviamo ora $P(i, j)$ induttivamente:
-- _caso base $i = 0 \lor j = 0$_: si vuole trasformare una stringa vuota in una stringa non vuota, quindi ci vorranno rispettivamente $j$ inserimenti (per $i = 0$) e $i$ inserimenti (per $j = 0$)
+- _caso base $i = 0 \lor j = 0$_: si vuole trasformare una stringa vuota in una stringa non vuota, quindi ci vorranno rispettivamente $j$ inserimenti (per $i = 0$) e $i$ rimozioni (per $j = 0$)
 	- $P(0, j) = j$
 	- $P(i, 0) = i$
 - _caso induttivo $i > 0 \land j > 0$_: ci sono 3 vie per trasformare $S[1, \cdots, i]$ in $T[1, \cdots, j]$
@@ -63,7 +63,7 @@ $$L[i, j] = \begin{cases}
 
 A questo punto **la soluzione finale sarà nella cella $L[n, m]$** (in basso a destra).
 
-Non ci rimane, una volta trovato la distanza, quali sono eventualmente le trasformazioni che producono questa distanza: l'idea è di andare a ritroso partendo dall'ultima cella scegliendo ad ogni iterazione la cella, tra le 3 adiacenti, con numero minore.
+Non ci rimane, una volta trovata la distanza, capire quali sono eventualmente le trasformazioni che producono questa distanza: l'idea è di andare a ritroso partendo dall'ultima cella scegliendo ad ogni iterazione la cella, tra le 3 adiacenti, con numero minore.
 
 <u>Nota bene</u>: _ci sono più strade che si possono intraprendere_.
 

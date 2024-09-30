@@ -88,7 +88,7 @@ Il [[Complessità computazionale|costo computazionale]] della DFS è assolutamen
 - per le [[Matrice di adiacenza|matrici di adiacenza]] dobbiamo scorrere per ogni vertice $n$ i suoi archi e i suoi non archi, per cui $n$ vertici --> in totale avremo $O(n) + O(n^{2}) = O(n^{2})$.
 
 ## Importanza
-Ciò che la visita DFS consente di conoscere di un grafo consente nei 2/3 attributi che compila per ogni vertice, ovvero:
+Ciò che la visita DFS consente di conoscere di un grafo consiste nei 2/3 attributi che compila per ogni vertice, ovvero:
 - `v.mark` - `white` se inesplorato, `gray` se aperto, `black` se chiuso;
 - `v.dt` - "discovery time", tempo di scoperta del vertice `v`;
 - `v.ft` - "finish time", tempo di terminazione del vertice `v`.
@@ -123,6 +123,8 @@ Se si applica la DFS su grafi orientati si possono ottenere tante altre propriet
 ![[dfs-grafo-orientato.png]]
 
 <u>Nota bene</u>: _non è possibile avere archi $(u, v)$ di attraversamento a dx_. Questo perché se $(u, v)$ fosse un arco di attraversamento a dx vorrebbe dire che $u.ft < v.dt$; allora $u$ sarebbe visitato prima di $v$, ed esistendo $(u, v)$ allora $v$ si raggiungerebbe da $u$ come vertice adiacente inesplorato, per cui ne sarebbe discendente, il che contraddice l'ipotesi $u.ft < v.dt$ per il teorema delle parentesi.
+
+<u>Nota bene</u>: di fatto, un arco di attraversamento a sx collega un nodo "nuovo" con uno vecchio, già esplorato (`black`), ossia il presente con il passato; invece, un ipotetico arco di attraversamento a dx collegherebbe un nodo vecchio a uno nuovo, ossia il passato con il presente, il che è quindi impossibile perché allora il nodo vecchio dovrebbe essere un ascendente del nuovo.
 
 <u>Osservazione</u>: un arco all'indietro porta un discendente verso un suo ascendente, creando per definizione un _ciclo_.
 

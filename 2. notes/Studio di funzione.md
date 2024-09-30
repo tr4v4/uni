@@ -13,7 +13,7 @@ links:
 Volto a costruire il [[Grafico di una funzione|grafico di una funzione]] in maniera **qualitativa**.
 
 Consiste in 4 passaggi:
-1. calcolo del [[Lecture 21102023141854|dominio naturale]] della funzione
+1. calcolo del [[Dominio naturale|dominio naturale]] della funzione
 2. individuare eventuali simmetrie ([[Parità di una funzione|parità]] e [[Disparità di una funzione|disparità]]) (facoltativo)
 	- <u>nota bene</u>: se il dominio della funzione non è simmetrico rispetto all'origine allora la funzione stessa non sarà simmetrica
 3. calcolo dei limiti alla "frontiera" del dominio, quindi calcolo degli _asintoti verticali e orizzontali_

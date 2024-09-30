@@ -25,7 +25,7 @@ $$D(\cos(x)) = -\sin(x)$$
 
 $$D(\tan(x)) = \frac{1}{\cos^{2}(x)} = 1 + \tan^{2}(x)$$
 
-## [[Funzioni trigonometriche inverse|Trigonometriche inverse]]
+### [[Funzioni trigonometriche inverse|Trigonometriche inverse]]
 $$D(\arcsin(x)) = \frac{1}{\sqrt{1-x^{2}}} \ \ \ (-1 < x < 1)$$
 
 $$D(\arccos(x)) = - \frac{1}{\sqrt{1-x^{2}}} \ \ \ (-1 < x < 1)$$
@@ -37,7 +37,7 @@ $$D(e^{x}) = e^{x}$$
 
 $$D(a^{x}) = \ln(a) \cdot a^x$$
 
-## [[Funzione logaritmica|Logaritmi]]
+### [[Funzione logaritmica|Logaritmi]]
 $$D(\ln(x)) = \frac{1}{x}$$
 
 $$D(\log_{a}(x)) = \frac{1}{\ln(a)} \cdot \frac{1}{x}$$

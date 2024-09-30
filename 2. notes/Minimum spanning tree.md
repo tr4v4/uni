@@ -11,7 +11,7 @@ links:
 # Minimum spanning tree
 ---
 ## Introduzione
-> In un [[Grafo|grafo]] [[Grafo non orientato|non orientato]] ma [[Grafo pesato|pesato]] e (per semplicità) connesso, il **minimum spanning tree** (o **MST**) è un _sottografo aciclico, in particolare un albero di copertura (spanning tree), cui somma del peso degli archi è il minore possibile_.
+> In un [[Grafo|grafo]] [[Grafo non orientato|non orientato]] ma [[Grafo pesato|pesato]] e (per semplicità) connesso, il **minimum spanning tree** (o **MST**) è un _sottografo aciclico, in particolare un albero di copertura (spanning tree), cui somma del peso degli archi è la minore possibile_.
 
 <u>Nota bene</u>: _esiste più di un albero di copertura_, ma si vuole trovare quello con peso complessivo degli archi minore.
 

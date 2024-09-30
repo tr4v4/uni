@@ -92,7 +92,7 @@ In particolare il polinomio caratteristico può essere composto da monomi di gra
 
 Allora per gli autovalori con molteplicità algebrica uguale a 1 sappiamo, per la proposizione sul legame degli autovalori con le molteplicità, che la dimensione dell'autospazio per quell'autovalore, ovvero la sua [[Molteplicità geometrica|molteplicità geometrica]], sarà esattamente 1. Vale a dire che riusciremo ad estrarre 1 autovettore linearmente indipendente da quell'autospazio.
 
-Per gli autovalori con molteplicità algebrica maggiore di 1 dovremmo andare ad analizzare la dimensione dell'autospazio! Tale dimensione indica di fatto quandi autovettori possiamo estrapolare per quell'autovalore: se $m_{a}(\lambda) = 3$ potrebbe capitare che $m_{g}(\lambda) = 1$. Se dobbiamo trovare $n$ autovettori linearmente indipendenti (per formare una base) allora la somma delle dimensioni degli autospazi dev'essere esattamente $n$; e se sappiamo che la somma delle molteplicità algebriche deve a sua volta essere $n$ (altrimenti non c'è speranza che $f$ sia diagonalizzabile), allora per forza $m_{a}(\lambda_{i}) = m_{g}(\lambda_{i}) \ \ \forall i \in \{1, \cdots, k\}$.
+Per gli autovalori con molteplicità algebrica maggiore di 1 dovremmo andare ad analizzare la dimensione dell'autospazio! Tale dimensione indica di fatto quanti autovettori linearmente indipendenti possiamo estrapolare per quell'autovalore: se $m_{a}(\lambda) = 3$ potrebbe capitare che $m_{g}(\lambda) = 1$. Se dobbiamo trovare $n$ autovettori linearmente indipendenti (per formare una base) allora la somma delle dimensioni degli autospazi dev'essere esattamente $n$; e se sappiamo che la somma delle molteplicità algebriche deve a sua volta essere $n$ (altrimenti non c'è speranza che $f$ sia diagonalizzabile), allora per forza $m_{a}(\lambda_{i}) = m_{g}(\lambda_{i}) \ \ \forall i \in \{1, \cdots, k\}$.
 
 Fondamentalmente **se anche per un solo autovalore la molteplicità geometrica non coincide con quella algebrica significa che non riusciremo mai a ottenere abbastanza autovettori linearmente indipendenti per formare una base di $f$**.
 
@@ -197,4 +197,6 @@ In poche parole costruiamo la matrice $D$ mettendo gli autovalori trovato nella 
 $$D = \begin{pmatrix} -1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$$
 
 ## Referenze
+- una spiegazione e dimostrazione del teorema di diagonalizzabilità (ultima proposizione) è data [qui](https://pagine.dm.unipi.it/~algebralineare/ing1718/AppuntiSecondoSemestre/Alg%20Lin.pdf)
+
 [^1]: questo è possibile grazie alla [[Riflessività di una relazione|riflessività]] della [[Relazione|relazione]] "essere simili" ($A = P^{-1} \cdot A \cdot P$)

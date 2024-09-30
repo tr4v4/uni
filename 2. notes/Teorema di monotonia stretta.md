@@ -25,7 +25,7 @@ Questo teorema risulta fondamentale nella distinzione tra le funzioni monotone e
 Per dimostrare il teorema (solo il caso della crescenza) assumiamo di avere una funzione $f : ]a, b[$ crescente, e per contraddizione supponiamo che essa non sia strettamente crescente. Per la definizione di crescenza vorrebbe dire che potenzialmente
 $$\exists x_{1}, x_{2} \in ]a, b[ : x_{1} < x_{2} \implies f(x_{1}) = f(x_{2})$$
 Essendo $f$ crescente avremo allora che
-$$\forall x in ]x_{1}, x_{2}[ : f(x_{1}) \leq f(x) \leq f(x_{2})$$
+$$\forall x \in ]x_{1}, x_{2}[ : f(x_{1}) \leq f(x) \leq f(x_{2})$$
 ovvero, in quanto $f(x_{1}) = f(x_{2})$, $f(x)$ è **costante** su $[x_{1}, x_{2}]$. Vale a dire
 $$f'(x) = 0 \ \ \ \forall x \in ]x_{1}, x_{2}[$$
 in contraddizione con l'ipotesi $N = \{x \in ]a, b[ : f'(x) = 0\}$ _finito_.

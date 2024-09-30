@@ -26,7 +26,7 @@ $$\forall \epsilon > 0, \exists \delta > 0: \forall x \in A: 0 < ||x-x_{0}|| < \
 <u>Nota bene</u>: dell'ipotesi $0 < |x-x_{0}| < \delta$ _in questo caso_ si può anche omettere la diversità $x \neq x_{0}$, riducendola a $|x-x_{0}| < \delta$. Questo perché in primo luogo $x_{0}$ sappiamo essere all'interno del dominio ($A$); ma soprattutto perché se $x=x_{0}$ come conseguenza avremo $|f(x_{0})-f(x_{0})| < \epsilon$ che ovviamente _è sempre vero_.
 
 Si può anche definire la continuità di una funzione per [[Successione numerica|successioni]], ovvero dicendo che $f$ è continua in $x_{0} \in A$ se
-$$\forall (x_{k})_{k \in \mathbb{N}} \in \mathbb{R}^{n} : \begin{cases} x_{k} \in A & \forall k \in \mathbb{N} \\ x_{k} \to x & k \to +\infty \end{cases} \implies f(x_{k}) \stackrel{k \to +\infty}{\longrightarrow} f(x)$$
+$$\forall (x_{k})_{k \in \mathbb{N}} \in \mathbb{R}^{n} : \begin{cases} x_{k} \in A & \forall k \in \mathbb{N} \\ x_{k} \to x_{0} & k \to +\infty \end{cases} \implies f(x_{k}) \stackrel{k \to +\infty}{\longrightarrow} f(x_{0})$$
 
 ### Regola
 > Ricordare che **la continuità vale solo per i punti del dominio**. Non si può parlare di continuità di un punto per una funzione se questo non appartiene al suo dominio.
@@ -42,7 +42,7 @@ Come conseguenza si ha che
 ## Funzioni
 Delle funzioni elementari abbiamo che:
 - _i polinomi sono tutte funzioni continue_ (per questo vale la [[Limite finito al finito di funzione#Polinomio|regola polinomiale per il limite al finito]])
-- _tutte le [[Funzioni trigonometriche|funzioni trigonometriche]] sono continue nel loro [[Lecture 21102023141854|dominio naturale]]_[^3]
+- _tutte le [[Funzioni trigonometriche|funzioni trigonometriche]] sono continue nel loro [[Dominio naturale|dominio naturale]]_[^3]
 - _tutte le [[Funzione esponenziale|funzioni esponenziali]] sono continue_
 - per le funzioni **incollate** la regolarità dei loro rami è uguale alla regolarità delle funzioni per quei rami, e _bisogna piuttosto concentrarsi sul punto di giunzione_
 

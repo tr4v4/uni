@@ -14,8 +14,8 @@ Per introdurre il _teorema di Weierstrass_ è necessario essere a conoscenza dei
 
 ## Teorema
 > Fissata una funzione $f: [a, b] \to \mathbb{R}$ [[Funzioni continue|continua]], **esiste sempre un punto di massimo e un punto di minimo assoluto**[^1]. Ovvero
-> $$\exists M \in [a, b] : f(x) \leq f(x_{0}) \ \ \forall x \in [a, b]$$
-> $$\exists m \in [a, b] : f(x) \geq f(x_{0}) \ \ \forall x \in [a, b]$$
+> $$\exists M \in [a, b] : f(x) \leq f(M) \ \ \forall x \in [a, b]$$
+> $$\exists m \in [a, b] : f(x) \geq f(m) \ \ \forall x \in [a, b]$$
 
 Come conseguenza fondamentale di questo teorema abbiamo che
 $$f([a, b]) \subseteq [m, M]$$

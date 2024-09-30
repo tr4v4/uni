@@ -39,7 +39,7 @@ $$C_{ij} = A_{ij} + B_{ij}$$
 Il **prodotto** tra due matrici $A \in M_{m \times k} (\mathbb{R})$ e $B \in M_{k \times n} (\mathbb{R})$ è una matrice $C \in M_{m \times n} (\mathbb{R})$ dove $C_{ij} = \text{riga i di A} \cdot \text{colonna j di B}$. Ogni coefficiente di $C$ sarà il risultato del [[Prodotto scalare|prodotto scalare]] tra la riga $i$-esima di $A$ e la colonna $j$-esima di $B$, ovvero assumerà una forma del tipo:
 $$a_{i1} \cdot b_{1j} + a_{i2} \cdot b_{2j} + ... + a_{ik} \cdot b_{kj}$$
 
-<u>Attenzione</u>: ovviamente, per poter rendere possibile il prodotto scalare tra riga e colonna di $A$ e $B$, _è necessario che il numero di colonne di $A$ sia uguale al numero di righe di $B$, non vale il contrario_! In caso contrario, ma matrice risultante si dice "_non definita_".
+<u>Attenzione</u>: ovviamente, per poter rendere possibile il prodotto scalare tra riga e colonna di $A$ e $B$, _è necessario che il numero di colonne di $A$ sia uguale al numero di righe di $B$, non vale il contrario_! In caso contrario, la matrice risultante si dice "_non definita_".
 
 <u>Attenzione</u>: _il prodotto tra matrici non è commutativo_, ovvero $A \cdot B \neq B \cdot A$.
 

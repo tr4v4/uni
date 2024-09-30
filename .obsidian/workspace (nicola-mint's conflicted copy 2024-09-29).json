@@ -1,0 +1,399 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "e429977892edfaf4",
+        "type": "tabs",
+        "dimension": 43.923240938166316,
+        "children": [
+          {
+            "id": "a1721669ca9df58c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Calcolo numerico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7b0b311defcba7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 23092024132935.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169c43337951c405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 24092024092227.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f0be91f0d5a70a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 26092024092021.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8560eebd181988bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "13bdfe51a8f82ff6",
+        "type": "tabs",
+        "dimension": 56.07675906183369,
+        "children": [
+          {
+            "id": "edbcdff428afc569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Codifica floating-point.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "523bb1731b49d85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d4ebef451f795a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Algoritmo di bisezione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md"
+              }
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3121475384849868,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "obisidian-note-linker:Note Linker": false
+    }
+  },
+  "active": "523bb1731b49d85a",
+  "lastOpenFiles": [
+    "2. notes/Algoritmo di bisezione.md",
+    "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+    "1. lectures/Lecture 23092024132935.md",
+    "1. lectures/Lecture 24092024092227.md",
+    "0. mocs/Calcolo numerico.md",
+    "2. notes/Codifica floating-point.md",
+    "2. notes/Errore di arrotondamento.md",
+    "2. notes/Errore nel calcolo numerico.md",
+    "2. notes/Aritmetica floating-point.md",
+    "1. lectures/Lecture 26092024092021.md",
+    "0. mocs/Tecnologie web.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 26092024150810.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 25092024132223.md",
+    "1. lectures/Lecture 19092024125624.md",
+    "1. lectures/Lecture 24092024110820.md",
+    "1. lectures/Lecture 26092024120454.md",
+    "2. notes/URI.md",
+    "2. notes/Linguaggio formale.md",
+    "2. notes/Linguaggio di programmazione.md",
+    "2. notes/Descrivere un linguaggio di programmazione.md",
+    "2. notes/Implementazione.md",
+    "2. notes/Pragmatica.md",
+    "2. notes/Semantica.md",
+    "2. notes/Sintassi.md",
+    "media/compilatore-e-interprete.png",
+    "media/traduzione-compilatore.png",
+    "media/traduzione-interprete.png",
+    "media/URL-URN.png",
+    "media/interprete.png",
+    "media/macchina-astratta.png",
+    "media/esiti-esami.png",
+    "3. projects/aijsodijas.canvas",
+    "media/teorema-media-integrale.png",
+    "media/insieme-semplice-asse-x.jpg",
+    "media/insieme-semplice-asse-y.jpg",
+    "media/raggio-di-curvatura.jpg.crdownload",
+    "media/raggio-di-curvatura.png.crdownload",
+    "media/torri-di-hanoi.jpeg.crdownload",
+    "media/linee-di-livello-circonferenze.png.crdownload",
+    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
+    "Untitled Document",
+    "netlify.toml",
+    "templates",
+    "media/esame2019.07.01.pdf",
+    "media/excalidraw",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

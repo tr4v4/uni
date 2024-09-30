@@ -25,7 +25,7 @@ Talvolta $n=0$ si può omettere, rappresentando con:
 $$\mathbb{N}^{*} = \mathbb{N} \setminus \{0\}$$
 
 L'insieme degli elementi che compone la successione è detta, come per le funzioni, **immagine**:
-$$Imf = \{a_{n} | n \in \mathbb{N}\}$$
+$$\Im(f) = \{a_{n} | n \in \mathbb{N}\}$$
 
 <u>Attenzione</u>: l'immagine è un insieme, per cui non ha un ordine; la successione invece sì.
 

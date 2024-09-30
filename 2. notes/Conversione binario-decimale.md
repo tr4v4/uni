@@ -3,10 +3,12 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/calcolo-numerico
 date: 08-10-2023 19:38:49
 links:
   - "[[Lecture 05102023130513]]"
   - "[[Lecture 09102023132029]]"
+  - "[[Lecture 16092024131302]]"
 ---
 # Conversione binario-decimale
 ---
@@ -33,6 +35,12 @@ Per questo si usa questo algoritmo per calcolare per un qualunque numero con la 
 1. si moltiplica il numero con la virgola per 2
 2. il numero intero risultato (che sia 0 o 1) è la i-esima cifra del numero binario
 3. tolgo l'intero dal risultato e ripeto dallo step 2 fino a che il numero con la virgola non diventa 0
+
+<u>Nota bene</u>: in questo caso quindi la parte decimale binaria si legge come si scrive (e non dal basso verso l'alto).
+
+Quindi in poche parole:
+- per la parte di numero intera si utilizza il _metodo delle divisioni successive_;
+- per la parte di numero decimale si utilizza il _metodo delle moltiplicazioni successive_.
 
 <u>Cosa importantissima</u> da notare è che alcuni numeri decimali _finiti_ **in binario non lo sono**! Ci sono numeri come `0.3` che in _binario sono periodici_.
 

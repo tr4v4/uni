@@ -17,7 +17,7 @@ E' importante precisare che i limiti destri e sinistri possono determinare o men
 
 > Se $L \in \mathbb{R} \cup \{+\infty\} \cup \{-\infty\}$
 > allora
-> $$\lim_{x \to x_{0}} f(x) = L \iff \begin{cases} \exists \lim_{x \to x_{0}^{-}} f(x), \lim_{x \to x_{0}^{+}} f(x) \\ \lim_{x \to x_{0}^{-}} f(x) = \lim_{x \to x_{0}^{+}} \\ \lim_{x \to x_{0}^{-}} f(x) = L = \lim_{x \to x_{0}^{+}} f(x) \end{cases}$$
+> $$\lim_{x \to x_{0}} f(x) = L \iff \begin{cases} \exists \lim_{x \to x_{0}^{-}} f(x), \lim_{x \to x_{0}^{+}} f(x) \\ \lim_{x \to x_{0}^{-}} f(x) = \lim_{x \to x_{0}^{+}} f(x) \\ \lim_{x \to x_{0}^{-}} f(x) = L = \lim_{x \to x_{0}^{+}} f(x) \end{cases}$$
 
 Ciò significa che in caso contrario, ovvero qualora i limiti destro e sinistro per $x_{0}$ fossero discordanti, allora il limite per $x_{0}$ non esisterebbe!
 

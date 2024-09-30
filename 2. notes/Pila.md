@@ -47,7 +47,7 @@ E' ora di analizzare la complessità computazionale dell'algoritmo, per capire s
 - `PUSH`: $\Theta(n)$ nel caso pessimo, $O(1)$ nel caso ottimo;
 - `POP`: $\Theta(n)$ nel caso pessimo, $O(1)$ nel caso ottimo;
 
-Purtroppo questi risultati, per quanto corretti, _non catturano il reale comportamento dell'algoritmo_: infatti _non si possono avere più casi pessimi di fila_, perché il ridimensionamento avviene in condizioni che per logicamente non possono avvenire in modo contiguo. Di conseguenza si tratta di _stime piuttosto pessimiste_.
+Purtroppo questi risultati, per quanto corretti, _non catturano il reale comportamento dell'algoritmo_: infatti _non si possono avere più casi pessimi di fila_, perché il ridimensionamento avviene in condizioni che logicamente non possono avvenire in modo contiguo. Di conseguenza si tratta di _stime piuttosto pessimiste_.
 
 Per casi del genere si è soliti calcolare il [[Analisi ammortizzata|costo ammortizzato]], ovvero il costo medio di una sequenza di $n$ operazioni. Per il `PUSH`, per esempio, possiamo usare il [[Metodo dell'aggregazione|metodo dell'aggregazione]]. Infatti basta notare che il costo dell'i-esima `PUSH` è
 $$c_{i} = \begin{cases} i & \text{se i-1 è una potenza esatta di 2} \\ 1 & \text{altrimenti} \end{cases}$$

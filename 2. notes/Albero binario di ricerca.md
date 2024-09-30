@@ -94,7 +94,7 @@ I costi, uguali per entrambi i casi, sono:
 Le operazioni soprastanti sono fondamentalmente propedeutiche a quella dell'eliminazione. Infatti, a differenza di quanto avverrebbe per un albero binario, l'**eliminazione di un nodo in un albero binario di ricerca deve mantenere stabile il criterio di ordinamento dell'albero**. Si distinguono allora 3 casi per l'eliminazione di un nodo `T` con chiave `k`:
 1. `T` è una foglia --> si elimina semplicemente `T`;
 2. `T` ha un solo figlio (non importa se destro o sinistro) --> si fa ereditare al padre di `T` il figlio di `T`;
-3. `T` ha entrambi i figli --> si individua il predecessore (o anche il successore) di `T` e si sovrascrive `T` con quel predecessore (che, in quanto foglia[^1], può essere tranquillamente eliminato).
+3. `T` ha entrambi i figli --> si individua il predecessore (o anche il successore) di `T` e si scambia `T` con quel predecessore, che si elimina poi come se fosse un nodo del caso 1 (o 2[^1]).
 
 ![[bst-delete.png]]
 ![[bts-disconnect.png]]

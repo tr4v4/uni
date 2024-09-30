@@ -44,7 +44,7 @@ Con questa dimostrazione si ottiene un risultato sbalorditivo: i buchi di $\math
 Anzi, **la probabilità di pescare tra i numeri reali un numero naturale è 0**.
 
 ### In informatica
-L'informatico in [[RAM|memoria]] può rappresentare solo insiemi numerabili, _non ci sono modi per rappresentare i reali_. Tutto **ciò che è programmabile è numerabile**, ogni funzione e programma; invece le **[[Funzione matematica|funzioni matematiche]] non sono enumerabili**.
+L'informatico in [[RAM|memoria]] può rappresentare solo insiemi numerabili, _non ci sono modi per rappresentare i reali_. Tutto **ciò che è programmabile è numerabile**, ogni funzione è programma; invece le **[[Funzione matematica|funzioni matematiche]] non sono enumerabili**.
 
 Infatti **la probabilità di pescare una funzione matematica implementabile in informatica è sempre pari a 0**.
 

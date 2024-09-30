@@ -175,7 +175,7 @@ Allora $r'(0)$ sarà uguale a
 $$r'(0) = \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x})h_{j} = <\nabla f(\bar{x}), h>$$
 
 Mi manca
-$$r''(t) = \frac{d}{dt} \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} \frac{d}{dt} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} <\nabla \partial_{j}f(\bar{x} + th), h> h_{j} = \sum\limits_{j=1}^{n} \sum\limits_{k=1}^{n} \partial_{kj}f(\bar{x} + th)h_{k}h_{j} = <Hf(\bar{x} + th), h>$$
+$$r''(t) = \frac{d}{dt} \sum\limits_{j=1}^{n} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} \frac{d}{dt} \partial_{j}f(\bar{x} + th)h_{j} = \sum\limits_{j=1}^{n} <\nabla \partial_{j}f(\bar{x} + th), h> h_{j} = \sum\limits_{j=1}^{n} \sum\limits_{k=1}^{n} \partial_{kj}f(\bar{x} + th)h_{k}h_{j} = <Hf(\bar{x} + th)h, h>$$
 da cui
 $$r''(\theta) = <Hf(\bar{x} + \theta h)h, h>$$
 

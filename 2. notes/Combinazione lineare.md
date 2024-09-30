@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 > Sia $V$ uno [[Spazio vettoriale|spazio vettoriale]] t.c. $v_{1}, \cdots, v_{n} \in V$, una **combinazione lineare** di $V$ è un vettore $v \in V$ del tipo
-> $$v = \lambda_{1}v_{1} + \cdots \lambda_{n}v_{n}$$
+> $$v = \lambda_{1}v_{1} + \cdots + \lambda_{n}v_{n}$$
 > con $\lambda_{1}, \cdots, \lambda_{n} \in \mathbb{R}$.
 > Il motivo per cui $v \in V$ è la diretta conseguenza delle [[Spazio vettoriale#Proprietà|proprietà degli spazi vettoriali]].
 

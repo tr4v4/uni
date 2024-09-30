@@ -60,7 +60,7 @@ $$\lambda_{r+1} = \cdots = \lambda_{n} = 0$$
 
 Ricapitolando abbiamo ottenuto che
 $$\{f(v_{r+1}), \cdots, f(v_{n})\}$$
-genera $\Im(f)$ ed è linearmente indipendenti, per cui è base di $\Im(f)$:
+genera $\Im(f)$ ed è linearmente indipendente, per cui è base di $\Im(f)$:
 $$\dim(\Im(f)) = n - r$$
 
 **Qed**.

@@ -26,7 +26,6 @@ L'algoritmo si divide, come da programma, in 3 fasi:
 - _combine_
 	- combiniamo i due array ordinati $A_{1}$ e $A_{2}$ in un unico array ordinato, anche detta fase di `merge`
 
-
 <u>Nota bene</u>: l'algoritmo è _stabile_ perché `merge` preserva la stabilità, ma è _non in-place_ perché utilizza un array di appoggio, e trasformarlo _in-place_ lo rende complicatissimo e meno efficiente.
 
 ![[merge-sort.png]]

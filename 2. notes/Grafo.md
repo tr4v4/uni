@@ -35,7 +35,7 @@ Per descrivere i grafi e gli [[Algoritmo|algoritmi]] che operano su di essi si f
 
 ### Grado
 > In un grafo non orientato il grado di un vertice è il _numero di archi che partono da esso_.
-> In un grado orientato il grado di un vertice è la _somma del suo grado entrante_ (archi in entrata) _e del suo grado uscente_ (archi in uscita).
+> In un grafo orientato il grado di un vertice è la _somma del suo grado entrante_ (archi in entrata) _e del suo grado uscente_ (archi in uscita).
 
 ### Incidenza
 > L'_incidenza_ è una relazione tra archi e vertici, e si dice in un grafo orientato che l'arco $(v, w)$ è incidente da $v$ in $w$;
@@ -98,6 +98,7 @@ Sui grafi ci sono una serie di algoritmi importanti da conoscere:
 - [[Algoritmi di visita su grafi]]
 - [[Componenti connesse]]
 - [[Minimum spanning tree]]
+- [[Cammino minimo]]
 
 ## Referenze
 [^1]: un po' come l'insieme finito, che semplicemente non è [[Insieme infinito|infinito]]

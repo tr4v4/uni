@@ -19,7 +19,7 @@ Geometricamente parlando la proiezione ortogonale è relativamente semplice da c
 ![[Drawing 2024-05-05 21.13.41.excalidraw|750]]
 
 Si chiarisce tutto usando le [[Coordinate polari|coordinate polari]] dei vettori, sfruttando il fatto che siamo in $\mathbb{R}^{2}$. Infatti se rappresentiamo $<v, u>$ come $||v|| \cdot ||u|| \cdot \cos{\theta}$ e $<u, u>$ come $||u||^{2}$, si ottiene
-$$proj_{u}(v) = ||v|| \cdot ||u|| \cdot \cos{\theta} \cdot \frac{u}{||u||} = ||v|| \cos{\theta} \cdot \frac{u}{||u||}$$
+$$proj_{u}(v) = ||v|| \cdot ||u|| \cdot \cos{\theta} \cdot \frac{u}{||u||^{2}} = ||v|| \cos{\theta} \cdot \frac{u}{||u||}$$
 
 ovvero esattamente il **vettore in direzione $u$** (la direzione è data da $\frac{u}{||u||}$), e **di magnitudo $||v|| \cos{\theta}$, ossia la lunghezza di $v$ per la sua inclinazione rispetto a $u$**.
 

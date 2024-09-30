@@ -15,7 +15,7 @@ Si sceglie di **eseguire il processo con tempo di esecuzione minore per minimizz
 Si considerino in particolare $n$ _job_ $p_{1}, \cdots, p_{n}$, ognuno dei quali $p_{i}$ ha un tempo di esecuzione $t[i]$. Per minimizzare il tempo medio di attesa è sufficiente eseguire i job in ordine crescente di tempo di esecuzione.
 
 ### Dimostrazione di ottimalità
-Consideriamo [[Regole di inferenza del RAA|per assurdo]] una _soluzione ottimale non greedy_ che eseguo un job lungo $A$ prima di uno più corto $B$. Scambiando $A$ con $B$ otteniamo una soluzione con un tempo medio di attesa migliore, ovvero un ottimo globale, in contrasto con l'assunzione iniziale della soluzione ottimale.
+Consideriamo [[Regole di inferenza del RAA|per assurdo]] una _soluzione ottimale non greedy_ che esegua un job lungo $A$ prima di uno più corto $B$. Scambiando $A$ con $B$ otteniamo una soluzione con un tempo medio di attesa migliore, ovvero un ottimo globale, in contrasto con l'assunzione iniziale della soluzione ottimale.
 
 **Qed**.
 

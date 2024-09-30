@@ -43,12 +43,13 @@ SORT date DESC
 		- [[Indipendenza lineare]]
 		- [[Base]], [[Dimensione]]
 		- [[Teorema del completamento]], [[Teorema GEL]]
+		- [[Coordinate rispetto a una base]]
 	- [[Applicazione lineare]]
 		- [[Funzione suriettiva]], [[Funzione iniettiva]]
 		- [[Teorema di esistenza e unicità di un'applicazione lineare]]
 		- [[Applicazione lineare definita da una matrice]]
 		- [[Nucleo]], [[Immagine di funzione]]
-		- [[Teorema della dimensione]]
+		- [[Teorema della dimensione]], [[Isomorfismo]]
 		- [[Composizione di applicazioni lineari]]
 		- [[Controimmagine]]
 		- [[Forme dei sottospazi]]
@@ -59,7 +60,7 @@ SORT date DESC
 		- [[Teorema di Binet]]
 		- [[Teorema di Laplace]]
 	- [[Cambio di base]]
-	- [[Autovalore]] e [[Autovettore]]
+	- [[Autovalore]] e [[Autovettore]] (e [[Autospazio]])
 		- [[Diagonalizzabilità]]
 		- [[Polinomio caratteristico]], [[Molteplicità algebrica]], [[Molteplicità geometrica]]
 	- [[Ortogonalità]]
@@ -67,6 +68,8 @@ SORT date DESC
 		- [[Base ortogonale]], [[Base ortonormale]]
 		- [[Sottospazio ortogonale]]
 		- [[Proiezione ortogonale]], [[Algoritmo di Gram-Schmidt]]
+		- [[Proiezione ortogonale su un sottospazio]]
+		- [[Teorema spettrale]]
 	- [[Aritmetica modulare]]
 
 ```dataview

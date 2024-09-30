@@ -29,7 +29,7 @@ Quello che facciamo, con il limite per $n \to +\infty$, è _rendere sempre più 
 Dalla definizione si ha che:
 1. $f(x) \geq 0 \ \ \forall x \in [a, b] \implies \int_{a}^{b} f(x) \ dx = \text{area del suo sottografo}$
 2. $\int_{a}^{a} f(x) \ dx = 0$, di fatto $S_{n} = 0 \ \ \forall n \in \mathbb{N}$
-3. $f(x) = k \implies \int_{a}^{b} f(x) \ dx = \int_{a}^{b} k \cdot dx = (b - a) \cdot k$, di fatto $S_{n} = \sum\limits_{k=1}^{n} k \cdot \frac{b-a}{n} = n \cdot k \cdot \frac{b-a}{n} = k \cdot (b-a)$
+3. $f(x) = l \implies \int_{a}^{b} f(x) \ dx = \int_{a}^{b} l \cdot dx = (b - a) \cdot l$, di fatto $S_{n} = \sum\limits_{k=1}^{n} l \cdot \frac{b-a}{n} = n \cdot l \cdot \frac{b-a}{n} = l \cdot (b-a)$
 
 ## Proprietà
 ### Linearità[^2]
@@ -76,4 +76,4 @@ Gli integrali possono essere:
 
 ## Referenze
 [^1]: anche lunghezze di [[Curva|curve]]...
-[^2]: dall'[[Algebra lineare|algebra lineare]]!
+[^2]: dall'[[Algebra e geometria|algebra lineare]]!

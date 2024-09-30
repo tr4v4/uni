@@ -39,6 +39,6 @@ Il teorema ci assicura che se di uno spazio vettoriale conosciamo la sua dimensi
 Per cui se ci viene dato un insieme $\{2x, 5, x^{2}\}$ di vettori di $\mathbb{R}_{2}[x]$ (cui dimensione è 3), per controllare se sono base ci basta verificare o che generino $\mathbb{R}_{2}[x]$ (lungo) o che siano linearmente indipendenti (più corto).
 
 ### Esempio
-Se dobbiamo stabilire se $\{(1, 3, 4), (2, 7, 9), (0, 1, -5), (4, 3, 2)\}$ sono linearmente indipendenti, possiamo usare il [[Indipendenza lineare#Esempio|metodo standard]], o semplicemente osservare che trattandosi di vettori di $\mathbb{R}^{3}$ che ha dimensione 3, è possibile selezionare al massimo 4 vettori linearmente indipendenti, per cui no: sono dipendenti.
+Se dobbiamo stabilire se $\{(1, 3, 4), (2, 7, 9), (0, 1, -5), (4, 3, 2)\}$ sono linearmente indipendenti, possiamo usare il [[Indipendenza lineare#Esempio|metodo standard]], o semplicemente osservare che trattandosi di vettori di $\mathbb{R}^{3}$ che ha dimensione 3, è possibile selezionare al massimo 3 vettori linearmente indipendenti, per cui no: sono dipendenti.
 
 ## Referenze

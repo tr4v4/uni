@@ -16,5 +16,10 @@
   "encore-settings@@encore-translucency-image": "url(\"https://www.cs.unibo.it/~sacerdot/images/cheetah.jpg\")",
   "encore-settings@@encore-translucency-strength": 0.25,
   "encore-settings@@encore-translucency-background": "encore-bg-chromatic",
-  "encore-settings@@encore-translucency-blur-amount": 10
+  "encore-settings@@encore-translucency-blur-amount": 10,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
+  "anuppuccin-theme-settings@@anp-toggle-preview": false
 }

@@ -33,7 +33,7 @@ $$v_{\max} \in \mathbb{R}^{n} : ||v_{\max}|| = 1 : \frac{\partial f}{\partial v_
 Il problema si risolve dimostrando la seguente proposizione:
 > Data $f: \mathbb{R}^{n} \to \mathbb{R}$ [[Funzione differenziabile|differenziabile]] in $\bar{x} \in \mathbb{R}^{n}$ con $\nabla f(\bar{x}) \neq \underline{0}$, allora si ha che
 > 1. $v_{\max} = \frac{\nabla f(\bar{x})}{||\nabla f(\bar{x})||}$
-> 2. $\frac{\partial f}{\partial v_{\max}} (x) = ||\nabla f(x)||$
+> 2. $\frac{\partial f}{\partial v_{\max}} (\bar{x}) = ||\nabla f(\bar{x})||$
 > 
 > ovvero che _il vettore di massima crescita è il gradiente normalizzato, e la derivata direzionale rispetto a tal vettore è la norma del gradiente_.
 
