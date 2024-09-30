@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fe574114d250613c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. mocs/Università.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,6 +266,7 @@
   },
   "active": "fde22237f1d4b81b",
   "lastOpenFiles": [
+    "netlify.toml~",
     "1. lectures/Lecture 26092024092021.md",
     "0. mocs/Università.md",
     "0. mocs/Università I anno.md",
@@ -303,7 +292,6 @@
     "1. lectures/Lecture 24092024092227.md",
     "0. mocs/Reti di calcolatori.md",
     "1. lectures/Lecture 27092024132110.md",
-    "1. lectures/Lecture 25092024132223.md",
     "media/rete-generica.png",
     "media/compilatore-e-interprete.png",
     "media/traduzione-compilatore.png",
