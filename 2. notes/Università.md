@@ -1,8 +1,7 @@
 ---
 tags:
   - "#category/moc"
-  - status/ongoing
-  - topic/
+  - status/finished
 date: 18-09-2023 18:32:25
 ---
 # Università

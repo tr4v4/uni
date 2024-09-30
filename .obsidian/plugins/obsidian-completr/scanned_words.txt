@@ -3044,6 +3044,7 @@ ammissibile
 aPa
 assiomatico
 arborescente
+anno
 geometria
 gianluigi
 greedy
@@ -3901,6 +3902,7 @@ URL
 URN
 Uri
 Unique
+Universit
 lezione
 lecture
 la
@@ -6062,6 +6064,7 @@ Concatenazione
 Complemento
 Chiusura
 Correttezza
+Corsi
 resto
 raggiungere
 risolviamo

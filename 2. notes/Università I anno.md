@@ -1,7 +1,7 @@
 ---
 tags:
   - category/moc
-  - status/ongoing
+  - status/finished
   - topic/programmazione
   - topic/architettura-degli-elaboratori
   - topic/analisi-I
