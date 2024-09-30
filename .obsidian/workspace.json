@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe574114d250613c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Università.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -100,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md",
+                "file": "0. mocs/Università.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md",
+                "file": "0. mocs/Università.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md"
+                "file": "0. mocs/Università.md"
               }
             }
           },
@@ -170,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md"
+                "file": "0. mocs/Università.md"
               }
             }
           },
@@ -196,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md",
+                "file": "0. mocs/Università.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -267,10 +278,10 @@
   },
   "active": "fde22237f1d4b81b",
   "lastOpenFiles": [
-    "2. notes/Università.md",
-    "2. notes/Università I anno.md",
-    "2. notes/Università II anno.md",
     "1. lectures/Lecture 26092024092021.md",
+    "0. mocs/Università.md",
+    "0. mocs/Università I anno.md",
+    "0. mocs/Università II anno.md",
     "0. mocs/Calcolo numerico.md",
     "2. notes/Grammatiche.md",
     "0. mocs/Linguaggi di programmazione.md",
