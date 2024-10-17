@@ -350,6 +350,7 @@ thread
 tubo
 turing
 travaglini
+tel
 category
 centesimi
 ciascun
@@ -6791,6 +6792,7 @@ inventare
 inaccessibili
 interagirebbero
 insaputa
+illimitatamente
 Concetti
 Codifica
 Cos
