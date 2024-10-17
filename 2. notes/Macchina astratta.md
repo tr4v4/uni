@@ -26,7 +26,7 @@ links:
 Di fatto ogni macchina astratta può basarsi su una macchina astratta di livello più basso e fare da base (offrire servizi) a una macchina astratta di livello più alto. Teoricamente la macchina $M_{i}$ dovrebbe nascondere alla macchina $M_{i+1}$ la macchina $M_{i-1}$.
 
 Nella pratica, la gerarchia di macchine astratte si ritrova in più campi dell'informatica:
-- schema "a cipolla" del [[SO|sistema operativo]];
+- schema "a cipolla" del [[Sistema operativo|sistema operativo]];
 - schema di una [[Applicazione web|applicazione web]];
 - i protocolli di [[Internet|internet]], come il [[Modello ISO-OSI|modello ISO-OSI]].
 

@@ -20,7 +20,7 @@ L'utilizzo degli interrupt permette di evitare il fenomeno del _busy waiting_, o
 
 ## Tipologie
 Non tutti gli interrupt possono interrompere, senza un minimo di criterio, i processi in esecuzione sulla CPU. Per questo si dividono principalmente in:
-- **interrupt mascherabili** --> per cui il [[SO|sistema operativo]] sceglie, a seconda della loro _priorità_, se interrompere o meno il processo in esecuzione
+- **interrupt mascherabili** --> per cui il [[Sistema operativo|sistema operativo]] sceglie, a seconda della loro _priorità_, se interrompere o meno il processo in esecuzione
 - **interrupt non-mascherabili** --> per cui a prescindere dal processo in esecuzione il sistema operativo passa il controllo all'interrupt
 
 In generale, però, si definisce una _gerarchia di interrupt_ che stabilisce quali interrupt si possono interrompere a seconda di una _scala di priorità_:

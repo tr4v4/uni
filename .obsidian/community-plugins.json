@@ -15,5 +15,8 @@
   "3d-graph",
   "obsidian-google-tasks",
   "obsidian-completr",
-  "obisidian-note-linker"
+  "obisidian-note-linker",
+  "dataview-serializer",
+  "obsidian-latex",
+  "ollama"
 ]

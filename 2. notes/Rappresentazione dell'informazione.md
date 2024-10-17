@@ -15,7 +15,7 @@ Ogni cosa all'interno di un calcolatore è rappresentata sottoforma di **bit**. 
 In particolare scopriremo che _il computer non può rappresentare ogni numero_, ma a volte solo delle approssimazioni. Ci concentreremo sulla rappresentazione di:
 - [[Codifica numeri interi|numeri interi]]
 - [[Codifica floating-point|numeri decimali]]
-- [[Codifica caratteri|caratteri]]
+- [[Codifica dei caratteri|caratteri]]
 
 ## Problemi e correzioni
 A prescindere dal tipo di dati che si vuole rappresentare, una volta trovato il giusto sistema di codifica/decodifica, rimane il problema della [[Codici correttori|correzione dell'errore]].

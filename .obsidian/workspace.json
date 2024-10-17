@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "97222e2e19d2c387",
+        "id": "13bf296d4c43cebd",
         "type": "tabs",
         "children": [
           {
-            "id": "a5a53af6b35f2f01",
+            "id": "bbbf775897fb0053",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Calcolo numerico.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "012b006547ea6cb2",
+            "id": "fd41acd943cf9de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 26092024092021.md",
+                "file": "1. lectures/Lecture 17102024120438.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. mocs/Università.md"
+                "file": "0. mocs/Linguaggi di programmazione.md"
               }
             }
           },
@@ -169,7 +168,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "0. mocs/Università.md"
+                "file": "0. mocs/Linguaggi di programmazione.md"
               }
             }
           },
@@ -195,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +217,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3121475384849868,
+                  "scale": 0.31214753848498666,
                   "close": true
                 }
               }
@@ -243,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317,
+    "width": 322.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -264,45 +263,47 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "fde22237f1d4b81b",
+  "active": "bbbf775897fb0053",
   "lastOpenFiles": [
-    "netlify.toml~",
-    "1. lectures/Lecture 26092024092021.md",
     "0. mocs/Università.md",
-    "0. mocs/Università I anno.md",
-    "0. mocs/Università II anno.md",
-    "0. mocs/Calcolo numerico.md",
-    "2. notes/Grammatiche.md",
     "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 24092024110820.md",
-    "1. lectures/Lecture 26092024120454.md",
-    "2. notes/Linguaggio di programmazione.md",
-    "2. notes/Descrivere un linguaggio di programmazione.md",
-    "2. notes/Linguaggio formale.md",
-    "2. notes/Rappresentazione finita di un linguaggio.md",
-    "2. notes/Albero di deduzione naturale.md",
-    "2. notes/Regole di inferenza.md",
-    "2. notes/Dimostrazione R non numerabile.md",
-    "2. notes/Teorema di Cantor.md",
-    "1. lectures/Lecture 19092024125624.md",
-    "2. notes/Implementazione.md",
-    "2. notes/Pragmatica.md",
-    "2. notes/Semantica.md",
-    "2. notes/Sintassi.md",
-    "1. lectures/Lecture 24092024092227.md",
+    "0. mocs/Sistemi operativi.md",
+    "0. mocs/Tecnologie web.md",
+    "1. lectures/Lecture 17102024120438.md",
     "0. mocs/Reti di calcolatori.md",
-    "1. lectures/Lecture 27092024132110.md",
-    "media/rete-generica.png",
-    "media/compilatore-e-interprete.png",
-    "media/traduzione-compilatore.png",
-    "media/traduzione-interprete.png",
-    "media/URL-URN.png",
-    "media/interprete.png",
-    "media/macchina-astratta.png",
-    "media/esiti-esami.png",
+    "0. mocs/Programmazione.md",
+    "0. mocs/Logica per l'informatica.md",
+    "0. mocs/Architettura degli elaboratori.md",
+    "0. mocs/Algebra e geometria.md",
+    "0. mocs/Algoritmi e strutture dati.md",
+    "0. mocs/Analisi I.md",
+    "0. mocs/Calcolo numerico.md",
+    "1. lectures/Lecture 15102024110302.md",
+    "1. lectures/Lecture 10102024092110.md",
+    "1. lectures/Lecture 17102024091631.md",
+    "2. notes/Assioma di finite progress.md",
+    "1. lectures/Lecture 16102024132343.md",
+    "1. lectures/Lecture 11102024092906.md",
+    "2. notes/Processo.md",
+    "1. lectures/Lecture 16102024162932.md",
+    "1. lectures/croteri.md",
+    "2. notes/Concorrenza.md",
+    "2. notes/Sistema operativo.md",
+    "2. notes/Grafo.md",
+    "2. notes/DAG.md",
+    "media/caso-pessimo-nfa-to-dfa-2.png",
+    "media/caso-pessimo-nfa-to-dfa-1.png",
+    "media/dfa-in-nfa.png",
+    "media/nfa-1.png",
+    "media/diagramma-di-transizione-3.png",
+    "media/nfa-2.png",
+    "media/nfa-deterministicizzato.png",
+    "media/tabella-di-transizione-1.png",
+    "media/automa-a-stati-finiti.png",
+    "media/diagramma-di-transizione-2.png",
+    "Chats",
+    "netlify.toml~",
     "3. projects/aijsodijas.canvas",
-    "media/teorema-media-integrale.png",
-    "media/insieme-semplice-asse-x.jpg",
     "media/raggio-di-curvatura.jpg.crdownload",
     "media/raggio-di-curvatura.png.crdownload",
     "media/torri-di-hanoi.jpeg.crdownload",
@@ -311,8 +312,6 @@
     "Untitled Document",
     "netlify.toml",
     "templates",
-    "media/esame2019.07.01.pdf",
-    "media/excalidraw",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

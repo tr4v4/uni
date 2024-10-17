@@ -24,7 +24,7 @@ Graficamente, ciò che accade a un programma che prevede l'utilizzo di funzioni 
 Nel dettaglio, invocare una procedura richiede di **allocare in memoria le informazioni necessarie ad eseguire le procedure invocate**. Questo spazio viene chiamato _[[Record di attivazione|record di attivazione]]_, ed è proprio lui che viene memorizzato nello stack del programma chiamante.
 
 ## Automazioni
-Esistono casi particolari di invocazioni di procedure che sono gestite autonomamente dal [[SO|sistema operativo]] (e non da programmi scritti da noi):
+Esistono casi particolari di invocazioni di procedure che sono gestite autonomamente dal [[Sistema operativo|sistema operativo]] (e non da programmi scritti da noi):
 - [[Trap|trap]]
 - [[Interrupt|interrupt]]
 

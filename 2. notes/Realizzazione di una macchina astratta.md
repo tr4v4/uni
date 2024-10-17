@@ -43,40 +43,6 @@ Si hanno 2 vie per realizzare ciò:
 - _implementazione interpretativa pura_ - realizzando un [[Interprete|interprete]];
 - _implementazione compilativa pura_ - realizzando un [[Compilatore|compilatore]].
 
-#### Interpretativa pura
-Si scrive un interprete per $L$ su ${M_{O}}_{L_{O}}$, ossia un programma scritto in $L_{O}$ (ed eseguito da $M_{O}$) che realizza una funzione parziale
-$$I_{L}^{L_{O}} : (P_{r}^{L} \times D) \to D \ \ : \ \ I_{L}^{L_{O}}(P_{r}^{L}, \text{input}) = P^{L}(\text{input})$$
-
-ovvero l'_interprete deve calcolare la semantica corretta del programma_!
-![[traduzione-interprete.png]]
-
-Pros:
-- flessibilità
-- facilità di realizzazione
-- poca occupazione di memoria
-
-Cons:
-- scarsa efficienza di $M_{L}$
-
-Questo perché l'interprete decodifica ogni istruzione prima di eseguirla, per cui **al tempo di esecuzione va aggiunto quello di decodifica ogni qualvolta si incontri un'istruzione**: il _body di un ciclo viene decodificato tante volte quanto viene eseguito_!
-
-#### Compilativa pura
-In questo caso, invece, i programma in $L$ sono tradotti in programmi equivalenti in $L_{O}$ da un compilatore ${C_{L, L_{O}}}^{L_{A}}$, un programma scritto in $L_{A}$ (linguaggio di una terza macchina astratta $M_{A}$), che realizza una funzione
-$$C_{L,L_{O}}: {P_{r}}^{L} \to {P_{r}}^{L_{O}} \ \ | \ \ \forall {P_{r}}^{L}. \ \ C_{L,L_{O}}({P_{r}}^{L})={{P_{r}}c}^{L_{O}} \implies \forall \text{input}. \ \ P^{L}(\text{input}) = Pc^{L_{O}}(\text{input})$$
-
-ovvero il compilatore (come anche l'interprete) deve fare in modo che _la semantica del programma in input sia la stessa del programma in output_.
-![[traduzione-compilatore.png]]
-
-Pros:
-- alta efficienza
-
-Cons:
-- difficoltà d'implementazione (per lontananza da $L$ a $L_{O}$)
-- scarsa flessibilità
-- perdita di informazione sulla struttura del programma
-
-Difatti, di un errore a run-time di un programma compilato è poco facile identificare la causa: anche se la semantica è la stessa, si è completamente perso il riferimento al programma scritto in $L$.
-
 ### Caso reale
 Nella realtà dei fatti i due metodi coesistono: di solito **si compila e poi si interpreta il risultato**[^1].
 ![[compilatore-e-interprete.png]]

@@ -52,10 +52,10 @@ Infatti ci sono casi in cui questo algoritmo fallisce:
 - $R = 6, \ T = [5, 2]$ ---> greedy: 5+errore, ottimo: 2+2+2;
 
 #### Problema dello scheduling
-Nei [[SO|sistemi operativi]] è piuttosto comune il problema dello _scheduling dei processi_. Un algoritmo possibile per decidere secondo quale criterio far eseguire i processi è lo [[Shortest Job First]]. Questo algoritmo utilizza proprio un'**approccio greedy per poter minimizzare il tempo medio di attesa dei processi**.
+Nei [[Sistema operativo|sistemi operativi]] è piuttosto comune il problema dello _scheduling dei processi_. Un algoritmo possibile per decidere secondo quale criterio far eseguire i processi è lo [[Shortest Job First]]. Questo algoritmo utilizza proprio un'**approccio greedy per poter minimizzare il tempo medio di attesa dei processi**.
 
 #### Problema della compressione
-Uno dei problemi più interessanti dell'informatica consiste in quello che studia come codificare i dati _analogici_ in _digitale_, sfruttando il minor numero possibile di _bit_. Abbiamo già studiato come [[Rappresentazione dell'informazione|rappresentare generalmente l'informazione]], e in particolare come [[Codifica caratteri|rappresentare sequenze di caratteri]]. Proprio in quest'ambito esiste una codifica in grado di farlo in modo molto efficiente, usando un approccio greedy: la [[Codifica di Huffman|codifica di Huffman]].
+Uno dei problemi più interessanti dell'informatica consiste in quello che studia come codificare i dati _analogici_ in _digitale_, sfruttando il minor numero possibile di _bit_. Abbiamo già studiato come [[Rappresentazione dell'informazione|rappresentare generalmente l'informazione]], e in particolare come [[Codifica dei caratteri|rappresentare sequenze di caratteri]]. Proprio in quest'ambito esiste una codifica in grado di farlo in modo molto efficiente, usando un approccio greedy: la [[Codifica di Huffman|codifica di Huffman]].
 
 ## Resoconto
 Gli algoritmi greedy, quindi, hanno vantaggi e svantaggi:

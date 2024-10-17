@@ -1,0 +1,339 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2c799cf126d079f",
+        "type": "tabs",
+        "dimension": 39.712153518123664,
+        "children": [
+          {
+            "id": "b4b47aab6dcd4035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Tecnologie web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ea6f6bd01585084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2377fbe1302474ee",
+        "type": "tabs",
+        "dimension": 60.28784648187633,
+        "children": [
+          {
+            "id": "38d820e823adfc23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md"
+              }
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md"
+              }
+            }
+          },
+          {
+            "id": "02a28f657e9a3778",
+            "type": "leaf",
+            "state": {
+              "type": "googleTaskView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "1. lectures/Lecture 14102024161336.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498666,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "obisidian-note-linker:Note Linker": false
+    }
+  },
+  "active": "38d820e823adfc23",
+  "lastOpenFiles": [
+    "media/caso-pessimo-nfa-to-dfa-1.png",
+    "2. notes/Costruzione per sottoinsiemi.md",
+    "media/dfa-in-nfa.png",
+    "2. notes/DFA.md",
+    "2. notes/HTML.md",
+    "0. mocs/Tecnologie web.md",
+    "1. lectures/Lecture 14102024161336.md",
+    "2. notes/XML.md",
+    "2. notes/SGML.md",
+    "2. notes/Markup.md",
+    "1. lectures/Lecture 07102024161340.md",
+    "1. lectures/Lecture 10102024151443.md",
+    "2. notes/CSS.md",
+    "0. mocs/Calcolo numerico.md",
+    "2. notes/Problema dei minimi quadrati.md",
+    "2. notes/Fattorizzazione LU.md",
+    "1. lectures/Lecture 14102024131954.md",
+    "0. mocs/Sistemi operativi.md",
+    "2. notes/Codifica dei caratteri.md",
+    "media/nfa-1.png",
+    "2. notes/Linguaggio accettato.md",
+    "media/diagramma-di-transizione-3.png",
+    "2. notes/NFA.md",
+    "2. notes/Automa a stati finiti.md",
+    "media/nfa-2.png",
+    "media/nfa-deterministicizzato.png",
+    "media/tabella-di-transizione-1.png",
+    "media/automa-a-stati-finiti.png",
+    "2. notes/Diagramma di transizione.md",
+    "media/diagramma-di-transizione-2.png",
+    "media/diagramma-di-transizione-1.png",
+    "2. notes/Fattorizzazione ai valori singolari.md",
+    "2. notes/Fattorizzazione agli autovalori.md",
+    "media/piramide-markup.png",
+    "2. notes/Big-endian & Little-endian.md",
+    "2. notes/MIME.md",
+    "Chats",
+    "netlify.toml~",
+    "3. projects/aijsodijas.canvas",
+    "media/raggio-di-curvatura.jpg.crdownload",
+    "media/raggio-di-curvatura.png.crdownload",
+    "media/torri-di-hanoi.jpeg.crdownload",
+    "media/linee-di-livello-circonferenze.png.crdownload",
+    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
+    "Untitled Document",
+    "netlify.toml",
+    "templates",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

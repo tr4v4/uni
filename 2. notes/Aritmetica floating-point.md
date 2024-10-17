@@ -37,7 +37,7 @@ Faccio l'operazione, e ottengo
 $$z = x-y = 2.1499999999999999999 \times 10^{12} \notin \mathbb{F}$$
 
 Notiamo che $z \notin \mathbb{F}$ perché ha ben 16 cifre di mantissa, quando la codifica ne richiede solo 2. Il risultato che sarà salvato sul calcolatore sarà $fl(z)$, calcolato in uno dei 2 modi:
-- **arrotondamento** --> $fl(z) = 2.15 \times 10^{12}$
+- **approssimazione** --> $fl(z) = 2.15 \times 10^{12}$
 - **troncamento** --> $fl(z) = 2.14 \times 10^{12}$
 
 A prescindere dal metodo scelto, si verifica un errore di arrotondamento. Calcoliamo quello relativo, scegliendo come metodo di $fl(z)$ il troncamento:
@@ -75,7 +75,7 @@ $$1 + y = 1$$
 proprio perché $y < \text{eps}$. Ricordiamo infatti che $\text{eps}$ è il più piccolo numero che sommato a $1$ fa un numero maggiore di $1$ appartenente a $\mathbb{F}$.
 
 ### Errore algoritmico
-I limiti dell'aritmetica codifica floating-point si rendono piuttosto evidenti quando si va incontro ad **errori algoritmici**, ossia errori provocati dalla propagazione delle approssimazioni/troncamenti delle operazioni floating-point.
+I limiti dell'aritmetica codifica floating-point si rendono piuttosto evidenti quando si va incontro ad **[[Errore algoritmico|errori algoritmici]]**, ossia errori provocati dalla propagazione delle approssimazioni/troncamenti delle operazioni floating-point.
 
 Prendiamo per esempio un algoritmo che calcola il [[Numero di Nepero|numero di Nepero]] $e$ usando il famoso [[Limite|limite]]
 $$e = \lim_{n \to +\infty} \left(1 + \frac{1}{n}\right)^{n}$$

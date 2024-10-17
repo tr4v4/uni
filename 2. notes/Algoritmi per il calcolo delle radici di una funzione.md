@@ -28,6 +28,6 @@ Esistono una serie di algoritmi per ciò:
 	- [[Algoritmo dell'iterazione di punto fisso]]
 	- [[Algoritmo di Newton]]
 
-La differenza tra questi algoritmi sta fondamentalmente nel [[Complessità computazionale|costo computazionale]], e nella **dicotomia tra accuratezza e tempo di calcolo**.
+La differenza tra questi algoritmi sta fondamentalmente nel [[Complessità computazionale|costo computazionale]], e nella **dicotomia tra accuratezza e tempo di calcolo**. In particolare, per gli algoritmi iterativi, si stabilisce un fattore matematicamente formalizzato che ne indica l'efficienza: la [[Velocità di convergenza|velocità di convergenza]].
 
 ## Referenze

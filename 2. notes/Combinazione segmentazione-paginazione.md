@@ -11,7 +11,7 @@ links:
 # Combinazione segmentazione-paginazione
 ---
 ## Introduzione
-> La **combinazione tra [[Segmentazione|segmentazione]] e [[Paginazione|paginazione]]** costituisce il rimedio principale al problema della [[Frammentazione esterna|frammentazione esterna]], nonché il meccanismo standard di gestione della [[RAM|memoria]] (e quindi implementato dal [[SO|sistema operativo]]) utilizzato oggiogiorno.
+> La **combinazione tra [[Segmentazione|segmentazione]] e [[Paginazione|paginazione]]** costituisce il rimedio principale al problema della [[Frammentazione esterna|frammentazione esterna]], nonché il meccanismo standard di gestione della [[RAM|memoria]] (e quindi implementato dal [[Sistema operativo|sistema operativo]]) utilizzato oggiogiorno.
 
 ## Principio di implementazione
 Fondamentalmente **ogni segmento viene suddiviso in pagine**, e **ogni segmento ha una sua tabella delle pagine**. Un indirizzo virtuale, ora, dovrà contenere:

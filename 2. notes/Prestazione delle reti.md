@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/pending
+  - status/finished
   - topic/reti-di-calcolatori
 date: 27-09-2024 16:57:01
 links:

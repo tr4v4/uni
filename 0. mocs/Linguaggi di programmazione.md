@@ -9,38 +9,54 @@ date: 16-09-2024 10:40:19
 ---
 ## Lezioni
 ### Ultima lezione
-```dataview
-TABLE
-WITHOUT ID file.link AS Lezione, file.inlinks AS Note
-FROM #category/lecture AND #topic/linguaggi-di-programmazione
-SORT file.ctime DESC
-LIMIT 1
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
+
+| Lezione                                                           | Note                                                                                       |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [[Lecture 17102024120438]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+<!-- SerializedQuery END -->
 
 ### Lista
-```dataview
-TABLE
-WITHOUT ID file.link AS Lezione, date AS Data
-FROM #category/lecture AND #topic/linguaggi-di-programmazione
-SORT file.ctime DESC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
+
+| Lezione                                                           | Data                |
+| ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 17102024120438]] | 17-10-2024 12:04:38 |
+| [[Lecture 15102024110302]] | 15-10-2024 11:03:02 |
+| [[Lecture 08102024111650]] | 08-10-2024 11:16:50 |
+| [[Lecture 03102024120247]] | 03-10-2024 12:02:47 |
+| [[Lecture 10102024120505]] | 10-10-2024 12:05:05 |
+| [[Lecture 01102024110253]] | 01-10-2024 11:02:53 |
+| [[Lecture 26092024120454]] | 26-09-2024 12:04:54 |
+| [[Lecture 24092024110820]] | 24-09-2024 11:08:20 |
+| [[Lecture 19092024125624]] | 19-09-2024 12:56:24 |
+| [[Lecture 17092024110611]] | 17-09-2024 11:06:11 |
+<!-- SerializedQuery END -->
 
 ### Da processare
-```dataview
-TABLE
-WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status
-FROM #category/lecture AND #topic/linguaggi-di-programmazione AND (#status/pending OR #status/ongoing)
-SORT date DESC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/linguaggi-di-programmazione AND (#status/pending OR #status/ongoing) SORT date DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/linguaggi-di-programmazione AND (#status/pending OR #status/ongoing) SORT date DESC -->
+
+| Lezione                                                           | Status                            |
+| ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 17102024120438]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 15102024110302]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 10102024120505]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 08102024111650]] | <ul><li>#status/ongoing</li></ul> |
+<!-- SerializedQuery END -->
 
 ## Note
 - Argomenti
 	- mod. 1
 		- [[Linguaggio di programmazione]] (evoluzione, categorie, confronti)
 		- [[Macchina astratta|Macchine astratte]], [[Linguaggio macchina]], [[Interprete]], [[Compilatore]]
-		- compilatori: struttura generale
-		- [[Descrivere un linguaggio di programmazione]] ([[Sintassi]], [[Semantica]], [[Pragmatica]], [[Implementazione]])
-		- sintassi (BNF) e semantica (tecnica SOS)
+		- [[Descrivere un linguaggio di programmazione]], [[Sintassi]], [[Semantica]], [[Pragmatica]], [[Implementazione]], [[Linguaggio formale]]
+		- [[Rappresentazione finita di un linguaggio]], [[Grammatiche]], [[Derivazione]], [[Linguaggio generato]], [[Albero di derivazione]], [[Grammatica ambigua]]
+		- [[Semantica statica]], [[Semantica dinamica]]
+		- [[Struttura di un compilatore]]
+		- [[Semantica operazionale strutturata]]
 		- grammatiche regolari, automi a stati finiti, espressioni regolari: equivalenze e risultati principali
 		- scanner: costruzione di analizzatori lessicali
 		- grammatiche libere da contesto, automi a pila: equivalenze e risultati principali
@@ -60,12 +76,64 @@ SORT date DESC
 		- cenni al paradigma logico
 		- cenni alla programmazione concorrente e service-oriented
 
-```dataview
-TABLE
-WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status
-FROM #category/note AND #topic/linguaggi-di-programmazione
-SORT file.ctime DESC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
+
+| Note                                                                                                           | Status                             |
+| -------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[DFA]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Costruzione per sottoinsiemi]]                                     | <ul><li>#status/ongoing</li></ul>  |
+| [[Automa a stati finiti]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Espressione regolare]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio accettato]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Diagramma di transizione]]                                             | <ul><li>#status/finished</li></ul> |
+| [[NFA]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Analisi lessicale]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio denotato da un'espressione regolare]] | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio regolare]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Semantica operazionale strutturata]]                         | <ul><li>#status/finished</li></ul> |
+| [[Discipline di valutazione]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Computazione]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[Sistema di transizione]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Analisi sintattica]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Analisi semantica]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Semantica dinamica]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Semantica statica]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Struttura di un compilatore]]                                       | <ul><li>#status/finished</li></ul> |
+| [[Compilatore]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Interprete]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Realizzazione di una macchina astratta]]                 | <ul><li>#status/finished</li></ul> |
+| [[Albero di derivazione]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Albero concreto]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Grammatica ambigua]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio ambiguo]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Sintassi astratta]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Sintassi concreta]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Albero sintattico]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Derivazione]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Grammatiche libere]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio generato]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Grammatiche equivalenti]]                                               | <ul><li>#status/finished</li></ul> |
+| [[Grammatiche]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Rappresentazione finita di un linguaggio]]             | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio di programmazione]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Descrivere un linguaggio di programmazione]]         | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio formale]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Implementazione]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Pragmatica]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Sintassi]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[Funzione parziale]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Macchina astratta]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Macchina fisica]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio macchina]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Evoluzione dei linguaggi di programmazione]]         | <ul><li>#status/finished</li></ul> |
+| [[Categorie di linguaggi di programmazione]]             | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio di programmazione dichiarativo]]           | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio di programmazione logico]]                       | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio di programmazione funzionale]]               | <ul><li>#status/finished</li></ul> |
+| [[Linguaggio di programmazione imperativo]]               | <ul><li>#status/finished</li></ul> |
+| [[Semantica]]                                                                           | <ul><li>#status/finished</li></ul> |
+<!-- SerializedQuery END -->
 
 ## Referenze
 - [virtuale]()

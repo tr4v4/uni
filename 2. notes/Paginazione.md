@@ -11,7 +11,7 @@ links:
 # Paginazione
 ---
 ## Introduzione
-> La **paginazione** è un meccanismo gestito dal [[SO|sistema operativo]] per implementare la [[Memoria virtuale|memoria virtuale]] nei moderni calcolatori.
+> La **paginazione** è un meccanismo gestito dal [[Sistema operativo|sistema operativo]] per implementare la [[Memoria virtuale|memoria virtuale]] nei moderni calcolatori.
 
 Come avviene tra la [[Cache|cache]] e la [[RAM]], anche in questo caso _sono necessarie politiche di trasferimento dei dati dalla memoria al disco rigido_.
 

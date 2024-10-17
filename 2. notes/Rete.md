@@ -6,6 +6,7 @@ tags:
 date: 27-09-2024 16:16:10
 links:
   - "[[Lecture 18092024131539]]"
+  - "[[Lecture 20092024132015]]"
 ---
 # Rete
 ---
@@ -37,6 +38,15 @@ La prima rete nasce nel 1969, da un esperimento che prevedeva una connessione tr
 
 La crescita dei dispositivi connessi ad internet, inflazionata da [[IoT]] (Internet of Things), è _quadratica se non esponenziale_, tanto che si prevedono entro il 2025 oltre 60 miliardi di dispositivi.
 
+## Componenti
+Per connettere un calcolatore alla rete c'è bisogno di un _insieme minimo di componenti hardware e software_:
+- _[[Scheda di rete|scheda di rete]]_
+- _[[Mezzo di trasmissione|mezzo di trasmissione]]_
+- _[[Connettore di rete|connettore di rete]]_
+- _protocolli di rete_, ossia regole implementate sottoforma di software del calcolatore per garantire compatibilità e corretta gestione della comunicazione
+
 ## Referenze
 - [[Classificazione delle reti]]
 - [[Prestazione delle reti]]
+- [[Infrastruttura di rete]]
+- [[Topologia di rete]]

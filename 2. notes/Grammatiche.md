@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/linguaggi-di-programmazione
 date: 29-09-2024 21:30:03
 links:
@@ -14,7 +14,7 @@ Il ruolo delle grammatiche è quello di rispondere alle due domande fondamentali
 - _come rappresentare finitamente un linguaggio?_
 - _come verificare l'appartenenza di una stringa a un linguaggio?_
 
-Cominciamo con degli esempi
+Cominciamo con degli esempi.
 
 ### Palindrome
 Prendiamo l'alfabeto $A = \{a, b\}$, e su di esso definiamo il linguaggio $L \subseteq A^{*}$ come l'insieme di tutte le palindrome su $A$:
@@ -56,7 +56,16 @@ In notazione (esclusa quella assiomatica):
 Anche in questo caso, vogliamo dimostrare $a+(a*b) \in L(E)$. Deriviamolo:
 $$E \implies E+E \implies a+E \implies a+(E) \implies a+(E*E) \implies a+(a*E) \implies a+(a*b)$$
 
-## Definizione
+## Classi
+Esistono diverse forme di grammatiche, _strutturate gerarchicamente in ordine di generalità e quindi di potenza_. In particolare, secondo la [[Classificazione di Chomsky|classificazione di Chomsky]], ci sono:
+- [[Grammatiche regolari|grammatiche regolari]]
+- [[Grammatiche libere|grammatiche libere (da contesto)]]
+- [[Grammatiche dipendenti dal contesto|grammatiche dipendenti dal contesto]]
+- [[Grammatiche monotone|grammatiche monotone]]
+- [[Grammatiche generali|grammatiche generali (o "a struttura di frase")]]
 
+Tutte seguono lo stesso pattern, differenziandosi solo per come sono caratterizzate le _produzioni_ (o regole).
+
+<u>Nota bene</u>: _più le grammatiche sono "potenti" (espressive), più diventa difficile analizzarle e dimostrarne la correttezza_.
 
 ## Referenze

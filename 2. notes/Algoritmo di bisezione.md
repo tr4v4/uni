@@ -48,7 +48,7 @@ for _ in range(n):
 	c = (a+b)/2
 	if f(a) * f(c) < 0:
 		b = c
-	else
+	else:
 		a = c
 print(c)
 ```

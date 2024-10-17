@@ -10,7 +10,7 @@ links:
 # Codifica di Huffman
 ---
 ## Introduzione
-Nell'ambito della [[Rappresentazione dell'informazione|rappresentazione dell'informazione]] si vuole cercare una [[Codifica caratteri|codifica dei caratteri]] efficiente, ovvero _in grado di rappresentare una qualunque stringa usando il minor numero possibile di bit_.
+Nell'ambito della [[Rappresentazione dell'informazione|rappresentazione dell'informazione]] si vuole cercare una [[Codifica dei caratteri|codifica dei caratteri]] efficiente, ovvero _in grado di rappresentare una qualunque stringa usando il minor numero possibile di bit_.
 
 Per cui il problema che ci poniamo è il seguente: data una sequenza $c_{1}, \cdots, c_{n}$ di caratteri, definire una [[Funzione matematica|funzione]] $f$ che minimizza la lunghezza della codifica $f(c_{1}), \cdots, f(c_{n})$. In particolare $f$ è una _funzione di codifica_ $f(c) = x$ dove:
 - $c$ è un carattere dell'alfabeto $\Sigma$

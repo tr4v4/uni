@@ -3,11 +3,13 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 24-11-2023 13:56:16
 links:
   - "[[Lecture 16112023133640]]"
+  - "[[Lecture 10102024092110]]"
 ---
-# SO
+# Sistema operativo
 ---
 ## Introduzione
 Un computer contiene una _serie di [[Architettura di von Neumann#Introduzione|risorse hardware]] che possono eseguire dei programmi software_. E' possibile, per esempio, caricare manualmente in [[RAM]] un programma, farlo eseguire alla [[CPU]] e ottenere un risultato salvato in [[Memorie#Classificazione|memoria di massa]]. Ovviamente è un modo scomodo per eseguire programmi, ed è limitato per esempio nell'esecuzione di un singolo programma alla volta.
@@ -25,8 +27,10 @@ Di fatto il sistema operativo si occupa di:
 	- [[Paginazione|paginazione]]
 	- [[Segmentazione|segmentazione]] (ed eventuale [[Combinazione segmentazione-paginazione|combinazione]])
 - _gestire i [[Processo|processi]]_
+	- [[Concorrenza|concorrenza]]
 - _gestire le periferiche [[I-O|I/O]]_
 
 Sono compiti estremamente complessi...
 
 ## Referenze
+- il ristorante di Brachetti riflette quasi tutte le peculiarità di un sistema operativo

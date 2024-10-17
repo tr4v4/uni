@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9399f073a532befc",
+        "id": "23580a81504ea200",
         "type": "tabs",
         "children": [
           {
-            "id": "0f694d54e7b1d370",
+            "id": "501751619aa35de5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Macchina astratta.md",
+                "file": "2. notes/Errore nel calcolo numerico.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2. notes/Macchina astratta.md",
+            "file": "2. notes/Errore nel calcolo numerico.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2. notes/Macchina astratta.md",
+            "file": "2. notes/Errore nel calcolo numerico.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -126,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2. notes/Macchina astratta.md"
+            "file": "2. notes/Errore nel calcolo numerico.md"
           }
         }
       }
@@ -150,11 +150,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f694d54e7b1d370",
+  "active": "501751619aa35de5",
   "lastOpenFiles": [
-    "2. notes/Macchina fisica.md",
-    "2. notes/Macchina astratta.md",
+    "2. notes/Errore inerente.md",
+    "2. notes/Errore nel calcolo numerico.md",
+    "0. mocs/Calcolo numerico.md",
+    "2. notes/Intorno.md",
+    "2. notes/Proprietà di completezza di R.md",
+    "0. mocs/Analisi I.md",
+    "2. notes/Teorema del confronto.md",
+    "2. notes/Teorema di permanenza del segno.md",
+    "2. notes/Norma matriciale.md",
+    "2. notes/Anello.md",
+    "2. notes/Abelianità.md",
+    "2. notes/Semianello.md",
+    "2. notes/Strutture algebriche.md",
     "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 19092024125624.md",
+    "1. lectures/Lecture 17092024110611.md",
+    "2. notes/Macchina astratta.md",
+    "2. notes/Macchina fisica.md",
     "2. notes/Interprete.md",
     "2. notes/Linguaggio macchina.md",
     "2. notes/Algebra delle derivate.md",
@@ -163,21 +178,6 @@
     "2. notes/Teorema del completamento.md",
     "2. notes/Base ortonormale.md",
     "2. notes/Sottospazio vettoriale.md",
-    "2. notes/Sottospazi vettoriali dei polinomi.md",
-    "2. notes/Codici correttori.md",
-    "2. notes/Rappresentazione dell'informazione.md",
-    "2. notes/Notazione asintotica.md",
-    "2. notes/Sommatorie notevoli.md",
-    "2. notes/BFS su grafi.md",
-    "2. notes/Algoritmo di ordinamento.md",
-    "2. notes/Dizionario.md",
-    "2. notes/Albero binario.md",
-    "2. notes/Albero AVL.md",
-    "2. notes/Algoritmo di ordinamento comparativo.md",
-    "2. notes/Funzione differenziabile.md",
-    "2. notes/Funzione integrale.md",
-    "2. notes/Sviluppo in serie di Taylor.md",
-    "2. notes/Semianello.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

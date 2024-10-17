@@ -3,6 +3,7 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/tecnologie-web
 date: 12-10-2023 20:02:53
 links:
   - "[[Lecture 11102023151203]]"
@@ -10,9 +11,33 @@ links:
 # UNICODE
 ---
 ## Introduzione
-I problemi dell'[[ASCII]] hanno portato alla formulazione di una nuova codifica, _retrocompatibile_, **che comprendesse però tutti gli alfabeti e che garantisse l'aggiunta futura di nuovi caratteri**. Questa [[Codifica caratteri|codifica]] si chiama **UNICODE**.
+I problemi dell'[[ASCII]] hanno portato alla formulazione di una nuova codifica, _retrocompatibile_, **che comprendesse però tutti gli alfabeti e che garantisse l'aggiunta futura di nuovi caratteri**. Questa [[Codifica dei caratteri|codifica]] si chiama **UNICODE**.
+
+## Definizione
+> **UNICODE**, insieme a [[ISO 10646]] (/IEC), rappresentano il _tentativo di creazione di uno standard unico per la codifica di tutti caratteri di tutti gli alfabeti_.
+
+### Principi
+- repertorio universale
+- efficienza
+- caratteri, non glifi
+- semantica
+- testo semplice
+- ordine logico
+- unificazione
+- composizione dinamica
+- stabilità
+- convertibilità
 
 ## Composizione
+Attualmente, la versione più moderna di UNICOE, definisce:
+- 154998 caratteri in 168 script diversi
+- ~140000 caratteri per scopi privati
+
+divisi in 3 categorie:
+1. _script moderni_
+2. _script antichi_
+3. _segni speciali_
+
 Si compone di 16 bit.
 
 ## Problemi
