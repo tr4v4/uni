@@ -349,6 +349,7 @@ temporanei
 thread
 tubo
 turing
+travaglini
 category
 centesimi
 ciascun
@@ -1248,6 +1249,9 @@ combo
 chiamandola
 chiusa
 complementazione
+corsi
+confrontarla
+cresca
 moc
 mod
 minimo
@@ -2513,6 +2517,7 @@ spessa
 simbolico
 sistemando
 spegne
+scrivi
 finished
 fondamentalmente
 fine
@@ -3697,6 +3702,7 @@ giuste
 giocare
 gira
 gestisca
+gmail
 date
 dati
 di
@@ -5427,6 +5433,9 @@ punter
 pipeline
 preprocessore
 pipe
+pushdown
+prenota
+potenziare
 Note
 Nota
 Non
@@ -5596,6 +5605,7 @@ Ruoli
 Read
 Ricompongo
 RCS
+Ripetizioni
 eserciziari
 esempio
 erogare
@@ -7904,6 +7914,7 @@ naming
 nascere
 navigare
 negare
+nicola
 ogni
 ottenuta
 ottima
