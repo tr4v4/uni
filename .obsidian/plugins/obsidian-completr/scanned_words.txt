@@ -1253,6 +1253,8 @@ complementazione
 corsi
 confrontarla
 cresca
+cliente
+crud
 moc
 mod
 minimo
@@ -1627,6 +1629,7 @@ minuscolo
 metafora
 montaggio
 mini
+manipolare
 status
 strutture
 solo
@@ -2519,6 +2522,10 @@ simbolico
 sistemando
 spegne
 scrivi
+selettore
+swagger
+schemes
+specificano
 finished
 fondamentalmente
 fine
@@ -2826,6 +2833,7 @@ farli
 fintanto
 free
 filter
+fargli
 algebra
 algoritmi
 applicazioni
@@ -2841,7 +2849,6 @@ abbiamo
 attesa
 arrivano
 arrivo
-assurdo
 alfabeto
 alcuni
 avranno
@@ -3134,7 +3141,6 @@ aggiunto
 arrivati
 approssimazioni
 approssimiamo
-assurda
 aggiornare
 ambo
 accorge
@@ -3520,6 +3526,8 @@ avverte
 accedute
 accende
 as
+api
+associargli
 geometria
 gianluigi
 greedy
@@ -4233,6 +4241,7 @@ definitivamente
 dichiarate
 dataview
 discende
+dimostreremo
 Algebra
 Argomenti
 Algoritmi
@@ -4298,7 +4307,6 @@ Assegnamo
 Aggiungendo
 Assegno
 Addizione
-Assurdo
 Altre
 Adesso
 Angoli
@@ -4692,6 +4700,7 @@ lex
 leggo
 linker
 led
+leggibili
 Da
 Domande
 Divide
@@ -5437,6 +5446,7 @@ pipe
 pushdown
 prenota
 potenziare
+palindromi
 Note
 Nota
 Non
@@ -5607,6 +5617,7 @@ Read
 Ricompongo
 RCS
 Ripetizioni
+RESTful
 eserciziari
 esempio
 erogare
@@ -5964,6 +5975,8 @@ elaborati
 esagerando
 entry
 enuncia
+essendoci
+esisete
 Introduzione
 In
 Implementazioni
@@ -6957,7 +6970,6 @@ Cavi
 Canale
 Connettore
 Client
-CRUD
 Create
 Control
 Counter
@@ -7542,6 +7554,10 @@ riconoscitore
 relativa
 regex
 ritenuti
+rest
+richiedente
+responses
+rovescio
 vogliamo
 volta
 valore
@@ -8650,6 +8666,8 @@ backup
 background
 buttare
 breadboard
+bloccare
+bislacco
 job
 jV
 jk
@@ -9557,6 +9575,7 @@ Yhv
 You
 YYYY
 YACC
+YAML
 We
 WZ
 Weierstrass

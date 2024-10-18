@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "13bf296d4c43cebd",
+        "id": "019ee5268cfbcaa1",
         "type": "tabs",
         "children": [
           {
-            "id": "848d052220092e8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. mocs/Università.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbbf775897fb0053",
+            "id": "49aacd2ca5a4dc21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "0. mocs/Linguaggi di programmazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd41acd943cf9de0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 17102024120438.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. mocs/Università.md"
+                "file": "0. mocs/Linguaggi di programmazione.md"
               }
             }
           },
@@ -181,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "0. mocs/Università.md"
+                "file": "0. mocs/Linguaggi di programmazione.md"
               }
             }
           },
@@ -207,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Università.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -276,35 +252,36 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "848d052220092e8a",
+  "active": "49aacd2ca5a4dc21",
   "lastOpenFiles": [
-    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Discipline di valutazione.md",
+    "2. notes/Albero di derivazione.md",
+    "1. lectures/Lecture 18102024090854.md",
+    "2. notes/Semantica operazionale strutturata.md",
+    "2. notes/Sistema di transizione.md",
+    "2. notes/Regole di derivazione.md",
+    "2. notes/Derivazione.md",
+    "2. notes/Linguaggio generato.md",
+    "2. notes/Linguaggio ambiguo.md",
+    "2. notes/Grammatica ambigua.md",
+    "2. notes/Grammatiche libere.md",
+    "2. notes/NFA.md",
+    "2. notes/DFA.md",
     "1. lectures/Lecture 17102024120438.md",
-    "netlify.toml~",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 17102024151452.md",
+    "1. lectures/Lecture 10102024151443.md",
+    "0. mocs/Tecnologie web.md",
     "0. mocs/Università.md",
+    "netlify.toml~",
     "4913",
     "0. mocs/Sistemi operativi.md",
-    "0. mocs/Tecnologie web.md",
     "0. mocs/Reti di calcolatori.md",
     "0. mocs/Programmazione.md",
     "0. mocs/Logica per l'informatica.md",
     "0. mocs/Architettura degli elaboratori.md",
     "0. mocs/Algebra e geometria.md",
     "0. mocs/Algoritmi e strutture dati.md",
-    "0. mocs/Analisi I.md",
-    "0. mocs/Calcolo numerico.md",
-    "1. lectures/Lecture 15102024110302.md",
-    "1. lectures/Lecture 10102024092110.md",
-    "1. lectures/Lecture 17102024091631.md",
-    "2. notes/Assioma di finite progress.md",
-    "1. lectures/Lecture 16102024132343.md",
-    "1. lectures/Lecture 11102024092906.md",
-    "2. notes/Processo.md",
-    "1. lectures/Lecture 16102024162932.md",
-    "1. lectures/croteri.md",
-    "2. notes/Concorrenza.md",
-    "2. notes/Sistema operativo.md",
-    "2. notes/Grafo.md",
     "media/caso-pessimo-nfa-to-dfa-2.png",
     "media/caso-pessimo-nfa-to-dfa-1.png",
     "media/dfa-in-nfa.png",
