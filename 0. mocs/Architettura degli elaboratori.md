@@ -14,7 +14,7 @@ date: 18-09-2023 12:56:24
 
 | Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Lecture 18102023151217]] | <ul><li>[[Cache]]</li><li>[[DRAM]]</li><li>[[Direct Mapped Cache]]</li><li>[[Memorie]]</li><li>[[Microarchitettura HACK]]</li><li>[[Microarchitettura]]</li><li>[[SRAM]]</li><li>[[Architettura degli elaboratori]]</li></ul> |
+| [[Lecture 18102023151217]] | <ul><li>[[Architettura degli elaboratori]]</li><li>[[Cache]]</li><li>[[DRAM]]</li><li>[[Direct Mapped Cache]]</li><li>[[Memorie]]</li><li>[[Microarchitettura HACK]]</li><li>[[Microarchitettura]]</li><li>[[SRAM]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista

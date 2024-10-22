@@ -6,6 +6,7 @@ tags:
 date: 14-10-2024 11:11:12
 links:
   - "[[Lecture 03102024120247]]"
+  - "[[Lecture 08102024111650]]"
 ---
 # NFA
 ---
@@ -55,6 +56,7 @@ A sua volta, dalla tabella è facile ottenere il [[Diagramma di transizione|diag
 
 ## Referenze
 - [[Linguaggio accettato]]
+- [[Equivalenza tra NFA ed espressioni regolari]]
 
 [^1]: perché è l'[[Assioma dell'insieme potenza|insieme delle parti]] di $Q$
 [^2]: sulla falsa riga della [[Sintassi astratta|sintassi astratta]], che è facile da costruire ma [[Grammatica ambigua|ambigua]]

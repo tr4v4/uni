@@ -14,7 +14,7 @@ date: 16-09-2024 10:19:47
 
 | Lezione                                                           | Note                                                                 |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [[Lecture 15102024091721]] | <ul><li>[[Calcolo numerico]]</li></ul> |
+| [[Lecture 22102024092339]] | <ul><li>[[Calcolo numerico]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,8 +23,10 @@ date: 16-09-2024 10:19:47
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
-| [[Lecture 15102024091721]] | 15-10-2024 09:17:21 |
+| [[Lecture 22102024092339]] | 22-10-2024 09:23:39 |
+| [[Lecture 21102024132104]] | 21-10-2024 13:21:04 |
 | [[Lecture 14102024131954]] | 14-10-2024 13:19:54 |
+| [[Lecture 15102024091721]] | 15-10-2024 09:17:21 |
 | [[Lecture 07102024132143]] | 07-10-2024 13:21:43 |
 | [[Lecture 08102024093421]] | 08-10-2024 09:34:21 |
 | [[Lecture 30092024131914]] | 30-09-2024 13:19:14 |
@@ -41,8 +43,10 @@ date: 16-09-2024 10:19:47
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 22102024092339]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 21102024132104]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 15102024091721]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 14102024131954]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 14102024131954]] | <ul><li>#status/ongoing</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -67,6 +71,9 @@ date: 16-09-2024 10:19:47
 
 | Note                                                                                                                         | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Approssimazione ai minimi quadrati]]                                       | <ul><li>#status/ongoing</li></ul>  |
+| [[Approssimazione di dati]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Problema test]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Problema dei minimi quadrati]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Fattorizzazione agli autovalori]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Fattorizzazione ai valori singolari]]                                     | <ul><li>#status/finished</li></ul> |

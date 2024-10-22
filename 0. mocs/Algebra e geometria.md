@@ -14,7 +14,7 @@ date: 20-02-2024 08:55:14
 
 | Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Lecture 06032024091542]] | <ul><li>[[Base]]</li><li>[[Coordinate rispetto a una base]]</li><li>[[Dimensione]]</li><li>[[Insieme massimale]]</li><li>[[Insieme minimale]]</li><li>[[Teorema GEL]]</li><li>[[Algebra e geometria]]</li></ul> |
+| [[Lecture 06032024091542]] | <ul><li>[[Algebra e geometria]]</li><li>[[Base]]</li><li>[[Coordinate rispetto a una base]]</li><li>[[Dimensione]]</li><li>[[Insieme massimale]]</li><li>[[Insieme minimale]]</li><li>[[Teorema GEL]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista

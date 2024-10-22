@@ -14,7 +14,7 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Note                                                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [[Lecture 17102024120438]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+| [[Lecture 22102024110521]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,11 +23,13 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
-| [[Lecture 17102024120438]] | 17-10-2024 12:04:38 |
+| [[Lecture 22102024110521]] | 22-10-2024 11:05:21 |
+| [[Lecture 10102024120505]] | 10-10-2024 12:05:05 |
 | [[Lecture 15102024110302]] | 15-10-2024 11:03:02 |
 | [[Lecture 08102024111650]] | 08-10-2024 11:16:50 |
+| [[Lecture 18102024090854]] | 18-10-2024 09:08:54 |
+| [[Lecture 17102024120438]] | 17-10-2024 12:04:38 |
 | [[Lecture 03102024120247]] | 03-10-2024 12:02:47 |
-| [[Lecture 10102024120505]] | 10-10-2024 12:05:05 |
 | [[Lecture 01102024110253]] | 01-10-2024 11:02:53 |
 | [[Lecture 26092024120454]] | 26-09-2024 12:04:54 |
 | [[Lecture 24092024110820]] | 24-09-2024 11:08:20 |
@@ -41,10 +43,10 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 22102024110521]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 18102024090854]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 17102024120438]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 15102024110302]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 10102024120505]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 08102024111650]] | <ul><li>#status/ongoing</li></ul> |
+| [[Lecture 15102024110302]] | <ul><li>#status/ongoing</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -57,7 +59,7 @@ date: 16-09-2024 10:40:19
 		- [[Semantica statica]], [[Semantica dinamica]]
 		- [[Struttura di un compilatore]]
 		- [[Semantica operazionale strutturata]]
-		- grammatiche regolari, automi a stati finiti, espressioni regolari: equivalenze e risultati principali
+		- [[Espressione regolare]], [[Automa a stati finiti]] ([[NFA]], [[DFA]]), [[Grammatiche regolari]], [[Linguaggio regolare]], [[Equivalenze regolari]]
 		- scanner: costruzione di analizzatori lessicali
 		- grammatiche libere da contesto, automi a pila: equivalenze e risultati principali
 		- grammatiche libere deterministiche: algoritmi di riconoscimento e costruzione dell'albero di derivazione
@@ -81,14 +83,22 @@ date: 16-09-2024 10:40:19
 
 | Note                                                                                                           | Status                             |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Lex]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Minimizzazione di DFA]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Analisi lessicale]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di tabella a scala]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Equivalenze regolari]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Equivalenza tra DFA e grammatiche regolari]]         | <ul><li>#status/finished</li></ul> |
+| [[Grammatiche regolari]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Equivalenza tra NFA e grammatiche regolari]]         | <ul><li>#status/finished</li></ul> |
+| [[Equivalenza tra NFA ed espressioni regolari]]       | <ul><li>#status/finished</li></ul> |
+| [[Costruzione per sottoinsiemi]]                                     | <ul><li>#status/finished</li></ul> |
+| [[NFA]]                                                                                       | <ul><li>#status/finished</li></ul> |
 | [[DFA]]                                                                                       | <ul><li>#status/finished</li></ul> |
-| [[Costruzione per sottoinsiemi]]                                     | <ul><li>#status/ongoing</li></ul>  |
 | [[Automa a stati finiti]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Espressione regolare]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[Linguaggio accettato]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[Diagramma di transizione]]                                             | <ul><li>#status/finished</li></ul> |
-| [[NFA]]                                                                                       | <ul><li>#status/finished</li></ul> |
-| [[Analisi lessicale]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[Linguaggio denotato da un'espressione regolare]] | <ul><li>#status/finished</li></ul> |
 | [[Linguaggio regolare]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Semantica operazionale strutturata]]                         | <ul><li>#status/finished</li></ul> |

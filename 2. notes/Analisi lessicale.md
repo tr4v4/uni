@@ -21,7 +21,7 @@ In particolare:
 Per la realizzazione si ha bisogno di:
 - _[[Grammatiche regolari|grammatiche regolari]]_
 - _[[Espressione regolare|espressioni regolari]]_
-- [[Linguaggio regolare|linguaggi regolari]]
+- _[[Linguaggio regolare|linguaggi regolari]]_
 - _[[Automa a stati finiti|automi a stati finiti]]_
 
 ## Token

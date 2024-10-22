@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/linguaggi-di-programmazione
 date: 14-10-2024 20:39:21
 links:
@@ -131,13 +131,56 @@ diventa il DFA
 ![[caso-pessimo-nfa-to-dfa-2.png]]
 
 ## Teorema
-> Sia $N = (\Sigma, Q, \delta, Q_{0}, F)$ un NFA e sia $M_{N}$ l'automa ottenuto con la costruzione dei sottoinsiemi, allora $M_{N}$ è un DFA e si ha che
+> Sia $N = (\Sigma, Q, \delta, q_{0}, F)$ un NFA e sia $M_{N}$ l'automa ottenuto con la costruzione dei sottoinsiemi, allora $M_{N}$ è un DFA e si ha che
 > $$L[N] = L[M_{N}]$$
 
 Come corollario si ha che _la classe dei linguaggi riconosciuti dagli NFA coincide con la classe di quelli riconosciuti dai DFA_.
 
 ### Dimostrazione
-%%da fare%%
+Supponiamo $N = (\Sigma, Q, \delta, q_{0}, F)$ un NFA e $M_{N} = (\Sigma, T, \Delta, \epsilon\text{-closure}(q_{0}), \mathscr{F})$ l'automa ottenuto con l'algoritmo di costruzione per sottoinsiemi.
+
+Dobbiamo dimostrare che:
+1. $M_{N}$ è un DFA, ossia deterministico;
+2. $L[N] = L[M_{N}]$;
+
+#### 1.
+Ovvio, in quanto $\Delta(A, a)$ è definita per ogni coppia $(A, a)$, $\forall A \in T$ e $\forall a \in \Sigma$, _in modo univoco_ (per la costruzione), e il risultato di $\Delta$ è un elemento di $T$.
+
+#### 2.
+Prima di tutto osserviamo che per un DFA, $\forall R \in T \ \ \ \epsilon\text{-closure}(R) = R$, perché non ci sono mosse $\epsilon$. Quindi definiamo $i_{M} = \epsilon\text{-closure}(q_{0})$, ossia lo stato iniziale di $M_{N}$.
+
+Vogliamo in definitiva mostrare che
+$$\forall w \in \Sigma^{*} \ \ \ \hat{\delta}(q_{0}, w) = \hat{\Delta}(i_{M}, w)$$
+per [[Induzione strutturale|induzione]] sulla lunghezza di $w$.
+
+##### Caso base
+Supponiamo $|w| = 0$, e quindi $w = \epsilon$, allora:
+$$\hat{\delta}(q_{0}, \epsilon) = \epsilon\text{-closure}(q_{0}) = i_{M}$$
+
+D'altro canto, si ha che
+$$\hat{\Delta}(i_{M}, \epsilon) = \epsilon\text{-closure}(i_{M}) = i_{M}$$
+per l'osservazione l'iniziale.
+
+Da ciò, vale
+$$\hat{\delta}(q_{0}, \epsilon) = \hat{\Delta}(i_{M}, \epsilon)$$
+
+##### Caso induttivo
+Supponiamo che $w = xa$, con $x \in \Sigma^{*}, a \in \Sigma$, e per ipotesi induttiva che
+$$\hat{\delta}(q_{0}, x) = \hat{\Delta}(i_{M}, x)$$
+
+Dobbiamo dimostrare che
+$$\hat{\delta}(q_{0}, xa) = \hat{\Delta}(i_{M}, xa)$$
+
+Allora, per definizione di $\hat{\delta}$ si ha che:
+$$\hat{\delta}(q_{0}, xa) = \epsilon\text{-closure}(\text{mossa}(\hat{\delta}(q_{0}, x), a))$$
+e per ipotesi induttiva
+$$\epsilon\text{-closure}(\text{mossa}(\hat{\delta}(q_{0}, x), a)) = \epsilon\text{-closure}(\text{mossa}(\hat{\Delta}(i_{M}, x), a))$$
+da cui, considerando che su $M_{N}$, in quanto DFA, non fa effetto $\epsilon\text{-closure}$
+$$\epsilon\text{-closure}(\text{mossa}(\hat{\Delta}(i_{M}, x), a)) = \text{mossa}(\hat{\Delta}(i_{M}, x), a)$$
+che per definizione è
+$$\text{mossa}(\hat{\Delta}(i_{M}, x), a) = \hat{\Delta}(i_{M}, xa)$$
+
+**Qed**.
 
 ## Referenze
 [^1]: nota come suona meglio la lettura della regola in top-down

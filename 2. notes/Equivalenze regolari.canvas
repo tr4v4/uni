@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"e9b7fc4dc18473c2","x":-392,"y":-393,"width":265,"height":86,"type":"text","text":"# Espressioni regolari"},
+		{"id":"af90a3fffd44577f","type":"text","text":"# NFA","x":548,"y":-393,"width":265,"height":86},
+		{"id":"e630d07f6f57c329","type":"text","text":"# DFA","x":548,"y":133,"width":265,"height":86},
+		{"id":"6e4c6dea77d8dfec","type":"text","text":"# Grammatiche regolari","x":-392,"y":133,"width":265,"height":86},
+		{"id":"f38d92b72f4ab15e","type":"text","text":"## Equivalenza tra NFA ed espressioni regolari","x":39,"y":-393,"width":362,"height":86},
+		{"id":"c9726047f14673eb","type":"text","text":"## Costruzione per sottoinsiemi","x":551,"y":-120,"width":260,"height":86},
+		{"id":"00425b10ca328f90","type":"text","text":"## Equivalenza tra DFA e grammatiche regolari","x":39,"y":133,"width":362,"height":86},
+		{"id":"99c95f877e7cc4ed","type":"text","text":"## Equivalenza tra NFA e grammatiche regolari","x":-100,"y":-197,"width":362,"height":77}
+	],
+	"edges":[
+		{"id":"113fd6b249820616","fromNode":"e9b7fc4dc18473c2","fromSide":"right","toNode":"af90a3fffd44577f","toSide":"left"},
+		{"id":"ea4ab396a5e597b7","fromNode":"af90a3fffd44577f","fromSide":"bottom","toNode":"e630d07f6f57c329","toSide":"top"},
+		{"id":"2572b59a1e7241e7","fromNode":"e630d07f6f57c329","fromSide":"left","toNode":"6e4c6dea77d8dfec","toSide":"right"},
+		{"id":"3da5f50e09dd135f","fromNode":"6e4c6dea77d8dfec","fromSide":"top","toNode":"e9b7fc4dc18473c2","toSide":"bottom"},
+		{"id":"909bd0f2e9285c22","fromNode":"6e4c6dea77d8dfec","fromSide":"top","toNode":"af90a3fffd44577f","toSide":"left"}
+	]
+}

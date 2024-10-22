@@ -14,5 +14,13 @@
       ],
       "key": "J"
     }
+  ],
+  "dataview-serializer:serialize-all-dataview-queries": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
   ]
 }

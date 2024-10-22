@@ -125,7 +125,7 @@ $$x = Vy = \sum\limits_{i=1}^{n} v_{i}y_{i} = \sum\limits_{i=1}^{k} v_{i} \frac{
 Fondamentalmente, calcolando $x$ in questo modo, minimizziamo $\sum\limits_{i=1}^{k} (\sigma_{i}y_{i} - g_{i})^{2}$ e quindi di conseguenza ${\|Ax - b\|_{2}}^{2}$.
 
 E' importantissimo non scordarsi del termine "scartato" $\sum\limits_{i=k+1}^{n} {g_{i}}^{2}$. Questo, infatti, non è altro che la norma del residuo $r$ al quadrato:
-$${\|r\|_{2}} = \sum\limits_{i=k+1}^{n} {g_{i}}^{2} = \sum\limits_{i=k+1}^{n} ({u_{i}}^{T}b)^{2}$$
+$${\|r\|_{2}}^{2} = \sum\limits_{i=k+1}^{n} {g_{i}}^{2} = \sum\limits_{i=k+1}^{n} ({u_{i}}^{T}b)^{2}$$
 
 #### Pseudoinversa
 E' possibile definire di una matrice $A$ decomposta in valori singoli come $A = U \Sigma V^{T}$, la sua pseudoinversa
