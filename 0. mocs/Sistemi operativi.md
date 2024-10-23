@@ -28,12 +28,9 @@ date: 16-09-2024 10:45:14
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione                                                           | Status                            |
-| ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 17102024091631]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 16102024132343]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 11102024092906]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 10102024092110]] | <ul><li>#status/pending</li></ul> |
+| Lezione                    | Status                            |
+| -------------------------- | --------------------------------- |
+| [[Lecture 17102024091631]] | <ul><li>#status/ongoing</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -50,12 +47,32 @@ date: 16-09-2024 10:45:14
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/sistemi-operativi SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/sistemi-operativi SORT file.ctime DESC -->
 
-| Note                                                                   | Status                             |
-| ---------------------------------------------------------------------- | ---------------------------------- |
-| [[Assioma di finite progress]] | <ul><li>#status/finished</li></ul> |
-| [[Processo]]                                     | <ul><li>#status/pending</li></ul>  |
-| [[Concorrenza]]                               | <ul><li>#status/pending</li></ul>  |
-| [[Sistema operativo]]                   | <ul><li>#status/finished</li></ul> |
+| Note                                                                           | Status                             |
+| ------------------------------------------------------------------------------ | ---------------------------------- |
+| [[Algoritmo di Dekker]]                       | <ul><li>#status/ongoing</li></ul>  |
+| [[Problema della sezione critica]] | <ul><li>#status/finished</li></ul> |
+| [[Sezione critica]]                               | <ul><li>#status/finished</li></ul> |
+| [[Azione atomica]]                                 | <ul><li>#status/finished</li></ul> |
+| [[Starvation]]                                         | <ul><li>#status/finished</li></ul> |
+| [[Deadlock]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Mutua esclusione]]                             | <ul><li>#status/finished</li></ul> |
+| [[Proprietà liveness]]                         | <ul><li>#status/finished</li></ul> |
+| [[Proprietà safety]]                             | <ul><li>#status/finished</li></ul> |
+| [[Proprietà di un programma]]           | <ul><li>#status/finished</li></ul> |
+| [[GCC]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Cross compiler]]                                 | <ul><li>#status/finished</li></ul> |
+| [[C]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Unix]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Race condition]]                                 | <ul><li>#status/finished</li></ul> |
+| [[Distributed processing]]                 | <ul><li>#status/finished</li></ul> |
+| [[Multiprocessing]]                               | <ul><li>#status/finished</li></ul> |
+| [[Multiprogramming]]                             | <ul><li>#status/finished</li></ul> |
+| [[Esecuzione concorrente]]                 | <ul><li>#status/finished</li></ul> |
+| [[Assioma di finite progress]]         | <ul><li>#status/finished</li></ul> |
+| [[Processo]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Concorrenza]]                                       | <ul><li>#status/finished</li></ul> |
+| [[Sistema operativo]]                           | <ul><li>#status/finished</li></ul> |
+| [[Programma]]                                           | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Referenze

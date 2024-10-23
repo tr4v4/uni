@@ -43,8 +43,8 @@ date: 18-09-2023 00:06:24
 | [[Lecture 09102023094657]] | 09-10-2023 09:46:57 |
 | [[Lecture 17112023134446]] | 17-11-2023 13:44:46 |
 | [[Lecture 16102023093744]] | 16-10-2023 09:37:44 |
-| [[Lecture 07032024141028]] | 07-03-2024 14:10:28 |
 | [[Lecture 02102023093041]] | 02-10-2023 09:30:41 |
+| [[Lecture 07032024141028]] | 07-03-2024 14:10:28 |
 | [[Lecture 04032024131001]] | 04-03-2024 13:10:01 |
 | [[Lecture 25092023093433]] | 25-09-2023 09:34:33 |
 | [[Lecture 10112023134301]] | 10-11-2023 13:43:01 |
@@ -312,8 +312,8 @@ date: 18-09-2023 00:06:24
 | [[Maggiorante]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Trigonometria]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Minorante]]                                                                                         | <ul><li>#status/finished</li></ul> |
-| [[Estremo inferiore]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Estremo superiore]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Estremo inferiore]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Sommatoria]]                                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Limite al finito di funzione]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Insieme finito]]                                                                               | <ul><li>#status/finished</li></ul> |

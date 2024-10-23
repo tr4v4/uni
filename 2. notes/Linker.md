@@ -3,6 +3,7 @@ tags:
   - "#category/note"
   - "#status/finished"
   - topic/programmazione
+  - topic/architettura-degli-elaboratori
 date: 19-09-2023 09:39:00
 links:
   - "[[Lecture 18092023150410]]"
