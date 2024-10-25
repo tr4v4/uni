@@ -75,8 +75,8 @@ date: 16-09-2024 10:19:47
 | [[Approssimazione di dati]]                                                             | <ul><li>#status/finished</li></ul> |
 | [[Problema test]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Problema dei minimi quadrati]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[Fattorizzazione agli autovalori]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Fattorizzazione ai valori singolari]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Fattorizzazione agli autovalori]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Norma matriciale]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Norma vettoriale]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Errore inerente]]                                                                             | <ul><li>#status/finished</li></ul> |

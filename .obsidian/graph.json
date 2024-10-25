@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "tag:#topic/sistemi-operativi  ",
+      "color": {
+        "a": 1,
+        "rgb": 295203
+      }
     }
   ],
   "collapse-display": true,
@@ -88,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.09947833085103203,
+  "scale": 0.09248815955110719,
   "close": true
 }

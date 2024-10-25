@@ -138,6 +138,7 @@ date: 18-09-2023 15:00:31
 | [[Passaggio per valore]]                                       | <ul><li>#status/finished</li></ul> |
 | [[Assegnamento]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Heap]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Programma]]                                                             | <ul><li>#status/finished</li></ul> |
 | [[Allocazione dinamica della memoria]]           | <ul><li>#status/finished</li></ul> |
 | [[Bug]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Bubble sort]]                                                         | <ul><li>#status/finished</li></ul> |

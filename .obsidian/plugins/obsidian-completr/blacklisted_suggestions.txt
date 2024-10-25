@@ -16,3 +16,4 @@ assurdo
 assurda
 Assurdo
 CRUD
+\textcircledP

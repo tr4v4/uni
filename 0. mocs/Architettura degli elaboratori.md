@@ -143,6 +143,7 @@ Argomenti:
 | [[Registro]]                                                               | <ul><li>#status/finished</li></ul> |
 | [[Forma canonica booleana]]                                 | <ul><li>#status/finished</li></ul> |
 | [[Invocazione di procedura]]                               | <ul><li>#status/finished</li></ul> |
+| [[Linker]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Sistema operativo]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Istruzioni ISA]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Modalità di indirizzamento]]                           | <ul><li>#status/finished</li></ul> |

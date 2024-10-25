@@ -17,6 +17,7 @@ date: 16-09-2024 10:45:14
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 24102024091305]] | 24-10-2024 09:13:05 |
 | [[Lecture 17102024091631]] | 17-10-2024 09:16:31 |
 | [[Lecture 16102024132343]] | 16-10-2024 13:23:43 |
 | [[Lecture 11102024092906]] | 11-10-2024 09:29:06 |
@@ -28,8 +29,9 @@ date: 16-09-2024 10:45:14
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione                    | Status                            |
-| -------------------------- | --------------------------------- |
+| Lezione                                                           | Status                            |
+| ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 24102024091305]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 17102024091631]] | <ul><li>#status/ongoing</li></ul> |
 <!-- SerializedQuery END -->
 
