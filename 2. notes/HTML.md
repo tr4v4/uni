@@ -7,6 +7,7 @@ date: 13-10-2024 14:42:25
 links:
   - "[[Lecture 30092024161544]]"
   - "[[Lecture 03102024151447]]"
+  - "[[Lecture 14102024161336]]"
 ---
 # HTML
 ---
@@ -143,5 +144,42 @@ Altri sono:
 - _i18n_: lang, dir
 - _interattività_: accesskey, autofocus, tabindex, inputmode
 - _evento_: onclick, ondoubleclick, onmouseover, onkeypress
+
+#### Attributi `data-`
+In HTML non esistono veri e propri errori di sintassi, ed è possibile inventare dei propri attributi facendoli formalmente riconoscere dal prefisso `data-`. Sono un set aperto di attributi definibile in ogni elemento HTML, usatissimi in _Bootstrap_.
+
+Per accederci in [[CSS]] si aggiunge al selettore `['data-xxx']`. Per esempio:
+```css
+button['data-premimi'] {
+	...
+}
+```
+
+In [[Javascript]] bisogna fare attenzione al nome di questi attributi, perché vengono convertiti in notazione _camel case_ (non accetta variabili con `-` ed è _case sensitive_).
+
+#### Attributi ARIA
+Per i non vedenti sono stati introdotti degli attributi appositi che mitigassero la cattiva abitudine degli sviluppatori di usare tag non semantici come semantici, rendendo inaccessibili porzioni di pagine web.
+
+Per esempio viene spesso usato `<span>` come bottone al posto di usare il tag appropriato `<button>`. Gli attributi ARIA vanno a definire il _ruolo_ di ogni tag, _esplicitandone la semantica_.
+
+### Entità
+L'ultima macro-categoria di elementi di HTML sono le sue entità. In particolare si tratta di _entità-carattere_. Esistono perché:
+- alcuni caratteri sono proibiti in quanto usati in HTML --> serve un meccanismo di _escaping_;
+- se il documento è codificato in [[ASCII]] 7 bit allora caratteri non sono rappresentabili.
+
+<u>Nota bene</u>: se il documento è in [[UTF-8]], ovviamente, l'unico problema è l'escaping.
+
+Per risolvere entrambi i problemi in un colpo solo, HTML consente di scrivere caratteri di questa categoria anteponendo l'ampersand `&`.
+
+## Peculiarità
+HTML presenta alcune peculiarità sintattiche che è bene conoscere:
+- maiuscolo/minuscolo indifferente, mentre XHTML sì
+- whitespace, HTML collassa tutti i caratteri di whitespace (`SPACE`, `TAB`, `CR`, `LF`) in un unico spazio (tranne quando si è dentro il tag `<pre>`)
+- estensioni del linguaggio, si può estendere HTML con propri elementi e/o attributi
+- bizzarrie sintattiche
+	- _virgolette non obbligatorie_, ma noi sappiamo che lo sono quando gli attributi NON sono TOKEN
+	- _assenza di tag_, si possono omettere `<html>` e `<body>`, ovviamente non valido in XHTML --> l'algoritmo di parsing della WHATWG (che ha contestato XHTML proposto da W3C) aggiunge automaticamente `<html>` e `<body>` all'interno delle pagine in cui è assente
+	- _omissibilità del tag di chiusura_, si possono non chiudere i `<li>` (solo quel tag)
+	- _attributi di solo valore_, caratteristica ereditata da SGML (e poi rimosso) in cui se il nome dell'attributo e il suo valore sono uguali si può omettere il valore e scrivere solo il nome
 
 ## Referenze

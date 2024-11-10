@@ -63,6 +63,4 @@ $\impliedby$: suppongo $(p, q)$ marcata nella tabella, allora se si considera la
 
 **Qed**.
 
-### Minimo
-
 ## Referenze

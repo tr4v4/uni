@@ -200,7 +200,7 @@ Ugualmente, $M_{\min}$ non ha stati irraggiungibili per costruzione.
 Allora per l'osservazione precedente, _ogni stato di $M_{\min}$è equivalente ad almeno uno stato di $N$_. Questo perché $|Q| < |Q_{\min}|$, e tutti questi stati sono raggiungibili (sia in $N$ che in $M_{\min}$). Sapendo che gli stati iniziali di $N$ e $M_{\min}$ sono equivalenti, allora lo devono essere anche i successori, ed essendo tutti gli stati raggiungibili il ragionamento si protrae a catena per ogni stato di $M_{\min}$ e $N$.
 
 ###### 4.
-Si conclude facendo notare che poiché $M_{\min}$ ha meno stati di $N$, due stati $p, p'$ di $M_{\min}$ devono essere equivalenti ad uno stesso stato $q$ di $N$. Ma la relaizone di equivalenza $\sim$ è transitiva! Perciò
+Si conclude facendo notare che poiché $M_{\min}$ ha meno stati di $N$, due stati $p, p'$ di $M_{\min}$ devono essere equivalenti ad uno stesso stato $q$ di $N$. Ma la relazione di equivalenza $\sim$ è transitiva! Perciò
 $$p \sim q \land q \sim p' \implies p \sim p'$$
 e _questo è un assurdo considerato che non esistono due stati distinti in $M_{\min}$ che siano tra loro equivalenti_.
 

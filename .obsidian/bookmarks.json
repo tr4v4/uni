@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1730546867637,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "0. mocs/Calcolo numerico.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "2. notes/Algoritmi per la risoluzione di sistemi lineari.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "2. notes/Fattorizzazione LU.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "2. notes/Fattorizzazione di Cholesky.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "2. notes/Errore inerente.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "4. homeworks/Calcolo numerico - HW. 1.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1730546843867,
+          "path": "2. notes/Norma matriciale.md"
+        }
+      ],
+      "title": "Workflow - Calcolo numerico"
+    }
+  ]
+}

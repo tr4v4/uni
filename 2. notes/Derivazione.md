@@ -7,6 +7,7 @@ date: 30-09-2024 21:52:27
 links:
   - "[[Lecture 24092024110820]]"
   - "[[Lecture 26092024120454]]"
+  - "[[Lecture 17102024120438]]"
 ---
 # Derivazione
 ---
@@ -20,6 +21,11 @@ links:
 <u>Nota bene</u>: _ci possono essere più derivazioni diverse che generano la stessa stringa_.
 
 <u>Nota bene</u>: _posso partire da simboli non iniziali, e otterrò delle derivazioni valide ma che non appartengono alla grammatica_!
+
+## Tipologie
+Esistono due fondamentali tipologie di derivazioni:
+- [[Derivazione canonica sinistra|derivazione canonica sinistra]]
+- [[Derivazione canonica destra|derivazione canonica destra]]
 
 ## Referenze
 - [[Albero di derivazione]]

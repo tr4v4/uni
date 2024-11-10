@@ -28,21 +28,4 @@ Indichiamo una sezione critica con la seguente [[Sintassi|sintassi]]:
 
 Abbiamo bisogno di indicare al [[Sistema operativo|sistema operativo]] quali sezioni sono critiche e quali non lo sono perché lui non è in grado di riconoscerle. Ci _permette così di evitare errori da [[Race condition|race condition]] e di consentire un parallelismo (reale o apparente) sulle sezioni non critiche_.
 
-## Implementazione
-La sezione critica si può implementare:
-- via _software_
-	- `enter cs` e `exit cs` si implementa con una libreria
-	- soggetto a errori
-	- costoso in termini di esecuzione (busy waiting)
-	- interessante didatticamente
-- via _hardware_
-	- utilizzano istruzioni speciali del linguaggio, progettate apposta
-	- efficienti
-	- non adatte come soluzioni general-purpose
-
-Noi ne vedremo 3:
-- [[Semafori]]
-- [[Monitor]]
-- [[Message passing]]
-
 ## Referenze

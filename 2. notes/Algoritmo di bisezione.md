@@ -27,7 +27,7 @@ $$|c-x| < \frac{b-a}{2}$$
 ossia che la distanza di $c$ dalla radice effettiva è minore della distanza dell'intervallo finale $[a, b]$.
 
 Se prendiamo in considerazione i valori iniziali di $[a, b]$, che chiamiamo $a_{0}$ e $b_{0}$, allora si avrà:
-$$|c-x| = \frac{b_{0} - a_{0}}{2^{n}}$$
+$$|c-x| < \frac{b_{0} - a_{0}}{2^{n}}$$
 
 <u>Nota bene</u>: l'algoritmo presenta una grande somiglianza con la [[Teorema degli zeri#Dimostrazione|dimostrazione del teorema degli zeri]].
 

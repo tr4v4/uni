@@ -10,7 +10,7 @@ links:
 # Azione atomica
 ---
 ## Introduzione
-> Un'**azione atomica** sono _istruzioni che vengono eseguite in modo indivisibile_.
+> Un'**azione atomica** sono _istruzioni che vengono eseguite in modo indivisibile_. Sono unità discrete.
 
 Nel caso del _parallelismo reale_ ([[Multiprocessing|multiprocessing]] e [[Distributed processing|distributed processing]]) viene garantito che l'azione non interferisca con altri processi durante la sua esecuzione.
 

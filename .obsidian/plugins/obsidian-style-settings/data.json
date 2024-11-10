@@ -21,5 +21,6 @@
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
-  "anuppuccin-theme-settings@@anp-toggle-preview": false
+  "anuppuccin-theme-settings@@anp-toggle-preview": false,
+  "underwater-theme@@underwater-colors-dark": "rose-pine-moon"
 }

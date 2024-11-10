@@ -18,3 +18,4 @@ L'assenza di deadlock è considerata una [[Proprietà safety|proprietà safety]]
 L'unica soluzione in caso di deadlock nei sistemi reali è di _uccidere uno dei processi bloccanti_.
 
 ## Referenze
+- si crea una sorta di [[Equilibrio di Nash|equilibrio di Nash]]

@@ -42,7 +42,7 @@ Nel dettaglio vengono generati dei singoli [[NFA]] per ogni pattern, uniti da un
 
 Il DFA simulato deve garantire due importantissimi aspetti finora mai visti:
 - _se dei pattern condividono lo stesso prefisso viene cercato sempre il lessema più lungo_;
-- _se vengono riconosciuti più pattern per uno stesso lessema viene identificato sempre il pattern dichiarati prima_;
+- _se vengono riconosciuti più pattern per uno stesso lessema viene identificato sempre il pattern dichiarato prima_;
 
 <u>Nota bene</u>: quindi l'ordine di scrittura delle regole nel file `lex.l` è importante!
 
@@ -53,7 +53,7 @@ Per garantire questi due meccanismi il DFA simulato procede nel seguente modo:
 	- _se non è di riconoscimento_ --> risale la successione di transizione di stati fino a trovarne uno di riconoscimento, e quello sarà il pattern scelto;
 		- _questo garantisce proprio che se più pattern condividono uno stesso prefisso venga scelto il più lungo_
 3. se arrivati al match più di uno (sotto-)stato del DFA simulato è finale (di riconoscimento), allora scelgo il pattern elencato prima;
-	- _questo garantisce che se vengono riconosciuti più pattern per uno stesso lessema viene identificato sempre il pattern dichiarati prima_
+	- _questo garantisce che se vengono riconosciuti più pattern per uno stesso lessema viene identificato sempre il pattern dichiarato prima_
 4. trovato il match corretto, elimina la sottostringa dell'input matchata e riparte da capo con la parte rimanente;
 
 ## Utilizzo con YACC

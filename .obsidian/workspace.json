@@ -4,75 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "7eab69eeca3721f0",
+        "id": "66b98376113a8f81",
         "type": "tabs",
-        "dimension": 32.40938166311301,
         "children": [
           {
-            "id": "ff9c2487924013fe",
+            "id": "b0f57b35e47f78a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Sistemi operativi.md",
+                "file": "0. mocs/Calcolo numerico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemi operativi"
+              "title": "Calcolo numerico"
             }
           },
           {
-            "id": "ac0738b244657e16",
+            "id": "f8693965d253c313",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/C.md",
+                "file": "2. notes/Problemi inversi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C"
+              "title": "Problemi inversi"
             }
           },
           {
-            "id": "69fb9e63aa47dc83",
+            "id": "4886d8df3cd2020e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/GCC.md",
+                "file": "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCC"
+              "title": "Algoritmi per la risoluzione di sistemi lineari"
+            }
+          },
+          {
+            "id": "a87dac373487c178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Fattorizzazione LU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fattorizzazione LU"
+            }
+          },
+          {
+            "id": "33151c9519cb9c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Fattorizzazione di Cholesky.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fattorizzazione di Cholesky"
+            }
+          },
+          {
+            "id": "9ea9fa823a2ddf19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Errore inerente.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Errore inerente"
+            }
+          },
+          {
+            "id": "e7d493fe233e8703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo numerico - HW. 1"
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "1ec0a5532503b0ed",
-        "type": "tabs",
-        "dimension": 67.590618336887,
-        "children": [
-          {
-            "id": "42d6fb7d5b65afc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 25102024091600.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 25102024091600"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270,
+    "width": 248.5,
     "collapsed": true
   },
   "right": {
@@ -192,10 +226,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md"
+                "file": "4. homeworks/Calcolo numerico - HW. 1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Linguaggi di programmazione"
+              "title": "Outline of Calcolo numerico - HW. 1"
             }
           },
           {
@@ -245,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -258,7 +292,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -286,7 +320,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Linguaggi di programmazione"
+              "title": "Graph of Calcolo numerico - HW. 1"
             }
           }
         ]
@@ -310,7 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
+    "width": 255.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -331,56 +365,56 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "42d6fb7d5b65afc5",
+  "active": "f8693965d253c313",
   "lastOpenFiles": [
+    "0. mocs/Calcolo numerico.md",
+    "1. lectures/Lecture 04112024131513.md",
+    "2. notes/Problemi inversi.md",
+    "2. notes/Problema dei minimi quadrati.md",
+    "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
+    "2. notes/Norma matriciale.md",
+    "2. notes/Principio di massima discrepanza.md",
+    "2. notes/Regolarizzazione alla Tikhonov.md",
+    "2. notes/Fattorizzazione ai valori singolari troncata.md",
+    "2. notes/Condizioni discrete di Picard.md",
+    "media/condizioni-discrete-di-picard-3.png",
+    "media/condizioni-discrete-di-picard-2.png",
+    "media/condizioni-discrete-di-picard-1.png",
+    "2. notes/Errore inerente.md",
+    "2. notes/Numero di condizione.md",
+    "2. notes/Fattorizzazione LU.md",
+    "2. notes/Fattorizzazione agli autovalori.md",
+    "2. notes/Approssimazione ai minimi quadrati.md",
+    "2. notes/Metodo dei minimi quadrati.md",
+    "2. notes/Approssimazione di dati.md",
+    "1. lectures/Lecture 22102024092339.md",
+    "2. notes/Ottimizzazione di dati.md",
+    "2. notes/Condizione di Wolfe.md",
+    "2. notes/Metodo di discesa del gradiente.md",
+    "4. homeworks/Calcolo numerico - HW. 1.md",
+    "media/learning-rate.png",
+    "media/learning-rate.png.crdownload",
+    "2. notes/Funzione convessa.md",
+    "2. notes/Funzione coerciva.md",
+    "2. notes/Matrice hessiana.md",
+    "2. notes/Classificazione forme quadratiche.md",
+    "media/funzione-convessa.png",
+    "media/funzione-convessa.png.crdownload",
+    "media/semafori-vantaggi.png",
+    "media/calcolo-hw-1-finale.png",
+    "media/calcolo-hw-1-newton-7.png",
+    "media/calcolo-hw-1-newton-6.png",
+    "media/calcolo-hw-1-newton-5.png",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
     "netlify.toml~",
     "ads.txt",
-    "2. notes/GCC.md",
-    "2. notes/C.md",
-    "0. mocs/Sistemi operativi.md",
-    "1. lectures/Lecture 16102024132343.md",
-    "1. lectures/Lecture 25102024091600.md",
-    "1. lectures/Untitled.md",
-    "1. lectures/Lecture 11102024092906.md",
-    "0. mocs/Tecnologie web.md",
-    "1. lectures/Lecture 24102024153025.md",
-    "1. lectures/Lecture 21102024161327.md",
-    "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 22102024110521.md",
-    "1. lectures/Lecture 24102024120228.md",
-    "2. notes/Albero di derivazione.md",
-    "1. lectures/Lecture 15102024110302.md",
-    "1. lectures/Lecture 17102024091631.md",
-    "1. lectures/Lecture 24102024091305.md",
-    "2. notes/Cross compiler.md",
-    "2. notes/Sistema operativo.md",
-    "2. notes/Concorrenza.md",
-    "2. notes/Processo.md",
-    "2. notes/Azione atomica.md",
-    "2. notes/Sezione critica.md",
-    "2. notes/Problema della sezione critica.md",
-    "2. notes/Algoritmo di Dekker.md",
-    "media/stati-processo.png",
-    "media/lex-yacc.png",
-    "media/diagramma-lex-3.png",
-    "media/diagramma-lex-2.png",
-    "media/diagramma-lex.png",
-    "media/algoritmo-tabella-a-scala-1.png",
-    "media/esempio-minimizzazione-dfa-4.png",
-    "media/esempio-minimizzazione-dfa-3.png",
-    "media/esempio-minimizzazione-dfa-2.png",
-    "media/esempio-minimizzazione-dfa-1.png",
     "2. notes/Equivalenze regolari.canvas",
     "4913",
     "Chats",
-    "3. projects/aijsodijas.canvas",
     "media/raggio-di-curvatura.jpg.crdownload",
-    "media/raggio-di-curvatura.png.crdownload",
-    "media/torri-di-hanoi.jpeg.crdownload",
-    "media/linee-di-livello-circonferenze.png.crdownload",
-    "media/curve-di-livello-per-il-paraboloide.png.crdownload",
-    "Untitled Document",
-    "netlify.toml",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

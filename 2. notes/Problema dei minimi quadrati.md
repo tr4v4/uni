@@ -15,13 +15,12 @@ Per poter affrontare il problema dei minimi quadrati è necessario conoscere:
 - [[Fattorizzazione ai valori singolari|fattorizzazione ai valori singolari]]
 
 ## Definizione
-> Preso un [[Sistema lineare|sistema lineare]] $Ax = b$ dove $A \in M_{m \times n}(\mathbb{R})$ con $m > n$ (ho più equazioni che incognite), per cui in generale non esiste una soluzione, il **problema dei minimi quadrati** consiste nel trovare un $x \in \mathbb{R}^{n}$ talche che venga _minimizzata la differenza_ $Ax - b$, o formalmente
+> Preso un [[Sistema lineare|sistema lineare]] $Ax = b$ dove $A \in M_{m \times n}(\mathbb{R})$ con $m > n$ (ho più equazioni che incognite), per cui in generale non esiste una soluzione, il **problema dei minimi quadrati** consiste nel trovare un $x \in \mathbb{R}^{n}$ tale che che venga _minimizzata la differenza_ $Ax - b$, o formalmente
 > $${\arg_{\min}}_{x \in \mathbb{R}^{n}} {\|Ax - b\|_{2}}^{2}$$
 > Per cui si cerca l'$x \in \mathbb{R}^{n}$ che minimizzi la [[Norma euclidea|norma euclidea]] del vettore $Ax - b$ al quadrato.
 > <u>Nota bene</u>: $x = \arg_{\min}$, invece $y = Ax - b = \min$.
 
 <u>Nota bene</u>: il motivo per cui si fa la norma al quadrato è per una semplificazione dei calcoli.
-
 
 Si tratta di un _problema estremamente comune_, soprattutto nel [[Machine learning|machine learning]].
 

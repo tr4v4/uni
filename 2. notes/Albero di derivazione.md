@@ -6,6 +6,7 @@ tags:
 date: 05-10-2024 16:18:14
 links:
   - "[[Lecture 26092024120454]]"
+  - "[[Lecture 17102024120438]]"
 ---
 # Albero di derivazione
 ---
@@ -15,12 +16,12 @@ Partendo da una [[Grammatiche|grammatica]], l'idea è che ad ogni [[Derivazione|
 Consideriamo per esempio la grammatica
 $$S \to a | b | c | S+S | S*S$$
 
-La derivazione _leftmost_
+La derivazione _[[Derivazione canonica sinistra|leftmost]]_
 $$S \implies S*S \implies S+S*S \implies a+S*S \implies a+b*S \implies a+b*c$$
 è associabile all'albero di derivazione
 ![[albero-di-derivazione-1.png]]
 
-La derivazione _rightmost_
+La derivazione _[[Derivazione canonica destra|rightmost]]_
 $$S \implies S*S \implies S*c \implies S+S*c \implies S+b*c \implies a+b*c$$
 genera lo stesso albero di derivazione!
 

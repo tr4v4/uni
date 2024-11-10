@@ -14,7 +14,7 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Note                                                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [[Lecture 23102024132952]] | <ul><li>[[Reti di calcolatori]]</li></ul> |
+| [[Lecture 08112024132550]] | <ul><li>[[Reti di calcolatori]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,14 +23,17 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 08112024132550]] | 08-11-2024 13:25:50 |
+| [[Lecture 06112024132717]] | 06-11-2024 13:27:17 |
+| [[Lecture 25102024131215]] | 25-10-2024 13:12:15 |
 | [[Lecture 23102024132952]] | 23-10-2024 13:29:52 |
 | [[Lecture 11102024134500]] | 11-10-2024 13:45:00 |
 | [[Lecture 09102024132027]] | 09-10-2024 13:20:27 |
 | [[Lecture 02102024131913]] | 02-10-2024 13:19:13 |
-| [[Lecture 27092024132110]] | 27-09-2024 13:21:10 |
 | [[Lecture 25092024132223]] | 25-09-2024 13:22:23 |
-| [[Lecture 20092024132015]] | 20-09-2024 13:20:15 |
 | [[Lecture 18092024131539]] | 18-09-2024 13:15:39 |
+| [[Lecture 27092024132110]] | 27-09-2024 13:21:10 |
+| [[Lecture 20092024132015]] | 20-09-2024 13:20:15 |
 <!-- SerializedQuery END -->
 
 ### Da processare
@@ -39,9 +42,12 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 25102024131215]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 23102024132952]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 11102024134500]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 09102024132027]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 08112024132550]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 06112024132717]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -57,24 +63,24 @@ date: 16-09-2024 10:43:40
 | ------------------------------------------------------------------------------------------------ | ---------------------------------- |
 | [[Modello ISO-OSI]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Protocollo di rete]]                                           | <ul><li>#status/finished</li></ul> |
-| [[Commutazione]]                                                       | <ul><li>#status/finished</li></ul> |
-| [[Commutazione di pacchetto]]                             | <ul><li>#status/finished</li></ul> |
 | [[Servizio non orientato alla connessione]] | <ul><li>#status/finished</li></ul> |
 | [[Servizio orientato alla connessione]]         | <ul><li>#status/finished</li></ul> |
+| [[Commutazione di pacchetto]]                             | <ul><li>#status/finished</li></ul> |
 | [[Commutazione di circuito]]                               | <ul><li>#status/finished</li></ul> |
-| [[Scheda di rete]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Commutazione]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Canale di comunicazione]]                                 | <ul><li>#status/finished</li></ul> |
-| [[Prestazione delle reti]]                                   | <ul><li>#status/finished</li></ul> |
-| [[Mezzo di trasmissione]]                                     | <ul><li>#status/finished</li></ul> |
 | [[Switch]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Hub]]                                                                         | <ul><li>#status/finished</li></ul> |
-| [[Indirizzo MAC]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[Topologia di rete]]                                             | <ul><li>#status/finished</li></ul> |
-| [[Connettore di rete]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Indirizzo MAC]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[Infrastruttura di rete]]                                   | <ul><li>#status/finished</li></ul> |
+| [[Connettore di rete]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Mezzo di trasmissione]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Scheda di rete]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Rete]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[Jitter]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Prestazione delle reti]]                                   | <ul><li>#status/finished</li></ul> |
 | [[Classificazione delle reti]]                           | <ul><li>#status/finished</li></ul> |
+| [[Jitter]]                                                                   | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Referenze

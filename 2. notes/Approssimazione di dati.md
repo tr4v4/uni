@@ -6,6 +6,7 @@ tags:
 date: 21-10-2024 12:20:24
 links:
   - "[[Lecture 14102024131954]]"
+  - "[[Lecture 15102024091721]]"
 ---
 # Approssimazione di dati
 ---
@@ -20,6 +21,11 @@ Definiamo:
 - **variabili indipendenti** (o **di input**) le variabili che non dipendono da niente --> indicate con $x$;
 - **variabili dipendenti** (o **di output**) le variabili che dipendono da altre variabili --> indicate con $y$;
 - **set di dati** (o **dataset**) una collezione di coppie di valori associati $\{(x_{1}, y_{1}), \cdots, (x_{n}, y_{n})\}$ (tra variabili indipendenti e variabili dipendenti).
+
+### Parametri
+Definiamo:
+- **iperparametri** tutti i parametri del modello di approssimazione che devono essere selezionati a mano dall'utente;
+- **parametri** tutti i parametri calcolati dal modello e non modificabili.
 
 ### Assunzioni
 Al fine di definire i modelli, bisogna assumere due concetti importanti sulla composizione dei dati di input:

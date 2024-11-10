@@ -27,7 +27,7 @@ $$|E_{k+1}| \leq C | E_{k}|^{p}$$
 In particolare:
 - _algoritmo di bisezione_: $C = \frac{1}{2}$ è una **costante algoritmica**, perché ad ogni iterazione si dimezza l'errore precedente;
 - _algoritmo del punto fisso_: $C$ è la **costante di contrazione**, e dipende da $g(x)$, tendenzialmente $< \frac{1}{2}$ (e quindi più veloce dell'algoritmo di bisezione);
-- _algoritmo di Newton_: $C$ è la **costante minima di contrazione**;
+- _algoritmo di Newton_: $C$ è una **costante a sé** (da non confondere con quella **di contrazione**);
 
 Come risultato, si ha che:
 - _algoritmo di bisezione ha una convergenza lineare_;

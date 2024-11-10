@@ -12,7 +12,7 @@ links:
 ## Introduzione
 > Si definisce **base ortonormale** di uno [[Spazio vettoriale|spazio vettoriale]] $\mathbb{R}^{n}$ una [[Base|base]] costituita da $n$ _[[Vettore|vettori]] ortonormali_, ovvero tali per cui per $v_{1}, \cdots, v_{n}$ vale che
 > $$<v_{i}, v_{j}> = \delta_{ij} = \begin{cases}1 & i = j \\ 0 & i \neq j\end{cases} \ \ \ \forall i, j \in \{1, \cdots, n\}$$
-> ovvero che il [[Prodotto scalare|prodotto scalare]] a due a due di ogni vettore della base sia uguale al _delta di Kronecker_, ossia a 1 $\iff$ $v_{i} = v_{j} \iff i = j$; e a 0 se invece $v_{i} \neq v_{j} \iff i \neq j$.
+> ovvero che il [[Prodotto scalare|prodotto scalare]] a due a due di ogni vettore della base sia uguale al _[[Delta di Kronecker|delta di Kronecker]]_, ossia a 1 $\iff$ $v_{i} = v_{j} \iff i = j$; e a 0 se invece $v_{i} \neq v_{j} \iff i \neq j$.
 > Nota la differenza con la [[Base ortogonale|base ortogonale]], per cui non è richiesto che $||v_{i}|| = 1$ perché i vettori della base non devono essere [[Normalizzazione|normalizzati]].
 
 ### Esempi
