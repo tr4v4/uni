@@ -162,8 +162,8 @@ date: 18-09-2023 00:06:24
 | [[Ortogonalità del gradiente]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Curva regolare]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Curva semplice]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[Curva]]                                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Curvatura]]                                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Curva]]                                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Derivata lungo una curva]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[Punto singolare]]                                                                             | <ul><li>#status/finished</li></ul> |
 | [[Raggio di curvatura]]                                                                     | <ul><li>#status/finished</li></ul> |

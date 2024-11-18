@@ -24,6 +24,8 @@ date: 16-09-2024 10:19:47
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
 | [[Lecture 05112024094126]] | 05-11-2024 09:41:26 |
+| [[Lecture 11112024131700]] | 11-11-2024 13:17:00 |
+| [[Lecture 12112024091405]] | 12-11-2024 09:14:05 |
 | [[Lecture 04112024131513]] | 04-11-2024 13:15:13 |
 | [[Lecture 22102024092339]] | 22-10-2024 09:23:39 |
 | [[Lecture 21102024132104]] | 21-10-2024 13:21:04 |
@@ -43,8 +45,10 @@ date: 16-09-2024 10:19:47
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-numerico AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-numerico AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione                    | Status                            |
-| -------------------------- | --------------------------------- |
+| Lezione                                                           | Status                            |
+| ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 12112024091405]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 11112024131700]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05112024094126]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
@@ -73,10 +77,10 @@ date: 16-09-2024 10:19:47
 
 | Note                                                                                                                         | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Problemi inversi]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Principio di massima discrepanza]]                                           | <ul><li>#status/finished</li></ul> |
 | [[Fattorizzazione ai valori singolari troncata]]                   | <ul><li>#status/finished</li></ul> |
 | [[Condizioni discrete di Picard]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[Problemi inversi]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Condizione di Wolfe]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Metodo di discesa del gradiente]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Funzione coerciva]]                                                                         | <ul><li>#status/finished</li></ul> |

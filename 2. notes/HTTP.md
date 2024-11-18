@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/tecnologie-web
 date: 06-11-2024 21:15:59
 links:
@@ -18,4 +18,10 @@ Questo protocollo ha le seguenti caratteristiche:
 - _generico_, ossia indipendente dal formato dati con cui vengono trasmesse le [[Risorsa|risorse]];
 - _stateless_, quindi il server non è tenuto a mantenere informazioni che persistano tra una connessione e la successiva sulla natura, identità e precedenti richieste di un client.
 
+### Risorse
+_Le risorse HTTP sono separate dalla loro rappresentazione_, il che significa che questo protocollo fornisce dei **meccanismi di negoziazione del formato di dati**, e non è dipendente da essi.
+
 ## Referenze
+- [[Richiesta HTTP]]
+- [[Risposta HTTP]]
+- [[Metodi HTTP]]

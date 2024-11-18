@@ -489,7 +489,7 @@ Definiamo una funzione apposita per risolvere un sistema lineare usando la fatto
 ```python
 def solve_linear_system_lu(A: np.ndarray, b: np.ndarray) -> np.ndarray:
 	P, L, U = sp.linalg.lu(A)
-	y = np.linalg.solve(L, P @ b)
+	y = np.linalg.solve(L, b @ P)
 	x = np.linalg.solve(U, y)
 	return x
 ```
@@ -520,39 +520,184 @@ Proviamo ora ad aumentare $n$, per esempio $n = 10$. Rieseguiamo tutte le parti 
 ```python
 # Output:
 """
-A: [[ 0.49671415 -0.1382643   0.64768854  1.52302986 -0.23415337 -0.23413696
-   1.57921282  0.76743473 -0.46947439  0.54256004]
- [-0.46341769 -0.46572975  0.24196227 -1.91328024 -1.72491783 -0.56228753
-  -1.01283112  0.31424733 -0.90802408 -1.4123037 ]
- [ 1.46564877 -0.2257763   0.0675282  -1.42474819 -0.54438272  0.11092259
-  -1.15099358  0.37569802 -0.60063869 -0.29169375]
- [-0.60170661  1.85227818 -0.01349722 -1.05771093  0.82254491 -1.22084365
-   0.2088636  -1.95967012 -1.32818605  0.19686124]
- [ 0.73846658  0.17136828 -0.11564828 -0.3011037  -1.47852199 -0.71984421
-  -0.46063877  1.05712223  0.34361829 -1.76304016]
- [ 0.32408397 -0.38508228 -0.676922    0.61167629  1.03099952  0.93128012
-  -0.83921752 -0.30921238  0.33126343  0.97554513]
- [-0.47917424 -0.18565898 -1.10633497 -1.19620662  0.81252582  1.35624003
-  -0.07201012  1.0035329   0.36163603 -0.64511975]
- [ 0.36139561  1.53803657 -0.03582604  1.56464366 -2.6197451   0.8219025
-   0.08704707 -0.29900735  0.09176078 -1.98756891]
- [-0.21967189  0.35711257  1.47789404 -0.51827022 -0.8084936  -0.50175704
-   0.91540212  0.32875111 -0.5297602   0.51326743]
- [ 0.09707755  0.96864499 -0.70205309 -0.32766215 -0.39210815 -1.46351495
-   0.29612028  0.26105527  0.00511346 -0.23458713]]
-b: [ 4.48061112 -7.90658235 -2.21843565 -3.10106666 -2.52822173  1.99441428
- -0.15056991 -0.47736123  1.01447432 -1.49191393]
-Numero di condizione: 22.966778083194132
+A: [[ 1.06564386 -0.65463253 -0.60770793 -1.26314464  0.75211796 -1.8765348
+  -1.17299205  0.62038318 -0.17606546 -1.07157877]
+ [-0.43915246 -0.80370197  0.52772473  0.63063799 -0.99447353  0.99144561
+  -1.29472444 -1.25136123  0.33227628 -0.27434977]
+ [-0.64050855  1.11976932 -0.55327338 -1.499298    1.31399699 -0.07560542
+  -0.98321234  0.87370289 -1.71748832 -0.03113409]
+ [ 1.09083055  0.47347617  0.73883126  0.64043792 -0.04065221 -0.57557178
+  -0.93790017 -0.57451473 -1.4111697   0.38255129]
+ [-0.63372589  1.09384822  0.02283063 -0.20908499  0.96142658 -0.88194418
+  -1.70330266 -1.93370015 -0.66215846 -1.00968   ]
+ [-0.93977615 -0.30428352  1.74227428  0.23693487 -1.44335962  0.62295939
+  -1.59352742  0.88005554  0.21520803 -1.65644839]
+ [-0.60487401  0.13082905  0.12929008  0.28530858 -0.37983012  0.28870143
+  -0.87613613 -0.08646795  0.49626277  1.97713501]
+ [ 0.08685838 -0.99703087  0.86590514 -0.18062112  0.91400543  0.27049565
+   0.75842211 -2.34948427 -1.00556017  0.79561309]
+ [ 0.40773459  0.36026209  0.04625287 -0.53169646  0.10205865 -0.26880111
+   0.1770047   0.15442951 -0.41001676  0.01436771]
+ [ 2.68621853  1.11945457  1.63631915  0.04991572 -1.23792397 -0.13454062
+   0.06889131 -0.76283884  0.43951572 -0.29602665]]
+b: [-4.38451118 -2.57567879 -2.1930509  -0.2136814  -4.95549089 -2.239963
+  1.36021872 -0.84139663  0.05159578  3.56898491]
+Numero di condizione: 22.048807779320104
 
-Soluzione calcolata: [ 0.51767993 -0.36499841  1.05619957 -3.93522785 -1.13832414 -0.90347745
-  2.37839944 -0.81107005  6.32280319  2.3176568 ]
+Soluzione calcolata: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
 Soluzione reale: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
-Errore relativo: 2.643852399605065
+Errore relativo: 7.09153599073145e-16
 """
 ```
-ovviamente un risultato inaccettabile. In questo caso il numero di condizione è $\approx 23$.
+il che risulta sempre accettabile. In questo caso il numero di condizione è $\approx 22$, e l'errore relativo $\neq 0$ è causato dall'[[Errore di arrotondamento|errore di arrotondamento]] (e probabilmente anche [[Errore algoritmico|algoritmico]]) di `x_hat`, che non è esattamente $(1, \cdots, 1)$.
+
+Vediamo a questo punto fino a che valore di $n$ possiamo spingere l'algoritmo nel trovare soluzioni accettabili. In particolare, generiamo problemi test per $n = 2, \cdots, 100$ e valutiamo errore relativo e numero di condizione plottando i loro valori in due grafici distinti:
+```python
+conds = []
+errors = []
+max_n = 100
+for n in range(2, max_n):
+	A = np.random.randn(n, n)
+	x = np.ones((n,))
+	b = A @ x
+	cond = np.linalg.cond(A)
+	x_hat = solve_linear_system_lu(A, b)
+	relative_error = np.linalg.norm(x_hat - x) / np.linalg.norm(x)
+	conds.append(cond)
+	errors.append(relative_error)
+
+plt.subplot(1, 2, 1)
+plt.title(r"$k(A)$")
+plt.plot(range(2, max_n), conds, 'b')
+plt.subplot(1, 2, 2)
+plt.title(r"$err_{rel}$")
+plt.plot(range(2, max_n), errors, 'g')
+plt.show()
+```
+
+Questo produce i seguenti grafici:
+![[calcolo-hw-1-sistema-lineare-1.png]]
+
+da cui possiamo produrre le seguenti considerazioni:
+1. sia il numero di condizione $k(A)$ che l'errore relativo $err_{rel}$ non crescono regolarmente all'aumentare della dimensione $n$ della matrice $A$ --> in realtà _al crescere di $n$ si verificano con più frequenza e intensità dei picchi dei due valori_;
+2. tali picchi sono, banalmente, correlati tra di loro, tale che se il numero di condizione è alto, l'errore relativo sarà alto --> ma _il grado di correlazione non è lineare_;
+
+La prima osservazione si spiega con il fatto che, generando casualmente la matrice, **all'aumentare di $n$ si ha una maggiore probabilità di incorrere in matrici mal condizionate**, **non la certezza che questo accada**. La seconda osservazione, invece, è dovuta al fatto che **il numero di condizione non è una misura diretta dell'errore relativo**. Prendiamo in esame il caso $n = 40$ e $n = 60$:
+```python
+print(f"Numero di condizione per n = 40: {conds[38]}")
+print(f"Errore relativo per n = 40: {errors[38]}")
+print()
+print(f"Numero di condizione per n = 60: {conds[58]}")
+print(f"Errore relativo per n = 60: {errors[58]}")
+
+# Output
+"""
+Numero di condizione per n = 40: 3234.4529002131003
+Errore relativo per n = 40: 6.775357161865569e-14
+
+Numero di condizione per n = 60: 1279.1532721416793
+Errore relativo per n = 60: 1.236154767327777e-13
+"""
+```
+
+Per $n = 40$ il numero di condizione è 3 volte tanto quello per $n = 60$, mentre l'errore relativo è di un intero ordine di grandezza inferiore ($6 \times 10^{-14} < 1 \times 10^{-13}$). Ma questo non si contrappone alla teoria: l'_errore inerente ha come upperbound il numero di condizione di $A$ moltiplicato per la somma tra l'errore relativo di $A$ e l'errore relativo di $b$_.
+$$\frac{\|\Delta x\|}{\|x\|} \leq k(A)\left( \frac{\|\Delta A\|}{\|A\|} + \frac{\|\Delta b\|}{\|b\|} \right)$$
+
+<u>Nota bene</u>: in questo caso i valori di $\frac{\|\Delta A\|}{\|A\|}$ e $\frac{\|\Delta b\|}{\|b\|}$, ossia gli errori di rappresentazione della matrice $A$ e del vettore $b$, non sono calcolabili. Infatti generiamo $A$ casualmente usando una funzione di numpy: _dalla funzione viene restituita già $A + \Delta A$_! Lo stesso si ripercuote su $b$, che è $Ax$ (con $x$ nota).
 
 ##### Matrice di Hilbert
+Proviamo invece adesso a riproporre gli stessi passaggi con una matrice di Hilbert. Questa matrice è definita come
+$$H_{i,j} = \frac{1}{i+j-1}$$
+ed è _particolarmente nota per la rapida crescita del suo numero di condizione all'aumentare della dimensione $n$_.
+
+Come per il caso precedente, generiamo la matrice di Hilbert $H$ di dimensione $n = 3$, usando la funzione `scipy.linalg.hilb()`:
+```python
+n = 3
+H = sp.linalg.hilbert(n)
+print(H)
+
+# Output
+"""
+[[1.         0.5        0.33333333]
+ [0.5        0.33333333 0.25      ]
+ [0.33333333 0.25       0.2       ]]
+"""
+```
+
+Stampo il suo numero di condizione:
+```python
+cond = np.linalg.cond(H)
+print(f"Condizione di H: {cond}")
+
+# Output:
+# Condizione di H: 524.0567775860644
+```
+una cifra molto alta, considerando che siamo sempre nel caso $n = 3$. Messa a confronto con la matrice casuale $A$ di dimensione $n = 3$, la _matrice di Hilbert ha un numero di condizione più di 100 volte superiore_.
+
+Procedo con la generazione del problema test con $H$ e $x = (1, 1, 1)$:
+```python
+x = np.ones((n,))
+b = H @ x
+x_hat = solve_linear_system_chol(H, b)
+relative_error = np.linalg.norm(x_hat - x) / np.linalg.norm(x)
+
+print(f"Soluzione esatta: {x}")
+print(f"Soluzione calcolata: {x_hat}")
+print(f"Errore relativo: {relative_error}")
+
+# Output:
+"""
+Soluzione esatta: [1. 1. 1.]
+Soluzione calcolata: [1. 1. 1.]
+Errore relativo: 3.555025891006744e-15
+"""
+```
+
+L'errore relativo è abbastanza basso, la soluzione non è influenzata dal numero di condizione di $H$.
+
+<u>Nota bene</u>: in questo caso _posso usare la fattorizzazione di Cholesky, in quanto la matrice di Hilbert è simmetrica e definita positiva_.
+
+###### $n$ variabile
+Proviamo ora a far crescere $n$, da $2$ a $15$, e a plottare il numero di condizione e l'errore relativo:
+```python
+conds = []
+errors = []
+max_n = 15
+for n in range(2, max_n+1):
+	H = scipy.linalg.hilbert(n)
+	x = np.ones((n,))
+	b = H @ x
+	cond = np.linalg.cond(H)
+	# Se non è definita positiva, non posso usare la decomposizione di Cholesky
+	if cond > 1e17:
+		x_hat = solve_linear_system_lu(H, b)
+	else:
+		x_hat = solve_linear_system_chol(H, b)
+	relative_error = np.linalg.norm(x_hat - x) / np.linalg.norm(x)
+	conds.append(cond)
+	errors.append(relative_error)
+
+plt.subplot(1, 2, 1)
+plt.title(r"$k(A)$")
+plt.plot(range(2, max_n+1), conds, 'b')
+plt.yscale('log')
+plt.subplot(1, 2, 2)
+plt.title(r"$err_{rel}$")
+plt.plot(range(2, max_n+1), errors, 'g')
+plt.yscale('log')
+plt.show()
+```
+
+<u>Nota bene</u>: utilizzo una _scala logaritmica per entrambi i grafici_, in quanto il numero di condizione e l'errore relativo crescono esponenzialmente con $n$. Inoltre _utilizzo la fattorizzazione LU per matrici con numero di condizione superiore a $10^{17}$_. Questo perché _per un tale livello di malcondizionamento avviene che la matrice di Hilbert stessa non è più definita positiva_, e quindi non posso usare la decomposizione di Cholesky.
+
+Il codice produce i seguenti grafici:
+![[calcolo-hw-1-sistema-lineare-2.png]]
+
+Si osserva la crescita esponenziale (che su scala logaritmica appare come lineare), sia del numero di condizione che dell'errore relativo. Questo conferma che la _matrice di Hilbert, per definizione, è mal condizionata_.
+
+E' interessante notare _anche in questo caso come la crescita regolare del numero di condizione non si rifletta in un aumento regolare dell'errore relativo_. Questo perché, come già discusso in precedenza, il numero di condizione non è una misura diretta dell'errore relativo. A differenza del caso precedente, però, **ci è possibile determinare una funzione di upperbound per l'errore relativo**.
+
+Infatti la matrice di Hilbert è deterministica, e conoscendo la codifica floating-point di Python (_standard IEEE 754_) _possiamo calcolare per ogni cella di $H$ l'errore assoluto di arrotondamento_, e quindi l'errore relativo di $H$ e conseguentemente di $b$. Questo ci consente di determinare l'errore inerente massimo.
 
 #### Conclusione
 

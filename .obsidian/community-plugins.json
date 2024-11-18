@@ -18,5 +18,6 @@
   "obisidian-note-linker",
   "dataview-serializer",
   "obsidian-latex",
-  "ollama"
+  "ollama",
+  "github-copilot"
 ]

@@ -14,7 +14,7 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Note                                                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [[Lecture 07112024120244]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+| [[Lecture 12112024110924]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,6 +23,7 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 12112024110924]] | 12-11-2024 11:09:24 |
 | [[Lecture 07112024120244]] | 07-11-2024 12:02:44 |
 | [[Lecture 05112024110833]] | 05-11-2024 11:08:33 |
 | [[Lecture 24102024120228]] | 24-10-2024 12:02:28 |
@@ -49,6 +50,7 @@ date: 16-09-2024 10:40:19
 | [[Lecture 24102024120228]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 22102024110521]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 18102024090854]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 12112024110924]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 07112024120244]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05112024110833]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
