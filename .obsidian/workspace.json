@@ -4,128 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1c5f149f876cf60d",
+        "id": "f8354cfd514a28f1",
         "type": "tabs",
-        "dimension": 32.99573560767591,
         "children": [
           {
-            "id": "1a68478863841ca5",
+            "id": "622459188498b8ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. mocs/Calcolo numerico.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Calcolo numerico"
-            }
-          },
-          {
-            "id": "3554bb8e68f4d90f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algoritmi per la risoluzione di sistemi lineari"
-            }
-          },
-          {
-            "id": "f22b3ca82402171e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Errore inerente.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Errore inerente"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "dcb92e259a2c5330",
-        "type": "tabs",
-        "dimension": 67.0042643923241,
-        "children": [
-          {
-            "id": "de78a46d7f4e1d94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcolo numerico - HW. 1"
-            }
-          },
-          {
-            "id": "1d080e7123560493",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Errore algoritmico.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Errore algoritmico"
-            }
-          },
-          {
-            "id": "755f464b53591b69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Errore di arrotondamento.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Errore di arrotondamento"
-            }
-          },
-          {
-            "id": "3a09b01e7790e37d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Aritmetica floating-point.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aritmetica floating-point"
-            }
-          },
-          {
-            "id": "208e71d7e39babb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Fattorizzazione LU.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fattorizzazione LU"
+              "title": "New tab"
             }
           }
         ]
@@ -184,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
+    "width": 232.5,
     "collapsed": true
   },
   "right": {
@@ -387,35 +276,37 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "de78a46d7f4e1d94",
+  "active": "622459188498b8ba",
   "lastOpenFiles": [
-    "2. notes/Codifica floating-point.md",
-    "4. homeworks/Calcolo numerico - HW. 1.md",
-    "media/calcolo-hw-1-sistema-lineare-2.png",
-    "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
-    "2. notes/Errore inerente.md",
-    "2. notes/Errore di arrotondamento.md",
-    "media/calcolo-hw-1-sistema-lineare-1.png",
-    "2. notes/Errore algoritmico.md",
-    "2. notes/Aritmetica floating-point.md",
-    "2. notes/Fattorizzazione LU.md",
-    "2. notes/Funzione convessa.md",
-    "2. notes/Norma matriciale.md",
-    "2. notes/Interpolazione.md",
-    "2. notes/Numero di condizione.md",
-    "2. notes/Forma quadratica.md",
-    "2. notes/Classificazione forme quadratiche.md",
-    "2. notes/Ottimizzazione di dati.md",
-    "2. notes/Problema dei minimi quadrati.md",
-    "2. notes/Fattorizzazione ai valori singolari.md",
     "0. mocs/Calcolo numerico.md",
-    "0. mocs/Linguaggi di programmazione.md",
-    "0. mocs/Reti di calcolatori.md",
+    "2. notes/Problemi inversi.md",
+    "2. notes/Imaging.md",
+    "2. notes/CGLS.md",
+    "1. lectures/Lecture 12112024091405.md",
+    "2. notes/Variazione totale.md",
+    "2. notes/Regolarizzazione alla Tikhonov.md",
+    "2. notes/Metodo di discesa del gradiente.md",
+    "2. notes/Metodo dei gradienti coniugati.md",
+    "1. lectures/Lecture 11112024131700.md",
+    "2. notes/Errore di arrotondamento.md",
+    "media/imaging.png",
+    "2. notes/Rumore bianco.md",
+    "2. notes/PSF.md",
+    "2. notes/Espressione.md",
+    "2. notes/Matrice estesa.md",
+    "2. notes/Convoluzione.md",
+    "2. notes/Matrice di convoluzione.md",
+    "2. notes/Sottomatrice.md",
+    "2. notes/Centro di una matrice.md",
+    "2. notes/Principio di massima discrepanza.md",
+    "2. notes/Fattorizzazione ai valori singolari troncata.md",
+    "2. notes/Condizioni discrete di Picard.md",
+    "2. notes/Problema dei minimi quadrati.md",
     "0. mocs/Sistemi operativi.md",
-    "0. mocs/Tecnologie web.md",
-    "1. lectures/Lecture 11112024161208.md",
-    "2. notes/JS.md",
-    "1. lectures/Lecture 04112024161118.md",
+    "1. lectures/Lecture 14112024091601.md",
+    "0. mocs/Reti di calcolatori.md",
+    "media/calcolo-hw-1-sistema-lineare-2.png",
+    "media/calcolo-hw-1-sistema-lineare-1.png",
     "media/condizioni-discrete-di-picard-3.png",
     "media/condizioni-discrete-di-picard-2.png",
     "media/condizioni-discrete-di-picard-1.png",
@@ -425,7 +316,6 @@
     "media/funzione-convessa.png.crdownload",
     "media/semafori-vantaggi.png",
     "media/calcolo-hw-1-finale.png",
-    "media/calcolo-hw-1-newton-7.png",
     "4. homeworks",
     "3. projects/Untitled",
     "3. projects/aijsodijas.canvas",

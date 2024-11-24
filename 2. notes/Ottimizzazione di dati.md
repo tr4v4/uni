@@ -44,7 +44,7 @@ Si classificano in base alla funzione $f$ in due sotto-classificazioni.
 - **quadratico** $\iff f(x) = x^{T}Ax + x^{T}b$[^2]
 
 ## Minimi
-All'intero dell'ottimizzazione, i [[Massimo e minimo relativo|minimi locali e globali]] assumono un significato preciso: i **minimi locali rappresentano una soluzione buona solo localmente**, tale che _se cambiata di poco peggiora, ma se cambiata radicalmente migliora_. Purtroppo è computazionalmente inefficiente distinguere i locali dai globali, per cui solitamente ci si accontenta dei locali[^3].
+All'interno dell'ottimizzazione, i [[Massimo e minimo relativo|minimi locali e globali]] assumono un significato preciso: i **minimi locali rappresentano una soluzione buona solo localmente**, tale che _se cambiata di poco peggiora, ma se cambiata radicalmente migliora_. Purtroppo è computazionalmente inefficiente distinguere i locali dai globali, per cui solitamente ci si accontenta dei locali[^3].
 
 Per poter lavorare allora in modo tale da garantirsi come soluzioni dei minimi globali, è necessario fare delle assunzioni su $f$. In particolare si richiede che:
 - $f$ sia _[[Funzione convessa|convessa]]_;

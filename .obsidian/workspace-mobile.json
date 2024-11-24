@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf48482d0eaeb091",
+        "id": "242c2e5f68aab81f",
         "type": "tabs",
         "children": [
           {
-            "id": "7dcc48024e8b8253",
+            "id": "62b13108f5eff543",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 14112024173206.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 14112024173206"
             }
           }
         ]
@@ -164,8 +168,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7dcc48024e8b8253",
+  "active": "62b13108f5eff543",
   "lastOpenFiles": [
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 15112024133341.md",
+    "0. mocs/Tecnologie web.md",
+    "1. lectures/Lecture 14112024131613.md",
+    "2. notes/Semafori.md",
+    "Lectures 2024-11-18-161600.md",
+    "2. notes/Cache.md",
+    "2. notes/Direct Mapped Cache.md",
     "1. lectures/Lecture 24102024120228.md",
     "0. mocs/Linguaggi di programmazione.md",
     "1. lectures/Lecture 18102024090854.md",
@@ -184,14 +196,6 @@
     "2. notes/Strutture algebriche.md",
     "1. lectures/Lecture 19092024125624.md",
     "1. lectures/Lecture 17092024110611.md",
-    "2. notes/Macchina astratta.md",
-    "2. notes/Macchina fisica.md",
-    "2. notes/Interprete.md",
-    "2. notes/Linguaggio macchina.md",
-    "2. notes/Algebra delle derivate.md",
-    "2. notes/Regole di derivazione.md",
-    "2. notes/Derivata.md",
-    "2. notes/Teorema del completamento.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

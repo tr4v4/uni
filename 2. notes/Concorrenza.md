@@ -6,6 +6,7 @@ tags:
 date: 15-10-2024 16:48:14
 links:
   - "[[Lecture 10102024092110]]"
+  - "[[Lecture 07112024092537]]"
 ---
 # Concorrenza
 ---
@@ -45,3 +46,4 @@ Nonostante le differenze, **i due paradigmi presentano gli stessi identici probl
 Questa serie di problematiche causate dalla concorrenza prende il nome di [[Race condition|race condition]].
 
 ## Referenze
+- [[Problemi classici della programmazione concorrente]]

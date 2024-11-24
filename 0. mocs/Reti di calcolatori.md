@@ -14,7 +14,7 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Note                                                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [[Lecture 15112024133341]] | <ul><li>[[Reti di calcolatori]]</li></ul> |
+| [[Lecture 22112024130956]] | <ul><li>[[Reti di calcolatori]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,6 +23,8 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 22112024130956]] | 22-11-2024 13:09:56 |
+| [[Lecture 20112024140334]] | 20-11-2024 14:03:34 |
 | [[Lecture 15112024133341]] | 15-11-2024 13:33:41 |
 | [[Lecture 13112024133033]] | 13-11-2024 13:30:33 |
 | [[Lecture 14112024173206]] | 14-11-2024 17:32:06 |
@@ -45,15 +47,9 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 25102024131215]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 23102024132952]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 22112024130956]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 20112024140334]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 15112024133341]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 14112024173206]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 13112024133033]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 11102024134500]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 09102024132027]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 08112024132550]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 06112024132717]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -61,12 +57,28 @@ date: 16-09-2024 10:43:40
 	- [[Rete]], [[Classificazione delle reti]], [[Prestazione delle reti]], [[Infrastruttura di rete]], [[Topologia di rete]]
 	- [[Scheda di rete]], [[Mezzo di trasmissione]], [[Connettore di rete]], [[Canale di comunicazione]], [[Commutazione]]
 	- [[Protocollo di rete]], [[Modello ISO-OSI]]
+	- [[Livello rete]]
+		- [[IP]], [[Indirizzo IP]], [[IPv4]], [[Classi di rete]], [[Subnet mask]], [[Subnetting]]
+		- [[Instradamento]], [[Protocollo di routing]]
+	- [[Livello fisico]], [[Livello MAC-LLC]], [[Livello trasporto]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/reti-di-calcolatori SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/reti-di-calcolatori SORT file.ctime DESC -->
 
 | Note                                                                                             | Status                             |
 | ------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[Instradamento]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Subnetting]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Subnet mask]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Classi di rete]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[IPv4]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Indirizzo IP]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[IP]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[Protocollo di routing]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Livello trasporto]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Livello rete]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Livello MAC-LLC]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Livello fisico]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Modello ISO-OSI]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Protocollo di rete]]                                           | <ul><li>#status/finished</li></ul> |
 | [[Servizio non orientato alla connessione]] | <ul><li>#status/finished</li></ul> |

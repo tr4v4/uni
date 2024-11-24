@@ -12,9 +12,9 @@ date: 16-09-2024 10:19:47
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                 |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [[Lecture 05112024094126]] | <ul><li>[[Calcolo numerico]]</li></ul> |
+| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Lecture 05112024094126]] | <ul><li>[[Calcolo numerico]]</li><li>[[Algoritmi per la risoluzione di sistemi lineari]]</li><li>[[CGLS]]</li><li>[[Metodo dei gradienti coniugati]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -49,7 +49,6 @@ date: 16-09-2024 10:19:47
 | ----------------------------------------------------------------- | --------------------------------- |
 | [[Lecture 12112024091405]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 11112024131700]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 05112024094126]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -67,16 +66,24 @@ date: 16-09-2024 10:19:47
 		- [[Regolarizzazione]]
 		- [[Interpolazione]]
 	- [[Ottimizzazione di dati]]
+		- [[Metodo di discesa del gradiente]]
+		- [[Metodo dei gradienti coniugati]]
 	- [[Problemi inversi]]
+		- [[Imaging]]
 	- Introduzione, esercitazioni e applicazioni a Python
 
 - Homeworks
+	- [[Calcolo numerico - HW. 1]]
+	- [[Calcolo numerico - HW. 2]]
+	- [[Calcolo numerico - HW. 3]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/calcolo-numerico SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/calcolo-numerico SORT file.ctime DESC -->
 
 | Note                                                                                                                         | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[CGLS]]                                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Metodo dei gradienti coniugati]]                                               | <ul><li>#status/finished</li></ul> |
 | [[Problemi inversi]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Principio di massima discrepanza]]                                           | <ul><li>#status/finished</li></ul> |
 | [[Fattorizzazione ai valori singolari troncata]]                   | <ul><li>#status/finished</li></ul> |

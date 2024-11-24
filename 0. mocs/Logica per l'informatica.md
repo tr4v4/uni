@@ -29,8 +29,8 @@ date: 19-09-2023 15:46:11
 | [[Lecture 22112023134305]] | 22-11-2023 13:43:05 |
 | [[Lecture 29112023131955]] | 29-11-2023 13:19:55 |
 | [[Lecture 16112023092027]] | 16-11-2023 09:20:27 |
-| [[Lecture 09112023131356]] | 09-11-2023 13:13:56 |
 | [[Lecture 08112023131119]] | 08-11-2023 13:11:19 |
+| [[Lecture 09112023131356]] | 09-11-2023 13:13:56 |
 | [[Lecture 28092023090721]] | 28-09-2023 09:07:21 |
 | [[Lecture 27092023131717]] | 27-09-2023 13:17:17 |
 | [[Lecture 02112023091408]] | 02-11-2023 09:14:08 |
@@ -144,8 +144,8 @@ date: 19-09-2023 15:46:11
 | [[Regole di inferenza del TOP]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Regole di inferenza dell'AND]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Regole di inferenza dell'OR]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[Regole di inferenza di EM]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Regole di inferenza dell'implica]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Regole di inferenza di EM]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Assioma]]                                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Definizione]]                                                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Teorema di completezza]]                                                                                 | <ul><li>#status/finished</li></ul> |

@@ -22,5 +22,7 @@
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
   "anuppuccin-theme-settings@@anp-toggle-preview": false,
-  "underwater-theme@@underwater-colors-dark": "rose-pine-moon"
+  "underwater-theme@@underwater-colors-dark": "uw-deep",
+  "underwater-theme@@no-h5": true,
+  "underwater-theme@@focus-mode": false
 }

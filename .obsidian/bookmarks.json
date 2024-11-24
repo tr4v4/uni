@@ -38,6 +38,16 @@
           "type": "file",
           "ctime": 1730546843867,
           "path": "2. notes/Norma matriciale.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1732033869149,
+          "path": "2. notes/Errore di arrotondamento.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1732033883248,
+          "path": "2. notes/Aritmetica floating-point.md"
         }
       ],
       "title": "Workflow - Calcolo numerico"

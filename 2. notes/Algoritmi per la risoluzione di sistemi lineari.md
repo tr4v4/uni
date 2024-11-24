@@ -7,6 +7,7 @@ date: 04-10-2024 13:29:16
 links:
   - "[[Lecture 26092024092021]]"
   - "[[Lecture 30092024131914]]"
+  - "[[Lecture 05112024094126]]"
 ---
 # Algoritmi per la risoluzione di sistemi lineari
 ---
@@ -30,6 +31,10 @@ Il problema, qui, sta nel calcolo della [[Matrice invertibile|matrice inversa]],
 Si preferiscono, piuttosto, metodi come:
 - [[Fattorizzazione LU|fattorizzazione LU]]
 - [[Fattorizzazione di Cholesky|fattorizzazione di Cholesky]]
+
+### Metodi iterativi
+L'unico metodo iterativo studiato è il:
+- [[Metodo dei gradienti coniugati|metodo dei gradienti coniugati]]
 
 ## Referenze
 [^1]: lo sappiamo dal [[Determinante#Teoremone|teoremone]]

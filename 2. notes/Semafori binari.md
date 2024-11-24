@@ -6,6 +6,7 @@ tags:
 date: 03-11-2024 13:28:02
 links:
   - "[[Lecture 24102024091305]]"
+  - "[[Lecture 07112024092537]]"
 ---
 # Semafori binari
 ---
@@ -105,6 +106,8 @@ class Semaphore {
 }
 ```
 
+<u>Nota bene</u>: il `mutex.V()` messo prima di `S.P()` è necessario per liberare la [[Sezione critica|sezione critica]] prima che `S` venga messo in attesa (con `P`). Se fosse messo dopo, creerebbe [[Deadlock|deadlock]].
+
 ### Semafori binari (con generali)
 ```C
 class BinarySemaphore {
@@ -126,5 +129,7 @@ class BinarySemaphore {
 	}
 }
 ```
+
+<u>Nota bene</u>: il motivo per cui in questo caso non viene utilizzato un semaforo `mutex` è che non ci sono variabili condivise tra i due semafori binari, per cui _non c'è bisogno di "proteggere" alcuna sezione critica_.
 
 ## Referenze
