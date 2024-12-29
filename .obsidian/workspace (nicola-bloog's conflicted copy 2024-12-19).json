@@ -1,0 +1,317 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "21e4d9dff65c8d39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5787eb5672ed3dba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Linguaggi di programmazione"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498666,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "5787eb5672ed3dba",
+  "lastOpenFiles": [
+    "2. notes/Codifica dei caratteri.md",
+    "2. notes/UTF-8.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 13122024132854.md",
+    "1. lectures/Lecture 18122024132024.md",
+    "2. notes/Classi di rete.md",
+    "2. notes/Classificazione delle reti.md",
+    "2. notes/Cache.md",
+    "4. homeworks/Calcolo numerico - HW. 2.md",
+    "media/calcolo-hw-2-ottimiz-gd11.png",
+    "media/calcolo-hw-2-ottimiz-gd10.png",
+    "2. notes/Regolarizzazione alla Tikhonov.md",
+    "0. mocs/Calcolo numerico.md",
+    "1. lectures/Lecture 06122024133642.md",
+    "1. lectures/Lecture 04122024132538.md",
+    "1. lectures/Lecture 29112024132404.md",
+    "1. lectures/Lecture 27112024132652.md",
+    "1. lectures/Lecture 22112024130956.md",
+    "1. lectures/Lecture 20112024140334.md",
+    "2. notes/Livello rete.md",
+    "2. notes/DHCP.md",
+    "media/calcolo-hw-2-ottimiz-gd4.png",
+    "media/calcolo-hw-2-ottimiz-gd5.png",
+    "media/calcolo-hw-2-ottimiz-gd1.png",
+    "media/calcolo-hw-2-ottimiz-gd3.png",
+    "media/calcolo-hw-2-ottimiz-gd9.png",
+    "media/calcolo-hw-2-ottimiz-gd7.png",
+    "media/calcolo-hw-2-ottimiz-gd8.png",
+    "media/calcolo-hw-2-ottimiz-gd6.png",
+    "2. notes/TCP.md",
+    "2. notes/Congestione di rete.md",
+    "2. notes/Controllo della congestione.md",
+    "2. notes/Demultiplexing.md",
+    "2. notes/Porta.md",
+    "2. notes/Three-way handshake.md",
+    "2. notes/Multiplexing.md",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
+    "netlify.toml~",
+    "ads.txt",
+    "2. notes/Equivalenze regolari.canvas",
+    "4913",
+    "Chats",
+    "media/raggio-di-curvatura.jpg.crdownload",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

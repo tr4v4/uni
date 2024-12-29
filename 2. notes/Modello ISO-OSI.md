@@ -7,6 +7,7 @@ date: 08-10-2024 20:28:25
 links:
   - "[[Lecture 02102024131913]]"
   - "[[Lecture 09102024132027]]"
+  - "[[Lecture 27112024132652]]"
 ---
 # Modello ISO-OSI
 ---
@@ -29,6 +30,8 @@ I 7 livelli sono:
 3. livello rete
 4. livello trasporto
 5. livello applicazione (che comprende, o talvolta ignora, i livelli sessione e presentazione)
+
+<u>Nota bene</u>: infatti oggigiorno i livelli di sessione e di presentazione sono considerati inutili. Erano nati per esigenze che oggi non ci sono più: la _presentazione consisteva nel convertire i dai tra formati diversi_, come il [[Big-endian & Little-endian|Big Endian vs. Little Endian]]; la _sessione per gestire appunto le sessioni di comunicazione_, che risultava però in un appesantimento dello stack.
 
 ## Funzionamento
 Ogni livello verifica i dati della busta, agisce di conseguenza e passa il contenuto della busta ai livelli superiori. Formalmente si dice che ogni livello fa due operazioni:

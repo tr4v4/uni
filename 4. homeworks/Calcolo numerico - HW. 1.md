@@ -1,7 +1,7 @@
 ---
 tags:
   - category/homework
-  - status/ongoing
+  - status/finished
   - topic/calcolo-numerico
 date: 31-10-2024 11:01:23
 ---
@@ -610,7 +610,7 @@ Proviamo invece adesso a riproporre gli stessi passaggi con una matrice di Hilbe
 $$H_{i,j} = \frac{1}{i+j-1}$$
 ed è _particolarmente nota per la rapida crescita del suo numero di condizione all'aumentare della dimensione $n$_.
 
-Come per il caso precedente, generiamo la matrice di Hilbert $H$ di dimensione $n = 3$, usando la funzione `scipy.linalg.hilb()`:
+Come per il caso precedente, generiamo la matrice di Hilbert $H$ di dimensione $n = 3$, usando la funzione `scipy.linalg.hilbert()`:
 ```python
 n = 3
 H = sp.linalg.hilbert(n)
@@ -688,7 +688,7 @@ plt.yscale('log')
 plt.show()
 ```
 
-<u>Nota bene</u>: utilizzo una _scala logaritmica per entrambi i grafici_, in quanto il numero di condizione e l'errore relativo crescono esponenzialmente con $n$. Inoltre _utilizzo la fattorizzazione LU per matrici con numero di condizione superiore a $10^{17}$_. Questo perché _per un tale livello di malcondizionamento avviene che la matrice di Hilbert stessa non è più definita positiva_, e quindi non posso usare la decomposizione di Cholesky.
+<u>Nota bene</u>: utilizzo una _scala logaritmica per entrambi i grafici_, in quanto il numero di condizione e l'errore relativo crescono esponenzialmente con $n$. Inoltre _utilizzo la fattorizzazione LU per matrici con numero di condizione superiore a $10^{17}$_, perché _per un tale livello di malcondizionamento avviene che la matrice di Hilbert stessa non è più definita positiva_ (teoricamente lo è sempre, ma in memoria no), e quindi non posso usare la decomposizione di Cholesky.
 
 Il codice produce i seguenti grafici:
 ![[calcolo-hw-1-sistema-lineare-2.png]]
@@ -697,9 +697,230 @@ Si osserva la crescita esponenziale (che su scala logaritmica appare come linear
 
 E' interessante notare _anche in questo caso come la crescita regolare del numero di condizione non si rifletta in un aumento regolare dell'errore relativo_. Questo perché, come già discusso in precedenza, il numero di condizione non è una misura diretta dell'errore relativo. A differenza del caso precedente, però, **ci è possibile determinare una funzione di upperbound per l'errore relativo**.
 
-Infatti la matrice di Hilbert è deterministica, e conoscendo la codifica floating-point di Python (_standard IEEE 754_) _possiamo calcolare per ogni cella di $H$ l'errore assoluto di arrotondamento_, e quindi l'errore relativo di $H$ e conseguentemente di $b$. Questo ci consente di determinare l'errore inerente massimo.
+Infatti la matrice di Hilbert è deterministica, e conoscendo la codifica floating-point di Python (_standard IEEE754_) _possiamo calcolare per ogni cella di $H$ l'errore assoluto di arrotondamento_, e quindi l'errore relativo di $H$ e conseguentemente di $b$. Questo ci consente di determinare l'errore inerente massimo.
+
+Farlo "manualmente" richiederebbe uno sforzo computazionalmente notevole. Tuttavia, Python offre la libreria `fractions` che include la classe `Fraction`, con la quale possiamo rappresentare [[Numeri razionali|numeri razionali]], e quindi evitare errori di arrotondamento: possiamo avere $A$ "perfetta"! Definiamo allora una funzione `hilbert_exact` che restituisce la matrice di Hilbert esatta:
+```python
+from fractions import Fraction
+
+def hilbert_exact(n):
+	return np.array([[Fraction(1, i + j - 1) for j in range(1, n + 1)] for i in range(1, n + 1)], dtype=Fraction)
+```
+
+A questo punto, possiamo definire per ogni matrice di Hilbert $H_{n}$ una sua versione "esatta" e una sua versione codificata in floating-point, così da poter calcolare $\Delta H_{n}$. Allo stesso modo, possiamo calcolare una versione "esatta" (e quindi frazionaria) di $b_{n}$ e quindi, con la sua versione codificata in floating-point, anche $\Delta b_{n}$.
+```python
+H_exact = hilbert_exact(n)
+H_float = np.array(H_exact, dtype=np.float64)
+x = np.ones((n,), dtype=np.float64)
+b_exact = np.array([sum(H_exact[i, j] * Fraction(x[j]) for j in range(n)) for i in range(n)], dtype=Fraction)
+b_float = H_float @ x
+
+delta_H = np.array([[H_exact[i, j] - Fraction(H_float[i, j]) for j in range(n)] for i in range(n)], dtype=Fraction)
+delta_b = np.array([b_exact[i] - Fraction(b_float[i]) for i in range(n)], dtype=Fraction)
+```
+
+Bisogna osservare alcune cose:
+- la codifica floating-point di riferimento per `H_float` e `b_float` è `np.float64`, che è molto simile a quella nativa di Python[^2];
+- `b_exact` è calcolata con un prodotto righe per colonne "esatto", e non usando `H_exact @ x` --> solo in questo modo si garantisce che `b_exact` sia in forma frazionaria;
+- `delta_H` e `delta_b` sono anch'esse in forma frazionaria, per poter mantenere un certo grado di precisione, e sono calcolate attraverso il seguente strategemma: _sottraggo al valore frazionario di $H$ "esatta" la conversione in frazione del valore in floating-point di $H$ "inesatta"_, perché **è solo in questo modo che catturo l'errore di arrotondamento**.
+
+A questo punto, non ci resta che calcolare l'errore inerente massimo, che è dato da $k(H) \cdot \left( \frac{\|\Delta H\|}{\|H\|} + \frac{\|\Delta b\|}{\|b\|} \right)$:
+```python
+upperbound.append(cond * (np.linalg.norm(delta_H, ord=1) / np.linalg.norm(H_exact, ord=1) + np.linalg.norm(delta_b, ord=1) / np.linalg.norm(b_exact, ord=1)))
+```
+
+<u>Nota bene</u>: _utilizzo la norma 1_ (sapendo che qualunque norma va bene) perché è, sia nei vettori $\Delta H$ e $\Delta b$ che nelle matrici $H$ e $b$, la somma tutti i valori assoluti degli elementi, operazione definita per oggetti `Fraction`.
+
+Quindi, insieme al grafico precedente, plottiamo l'_upperbound_ dell'errore inerente:
+```python
+plt.subplot(1, 2, 1)
+plt.title(r"$k(A)$")
+plt.plot(range(2, max_n+1), conds, 'b')
+plt.yscale('log')
+plt.subplot(1, 2, 2)
+plt.title(r"$err_{rel}$")
+plt.plot(range(2, max_n+1), errors, 'g')
+plt.plot(range(2, max_n+1), upperbound, 'r--')
+plt.yscale('log')
+plt.show()
+```
+![[calcolo-hw-1-sistema-lineare-3.png]]
+
+dove l'_upperbound_ è rappresentato dalla linea rossa tratteggiata.
+Esattamente ciò che ci aspettavamo.
 
 #### Conclusione
+In conclusione, abbiamo mostrato come il problema dell'errore inerente si manifesti in maniera più evidente in matrici mal condizionate, come la matrice di Hilbert, rispetto a matrici ben condizionate. Conoscendo la codifica floating-point, infine, siamo stati in grado di calcolare un upperbound dell'errore inerente, verificando empiricamente la teoria.
+
+### Minimi quadrati
+#### Introduzione
+In questo ultimo esercizio, si richiede di risolvere il [[Problema dei minimi quadrati|problema dei minimi quadrati]] ${\arg_{\min}}_{\alpha \in \mathbb{R}^{n}} {\|A\alpha - y\|_{2}}^{2}$ per una matrice $A \in M_{m \times n}(\mathbb{R})$ (generata randomicamente) con $m > n$ (fissati) e un vettore $y \in \mathbb{R}^{m}$. In particolare, una volta costruito un problema test della forma
+$$y = A\alpha + v$$
+dove $v$ è un vettore di numeri casuali con una varianza $\sigma \in [0.01, 0.1]$, si richiede di risolvere il problema ai minimi quadrati mediante:
+- _il sistema normale_ (con la fattorizzazione di Cholesky);
+- _[[Fattorizzazione ai valori singolari|decomposizione ai valori singolari]]_.
+
+Infine si richiede un confronto tra le due soluzioni calcolate, e la norma 2 del residuo $r = A\alpha - y$ per entrambi i casi.
+
+<u>Nota bene</u>: il motivo per cui il problema test prevede l'aggiunta del vettore casuale $v$, è per _evitare di risolvere il problema triviale $A\alpha = y$_. In tal caso, il problema dei minimi quadrati si riduce nella soluzione di un sistema lineare, _cui residuo è nullo_. Quindi con $v$ andiamo a spostare il vettore $y$ così che non esista un $\alpha$ tale che $A\alpha = y$.
+
+#### Sviluppo
+##### Codice
+Vogliamo intanto generare il problema test. Partiamo col definire le costanti $m, n: m > n$. Fissiamo $m = 7$ e $n = 5$, e generiamo la matrice $A$ usando la funzione `numpy.random.normal()` con una varianza $\sigma$ variabile per ora pari a $0.1$:
+```python
+import numpy as np
+
+np.random.seed(42)
+M = 7
+N = 5
+sigma = 0.1
+
+A = np.random.normal(scale=sigma, size=(M, N))
+print(A)
+
+"""
+Output:
+[[ 0.04967142 -0.01382643  0.06476885  0.15230299 -0.02341534]
+ [-0.0234137   0.15792128  0.07674347 -0.04694744  0.054256  ]
+ [-0.04634177 -0.04657298  0.02419623 -0.19132802 -0.17249178]
+ [-0.05622875 -0.10128311  0.03142473 -0.09080241 -0.14123037]
+ [ 0.14656488 -0.02257763  0.00675282 -0.14247482 -0.05443827]
+ [ 0.01109226 -0.11509936  0.0375698  -0.06006387 -0.02916937]
+ [-0.06017066  0.18522782 -0.00134972 -0.10577109  0.08225449]]
+"""
+```
+
+Ora creiamo il problema test considerando $\alpha = (1, \cdots, 1)$ e $v$ un vettore di numeri casuali:
+```python
+A = np.random.normal(scale=sigma, size=(M, N))
+alpha_true = np.ones((N,))
+v = np.random.normal(scale=sigma, size=(M,))
+y = A @ alpha_true + v
+
+print("A: ", A)
+print("alpha_true: ", alpha_true)
+print("v: ", v)
+print("y: ", y)
+
+"""
+Output:
+A:  [[ 0.04967142 -0.01382643  0.06476885  0.15230299 -0.02341534]
+ [-0.0234137   0.15792128  0.07674347 -0.04694744  0.054256  ]
+ [-0.04634177 -0.04657298  0.02419623 -0.19132802 -0.17249178]
+ [-0.05622875 -0.10128311  0.03142473 -0.09080241 -0.14123037]
+ [ 0.14656488 -0.02257763  0.00675282 -0.14247482 -0.05443827]
+ [ 0.01109226 -0.11509936  0.0375698  -0.06006387 -0.02916937]
+ [-0.06017066  0.18522782 -0.00134972 -0.10577109  0.08225449]]
+alpha_true:  [1. 1. 1. 1. 1.]
+v:  [-0.12208436  0.02088636 -0.19596701 -0.1328186   0.01968612  0.07384666
+  0.01713683]
+y:  [ 0.10741712  0.23944598 -0.62850534 -0.49093851 -0.0464869  -0.08182388
+  0.11732766]
+"""
+```
+
+Ora che abbiamo gli ingredienti, possiamo cominciare a risolvere il problema dei minimi quadrati
+$${\arg_{\min}}_{\alpha \in \mathbb{R}^{n}} {\|A\alpha - y\|_{2}}^{2}$$
+usando la fattorizzazione di Cholesky (per il sistema normale) e la decomposizione ai valori singolari.
+
+##### Sistema normale
+Per poter passare alle equazioni normali, ci si deve assicurare che la matrice $A$ abbia rango massimo, ossia che $rk(A) = n$. Per farlo ci basta usare la funzione `numpy.linalg.matrix_rank()`:
+```python
+rk_A = np.linalg.matrix_rank(A)
+print(rk_A == N)
+
+# Output: True
+```
+
+Verificato questo, non ci resta che risolvere il sistema normale
+$$A^{T}A \alpha = A^{T}y$$
+risolvibile con la fattorizzazione di Cholesky in quanto $A^{T}A$ è simmetrica e definita positiva ($rk(A) = n$). Quindi ricicliamo la funzione `solve_linear_system_chol()` e la invochiamo passando come parametri $A^{T}A$ e $A^{T}y$:
+```python
+def solve_linear_system_chol(A: np.ndarray, b: np.ndarray) -> np.ndarray:
+	L = np.linalg.cholesky(A)
+	y = np.linalg.solve(L, b)
+	x = np.linalg.solve(L.T, y)
+	return x
+
+alpha_chol = solve_linear_system_chol(A.T@A, A.T@y)
+print(alpha_chol)
+
+# Output: [1.16201705 0.10757469 1.14261069 0.43674174 2.94686945]
+```
+
+Come interpretiamo il risultato? Il vettore `alpha_chol` ottenuto è la soluzione che minimizza ${\|A\alpha - y\|_{2}}^{2}$, ossia ${\|r\|_{2}}^{2}$. Questo **residuo**, ricordiamo, **non può essere uguale a 0**, perché abbiamo aggiunto il vettore casuale $v$ a $y$, o meglio: è uguale a 0 $\iff$ $v = \underline{0}$.
+Calcoliamo allora il residuo e la sua norma 2:
+```python
+r = A @ alpha_chol - y
+norm_r_sqrd = np.linalg.norm(r, ord=2) ** 2
+print("Residuo: ", r)
+print("Norma 2 al quadrato del residuo: ", norm_r_sqrd)
+
+"""
+Output:
+Residuo:  [ 0.02033525 -0.0225954   0.0054205  -0.00523418 -0.00056233  0.01306842
+  0.02733522]
+Norma 2 al quadrato del residuo:  0.0018991667528066494
+"""
+```
+
+##### SVD
+Passiamo ora alla decomposizione ai valori singolari. Sappiamo dalla teoria, infatti, che _la soluzione al problema dei minimi quadrati con la SVD è indipendente dal rango $k$ di $A$_ (può essere usata sia per $k \leq n$ che per $k = n$). Una volta fattorizzata $A$ in $U \Sigma V^{T}$, la formula per risolvere il problema dei minimi quadrati diventa
+$$\alpha = \sum\limits_{i=1}^{k} \frac{u_{i}^{T}y}{\sigma_{i}}v_{i}$$
+
+Definiamo quindi la funzione `solve_least_squared_svd()` nel seguente modo:
+```python
+def solve_least_squared_svd(A: np.ndarray, b: np.ndarray) -> np.ndarray:
+	rk = np.linalg.matrix_rank(A)
+	U, s, VT = np.linalg.svd(A)
+	x = sum(((U[:, i].T @ b) / s[i]) * VT[i, :] for i in range(rk))
+	return x
+```
+e la invochiamo passando come parametri $A$ e $y$:
+```python
+alpha_svd = solve_least_squared_svd(A, y)
+print(alpha_svd)
+
+# Output: [1.16201705 0.10757469 1.14261069 0.43674174 2.94686945]
+```
+
+Il _risultato è il medesimo della soluzione con la fattorizzazione di Cholesky_, come ci aspettavamo. Il residuo, di conseguenza, sarà lo stesso.
+
+##### Confronto
+I due risultati sono assolutamente equivalenti, sia in termini di soluzione $\alpha$ che, conseguentemente, di residuo. E' ovviamente giusto che sia così, tuttavia si possono fare delle considerazioni in merito alla scelta dell'algoritmo da utilizzare: il numero di condizionamento di $A$ è $\approx 5$, per cui il condizionamento della matrice del sistema normale $A^{T}A$ è $\approx 25$: il problema è ben posto, per cui Cholesky funziona bene. Siamo però a conoscenza del fatto che _la SVD, in casi di matrici mal condizionate, è più stabile e robusta rispetto alla fattorizzazione di Cholesky_.
+
+E' interessante invece notare il ruolo che gioca la varianza $\sigma$ nel problema: _essa influenza direttamente il residuo_. Proviamo a far decrescere $\sigma$ fino a $0.01$ e a plottare il residuo in funzione di essa (risolvendo con le equazioni normali). Nel farlo adottiamo le seguenti regole:
+- facciamo variare la varianza varia solo per $v$, e non per $A$, altrimenti si "annullerebbero" le modifiche;
+- visto che $\sigma$ rappresenta l'"ampiezza" di $v$, avendo necessità di mantenere lo stesso $v$ per ogni $\sigma$, possiamo semplicemente moltiplicare $v$ per $\frac{\sigma_{new}}{\sigma_{old}}$, dove $\sigma_{old} = 0.1$.
+
+```python
+rs = []
+n = 100
+A = np.random.normal(scale=0.1, size=(M, N))
+vv = np.random.normal(scale=0.1, size=(M,))
+sigmas = np.linspace(0.1, 0.01, n)
+for sigma in sigmas:
+	alpha_true = np.ones((N,))
+	v = vv*sigma/0.1
+	y = A @ alpha_true + v
+	
+	alpha_chol = solve_linear_system_chol(A.T@A, A.T@y)
+	r = A @ alpha_chol - y
+	norm_r_sqrd = np.linalg.norm(r, ord=2) ** 2
+	
+	rs.append(norm_r_sqrd)
+
+plt.plot(range(n), rs)
+plt.grid()
+plt.show()
+```
+![[calcolo-hw-1-minimi-quadrati.png]]
+
+Il risultato è un grafico che mostra la discesa del residuo al diminuire della varianza $\sigma$, perfettamente in linea con ciò che ci aspettavamo.
+
+#### Conclusione
+In conclusione, abbiamo risolto il problema dei minimi quadrati con due differenti algoritmi, la fattorizzazione di Cholesky e la decomposizione ai valori singolari, ottenendo risultati equivalenti. Abbiamo inoltre verificato empiricamente come la varianza $\sigma$ influenzi il residuo del problema test.
 
 ## Referenze
 [^1]: informazione presa da [qui](https://my.liuc.it/MatSup/2009/Y90000/N3.doc) e [qui](https://lemesurierb.people.charleston.edu/elementary-numerical-analysis-python/notebooks/newtons-method-convergence-rate.html)
+[^2]: come si può leggere [qui](https://numpy.org/devdocs/user/basics.types.html#extended-precision)

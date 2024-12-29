@@ -17,7 +17,7 @@ links:
 <u>Osservazione</u>: se il [[Gradiente|gradiente]] è un [[Vettore|vettore]] che contiene le [[Derivata|derivate prime]] di una funzione a più variabili, la matrice hessiana è l'oggetto (matrice) che contiene le [[Derivate di ordine superiore|derivate seconde]].
 
 ### In $\mathbb{R}^{2}$
-$$Hf(x) = \begin{bmatrix} \partial_{xx}f & \partial_{xy}f \\ \partial_{yx}f & \partial_{yy}f \end{bmatrix}$$
+$$Hf(x, y) = \begin{bmatrix} \partial_{xx}f & \partial_{xy}f \\ \partial_{yx}f & \partial_{yy}f \end{bmatrix}$$
 
 ### In $\mathbb{R}^{3}$
 $$Hf(x, y, z) = \begin{bmatrix} \partial_{xx} f & \partial_{xy} f & \partial_{xz} f \\ \partial_{yx} f & \partial_{yy} f & \partial_{yz} f \\ \partial_{zx} f & \partial_{zy} f & \partial_{zz} f \end{bmatrix}$$

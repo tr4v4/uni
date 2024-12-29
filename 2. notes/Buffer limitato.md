@@ -6,6 +6,7 @@ tags:
 date: 20-11-2024 23:24:17
 links:
   - "[[Lecture 07112024092537]]"
+  - "[[Lecture 22112024091729]]"
 ---
 # Buffer limitato
 ---
@@ -17,6 +18,7 @@ links:
 > - assenza di [[Starvation|starvation]].
 
 ## Implementazione
+### Semafori
 Ancora possiamo usare i [[Semafori|semafori]] per risolvere il problema:
 ```C
 Queue q(maxsize = SIZE);
@@ -48,5 +50,55 @@ process Consumer {
 ```
 
 <u>Nota bene</u>: in questo caso, è necessario un semaforo `mutex` perché il buffer è una variabile condivisa con una grandezza limitata, e _`empty.P()` (per i produttori) e `full.P()` (per i consumatori) non sono per forza bloccanti_. Per esempio, se `empty` ha valore 3, due produttori possono tranquillamente fare `empty.P()` e accedere al buffer simultaneamente, ma ciò non va bene perché il buffer `q` è condiviso. Quindi serve un semaforo `mutex` per garantire la mutua esclusione. Lo stesso ragionamento vale per i consumatori nel caso di `full.P()`.
+
+### Monitor
+La soluzione tramite [[Monitor|monitor]], assumendo che i processi `Producer` e `Consumer` siano del tipo
+```C
+process Producer_i {
+	while (true) {
+		Object val = produce();
+		prController.write(val);
+	}
+}
+
+process Consumer_i {
+	while (true) {
+		Object val = pcController.read();
+		consume(val);
+	}
+}
+```
+, è la seguente:
+```C
+monitor PCController {
+	Queue buffer[MAXSIZE];
+	int n;
+	condition existsSpace;
+	condition existsElement;
+
+	PCController() {
+		n = 0;
+	}
+
+	procedure write(val) {
+		if (n == MAXSIZE) {
+			existsSpace.wait();
+		}
+		buffer.enqueue(val);
+		n++;
+		existsElement.signal();
+	}
+
+	procedure read() {
+		if (n == 0) {
+			existsElement.wait();
+		}
+		Object val = buffer.dequeue();
+		n--;
+		existsSpace.signal();
+		return val;
+	}
+}
+```
 
 ## Referenze

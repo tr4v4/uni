@@ -11,9 +11,9 @@ links:
 ---
 ## Introduzione
 > La **variazione totale** è una [[Regolarizzazione|tecnica di regolarizzazione]] usata nell'[[Imaging|imaging]] per risolvere il [[Problemi inversi|problema inverso]] $Ax = y^{\delta}$. In particolare, se $x$ è l'immagine di partenza, si calcola la varianza totale $TV(x)$ come la [[Norma vettoriale|norma 1]] del [[Gradiente|gradiente]] di $x$:
-> $$TV(x) = \|\nabla x\|_{1} = \sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N} \sqrt{(x_{i+1,j} - x_{i,j})^{2} + (x_{i,j+1}, x_{i,j})^{2}}$$
+> $$TV(x) = \|\nabla x\|_{1} = \sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N} \sqrt{(x_{i+1,j} - x_{i,j})^{2} + (x_{i,j+1} - x_{i,j})^{2}}$$
 > A tale funzione, non essendo [[Funzione differenziabile|differenziabile]] in $(0, 0)$, viene aggiunto un parametro $\beta > 0$ (nell'ordine di $10^{-3}$):
-> $$TV(x) = \sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N} \sqrt{(x_{i+1,j} - x_{i,j})^{2} + (x_{i,j+1}, x_{i,j})^{2} + \beta^{2}}$$
+> $$TV^{\beta}(x) = \sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N} \sqrt{(x_{i+1,j} - x_{i,j})^{2} + (x_{i,j+1} - x_{i,j})^{2} + \beta^{2}}$$
 > Il problema di regolarizzazione diventa allora
 > $$\min_{x} {\|Ax - y^{\delta}\|_{2}}^{2} + \lambda TV^{\beta}(x)$$
 > che può essere risolto usando il [[Metodo di discesa del gradiente|metodo di discesa del gradiente]] (magari usando backtracking).

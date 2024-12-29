@@ -18,6 +18,6 @@ In particolare, la soluzione al problema viene _approssimata_, fermandosi a $k$ 
 
 ## Generalizzazione
 Posso considerare la sommatoria fino a $n$ introducendo dei _fattori di filtro_ $f_{i}$ che valgono $1$ nelle prime $k$ iterazioni e $0$ in tutte quelle da $k+1$ a $n$:
-$$x^{*} = \sum\limits_{i=1}^{k} f_{i} \frac{u_{i}^{T}y^{\delta}}{\sigma_{i}}v_{i}$$
+$$x^{*} = \sum\limits_{i=1}^{n} f_{i} \frac{u_{i}^{T}y^{\delta}}{\sigma_{i}}v_{i}$$
 
 ## Referenze

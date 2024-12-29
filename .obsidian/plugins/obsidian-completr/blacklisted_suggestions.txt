@@ -19,3 +19,7 @@ CRUD
 \textcircledP
 TSVD
 crud
+uni
+HEAD
+MongoDB
+CRu

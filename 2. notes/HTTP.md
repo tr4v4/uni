@@ -21,7 +21,13 @@ Questo protocollo ha le seguenti caratteristiche:
 ### Risorse
 _Le risorse HTTP sono separate dalla loro rappresentazione_, il che significa che questo protocollo fornisce dei **meccanismi di negoziazione del formato di dati**, e non è dipendente da essi.
 
+## Versioni
+L'HTTP si è evoluto nel tempo, passando da una versione all'altra. Le versioni principali sono:
+- [[HTTP-2]]
+- [[HTTP-3]]
+
 ## Referenze
 - [[Richiesta HTTP]]
 - [[Risposta HTTP]]
 - [[Metodi HTTP]]
+- [[Cookie]]

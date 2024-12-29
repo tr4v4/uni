@@ -17,7 +17,7 @@ links:
 Il protocollo IP si occupa di:
 - _indirizzamento_ -> ogni dispositivo connesso alla rete ha un [[Indirizzo IP|indirizzo IP]] univoco, un indirizzo logico;
 - _frammentazione_ -> i segmenti (di [[Livello trasporto|livello trasporto]]) vengono suddivisi in pacchetti;
-- _[[Instradamento|instradamento]]_ -> i pacchetti vengono inviati verso la destinazione attraverso i [[Router|router]];
+- _[[Routing|instradamento]]_ -> i pacchetti vengono inviati verso la destinazione attraverso i [[Router|router]];
 
 ## Pacchetto
 Un pacchetto IP contiene gli _indirizzi IP del mittente e del destinatario_.

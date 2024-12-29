@@ -12,9 +12,9 @@ date: 16-09-2024 10:19:47
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Lecture 05112024094126]] | <ul><li>[[Calcolo numerico]]</li><li>[[Algoritmi per la risoluzione di sistemi lineari]]</li><li>[[CGLS]]</li><li>[[Metodo dei gradienti coniugati]]</li></ul> |
+| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Lecture 11112024131700]] | <ul><li>[[Calcolo numerico]]</li><li>[[Centro di una matrice]]</li><li>[[Convoluzione]]</li><li>[[Imaging]]</li><li>[[Matrice di convoluzione]]</li><li>[[Matrice estesa]]</li><li>[[PSF]]</li><li>[[Rumore bianco]]</li><li>[[Sottomatrice]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,8 +23,8 @@ date: 16-09-2024 10:19:47
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
-| [[Lecture 05112024094126]] | 05-11-2024 09:41:26 |
 | [[Lecture 11112024131700]] | 11-11-2024 13:17:00 |
+| [[Lecture 05112024094126]] | 05-11-2024 09:41:26 |
 | [[Lecture 12112024091405]] | 12-11-2024 09:14:05 |
 | [[Lecture 04112024131513]] | 04-11-2024 13:15:13 |
 | [[Lecture 22102024092339]] | 22-10-2024 09:23:39 |
@@ -45,10 +45,8 @@ date: 16-09-2024 10:19:47
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-numerico AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-numerico AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione                                                           | Status                            |
-| ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 12112024091405]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 11112024131700]] | <ul><li>#status/pending</li></ul> |
+| Lezione | Status |
+| ------- | ------ |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -82,6 +80,15 @@ date: 16-09-2024 10:19:47
 
 | Note                                                                                                                         | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Variazione totale]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Rumore bianco]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[PSF]]                                                                                                     | <ul><li>#status/finished</li></ul> |
+| [[Matrice di convoluzione]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Sottomatrice]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Centro di una matrice]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[Matrice estesa]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Convoluzione]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Imaging]]                                                                                             | <ul><li>#status/finished</li></ul> |
 | [[CGLS]]                                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Metodo dei gradienti coniugati]]                                               | <ul><li>#status/finished</li></ul> |
 | [[Problemi inversi]]                                                                           | <ul><li>#status/finished</li></ul> |

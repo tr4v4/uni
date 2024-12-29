@@ -6,6 +6,7 @@ tags:
 date: 03-11-2024 12:23:40
 links:
   - "[[Lecture 24102024091305]]"
+  - "[[Lecture 15112024091205]]"
 ---
 # Semafori
 ---
@@ -132,5 +133,15 @@ Come già detto, le due operazioni devono essere eseguite come azioni atomiche, 
 Quindi se si usano queste tecniche per implementare i semafori, non si elimina il _busy waiting_. Ma abbiamo limitato formalmente le CS alle sole operazioni `P` e `V`, che sono molto brevi: **la sezione critica non è quasi mai occupata, per cui il busy waiting avviene raramente**.
 ![[semafori-vantaggi.png]]
 
+## Difetti
+Con i semafori si possono fare tante cose, ma sono costrutti di basso livello[^1]. Si possono commettere errori banali:
+- _omettere `P` o `V`_;
+- _scambiare l'ordine delle operazioni_;
+- _fare operazioni `P` e `V` su semafori sbagliati_.
+
+Inoltre, è responsabilità del programmatore accedere ai dati condivisi in modo corretto, e vi sono forti problemi di leggibilità.
+
 ## Referenze
 - [[Semafori binari]]
+
+[^1]: un equivalente dell'[[Assembly|assembly]] nei [[Linguaggio di programmazione|linguaggi di programmazione]]

@@ -6,6 +6,7 @@ tags:
 date: 19-11-2024 19:39:15
 links:
   - "[[Lecture 25102024131215]]"
+  - "[[Lecture 22112024130956]]"
 ---
 # IPv4
 ---
@@ -21,3 +22,4 @@ Si compone di due parti, distinguibili dalla [[Subnet mask|subnet mask]]:
 
 ## Referenze
 - [[Classi di rete]]
+- [[IPv6]]

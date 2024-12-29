@@ -6,6 +6,7 @@ tags:
 date: 13-10-2024 17:32:32
 links:
   - "[[Lecture 30092024131914]]"
+  - "[[Lecture 07102024132143]]"
 ---
 # Problema dei minimi quadrati
 ---
@@ -38,7 +39,7 @@ Definiamo intanto $Ax - b = r$ dove $r$ è detto _residuo_. Si vuole minimizzare
 Il meccanismo di risoluzione del problema dei minimi quadrati nasce dalla seguente proposizione.
 > Sia $A \in M_{m \times n}(\mathbb{R})$ con $m > n$ e $rk(A) = k \leq n$, allora il problema dei minimi quadrati ammette sempre almeno una soluzione, e:
 > - $k = n \implies$ il problema ammette una e una sola soluzione;
-> - $k < n \implies$ il problema ammette infinite soluzioni, che formano un sottospazio di $\mathbb{R}^{n}$ di dimensione $n-k$.
+> - $k < n \implies$ il problema ammette infinite soluzioni, che formano un [[Sottospazio vettoriale|sottospazio]] di $\mathbb{R}^{n}$ di dimensione $n-k$.
 
 ### $k = n$
 Se $k = n$, allora la soluzione si ottiene passando alle **equazioni normali**. In particolare
@@ -143,7 +144,7 @@ $$\bar{x} = V \Sigma^{+} U^{T} b$$
 e quindi la soluzione $\bar{x}$ può essere vista come
 $$\bar{x} = A^{+}b$$
 
-Inoltre, considerando che l'inversa di $A$ non esiste, è possibile definire il [[Numero di condizione|numero di condizione]] di in termini della pseudoinversa:
+Inoltre, considerando che l'inversa di $A$ non esiste, è possibile definire il [[Numero di condizione|numero di condizione]] in termini della pseudoinversa:
 $$K(A) = \|A\| \cdot \|A^{+}\|$$
 
 o in alternativa si può usare il numero di condizionamento spettrale

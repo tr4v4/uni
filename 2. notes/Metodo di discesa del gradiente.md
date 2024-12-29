@@ -17,7 +17,7 @@ links:
 Appartiene ai cosiddetti [[Metodo di ricerca in linea|metodi di ricerca in linea]], ossia degli [[Algoritmo iterativo|algoritmi iterativi]] che a partire da un $x_{0}$ seguono un percorso $x_{1}, \cdots, x_{k}, x_{k+1}, \cdots$ per arrivare alla soluzione $x^{*}$.
 
 ## Idea
-La discesa del gradiente, scelto un termine $x_{0} \in \mathbb{R}^{n}$, considera l'iterazione
+La discesa del gradiente, scelto un termine $x_{0} \in \mathbb{R}^{n}$, considera l'iterazione ([[Successione numerica|successione]])
 $$x_{k+1} = x_{k} + \alpha_{k}p_{k}$$
 dove:
 - $\alpha_{k} > 0$ è detto _step-size_ o _learning-rate_;

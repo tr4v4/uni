@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "242c2e5f68aab81f",
+        "id": "294ed4651bed13ea",
         "type": "tabs",
         "children": [
           {
-            "id": "62b13108f5eff543",
+            "id": "ce26abe158ed8d65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 14112024173206.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lecture 14112024173206"
+              "title": "New tab"
             }
           }
         ]
@@ -154,7 +150,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:Create new board": false,
-      "obsidian-google-tasks:Google Tasks": false,
       "random-note:Open random note": false,
       "3d-graph:3D Graph": false,
       "switcher:Open quick switcher": false,
@@ -163,13 +158,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62b13108f5eff543",
+  "active": "ce26abe158ed8d65",
   "lastOpenFiles": [
+    "2. notes/CORS.md",
+    "1. lectures/Lecture 13122024132854.md",
+    "1. lectures/Lecture 12122024131919.md",
+    "1. lectures/Lecture 12122024092737.md",
+    "1. lectures/Lecture 05122024092457.md",
+    "0. mocs/Sistemi operativi.md",
+    "1. lectures/Lecture 28112024092134.md",
+    "1. lectures/Lecture 21112024092345.md",
+    "1. lectures/Lecture 29112024093415.md",
+    "4. homeworks/Calcolo numerico - HW. 1.md",
+    "1. lectures/Lecture 15112024091205.md",
+    "2. notes/Regolarizzazione alla Tikhonov.md",
+    "2. notes/Imaging.md",
+    "2. notes/PSF.md",
+    "2. notes/Rumore bianco.md",
+    "2. notes/Pumping lemma.md",
+    "1. lectures/Lecture 14112024173206.md",
     "0. mocs/Reti di calcolatori.md",
     "1. lectures/Lecture 15112024133341.md",
     "0. mocs/Tecnologie web.md",
@@ -179,23 +190,6 @@
     "2. notes/Cache.md",
     "2. notes/Direct Mapped Cache.md",
     "1. lectures/Lecture 24102024120228.md",
-    "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 18102024090854.md",
-    "2. notes/Errore nel calcolo numerico.md",
-    "2. notes/Errore inerente.md",
-    "0. mocs/Calcolo numerico.md",
-    "2. notes/Intorno.md",
-    "2. notes/Proprietà di completezza di R.md",
-    "0. mocs/Analisi I.md",
-    "2. notes/Teorema del confronto.md",
-    "2. notes/Teorema di permanenza del segno.md",
-    "2. notes/Norma matriciale.md",
-    "2. notes/Anello.md",
-    "2. notes/Abelianità.md",
-    "2. notes/Semianello.md",
-    "2. notes/Strutture algebriche.md",
-    "1. lectures/Lecture 19092024125624.md",
-    "1. lectures/Lecture 17092024110611.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

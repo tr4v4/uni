@@ -7,6 +7,8 @@ date: 19-11-2024 18:25:36
 links:
   - "[[Lecture 09102024132027]]"
   - "[[Lecture 23102024132952]]"
+  - "[[Lecture 15112024133341]]"
+  - "[[Lecture 20112024140334]]"
 ---
 # Livello rete
 ---
@@ -25,6 +27,9 @@ Il livello rete presenta le seguenti caratteristiche:
 I protocolli che operano a questo livello sono:
 - [[IP]];
 - [[Protocollo di routing|protocolli di routing]];
+- [[ICMP]];
+- [[ARP]] e [[RARP]];
+- [[DHCP]];
 
 ## Dispositivi
 I dispositivi che operano a questo livello sono:

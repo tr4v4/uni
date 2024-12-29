@@ -2,55 +2,144 @@
   "items": [
     {
       "type": "group",
-      "ctime": 1730546867637,
+      "ctime": 1733314234544,
       "items": [
         {
           "type": "file",
-          "ctime": 1730546843867,
+          "ctime": 1733314250463,
+          "path": "0. mocs/Sistemi operativi.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733314262113,
+          "path": "1. lectures/Lecture 21112024092345.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733314277752,
+          "path": "1. lectures/Lecture 22112024091729.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733314284104,
+          "path": "1. lectures/Lecture 28112024092134.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733314289316,
+          "path": "1. lectures/Lecture 29112024093415.md"
+        }
+      ],
+      "title": "Workflow - Sistemi operativi"
+    },
+    {
+      "type": "group",
+      "ctime": 1733755915494,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1733755953311,
           "path": "0. mocs/Calcolo numerico.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
-          "path": "2. notes/Algoritmi per la risoluzione di sistemi lineari.md"
+          "ctime": 1733755965675,
+          "path": "2. notes/Approssimazione di dati.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
-          "path": "2. notes/Fattorizzazione LU.md"
+          "ctime": 1733755981200,
+          "path": "2. notes/Approssimazione ai minimi quadrati.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
-          "path": "2. notes/Fattorizzazione di Cholesky.md"
+          "ctime": 1733755986362,
+          "path": "2. notes/Problema dei minimi quadrati.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
-          "path": "2. notes/Errore inerente.md"
+          "ctime": 1733755990295,
+          "path": "2. notes/Regolarizzazione.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
+          "ctime": 1733755994308,
+          "path": "2. notes/Regolarizzazione alla Tikhonov.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733755998382,
+          "path": "2. notes/CGLS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1733756006267,
           "path": "4. homeworks/Calcolo numerico - HW. 1.md"
         },
         {
           "type": "file",
-          "ctime": 1730546843867,
-          "path": "2. notes/Norma matriciale.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1732033869149,
-          "path": "2. notes/Errore di arrotondamento.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1732033883248,
-          "path": "2. notes/Aritmetica floating-point.md"
+          "ctime": 1733756012741,
+          "path": "4. homeworks/Calcolo numerico - HW. 2.md"
         }
       ],
-      "title": "Workflow - Calcolo numerico"
+      "title": "Worlflow - Calcolo numerico"
+    },
+    {
+      "type": "group",
+      "ctime": 1734260210634,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1734260320017,
+          "path": "0. mocs/Reti di calcolatori.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260320017,
+          "path": "1. lectures/Lecture 29112024132404.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260320017,
+          "path": "1. lectures/Lecture 04122024132538.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260320017,
+          "path": "1. lectures/Lecture 06122024133642.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260320017,
+          "path": "1. lectures/Lecture 13122024132854.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260334394,
+          "path": "2. notes/Congestione di rete.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260334394,
+          "path": "2. notes/Controllo della congestione.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260334394,
+          "path": "2. notes/TCP.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260334394,
+          "path": "2. notes/Livello trasporto.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1734260334394,
+          "path": "2. notes/Livello rete.md"
+        }
+      ],
+      "title": "Workflow - Reti di calcolatori"
     }
   ]
 }

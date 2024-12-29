@@ -13,7 +13,7 @@ links:
 > Le **condizioni discrete di Picard** sono uno strumento usato nell'ambito dei [[Problemi inversi|problemi inversi]] per visualizzare l'influenza del rumore $\delta$ nella [[Problema dei minimi quadrati|risoluzione dei minimi quadrati]] del sistema $Ax = y^{\delta}$ attraverso [[Fattorizzazione ai valori singolari|SVD]].
 
 ## Visualizzazione
-Considerando il vettore $y^{\delta} = y + \delta$, e fattorizzando la matrice $A$ in $A = U \Sigma U^{T}$, allora la soluzione $x^{*}$ è calcolabile come:
+Considerando il vettore $y^{\delta} = y + \delta$, e fattorizzando la matrice $A$ in $A = U \Sigma V^{T}$, allora la soluzione $x^{*}$ è calcolabile come:
 $$x^{*} = \sum\limits_{i=1}^{n} \frac{u_{i}^{T}y^{\delta}}{\sigma_{i}} v_{i} = \sum\limits_{i=1}^{n} \frac{u_{i}^{T}y}{\sigma_{i}}v_{i} + \sum\limits_{i=1}^{n} \frac{u_{i}^{T}\delta}{\sigma_{i}}v_{i}$$
 
 Ora, considerando i dati reali $y$, visualizziamo un grafico che mette in relazione:

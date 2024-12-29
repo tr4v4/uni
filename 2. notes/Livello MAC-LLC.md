@@ -7,6 +7,7 @@ date: 19-11-2024 18:23:55
 links:
   - "[[Lecture 09102024132027]]"
   - "[[Lecture 23102024132952]]"
+  - "[[Lecture 20112024140334]]"
 ---
 # Livello MAC-LLC
 ---
@@ -23,5 +24,9 @@ Il livello MAC-LLC si occupa di:
 I dispositivi che operano a questo livello sono:
 - [[Bridge|bridge]]: dispositivo che _interconnette due o più segmenti di rete locale_, con tecnologie MAC diverse (esempio uno [[Ethernet]] con uno [[Token Ring]], lo stesso [[Access point]] è un bridge tra 802.3 e 802.11, [[Wi-Fi]]);
 - [[Switch|switch]]: dispositivo analogo al bridge, ma permette di connettere molti segmenti (fino a 10-12), e in più _indirizza i pacchetti sul segmento giusto in base all'indirizzo MAC del destinatario_.
+
+## Protocolli
+I protocolli che operano a questo livello sono:
+- [[ARP]] e [[RARP]];
 
 ## Referenze

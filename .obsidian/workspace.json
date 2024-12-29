@@ -4,20 +4,132 @@
     "type": "split",
     "children": [
       {
-        "id": "f8354cfd514a28f1",
+        "id": "4430e8027e7d41b5",
         "type": "tabs",
+        "dimension": 38.632045598480055,
         "children": [
           {
-            "id": "622459188498b8ba",
+            "id": "e28c16d48a328aaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Calcolo numerico.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Calcolo numerico"
+            }
+          },
+          {
+            "id": "62bb5faf66ae5b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Problemi inversi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problemi inversi"
+            }
+          },
+          {
+            "id": "eee0d0e1284a88c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Imaging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Imaging"
+            }
+          },
+          {
+            "id": "9c1dd07363842bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Matrice estesa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Matrice estesa"
+            }
+          },
+          {
+            "id": "7eff9dc7156bb101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Variazione totale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variazione totale"
             }
           }
-        ]
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "cf37eb0323d8cd12",
+        "type": "tabs",
+        "dimension": 61.36795440151995,
+        "children": [
+          {
+            "id": "cc46682a677dc8a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo numerico - HW. 1"
+            }
+          },
+          {
+            "id": "dff0690270fbac7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo numerico - HW. 2"
+            }
+          },
+          {
+            "id": "20d671e718e2d484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo numerico - HW. 3"
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -36,7 +148,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -73,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
+    "width": 236.5,
     "collapsed": true
   },
   "right": {
@@ -137,10 +249,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 1.md"
+                "file": "2. notes/Variazione totale.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Calcolo numerico - HW. 1"
+              "title": "Outline of Variazione totale"
             }
           },
           {
@@ -178,16 +290,6 @@
               "icon": "lucide-info",
               "title": "File properties for Linguaggi di programmazione"
             }
-          },
-          {
-            "id": "02a28f657e9a3778",
-            "type": "leaf",
-            "state": {
-              "type": "googleTaskView",
-              "state": {},
-              "icon": "check-in-circle",
-              "title": "Google Tasks"
-            }
           }
         ],
         "currentTab": 3
@@ -203,7 +305,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
+                "file": "2. notes/Variazione totale.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -231,7 +333,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Calcolo numerico - HW. 1"
+              "title": "Graph of Variazione totale"
             }
           }
         ]
@@ -255,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,54 +369,53 @@
       "audio-recorder:Start/stop recording": false,
       "random-note:Open random note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "3d-graph:3D Graph": false,
-      "obsidian-google-tasks:Google Tasks": false,
-      "obisidian-note-linker:Note Linker": false
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "622459188498b8ba",
+  "active": "7eff9dc7156bb101",
   "lastOpenFiles": [
-    "0. mocs/Calcolo numerico.md",
-    "2. notes/Problemi inversi.md",
-    "2. notes/Imaging.md",
-    "2. notes/CGLS.md",
-    "1. lectures/Lecture 12112024091405.md",
+    "4. homeworks/Calcolo numerico - HW. 3.md",
+    "2. notes/Errore inerente.md",
+    "1. lectures/Lecture 26092024092021.md",
+    "1. lectures/Lecture 30092024131914.md",
     "2. notes/Variazione totale.md",
-    "2. notes/Regolarizzazione alla Tikhonov.md",
-    "2. notes/Metodo di discesa del gradiente.md",
-    "2. notes/Metodo dei gradienti coniugati.md",
-    "1. lectures/Lecture 11112024131700.md",
-    "2. notes/Errore di arrotondamento.md",
-    "media/imaging.png",
-    "2. notes/Rumore bianco.md",
-    "2. notes/PSF.md",
-    "2. notes/Espressione.md",
-    "2. notes/Matrice estesa.md",
+    "2. notes/Imaging.md",
+    "media/calcolo-hw-3-imaging-reg-maxdisc1.png",
+    "media/calcolo-hw-3-imaging-reg-minabs3.png",
+    "media/calcolo-hw-3-imaging-reg-minabs2.png",
+    "4. homeworks/Calcolo numerico - HW. 2.md",
     "2. notes/Convoluzione.md",
+    "media/calcolo-hw-3-imaging-reg-minabs1.png",
+    "media/calcolo-hw-3-imaging-reg-cgls2.png",
+    "media/calcolo-hw-3-imaging-reg-cgls1.png",
+    "4. homeworks/Calcolo numerico - HW. 1.md",
+    "media/calcolo-hw-3-imaging-naive4.png",
+    "media/calcolo-hw-3-imaging-naive3.png",
+    "media/calcolo-hw-3-imaging-naive2.png",
+    "media/calcolo-hw-3-imaging-naive1.png",
+    "2. notes/Approssimazione ai minimi quadrati.md",
+    "2. notes/Fattorizzazione di Cholesky.md",
+    "0. mocs/Tecnologie web (conflict 2024-12-27-17-13-31).md",
+    "2. notes/Metodo dei gradienti coniugati.md",
+    "2. notes/Matrice estesa.md",
+    "2. notes/PSF.md",
     "2. notes/Matrice di convoluzione.md",
-    "2. notes/Sottomatrice.md",
-    "2. notes/Centro di una matrice.md",
-    "2. notes/Principio di massima discrepanza.md",
-    "2. notes/Fattorizzazione ai valori singolari troncata.md",
+    "2. notes/CGLS.md",
+    "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
+    "2. notes/Rumore bianco.md",
+    "2. notes/Problemi inversi.md",
     "2. notes/Condizioni discrete di Picard.md",
-    "2. notes/Problema dei minimi quadrati.md",
-    "0. mocs/Sistemi operativi.md",
-    "1. lectures/Lecture 14112024091601.md",
-    "0. mocs/Reti di calcolatori.md",
-    "media/calcolo-hw-1-sistema-lineare-2.png",
-    "media/calcolo-hw-1-sistema-lineare-1.png",
-    "media/condizioni-discrete-di-picard-3.png",
-    "media/condizioni-discrete-di-picard-2.png",
-    "media/condizioni-discrete-di-picard-1.png",
-    "media/learning-rate.png",
+    "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
+    "2. notes/Algoritmo di bisezione.md",
+    "2. notes/Principio di massima discrepanza.md",
+    "2. notes/Regolarizzazione alla Tikhonov.md",
+    "2. notes/Fattorizzazione ai valori singolari troncata.md",
     "media/learning-rate.png.crdownload",
-    "media/funzione-convessa.png",
     "media/funzione-convessa.png.crdownload",
-    "media/semafori-vantaggi.png",
-    "media/calcolo-hw-1-finale.png",
     "4. homeworks",
     "3. projects/Untitled",
     "3. projects/aijsodijas.canvas",
