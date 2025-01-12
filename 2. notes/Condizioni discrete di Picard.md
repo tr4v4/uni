@@ -28,7 +28,7 @@ Se invece consideriamo i dati con rumore $y^{\delta}$, il grafico risulta essere
 
 Cosa succede? I coefficienti di Fourier ora sono $u_{i}^{T}y^{\delta}$, ovvero $u_{i}^{T}(y + \delta)$, e questo provoca un comportamento del tutto differente della curva rossa nel grafico precedente. **Il rumore**, anche se piccolo, **provoca un generale innalzamento dei coefficienti di Fourier**, che si mantengono nell'ordine di $10^{3}$, quando senza rumore arrivavano anche a $10^{-11}$. Se i coefficienti di Fourier non si abbassano, e i valori singolari (in blu) invece tendono a 0 per le iterazioni $i = 1, \cdots, n$, avviene che **i coefficienti della soluzione (in nero) assumeranno valori sempre più grandi**.
 
-Sono chiamati coefficienti della soluzione perché dovranno moltiplicare i vettori $v_{i}$ per $i = 1, \cdots, n$. Questi vettori, detti _valori singolari destri_, sono delle oscillazioni:
+Sono chiamati coefficienti della soluzione perché dovranno moltiplicare i vettori $v_{i}$ per $i = 1, \cdots, n$. Questi vettori, detti _vettori singolari destri_, sono delle oscillazioni:
 ![[condizioni-discrete-di-picard-3.png]]
 
 Quindi **avviene che i coefficienti della soluzione più grandi moltiplicheranno le oscillazioni $v_{i}$ di ampiezza maggiore**. E' da questo che sono generate le oscillazioni della soluzione $x^{*}$!

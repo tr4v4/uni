@@ -19,7 +19,7 @@ Si tratta quindi di un _procedimento infinito_, che in quanto algoritmo, per def
 ## Criteri di arresto
 Il problema di algoritmi di questo tipo si concretizza nella domanda: **quando mi fermo?** L'idea è di stabilire un giusto _trade-off tra accuratezza e tempo di calcolo_, usandoli entrambi come criteri di arresto:
 - **accuratezza** --> l'algoritmo viene interrotto quando viene _soddisfatto un certo grado di precisione della soluzione_;
-- **tempo di calcolo**: l'algoritmo viene interrotto quando viene _superato un certo numero di iterazioni_.
+- **tempo di calcolo** --> l'algoritmo viene interrotto quando viene _superato un certo numero di iterazioni_.
 
 Nella pratica questo si implementa con una doppia condizione sul `while` dell'algoritmo.
 

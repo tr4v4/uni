@@ -21,6 +21,6 @@ links:
 Le più importanti norme matriciali sono:
 - **[[Norma di Frobenius|norma di Frobenius]]** --> $\|A\|_{F} = \sqrt{\sum\limits_{i=1}^{m}{\sum\limits_{j=1}^{n}{{a_{ij}}^{2}}}}$, ossia l'equivalente matriciale della [[Norma euclidea|norma euclidea]];
 - **norma 2** --> $\|A\|_{2} = \sqrt{p(A^{T}A)}$ dove $p(M)$ è il [[Raggio spettrale|raggio spettrale]], ossia il _massimo [[Autovalore|autovalore]] in modulo_;
-- **norma 1** --> $\|A\|_{1} = \max_{1 \leq i \leq m} \sum\limits_{j=1}^{n}{|a_{ij}|}$
+- **norma 1** --> $\|A\|_{1} = \max_{1 \leq j \leq n} \sum\limits_{i=1}^{m}{|a_{ij}|}$
 
 ## Referenze

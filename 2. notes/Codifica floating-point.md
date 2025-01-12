@@ -110,7 +110,7 @@ Notare la strana simmetria tra caratteristica e mantissa:
 - _la caratteristica influenza minimo e massimo_ - più è alto l'esponente più il numero può essere grande o piccolo;
 - _la mantissa influenza la distanza tra i numeri discreti_ (detto **gap**[^3]) - più è il numero di cifre della mantissa meno grande è la distanza tra i numeri.
 
-In Python la codifica IEEE745 include numeri speciali, quali `inf`, `-inf` e `NaN` (Not a Number). Se al numero massimo della codifica viene sommato un numero piccolo il risultato viene approssimato al massimo; se al massimo si somma se stesso il risultato è `inf`!
+In Python la codifica IEEE754 include numeri speciali, quali `inf`, `-inf` e `NaN` (Not a Number). Se al numero massimo della codifica viene sommato un numero piccolo il risultato viene approssimato al massimo; se al massimo si somma se stesso il risultato è `inf`!
 
 <u>Nota bene</u>: il _gap_ aumenta man mano che mi allontano dallo zero, per via della caratteristica. Di conseguenza _i numeri più grandi sono più "discreti" tra di loro_, perché le cifre della mantissa, per via della caratteristica, saranno più a sinistra della virgola.
 

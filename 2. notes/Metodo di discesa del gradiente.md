@@ -49,7 +49,7 @@ dove l'unica cosa rimasta da scegliere è $\alpha_{k}$.
 ### Criteri di arresto
 Trattandosi di un algoritmo iterativo è necessario definire dei criteri di arresto per fermare l'algoritmo una volta raggiunto un risultato accettabile:
 1. $\|\nabla f(x_{k})\|_{2} \leq \text{tol}_{f}$, ossia quando il gradiente raggiunge una [[Norma vettoriale|norma]] molto bassa (di solito $\text{tol}_{f} = 10^{-6}$);
-2. $\|x_{k+1} - x_{k}\|_{2} \leq \text{tol}_{x}$, ossia quando c'è troppa poco spostamento tra un'iterazione e un'altra --> _ci vogliamo arrendere quanto la funzione è troppo piatta_.
+2. $\|x_{k+1} - x_{k}\|_{2} \leq \text{tol}_{x}$, ossia quando c'è troppo poco spostamento tra un'iterazione e un'altra --> _ci vogliamo arrendere quanto la funzione è troppo piatta_.
 
 ### Learning-rate $\alpha_{k}$
 Il comportamento dell'algoritmo su diversi valori di $\alpha_{k}$ può essere riassunto nella seguente immagine:
@@ -85,7 +85,7 @@ def backtracking(f, df, x, alpha=1, rho=0.5, c=1e-4):
     Returns:
     alpha   : Learning rate calcolato con backtracking.
     """
-    while f(x - alpha * df(x)) > f(x) + c * alpha * np.linalg.norm(df(x))**2:
+    while f(x - alpha * df(x)) > f(x) - c * alpha * np.linalg.norm(df(x))**2:
         alpha *= rho
     return alpha
 

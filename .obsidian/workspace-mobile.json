@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "294ed4651bed13ea",
+        "id": "4ed1f11ae02fbede",
         "type": "tabs",
         "children": [
           {
-            "id": "ce26abe158ed8d65",
+            "id": "becb6e7e01394be2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Fattorizzazione LU.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fattorizzazione LU"
             }
           }
         ]
@@ -105,8 +109,8 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1. lectures/Lecture 24102024120228.md",
-            "collapseAll": false,
+            "file": "4. homeworks/Calcolo numerico - HW. 2.md",
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": true,
@@ -138,14 +142,14 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "1. lectures/Lecture 24102024120228.md"
+            "file": "4. homeworks/Calcolo numerico - HW. 2.md"
           },
           "icon": "lucide-list",
           "title": "Outline"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,11 +163,21 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce26abe158ed8d65",
+  "active": "becb6e7e01394be2",
   "lastOpenFiles": [
+    "2. notes/Matrice minore.md",
+    "2. notes/Fattorizzazione LU.md",
+    "4. homeworks/Calcolo numerico - HW. 2.md",
+    "2. notes/Caratterizzazione delle primitive su un intervallo.md",
+    "2. notes/Algoritmo iterativo.md",
+    "2. notes/Normalizzazione.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Linguaggio generato.md",
+    "2. notes/Derivazione.md",
     "2. notes/CORS.md",
     "1. lectures/Lecture 13122024132854.md",
     "1. lectures/Lecture 12122024131919.md",
@@ -181,15 +195,6 @@
     "2. notes/Rumore bianco.md",
     "2. notes/Pumping lemma.md",
     "1. lectures/Lecture 14112024173206.md",
-    "0. mocs/Reti di calcolatori.md",
-    "1. lectures/Lecture 15112024133341.md",
-    "0. mocs/Tecnologie web.md",
-    "1. lectures/Lecture 14112024131613.md",
-    "2. notes/Semafori.md",
-    "Lectures 2024-11-18-161600.md",
-    "2. notes/Cache.md",
-    "2. notes/Direct Mapped Cache.md",
-    "1. lectures/Lecture 24102024120228.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

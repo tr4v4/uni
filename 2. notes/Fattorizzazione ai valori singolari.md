@@ -10,7 +10,7 @@ links:
 # Fattorizzazione ai valori singolari
 ---
 ## Introduzione
-> Data una [[Matrice|matrice]] $A \in M_{m \times n}(\mathbb{R})$, la **SVD** (_Single Value Decomposition_, o **fattorizzazione ai valori singolari**) costruisce [[Base ortonormale|basi ortonormali]] di $\mathbb{R}^{m}$ e $\mathbb{R}^{n}$ che permettono di rappresentare $A$ attraverso una [[Matrice diagonale|matrice diagonale]].
+> Data una [[Matrice|matrice]] $A \in M_{m \times n}(\mathbb{R})$, la **SVD** (_Singular Value Decomposition_, o **fattorizzazione ai valori singolari**) costruisce [[Base ortonormale|basi ortonormali]] di $\mathbb{R}^{m}$ e $\mathbb{R}^{n}$ che permettono di rappresentare $A$ attraverso una [[Matrice diagonale|matrice diagonale]].
 > In particolare, data $A$ una matrice reale $m \times n$ di [[Rango righe|rango]] $k$, con $k \leq n \leq m$[^1], esistono:
 > - $U$ [[Matrice ortogonale|matrice ortogonale]] $m \times m$
 > - $V$ matrice ortogonale $n \times n$
@@ -68,9 +68,9 @@ Inoltre, se $m = n$ ($A$ è quadrata), allora
 $$\|A^{-1}\|_{2} = \frac{1}{\sigma_{k}} = \frac{1}{\sigma_{n}}$$
 
 Questo ci ricollega al calcolo del [[Numero di condizione|numero di condizione]] di una matrice quadrata $A$. Infatti sappiamo che
-$$K(A) = \|A\| \cdot \|A^{-1}\| = \frac{\sigma_{1}}{\sigma_{k}}$$
+$$K(A) = \|A\| \cdot \|A^{-1}\| = \frac{\sigma_{1}}{\sigma_{n}}$$
 
-Abbiamo dimostrare allora che per calcolare il numero di condizione di una matrice è possibile usare la decomposizione ai valori singolari e valutare $\sigma_{1}$ e $\sigma_{k}$ dove $k = rk(A)$.
+Abbiamo dimostrato allora che per calcolare il numero di condizione di una matrice è possibile usare la decomposizione ai valori singolari e valutare $\sigma_{1}$ e $\sigma_{n}$.
 
 ## Referenze
 [^1]: nessuno vieta che $k \leq m \leq n$, è solo un caso esempio

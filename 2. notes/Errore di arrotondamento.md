@@ -13,7 +13,7 @@ links:
 > Per **errore di arrotondamento** di un numero rispetto a una codifica si intende un qualche tipo di _falsa rappresentazione_ di tale numero dovuto a limiti matematici della codifica.
 
 ### Esempio
-In Python l'espressione `4.9 - 4.845 == 0.055` restituisce `False`. Questo avviene perché sia `4.9` che `4.845` _in [[Conversione binario-decimale|binario]] sono periodici_, perciò nella [[Codifica floating-point|codifica floating-point]] di Python (IEEE745) devono entrambi subire un **arrotondamento**, con conseguente perdita d'informazione e risultato scorretto.
+In Python l'espressione `4.9 - 4.845 == 0.055` restituisce `False`. Questo avviene perché sia `4.9` che `4.845` _in [[Conversione binario-decimale|binario]] sono periodici_, perciò nella [[Codifica floating-point|codifica floating-point]] di Python (IEEE754) devono entrambi subire un **arrotondamento**, con conseguente perdita d'informazione e risultato scorretto.
 
 Di fatto, in qualunque [[Linguaggio di programmazione|linguaggio di programmazione]], mai bisognerebbe confrontare i numeri con l'operatore di uguaglianza:
 ```cpp

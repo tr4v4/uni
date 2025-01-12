@@ -102,7 +102,7 @@ Calcolato in 0.00015687942504882812 secondi
 ```
 
 Reiterando un po' di volte il codice **il tempo impiegato è rimasto nell'ordine di $10^{-4}$ secondi**.
-Verifichiamo la correttezza della soluzione plottando il grafico del polinomio descritto da dai coefficienti `alpha_chol`, usando la funzione `numpy.polyval()`:
+Verifichiamo la correttezza della soluzione plottando il grafico del polinomio descritto dai coefficienti `alpha_chol`, usando la funzione `numpy.polyval()`:
 ```python
 n = 50
 x_chol = np.linspace(0, 1, n)
@@ -141,7 +141,7 @@ print(f"{alpha_svd}\nCalcolato in {end-start} secondi")
 
 n = 50
 x_svd = np.linspace(0, 1, n)
-y_svd = np.polyval(alpha_svd[::-1], x_svd)
+y_svd = np.polyval(alpha_svd[: : -1], x_svd)
 
 plt.plot(x, y, 'bo')
 plt.plot(x_svd, y_svd, 'g-')
@@ -172,7 +172,7 @@ dove:
 - $r_{k}$ è il residuo alla $k$-esima iterazione;
 - $r_{0}$ è il residuo iniziale ($A^{T}(y - Ax_{0})$).
 
-Tra le più importanti proprietà dell'algoritmo, sia ha quello della convergenza: **se $X \in \mathbb{R}^{n \times (d+1)}$, allora l'algoritmo convergerà alla soluzione esatta del problema ai minimi quadrati in al massimo $d+1$ iterazioni**. E considerando che il valore del grado del polinomio è estremamente basso ($4$), _abbiamo la certezza teorica che in $5$ iterazioni l'algoritmo convergerà alla soluzione esatta_.
+Tra le più importanti proprietà dell'algoritmo, si ha quello della convergenza: **se $X \in \mathbb{R}^{n \times (d+1)}$, allora l'algoritmo convergerà alla soluzione esatta del problema ai minimi quadrati in al massimo $d+1$ iterazioni**. E considerando che il valore del grado del polinomio è estremamente basso ($4$), _abbiamo la certezza teorica che in $5$ iterazioni l'algoritmo convergerà alla soluzione esatta_.
 
 L'algoritmo è implementato dalla seguente funzione:
 ```python
@@ -213,7 +213,7 @@ print(f"{alpha_cgls}\nCalcolato in {end-start} secondi")
 
 n = 50
 x_cgls = np.linspace(0, 1, n)
-y_cgls = np.polyval(alpha_cgls[::-1], x_cgls)
+y_cgls = np.polyval(alpha_cgls[: : -1], x_cgls)
 
 plt.plot(x, y, 'bo')
 plt.plot(x_cgls, y_cgls, 'y-')
@@ -290,8 +290,8 @@ Calcolato in 0.00022530555725097656 secondi
 
 Per quanto riguarda i tempi, in ordine di velocità si ha:
 1. _Cholesky_ --> $1 \times 10^{-4}$;
-2. _CGLS_ --> $[3,5] \times 10^{-4}$;
-3. _SVD_ --> $[1, 2] \times 10^{-4}$.
+2. _SVD_ --> $[1, 2] \times 10^{-4}$.
+3. _CGLS_ --> $[3,5] \times 10^{-4}$;
 
 ###### $d$ variabile
 Proviamo adesso a ripetere i passaggi precedenti variando il grado del polinomio approssimante in un range da $0$ a $8$. In particolare, visualizzeremo 9 grafici ognuno dei quali plotterà il risultato dell'approssimazione dei tre metodi sulla base del valore di $d$; quindi un unico grafico finale in merito ai tempi di esecuzione dei metodi al variare di $d$.
@@ -574,7 +574,7 @@ per il quale si può osservare che:
 - _per i gradi più bassi_, come $0$ e $1$, l'_influenza della regolarizzazione è fondamentalmente nulla_ --> basta vedere il confronto con i [[Calcolo numerico - HW. 2#$d$ variabile|casi senza regolarizzazione]];
 - _per i gradi più alti_, viceversa, la regolarizzazione è ben visibile.
 
-A questo punto produciamo i grafici gli altri valori di $\lambda$, partendo da $10^{-7}$:
+A questo punto produciamo i grafici per gli altri valori di $\lambda$, partendo da $10^{-7}$:
 ![[calcolo-hw-2-approx-reg-d1.png]]
 per il quale le grandi differenze, chiaramente, si possono notare negli ultimi 3 grafici (gradi più alti).
 
@@ -685,7 +685,7 @@ Per prima cosa, allora, plottiamo il polinomio _true_ insieme al dataset:
 ```python
 d_true = 4
 alpha_true = np.array([0, 0, 4, 0, -3])
-y_true = np.polyval(alpha_true[::-1], xx)
+y_true = np.polyval(alpha_true[: : -1], xx)
 
 plt.plot(x, y, 'bo')
 plt.plot(xx, y_true, 'k-')
@@ -792,7 +792,7 @@ Continuiamo variando adesso anche $d$, tra i valori $[2, 3, 5, 6, 7, 8]$:
 
 Da questi grafici possiamo osservare due cose:
 1. con gradi $d$ che provocano overfit, **la regolarizzazione** (per certi $\lambda$) **produce dei risultati pressoché molto simili a quelli che si otterrebbero con il grado $d_{true}$ senza regolarizzazione** --> la differenza è comunque visibile, e _il polinomio approssimante si irrigidisce molto come conseguenza della regolarizzazione_;
-2. **la regolarizzazione ha un effetto estremamente positivo sul polinomio approssimante di grado $d_{true}$** --> questo perché "_rilassando_" il polinomio (i suoi coefficienti) _è come se "spalmassero" i suoi flessi anche al di fuori dell'intervallo_ di riferimento $[0, 1]$. Il risultato di ciò è un crollo dell'errore relativo, da $\approx 4.53$ a $\approx 0.90$.
+2. **la regolarizzazione ha un effetto estremamente positivo sul polinomio approssimante di grado $d_{true}$** --> questo perché "_rilassando_" il polinomio (i suoi coefficienti) _è come se si "spalmassero" i suoi flessi anche al di fuori dell'intervallo_ di riferimento $[0, 1]$. Il risultato di ciò è un crollo dell'errore relativo, da $\approx 4.53$ a $\approx 0.90$.
 
 #### Conclusioni
 In conclusione, con questo esperimento, abbiamo avuto modo di _testare i 3 metodi studiati per risolvere il problema ai minimi quadrati_, confrontando _tempi_ e _risultati_. Inoltre abbiamo imparato _i molteplici benefici apportati dalla regolarizzazione, che può quindi essere usata sia per risolvere l'overfit che_ (nel caso si fosse a conoscenza del grado $d_{true}$) _per migliorare l'approssimazione_.
@@ -1016,7 +1016,7 @@ Tempo di esecuzione per f3: 0.010131597518920898s
 Velocità di convergenza per f3: 101 iter.
 """
 ```
-Lo step-size è troppo basso, e _in nessun caso l'algoritmo converge alla soluzione in 100 iterazioni_. Questo è un caso che si vuole evitare, ovviamente. 
+Lo step-size è troppo basso, e _in nessun caso l'algoritmo converge alla soluzione in 100 iterazioni_. Questo è un caso che si vuole evitare, ovviamente.
 
 Proviamo invece adesso a portare $\alpha$ a $0.1$:
 ```python
@@ -1353,8 +1353,8 @@ Per $\alpha = 0.2$ si ha:
 
 In questo caso:
 - sembra che abbiamo trovato per $f_{3}$ il valore di $\alpha$ che rende statica la norma del gradiente per tutte le 100 iterazioni;
-- per $f_{2}$ ci stiamo avvicinando al valore $0.5$, per cui tende a convergere alla soluzione sempre in meno iterazioni e con maggiore precisione, ma ancora non supera la tolleranza `tolf`;
-- infine già per $f_{3}$ abbiamo superato la soglia oltre il quale l'algoritmo diverge, producendo norme del gradiente sempre più grandi.
+- per $f_{1}$ ci stiamo avvicinando al valore $0.5$, per cui tende a convergere alla soluzione sempre in meno iterazioni e con maggiore precisione, ma ancora non supera la tolleranza `tolf`;
+- infine già per $f_{2}$ abbiamo superato la soglia oltre il quale l'algoritmo diverge, producendo norme del gradiente sempre più grandi.
 
 <u>Osservazione</u>: viene a questo punto da chiedersi _se per ogni funzione $f$ e ogni punto $x_{0}$ esista un $\alpha$ tale che l'algoritmo di discesa del gradiente finisca per alternarsi tra $n$ punti della funzione senza mai convergere né divergere_.
 
@@ -1428,7 +1428,7 @@ Per $\alpha = 0.2$, invece, avremo:
 
 Ancora una volta il risultato è simile a quello della norma del gradiente, con una differenza interessante: l'errore relativo in $f_{3}$ sembra oscillare nel decorso delle 100 iterazioni tra due distinti valori. Questo ci suggerisce due cose sulla funzione:
 - l'algoritmo per lo step-size $\alpha = 0.2$ si **alterna su 2 soli valori**;
-- questi **due punti $x_{k}$ e $x_{j}$ hanno stesso valore della norma del gradiente, ma non la stessa distanza dalla soluzione $x^{*}$**!
+- questi **due punti $x_{k}$ e $x_{j}$ hanno lo stesso valore della norma del gradiente, ma non la stessa distanza dalla soluzione $x^{*}$**!
 
 Per $\alpha = 0.4$ si ha:
 ![[calcolo-hw-2-ottimiz-errrel7.png]]
@@ -1590,6 +1590,8 @@ Ora per $\alpha = 0.7$:
 Intuitivamente, si deduce che **il valore di $\alpha$ per il quale l'algoritmo si alterna tra due valori senza mai convergere né divergere è il doppio di quello che consente di convergere in un'iterazione**, ovvero $\alpha = 1.0$:
 ![[calcolo-hw-2-ottimiz-plot7.png]]
 
+Quindi $\beta = 1$.
+
 Proviamo quindi ad aumentare leggermente $\alpha$ portandolo anche solo a $1.002$:
 ![[calcolo-hw-2-ottimiz-plot8.png]]
 appunto l'algoritmo diverge.
@@ -1597,7 +1599,7 @@ appunto l'algoritmo diverge.
 E' il momento adesso di provare a vedere l'esecuzione dell'algoritmo con backtracking:
 ![[calcolo-hw-2-ottimiz-plot9.png]]
 
-E' appunto equivalente all'esecuzione con passo fisso per $\alpha = 0.5$.
+E' semplicemente equivalente all'esecuzione con passo fisso per $\alpha = 0.5$.
 
 ###### $f_{2}$
 La funzione $f_{2}$, tra le 3, è quella più interessante da studiare. In particolare vogliamo mostrare su grafico il suo comportamento per certi valori di $\alpha$ (nel caso del passo fisso), e la "spirale" che si dovrebbe creare con la scelta di $\alpha$ con backtracking.
@@ -1613,7 +1615,7 @@ Cominciamo anche in questo caso con i casi più eclatanti di $\alpha$, partendo 
 Sappiamo che il minimo numero di iterazioni con il punto fisso per $f_{2}$ si ha per $\alpha = 0.089$, per cui mostriamolo:
 ![[calcolo-hw-2-ottimiz-plot12.png]]
 
-L'alternanza dei valori sembra ridursi sempre più fino a convergere al minimo globale. Se portiamo il valore di $\alpha$ a $0.1$, otteniamo un risultato che già avevamo ottenuto in precedenza, con il calcolo della norma del gradiente e dell'errore relativo:
+L'alternanza dei valori sembra ridursi sempre più fino a convergere al minimo globale. Se portiamo il valore di $\alpha$ a $0.1$, otteniamo un risultato che già avevamo ipotizzato in precedenza, con il calcolo della norma del gradiente e dell'errore relativo:
 ![[calcolo-hw-2-ottimiz-plot13.png]]
 Questo è infatti esattamente in linea con le supposizioni fatte in precedenza:
 - **il valore del gradiente rimane il medesimo** per ogni iterato $x_{k}$;

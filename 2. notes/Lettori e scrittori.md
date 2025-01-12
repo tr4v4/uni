@@ -115,7 +115,7 @@ process Writer {
 
 E' estremamente intuitiva, perché rispetta la coerenza con l'invariante. Non resta che implementarla effettivamente, codificando `await` e `<S>` (le operazioni atomiche). Per farlo ci avvaliamo di:
 - _semaforo `mutex`_, per garantire la mutua esclusione su `nr` e `nw`;
-- _array di semafori `sem[]` associato alle condizioni `B_j`_ (ossia `nr == 0` e `nr == 0 && nw == 0`) --> su questi semafori sono posti i processi in attesa del verificarsi della condizione `B_j`, per cui sono tutti inizializzati a 0;
+- _array di semafori `sem[]` associato alle condizioni `B_j`_ (ossia `nw == 0` e `nr == 0 && nw == 0`) --> su questi semafori sono posti i processi in attesa del verificarsi della condizione `B_j`, per cui sono tutti inizializzati a 0;
 - _array di interi `waiting[]` associato alle condizioni `B_j`_ --> serve per sapere quanti processi sono in attesa su una certa condizione (basterebbe contare la lunghezza della coda del semaforo `j`-esimo).
 
 La codifica delle definizioni di Andrews diventa la seguente:
@@ -123,7 +123,7 @@ La codifica delle definizioni di Andrews diventa la seguente:
 
 In particolare:
 - la `<S>` viene implementata attraverso `mutex`, che garantisce l'atomicità dell'operazione;
-- la `<await(B_j) -> S_j>` viene implementata attraverso verificando se la condizione `B_j` è vera --> se non lo è il processo `j`-esimo viene messo in attesa sul semaforo `sem[j]` (`sem[j].P()`, dopo aver rilasciato la mutua esclusione) e viene incrementato `waiting[j]`; altrimenti, o subito dopo il verificarsi della condizione, viene eseguito `S_j`;
+- la `<await(B_j) -> S_j>` viene implementata verificando se la condizione `B_j` è vera --> se non lo è il processo `j`-esimo viene messo in attesa sul semaforo `sem[j]` (`sem[j].P()`, dopo aver rilasciato la mutua esclusione) e viene incrementato `waiting[j]`; altrimenti, o subito dopo il verificarsi della condizione, viene eseguito `S_j`;
 - la `SIGNAL()` è l'operazione fondamentale eseguita sempre dopo aver eseguito un'istruzione `S`, ed è quella che **non-deterministicamente** risveglia un processo in attesa su un semaforo se è verificata la condizione `B_j` e c'è effettivamente un processo in attesa su `sem[j]` (guardando `waiting[j]`); se non ci sono processi in attesa, la `SIGNAL()` semplicemente rilascia la mutua esclusione con `mutex.V()`.
 
 La cosa più importante da notare è proprio il fatto che _`SIGNAL()` lavori in modo non-deterministico_. Questo è _necessario affinché non ci sia starvation sui processi_: infatti _se le condizioni degli `if` fossero valutate in modo deterministico, potrebbe accadere che un processo `j` in attesa non venga mai risvegliato anche se la condizione `B_j` è verificata_.

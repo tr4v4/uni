@@ -141,7 +141,7 @@ Questa soluzione possiamo considerarla come un'ottimizzazione del tentativo prec
 Tuttavia, **un caso sfortunato potrebbe provocare starvation**: se `Q` entra ed esce dalla CS, è più veloce di `P` e quindi esegue `in_q = true` subito dopo, sia `Q` che `P` si trovano nel loro rispettivo `while`; assumendo sempre che `Q` sia più veloce di `P`, quando `P` assegna `in_p = false`, `Q` coglie l'opportunità ed esce dal ciclo, entrando nuovamente nella CS. Se questo capita ad ogni iterazione, _`P` è in starvation_.
 
 ### Soluzione
-I 4 precedenti tentativi ci suggeriscono come procedere verso la soluzione corretta: _il 1°, infatti, è ideale per rompere la simmetria che causa deadlock e starvation nel 3° e nel 4°_; _il 3° consente di superare la stretta alternanza dei turni del 1°_; _il meccanismo di mutua cortesia (lasciare il passo) del 4° è ideale per evitare il deadlock del 2°_.
+I 4 precedenti tentativi ci suggeriscono come procedere verso la soluzione corretta: _il 1°, infatti, è ideale per rompere la simmetria che causa deadlock e starvation nel 3° e nel 4°_; _il 3° consente di superare la stretta alternanza dei turni del 1°_; _il meccanismo di mutua cortesia (lasciare il passo) del 4° è ideale per evitare il deadlock del 3°_.
 Allora uniamo le cose!
 ```C
 shared int turn = P;

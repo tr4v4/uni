@@ -4,132 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "4430e8027e7d41b5",
+        "id": "f856f335d0f60238",
         "type": "tabs",
-        "dimension": 38.632045598480055,
         "children": [
           {
-            "id": "e28c16d48a328aaf",
+            "id": "c25308f9504b7555",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Calcolo numerico.md",
+                "file": "0. mocs/Sistemi operativi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calcolo numerico"
+              "title": "Sistemi operativi"
             }
           },
           {
-            "id": "62bb5faf66ae5b74",
+            "id": "3d9eeb64b74c2ae9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Problemi inversi.md",
-                "mode": "source",
+                "file": "2. notes/Problema della sezione critica.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problemi inversi"
+              "title": "Problema della sezione critica"
             }
           },
           {
-            "id": "eee0d0e1284a88c5",
+            "id": "7daaa439581f4272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Imaging.md",
+                "file": "2. notes/Semafori.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Imaging"
+              "title": "Semafori"
             }
           },
           {
-            "id": "9c1dd07363842bf4",
+            "id": "997cd7470888b937",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Matrice estesa.md",
+                "file": "2. notes/Semafori binari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matrice estesa"
+              "title": "Semafori binari"
             }
           },
           {
-            "id": "7eff9dc7156bb101",
+            "id": "82c071d77266504c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Variazione totale.md",
+                "file": "2. notes/Monitor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variazione totale"
+              "title": "Monitor"
+            }
+          },
+          {
+            "id": "51d430b81f89a872",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Problemi classici della programmazione concorrente.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problemi classici della programmazione concorrente"
+            }
+          },
+          {
+            "id": "51203cf45d5c678a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Filosofi a cena.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Filosofi a cena"
+            }
+          },
+          {
+            "id": "09b663b28b1f3b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Lettori e scrittori.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lettori e scrittori"
+            }
+          },
+          {
+            "id": "720bc05bd0bdde20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 29112024093415.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 29112024093415"
             }
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "cf37eb0323d8cd12",
-        "type": "tabs",
-        "dimension": 61.36795440151995,
-        "children": [
-          {
-            "id": "cc46682a677dc8a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcolo numerico - HW. 1"
-            }
-          },
-          {
-            "id": "dff0690270fbac7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcolo numerico - HW. 2"
-            }
-          },
-          {
-            "id": "20d671e718e2d484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcolo numerico - HW. 3"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,10 +254,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. notes/Variazione totale.md"
+                "file": "4. homeworks/Calcolo numerico - HW. 2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Variazione totale"
+              "title": "Outline of Calcolo numerico - HW. 2"
             }
           },
           {
@@ -305,7 +310,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2. notes/Variazione totale.md",
+                "file": "4. homeworks/Calcolo numerico - HW. 2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -333,7 +338,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Variazione totale"
+              "title": "Graph of Calcolo numerico - HW. 2"
             }
           }
         ]
@@ -357,7 +362,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -376,44 +382,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7eff9dc7156bb101",
+  "active": "82c071d77266504c",
   "lastOpenFiles": [
-    "4. homeworks/Calcolo numerico - HW. 3.md",
-    "2. notes/Errore inerente.md",
-    "1. lectures/Lecture 26092024092021.md",
-    "1. lectures/Lecture 30092024131914.md",
-    "2. notes/Variazione totale.md",
-    "2. notes/Imaging.md",
-    "media/calcolo-hw-3-imaging-reg-maxdisc1.png",
-    "media/calcolo-hw-3-imaging-reg-minabs3.png",
-    "media/calcolo-hw-3-imaging-reg-minabs2.png",
-    "4. homeworks/Calcolo numerico - HW. 2.md",
-    "2. notes/Convoluzione.md",
-    "media/calcolo-hw-3-imaging-reg-minabs1.png",
-    "media/calcolo-hw-3-imaging-reg-cgls2.png",
-    "media/calcolo-hw-3-imaging-reg-cgls1.png",
-    "4. homeworks/Calcolo numerico - HW. 1.md",
-    "media/calcolo-hw-3-imaging-naive4.png",
-    "media/calcolo-hw-3-imaging-naive3.png",
-    "media/calcolo-hw-3-imaging-naive2.png",
-    "media/calcolo-hw-3-imaging-naive1.png",
-    "2. notes/Approssimazione ai minimi quadrati.md",
-    "2. notes/Fattorizzazione di Cholesky.md",
-    "0. mocs/Tecnologie web (conflict 2024-12-27-17-13-31).md",
-    "2. notes/Metodo dei gradienti coniugati.md",
-    "2. notes/Matrice estesa.md",
-    "2. notes/PSF.md",
-    "2. notes/Matrice di convoluzione.md",
-    "2. notes/CGLS.md",
-    "2. notes/Algoritmi per la risoluzione di sistemi lineari.md",
-    "2. notes/Rumore bianco.md",
-    "2. notes/Problemi inversi.md",
-    "2. notes/Condizioni discrete di Picard.md",
-    "2. notes/Algoritmi per il calcolo delle radici di una funzione.md",
-    "2. notes/Algoritmo di bisezione.md",
-    "2. notes/Principio di massima discrepanza.md",
-    "2. notes/Regolarizzazione alla Tikhonov.md",
-    "2. notes/Fattorizzazione ai valori singolari troncata.md",
+    "2. notes/Semafori binari.md",
+    "2. notes/Semafori.md",
+    "2. notes/Problemi classici della programmazione concorrente.md",
+    "2. notes/Filosofi a cena.md",
+    "2. notes/Lettori e scrittori.md",
+    "2. notes/Barbiere addormentato.md",
+    "2. notes/Buffer limitato.md",
+    "2. notes/Produttore e consumatore.md",
+    "1. lectures/Lecture 29112024093415.md",
+    "2. notes/Monitor.md",
+    "2. notes/Processo.md",
+    "2. notes/Problema della sezione critica.md",
+    "0. mocs/Sistemi operativi.md",
+    "2. notes/Esecuzione concorrente.md",
+    "2. notes/Concorrenza.md",
+    "2. notes/Spinlock.md",
+    "2. notes/Proprietà di un programma.md",
+    "2. notes/Disabilitazione degli interrupt.md",
+    "2. notes/Test&Set.md",
+    "2. notes/Algoritmo di Peterson.md",
+    "2. notes/Sezione critica.md",
+    "2. notes/Algoritmo di Dekker.md",
+    "2. notes/Azione atomica.md",
+    "2. notes/Proprietà safety.md",
+    "2. notes/Proprietà liveness.md",
+    "2. notes/Starvation.md",
+    "media/jupiter.jpg",
+    "media/jupiter.jpg.crdownload",
+    "media/calcolo-hw-3-imaging-comparison6.png",
+    "media/calcolo-hw-3-imaging-comparison5.png",
+    "media/calcolo-hw-3-imaging-comparison4.png",
+    "media/calcolo-hw-3-imaging-comparison3.png",
+    "media/calcolo-hw-3-imaging-comparison2.png",
+    "media/calcolo-hw-3-imaging-comparison1.png",
+    "media/calcolo-hw-3-imaging-psf21.png",
+    "media/calcolo-hw-3-imaging-psf20.png",
+    "media/calcolo-hw-3-imaging-psf19.png",
     "media/learning-rate.png.crdownload",
     "media/funzione-convessa.png.crdownload",
     "4. homeworks",
@@ -425,7 +432,6 @@
     "2. notes/Equivalenze regolari.canvas",
     "4913",
     "Chats",
-    "media/raggio-di-curvatura.jpg.crdownload",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

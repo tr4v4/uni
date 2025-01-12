@@ -103,7 +103,7 @@ for n in range(1, 200, 10):
 
 Ci sono un paio di osservazioni da fare.
 Anzitutto ho considerato come _errore assoluto_ $|x - x^{*}|$, dove $x^{*}$ è il valore di riferimento $-0.7034674$ che sappiamo non essere "perfetto". Infatti è possibile vedere un _incremento dell'errore dalla 31° alla 41° iterazione_, causato dall'imprecisione della soluzione $x^{*}$. Per questo a volte può essere più conveniente usare $f(x)$ come valore dell'errore. Ma assumiamo che $x^{*}$ sia la soluzione esatta.
-E' da notare come dalla 61° iterazione in poi l'algoritmo si fissi sulla soluzione $-0.7034674224983632$. Non vengono aggiunte più cifre decimali, né modificate quelle calcolate. Questo è causato dai _limiti dei calcolatori_ (memoria finita) e dalla _[[Codifica floating-point|codifica floating-point]]_ adottata. In particolare Python usa lo standard _IEEE754_, una codifica floating point che prevede una _precisione macchina_ $\beta$ pari circa a $10^{-16}$. Significa che $\beta$ è il numero più piccolo che sommato a $1$ produce un numero $> 1$ appartenente alla codifica. Il numero $-0.7034674224983632$ ha esattamente 16 cifre dopo lo 0, quindi qualunque modifica calcolata dall'algoritmo dell'ordine inferiore a $10^{-16}$ non viene presa in considerazione.
+E' da notare come dalla 61° iterazione in poi l'algoritmo si fissi sulla soluzione $-0.7034674224983632$. Non vengono aggiunte più cifre decimali, né modificate quelle calcolate. Questo è causato dai _limiti dei calcolatori_ (memoria finita) e dalla _[[Codifica floating-point|codifica floating-point]]_ adottata. In particolare Python usa lo standard _IEEE754_, una codifica floating point che prevede una _precisione macchina_ $\text{eps}$ pari circa a $10^{-16}$. Significa che $\text{eps}$ è il numero più piccolo che sommato a $1$ produce un numero $> 1$ appartenente alla codifica. Il numero $-0.7034674224983632$ ha esattamente 16 cifre dopo lo 0, quindi qualunque modifica calcolata dall'algoritmo dell'ordine inferiore a $10^{-16}$ non viene presa in considerazione.
 
 Detto questo possiamo considerare la 31° iterazione come quella che produce l'errore minimo rispetto a $x^{*}$, e la 61° iterazione come quella che produce l'errore minimo rispetto a $f(x)$.
 ```python
@@ -158,7 +158,7 @@ siano contrazioni.
 Per fare ciò dobbiamo verificare intanto che siano mappe, ovvero che per entrambe le $g$ esista un intervallo $[a, b]$, contenente $x^{*}$, tale che
 $$g([a, b]) \in [a, b]$$
 
-Per farlo velocemente possiamo plottare entrambi i grafici per un intervallo iniziale di $[-1, 1]$, facendo attenzione a mantenere le proporzioni giuste tra ascisse e ordinate (con `plt.axis('scaled'))`:
+Per farlo velocemente possiamo plottare entrambi i grafici per un intervallo iniziale di $[-1, 1]$, facendo attenzione a mantenere le proporzioni giuste tra ascisse e ordinate (con `plt.axis('scaled')`):
 ```python
 def g_1(x: np.ndarray) -> np.ndarray:
 	return x - f(x)*np.exp(x/2)
@@ -184,7 +184,7 @@ plt.show()
 Possiamo notare che nell'intervallo $[-1, 1]$, né $g_{1}$ né $g_{2}$ sono mappe. Se restringiamo il dominio a $[-0.8, -0.6]$, invece, otteniamo
 ![[calcolo-hw-1-fixed-2.png]]
 
-E' facile capire che _solo $g_{1}$ è una mappa nell'[[Intorno|intorno]] di $x^{*}$_, mentre $g_{2}$ non sarà una mappa contenente $x^{*}$ per nessun dominio possibile. Se cade questa ipotesi, **non possiamo applicare il teorema per il quale ogni mappa contrattiva ha esattamente un punto fisso nel dominio**, nonostante sappiamo che $g_{2}$ ha $x^{*}$ come punto fisso (dalla sua definizione).
+E' facile capire che _solo $g_{1}$ è una mappa nell'[[Intorno|intorno]] di $x^{*}$_, mentre $g_{2}$ non sarà una mappa contenente $x^{*}$ per nessun dominio possibile. Se cade questa ipotesi, **non possiamo applicare il teorema per il quale ogni mappa contrattiva ha esattamente un punto fisso nel dominio (e per il quale vale la successione $x_{k} \longrightarrow_{k \to +\infty} x^{*}$)**, nonostante sappiamo che $g_{2}$ ha $x^{*}$ come punto fisso (dalla sua definizione).
 
 Quindi ci concentriamo solo su $g_{1}$. Dimostriamo che si tratta di una contrazione in $[-0.8, -0.6]$. Già possiamo esserne abbastanza sicuri dal grafico: nell'intervallo $[-0.8, -0.6]$, $g_{1}$ mappa in $[-0.75, -0.65] \subset [-0.8, -0.6]$. Formalmente, però, per mostrare che si tratta di una contrazione è necessario dimostrare
 $$|g_{1}'(x)| < 1 \ \ \ \forall x \in [-0.8, -0.6]$$
@@ -260,7 +260,7 @@ Errori assoluti: [9.65326000e-02 3.12780176e-02 1.07027660e-02 3.59992494e-03
 Dopo **sole 16 iterazioni il metodo dell'iterazione di punto fisso raggiunge una distanza da $x^{*}$ minore di quella raggiunta dal metodo della bisezione in 61 iterazioni**. Da che cosa dipende? Dal fattore di contrazione $C$. Infatti se nell'algoritmo di bisezione è fissato a massimo $\frac{1}{2}$, in quello dell'iterazione è una _maggiorazione di $g'$ nell'intervallo analizzato_.
 
 Considerata $g_{1}'(x)$, è facile trovarne una maggiorazione in $[-0.8, -0.6]$. Infatti il massimo _valore assoluto_ raggiunto dalla funzione è in $-0.8$. Valutiamo il suo valore:
-$$g_{1}(-0.8) = 1 - e^{\frac{-0.8}{2}}\left(\frac{1}{2}e^{-0.8} + \frac{1}{2}(-0.8)^{2} - 2(-0.8)\right) = -0.4376 \ldots$$
+$$g_{1}'(-0.8) = 1 - e^{\frac{-0.8}{2}}\left(\frac{1}{2}e^{-0.8} + \frac{1}{2}(-0.8)^{2} - 2(-0.8)\right) = -0.4376 \ldots$$
 
 Per cui il fattore di contrazione $C$ sarà
 $$C > |g_{1}'(x)| \iff C > 0.4376 \ldots$$
@@ -284,7 +284,7 @@ plt.show()
 ```
 ![[calcolo-hw-1-fixed-err-2.png]]
 
-Risulta qui più immediato l'influenza del fattore di contrazione $C$.
+Risulta qui più chiara l'influenza del fattore di contrazione $C$.
 
 <u>Nota bene</u>: anche se modificassimo gli estremi $a, b$ dell'intervallo di partenza dell'algoritmo di bisezione otterremmo una convergenza più lenta di quella del punto fisso. Per esempio, se poniamo `a = -0.8` e `b = -0.6`, e diminuiamo il numero di iterazioni `n` a 16 (per una maggiore leggibilità) il grafico risultante è il seguente
 ![[calcolo-hw-1-fixed-err-3.png]]
@@ -306,7 +306,7 @@ Come ultima analisi dell'algoritmo esplicitiamo il suo funzionamento plottando l
 ![[calcolo-hw-1-fixed-spirale-2.png]]
 
 ##### Newton
-Per implementare l'algoritmo di Newton è necessario prima di tutto calcolare la derivata prima di $f$, e definita $g$ come
+Per implementare l'algoritmo di Newton è necessario prima di tutto calcolare la derivata prima di $f$, e, definita $g$ come
 $$g(x) = x - \frac{f(x)}{f'(x)}$$
 bisogna verificare due cose:
 1. _che per $x^{*}$ non si annulli $f'$_;
@@ -636,6 +636,12 @@ una cifra molto alta, considerando che siamo sempre nel caso $n = 3$. Messa a co
 
 Procedo con la generazione del problema test con $H$ e $x = (1, 1, 1)$:
 ```python
+def solve_linear_system_chol(A: np.ndarray, b: np.ndarray) -> np.ndarray:
+	L = np.linalg.cholesky(A)
+	y = np.linalg.solve(L, b)
+	x = np.linalg.solve(L.T, y)
+	return x
+
 x = np.ones((n,))
 b = H @ x
 x_hat = solve_linear_system_chol(H, b)
@@ -699,7 +705,7 @@ E' interessante notare _anche in questo caso come la crescita regolare del numer
 
 Infatti la matrice di Hilbert è deterministica, e conoscendo la codifica floating-point di Python (_standard IEEE754_) _possiamo calcolare per ogni cella di $H$ l'errore assoluto di arrotondamento_, e quindi l'errore relativo di $H$ e conseguentemente di $b$. Questo ci consente di determinare l'errore inerente massimo.
 
-Farlo "manualmente" richiederebbe uno sforzo computazionalmente notevole. Tuttavia, Python offre la libreria `fractions` che include la classe `Fraction`, con la quale possiamo rappresentare [[Numeri razionali|numeri razionali]], e quindi evitare errori di arrotondamento: possiamo avere $A$ "perfetta"! Definiamo allora una funzione `hilbert_exact` che restituisce la matrice di Hilbert esatta:
+Farlo "manualmente" richiederebbe uno sforzo notevole. Tuttavia, Python offre la libreria `fractions` che include la classe `Fraction`, con la quale possiamo rappresentare [[Numeri razionali|numeri razionali]], e quindi evitare errori di arrotondamento: possiamo avere $A$ "perfetta"! Definiamo allora una funzione `hilbert_exact` che restituisce la matrice di Hilbert esatta:
 ```python
 from fractions import Fraction
 
@@ -856,8 +862,8 @@ norm_r_sqrd = np.linalg.norm(r, ord=2) ** 2
 print("Residuo: ", r)
 print("Norma 2 al quadrato del residuo: ", norm_r_sqrd)
 
+# Output:
 """
-Output:
 Residuo:  [ 0.02033525 -0.0225954   0.0054205  -0.00523418 -0.00056233  0.01306842
   0.02733522]
 Norma 2 al quadrato del residuo:  0.0018991667528066494
@@ -890,7 +896,7 @@ Il _risultato è il medesimo della soluzione con la fattorizzazione di Cholesky_
 I due risultati sono assolutamente equivalenti, sia in termini di soluzione $\alpha$ che, conseguentemente, di residuo. E' ovviamente giusto che sia così, tuttavia si possono fare delle considerazioni in merito alla scelta dell'algoritmo da utilizzare: il numero di condizionamento di $A$ è $\approx 5$, per cui il condizionamento della matrice del sistema normale $A^{T}A$ è $\approx 25$: il problema è ben posto, per cui Cholesky funziona bene. Siamo però a conoscenza del fatto che _la SVD, in casi di matrici mal condizionate, è più stabile e robusta rispetto alla fattorizzazione di Cholesky_.
 
 E' interessante invece notare il ruolo che gioca la varianza $\sigma$ nel problema: _essa influenza direttamente il residuo_. Proviamo a far decrescere $\sigma$ fino a $0.01$ e a plottare il residuo in funzione di essa (risolvendo con le equazioni normali). Nel farlo adottiamo le seguenti regole:
-- facciamo variare la varianza varia solo per $v$, e non per $A$, altrimenti si "annullerebbero" le modifiche;
+- facciamo variare la varianza solo per $v$, e non per $A$, altrimenti si "annullerebbero" le modifiche;
 - visto che $\sigma$ rappresenta l'"ampiezza" di $v$, avendo necessità di mantenere lo stesso $v$ per ogni $\sigma$, possiamo semplicemente moltiplicare $v$ per $\frac{\sigma_{new}}{\sigma_{old}}$, dove $\sigma_{old} = 0.1$.
 
 ```python

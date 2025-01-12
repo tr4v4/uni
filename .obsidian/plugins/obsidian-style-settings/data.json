@@ -24,5 +24,13 @@
   "anuppuccin-theme-settings@@anp-toggle-preview": false,
   "underwater-theme@@underwater-colors-dark": "uw-deep",
   "underwater-theme@@no-h5": true,
-  "underwater-theme@@focus-mode": false
+  "underwater-theme@@focus-mode": false,
+  "cupertino@@center-tabs-off": true,
+  "cupertino@@hide-nav-header-off": true,
+  "cupertino@@alt-font-off": false,
+  "cupertino@@active-line-off": false,
+  "cupertino@@center-status-off": true,
+  "cupertino@@full-table-off": false,
+  "cupertino@@hide-frontmatter-off": true,
+  "cupertino@@accented-frame-opacity": 0
 }

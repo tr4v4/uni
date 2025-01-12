@@ -69,7 +69,7 @@ Elenchiamo dei risultati teorici che ci consentono di sviluppare degli algoritmi
 	- teorema: se $x^{*}$ è minimo, allora $\nabla f(x^{*}) = 0$ e $H_{f}(x^{*})$ è semi-definita positiva, ovvero $x^{T}H_{f}(x^{*})x \geq 0 \ \ \ \forall x \in \mathbb{R}^{n}$
 - _condizione sufficiente del secondo ordine_ --> sull'hessiana
 	- teorema: se $x^{*}$ è stazionario e $H_{f}(x^{*})$ è definita positiva (non semi), allora $x^{*}$ è un punto di minimo di $f$
-	- se noi sappiamo che, in quanto $f$ convessa, $H_{f}(x^{*})$ è sempre semi-definita positiva, quindi ogni soluzione $x^{*}$ del punto 1 è un punto di minimo tranne per quei punti per cui $H_{f}(x^{*})$ è singolare ([[Determinante|determinante]] diverso da 0)
+	- se noi sappiamo che, in quanto $f$ convessa, $H_{f}(x^{*})$ è sempre semi-definita positiva, quindi ogni soluzione $x^{*}$ del punto 1 è un punto di minimo tranne per quei punti per cui $H_{f}(x^{*})$ è singolare ([[Determinante|determinante]] uguale a 0)
 
 ## Algoritmi
 Gli algoritmi che risolvono i problemi di ottimizzazione sono:

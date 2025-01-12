@@ -13,7 +13,7 @@ links:
 > Una **proprietà** di un [[Programma|programma]] ([[Concorrenza|concorrente]]) è un _attributo che rimane vero per ogni possibile esecuzione del programma stesso_.
 
 ## Tipologie
-Le proprietà di un programma (sempre concorrente) si raccolgono in queste due macro-proprietò fondamentali:
+Le proprietà di un programma (sempre concorrente) si raccolgono in queste due macro-proprietà fondamentali:
 - [[Proprietà safety|safety]]
 - [[Proprietà liveness|liveness]]
 

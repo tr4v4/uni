@@ -37,7 +37,7 @@ Faccio l'operazione, e ottengo
 $$z = x-y = 2.1499999999999999999 \times 10^{12} \notin \mathbb{F}$$
 
 Notiamo che $z \notin \mathbb{F}$ perché ha ben 16 cifre di mantissa, quando la codifica ne richiede solo 2. Il risultato che sarà salvato sul calcolatore sarà $fl(z)$, calcolato in uno dei 2 modi:
-- **approssimazione** --> $fl(z) = 2.15 \times 10^{12}$
+- **arrotondamento** --> $fl(z) = 2.15 \times 10^{12}$
 - **troncamento** --> $fl(z) = 2.14 \times 10^{12}$
 
 A prescindere dal metodo scelto, si verifica un errore di arrotondamento. Calcoliamo quello relativo, scegliendo come metodo di $fl(z)$ il troncamento:
@@ -75,7 +75,7 @@ $$1 + y = 1$$
 proprio perché $y < \text{eps}$. Ricordiamo infatti che $\text{eps}$ è il più piccolo numero che sommato a $1$ fa un numero maggiore di $1$ appartenente a $\mathbb{F}$.
 
 ### Errore algoritmico
-I limiti dell'aritmetica codifica floating-point si rendono piuttosto evidenti quando si va incontro ad **[[Errore algoritmico|errori algoritmici]]**, ossia errori provocati dalla propagazione delle approssimazioni/troncamenti delle operazioni floating-point.
+I limiti dell'aritmetica floating-point si rendono piuttosto evidenti quando si va incontro ad **[[Errore algoritmico|errori algoritmici]]**, ossia errori provocati dalla propagazione degli arrotondamenti/troncamenti delle operazioni floating-point.
 
 Prendiamo per esempio un algoritmo che calcola il [[Numero di Nepero|numero di Nepero]] $e$ usando il famoso [[Limite|limite]]
 $$e = \lim_{n \to +\infty} \left(1 + \frac{1}{n}\right)^{n}$$
@@ -83,7 +83,7 @@ $$e = \lim_{n \to +\infty} \left(1 + \frac{1}{n}\right)^{n}$$
 Fondamentalmente, l'errore diminuisce, finché $n$ non diventa troppo grande. In particolare, nel momento in cui $n$ raggiunge $10^{16}$, all'interno della parentesi viene svolto il calcolo
 $$1 + 10^{-16}$$
 
-Nella codifica floating-point standard di Python IEEE745, si ha proprio che
+Nella codifica floating-point standard di Python IEEE754, si ha proprio che
 $$\text{eps} \approx 10^{-16}$$
 perciò, di conseguenza, avviene che
 $$1 + 10^{-16} = 1$$

@@ -12,7 +12,7 @@ links:
 ## Introduzione
 > Un [[Algoritmo iterativo|algoritmo iterativo]] ha una **velocità di convergenza** $p$ se
 > $$|E_{k+1}| \leq C | E_{k}|^{p}$$
-> ossia se l'_errore assoluto_ all'iterazione $k+1$ è minore o uguale a una costante $C$ per l'errore assoluto all'iterazione $k$ elevato a una costante $p$.
+> ossia se l'_errore assoluto_ all'iterazione $k+1$ è minore o uguale a una costante $C$ ($< 1$) per l'errore assoluto all'iterazione $k$ elevato a una costante $p$.
 > In particolare si ha che:
 > - $p = 1 \implies$ _convergenza lineare_
 > - $1 < p < 2 \implies$ _convergenza superlineare_

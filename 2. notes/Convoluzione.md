@@ -14,7 +14,7 @@ links:
 > $$C = [K * (A|B)]$$
 > dove $B \in \mathbb{R}^{(M+(D-1)) \times (N+(D-1))}$ è l'[[Matrice estesa|estensione]] di $A$ (necessaria per applicare il kernel sui bordi di $A$).
 > Solitamente, $C$ viene calcolata come
-> $$C_{(i, j)} = \sum\limits_{m=1}^{\frac{D-1}{2}} \sum\limits_{n=1}^{\frac{D-1}{2}} K(m,n) W_{(i,j)}(m,n)$$
+> $$C_{(i, j)} = \sum\limits_{m=1}^{D} \sum\limits_{n=1}^{D} K(m,n) W_{(i,j)}(m,n)$$
 > dove $W_{(i,j)}$ è la [[Sottomatrice|sottomatrice]] $D \times D$ di $B$ [[Centro di una matrice|centrata]] in $(i+\frac{D-1}{2},j+\frac{D-1}{2})$.
 
 ## Referenze

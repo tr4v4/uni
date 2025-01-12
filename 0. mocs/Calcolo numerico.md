@@ -12,9 +12,9 @@ date: 16-09-2024 10:19:47
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-numerico SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Lecture 11112024131700]] | <ul><li>[[Calcolo numerico]]</li><li>[[Centro di una matrice]]</li><li>[[Convoluzione]]</li><li>[[Imaging]]</li><li>[[Matrice di convoluzione]]</li><li>[[Matrice estesa]]</li><li>[[PSF]]</li><li>[[Rumore bianco]]</li><li>[[Sottomatrice]]</li></ul> |
+| Lezione                    | Note                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Lecture 05112024094126]] | <ul><li>[[Calcolo numerico]]</li><li>[[Algoritmi per la risoluzione di sistemi lineari]]</li><li>[[CGLS]]</li><li>[[Metodo dei gradienti coniugati]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,8 +23,8 @@ date: 16-09-2024 10:19:47
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
-| [[Lecture 11112024131700]] | 11-11-2024 13:17:00 |
 | [[Lecture 05112024094126]] | 05-11-2024 09:41:26 |
+| [[Lecture 11112024131700]] | 11-11-2024 13:17:00 |
 | [[Lecture 12112024091405]] | 12-11-2024 09:14:05 |
 | [[Lecture 04112024131513]] | 04-11-2024 13:15:13 |
 | [[Lecture 22102024092339]] | 22-10-2024 09:23:39 |
@@ -65,7 +65,7 @@ date: 16-09-2024 10:19:47
 		- [[Interpolazione]]
 	- [[Ottimizzazione di dati]]
 		- [[Metodo di discesa del gradiente]]
-		- [[Metodo dei gradienti coniugati]]
+		- [[Metodo dei gradienti coniugati]], [[CGLS]]
 	- [[Problemi inversi]]
 		- [[Imaging]]
 	- Introduzione, esercitazioni e applicazioni a Python
@@ -80,6 +80,7 @@ date: 16-09-2024 10:19:47
 
 | Note                                                                                                                         | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Algoritmo iterativo]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Variazione totale]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Rumore bianco]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[PSF]]                                                                                                     | <ul><li>#status/finished</li></ul> |
@@ -127,7 +128,6 @@ date: 16-09-2024 10:19:47
 | [[Algoritmo dell'iterazione di punto fisso]]                           | <ul><li>#status/finished</li></ul> |
 | [[Punto fisso]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Errore di troncamento]]                                                                 | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo iterativo]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Algoritmi per il calcolo delle radici di una funzione]] | <ul><li>#status/finished</li></ul> |
 | [[Aritmetica floating-point]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[Errore di arrotondamento]]                                                           | <ul><li>#status/finished</li></ul> |

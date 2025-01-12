@@ -54,7 +54,7 @@ Condividono delle risorse al fine di scambiarsi informazioni, per cui _non si co
 In questo caso il _sistema operativo deve facilitare la cooperazione fornendo meccanismi di sincronizzazione_.
 
 #### Processi in conoscenza diretta
-Questi comunicano uno con l'altro sulla base dei loro _id_, praticamente una comunicazione diretta basata sullo scambio di messaggi. _Cooperano per qualche scopo e comunicazioni informazioni agli altri processi_.
+Questi comunicano uno con l'altro sulla base dei loro _id_, praticamente una comunicazione diretta basata sullo scambio di messaggi. _Cooperano per qualche scopo e comunicare informazioni agli altri processi_.
 
 Qui il _sistema operativo deve facilitare la cooperazione fornendo meccanismi di comunicazione_.
 
