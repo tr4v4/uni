@@ -3,8 +3,10 @@ tags:
   - category/note
   - status/finished
   - topic/tecnologie-web
+  - topic/reti-di-calcolatori
 date: 25-11-2024 11:50:21
 links:
+  - "[[Lecture 20122024133953]]"
 ---
 # Cookie
 ---
@@ -37,5 +39,8 @@ Esistono diversi tipi di cookie:
 ## Applicazioni
 I campi di applicazione dei cookie sono:
 - [[Autenticazione|autenticazione]];
+
+## Problemi
+Costituiscono un grande problema di privacy: equivalgono a **tracciare le attivita' dell'utente**, se si tratta di cookie lato server.
 
 ## Referenze

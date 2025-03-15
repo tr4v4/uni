@@ -12,10 +12,11 @@ date: 16-09-2024 10:40:19
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                       |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [[Lecture 21112024121059]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+| Lezione                    | Note                                              |
+| -------------------------- | ------------------------------------------------- |
+| [[Lecture 05032025111458]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
@@ -23,6 +24,11 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 05032025111458]] | 05-03-2025 11:14:58 |
+| [[Lecture 27022025131944]] | 27-02-2025 13:19:44 |
+| [[Lecture 26022025111603]] | 26-02-2025 11:16:03 |
+| [[Lecture 20022025131602]] | 20-02-2025 13:16:02 |
+| [[Lecture 19022025111150]] | 19-02-2025 11:11:50 |
 | [[Lecture 21112024121059]] | 21-11-2024 12:10:59 |
 | [[Lecture 12112024110924]] | 12-11-2024 11:09:24 |
 | [[Lecture 07112024120244]] | 07-11-2024 12:02:44 |
@@ -48,6 +54,8 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 27022025131944]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 26022025111603]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 24102024120228]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 22102024110521]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21112024121059]] | <ul><li>#status/pending</li></ul> |
@@ -55,8 +63,11 @@ date: 16-09-2024 10:40:19
 | [[Lecture 12112024110924]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 07112024120244]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05112024110833]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 05032025111458]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
-\
+
+
+
 ## Note
 - Argomenti
 	- mod. 1
@@ -74,8 +85,8 @@ date: 16-09-2024 10:40:19
 		- parser: costruzione di analizzatori sintattici
 		- fondamenti: esistono vincoli che un compilatore non può verificare; proprietà indecidibili; Macchine di Turing
 	- mod. 2
-		- nomi
-		- gestione della memoria
+		- [[Nome]], [[Oggetto denotabile]], [[Binding]], [[Blocco]], [[Ambiente]], [[Aliasing]], [[Scope]], [[Regole di visibilita' dei nomi]]
+		- [[Allocazione della memoria]], gestione della memoria
 		- strutturare il controllo
 		- astrarre sul controllo
 		- parametri e modalità di passaggio
@@ -91,6 +102,19 @@ date: 16-09-2024 10:40:19
 
 | Note                                                                                                           | Status                             |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Allocazione della memoria]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Allocazione statica della memoria]]                           | <ul><li>#status/finished</li></ul> |
+| [[Scope dinamico]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[Scope statico]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Aliasing]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[Regole di visibilita' dei nomi]]                                 | <ul><li>#status/finished</li></ul> |
+| [[Nome]]                                                                                     | <ul><li>#status/finished</li></ul> |
+| [[Oggetto denotabile]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Scope]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Blocco]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[Ambiente]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[Binding]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Dichiarazione]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Struttura di un compilatore]]                                       | <ul><li>#status/finished</li></ul> |
 | [[NPDA]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Automa a pila]]                                                                   | <ul><li>#status/finished</li></ul> |
@@ -156,6 +180,9 @@ date: 16-09-2024 10:40:19
 | [[Linguaggio di programmazione funzionale]]               | <ul><li>#status/finished</li></ul> |
 | [[Linguaggio di programmazione imperativo]]               | <ul><li>#status/finished</li></ul> |
 | [[Semantica]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[Record di attivazione]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Stack]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Allocazione dinamica della memoria]]                         | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Referenze

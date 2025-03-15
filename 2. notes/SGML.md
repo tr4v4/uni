@@ -10,7 +10,7 @@ links:
 # SGML
 ---
 ## Introduzione
-> **SGML** (_Standard Generalized Markup Language_) è un meta-linguaggio di [[Markup|markup]] non proprietario, descrittivo, gerarghico, strutturato, leggibile. In particolare è uno standard per la creazione di linguaggi di markup.
+> **SGML** (_Standard Generalized Markup Language_) è un meta-linguaggio di [[Markup|markup]] non proprietario, descrittivo, gerarchico, strutturato, leggibile. In particolare è uno standard per la creazione di linguaggi di markup.
 
 ## Documento
 Un documento SGML si compone di:

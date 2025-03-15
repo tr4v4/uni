@@ -3,10 +3,12 @@ tags:
   - category/note
   - status/finished
   - topic/reti-di-calcolatori
+  - topic/ottimizzazione-combinatoria
 date: 27-09-2024 16:16:10
 links:
   - "[[Lecture 18092024131539]]"
   - "[[Lecture 20092024132015]]"
+  - "[[Lecture 05032025091441]]"
 ---
 # Rete
 ---
@@ -44,6 +46,31 @@ Per connettere un calcolatore alla rete c'è bisogno di un _insieme minimo di co
 - _[[Mezzo di trasmissione|mezzo di trasmissione]]_
 - _[[Connettore di rete|connettore di rete]]_
 - _protocolli di rete_, ossia regole implementate sottoforma di software del calcolatore per garantire compatibilità e corretta gestione della comunicazione
+
+## Matematica
+> Nell'ambito matematico, una rete e' un [[Grafo|grafo]] $G = (N, A)$ [[Grafo orientato|orientato]] (solitamente) e [[Grafo pesato|pesato]].
+> Gli archi sono interpretabili come canali in cui fluiscono oggetto rappresentati da grandezze
+> - _discrete_ (per passeggeri, veicoli, ecc...)
+> - _continue_ (per fluidi, ecc...)
+> 
+> I nodi, invece, indicano i punti di ingresso o di uscita della rete.
+
+### Terminologia
+#### Sbilanciamento
+Ad ogni nodo $i \in N$ e' associato un **fattore di sbilanciamento $b_{i} \in \mathbb{R}$**, che puo' essere:
+- _positivo_ --> il nodo richiede che arrivi del flusso e segnala la sua uscita, e $b_{i}$ viene detto _domanda_ di $i$; e' un **nodo di output**;
+- _negativo_ --> il nodo segnala l'entrata di un certo flusso, e $b_{i}$ viene detto _offerta_ di $i$; e' un **nodo di input**;
+- _nullo_ --> la quantita' di flusso entrante e uscente e' la stessa; e' un **nodo di trasferimento**.
+
+<u>Nota bene</u>: _indichiamo lo sbilanciamento di ogni nodo con un arco fittizio su cui scriviamo $b_{i}$_, l'importante è che non sia collegato a niente, altrimenti si confonde con gli archi veri.
+
+#### Archi
+Ad ogni arco $(i, j) \in A$ associamo:
+- _costo_ $c_{ij}$ indica quanto costa per un'unità di bene attraversare il canale (può anche essere negativo);
+- _capacità inferiore_ $l_{ij}$ ossia un limite inferiore alla quantità di beni che possono fluire sul canale;
+- _capacità superiore_ $u_{ij}$ ossia un limite superiore alla quantità di beni che possono fluire sul canale;
+
+![[problema-di-rete.png]]
 
 ## Referenze
 - [[Classificazione delle reti]]

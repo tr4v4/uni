@@ -3,20 +3,31 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 05-11-2023 22:50:47
 links:
   - "[[Lecture 02112023130607]]"
+  - "[[Lecture 21022025091223]]"
 ---
 # Interrupt
 ---
 ## Definizione
-> Simili alle [[Trap|trap]], gli **interrupt** interrompono il programma in esecuzione e trasferiscono il controllo momentaneamente a un **gestore di interrupt** ([[ISR]], _Interrupt Service Routine_).
+> Gli **interrupt** interrompono il programma in esecuzione e trasferiscono il controllo momentaneamente a un **gestore di interrupt** ([[ISR]], _Interrupt Service Routine_).
+> Formalmente sono un _meccanismo che permette l'interruzione del normale [[Ciclo di fetch-decode-execute|ciclo di esecuzione]] della [[CPU]]_.
 
 ### Differenza con trap
-La differenza fondamentale tra _interrupt_ e _trap_ sta nel fatto che queste ultime sono **sincrone**, e quindi viene scatenata ogni volta allo stesso modo da un programma che "triggera" gli eventi scatenanti; mentre gli interrupt sono **asincroni**, in quanto scatenati da altri dispositivi che sono indipendenti dal programma in esecuzione, come gli [[I-O]].
+La differenza fondamentale tra _interrupt_ e _[[Trap|trap]]_ sta nel fatto che queste ultime sono **sincrone**, e quindi viene scatenata ogni volta allo stesso modo da un programma che "triggera" gli eventi scatenanti; mentre gli interrupt sono **asincroni**, in quanto scatenati da altri dispositivi che sono indipendenti dal programma in esecuzione, come gli [[I-O]].
+
+Formalmente **le trap sono interrupt software**: sono causati dal programma in esecuzione, come errori di divisione per 0, problemi di indirizzamento ([[Page fault|page fault]]), o le stesse [[System call|system call]].
+
+Gli **interrupt normali, invece, sono hardware**: eventi asincroni scatenati da, per esempio, dispositivo di I-O, o dalla scadenza dell'[[Interval timer|interval timer]], ecc... (ad ogni modo scatenati dai [[Device controller|controller]] dei dispositivi).
+
+<u>Nota bene</u>: **quando un processo richiede un'operazione di I/O NON scatena un interrupt**, ma viene interrotto e rieseguito quando il device selezionato produce l'interrupt di termine dell'operazione.
 
 ## Vantaggi
 L'utilizzo degli interrupt permette di evitare il fenomeno del _busy waiting_, ovvero della continua esecuzione di istruzioni volte a verificare l'accadimento di un certo evento[^1]: _è il dispositivo stesso che, scatenato un certo evento, interrompe il programma in esecuzione e prende il controllo_.
+
+Di fatto, quindi, aumentano l'efficienza del calcolatore, permettendo al [[Sistema operativo|sistema operativo]] di intervenire durante l'esecuzione di un programma.
 
 ## Tipologie
 Non tutti gli interrupt possono interrompere, senza un minimo di criterio, i processi in esecuzione sulla CPU. Per questo si dividono principalmente in:
@@ -29,4 +40,6 @@ In generale, però, si definisce una _gerarchia di interrupt_ che stabilisce qua
 ![[gerarchie-interrupt.png]]
 
 ## Referenze
+- [[Gestione degli interrupt]]
+
 [^1]: anche detto [[Polling|polling]]

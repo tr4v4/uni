@@ -24,7 +24,7 @@ Tra le caratteristiche più importanti ricordiamo:
 In poche parole, l'[[IP]] di [[Livello rete|livello rete]] non è affidabile (_best effort_) in quanto non garantisce l'ordine di ricezione dei pacchetti corretto né si preoccupa di ritrasmettere quelli perduti: **il TCP è il protocollo che si occupa di ripristinare l'ordine dei pacchetti e di rinviarli in caso di perdita**! E' lui che rende l'effettiva _trasmissione di dati affidabile sul protocollo IP_.
 
 ## Criticità
-Il TCP presenta alcune criticità, in merito a attacchi di tipo [[DoS]] e gestione delle sessioni.
+Il TCP presenta alcune criticità, in merito ad attacchi di tipo [[DoS]] e gestione delle sessioni.
 
 ### DoS
 Se il client non chiude più la connessione TCP, una volta aperta, questa rimane inattiva ma presente sul server. Vale a dire che _occupa risorse server-side che potrebbero essere liberate per dare spazio a nuove connessioni_.

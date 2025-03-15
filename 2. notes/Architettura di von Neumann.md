@@ -4,10 +4,12 @@ tags:
   - "#status/finished"
   - topic/programmazione
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 18-09-2023 22:04:21
 links:
   - "[[Lecture 18092023150410]]"
   - "[[Lecture 20092023151652]]"
+  - "[[Lecture 21022025091223]]"
 ---
 # Architettura di von Neumann
 ---
@@ -27,7 +29,8 @@ Componenti principali:
 
 A fare da **arbitro del bus** verificando e gestendo gli accessi è la CPU stessa: affinché una periferica voglia accedere al bus, deve avere il permesso del processore.
 
-## Unità di misura
+![[architettura-von-neumann2.png]]
+
 ## Prefissi per ordini di grandezza
 Esistono due principali prefissi utilizzati per misurare la velocità di un elaboratore. In particolare:
 - **MIPS**: milioni di operazioni per secondo

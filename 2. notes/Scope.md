@@ -3,15 +3,17 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/linguaggi-di-programmazione
 date: 09-10-2023 17:50:42
 links:
   - "[[Lecture 09102023151504]]"
   - "[[Lecture 10102023093258]]"
+  - "[[Lecture 20022025131602]]"
 ---
 # Scope
 ---
 ## Introduzione
-> La **portata di una [[Dichiarazione|dichiarazione]]**, anche detta **scope** definisce per quale _blocco_ di codice vale un certo [[Identificatore|identificatore]].
+> La **portata di una [[Dichiarazione|dichiarazione]]**, anche detta **scope** definisce per quale _[[Blocco|blocco]]_ di codice vale un certo [[Identificatore|identificatore]].
 
 In generale si dice che una dichiarazione vale solo e solamente per il blocco a cui appartiene: al di fuori di esso l'identificatore non è raggiungibile[^1].
 
@@ -47,6 +49,17 @@ int main() {
 }
 ```
 Il risultato di questo codice è `710`. Questo perché `min()` non vede la variabile locale del blocco di `main`, quindi per le regole della portata dei dati va a prendere il valore di `m` e `n` subito fuori dal suo blocco.
+
+## Regole
+Ci sono 2 regole di scope principali:
+- [[Scope statico|scope statico]]
+- [[Scope dinamico|scope dinamico]]
+
+Una differenza sostanziale tra i due scope, e' che _se cambio il nome di una variabile locale in tutte le occorrenze_:
+- nello scope statico non cambia nulla;
+- nello scope dinamico cambia tutto.
+
+![[scope-statico-vs-scope-dinamico.png]]
 
 ## Referenze
 [^1]: funziona un po' come le regole grammaticali: dopo il punto il soggetto perde la sua valenza per la frase successiva

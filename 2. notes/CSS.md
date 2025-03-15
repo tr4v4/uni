@@ -61,8 +61,8 @@ Di selettori ce ne sono tantissimi:
 - prossimità
 	- ` `, indica la discendenza
 	- `>`, indica solo i figli diretti
-	- `~`, indica tutti i fratelli
-	- `+`, indica il fratello immediato
+	- `~`, indica tutti i fratelli (gli elementi successivi)
+	- `+`, indica il fratello immediato (l'elemento successivo)
 - attributi
 - pseudo-classi strutturali
 	- `nth-child(n)`
@@ -76,9 +76,62 @@ Degli esempi sono:
 - `ul.list li:first-child {}`
 - `ul.list li:nth-of-type(2) {}`
 - `ul.list li:nth-of-type(odd) {}`
-- `.nested > p:first-child`, dove `>` è per i figli diretti
+- `.nested > p:first-child {}`, dove `>` è per i figli diretti
 - `.special-item ~ li {}` per i fratelli
 - `.special-item + li {}` per i fratelli vicini (non tutti)
+
+```css
+p::first-line {
+  font-weight: bold;
+}
+
+h1::before {
+	content: "<p>Ciao!</p>";
+}
+h1::after {
+	content: "!";
+}
+
+div p {
+	color: red;
+}
+div > p {
+	color: blue;
+}
+div ~ p {
+	color: green;
+}
+div + p {
+	color: yellow;
+}
+
+p[title] {
+	color: red;
+}
+p[title="ciao"] {
+	color: blue;
+}
+
+div:nth-child(2) {
+	color: red;
+}
+li:first-child {
+	color: blue;
+}
+li:nth-of-type(odd) {
+	color: green;
+}
+
+a:active {
+	color: red;
+}
+p:hover {
+	color: blue;
+}
+input:checked {
+	color: green;
+}
+```
 
 #### Tipi di dato
 Le lunghezze sono importanti:
@@ -108,6 +161,7 @@ Ogni spazio occupato da un elemento HTML è identificato da una **scatola**, che
 I flussi sono gestiti dalla proprietà `display`. Ogni elemento HTML ha un valore di display di default, ma può essere modificato a piacimento per modificare il modo in cui interagisce con gli altri elementi:
 - `block`
 - `inline`
+- `float`
 - `table`, `table-row` e `table-cell`, per creare una tabella senza il tag `<table>`
 - `list-item`
 - `none`, per nascondere l'elemento
@@ -182,7 +236,7 @@ Tra le proprietà sono importanti le trasformazioni, una serie di modifiche geom
 - `rotate3d()`
 - `skew()`
 
-<u>Nota bene</u>: bisogna scrivere anteponendo il prefisso `trasform:`.
+<u>Nota bene</u>: bisogna scrivere anteponendo il prefisso `transform:`.
 
 #### `@` rules
 Sono principalmente due:

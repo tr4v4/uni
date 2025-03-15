@@ -16,6 +16,6 @@ La route può avvenire secondo due modalità:
 - _managed route_: il server associa ogni URI a una risorsa o attraverso un file system locale (statico) o generate attraverso una computazione (dinamico)
 - _file-system route_: il server è un libro aperto, il file-system è in diretta associazione (1:1) all'URI
 
-<u>Nota bene</u>: nel _managed route_ anche se c'è l'associazione con il file system locale, a posteriori c'è un controllo che restringe gli URI a cui il server può rispondere, rendendo nasconti o non disponibili/raggiungibili certi file. Per cui, solitamente, questo route è sempre preferito al _file-system route_.
+<u>Nota bene</u>: nel _managed route_ anche se c'è l'associazione con il file system locale, a posteriori c'è un controllo che restringe gli URI a cui il server può rispondere, rendendo nascosti o non disponibili/raggiungibili certi file. Per cui, solitamente, questo route è sempre preferito al _file-system route_.
 
 ## Referenze

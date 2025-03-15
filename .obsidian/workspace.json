@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f856f335d0f60238",
+        "id": "2e33b2ccfbfc2c77",
         "type": "tabs",
+        "dimension": 39.05579399141631,
         "children": [
           {
-            "id": "c25308f9504b7555",
+            "id": "ea85a0ceca4be77e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,119 +23,125 @@
             }
           },
           {
-            "id": "3d9eeb64b74c2ae9",
+            "id": "b4fa81f1555537d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Problema della sezione critica.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problema della sezione critica"
-            }
-          },
-          {
-            "id": "7daaa439581f4272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Semafori.md",
+                "file": "2. notes/Message passing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semafori"
+              "title": "Message passing"
             }
           },
           {
-            "id": "997cd7470888b937",
+            "id": "d6014a919b4a7291",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Semafori binari.md",
+                "file": "1. lectures/Lecture 21022025091223.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semafori binari"
+              "title": "Lecture 21022025091223"
             }
           },
           {
-            "id": "82c071d77266504c",
+            "id": "b6891a589c02e7b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Monitor.md",
+                "file": "1. lectures/Lecture 27022025151550.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monitor"
+              "title": "Lecture 27022025151550"
             }
           },
           {
-            "id": "51d430b81f89a872",
+            "id": "c61921e6612f69e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Problemi classici della programmazione concorrente.md",
+                "file": "1. lectures/Lecture 28022025091715.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problemi classici della programmazione concorrente"
+              "title": "Lecture 28022025091715"
             }
           },
           {
-            "id": "51203cf45d5c678a",
+            "id": "d9d0cfecb018c0b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Filosofi a cena.md",
+                "file": "1. lectures/Lecture 06032025151956.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filosofi a cena"
+              "title": "Lecture 06032025151956"
             }
           },
           {
-            "id": "09b663b28b1f3b35",
+            "id": "ee80075554a44404",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Lettori e scrittori.md",
+                "file": "1. lectures/Lecture 07032025091554.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lettori e scrittori"
+              "title": "Lecture 07032025091554"
             }
           },
           {
-            "id": "720bc05bd0bdde20",
+            "id": "f7987b0520d40a4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 29112024093415.md",
+                "file": "1. lectures/Lecture 13032025151745.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 29112024093415"
+              "title": "Lecture 13032025151745"
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "662b57c662819c83",
+        "type": "tabs",
+        "dimension": 60.94420600858369,
+        "children": [
+          {
+            "id": "52fe139cf72f82e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Sistema operativo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistema operativo"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +160,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -190,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
+    "width": 267.5,
     "collapsed": true
   },
   "right": {
@@ -208,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "1. lectures/Lecture 14032025131849.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +226,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linguaggi di programmazione"
+              "title": "Backlinks for Lecture 14032025131849"
             }
           },
           {
@@ -227,12 +235,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "1. lectures/Lecture 28022025091715.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linguaggi di programmazione"
+              "title": "Outgoing links from Lecture 28022025091715"
             }
           },
           {
@@ -254,10 +262,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 2.md"
+                "file": "1. lectures/Lecture 28022025091715.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Calcolo numerico - HW. 2"
+              "title": "Outline of Lecture 28022025091715"
             }
           },
           {
@@ -296,8 +307,7 @@
               "title": "File properties for Linguaggi di programmazione"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -310,7 +320,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4. homeworks/Calcolo numerico - HW. 2.md",
+                "file": "1. lectures/Lecture 14032025131849.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -338,7 +348,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Calcolo numerico - HW. 2"
+              "title": "Graph of Lecture 14032025131849"
             }
           }
         ]
@@ -377,50 +387,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "3d-graph:3D Graph": false,
-      "obisidian-note-linker:Note Linker": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82c071d77266504c",
+  "active": "ea85a0ceca4be77e",
   "lastOpenFiles": [
-    "2. notes/Semafori binari.md",
-    "2. notes/Semafori.md",
-    "2. notes/Problemi classici della programmazione concorrente.md",
-    "2. notes/Filosofi a cena.md",
-    "2. notes/Lettori e scrittori.md",
-    "2. notes/Barbiere addormentato.md",
-    "2. notes/Buffer limitato.md",
-    "2. notes/Produttore e consumatore.md",
-    "1. lectures/Lecture 29112024093415.md",
-    "2. notes/Monitor.md",
-    "2. notes/Processo.md",
-    "2. notes/Problema della sezione critica.md",
+    "2. notes/Sistema operativo.md",
     "0. mocs/Sistemi operativi.md",
-    "2. notes/Esecuzione concorrente.md",
-    "2. notes/Concorrenza.md",
-    "2. notes/Spinlock.md",
-    "2. notes/Proprietà di un programma.md",
-    "2. notes/Disabilitazione degli interrupt.md",
-    "2. notes/Test&Set.md",
-    "2. notes/Algoritmo di Peterson.md",
-    "2. notes/Sezione critica.md",
-    "2. notes/Algoritmo di Dekker.md",
+    "2. notes/Message passing (conflict 2025-02-04-14-38-56).md",
+    "2. notes/Message passing.md",
+    "1. lectures/Lecture 21022025091223.md",
+    "1. lectures/Lecture 13032025151745.md",
+    "1. lectures/Lecture 07032025091554.md",
+    "1. lectures/Lecture 06032025151956.md",
+    "1. lectures/Lecture 28022025091715.md",
+    "1. lectures/Lecture 27022025151550.md",
+    "0. mocs/Calcolo delle probabilità e statistica.md",
+    "1. lectures/Lecture 07032025131750.md",
+    "1. lectures/Lecture 14032025131849.md",
+    "media/tabella_combinatoria.png",
+    "2. notes/Formula di Bayes.md",
+    "2. notes/Formula delle probabilità totali.md",
+    "2. notes/Eventi indipendenti.md",
+    "2. notes/Probabilita' condizionata.md",
+    "2. notes/Calcolo combinatorio.md",
+    "1. lectures/Lecture 04032025133148.md",
+    "2. notes/Probabilita' uniforme.md",
+    "2. notes/Principio di ragione non sufficiente.md",
+    "media/bayes-urne.png",
+    "2. notes/Regola della catena.md",
+    "media/diagramma-ad-albero-urne.png",
+    "media/urna-probabilita'-totali.png",
+    "2. notes/Assiomi della probabilita'.md",
+    "2. notes/Probabilita' dell'unione non disgiunta di eventi.md",
+    "media/gioco-del-lotto.png",
+    "1. lectures/Lecture 28022025132238.md",
     "2. notes/Azione atomica.md",
-    "2. notes/Proprietà safety.md",
-    "2. notes/Proprietà liveness.md",
-    "2. notes/Starvation.md",
-    "media/jupiter.jpg",
+    "media/gestione-stack.png",
+    "media/data-and-control-plane.png",
+    "media/control-plane-remote-controller.png",
+    "media/formula-probabilita'-totali.png",
+    "media/taglio-s-t.png",
+    "2. notes/Equivalenze regolari.canvas",
+    "5. seminars",
     "media/jupiter.jpg.crdownload",
-    "media/calcolo-hw-3-imaging-comparison6.png",
-    "media/calcolo-hw-3-imaging-comparison5.png",
-    "media/calcolo-hw-3-imaging-comparison4.png",
-    "media/calcolo-hw-3-imaging-comparison3.png",
-    "media/calcolo-hw-3-imaging-comparison2.png",
-    "media/calcolo-hw-3-imaging-comparison1.png",
-    "media/calcolo-hw-3-imaging-psf21.png",
-    "media/calcolo-hw-3-imaging-psf20.png",
-    "media/calcolo-hw-3-imaging-psf19.png",
     "media/learning-rate.png.crdownload",
     "media/funzione-convessa.png.crdownload",
     "4. homeworks",
@@ -429,9 +439,7 @@
     "media/1norm-2norm.jpg.crdownload",
     "netlify.toml~",
     "ads.txt",
-    "2. notes/Equivalenze regolari.canvas",
     "4913",
-    "Chats",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

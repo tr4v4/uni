@@ -1,0 +1,325 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc31063587f66b1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e3bfbe9ae15c37a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Calcolo delle probabilità e statistica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo delle probabilità e statistica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Calcolo numerico - HW. 2"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Linguaggi di programmazione"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "4. homeworks/Calcolo numerico - HW. 2.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498666,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Calcolo numerico - HW. 2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "3d-graph:3D Graph": false,
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "7e3bfbe9ae15c37a",
+  "lastOpenFiles": [
+    "2. notes/Regole di visibilita' dei nomi.md",
+    "media/scope-statico.png",
+    "2. notes/Allocazione della memoria.md",
+    "media/scope-statico-vs-scope-dinamico.png",
+    "2. notes/Allocazione statica della memoria.md",
+    "2. notes/Probabilita' uniforme.md",
+    "2. notes/Scope statico.md",
+    "2. notes/Probabilita' dell'unione non disgiunta di eventi.md",
+    "2. notes/Scope dinamico.md",
+    "2. notes/Principio di ragione non sufficiente.md",
+    "2. notes/Assiomi della probabilita'.md",
+    "media/scope-dinamico.png",
+    "2. notes/Aliasing.md",
+    "2. notes/Delta di Dirac.md",
+    "2. notes/Probabilita' discreta.md",
+    "2. notes/Spazio di probabilita'.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 18092024131539.md",
+    "1. lectures/Lecture 18022025152022.md",
+    "1. lectures/Lecture 24022025111633.md",
+    "0. mocs/Ottimizzazione combinatoria.md",
+    "1. lectures/Lecture 24022025091339.md",
+    "2. notes/Problema di ottimizzazione.md",
+    "2. notes/Livello applicazione.md",
+    "media/dns.png",
+    "2. notes/Sliding window.md",
+    "2. notes/Programmazione lineare.md",
+    "2. notes/Controllo del flusso.md",
+    "2. notes/Configurazione di un host.md",
+    "2. notes/Internet2.md",
+    "media/relazione-connettivi-logici-operazioni-insiemistiche.png",
+    "5. seminars",
+    "media/jupiter.jpg",
+    "media/jupiter.jpg.crdownload",
+    "media/calcolo-hw-3-imaging-comparison6.png",
+    "media/calcolo-hw-3-imaging-comparison5.png",
+    "media/calcolo-hw-3-imaging-comparison4.png",
+    "media/calcolo-hw-3-imaging-comparison3.png",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
+    "netlify.toml~",
+    "ads.txt",
+    "2. notes/Equivalenze regolari.canvas",
+    "4913",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

@@ -8,6 +8,7 @@ links:
   - "[[Lecture 07112024092537]]"
   - "[[Lecture 15112024091205]]"
   - "[[Lecture 22112024091729]]"
+  - "[[Lecture 29112024093415]]"
 ---
 # Produttore e consumatore
 ---
@@ -101,6 +102,36 @@ monitor PCController {
 	}
 }
 ```
+
+### Message passing
+Infine, la soluzione tramite [[Message passing|message passing]] (con modello di MP sincrono) è la seguente:
+```C
+process Producer {
+	Object buffer;
+	while (true) {
+		buffer = produce();
+		ssend(buffer, Manager);
+	}
+}
+
+process Consumer {
+	Object buffer;
+	while (true) {
+		buffer = sreceive(Manager);
+		consume(buffer);
+	}
+}
+
+process Manager {
+	Object buffer;
+	while (true) {
+		buffer = sreceive(Produce);
+		ssend(buffer, Consumer);
+	}
+}
+```
+
+Si nota come `Producer` e `Consumer` non si scambino direttamente i messaggi, ma utilizzino un processo intermediario, `Manager`. Questo viene usato per garantire che il Producer, usando MP sincrono, non debba aspettare che il Consumer abbia ricevuto il messaggio per poter continuare a produrre, e viceversa.
 
 ## Referenze
 [^1]: delle sorte di [[Race condition|race condition]]

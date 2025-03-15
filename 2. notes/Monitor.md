@@ -89,18 +89,13 @@ monitor Semaphore {
 
 	procedure entry void P() {
 		if (value == 0) {
-			moreThanZero.wait()
-		} else {
-			value--;
-		}
+			moreThanZero.wait();
+		value--;
 	}
 
 	procedure entry void V() {
-		if (value == 0) {
-			moreThanZero.signal()
-		} else {
-			value++;
-		}
+		value++;
+		moreThanZero.signal();
 	}
 }
 ```

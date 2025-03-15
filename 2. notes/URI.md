@@ -65,12 +65,12 @@ Infatti un **uriref, senza base, è inutilizzabile**.
 
 ### Risoluzione e dereferenziazione
 Il processo alla base della richiesta di una risorsa cui manca la base, quindi uriref, si sviluppa nei seguenti 2 passaggi:
-1. _URI resolution_: quando ho solo l'uriref oppure un URI a cui manca la risorsa fisica (URI senza URL), serve a ottenere l'URI assoluto;
+1. _URI resolution_: quando ho solo l'uriref oppure un URI a cui manca la risorsa fisica (URI senza URL), serve a ottenere l'URL assoluto;
 2. _URI dereferencing_: dato un URL si ottiene la risorsa richiesta.
 
 #### Risoluzione
 
-|                                                                                                                                                              | Dato l'URI base http://www.site.com/dir1/doc1.html                                                                                                                    |
+|                                                                                                                                                              | Dato l'URI base ==http://www.site.com/dir1/doc1.html==                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Se inizia con "#", è un frammento interno allo stesso documento di base                                                                                      | `#anchor1` si risolve come http://www.site.com/dir1/doc1.html#anchor1                                                                                                 |
 | Se inizia con uno schema, è un URI assoluto                                                                                                                  | http://www.site.com/dir2/doc2.html si risolve come http://www.site.com/dir2/doc2.html                                                                                 |

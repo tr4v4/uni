@@ -17,6 +17,8 @@ Le proprietà dei metodi sono in particolare:
 - _sicurezza_ (intesa come "safety"[^1]) --> non genera cambiamenti sullo stato del server;
 - _idempotenza_ --> l'effetto sul server di più richieste identiche è lo stesso di quello di una sola richiesta;
 
+<u>Nota bene</u>: un metodo "safe" può essere eseguito da un nodo intermedio (come un [[Proxy|proxy server]] per il [[HTTP caching|caching]]) senza effetti negativi.
+
 ## Metodi
 Sono:
 - `GET` - per la ricezione dei dati, sicuro e idempotente

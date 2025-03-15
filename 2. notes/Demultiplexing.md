@@ -7,6 +7,7 @@ date: 14-12-2024 16:39:44
 links:
   - "[[Lecture 27112024132652]]"
   - "[[Lecture 29112024132404]]"
+  - "[[Lecture 04122024132538]]"
 ---
 # Demultiplexing
 ---
@@ -35,5 +36,7 @@ Ogni client socket, infatti, è indipendente ed eseguito parallelamente agli alt
 - _tramite [[Thread|thread]]_ --> ogni client socket è associato ad un thread --> più efficiente in termini di risorse.
 
 <u>Nota bene</u>: è necessario un buffer, sia di invio (sul client) che di ricezione (sul server), per poter preparare i segmenti da inviare e riordinare i segmenti ricevuti.
+
+<u>Nota bene</u>: _nel server si puo' specificare il numero massimo di client socket generabili_, ossia di connessioni contemporanee che possono essere gestite dal server. Terminato il numero di posti disponibili, _se arriva la richiesta di apertura da parte di un ulteriore client, questa rimane in attesa in un buffer finche' non viene chiusa la connessione con un client_ (e si libera un client socket).
 
 ## Referenze

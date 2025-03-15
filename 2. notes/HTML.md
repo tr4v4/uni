@@ -41,7 +41,7 @@ In particolare dopo l'uscita di HTML 4 la W3C si era fermata mentre i browser ch
 - i produttori di browser autonomamente adottano nuove features;
 - viene quindi cambiato completamente il modello di sviluppo del linguaggio, non più democratico e sistematico come per il W3C;
 
-In poche parole, vincono quindi i produttori di browser. Il W3C continua a rilasciare standardizzazioni di HTML, ma si accorge che anche se esce HTML 6, dato che i browser adottano gli standardi di WHATWG, non serve a niente! Così abbandona il progetto nel 2019, lasciando a WHATWG in mano la situazione. Oggi, di fatto, si è in pieno _HTML Living Standard_ (non HTML 5!).
+In poche parole, vincono quindi i produttori di browser. Il W3C continua a rilasciare standardizzazioni di HTML, ma si accorge che anche se esce HTML 6, dato che i browser adottano gli standard di WHATWG, non serve a niente! Così abbandona il progetto nel 2019, lasciando a WHATWG in mano la situazione. Oggi, di fatto, si è in pieno _HTML Living Standard_ (non HTML 5!).
 
 Nella pratica, come conseguenza di questa storia, HTML si differenzia in:
 - _teorico_, quello suggerito dagli standard --> i browser agiscono in **strict mode**;
@@ -70,7 +70,7 @@ Teoricamente i blocchi permetterebbero il contenimento, ossia una struttura gera
 
 #### Elementi di lista
 Sono:
--  `<ul>` - lista non ordinata di elementi `<li>`
+- `<ul>` - lista non ordinata di elementi `<li>`
 - `<ol>` - lista ordinata di elementi `<li>`
 - `<dl>` - lista di definizioni composta da molti elementi `<dt>` (termine) e `<dd>` (dato)
 
@@ -92,6 +92,22 @@ Introdotti in HTML 5, aiutano nella definizione del modello gerarchico, e quindi
 Sono:
 - `<hr>` - piccola riga orizzontale attraverso lo schermo (si può controllare larghezza e spessore)
 - `<br>` - una andata a capo forzata
+
+#### Elemento `head`
+Contiene informazioni generali sul documento:
+- `<title>`
+- `<meta>` - informazioni sul documento
+	- `charset` - codifica dei caratteri
+	- `name` - nome dell'attributo
+	- `content` - valore dell'attributo, tra cui se associato a un valore di `http-equiv="expires"` indica la data di scadenza del documento[^1]
+	- `http-equiv` - equivalente HTTP
+- `<base>` - URL di base per i link ([[URI#URI reference]]!)
+- `<link>` - collegamenti esterni, tra cui solitamente quello a `style.css`
+- `<style>` - stili CSS scritti direttamente nel documento
+- `<script>` - script Javascript, che può essere esterno o interno
+	- `<script async>` - fa il fetch in modo asincrono rispetto al parsing del documento, e lo esegue non appena è pronto
+	- `<script defer>` - esegue lo script in modo differito, ossia solo in seguito al parsing del documento (il fetch è asincrono)
+	- `<script type="module">` - esegue lo script come modulo, con un proprio scope, facilitando la componentizzazione degli script
 
 ### Contenuti
 #### Link ipertestuali
@@ -118,6 +134,8 @@ Ci sono altri elementi simili a `<img>` per incorporare oggetti multimediali nel
 - `<embed>` - come `<object>` ma non richiede plug-in
 - `<iframe>` - per fare embedding di una pagina HTML all'interno di un'altra pagina HTML
 
+Ci sono poi elementi avanzati, come `<canvas>`, con cui si può disegnare direttamente in HTML, usando funzioni Javascript.
+
 #### Tabelle e tabelle di layout
 Con relativi tag e importante attenzione a `colspan` e `rowspan`.
 
@@ -133,6 +151,7 @@ Gli elementi sono:
 - `<button>`
 - `<label>`
 
+### Attributi
 #### Attributi globali
 Gli attributi globali di tutti gli elementi di HTML sono:
 - _id_
@@ -183,3 +202,4 @@ HTML presenta alcune peculiarità sintattiche che è bene conoscere:
 	- _attributi di solo valore_, caratteristica ereditata da SGML (e poi rimosso) in cui se il nome dell'attributo e il suo valore sono uguali si può omettere il valore e scrivere solo il nome
 
 ## Referenze
+- utilissimo per l'[[HTTP caching]]

@@ -7,6 +7,7 @@ date: 02-12-2024 10:30:35
 links:
   - "[[Lecture 15112024091205]]"
   - "[[Lecture 22112024091729]]"
+  - "[[Lecture 29112024093415]]"
 ---
 # Filosofi a cena
 ---
@@ -180,25 +181,68 @@ monitor PController {
 	}
 
 	procedure startEating(i) {
-		if (!isFree[i]) {
+		if (!isFree[i])
 			chopsticks[i].wait();
-			isFree[i] = false;
-		}
-		if (!isFree[(i+1)%5]) {
+		isFree[i] = false;
+		if (!isFree[(i+1)%5])
 			chopsticks[(i+1)%5].wait();
-			isFree[(i+1)%5] = false;
-		}
+		isFree[(i+1)%5] = false;
 	}
 
 	procedure finishEating(i) {
 		isFree[i] = true;
-		chopstiks[i].signal();
 		isFree[(i+1)%5] = true;
-		chopstiks[(i+1)%5].signal();
+		chopsticks[i].signal();
+		chopsticks[(i+1)%5].signal();
 	}
 }
 ```
 
 <u>Nota bene</u>: anche senza filosofo mancino, non si ha deadlock. Questo perché le procedure dentro il monitor sono eseguite in modo atomico, per cui _l'operazione `startEating` prende entrambe le bacchette "contemporaneamente"_.
+
+### Message passing
+Infine, la soluzione tramite [[Message passing|message passing]] (con modello di MP asincrono) è la seguente:
+```C
+process Philo[i] {
+	while (true) {
+		[think]
+		asend(<"PICKUP", i>, chopstick[MIN(i, (i+1)%5)]);
+		msg = areceive(chopstick[MIN(i, (i+1)%5)]);
+		asend(<"PICKUP", i>, chopstick[MAX(i, (i+1)%5)]);
+		msg = areceive(chopstick[MAX(i, (i+1)%5)]);
+		[eat]
+		asend(<"PUTDOWN", i>, chopstick[MIN(i, (i+1)%5)]);
+		asend(<"PUTDOWN", i>, chopstick[MAX(i, (i+1)%5)]);
+	}
+}
+
+process chopstick[i] {
+	bool free = true;
+	Queue queue = new Queue();
+
+	while (true) {
+		handleRequests();
+	}
+}
+
+void handleRequests() {
+	msg = areceive(ANY);
+	if (msg == <"PICKUP", j>) {
+		if (free) {
+			free = false;
+			asend("ACK", philo[j]);
+		} else {
+			queue.add(j);
+		}
+	} else if (msg == <"PUTDOWN", j>) {
+		if (queue.isEmpty()) {
+		    free = true;
+	    } else {
+		    k = queue.remove();
+		    asend("ACK", philo[k]);
+	    }
+	}
+}
+```
 
 ## Referenze

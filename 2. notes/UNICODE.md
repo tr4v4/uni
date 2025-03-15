@@ -29,7 +29,7 @@ I problemi dell'[[ASCII]] hanno portato alla formulazione di una nuova codifica,
 - convertibilità
 
 ## Composizione
-Attualmente, la versione più moderna di UNICOE, definisce:
+Attualmente, la versione più moderna di UNICODE, definisce:
 - 154998 caratteri in 168 script diversi
 - ~140000 caratteri per scopi privati
 

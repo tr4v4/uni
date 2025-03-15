@@ -1,7 +1,7 @@
 .theme-light, .theme-dark {
 /*Font*/
-  --font-text-theme: var(--font-text-override), "Lexend", "Inter", sans-serif;
-  --font-interface-theme: "Inter", "Lexend", sans-serif;
+  --font-text-theme: var(--font-text-override), "Lexend", "Inter", var(--font-default), sans-serif;
+  --font-interface-theme: "Inter", "Lexend", var(--font-default), sans-serif;
   
   /*COLORS*/
   --color-red: var(--rose);
@@ -32,8 +32,8 @@
   --text-accent: var(--rose);
   --text-selection: rgb(var(--highlight-med-rgb), 0.5);
   /*--- interactive elements ---*/
-  --interactive-normal: var(--highlight-med);
-  --interactive-hover: var(--highlight-high);
+  --interactive-normal: rgba(var(--highlight-med-rgb), 0.5);
+  --interactive-hover: var(--highlight-med);
   --interactive-accent: var(--rose);
   --interactive-accent-hover: rgba(var(--rose-rgb), 0.8);
 
@@ -45,8 +45,8 @@
   --italic-color: var(--foam);
 
   /*---titlebar---*/
-  --titlebar-background: transparent;
-  --titlebar-background-focused: transparent;
+  --titlebar-background: transparent !important;
+  --titlebar-background-focused: transparent !important;
   --titlebar-border-width: 0px;
   
   /*---icons---*/
@@ -179,7 +179,7 @@
 
   /*status bar*/
   --status-bar-background: var(--base);
-  --status-bar-font-size: 11px;
+  --status-bar-font-size: 0.733em;
   --status-bar-radius: 12px 0 0 12px;
 
   /*Horizontal rule*/
@@ -208,8 +208,9 @@
   --tab-curve: 0px;
   --tab-container-background: transparent;
   --tab-divider-color: transparent;
-  --divider-color: transparent;
   --tab-max-width: 200px;
+  --tab-outline-color: transparent;
+  --tab-stacked-pane-width: 90%;
 
   /*Tags*/
   --tag-background: rgba(var(--rose-rgb), 0.1);
@@ -809,7 +810,7 @@
 }
 
 /*-------------LAYOUT------------------*/ /* remove for default layout*/
-.workspace-tab-container {
+body:not(is-mobile) .workspace-tab-container {
   margin: 7px 14px 14px 0px;
   border-radius: 12px;
 }
@@ -847,6 +848,10 @@ body:not(is-mobile):not(.show-ribbon) .workspace {
   padding: 0px;
   background-color: transparent;
 }
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container { /*Stacked tabs layout*/
+  background-color: var(--background-primary);
+  --tab-outline-color: var(--background-modifier-border);
+}
 /*vault switcher (v1.6) styling*/
 body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
   border-radius: 8px;
@@ -865,9 +870,13 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 }
 /*Mobile styling*/
 .mobile-navbar, .mobile-toolbar {
-  background-color: var(--overlay);
+  background-color: var(--uw-background);
   padding-bottom: 10px;
   padding-top: 0px;
+}
+.is-mobile .workspace-tab-container {
+  margin: 10px;
+  border-radius: 15px;
 }
 
 /*Panels titlebar styling*/
@@ -882,8 +891,11 @@ input[type='text'], input[type='search'], input[type='email'], input[type='passw
   border-radius: 30px;
 }
 
-.menu-separator {
+.menu-separator, .modal.mod-plugin-debug .startup-stat:not(:last-child) {
   border-bottom: 1px dashed var(--background-modifier-border);
+}
+.installed-plugins-container, .community-modal-search-results-wrapper {
+  border-top: 1px dashed var(--background-modifier-border);
 }
 
 .file-embed {
@@ -894,7 +906,8 @@ input[type='text'], input[type='search'], input[type='email'], input[type='passw
 body:not(.no-justify) .cm-s-obsidian, body:not(.no-justify) .markdown-preview-view {
   text-align: justify;
 }
-.markdown-source-view ol > li, .markdown-source-view ul > li, .markdown-preview-view ol > li, .markdown-preview-view ul > li, .cm-line.HyperMD-list-line {
+.markdown-source-view ol > li, .markdown-source-view ul > li, .markdown-preview-view ol > li, .markdown-preview-view ul > li, .cm-line.HyperMD-list-line,
+.HyperMD-codeblock {
   text-align: start;
 }
 
@@ -905,6 +918,7 @@ body:not(.no-justify) .cm-s-obsidian, body:not(.no-justify) .markdown-preview-vi
   margin: 0 0px;
   background-color: var(--text-highlight-bg);
   color: var(--text-normal);
+  box-decoration-break: clone;
 }
 
 /*center inline title*/
@@ -951,8 +965,8 @@ body:not(.no-justify) .cm-s-obsidian, body:not(.no-justify) .markdown-preview-vi
 .suggestion-highlight {
   color: var(--love);
 }
-body:not(.is-phone) div:has(>input.prompt-input) {
-  border-bottom: 2px solid var(--color-red);
+body:not(.is-phone) .prompt-results {
+  border-top: 2px solid var(--color-red);
 }
 .titlebar-button {
   border-radius: 0px 0px 18px 18px;
@@ -982,20 +996,15 @@ body:not(.is-phone) div:has(>input.prompt-input) {
 }
 
 /*smaller pinned tabs*/
-.workspace-tab-header:has(.mod-pinned) {
+body:not(.no-pin) .workspace-tab-header:has(.mod-pinned) {
   --tab-max-width: 55px;
 }
 
 /*Mermaid styling*/
 .mermaid svg {
   display: block;
-  font-family: var(--font-text-theme);
-  font-size: 15px !important;
   margin-left: auto;
   margin-right: auto;
-}
-.mermaid line {
-  stroke: var(--highlight-low) !important;
 }
 
 /*Search and backlinks styling*/
@@ -1017,21 +1026,32 @@ body:not(.is-phone) div:has(>input.prompt-input) {
 .embedded-backlinks .nav-buttons-container {
   margin: 0px;
 }
+/*Web viewer*/
+.webviewer-content {
+  border-top: 1px solid transparent;
+}
+.reader-mode-content {
+  --line-height-normal: 1.75;
+}
 
 /*-----------Rounded corners for tables--------*/
 /*By @FireIsGood : https://forum.obsidian.md/t/adding-rounded-corners-to-markdown-tables-with-snippets-a-clean-solution/60551 */
 body:not(.mod-rtl) {
-  :root table {
+  table {
     border-collapse: separate;
     border-spacing: 0;
   }
-  th:first-child {border-top-left-radius: var(--table-border-radius)}
-  th:last-child {border-top-right-radius: var(--table-border-radius)}
-  tr:last-child td:first-child {border-bottom-left-radius: var(--table-border-radius)}
-  tr:last-child td:last-child {border-bottom-right-radius: var(--table-border-radius)}
-  :root :is(td, th) {
+  th:first-child {
+    border-top-left-radius: var(--table-border-radius);
+  }
+  th:last-child {
+    border-top-right-radius: var(--table-border-radius);
+  }
+  td, th {
     border-width: 0 var(--table-border-width) var(--table-border-width) 0;
-}}
+  }
+}
+
 /*fix header color in source mode*/
 .cm-s-obsidian .HyperMD-table-row-0 {
   color: var(--text-normal);
@@ -1090,9 +1110,11 @@ body:not(.no-links) .markdown-rendered .internal-link {
   background-color: transparent;
   color: var(--link-color);
   border-radius: 7px;
-  padding: 0px 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 1px solid var(--highlight-med);
   transition: background-color 0.5s ease;
+  box-decoration-break: clone;
 }
 body:not(.no-links) .markdown-rendered .internal-link:hover,
 body:not(.no-links) .markdown-source-view.mod-cm6 .cm-hmd-internal-link:hover {
@@ -1242,8 +1264,10 @@ body:not(.no-button) button {
 
 /*write*/
 .write p::first-letter {
-  font-size: 30px;
-  font-weight: bolder;
+  font-size: 1.8em;
+}
+.write p {
+  text-indent: 50px;
 }
 .write, .markdown-source-view.write .cm-scroller {
   font-family: var(--font-monospace);
@@ -1256,7 +1280,7 @@ body:not(.no-button) button {
 .write hr::after {
   content: "* * *";
   color: var(--bold-color);
-  font-size: 120%;
+  font-size: 1.2em;
 }
 
 /*no-embed  (seameless embeds)*/
@@ -1274,6 +1298,7 @@ body:not(.no-button) button {
 /*Cloze (hidden bold text, revealed on hover - reading view only)*/
 .cloze strong, .cloze strong em {
   background-color: var(--highlight-med);
+  box-decoration-break: clone;
   color: transparent !important;
   transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out;
   border-radius: 7px;
@@ -1282,6 +1307,7 @@ body:not(.no-button) button {
 .cloze strong:hover, .cloze strong em:hover  {
   color: var(--text-normal) !important;
   background-color: transparent;
+  cursor: pointer;
 }
 
 /*======= active line highlight ======*/
@@ -1415,6 +1441,11 @@ input[data-task="-"]:checked, li[data-task="-"]>input:checked, li[data-task="-"]
   -webkit-mask-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%235f6368%22%3E%3Cpath%20d%3D%22M480-40.09q-91.34%200-171.59-34.58-80.25-34.59-139.7-94.32-59.45-59.73-94.04-140.27-34.58-80.53-34.58-171.87%200-90.77%2034.58-171.02%2034.59-80.26%2094.04-139.71t139.98-93.75q80.54-34.3%20171.31-34.3t171.31%2034.3q80.53%2034.3%20139.98%2093.75%2059.45%2059.45%2094.04%20139.71%2034.58%2080.25%2034.58%20171.02%200%2091.34-34.58%20171.87-34.59%2080.54-94.04%20140.27-59.45%2059.73-139.7%2094.32Q571.34-40.09%20480-40.09Zm0-122.95q47.61%200%2093-13.74t84.56-41.48L217.13-658.13q-26.61%2039.74-40.35%2084.85-13.74%2045.11-13.74%2092.15%200%20132.61%2092.46%20225.35%2092.46%2092.74%20224.5%2092.74Zm263.43-141.09q26.05-39.74%2039.79-84.85%2013.74-45.11%2013.74-92.15%200-131.48-92.46-223.65-92.46-92.18-224.5-92.18-47.04%200-91.87%2013.18-44.83%2013.17-84.56%2039.21l439.86%20440.44Z%22%2F%3E%3C%2Fsvg%3E');
   mask-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%235f6368%22%3E%3Cpath%20d%3D%22M480-40.09q-91.34%200-171.59-34.58-80.25-34.59-139.7-94.32-59.45-59.73-94.04-140.27-34.58-80.53-34.58-171.87%200-90.77%2034.58-171.02%2034.59-80.26%2094.04-139.71t139.98-93.75q80.54-34.3%20171.31-34.3t171.31%2034.3q80.53%2034.3%20139.98%2093.75%2059.45%2059.45%2094.04%20139.71%2034.58%2080.25%2034.58%20171.02%200%2091.34-34.58%20171.87-34.59%2080.54-94.04%20140.27-59.45%2059.73-139.7%2094.32Q571.34-40.09%20480-40.09Zm0-122.95q47.61%200%2093-13.74t84.56-41.48L217.13-658.13q-26.61%2039.74-40.35%2084.85-13.74%2045.11-13.74%2092.15%200%20132.61%2092.46%20225.35%2092.46%2092.74%20224.5%2092.74Zm263.43-141.09q26.05-39.74%2039.79-84.85%2013.74-45.11%2013.74-92.15%200-131.48-92.46-223.65-92.46-92.18-224.5-92.18-47.04%200-91.87%2013.18-44.83%2013.17-84.56%2039.21l439.86%20440.44Z%22%2F%3E%3C%2Fsvg%3E');
 }
+[data-task="-"] {
+  text-decoration: line-through;
+  text-decoration-color: var(--text-muted);
+  color: var(--text-muted);
+}
 input[data-task="<"]:checked, li[data-task="<"]>input:checked, li[data-task="<"]>p>input:checked {
   color: var(--foam);
   -webkit-mask-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%235f6368%22%3E%3Cpath%20d%3D%22M203.04-40.96q-51.3%200-87.12-36.22-35.83-36.23-35.83-86.73v-554.48q0-51.3%2035.83-87.13%2035.82-35.83%2087.12-35.83H215v-23q0-22.34%2016.46-38.52%2016.46-16.17%2038.8-16.17%2023.13%200%2038.91%2016.17%2015.79%2016.18%2015.79%2038.52v23h310.08v-23q0-22.34%2016.07-38.52%2016.06-16.17%2038.91-16.17%2022.85%200%2038.91%2016.17Q745-886.69%20745-864.35v23h11.96q51.3%200%2087.12%2035.83%2035.83%2035.83%2035.83%2087.13v554.48q0%2050.5-35.83%2086.73-35.82%2036.22-87.12%2036.22H203.04Zm0-122.95h553.92v-409.31H203.04v409.31ZM322.09-388.3q-21.76%200-37.1-15.55t-15.34-37.61q0-21.83%2015.34-37.05%2015.34-15.23%2037.1-15.23h315.82q21.76%200%2037.1%2015.27t15.34%2036.94q0%2021.66-15.34%2037.44-15.34%2015.79-37.1%2015.79H322.09Zm0%20160.6q-21.76%200-37.1-15.43t-15.34-37.33q0-21.66%2015.34-37.16%2015.34-15.51%2037.1-15.51h194.39q21.76%200%2037.1%2015.39%2015.33%2015.38%2015.33%2037.21t-15.33%2037.33q-15.34%2015.5-37.1%2015.5H322.09Z%22%2F%3E%3C%2Fsvg%3E');
@@ -1475,7 +1506,7 @@ body {
 .empty-state-container:hover {
   transform:scale(1.03);
 }
-.empty-state-title, .empty-state-action:nth-child(3), .empty-state-action:nth-child(4) {
+.empty-state-title, .empty-state-action:nth-child(3), .empty-state-action.mod-close {
   display: none;
 }
 .empty-state-container {
@@ -1486,7 +1517,7 @@ body {
   padding: 0px 10px;
   border-radius: 7px;
 }
-.empty-state-action:nth-child(1) {
+.empty-state-action:nth-child(1), .empty-state-action:nth-child(2) {
   margin-bottom: 10px;
 }
 
@@ -1677,7 +1708,7 @@ body:not(.no-widgets) .Clock_Divider {
   margin: 10px 0px;
 }
 body:not(.no-widgets) .Clock_Face {
-  font-size: 45px;
+  font-size: 3em;
 }
 body:not(.no-widgets) .Clock_Date {
   color: var(--subtle);
@@ -1738,7 +1769,7 @@ body:not(.no-widgets) .Countdown_Item {
   border-radius: 5px;
 }
 .oz-nav-file-title {
-  --oz-fta-file-font-size: 13px;
+  --oz-fta-file-font-size: 0.85em;
   color: var(--text-normal);
 }
 .oz-nav-file {
@@ -1794,11 +1825,6 @@ body:not(.no-widgets) .Countdown_Item {
 /*Meta Bind*/
 .mb-card {
 	background-color: var(--overlay);
-}
-
-/*Note toolbar - fix*/
-.cg-note-toolbar-fab-container {
-  top: calc(var(--cg-nt-fab-pos-y-desktop) - 6em);
 }
 
 /*Support for https://github.com/HandaArchitect/obsidian-banner-snippet*/
@@ -1935,7 +1961,7 @@ body:not(.no-widgets) .Countdown_Item {
 /*=============================PDF STYLING - WIP =====================================*/
 @media print {
   body {
-    --print-font-size: 14px;
+    --print-font-size: 0.9em;
     --text-normal: black;
     --bold-weight: 750;
     text-align: justify;
@@ -1999,6 +2025,10 @@ body:not(.no-widgets) .Countdown_Item {
     background-color: transparent !important;
     padding: 0px !important;
     border: 0px !important;
+}
+  u {
+    text-decoration-style: solid;
+    text-underline-offset: 2px;
 }}
 
 /*========================Style settings options==========================*/
@@ -2052,7 +2082,7 @@ body:not(.no-widgets) .Countdown_Item {
 /* Disable click */
 .no-click input[data-task]:not(input[data-task=" "], .no-click input[data-task="x"]):checked,
 .no-click li[data-task]:not(li[data-task=" "], .no-click li[data-task="x"])>input:checked,
-li[data-task]:not(li[data-task=" "], li[data-task="x"])>p>input:checked,
+.no-click li[data-task]:not(li[data-task=" "], .no-click li[data-task="x"])>p>input:checked,
 .no-click label.task-list-label:has(> input[data-task]:not(input[data-task=" "], .no-click input[data-task="x"]):checked) {
   pointer-events: none;
 }
@@ -2071,7 +2101,7 @@ li[data-task]:not(li[data-task=" "], li[data-task="x"])>p>input:checked,
 .workspace-bg .app-container::before {
   background-image: var(--bg-url);
   opacity: var(--bg-opacity, 0.8);
-  filter: blur(var(--bg-blur, 4px));
+  filter: blur(var(--bg-blur, 0px));
   background-color: var(--uw-background);
   background-position: center;
   background-repeat: no-repeat;
@@ -2588,6 +2618,11 @@ settings:
         type: class-toggle
         default: false
     -
+        id: no-pin
+        title: Disable smaller pinned tabs
+        type: class-toggle
+        default: false
+    -
         id: my-info-text
         title:
         type: info-text
@@ -2636,7 +2671,7 @@ settings:
         id: bg-blur
         title: Background blur
         type: variable-number-slider
-        default: 4
+        default: 0
         min: 0
         max: 10
         step: 1

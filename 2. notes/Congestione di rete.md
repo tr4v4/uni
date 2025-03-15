@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/reti-di-calcolatori
 date: 14-12-2024 17:46:42
 links:
@@ -22,7 +22,7 @@ La soluzione _naive_ al problema consiste nell'[[ECN]] (_Explicit Congestion Not
 
 Il problema di questo approccio è che potrebbe amplificare la congestione, nel tentativo di risolverla! Infatti **i pacchetti di notifica della congestione potrebbero essere scartati a loro volta, generando un effetto domino** che non farebbe altro che diffondere la congestione su tutta la rete.
 
-In poche parole, i router non hanno sufficienti capacità[^1] per poter risolvere il problema in modo autonomo: **bisogna agire sui mittenti**. Se infatti _tutti i mittente si mettono d'accordo a inviare pacchetti più lentamente, la congestione si risolve da sola_.
+In poche parole, i router non hanno sufficienti capacità[^1] per poter risolvere il problema in modo autonomo: **bisogna agire sui mittenti**. Se infatti _tutti i mittenti si mettono d'accordo a inviare pacchetti più lentamente, la congestione si risolve da sola_.
 
 Questo è ciò che avviene nel meccanismo di [[Controllo della congestione|controllo della congestione]] implementato dal [[TCP]].
 

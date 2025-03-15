@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": true,
@@ -83,9 +83,23 @@
         "a": 1,
         "rgb": 295203
       }
+    },
+    {
+      "query": "tag:#topic/ottimizzazione-combinatoria  ",
+      "color": {
+        "a": 1,
+        "rgb": 16741120
+      }
+    },
+    {
+      "query": "tag:#topic/calcolo-delle-probabilità-e-statistica  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711816
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -95,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.15146463002257685,
+  "scale": 0.09248815955110723,
   "close": true
 }

@@ -3,15 +3,17 @@ tags:
   - "#category/note"
   - "#status/finished"
   - topic/programmazione
+  - topic/linguaggi-di-programmazione
 date: 20-09-2023 19:23:34
 links:
   - "[[Lecture 20092023091613]]"
   - "[[Lecture 09102023151504]]"
+  - "[[Lecture 19022025111150]]"
 ---
 # Dichiarazione
 ---
 ## Definizione
-> La **dichiarazione** è quel processo grazie al quale viene comunicato al [[Compilatore|compilatore]] l'[[Identificatore|identificatore]] e il suo _tipo_.
+> La **dichiarazione** è quel processo grazie al quale viene comunicato al [[Compilatore|compilatore]] l'[[Identificatore|identificatore]] e il suo _tipo_. Piu' precisamente, e' il meccanismo (implicito o esplicito) col quale si crea un [[Binding|binding]] in un [[Ambiente|ambiente]].
 
 Grazie alla dichiarazione, infatti, il compilatore è in grado di **allocare sufficiente memoria a contenere i valori utilizzati dal programma**: _scannerizza_ tutte le dichiarazioni all'interno del codice per poter definire a priori quanto occuperà in [[RAM]] il programma (nella sezione dedicata ovviamente ai _dati_).
 

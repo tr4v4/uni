@@ -22,7 +22,7 @@ Le strutture dati si dividono per tipologie:
 	- _contenimento_, gerarchia per gli elementi geometrici;
 - [[Grafo|grafi]]
 
-Poi c'è il **testo**, che  non è né un dato, né un record, né una struttura dati. Del testo si sa che:
+Poi c'è il **testo**, che non è né un dato, né un record, né una struttura dati. Del testo si sa che:
 - ha una _struttura_ (di contenimento, ossia blocchi di testo organizzati in modo gerarchico)
 - ha un _ordine_ (alcune parti vengono prima di altre)
 - ha parti _significative_ e importanti da identificare e altre che non lo sono
@@ -64,7 +64,7 @@ Ci sono tantissime modalità del markup:
 - interno vs. esterno
 - puntuazionale vs. presentazionale
 - procedurale vs. descrittivo
-- referenziale vs. metamatkup
+- referenziale vs. metamarkup
 
 ## Linguaggi
 I linguaggi del markup sono:

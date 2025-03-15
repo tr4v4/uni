@@ -25,5 +25,4 @@ Attualmente, quando si parla di indirizzo IP, si fa riferimento all'[[IPv4]].
 ## Funzionamento
 Un indirizzo IP _viene associato a una e una sola [[Scheda di rete|interfaccia di rete]] di un dispositivo_. Quindi, se un dispositivo ha più di un'interfaccia di rete, ha più di un indirizzo IP. Quindi, a differenza del [[Indirizzo MAC|MAC]], un indirizzo IP è associato al dispositivo solo nel momento in cui è connesso a [[Internet|internet]].
 
-
 ## Referenze
