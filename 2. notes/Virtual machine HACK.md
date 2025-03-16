@@ -21,7 +21,7 @@ In particolare la VM HACK viene impegnata nella fase di [[Compilazione a 2 livel
 La virtual machine HACK viene implementata a [[Stack|stack]] ([[Pila|pila]]): ogni istruzione si realizza mediante il `push` e il `pop` dei dati in un _segmento di memoria virtuale_ (appunto lo _stack_).
 
 ### Comandi
-I comandi, essendo strutturati a pila, seguono la [[Notazione polacca|notazione polacca]].
+I comandi, essendo strutturati a pila, seguono la [[Notazione prefissa|notazione polacca]].
 ![[comandi-virtual-machine-hack.png]]
 
 Caricati quindi due generici `x` e `y` in stack (con due `push`), mediante un `add` i due valori vengono sommati e il risultato viene sovrascritto in `x` (`y` viene perso).

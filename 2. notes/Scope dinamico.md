@@ -6,6 +6,7 @@ tags:
 date: 25-02-2025 10:46:31
 links:
   - "[[Lecture 20022025131602]]"
+  - "[[Lecture 27022025131944]]"
 ---
 # Scope dinamico
 ---
@@ -15,5 +16,12 @@ links:
 ![[scope-dinamico.png]]
 
 E' il meno usato, ma piu' semplice da implementare nel [[Compilatore|compilatore]].
+
+## Implementazione
+Per implementare lo scope dinamico e' _sufficiente risalire i [[Record di attivazione|record di attivazione]] nello [[Stack|stack]] fino a trovare il blocco che contiene la variabile cercata_.
+
+Esistono 2 tecniche per rendere efficiente tale ricerca:
+- [[A-list]]
+- [[CRT]]
 
 ## Referenze

@@ -15,10 +15,10 @@ A seguito di un [[Interrupt|interrupt]] spedito al [[CPU|processore]], avvengono
 	1. finisce l'esecuzione dell'istruzione corrente[^1];
 	2. verifica la presenza di un segnale di interrupt (assumiamo ci sia);
 		- ![[cpu-interrupt-handling.png]]
-	3. salva il suo stato, per preparasi al [[Context-switch|context-switch]]
+	3. salva il suo stato, per preparasi al [[Context switch|context-switch]]
 		- metodo 1: salvataggio dei registri "critici", in particolare [[PC]] + [[PSW]] (registro di stato, ossia i flag della CPU);
 		- metodo 2: fa uno [[Snapshot|snapshot]] di tutti i registri della CPU[^2];
-	4. seleziona l'_interrupt handler_ appropriato (interrogando l'[[Interrupt vector|interrupt vector]]);
+	4. seleziona l'_[[Interrupt handler|interrupt handler]]_ appropriato (interrogando l'[[Interrupt vector|interrupt vector]]);
 	5. carica il PC con l'indirizzo iniziale dell'interrupt handler scelto;
 	6. passa dalla modalita' utente alla modalita' kernel;
 2. il [[Sistema operativo|sistema operativo]]

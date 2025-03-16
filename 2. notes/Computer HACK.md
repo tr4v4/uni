@@ -33,7 +33,7 @@ Il computer HACK è un grande [[Circuiti sequenziali|circuito sequenziale]] di a
 			- range: `24576` (un registro a 16 bit)
 			- funzionamento
 				- _possiamo solo leggere dalla memoria i tasti premuti sulla tastiera_ --> vengono automaticamente caricati in memoria dal simulatore
-				- si usa tecnica del [[Memory mapping|memory mapping]]
+				- si usa tecnica del [[Memory mapped I-O|memory mapping]]
 	- ![[memoria-hack.png]]
 	- osservazioni:
 		- per indirizzare 24576 indirizzi servono per forza 15 bit dell'address --> i restanti indirizzi non vengono considerati

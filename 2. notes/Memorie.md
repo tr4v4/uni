@@ -3,10 +3,12 @@ tags:
   - "#category/note"
   - "#status/finished"
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 22-09-2023 19:59:20
 links:
   - "[[Lecture 21092023130150]]"
   - "[[Lecture 18102023151217]]"
+  - "[[Lecture 21022025091223]]"
 ---
 # Memorie
 ---
@@ -25,6 +27,9 @@ Delle 3 caratteristiche non si può volere tutto, e anzi queste determinano di u
 - **persistenti** - che mantengono i valori salvati se spenti
 	- [[HD|dischi magnetici]] e a [[SSD|stato solido]] (on-line, perché sempre accessibili)
 	- nastri, [[CD|dischi ottici]] (off-line, perché _da montare_ per poter accedervi)
+
+La gerarchia delle memorie e' quindi la seguente:
+![[gerarchia-memorie.png]]
 
 ## Organizzazione
 Le memorie, qualunque esse siano, si organizzano in **celle**, vale a dire _sequenze di bit identificate da un indirizzo_. A seconda del tipo di memoria e del tipo di architettura dell'elaboratore, la capacità delle celle può variare: nella maggior parte dei casi, però, **le celle di memoria sono di 1 byte**.

@@ -4,141 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e33b2ccfbfc2c77",
+        "id": "b1ff0841e1eb4ee0",
         "type": "tabs",
-        "dimension": 39.05579399141631,
         "children": [
           {
-            "id": "ea85a0ceca4be77e",
+            "id": "8796e1e7edd4ba9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Sistemi operativi.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemi operativi"
-            }
-          },
-          {
-            "id": "b4fa81f1555537d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Message passing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Message passing"
-            }
-          },
-          {
-            "id": "d6014a919b4a7291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 21022025091223.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 21022025091223"
-            }
-          },
-          {
-            "id": "b6891a589c02e7b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 27022025151550.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 27022025151550"
-            }
-          },
-          {
-            "id": "c61921e6612f69e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 28022025091715.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 28022025091715"
-            }
-          },
-          {
-            "id": "d9d0cfecb018c0b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 06032025151956.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 06032025151956"
-            }
-          },
-          {
-            "id": "ee80075554a44404",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 07032025091554.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 07032025091554"
-            }
-          },
-          {
-            "id": "f7987b0520d40a4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 13032025151745.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 13032025151745"
-            }
-          }
-        ]
-      },
-      {
-        "id": "662b57c662819c83",
-        "type": "tabs",
-        "dimension": 60.94420600858369,
-        "children": [
-          {
-            "id": "52fe139cf72f82e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Sistema operativo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sistema operativo"
+              "title": "Linguaggi di programmazione"
             }
           }
         ]
@@ -173,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"visita ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -390,44 +270,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ea85a0ceca4be77e",
+  "active": "8796e1e7edd4ba9b",
   "lastOpenFiles": [
-    "2. notes/Sistema operativo.md",
-    "0. mocs/Sistemi operativi.md",
-    "2. notes/Message passing (conflict 2025-02-04-14-38-56).md",
-    "2. notes/Message passing.md",
-    "1. lectures/Lecture 21022025091223.md",
-    "1. lectures/Lecture 13032025151745.md",
-    "1. lectures/Lecture 07032025091554.md",
-    "1. lectures/Lecture 06032025151956.md",
-    "1. lectures/Lecture 28022025091715.md",
-    "1. lectures/Lecture 27022025151550.md",
-    "0. mocs/Calcolo delle probabilità e statistica.md",
-    "1. lectures/Lecture 07032025131750.md",
-    "1. lectures/Lecture 14032025131849.md",
-    "media/tabella_combinatoria.png",
-    "2. notes/Formula di Bayes.md",
-    "2. notes/Formula delle probabilità totali.md",
-    "2. notes/Eventi indipendenti.md",
-    "2. notes/Probabilita' condizionata.md",
-    "2. notes/Calcolo combinatorio.md",
-    "1. lectures/Lecture 04032025133148.md",
-    "2. notes/Probabilita' uniforme.md",
-    "2. notes/Principio di ragione non sufficiente.md",
-    "media/bayes-urne.png",
-    "2. notes/Regola della catena.md",
-    "media/diagramma-ad-albero-urne.png",
-    "media/urna-probabilita'-totali.png",
-    "2. notes/Assiomi della probabilita'.md",
-    "2. notes/Probabilita' dell'unione non disgiunta di eventi.md",
-    "media/gioco-del-lotto.png",
-    "1. lectures/Lecture 28022025132238.md",
-    "2. notes/Azione atomica.md",
-    "media/gestione-stack.png",
-    "media/data-and-control-plane.png",
-    "media/control-plane-remote-controller.png",
-    "media/formula-probabilita'-totali.png",
-    "media/taglio-s-t.png",
+    "1. lectures/Lecture 05032025111458.md",
+    "1. lectures/Lecture 12032025111631.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 27022025131944.md",
+    "2. notes/Allocazione della memoria.md",
+    "2. notes/Espressione.md",
+    "2. notes/Variabile.md",
+    "2. notes/Comando.md",
+    "2. notes/Albero informatico.md",
+    "2. notes/Albero binario.md",
+    "2. notes/Notazione infissa.md",
+    "2. notes/Notazione prefissa.md",
+    "2. notes/Notazione postfissa.md",
+    "2. notes/Record di attivazione.md",
+    "2. notes/Stack.md",
+    "2. notes/Scope dinamico.md",
+    "2. notes/A-list.md",
+    "2. notes/CRT.md",
+    "media/crt-pila-nascosta.png",
+    "media/crt.png",
+    "media/a-list.png",
+    "2. notes/Scope statico.md",
+    "2. notes/Implementazione.md",
+    "2. notes/Scope.md",
+    "2. notes/Catena statica.md",
+    "2. notes/Display.md",
+    "1. lectures/Lecture 26022025111603.md",
+    "media/display-4.png",
+    "media/display-3.png",
+    "media/display-2.png",
+    "media/display-1.png",
+    "media/catena-statica-2.png",
+    "media/catena-statica-1.png",
+    "2. notes/Allocazione statica della memoria.md",
+    "2. notes/Allocazione dinamica della memoria.md",
+    "media/lista-libera-2.png",
     "2. notes/Equivalenze regolari.canvas",
     "5. seminars",
     "media/jupiter.jpg.crdownload",

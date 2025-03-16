@@ -3,9 +3,11 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/linguaggi-di-programmazione
 date: 24-11-2023 17:27:59
 links:
   - "[[Lecture 20112023130829]]"
+  - "[[Lecture 26022025111603]]"
 ---
 # First fit
 ---

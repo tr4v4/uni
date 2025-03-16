@@ -7,6 +7,7 @@ date: 15-10-2024 16:58:39
 links:
   - "[[Lecture 10102024092110]]"
   - "[[Lecture 17102024091631]]"
+  - "[[Lecture 06032025151956]]"
 ---
 # Processo
 ---
@@ -36,6 +37,26 @@ Un processo si può trovare in 3 stati:
 
 ![[stati-processo.png]]
 
+<u>Nota bene</u>: per le [[System call|system call]] non bloccanti (come `getpid()`), il processo va nella _ready queue_, senza doversi necessariamente bloccare in qualche coda in stato di _waiting_.
+
+## Strutture dati
+### Code di processi
+Per implementare gli stati, si implementano le seguenti code dei processi:
+- **ready queue** - [[Strutture dati|struttura dati]] da cui lo [[Scheduler|scheduler]] sceglie il processo da eseguire;
+- **waiting queue** - sono in realta' implementate dai [[Semafori|semafori]] --> per ogni device ci sara' un semaforo con associata una coda di attesa.
+
+![[code-dei-processi.png]]
+
+Piu' precisamente si avra':
+![[processo-in-scheduler.png]]
+
+### Gerarchie di processi
+Si vuole anche che quando un processo crea un nuovo processo, il creante sia il padre e il creato il figlio: ci dev'essere una struttura dati ([[Albero informatico|albero]]) che gestisca questo legame di "parentela" tra i processi.
+
+Questo e' un meccanismo molto comodo: **quando creiamo un processo questo eredita tutti i campi dal genitore**, tranne quelli che vogliamo specificare.
+
+<u>Nota bene</u>: in [[Linux]] il processo "Adamo/Eva" e' `/sbin/init`, che infatti ha `pid` 1. Questo eredita tutti i processi orfani.
+
 ## Interazioni
 ### Processi
 I processi si classificano in base a quanto sono consapevoli gli uni degli altri:
@@ -62,5 +83,21 @@ Qui il _sistema operativo deve facilitare la cooperazione fornendo meccanismi di
 I processi interagiscono su due modelli di utilizzo della memoria:
 - **memoria condivisa** - comunicazione tramite sincronizzazione;
 - **memoria privata** - sincronizzazione tramite comunicazione;
+
+## Processi vs. thread
+Un processo e' singolo, un unita' che esegue una singola sequenza di istruzioni. Questo, poi, puo' prevedere la creazione di tanti [[Thread|thread]], delle **sottoattivita' del processo che possono essere eseguite simultaneamente**.
+
+Tutti i sistemi operativi moderni supportano multithreading, ossia la possibilita' di un processo di generare threads.
+
+Di conseguenza, in sistemi del genere (quindi praticamente tutti), **la CPU non esegue processi ma singoli thread**! I processi non diventano altro che i titolari dei thread, ognuno dei quali ha invece informazioni private sul suo stato di esecuzione (su stack, tra l'altro, separati). Lo **[[Scheduling|scheduling]], su questi sistemi, viene allora fatto sui thread e non sui processi**.
+
+![[single-threading-vs-multi-threading.png]]
+
+### Motivazioni
+E' piu' efficiente sincronizzare i thread che i processi, perche' questi sono raccolti e controllabili dal processo che li ha generati:
+- per _far comunicare i processi, che hanno memoria privata, dovremmo adottare [[Message passing|message passing]]_ (poco efficiente);
+- invece la _sincronizzazione tra i thread avviene mediante i [[Semafori|semafori]] perche' agiscono sulla memoria condivisa del processo_.
+
+Inoltre fare il [[Context switch|context switch]] tra i processi e' piu' costoso che farlo sui thread.
 
 ## Referenze

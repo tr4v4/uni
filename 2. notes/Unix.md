@@ -7,6 +7,7 @@ date: 23-10-2024 21:56:36
 links:
   - "[[Lecture 11102024092906]]"
   - "[[Lecture 16102024132343]]"
+  - "[[Lecture 27022025151550]]"
 ---
 # Unix
 ---
@@ -19,6 +20,9 @@ Le pietre miliari della storia di Unix sono raccolte qui:
 - viene l'idea di sviluppare un linguaggio che consenta sia di interagire con l'hardware a basso livello, che di usare strutture di alto livello: [[C]]
 - C ha una novità enorme: _fino ad allora i compilatori erano scritti in Assembly, mentre il compilatore C era scritto in C_[^1]!
 - il grande riscontro e successo ottenuto da Unix è proprio dovuto a questo: poteva essere usato su macchine diversissime, proprio perché era scritto in C e con la tecnica del cross-compiling si poteva velocemente portare su altre macchine
+
+## Architettura
+![[unix-architettura.png]]
 
 ## Caratteristiche
 ### File system

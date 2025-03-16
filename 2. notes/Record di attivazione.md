@@ -40,19 +40,19 @@ I record di attivazione dei blocchi anonimi contengono:
 
 ### Procedure/funzioni
 I record di attivazione delle funzioni, invece, contengono:
-- puntatore di catena dinamica
-- puntatore di [[Catena statica|catena statica]]
-- indirizzo di ritorno
-- indirizzo del risultato
-- parametri
-- variabili locali
-- risultati intermedi
+- puntatore di catena dinamica;
+- puntatore di [[Catena statica|catena statica]];
+- indirizzo di ritorno;
+- indirizzo del risultato;
+- parametri;
+- variabili locali;
+- risultati intermedi;
 
 Il tutto sarà gestito come da immagine:
 ![[gestione-stack.png]]
 
 Servono quindi:
 - **link dinamico** --> per consentire di fare `POP` senza sapere la dimensione del record (possono avere dimensioni differenti);
-- **puntatore RdA** --> per consentire di risalire facilmente alle variabili locali partendo dal puntatore al top della pila (con un offset);
+- **puntatore RdA** --> per consentire di risalire facilmente alle variabili locali (con un offset);
 
 ## Referenze

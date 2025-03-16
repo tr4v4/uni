@@ -3,16 +3,19 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 25-09-2023 15:43:09
 links:
   - "[[Lecture 25092023130405]]"
   - "[[Lecture 18102023151217]]"
   - "[[Lecture 19102023130600]]"
+  - "[[Lecture 21022025091223]]"
 ---
 # Cache
 ---
 ## Introduzione
 > La **cache** è una memoria interna alla [[CPU]] usata per memorizzare informazioni probabilmente utili al processore nella prossimità presenti in [[RAM]]. Il contenuto della cache sarà sempre e solo un [[Definizione di essere sottoinsieme|sottoinsieme]] della RAM.
+> Formalmente, _la cache di `x` e' una memoria piu' veloce di `x` che tiene un sottoinsieme dei dati di `x`_.
 
 La RAM è una memoria molto grande; i registri contengono massimo una _word_ (max. 64 bit). La cache è una _via di mezzo_, perché meno capiente della RAM ma più veloce di essa.
 
@@ -49,6 +52,10 @@ Per cui i casi di [[Ciclo di fetch-decode-execute|fetch]] del processore sono du
 - se la cella `x` non è presente in cache allora la preleva dalla RAM e la copia in cache e nel processore
 
 <u>Da notare</u>: la CPU quindi **accede sempre prima alla cache** e poi alla memoria.
+
+<u>Nota bene</u>: l'indeterminatezza dei tempi di accesso alla memoria da' fastidio ai [[Sistema real-time|sistemi real-time]]!
+
+<u>Nota bene</u>: la cache CPU e' gestita lato hardware; la cache disco ([[Memoria virtuale|memoria virtuale]]) e' gestita invece dal [[Sistema operativo|sistema operativo]].
 
 ## Organizzazione
 Al livello di [[Microarchitettura|microarchitettura]] si definisce il modo in cui la cache è organizzata, ed esistono diverse politiche:

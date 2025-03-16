@@ -10,6 +10,9 @@ links:
   - "[[Lecture 10102024092110]]"
   - "[[Lecture 20022025151640]]"
   - "[[Lecture 21022025091223]]"
+  - "[[Lecture 27022025151550]]"
+  - "[[Lecture 28022025091715]]"
+  - "[[Lecture 06032025151956]]"
 ---
 # Sistema operativo
 ---
@@ -28,13 +31,43 @@ Se volessimo dare una descrizione, allora
 
 ## Compiti
 Di fatto il sistema operativo si occupa di:
-- _gestire la memoria_
-	- [[Paginazione|paginazione]]
-	- [[Segmentazione|segmentazione]] (ed eventuale [[Combinazione segmentazione-paginazione|combinazione]])
+- _gestire la memoria principale_, che viene astratta dal gestore della memoria come un "array" di byte indirizzabili singolarmente
+	- tenere traccia di quali parti della memoria sono usate e da chi
+	- decidere quali processi caricare quando diventa disponibile spazio in memoria
+	- allocare e deallocare lo spazio di memoria quando necessario
+	- usare memoria secondaria per ampliare la memoria principale ([[Memoria virtuale|memoria virtuale]])
+		- [[Paginazione|paginazione]]
+		- [[Segmentazione|segmentazione]] (ed eventuale [[Combinazione segmentazione-paginazione|combinazione]])
+- _gestire la memoria secondaria_ (non e' il file system!)
+	- gestione partizionamento
+	- gestione dell'accesso efficiente e affidabile ([[RAID]])
+	- ordinamento efficiente delle richieste (disk scheduling)
 - _gestire i [[Processo|processi]]_
-	- [[Concorrenza|concorrenza]]
+	- creazione e terminazione dei processi
+	- sospensione e riattivazione dei processi
+	- gestione del [[Deadlock|deadlock]]
+	- comunicazione tra processi ([[Message passing|message passing]])
+	- sincronizzazione tra processi ([[Concorrenza|concorrenza]])
 - _gestire le periferiche [[I-O|I/O]]_
 	- attraverso i [[Device controller|device controller]]
+	- interfaccia comune per la gestione dei device driver
+	- insieme di driver per dispositivi hardware specifici
+	- sistema di gestione di buffer per il caching delle informazioni
+- _gestione del [[File system|file system]]_
+	- creazione e cancellazione di [[File|file]]
+	- creazione e cancellazione di directory
+	- manipolazione di file e directory
+	- codifica del file system su una sequenza di blocchi
+- _supporto multiuser_, in particolare protezione
+	- gestire l'identità del proprietario del processo (`uid` e `gid`)
+	- gestire chi può fare cosa
+	- fornire un meccanismo di attuazione della protezione
+- _networking_
+	- protocolli di comunicazione a basso livello
+		- [[IP]]
+		- [[TCP]], [[UDP]]
+	- servizi di comunicazione ad alto livello
+		- file system distribuiti (NFS, SMB)
 - _gestire gli [[Interrupt|interrupt]]_
 	- i **sistemi operativi moderni sono detti "interrupt-driven"**: sono gli interrupt (sia hardware che software) che consentono al sistema operativo di entrare in azione per la loro gestione e di creare l'avvicendamento del tempo di esecuzione tra i processi con lo [[Scheduler|scheduler]] (mediante l'[[Interval timer|interval timer]])
 
@@ -45,6 +78,15 @@ Sono compiti estremamente complessi... Soprattutto perché il tutto dev'essere f
 
 E' interessante notare come il sistema operativo sia un qualcosa di strano. Il sistema controllato e quello controllante, di fatto, hanno la stessa natura: il SO è un programma che controlla altri programmi, per cui di fatto deve autogestirsi.
 Di solito avviene che _il sistema operativo lascia il controllo a un processo, e quando questo non fa operazioni aritmetico-logiche ma chiama per esempio una system call, o termina, allora rimanda in esecuzione il sistema operativo_.
+
+### Strutture dati
+Per svolgere i suoi compiti, il sistema operativo si serve delle seguenti strutture dati principali:
+- _tabelle di memoria_;
+- _tabelle di I-O_;
+- _tabelle del file system_;
+- _tabelle dei processi_ (contenente i [[PCB]]).
+
+![[tabelle-sistema-operativo.png]]
 
 ## Storia
 Possiamo dividere i sistemi operativi in 4 grandi generazioni:
@@ -76,9 +118,23 @@ Possiamo dividere i sistemi operativi in 4 grandi generazioni:
 5. generazione 4: 1980-oggi, personal computer
 	- non si pensava alla possibilità che qualcuno volesse, o potesse volere un computer a casa sua
 
+## Tipologie
+I sistemi operativi possono avere:
+- **struttura semplice** --> non hanno una struttura progettata a priori, sono semplicemente una collezione di procedure; risultano in SO semplici e limitati
+	- [[MS-DOS]] e [[Unix]] appartengono a questa categoria
+	- anche UNIX è poco strutturato, in gergo ha un kernel monolitico --> se si blocca una parte si blocca tutto
+	- sistemi di questo tipo sono **poco modulari ma estremamente efficienti**
+- **struttura a strati**, secondo il _modello a cipolla_
+	- [[The O.S.]] (di [[Edsger Dijkstra|Dijkstra]]) e [[Venus OS]] appartengono a questa categoria
+	- sistemi di questo tipo sono **poco efficienti ma estremamente modulari**
+
+## Progettazione
+Quando si progetta un sistema operativo bisogna prevedere la sua installazione su architetture hardware differenti. Si fa definendo dei parametri che saranno definiti al momento dell'installazione, oppure usando dei moduli aggiuntivi.
+
 ## Referenze
 - [[Sistema parallelo]]
 - [[Sistema distribuito]]
 - [[Sistema real-time]]
+- [[Kernel]]
 
 - il ristorante di Brachetti riflette quasi tutte le peculiarità di un sistema operativo

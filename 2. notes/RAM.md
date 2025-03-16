@@ -4,12 +4,14 @@ tags:
   - "#status/finished"
   - topic/programmazione
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 18-09-2023 22:06:44
 links:
   - "[[Lecture 18092023150410]]"
   - "[[Lecture 20092023091613]]"
   - "[[Lecture 20092023151652]]"
   - "[[Lecture 16102023125805]]"
+  - "[[Lecture 21022025091223]]"
 ---
 # RAM
 ---
@@ -45,6 +47,9 @@ Nel dettaglio la RAM si compone di:
 	- se `load=0` allora mette in `out` solo il valore del _w-bit register_ a cui punta `address`[^2]
 
 ![[implementazione-ram.png]]
+
+## Accesso
+L'accesso alla RAM avviene mediante le istruzioni `LOAD` e `STORE`. Nei sistemi moderni, inoltre, ci si accede tramite [[MMU]].
 
 ## Referenze
 [^1]: userà un [[Demultiplexer]]

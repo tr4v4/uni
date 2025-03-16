@@ -20,8 +20,8 @@ date: 16-09-2024 10:45:14
 | [[Lecture 13032025151745]] | 13-03-2025 15:17:45 |
 | [[Lecture 07032025091554]] | 07-03-2025 09:15:54 |
 | [[Lecture 06032025151956]] | 06-03-2025 15:19:56 |
-| [[Lecture 28022025091715]] | 28-02-2025 09:17:15 |
 | [[Lecture 27022025151550]] | 27-02-2025 15:15:50 |
+| [[Lecture 28022025091715]] | 28-02-2025 09:17:15 |
 | [[Lecture 21022025091223]] | 21-02-2025 09:12:23 |
 | [[Lecture 20022025151640]] | 20-02-2025 15:16:40 |
 | [[Lecture 19122024091332]] | 19-12-2024 09:13:32 |
@@ -51,17 +51,14 @@ date: 16-09-2024 10:45:14
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
 | [[Lecture 28112024092134]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 28022025091715]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 27022025151550]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21112024092345]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 21022025091223]] | <ul><li>#status/ongoing</li></ul> |
 | [[Lecture 19122024091332]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 13032025151745]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 12122024092737]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 07032025091554]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 06032025151956]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 07032025091554]] | <ul><li>#status/ongoing</li></ul> |
 | [[Lecture 05122024092457]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ## Note
 - Argomenti
@@ -77,8 +74,21 @@ date: 16-09-2024 10:45:14
 	- 2° parte (vero e proprio corso):
 		- Sistema operativo, [[Sistema parallelo]], [[Sistema distribuito]], [[Sistema real-time]]
 		- interfacciamento HW
+			- [[Device controller]]
+			- [[Interrupt]], [[Gestione degli interrupt]], [[Trap]]
+			- [[DMA]]
+			- [[RAM]]
+			- [[Memory mapped I-O]]
+			- [[Memorie]]
+				- [[HD]], [[SSD]]
+				- [[Cache]]
+			- [[Protezione hardware]], [[MMU]], [[Mode switch]]
 		- architettura OS
-		- scheduling
+			- [[Kernel]], [[Kernel monolitico]], [[Microkernel]], [[Kernel ibrido]], [[ExoKernel]], [[AnyKernel]]
+			- [[Macchina virtuale]]
+		- [[Scheduling]], [[Scheduler]]
+			- [[Context switch]]
+			- [[FCFS]], [[SJF]], [[Round-Robin]]
 		- gestione risorse
 		- gestione memoria
 		- gestione memoria secondaria
@@ -90,6 +100,22 @@ date: 16-09-2024 10:45:14
 
 | Note                                                                                                                   | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Round-Robin]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[FCFS]]                                                                                             | <ul><li>#status/finished</li></ul> |
+| [[Context switch]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Scheduler]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[PCB]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Scheduling]]                                                                                 | <ul><li>#status/pending</li></ul>  |
+| [[Macchina virtuale]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Kernel ibrido]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[Microkernel]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Kernel monolitico]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Kernel]]                                                                                         | <ul><li>#status/finished</li></ul> |
+| [[File system]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[MMU]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Protezione hardware]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Memory mapped I-O]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[DMA]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Gestione degli interrupt]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[Device controller]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Sistema real-time]]                                                                   | <ul><li>#status/finished</li></ul> |
@@ -131,12 +157,19 @@ date: 16-09-2024 10:45:14
 | [[Distributed processing]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[Multiprocessing]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Concorrenza]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[Processo]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Programma]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Processo]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Assioma di finite progress]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Interrupt]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[SJF]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[HD]]                                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[SSD]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[CD]]                                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Architettura di von Neumann]]                                               | <ul><li>#status/finished</li></ul> |
 | [[Trap]]                                                                                             | <ul><li>#status/finished</li></ul> |
+| [[Memorie]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[RAM]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Cache]]                                                                                           | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
 
 
