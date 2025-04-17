@@ -1,0 +1,328 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "63c9dc4f21f72a25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "960352a1ef521500",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. lectures/Lecture 28022025091715.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 28022025091715"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "11575a6bd2823201",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498666,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "960352a1ef521500",
+  "lastOpenFiles": [
+    "2. notes/Distribuzione binomiale.md",
+    "2. notes/Varianza.md",
+    "2. notes/Distribuzione di Poisson.md",
+    "2. notes/Distribuzioni notevoli di variabili aleatorie discrete.md",
+    "2. notes/Distribuzione di Bernoulli.md",
+    "2. notes/Distribuzione uniforme discreta.md",
+    "2. notes/Deviazione standard.md",
+    "1. lectures/Lecture 08042025152354.md",
+    "1. lectures/Lecture 14042025111851.md",
+    "0. mocs/Reti di calcolatori.md",
+    "0. mocs/Ottimizzazione combinatoria.md",
+    "1. lectures/Lecture 09042025091244.md",
+    "1. lectures/Lecture 14042025091835.md",
+    "1. lectures/Lecture 08042025133009.md",
+    "0. mocs/Calcolo delle probabilità e statistica.md",
+    "1. lectures/Lecture 11042025131834.md",
+    "1. lectures/Lecture 01042025132135.md",
+    "1. lectures/Lecture 04042025092728.md",
+    "1. lectures/Lecture 11042025104834.md",
+    "0. mocs/Sistemi operativi.md",
+    "1. lectures/Lecture 10042025153553.md",
+    "1. lectures/Lecture 21032025091929.md",
+    "1. lectures/Lecture 07042025111854.md",
+    "1. lectures/Lecture 03042025152151.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 09042025110710.md",
+    "media/passaggio-per-nome-chiusura.png",
+    "media/EIRP.png",
+    "media/scope-statico-deep-shallow.png",
+    "media/mW-dB-conversion-table.png",
+    "media/dope-vector.png",
+    "media/sdn.png",
+    "media/eccezione-esempio.png",
+    "media/ipv6-pacchetto.png",
+    "media/openflow-table.png",
+    "media/funzioni-ordine-superiore-restituzione2.png",
+    "2. notes/Equivalenze regolari.canvas",
+    "5. seminars",
+    "media/jupiter.jpg.crdownload",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
+    "netlify.toml~",
+    "ads.txt",
+    "4913",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

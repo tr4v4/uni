@@ -1005,6 +1005,10 @@ body:not(.no-pin) .workspace-tab-header:has(.mod-pinned) {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  .internal-link {
+    padding: 0 !important;
+    border: transparent !important;
+  }
 }
 
 /*Search and backlinks styling*/
@@ -1781,11 +1785,6 @@ body:not(.no-widgets) .Countdown_Item {
   margin-right: 8px;
 }
 
-/*Editing toolbar fix*/
-.cMenuToolbarDefaultAesthetic {
-  background-color: var(--base);
-}
-
 /*Todoist sync styling*/
 /*tasks description*/
 .todoist-task-container .todoist-task .todoist-task-metadata {
@@ -1838,8 +1837,8 @@ body:not(.no-widgets) .Countdown_Item {
 }
 
 /*Excalidraw*/
-.excalidraw {
-  background-color: var(--surface);
+.excalidraw-container {
+  background-color: var(--surface) !important;
 }
 .excalidraw-embedded-img, .excalidraw-embedded-img:hover { /*disable animation on Excalidraw drawings*/
   transition: none;

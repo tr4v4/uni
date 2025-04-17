@@ -12,7 +12,7 @@ links:
 # Puntatori
 ---
 ## Definizione
-> I **puntatori** sono il [[Tipi di dati|tipo di dati]] degli indirizzi di memoria.
+> I **puntatori** sono il [[Tipi di dato|tipo di dati]] degli indirizzi di memoria.
 
 Il puntatore è un _concetto complesso_ perché non ha un'_equivalenza matematica_[^1]: non esiste alcun contenitore in matematica, è un qualcosa che ha senso solo per l'informatica.
 

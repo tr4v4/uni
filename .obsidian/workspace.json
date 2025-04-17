@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b1ff0841e1eb4ee0",
+        "id": "d8f13eb285a58ee6",
         "type": "tabs",
+        "dimension": 27.69396551724138,
         "children": [
           {
-            "id": "8796e1e7edd4ba9b",
+            "id": "7b32a02b3df97bd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +20,70 @@
               },
               "icon": "lucide-file",
               "title": "Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "07e2f7fcb78796f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 09042025110710.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 09042025110710"
+            }
+          },
+          {
+            "id": "4d11c7d86f566a3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 10042025131105.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 10042025131105"
+            }
+          },
+          {
+            "id": "796523ddf6227ad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Sistema di tipi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistema di tipi"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "08dad670807b4996",
+        "type": "tabs",
+        "dimension": 72.30603448275862,
+        "children": [
+          {
+            "id": "5091dd2830462afe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 16042025110927.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 16042025110927"
             }
           }
         ]
@@ -53,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"visita ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. lectures/Lecture 14032025131849.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 14032025131849"
+              "title": "Backlinks"
             }
           },
           {
@@ -142,13 +206,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. lectures/Lecture 28022025091715.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 28022025091715"
+              "title": "Outline"
             }
           },
           {
@@ -157,8 +220,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -186,6 +249,26 @@
               "icon": "lucide-info",
               "title": "File properties for Linguaggi di programmazione"
             }
+          },
+          {
+            "id": "11575a6bd2823201",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2ecae89c4bdda11b",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
           }
         ]
       },
@@ -200,7 +283,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1. lectures/Lecture 14032025131849.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,7 +310,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Lecture 14032025131849"
+              "title": "Graph view"
             }
           }
         ]
@@ -244,8 +326,8 @@
             "state": {
               "type": "toggl-report",
               "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -264,50 +346,50 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "8796e1e7edd4ba9b",
+  "active": "5091dd2830462afe",
   "lastOpenFiles": [
-    "1. lectures/Lecture 05032025111458.md",
-    "1. lectures/Lecture 12032025111631.md",
+    "2. notes/Algoritmo di Ford-Fulkerson.md",
+    "1. lectures/Lecture 16042025110927.md",
+    "2. notes/Variabile libera.md",
+    "2. notes/Binder.md",
+    "2. notes/Sistema di tipi.md",
+    "1. lectures/Lecture 09042025110710.md",
+    "1. lectures/Lecture 10042025131105.md",
     "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 27022025131944.md",
-    "2. notes/Allocazione della memoria.md",
-    "2. notes/Espressione.md",
-    "2. notes/Variabile.md",
-    "2. notes/Comando.md",
-    "2. notes/Albero informatico.md",
-    "2. notes/Albero binario.md",
-    "2. notes/Notazione infissa.md",
-    "2. notes/Notazione prefissa.md",
-    "2. notes/Notazione postfissa.md",
-    "2. notes/Record di attivazione.md",
-    "2. notes/Stack.md",
-    "2. notes/Scope dinamico.md",
-    "2. notes/A-list.md",
-    "2. notes/CRT.md",
-    "media/crt-pila-nascosta.png",
-    "media/crt.png",
-    "media/a-list.png",
-    "2. notes/Scope statico.md",
-    "2. notes/Implementazione.md",
-    "2. notes/Scope.md",
-    "2. notes/Catena statica.md",
-    "2. notes/Display.md",
-    "1. lectures/Lecture 26022025111603.md",
-    "media/display-4.png",
-    "media/display-3.png",
-    "media/display-2.png",
-    "media/display-1.png",
-    "media/catena-statica-2.png",
-    "media/catena-statica-1.png",
-    "2. notes/Allocazione statica della memoria.md",
-    "2. notes/Allocazione dinamica della memoria.md",
-    "media/lista-libera-2.png",
+    "1. lectures/Lecture 14042025091835.md",
+    "0. mocs/Ottimizzazione combinatoria.md",
+    "1. lectures/Lecture 09042025091244.md",
+    "1. lectures/Lecture 16042025091309.md",
+    "0. mocs/Reti di calcolatori.md",
+    "1. lectures/Lecture 14042025111851.md",
+    "1. lectures/Lecture 15042025152135.md",
+    "0. mocs/Calcolo delle probabilità e statistica.md",
+    "2. notes/Eventi generati da una variabile aleatoria.md",
+    "1. lectures/Lecture 15042025131630.md",
+    "2. notes/Eventi indipendenti.md",
+    "1. lectures/Lecture 08042025133009.md",
+    "1. lectures/Lecture 11042025131834.md",
+    "1. lectures/Lecture 04042025131943.md",
+    "2. notes/Distribuzione binomiale.md",
+    "2. notes/Varianza.md",
+    "2. notes/Distribuzione di Poisson.md",
+    "2. notes/Distribuzioni notevoli di variabili aleatorie discrete.md",
+    "media/passaggio-per-nome-chiusura.png",
+    "media/EIRP.png",
+    "media/scope-statico-deep-shallow.png",
+    "media/mW-dB-conversion-table.png",
+    "media/dope-vector.png",
+    "media/sdn.png",
+    "media/eccezione-esempio.png",
+    "media/ipv6-pacchetto.png",
+    "media/openflow-table.png",
+    "media/funzioni-ordine-superiore-restituzione2.png",
     "2. notes/Equivalenze regolari.canvas",
     "5. seminars",
     "media/jupiter.jpg.crdownload",

@@ -10,7 +10,7 @@ links:
 # ADT
 ---
 ## Introduzione
-> Gli **ADT** (_Algebric Data Type_) sono un _[[Tipi di dati|tipo di dato]] definito algebricamente_.
+> Gli **ADT** (_Algebric Data Type_) sono un _[[Tipi di dato|tipo di dato]] definito algebricamente_.
 
 Sono alla base di ciò che è processabile per mezzo di [[Ricorsione|ricorsione]]/[[Ricorsione strutturale|ricorsione strutturale]]. Di fatto costituiscono il tipo di dato "base" della maggior parte dei [[Linguaggio di programmazione funzionale|linguaggi di programmazione funzionale]].
 

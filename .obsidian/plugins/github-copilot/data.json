@@ -18,5 +18,19 @@
     "nodePath"
   ],
   "useDeviceSpecificSettings": false,
-  "proxy": ""
+  "proxy": "",
+  "chatSettings": {
+    "deviceCode": "24a2ea5378fbd2dd2b4c6764c9f2c780d6e4e98d",
+    "pat": "ghu_iyRP92CRqjzVtQgwtEDKHJGZ2Pyook1kBb6T",
+    "accessToken": {
+      "token": "tid=49cb05b926e6ade71f11109e3d23b5f4;exp=1744657508;sku=free_educational;proxy-ep=proxy.individual.githubcopilot.com;st=dotcom;chat=1;cit=1;malfil=1;editor_preview_features=1;ccr=1;rt=1;8kp=1;ip=151.42.117.152;asn=AS1267:cd1a6269f78da569a967dce0905dda4ad566a3eba90a7a92059c702d81172199",
+      "expiresAt": 1744657508
+    },
+    "selectedModel": {
+      "label": "GPT-4o",
+      "value": "gpt-4o-2024-08-06"
+    }
+  },
+  "systemPrompt": "You are GitHub Copilot, an AI assistant. You are helping the user with their tasks in Obsidian.",
+  "invertEnterSendBehavior": false
 }

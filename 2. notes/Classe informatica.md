@@ -10,7 +10,7 @@ links:
 # Classe informatica
 ---
 ## Introduzione
-> Per **classe** in informatica, nell'ambito della [[OOP|programmazione a oggetti]], si intende un [[Tipi di dati|tipo di dato]] che _specifica come i suoi elementi, detti [[Oggetto informatico|oggetti]], possono essere creati e usati_.
+> Per **classe** in informatica, nell'ambito della [[OOP|programmazione a oggetti]], si intende un [[Tipi di dato|tipo di dato]] che _specifica come i suoi elementi, detti [[Oggetto informatico|oggetti]], possono essere creati e usati_.
 
 Storicamente il primo [[Linguaggio di programmazione|linguaggio di programmazione]] ad aver introdotto il concetto di classe è stato [[Simula67]].
 

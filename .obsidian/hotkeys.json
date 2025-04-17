@@ -23,5 +23,22 @@
       ],
       "key": "D"
     }
+  ],
+  "local-gpt:quick-access-3": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "local-gpt:quick-access-1": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
   ]
 }

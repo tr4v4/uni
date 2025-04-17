@@ -127,7 +127,7 @@ L'algoritmo 5 sfrutta un teorema matematico sulla seguente [[Matrice|matrice]] b
 $$A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$$
 In particolare ci dice che
 $$A^{n-1} = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}^{n-1} = \begin{pmatrix} F_{n} & F_{n-1} \\ F_{n-1} & F_{n-2} \end{pmatrix} \ \ \ \ \ \ \ \ \forall n \geq 2$$
-Quindi sfruttiamo il teorema per andare a creare un algoritmo semplice, [[Comandi iterativi|iterativo]]:
+Quindi sfruttiamo il teorema per andare a creare un algoritmo semplice, [[Iterazione|iterativo]]:
 ![[fibonacci-matrix.png]]
 
 ###### Tempo di calcolo

@@ -81,7 +81,7 @@ Un trucco d'applicazione per i casi in cui si ha, per esempio, una [[Forme indet
 
 <u>Attenzione</u>: Hopital è applicabile sia per la forma indeterminata $\frac{0}{0}$ che $\frac{\infty}{\infty}$, ma non sempre porta a una semplificazione del limite. Quindi quando ci si vuole ricondurre a una forma sbloccabile con Hopital _fare attenzione a scegliere quella corretta_.
 
-Nonostante ciò, Hopital non è lo strumento migliore per risolvere limiti complessi, perché anzi rischia, per via della [[Comandi iterativi|reiterazione]] della derivazione delle funzioni, di far incorrere in errori[^1].
+Nonostante ciò, Hopital non è lo strumento migliore per risolvere limiti complessi, perché anzi rischia, per via della [[Iterazione|reiterazione]] della derivazione delle funzioni, di far incorrere in errori[^1].
 
 ## Referenze
 [^1]: per questo sono usati gli [[Sviluppo in serie di Taylor|sviluppi in serie di Taylor]]

@@ -3,14 +3,16 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/linguaggi-di-programmazione
 date: 12-10-2023 19:11:01
 links:
   - "[[Lecture 11102023092734]]"
+  - "[[Lecture 12032025111631]]"
 ---
 # Passaggio per valore
 ---
 ## Introduzione
->  All'invocazione della [[Funzione informatica|funzione]] _il valore dell'[[Espressione|espressione]] passato per parametro viene assegnato al parametro formale della funzione_.
+>  Nel **passaggio per valore** all'invocazione della [[Funzione informatica|funzione]] _il valore dell'[[Espressione|espressione]] passato per parametro viene assegnato al parametro formale della funzione_, che si comporta come una variabile locale.
 
 ### Esempio
 ```cpp

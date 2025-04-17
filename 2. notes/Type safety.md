@@ -3,9 +3,11 @@ tags:
   - category/note
   - status/finished
   - topic/programmazione
+  - topic/linguaggi-di-programmazione
 date: 26-09-2023 09:03:08
 links:
   - "[[Lecture 25092023151613]]"
+  - "[[Lecture 02042025112213]]"
 ---
 # Type safety
 ---

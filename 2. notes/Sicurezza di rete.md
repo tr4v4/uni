@@ -7,6 +7,7 @@ date: 09-03-2025 11:51:12
 links:
   - "[[Lecture 17022025110943]]"
   - "[[Lecture 18022025152022]]"
+  - "[[Lecture 10032025112014]]"
 ---
 # Sicurezza di rete
 ---
@@ -37,3 +38,5 @@ Tuttavia, **Trudy potrebbe sempre intercettare la comunicazione e modificare qua
 - [[Posta elettronica sicura]]
 - [[SSL]]
 - [[IPsec]]
+- [[Firewall]]
+- [[ACL]]

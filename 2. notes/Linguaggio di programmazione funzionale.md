@@ -17,7 +17,7 @@ links:
 > Un **linguaggio di programmazione funzionale** è un tipo di [[Linguaggio di programmazione|linguaggio di programmazione]] che, a differenza degli [[Linguaggio di programmazione imperativo|imperativi]], si _concentrano sul cosa fare piuttosto che sul come_, demandando al [[Compilatore|compilatore]] il "lavoro sporco".
 > Il risultato di un programma è il valore esplicito di un'espressione: programmare diventa essere in grado di costruire la funzione che calcola il risultato voluto, e tale costruzione di solito utilizza come unico costrutto di base la [[Ricorsione|ricorsione]][^3].
 
-Si basa sulle [[Funzione informatica|funzioni]], avvicinando il più possibile quelle informatiche a quelle [[Funzione matematica|matematiche]]. Non esistono [[Comandi iterativi|cicli]], [[Memorie|memorie]] né [[Strutture dati|strutture dati]]. Di fatto la maggior parte di questi linguaggi adotta come unico tipo di dato "base" il [[ADT|tipo di dato astratto]].
+Si basa sulle [[Funzione informatica|funzioni]], avvicinando il più possibile quelle informatiche a quelle [[Funzione matematica|matematiche]]. Non esistono [[Iterazione|cicli]], [[Memorie|memorie]] né [[Strutture dati|strutture dati]]. Di fatto la maggior parte di questi linguaggi adotta come unico tipo di dato "base" il [[ADT|tipo di dato astratto]].
 
 I più importanti e riconosciuti linguaggi di programmazione funzionale sono:
 - [[Haskell]]

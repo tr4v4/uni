@@ -1,0 +1,335 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b103ef6ab51df28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91c9a6c04353676f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Calcolo delle probabilità e statistica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo delle probabilità e statistica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 35.67307692307693,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. lectures/Lecture 14032025131849.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 14032025131849"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. lectures/Lecture 28022025091715.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 28022025091715"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. lectures/Lecture 28022025091715.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 28022025091715"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "11575a6bd2823201",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "1. lectures/Lecture 14032025131849.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.31214753848498666,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Lecture 14032025131849"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.36538461538461,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "91c9a6c04353676f",
+  "lastOpenFiles": [
+    "1. lectures/Lecture 18032025131728.md",
+    "0. mocs/Calcolo delle probabilità e statistica.md",
+    "1. lectures/Lecture 21032025132255.md",
+    "1. lectures/Lecture 14032025131849.md",
+    "1. lectures/Lecture 21032025091929.md",
+    "2. notes/Scheduling.md",
+    "2. notes/SJF.md",
+    "2. notes/Algoritmi di paginazione.md",
+    "1. lectures/Lecture 20032025151643.md",
+    "0. mocs/Sistemi operativi.md",
+    "2. notes/Variabile aleatoria.md",
+    "2. notes/Variabile aleatoria costante.md",
+    "2. notes/Variabile aleatoria indicatrice.md",
+    "2. notes/Eventi generati da una variabile aleatoria.md",
+    "1. lectures/Lecture 11032025132556.md",
+    "media/tlb.png",
+    "2. notes/Controimmagine.md",
+    "2. notes/Evento.md",
+    "2. notes/Delta di Dirac.md",
+    "2. notes/Eventi indipendenti.md",
+    "2. notes/Calcolo combinatorio.md",
+    "1. lectures/Lecture 13032025151745.md",
+    "media/paginazione-3.png",
+    "media/paginazione-2.png",
+    "media/paginazione-1.png",
+    "2. notes/Linking dinamico.md",
+    "media/registro-limite-e-rilocazione.png",
+    "media/registro-rilocazione.png",
+    "0. mocs/Ottimizzazione combinatoria.md",
+    "1. lectures/Lecture 19032025092241.md",
+    "1. lectures/Lecture 20032025131726.md",
+    "1. lectures/Lecture 07032025091554.md",
+    "media/goldberg-tarjan-algoritmo.png",
+    "media/ip-frammentazione.png",
+    "media/crt-pila-nascosta.png",
+    "media/crt.png",
+    "2. notes/Equivalenze regolari.canvas",
+    "5. seminars",
+    "media/jupiter.jpg.crdownload",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
+    "netlify.toml~",
+    "ads.txt",
+    "4913",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

@@ -83,5 +83,5 @@ Nei casi estremi
 Da quest'ultimo caso possiamo quindi notare che **se la cache ha un hit-ratio troppo basso risulta dannosa**, dove per "troppo basso" intendiamo un valore abbastanza piccolo da non far guadagnare nessun vantaggio in termini di tempo (o addirittura da causare svantaggi).
 
 ## Referenze
-[^1]: avviene per esempio con i [[Comandi iterativi#For|cicli for]]
+[^1]: avviene per esempio con i [[Iterazione#For|cicli for]]
 [^2]: si presenta il caso con gli [[Array]] o con la normale esecuzione sequenziale delle istruzioni

@@ -6,6 +6,8 @@ tags:
 date: 09-03-2025 19:31:27
 links:
   - "[[Lecture 05032025091441]]"
+  - "[[Lecture 12032025091447]]"
+  - "[[Lecture 19032025092241]]"
 ---
 # Problema del flusso massimo
 ---
@@ -40,6 +42,13 @@ Infatti, quell'arco aggiunto
 - avendo capacita' illimitata, consente di trasportare il massimo flusso possibile.
 
 ## Algoritmi
-Per studiare gli algoritmi risolutivi, e' necessario conoscere la nozione di [[Taglio|taglio]] e di [[Taglio s-t|taglio s-t]].
+Per studiare gli algoritmi risolutivi, e' necessario conoscere la nozione di:
+- [[Taglio|taglio]], [[Taglio s-t|taglio s-t]];
+- [[Grafo residuo|grafo residuo]] e [[Cammino aumentante|cammino aumentante]].
+
+Gli algoritmi in questione sono:
+- [[Algoritmo di Ford-Fulkerson]];
+- [[Algoritmo di Edmonds-Karp]];
+- [[Algoritmo di Goldberg-Tarjan]].
 
 ## Referenze

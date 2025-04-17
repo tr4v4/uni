@@ -73,4 +73,4 @@ MOV [v], ax
 
 ## Referenze
 [^1]: basti pensare alle [[Comandi condizionali|condizioni]]
-[^2]: per via della maggiore frequenza dei [[Comandi iterativi|cicli]] rispetto alle condizioni
+[^2]: per via della maggiore frequenza dei [[Iterazione|cicli]]to alle condizioni

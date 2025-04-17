@@ -53,7 +53,7 @@ Quindi, ad un flusso $x_{ij}$ in $H$ corrispondera' un flusso $x_{ij} + l_{ij}$ 
 
 ## Tipologie
 A seconda della funzione obiettivo da massimizzare o minimizzare, i problemi di flusso possono essere:
-- [[Problema del flusso di costo minimo|MCF]];
-- [[Problema del flusso massimo|MF]].
+- [[Problema del flusso massimo|MF]];
+- [[Problema del flusso di costo minimo|MCF]].
 
 ## Referenze

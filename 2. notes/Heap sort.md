@@ -31,7 +31,7 @@ function heapSort(int S[]) {
 ```
 
 ## Complessità
-La [[Complessità computazionale|complessità computazionale]] dell'algoritmo dipende unicamente dal [[Comandi iterativi|ciclo]] `for` e dai costi di `heapify`, `findMax` e `deleteMax`. In particolare:
+La [[Complessità computazionale|complessità computazionale]] dell'algoritmo dipende unicamente dal [[Iterazione|ciclo]] `for` e dai costi di `heapify`, `findMax` e `deleteMax`. In particolare:
 - `heapify`: $O(n)$;
 - `findMax`: $O(1)$;
 - `deleteMax`: $n$ volte $\log{n}$ per il `for`, per cui $\Theta(n\log{n})$.

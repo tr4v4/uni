@@ -6,6 +6,7 @@ tags:
 date: 15-03-2025 18:27:13
 links:
   - "[[Lecture 06032025151956]]"
+  - "[[Lecture 07032025091554]]"
 ---
 # Scheduling
 ---
@@ -49,5 +50,12 @@ Gli algoritmi di scheduling principali sono:
 - [[FCFS]]
 - [[SJF]]
 - [[Round-Robin]]
+
+## Categorie
+Delle categorie di scheduling sono:
+- [[Scheduling a priorita']]
+- [[Scheduling a classi di priorita']]
+- [[Scheduling multilivello]]
+- [[Scheduling real-time]]
 
 ## Referenze

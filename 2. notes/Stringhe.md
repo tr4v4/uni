@@ -49,7 +49,7 @@ Abbiamo a disposizione la libreria `cstring` che ci permette di utilizzare i seg
 	- _versione sicura_: `strcmp`, si limita a comparare fino a `n` caratteri, non aspetta di incontrare `\0` per terminare il ciclo
 
 ### `cstdlib`
-La libreria `cstdlib`, contiene funzioni di conversione da stringhe ad altri [[Tipi di dati|tipi di dati]]:
+La libreria `cstdlib`, contiene funzioni di conversione da stringhe ad altri [[Tipi di dato|tipi di dati]]:
 - `atoi`: _str_ --> _int_
 - `atol`: _str_ --> _long_
 - `atof`: _str_ --> _float_

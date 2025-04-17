@@ -10,7 +10,7 @@ links:
 # Generics
 ---
 ## Introduzione
-> Un **generic** in [[Java]] è un _[[Tipi di dati|tipo di dato]] per l'appunto generico_, _utile per definire classi che operano su tipi di dati differenti_. Questo ci permette di [[Astrazione|astrarre]] ancora di più delle classi e dei metodi.
+> Un **generic** in [[Java]] è un _[[Tipi di dato|tipo di dato]] per l'appunto generico_, _utile per definire classi che operano su tipi di dati differenti_. Questo ci permette di [[Astrazione|astrarre]] ancora di più delle classi e dei metodi.
 
 La sintassi per definire una classe generic è `NomeDellaClasse<T>`. Alcune [[Interfaccia|interfacce]] possono essere generic, come `Comparable<T>`.
 

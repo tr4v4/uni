@@ -19,7 +19,7 @@ links:
 Il suo punto di forza sta nella [[Compilazione a 2 livelli|compilazione a 2 livelli]] attuata dalla [[JVM|Java Virtual Machine]] (_JVM_), che lo rende _indipendente dalla piattaforma e portabile_ ([[WORA]]).
 
 ## Tipi di dati
-Java divide i [[Tipi di dati|dati]] in due principali categorie:
+Java divide i [[Tipi di dato|dati]] in due principali categorie:
 - _primitivi_
 	- `int`, `boolean`, `char`, `short`, `long`, `float`, `double`
 	- per ognuno dei quali esiste una _rispettiva classe wrapper_, con operazioni di _boxing_ e _unboxing_ automatiche

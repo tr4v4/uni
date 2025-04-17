@@ -12,9 +12,9 @@ date: 16-09-2024 10:43:40
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/reti-di-calcolatori SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/reti-di-calcolatori SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [[Lecture 10032025112014]] | <ul><li>[[Reti di calcolatori]]</li></ul> |
+| Lezione                                                           | Note      |
+| ----------------------------------------------------------------- | --------- |
+| [[Lecture 15042025152135]] | <ul></ul> |
 <!-- SerializedQuery END -->
 
 ### Lista
@@ -23,6 +23,15 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 15042025152135]] | 15-04-2025 15:21:35 |
+| [[Lecture 14042025111851]] | 14-04-2025 11:18:51 |
+| [[Lecture 08042025152354]] | 08-04-2025 15:23:54 |
+| [[Lecture 07042025111854]] | 07-04-2025 11:18:54 |
+| [[Lecture 31032025111817]] | 31-03-2025 11:18:17 |
+| [[Lecture 18032025163208]] | 18-03-2025 16:32:08 |
+| [[Lecture 01042025152454]] | 01-04-2025 15:24:54 |
+| [[Lecture 17032025095233]] | 17-03-2025 09:52:33 |
+| [[Lecture 11032025152719]] | 11-03-2025 15:27:19 |
 | [[Lecture 10032025112014]] | 10-03-2025 11:20:14 |
 | [[Lecture 25022025152711]] | 25-02-2025 15:27:11 |
 | [[Lecture 24022025111633]] | 24-02-2025 11:16:33 |
@@ -59,17 +68,27 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 10032025112014]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 15042025152135]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 14042025111851]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 08042025152354]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 07042025111854]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
+
+
+
 
 ## Note
 - Argomenti
 	- [[Rete]], [[Classificazione delle reti]], [[Prestazione delle reti]], [[Infrastruttura di rete]], [[Topologia di rete]]
 	- [[Scheda di rete]], [[Mezzo di trasmissione]], [[Connettore di rete]], [[Canale di comunicazione]], [[Commutazione]]
 	- [[Protocollo di rete]], [[Modello ISO-OSI]]
+	- [[Livello MAC-LLC]]
+		- [[Rete wireless]], [[VSWR]], [[Intentional radiator]], [[EIRP]]
 	- [[Livello rete]]
 		- [[IP]], [[Indirizzo IP]], [[IPv4]], [[Classi di rete]], [[Subnet mask]], [[Subnetting]]
-		- [[Routing]], [[Protocollo di routing]]
+		- [[Routing]], [[Protocollo di routing]], [[Router]]
+		- [[Data plane]], [[Control plane]]
+			- [[Network scheduling]]
 	- [[Livello trasporto]]
 		- [[TCP]], [[UDP]], [[Multiplexing]], [[Demultiplexing]], [[Three-way handshake]], [[Controllo della congestione]], [[Controllo del flusso]], [[Socket]]
 		- [[NAT]]
@@ -82,6 +101,7 @@ date: 16-09-2024 10:43:40
 		- [[Autenticazione]], [[Firma digitale]]
 		- [[Posta elettronica sicura]]
 		- [[SSL]]
+		- [[Firewall]], [[ACL]]
 	- [[Configurazione di un host]], [[Internet2]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/reti-di-calcolatori SORT file.ctime DESC -->
@@ -89,10 +109,29 @@ date: 16-09-2024 10:43:40
 
 | Note                                                                                             | Status                             |
 | ------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[Onda radio]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[VSWR]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Intentional radiator]]                                       | <ul><li>#status/finished</li></ul> |
+| [[Rete wireless]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[EIRP]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[SDN]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[DHCP]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Control plane]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Protocollo di routing]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Livello rete]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[BGP]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Pacchetto]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[OSPF]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Router]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Data plane]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Network scheduling]]                                           | <ul><li>#status/finished</li></ul> |
+| [[IDS]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Firewall]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[ACL]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Sicurezza di rete]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Posta elettronica]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Rete]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[IPsec]]                                                                     | <ul><li>#status/finished</li></ul> |
-| [[Sicurezza di rete]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Posta elettronica sicura]]                               | <ul><li>#status/finished</li></ul> |
 | [[SSL]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Crittografia]]                                                       | <ul><li>#status/finished</li></ul> |
@@ -112,8 +151,8 @@ date: 16-09-2024 10:43:40
 | [[NAT]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Indirizzo IP]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Proxy]]                                                                     | <ul><li>#status/finished</li></ul> |
-| [[Architettura client-server]]                           | <ul><li>#status/finished</li></ul> |
 | [[Architettura peer-to-peer]]                             | <ul><li>#status/finished</li></ul> |
+| [[Architettura client-server]]                           | <ul><li>#status/finished</li></ul> |
 | [[RTT]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[HTTP]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Livello applicazione]]                                       | <ul><li>#status/finished</li></ul> |
@@ -136,7 +175,6 @@ date: 16-09-2024 10:43:40
 | [[Three-way handshake]]                                         | <ul><li>#status/finished</li></ul> |
 | [[UDP]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Socket]]                                                                   | <ul><li>#status/finished</li></ul> |
-| [[DHCP]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[IPv4]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Modello ISO-OSI]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[RARP]]                                                                       | <ul><li>#status/finished</li></ul> |
@@ -151,8 +189,6 @@ date: 16-09-2024 10:43:40
 | [[Classi di rete]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[Livello MAC-LLC]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Livello fisico]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[Livello rete]]                                                       | <ul><li>#status/finished</li></ul> |
-| [[Protocollo di routing]]                                     | <ul><li>#status/finished</li></ul> |
 | [[Protocollo di rete]]                                           | <ul><li>#status/finished</li></ul> |
 | [[Commutazione]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Commutazione di pacchetto]]                             | <ul><li>#status/finished</li></ul> |

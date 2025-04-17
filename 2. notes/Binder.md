@@ -17,7 +17,7 @@ links:
 Una variabile legata a uno scope da un binder si dice **variabile legata**; una variabile apparentemente non legata da alcun binder si dice invece **[[Variabile libera|variabile libera]]**.
 
 ### Esempi
-In programmazione un esempio di binder è la variabile `i` di un [[Comandi iterativi|ciclo]] `for`: essa itera nel corpo del ciclo modificando il suo valore, ed _è valida solo e solamente all'interno di quello scope_. Di fatto, lo [[Scope|scope delle variabili]] è ciò che fa il binding di esse con il proprio blocco di appartenenza. Vale infatti anche per le [[Funzione informatica|funzioni]] in generale.
+In programmazione un esempio di binder è la variabile `i` di un [[Iterazione|ciclo]] `for`: essa itera nel corpo del ciclo modificando il suo valore, ed _è valida solo e solamente all'interno di quello scope_. Di fatto, lo [[Scope|scope delle variabili]] è ciò che fa il binding di esse con il proprio blocco di appartenenza. Vale infatti anche per le [[Funzione informatica|funzioni]] in generale.
 
 In matematica un'[[Integrale|integrale]] definito lega $x$ al suo scope, che è la _funzione integranda_.
 

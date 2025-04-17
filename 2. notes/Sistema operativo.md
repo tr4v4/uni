@@ -13,6 +13,8 @@ links:
   - "[[Lecture 27022025151550]]"
   - "[[Lecture 28022025091715]]"
   - "[[Lecture 06032025151956]]"
+  - "[[Lecture 07032025091554]]"
+  - "[[Lecture 13032025151745]]"
 ---
 # Sistema operativo
 ---
@@ -35,6 +37,7 @@ Di fatto il sistema operativo si occupa di:
 	- tenere traccia di quali parti della memoria sono usate e da chi
 	- decidere quali processi caricare quando diventa disponibile spazio in memoria
 	- allocare e deallocare lo spazio di memoria quando necessario
+	- [[Binding|binding]]
 	- usare memoria secondaria per ampliare la memoria principale ([[Memoria virtuale|memoria virtuale]])
 		- [[Paginazione|paginazione]]
 		- [[Segmentazione|segmentazione]] (ed eventuale [[Combinazione segmentazione-paginazione|combinazione]])
@@ -70,6 +73,7 @@ Di fatto il sistema operativo si occupa di:
 		- file system distribuiti (NFS, SMB)
 - _gestire gli [[Interrupt|interrupt]]_
 	- i **sistemi operativi moderni sono detti "interrupt-driven"**: sono gli interrupt (sia hardware che software) che consentono al sistema operativo di entrare in azione per la loro gestione e di creare l'avvicendamento del tempo di esecuzione tra i processi con lo [[Scheduler|scheduler]] (mediante l'[[Interval timer|interval timer]])
+- _gestire le [[Risorsa|risorse]]_
 
 Sono compiti estremamente complessi... Soprattutto perché il tutto dev'essere fatto con criteri di:
 - **efficienza**

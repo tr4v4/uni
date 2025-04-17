@@ -70,7 +70,7 @@ Compare il vincolo del `return`:
 - bisogna garantire sempre che la funzione returnerà un valore del tipo specificato
 - dopo il return le istruzioni non verranno mai eseguite --> fa tornare il controllo al chiamante
 
-<u>Nota bene</u>: si sconsiglia altamente l'utilizzo di `return` dentro [[Comandi iterativi|cicli]].
+<u>Nota bene</u>: si sconsiglia altamente l'utilizzo di `return` dentro [[Iterazione|cicli]].
 
 ## Passaggio dei parametri
 Proprio per la distinzione tra la funzione matematica e quella informatica, a quest'ultima (per le funzioni con input) _i parametri d'ingresso possono essere passati in 3 principali modalità_:

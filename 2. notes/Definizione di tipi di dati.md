@@ -10,7 +10,7 @@ links:
 # Definizione di tipi di dati
 ---
 ## Introduzione
-In [[C++]], attraverso la _keyword_ `typedef` è possibile ridefinire nuovi [[Tipi di dati|tipi di dati]], o meglio _alias_ con cui chiamare specifici tipi.
+In [[C++]], attraverso la _keyword_ `typedef` è possibile ridefinire nuovi [[Tipi di dato|tipi di dati]], o meglio _alias_ con cui chiamare specifici tipi.
 
 ### Esempi
 ```cpp

@@ -72,4 +72,4 @@ System.out.println(sum1 + " " + sum2 + " " + sum3);
 
 ## Referenze
 [^1]: di tipo [[Generics|generic]]
-[^2]: un [[Comandi iterativi#For|ciclo for]] per oggetti
+[^2]: un [[Iterazione#For|ciclo for]]getti

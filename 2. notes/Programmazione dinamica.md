@@ -17,7 +17,7 @@ links:
 ### Relazione con divide et impera
 La programmazione dinamica è speculare alla tecnica [[Divide et impera|divide et impera]]:
 - _divide-et-impera_ ---> [[Approccio top-down|approccio top-down]], tecnica [[Ricorsione|ricorsiva]], vantaggiosa quando i sottoproblemi sono indipendenti;
-- _programmazione dinamica_ ---> approccio bottom-up, tecnica [[Comandi iterativi|iterativa]], vantaggiosa quando ci sono sottoproblemi ripetuti.
+- _programmazione dinamica_ ---> approccio bottom-up, tecnica [[Iterazione|iterativa]], vantaggiosa quando ci sono sottoproblemi ripetuti.
 
 Se volessimo rappresentare un problema come [[Albero informatico|alberi]] cui nodi e foglie sono sottoproblemi della radice (problema di partenza), allora l'_approccio dinamico consiste nel partire con il risolvere le foglie che sin da subito devono essere identificate, quindi combinarle per ottenere la soluzione alla radice_.
 

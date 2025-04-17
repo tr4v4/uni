@@ -10,6 +10,6 @@ links:
 # Comandi condizionali
 ---
 ## Introduzione
-Si chiama `if-then-else`. La condizione deve restituire un [[Tipi di dati#Bool|valore booleano]], a partire da un'[[Espressione|espressione]].
+Si chiama `if-then-else`. La condizione deve restituire un [[Tipi di dato#Bool|valore booleano]], a partire da un'[[Espressione|espressione]].
 
 ## Referenze

@@ -12,11 +12,10 @@ date: 18-02-2025 10:28:15
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/ottimizzazione-combinatoria SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/ottimizzazione-combinatoria SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note      |
-| ----------------------------------------------------------------- | --------- |
-| [[Lecture 12032025091447]] | <ul></ul> |
+| Lezione                                                           | Note                                                                                       |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [[Lecture 14042025091835]] | <ul><li>[[Ottimizzazione combinatoria]]</li></ul> |
 <!-- SerializedQuery END -->
-
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/ottimizzazione-combinatoria  SORT file.ctime DESC -->
@@ -24,6 +23,10 @@ date: 18-02-2025 10:28:15
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 14042025091835]] | 14-04-2025 09:18:35 |
+| [[Lecture 09042025091244]] | 09-04-2025 09:12:44 |
+| [[Lecture 20032025131726]] | 20-03-2025 13:17:26 |
+| [[Lecture 19032025092241]] | 19-03-2025 09:22:41 |
 | [[Lecture 12032025091447]] | 12-03-2025 09:14:47 |
 | [[Lecture 05032025091441]] | 05-03-2025 09:14:41 |
 | [[Lecture 03032025091200]] | 03-03-2025 09:12:00 |
@@ -39,10 +42,10 @@ date: 18-02-2025 10:28:15
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 12032025091447]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 05032025091441]] | <ul><li>#status/ongoing</li></ul> |
+| [[Lecture 20032025131726]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 14042025091835]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 09042025091244]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
-
 
 ## Note
 Argomenti:
@@ -55,6 +58,13 @@ Argomenti:
 	- [[Valore assoluto in problemi di ottimizzazione]]
 	- [[Funzioni lineari a tratti]]
 - principali problemi - [[Problema su rete]], [[Problema di flusso]]
+	- [[Taglio]], [[Taglio s-t]], [[Grafo residuo]], [[Cammino aumentante]]
+	- [[Problema del flusso massimo]]
+		- [[Algoritmo di Ford-Fulkerson]]
+		- [[Algoritmo di Edmonds-Karp]]
+		- [[Algoritmo di Goldberg-Tarjan]]
+	- [[Problema del flusso di costo minimo]]
+		- [[Algoritmo dei cammini minimi successivi]]
 - programmazione lineare - algoritmica dei problemi di ottimizzazione di programmazione lineare
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/ottimizzazione-combinatoria SORT file.ctime DESC -->
@@ -62,12 +72,19 @@ Argomenti:
 
 | Note                                                                                                         | Status                             |
 | ------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [[Problema del flusso massimo]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di Goldberg-Tarjan]]                                   | <ul><li>#status/finished</li></ul> |
 | [[Taglio s-t]]                                                                       | <ul><li>#status/ongoing</li></ul>  |
+| [[Algoritmo di Ford-Fulkerson]]                                     | <ul><li>#status/finished</li></ul> |
+| [[Problema di flusso]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo dei cammini minimi successivi]]             | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di Edmonds-Karp]]                                         | <ul><li>#status/finished</li></ul> |
+| [[Teorema max-flow min-cut]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Cammino aumentante]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Grafo residuo]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[Problema del flusso massimo]]                                     | <ul><li>#status/finished</li></ul> |
 | [[Taglio]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Problema del flusso di costo minimo]]                     | <ul><li>#status/finished</li></ul> |
 | [[Flusso]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[Problema di flusso]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Funzioni lineari a tratti]]                                         | <ul><li>#status/finished</li></ul> |
 | [[Problema su rete]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[Rete]]                                                                                   | <ul><li>#status/finished</li></ul> |
@@ -85,8 +102,8 @@ Argomenti:
 | [[Vincoli di assegnamento]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Problema di ottimizzazione]]                                       | <ul><li>#status/finished</li></ul> |
 | [[Programmazione lineare]]                                               | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo esatto]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[Algoritmo euristico]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo esatto]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[Problema di certificato]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Problema di decisione]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Problema]]                                                                           | <ul><li>#status/finished</li></ul> |
@@ -96,6 +113,7 @@ Argomenti:
 | [[Modello basato su gioco]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Processo decisionale]]                                                   | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
+
 
 
 ## Referenze

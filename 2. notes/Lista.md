@@ -98,7 +98,7 @@ Essendo una struttura che come campi ha puntatori, per accedere ad ogni elemento
 
 Se per esempio vessimo una lista del tipo
 ![[lista.png]]
-e volessimo accedere al valore dell'ultimo nodo (senza usare [[Comandi iterativi|iterazioni]] di alcun tipo), dovremmo scrivere
+e volessimo accedere al valore dell'ultimo nodo (senza usare [[Iterazione|iterazioni]] di alcun tipo), dovremmo scrivere
 ```cpp
 int val = (*(*(*head).next).next).val;
 ```

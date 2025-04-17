@@ -36,7 +36,7 @@ ed è l'istruzione che ne interpreta il significato voluto.
 ## Composizione
 La RAM si compone di _celle_, solitamente oggigiorno a **32** o a **64 bit**. In entrambi i casi, il numero di bit di ogni cella di RAM corrisponderà con il numero di dati trasportabili sui rispettivi bus (_indirizzo_, _dati_).
 
-A queste celle, o meglio _locazioni_ (a seconda del [[Tipi di dati|tipo di dato]]), vengono assegnati **valori che possono essere principalmente dati o istruzioni**. Nello specifico, ogni programma in esecuzione in RAM sarà diviso in una sezione dedicata alle istruzioni (_TEXT_) e in un'altra sezione dedicata ai dati (_DATA_), in questo modo:
+A queste celle, o meglio _locazioni_ (a seconda del [[Tipi di dato|tipo di dato]]), vengono assegnati **valori che possono essere principalmente dati o istruzioni**. Nello specifico, ogni programma in esecuzione in RAM sarà diviso in una sezione dedicata alle istruzioni (_TEXT_) e in un'altra sezione dedicata ai dati (_DATA_), in questo modo:
 ![[ram-sezioni.png]]
 
 ## Implementazione

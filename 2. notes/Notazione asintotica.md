@@ -16,7 +16,7 @@ links:
 In particolare viene spesso utilizzata con lo scopo di analizzare il _tempo di calcolo_ e l'_occupazione di memoria_ degli [[Algoritmo|algoritmi]] in termini di dimensione dell'input. Infatti il **rate di crescita costituisce a tutti gli effetti il più oggettivo e preciso valore per poter valutare l'efficienza temporale/spaziale di un algoritmo**! Il growing-rate si studia con il nome di _comportamento asintotico_.
 
 ### Valore di input vs. dimensione dell'input
-La notazione asintotica, nel contesto algoritmico, _dovrebbe essere calcolata sulla dimensione dell'input_ piuttosto che sul valore. Se per esempio l'input è un intero, sarebbe più formalmente corretto andare a rappresentare il suo comportamento asintotico sulla base di quanto occupa in memoria il [[Tipi di dati|tipo di dato]] "intero": si ha $|n| = \lceil \log_{2}{n} \rceil$, ovvero che la dimensione del valore $n$ è data dal numero di cifre che ha in binario[^1].
+La notazione asintotica, nel contesto algoritmico, _dovrebbe essere calcolata sulla dimensione dell'input_ piuttosto che sul valore. Se per esempio l'input è un intero, sarebbe più formalmente corretto andare a rappresentare il suo comportamento asintotico sulla base di quanto occupa in memoria il [[Tipi di dato|tipo di dato]] "intero": si ha $|n| = \lceil \log_{2}{n} \rceil$, ovvero che la dimensione del valore $n$ è data dal numero di cifre che ha in binario[^1].
 
 ## Funzionamento
 Per studiare il **comportamento asintotico** di un algoritmo, quindi, è necessario ignorare costanti additive/moltiplicative e in generale termini di ordine inferiore, ed è sufficiente **descrivere quanto velocemente _tempo di calcolo_ e _memoria utilizzata_ crescono rispetto alla dimensione dell'input**.
