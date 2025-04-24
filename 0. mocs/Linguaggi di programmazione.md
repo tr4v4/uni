@@ -12,10 +12,12 @@ date: 16-09-2024 10:40:19
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                    | Note                                              |
-| -------------------------- | ------------------------------------------------- |
-| [[Lecture 10042025131105]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+| Lezione                                                           | Note      |
+| ----------------------------------------------------------------- | --------- |
+| [[Lecture 23042025111218]] | <ul></ul> |
 <!-- SerializedQuery END -->
+
+
 
 
 ### Lista
@@ -24,6 +26,8 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 23042025111218]] | 23-04-2025 11:12:18 |
+| [[Lecture 16042025110927]] | 16-04-2025 11:09:27 |
 | [[Lecture 10042025131105]] | 10-04-2025 13:11:05 |
 | [[Lecture 09042025110710]] | 09-04-2025 11:07:10 |
 | [[Lecture 03042025131202]] | 03-04-2025 13:12:02 |
@@ -61,9 +65,11 @@ date: 16-09-2024 10:40:19
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
 | [[Lecture 24102024120228]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 23042025111218]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 22102024110521]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21112024121059]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 18102024090854]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 16042025110927]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 12112024110924]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 10042025131105]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 09042025110710]] | <ul><li>#status/pending</li></ul> |
@@ -172,8 +178,8 @@ date: 16-09-2024 10:40:19
 | [[Frammentazione]]                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Heap]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Record di attivazione]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[Allocazione statica della memoria]]                           | <ul><li>#status/finished</li></ul> |
 | [[Allocazione della memoria]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Allocazione statica della memoria]]                           | <ul><li>#status/finished</li></ul> |
 | [[Aliasing]]                                                                             | <ul><li>#status/finished</li></ul> |
 | [[Regole di visibilita' dei nomi]]                                 | <ul><li>#status/finished</li></ul> |
 | [[Nome]]                                                                                     | <ul><li>#status/finished</li></ul> |

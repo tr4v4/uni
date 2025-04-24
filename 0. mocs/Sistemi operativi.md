@@ -9,14 +9,22 @@ date: 16-09-2024 10:45:14
 ---
 ## Lezioni
 ### Ultima lezione
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS NoteFROM #category/lecture AND #topic/sistemi-operativi SORT file.ctime DESC LIMIT 1 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/sistemi-operativi SORT file.ctime DESC LIMIT 1 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/sistemi-operativi SORT file.ctime DESC LIMIT 1 -->
+
+| Lezione                                                           | Note                                                                   |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [[Lecture 23042025152007]] | <ul><li>[[Sistemi operativi]]</li></ul> |
+<!-- SerializedQuery END -->
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/sistemi-operativi SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/sistemi-operativi SORT file.ctime DESC -->
 
-| Lezione                    | Data                |
-| -------------------------- | ------------------- |
+| Lezione                                                           | Data                |
+| ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 23042025152007]] | 23-04-2025 15:20:07 |
+| [[Lecture 11042025104834]] | 11-04-2025 10:48:34 |
 | [[Lecture 10042025153553]] | 10-04-2025 15:35:53 |
 | [[Lecture 04042025092728]] | 04-04-2025 09:27:28 |
 | [[Lecture 03042025152151]] | 03-04-2025 15:21:51 |
@@ -27,8 +35,8 @@ date: 16-09-2024 10:45:14
 | [[Lecture 20032025151643]] | 20-03-2025 15:16:43 |
 | [[Lecture 06032025151956]] | 06-03-2025 15:19:56 |
 | [[Lecture 21022025091223]] | 21-02-2025 09:12:23 |
-| [[Lecture 28022025091715]] | 28-02-2025 09:17:15 |
 | [[Lecture 27022025151550]] | 27-02-2025 15:15:50 |
+| [[Lecture 28022025091715]] | 28-02-2025 09:17:15 |
 | [[Lecture 20022025151640]] | 20-02-2025 15:16:40 |
 | [[Lecture 29112024093415]] | 29-11-2024 09:34:15 |
 | [[Lecture 12122024092737]] | 12-12-2024 09:27:37 |
@@ -49,6 +57,8 @@ date: 16-09-2024 10:45:14
 | [[Lecture 03102024092157]] | 03-10-2024 09:21:57 |
 <!-- SerializedQuery END -->
 
+
+
 ### Da processare
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/sistemi-operativi AND (#status/pending OR #status/ongoing) SORT date DESC -->
@@ -56,15 +66,18 @@ date: 16-09-2024 10:45:14
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
 | [[Lecture 28112024092134]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 23042025152007]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21112024092345]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21032025091929]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 20032025151643]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 12122024092737]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 11042025104834]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 10042025153553]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05122024092457]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 04042025092728]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 03042025152151]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
+
 
 
 

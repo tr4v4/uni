@@ -4,89 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d8f13eb285a58ee6",
+        "id": "1d1d38d7eba98b7e",
         "type": "tabs",
-        "dimension": 27.69396551724138,
         "children": [
           {
-            "id": "7b32a02b3df97bd0",
+            "id": "d140cc5a56b1692c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "0. mocs/Sistemi operativi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linguaggi di programmazione"
+              "title": "Sistemi operativi"
             }
           },
           {
-            "id": "07e2f7fcb78796f0",
+            "id": "09ecb33ac8b455a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 09042025110710.md",
+                "file": "1. lectures/Lecture 10042025153553.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 09042025110710"
+              "title": "Lecture 10042025153553"
             }
           },
           {
-            "id": "4d11c7d86f566a3b",
+            "id": "c911933044331608",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 10042025131105.md",
+                "file": "1. lectures/Lecture 24042025152212.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 10042025131105"
-            }
-          },
-          {
-            "id": "796523ddf6227ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. notes/Sistema di tipi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sistema di tipi"
+              "title": "Lecture 24042025152212"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "08dad670807b4996",
-        "type": "tabs",
-        "dimension": 72.30603448275862,
-        "children": [
-          {
-            "id": "5091dd2830462afe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 16042025110927.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 16042025110927"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -268,8 +232,19 @@
               "icon": "clock",
               "title": "Toggl Report"
             }
+          },
+          {
+            "id": "3bf3e3e2835a708d",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -282,6 +257,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2. notes/Variabile aleatoria continua.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -309,7 +285,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Variabile aleatoria continua"
             }
           }
         ]
@@ -325,8 +301,8 @@
             "state": {
               "type": "toggl-report",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Toggl Report"
             }
           }
         ]
@@ -351,44 +327,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5091dd2830462afe",
+  "active": "c911933044331608",
   "lastOpenFiles": [
-    "2. notes/Algoritmo di Ford-Fulkerson.md",
-    "1. lectures/Lecture 16042025110927.md",
-    "2. notes/Variabile libera.md",
-    "2. notes/Binder.md",
-    "2. notes/Sistema di tipi.md",
-    "1. lectures/Lecture 09042025110710.md",
-    "1. lectures/Lecture 10042025131105.md",
+    "1. lectures/Lecture 10042025153553.md",
+    "1. lectures/Lecture 24042025152212.md",
+    "0. mocs/Sistemi operativi.md",
+    "2. notes/Funzione hash.md",
+    "2. notes/Uniformità semplice.md",
     "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 14042025091835.md",
-    "0. mocs/Ottimizzazione combinatoria.md",
-    "1. lectures/Lecture 09042025091244.md",
-    "1. lectures/Lecture 16042025091309.md",
-    "0. mocs/Reti di calcolatori.md",
-    "1. lectures/Lecture 14042025111851.md",
-    "1. lectures/Lecture 15042025152135.md",
+    "1. lectures/Lecture 23042025111218.md",
+    "1. lectures/Lecture 24042025131115.md",
+    "2. notes/Eccezione.md",
+    "1. lectures/Lecture 11042025104834.md",
+    "1. lectures/Lecture 23042025152007.md",
+    "1. lectures/Lecture 16042025110927.md",
     "0. mocs/Calcolo delle probabilità e statistica.md",
-    "2. notes/Eventi generati da una variabile aleatoria.md",
     "1. lectures/Lecture 15042025131630.md",
+    "1. lectures/Lecture 23042025091502.md",
+    "2. notes/Formula delle probabilità totali.md",
     "2. notes/Eventi indipendenti.md",
-    "1. lectures/Lecture 08042025133009.md",
     "1. lectures/Lecture 11042025131834.md",
+    "1. lectures/Lecture 08042025133009.md",
+    "2. notes/Variabile aleatoria continua.md",
+    "2. notes/Variabile aleatoria mista.md",
+    "2. notes/Variabile aleatoria discreta.md",
+    "2. notes/Funzione di ripartizione.md",
+    "2. notes/Funzione integrale.md",
+    "2. notes/Densita' continua.md",
     "1. lectures/Lecture 04042025131943.md",
-    "2. notes/Distribuzione binomiale.md",
-    "2. notes/Varianza.md",
-    "2. notes/Distribuzione di Poisson.md",
-    "2. notes/Distribuzioni notevoli di variabili aleatorie discrete.md",
+    "media/variabili-aleatorie-continue-1.png",
+    "media/teoria-della-dualita'.png",
+    "media/algoritmi-programmazione-lineare-4.png",
+    "media/algoritmi-programmazione-lineare-3.png",
+    "media/algoritmi-programmazione-lineare-2.png",
+    "media/algoritmi-programmazione-lineare-1.png",
+    "media/accoppiamento-costo-minimo.png",
+    "media/cancellazione-cicli-2.png",
+    "media/cancellazione-cicli-1.png",
     "media/passaggio-per-nome-chiusura.png",
-    "media/EIRP.png",
-    "media/scope-statico-deep-shallow.png",
-    "media/mW-dB-conversion-table.png",
-    "media/dope-vector.png",
-    "media/sdn.png",
-    "media/eccezione-esempio.png",
-    "media/ipv6-pacchetto.png",
-    "media/openflow-table.png",
-    "media/funzioni-ordine-superiore-restituzione2.png",
     "2. notes/Equivalenze regolari.canvas",
     "5. seminars",
     "media/jupiter.jpg.crdownload",

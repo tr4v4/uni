@@ -14,8 +14,9 @@ date: 18-02-2025 10:28:15
 
 | Lezione                                                           | Note                                                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [[Lecture 14042025091835]] | <ul><li>[[Ottimizzazione combinatoria]]</li></ul> |
+| [[Lecture 16042025091309]] | <ul><li>[[Ottimizzazione combinatoria]]</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/ottimizzazione-combinatoria  SORT file.ctime DESC -->
@@ -23,12 +24,13 @@ date: 18-02-2025 10:28:15
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 16042025091309]] | 16-04-2025 09:13:09 |
 | [[Lecture 14042025091835]] | 14-04-2025 09:18:35 |
 | [[Lecture 09042025091244]] | 09-04-2025 09:12:44 |
-| [[Lecture 20032025131726]] | 20-03-2025 13:17:26 |
 | [[Lecture 19032025092241]] | 19-03-2025 09:22:41 |
 | [[Lecture 12032025091447]] | 12-03-2025 09:14:47 |
 | [[Lecture 05032025091441]] | 05-03-2025 09:14:41 |
+| [[Lecture 20032025131726]] | 20-03-2025 13:17:26 |
 | [[Lecture 03032025091200]] | 03-03-2025 09:12:00 |
 | [[Lecture 26022025091753]] | 26-02-2025 09:17:53 |
 | [[Lecture 24022025091339]] | 24-02-2025 09:13:39 |
@@ -42,7 +44,7 @@ date: 18-02-2025 10:28:15
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 20032025131726]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 16042025091309]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 14042025091835]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 09042025091244]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
@@ -65,53 +67,61 @@ Argomenti:
 		- [[Algoritmo di Goldberg-Tarjan]]
 	- [[Problema del flusso di costo minimo]]
 		- [[Algoritmo dei cammini minimi successivi]]
+		- [[Algoritmo di cancellazione dei cicli]]
+	- [[Problema di accoppiamento]]
 - programmazione lineare - algoritmica dei problemi di ottimizzazione di programmazione lineare
+	- [[Algoritmi per la programmazione lineare]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/ottimizzazione-combinatoria SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/ottimizzazione-combinatoria SORT file.ctime DESC -->
 
-| Note                                                                                                         | Status                             |
-| ------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [[Algoritmo di Goldberg-Tarjan]]                                   | <ul><li>#status/finished</li></ul> |
-| [[Taglio s-t]]                                                                       | <ul><li>#status/ongoing</li></ul>  |
-| [[Algoritmo di Ford-Fulkerson]]                                     | <ul><li>#status/finished</li></ul> |
-| [[Problema di flusso]]                                                       | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo dei cammini minimi successivi]]             | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo di Edmonds-Karp]]                                         | <ul><li>#status/finished</li></ul> |
-| [[Teorema max-flow min-cut]]                                           | <ul><li>#status/finished</li></ul> |
-| [[Cammino aumentante]]                                                       | <ul><li>#status/finished</li></ul> |
-| [[Grafo residuo]]                                                                 | <ul><li>#status/finished</li></ul> |
-| [[Problema del flusso massimo]]                                     | <ul><li>#status/finished</li></ul> |
-| [[Taglio]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[Problema del flusso di costo minimo]]                     | <ul><li>#status/finished</li></ul> |
-| [[Flusso]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[Funzioni lineari a tratti]]                                         | <ul><li>#status/finished</li></ul> |
-| [[Problema su rete]]                                                           | <ul><li>#status/finished</li></ul> |
-| [[Rete]]                                                                                   | <ul><li>#status/finished</li></ul> |
-| [[Minima quantita' positiva prefissata]]                   | <ul><li>#status/finished</li></ul> |
-| [[Funzione con carico fisso]]                                         | <ul><li>#status/finished</li></ul> |
-| [[Valore assoluto in problemi di ottimizzazione]] | <ul><li>#status/finished</li></ul> |
-| [[Problema di copertura]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[Problema di partizione]]                                               | <ul><li>#status/finished</li></ul> |
-| [[Problema di riempimento]]                                             | <ul><li>#status/finished</li></ul> |
-| [[Selezione di sottoinsiemi]]                                         | <ul><li>#status/finished</li></ul> |
-| [[Variabili a valori discreti]]                                     | <ul><li>#status/finished</li></ul> |
-| [[Vincoli di semi-assegnamento]]                                   | <ul><li>#status/finished</li></ul> |
-| [[Programmazione lineare intera]]                                 | <ul><li>#status/finished</li></ul> |
-| [[Insiemi ammissibili]]                                                     | <ul><li>#status/finished</li></ul> |
-| [[Vincoli di assegnamento]]                                             | <ul><li>#status/finished</li></ul> |
-| [[Problema di ottimizzazione]]                                       | <ul><li>#status/finished</li></ul> |
-| [[Programmazione lineare]]                                               | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo euristico]]                                                     | <ul><li>#status/finished</li></ul> |
-| [[Algoritmo esatto]]                                                           | <ul><li>#status/finished</li></ul> |
-| [[Problema di certificato]]                                             | <ul><li>#status/finished</li></ul> |
-| [[Problema di decisione]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[Problema]]                                                                           | <ul><li>#status/finished</li></ul> |
-| [[Modello]]                                                                             | <ul><li>#status/finished</li></ul> |
-| [[Modello analitico]]                                                         | <ul><li>#status/finished</li></ul> |
-| [[Modello di simulazione]]                                               | <ul><li>#status/finished</li></ul> |
-| [[Modello basato su gioco]]                                             | <ul><li>#status/finished</li></ul> |
-| [[Processo decisionale]]                                                   | <ul><li>#status/finished</li></ul> |
+| Note                                                                                                                 | Status                             |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Problema di accoppiamento di costo minimo]]                 | <ul><li>#status/finished</li></ul> |
+| [[Problema di accoppiamento di massima cardinalita']] | <ul><li>#status/finished</li></ul> |
+| [[Problema di accoppiamento]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di cancellazione dei cicli]]                           | <ul><li>#status/finished</li></ul> |
+| [[Teorema di struttura degli pseudoflussi]]                     | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo dei cammini minimi successivi]]                     | <ul><li>#status/finished</li></ul> |
+| [[Problema del flusso di costo minimo]]                             | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di Goldberg-Tarjan]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di Edmonds-Karp]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo di Ford-Fulkerson]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Teorema max-flow min-cut]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[Problema del flusso massimo]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Cammino aumentante]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Taglio s-t]]                                                                               | <ul><li>#status/ongoing</li></ul>  |
+| [[Grafo residuo]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Taglio]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Problema di flusso]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[Flusso]]                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Problema su rete]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Funzioni lineari a tratti]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Valore assoluto in problemi di ottimizzazione]]         | <ul><li>#status/finished</li></ul> |
+| [[Funzione con carico fisso]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Minima quantita' positiva prefissata]]                           | <ul><li>#status/finished</li></ul> |
+| [[Variabili a valori discreti]]                                             | <ul><li>#status/finished</li></ul> |
+| [[Problema di riempimento]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Problema di partizione]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Problema di copertura]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Selezione di sottoinsiemi]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[Insiemi ammissibili]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Vincoli di semi-assegnamento]]                                           | <ul><li>#status/finished</li></ul> |
+| [[Vincoli di assegnamento]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Programmazione lineare intera]]                                         | <ul><li>#status/finished</li></ul> |
+| [[Programmazione lineare]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo euristico]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Algoritmo esatto]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Problema di certificato]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Problema di decisione]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Problema]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Modello di simulazione]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Processo decisionale]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[Modello basato su gioco]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Problema di ottimizzazione]]                                               | <ul><li>#status/finished</li></ul> |
+| [[Modello analitico]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[Modello]]                                                                                     | <ul><li>#status/finished</li></ul> |
+| [[Rete]]                                                                                           | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
 
 
