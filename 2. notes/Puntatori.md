@@ -113,7 +113,7 @@ int main() {
 
 ## Referenze
 [^1]: un altro esempio di differenza tra informatica e matematica
-[^2]: si veda l'[[Allocazione dinamica della memoria|allocazione dinamica della memoria]]
+[^2]: si veda l'[[Allocazione dinamica della memoria dei programmi|allocazione dinamica della memoria]]
 [^3]: libreria standard di [[C++]]
 [^4]: errore scatenato da una [[Trap|trap]]!
 [^5]: anche se attraverso la [[Definizione di tipi di dati|definizione di tipi di dati]] ci si può semplificare la vita

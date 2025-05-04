@@ -7,10 +7,10 @@ date: 25-02-2025 11:16:07
 links:
   - "[[Lecture 20022025131602]]"
 ---
-# Allocazione statica della memoria
+# Allocazione statica della memoria dei programmi
 ---
 ## Introduzione
-> Per **allocazione statica della memoria** si intende il meccanismo di allocazione della [[Memorie|memoria]] per il quale questa viene allocata a _compile-time_.
+> Per **allocazione statica della memoria dei programmi** si intende il meccanismo di allocazione della [[Memorie|memoria]] per il quale questa viene allocata a _compile-time_.
 
 ## Funzionamento
 Ad **ogni oggetto viene assegnato un indirizzo assoluto** che e' **mantenuto per tutta l'esecuzione del programma**. Solitamente si allocano staticamente:

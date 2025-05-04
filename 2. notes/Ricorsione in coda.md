@@ -12,7 +12,7 @@ links:
 ## Introduzione
 > Una [[Funzione informatica|funzione]] `f` si dice di **ricorsione in coda** se contiene solo "_chiamate in coda_", ovvero se restituisce il valore della chiamata di `f'` (in `f`) senza ulteriore computazione.
 
-IN tal caso non è necessaria alcuna [[Allocazione dinamica della memoria|allocazione dinamica della memoria]]: è sufficiente un solo [[Record di attivazione|record di attivazione]]!
+IN tal caso non è necessaria alcuna [[Allocazione dinamica della memoria dei programmi|allocazione dinamica della memoria]]: è sufficiente un solo [[Record di attivazione|record di attivazione]]!
 
 ## Esempio
 Prendiamo la funzione ricorsiva che calcola il [[Fattoriale|fattoriale]]:

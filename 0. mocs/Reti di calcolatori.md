@@ -14,8 +14,9 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Note      |
 | ----------------------------------------------------------------- | --------- |
-| [[Lecture 15042025152135]] | <ul></ul> |
+| [[Lecture 28042025111320]] | <ul></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/reti-di-calcolatori SORT file.ctime DESC -->
@@ -23,6 +24,7 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 28042025111320]] | 28-04-2025 11:13:20 |
 | [[Lecture 15042025152135]] | 15-04-2025 15:21:35 |
 | [[Lecture 14042025111851]] | 14-04-2025 11:18:51 |
 | [[Lecture 08042025152354]] | 08-04-2025 15:23:54 |
@@ -68,13 +70,12 @@ date: 16-09-2024 10:43:40
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
+| [[Lecture 28042025111320]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 15042025152135]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 14042025111851]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 08042025152354]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 07042025111854]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
-
-
 
 
 ## Note
@@ -136,8 +137,8 @@ date: 16-09-2024 10:43:40
 | [[SSL]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Crittografia]]                                                       | <ul><li>#status/finished</li></ul> |
 | [[Firma digitale]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[Certification Authorities]]                             | <ul><li>#status/finished</li></ul> |
 | [[Crittografia simmetrica]]                                 | <ul><li>#status/finished</li></ul> |
+| [[Certification Authorities]]                             | <ul><li>#status/finished</li></ul> |
 | [[RSA]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Crittografia asimmetrica]]                               | <ul><li>#status/finished</li></ul> |
 | [[Autenticazione]]                                                   | <ul><li>#status/finished</li></ul> |
@@ -161,8 +162,8 @@ date: 16-09-2024 10:43:40
 | [[Configurazione di un host]]                             | <ul><li>#status/finished</li></ul> |
 | [[Nome di dominio]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Sliding window]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[Congestione di rete]]                                         | <ul><li>#status/finished</li></ul> |
 | [[Controllo della congestione]]                         | <ul><li>#status/finished</li></ul> |
+| [[Congestione di rete]]                                         | <ul><li>#status/finished</li></ul> |
 | [[Demultiplexing]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[TCP]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Controllo del flusso]]                                       | <ul><li>#status/finished</li></ul> |

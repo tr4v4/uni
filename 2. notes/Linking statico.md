@@ -3,13 +3,18 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 24-11-2023 19:13:18
 links:
   - "[[Lecture 22112023151203]]"
+  - "[[Lecture 20032025151643]]"
 ---
 # Linking statico
 ---
 ## Introduzione
+> Il **linking statico** è un tipo di [[Linking|linking]] che prevede che _tutti i moduli oggetto vengano uniti in un unico file eseguibile, prima di essere caricati in memoria_, ossia a _compile-time_ (durante la [[Compilazione|compilazione]]).
+
+## Funzionamento
 La fase di linking statico prevede una serie di operazioni:
 1. _unione dei moduli_
 2. _rilocazione dei riferimenti interni_

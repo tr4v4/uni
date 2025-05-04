@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 ### Vincoli
-ll vincolo $|g(x)| \leq b$ si puo' facilmente esprmere nei due vincoli
+ll vincolo $|g(x)| \leq b$ si puo' facilmente esprimere nei due vincoli
 $$g(x) \leq b \ \ \ \ \ -g(x) \leq b$$
 assumendo che $b$ [[Numeri reali|reale]] positivo.
 

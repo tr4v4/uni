@@ -3,15 +3,23 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 22-10-2023 20:40:01
 links:
   - "[[Lecture 19102023130600]]"
   - "[[Lecture 16112023133640]]"
+  - "[[Lecture 20032025151643]]"
 ---
 # Paginazione
 ---
 ## Introduzione
-> La **paginazione** è un meccanismo gestito dal [[Sistema operativo|sistema operativo]] per implementare la [[Memoria virtuale|memoria virtuale]] nei moderni calcolatori.
+I meccanismi di [[Allocazione|allocazione]] (a partizioni fisse e [[Allocazione dinamica|dinamica]]) visti in precedenza, sono stati superati da un meccanismo più complesso e potente, che consente di utilizzare la memoria in modo più efficiente e flessibile: la **paginazione**.
+
+## Definizione
+> La **paginazione** è un meccanismo gestito dal [[Sistema operativo|sistema operativo]] per ridurre la [[Frammentazione interna|frammentazione interna]] ed eliminare quella [[Frammentazione esterna|esterna]][^1].
+> Inoltre, consente di implementare con facilita' la [[Memoria virtuale|memoria virtuale]].
+
+<u>Nota bene</u>: necessita' pero' di hardware adeguato, in particolare di una [[MMU]] di un certo tipo.
 
 Come avviene tra la [[Cache|cache]] e la [[RAM]], anche in questo caso _sono necessarie politiche di trasferimento dei dati dalla memoria al disco rigido_.
 
@@ -23,9 +31,39 @@ La paginazione fu ideata negli anni '60 da un gruppo di ricercatori di Mancheste
 L'idea fu quella di implementare, attraverso un _meccanismo di swapping tra memoria principale e memoria secondaria_, una memoria virtuale da 65K locazioni. Secondo questo principio, ogni blocco di 4K locazioni (chiamato _pagina_) veniva salvato permanentemente in memoria di massa, e caricato in RAM qualora un programma ne avesse richiesto l'accesso. Di fatto, attraverso un **meccanismo di traduzione** da _indirizzi virtuali_ a _indirizzi fisici_, un programma avrebbe potuto usufruire in maniera trasparente di ben 64K locazioni di memoria.
 
 ## Principio di funzionamento
-In linea di principio la RAM viene divisa in **blocchi**, e la memoria virtuale in **pagine**, della _medesima dimensione dei blocchi_. Le pagine sono tutte salvate in memoria di massa, e il numero massimo di pagine contenibili in RAM è ovviamente il suo numero di blocchi. Quando un _programma punta a un indirizzo virtuale, esso viene prima verificato se si trova in RAM o meno, e se si trova viene tradotto in fisico, altrimenti viene caricato in RAM e quindi tradotto in fisico_.
+In linea di principio la _memoria fisica_ viene suddivisa in blocchi chiamati **frame**, mentre la _memoria logica_ in blocchi della stessa dimensione chiamati **pagine**.
 
-### Esempio
+Quando un processo viene allocato in memoria, vengono reperiti _ovunque_ in memoria un _numero sufficiente di frame per contenere le pagine del processo_. Questo consente di **non dover necessariamente avere locazioni contigue per ogni processo**, e di **virtualizzare la contiguità**! Infatti, i frame non devono essere necessariamente contigui in RAM.
+![[paginazione-1.png]]
+
+A questo punto, si tiene traccia della corrispondenza tra le pagine e i frame in RAM attraverso una **tabella delle pagine**. Questa è una struttura dati che contiene un record per ogni pagina, in cui sono memorizzati gli indirizzi dei frame in RAM che contengono le pagine del processo.
+![[paginazione-2.png]]
+
+### Traduzione
+Nella pratica, e' la MMU ad occuparsi di tradurre gli [[Indirizzo logico|indirizzi logici]] in [[Indirizzo fisico|indirizzi fisici]].
+
+Ogni indirizzo logico e' composto da:
+- _indice_ della pagina;
+- _offset_ all'interno della pagina.
+
+Quello fisico, invece, da:
+- _indice_ del frame;
+- _offset_ all'interno del frame.
+
+La MMU, quindi, **mappera' l'indice della pagina nell'indice del frame, mantenendo invariato l'offset**.
+![[paginazione-3.png]]
+
+### Tabella delle pagine
+Ma dove viene memorizzata la tabella delle pagine? Potremmo:
+- salvarla in registri dedicati, ad alta velocita', all'interno della MMU (o della CPU) --> troppo costoso;
+- salvarla tutta in RAM --> il numero di accessi in memoria verrebbe raddoppiato!
+
+Quindi, nei sistemi odierni, si usa una [[TLB]].
+
+### Memoria virtuale
+Nel caso dell'utilizzo della paginazione per memoria virtuale, la RAM viene sempre divisa in **blocchi**, e la memoria virtuale in **pagine**, della _medesima dimensione dei blocchi_. Le pagine sono tutte salvate in memoria di massa, e il numero massimo di pagine contenibili in RAM è ovviamente il suo numero di blocchi. Quando un _programma punta a un indirizzo virtuale, esso viene prima verificato se si trova in RAM o meno, e se si trova viene tradotto in fisico, altrimenti viene caricato in RAM e quindi tradotto in fisico_.
+
+#### Esempio
 ![[pagina-e-blocchi.png|500]]
 
 Nel caso sopra i $2^{15}$ indirizzi fisici (in RAM) sono suddivisi in 8 blocchi, per cui si hanno:
@@ -49,6 +87,16 @@ Ma <u>attenzione</u>: la RAM non può contenere ogni pagina (è quello il punto)
 <u>Nota bene</u>: le pagine al momento in memoria vengono dette **working set**.
 
 ## Considerazioni
+### Dimensione delle pagine
+Per semplificare la traduzione da indirizzi logici a fisici, la dimensione delle pagine (e quindi anche dei frame) sono scelte come potenze del 2.
+
+Quanto grande devono essere, invece, dipende da un trade-off:
+- _pagine/frame piccole_ --> meno frammentazione interna, ma piu' record nella tabella delle pagine;
+- _pagine/frame grandi_ --> piu' frammentazione interna, ma meno record nella tabella delle pagine.
+
+Dei valori tipici di pagine sono 1KB, 2KB, 4KB.
+
+### Memoria virtuale
 Questo meccanismo, gestito dal sistema operativo, dev'essere realizzato in modo che **un qualsivoglia programma in esecuzione possa accedere a indirizzi virtuali in completa trasparenza**.
 
 E' importante tenere a mente che un **RAM-miss** pesa molto di più di un **cache-miss**: andare a _recuperare i dati in memoria virtuale significa accedere alla memoria di massa, estremamente più lenta della memoria centrale_. Nella progettazione degli algoritmi di paginazione questo aspetto dev'essere tenuto bene in considerazione.
@@ -59,3 +107,5 @@ L'utilizzo di memoria virtuale viene usato in concomitanza a quello della cache:
 
 ## Referenze
 - [[Combinazione segmentazione-paginazione]]
+
+[^1]: in realta' non si elimina del tutto...

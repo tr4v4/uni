@@ -33,7 +33,7 @@ Se volessimo dare una descrizione, allora
 
 ## Compiti
 Di fatto il sistema operativo si occupa di:
-- _gestire la memoria principale_, che viene astratta dal gestore della memoria come un "array" di byte indirizzabili singolarmente
+- _[[Gestione della memoria|gestire la memoria principale]]_, che viene astratta dal gestore della memoria come un "array" di byte indirizzabili singolarmente
 	- tenere traccia di quali parti della memoria sono usate e da chi
 	- decidere quali processi caricare quando diventa disponibile spazio in memoria
 	- allocare e deallocare lo spazio di memoria quando necessario

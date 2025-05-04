@@ -21,7 +21,7 @@ links:
 > 	- informazioni di [[Scheduling|scheduling]] varie;
 > - _controllo del processo_
 > 	- stato del processo;
-> 	- gestione della memoria;
+> 	- [[Gestione della memoria|gestione della memoria]];
 > 	- accounting (importanti per misurare le prestazioni!);
 > 	- relative alle risorse;
 > 	- priorita' (per le politiche di scheduling);

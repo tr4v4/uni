@@ -8,6 +8,7 @@ date: 20-02-2025 09:55:09
 links:
   - "[[Lecture 19022025111150]]"
   - "[[Lecture 13032025151745]]"
+  - "[[Lecture 20032025151643]]"
 ---
 # Binding
 ---
@@ -44,5 +45,7 @@ Permette di gestire la multiprogrammazione e non richiede dell'hardware specific
 
 ### Run-time
 In questo ultimo caso, il [[Compilatore|compilatore]] compila in _codice assoluto_, e il loader non aggiunge alcun offset agli indirizzi: _ogni volta che il processo genera un indirizzo, questo viene tradotto a run-time dalla [[MMU]], che trasforma l'indirizzo logico in fisico_.
+
+<u>Nota bene</u>: gli [[Indirizzo fisico|indirizzi fisici]] sono quelli in [[RAM]], quelli [[Indirizzo logico|logici]] sono quelli gestiti dalla MMU. _Ogni processo e' associato a uno spazio di indirizzamento logico, e gli indirizzi usati da un processo sono tutti logici_.
 
 ## Referenze

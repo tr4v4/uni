@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15d471505cddfada",
+        "id": "ed3e5e7adf8d0b56",
         "type": "tabs",
         "children": [
           {
-            "id": "17203cca1674d761",
+            "id": "dd5a46989ccbe30e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Deep binding.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Deep binding"
             }
           }
         ]
@@ -165,8 +169,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "17203cca1674d761",
+  "active": "dd5a46989ccbe30e",
   "lastOpenFiles": [
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Passaggio dei parametri.md",
+    "2. notes/Funzione di ordine superiore.md",
+    "2. notes/Shallow binding.md",
+    "2. notes/Deep binding.md",
+    "2. notes/Scope statico.md",
+    "2. notes/Scope.md",
+    "2. notes/Binding.md",
     "0. mocs/Calcolo delle probabilità e statistica.md",
     "2. notes/Formula di Bayes.md",
     "0. mocs/Ottimizzazione combinatoria.md",
@@ -175,7 +187,6 @@
     "1. lectures/Lecture 28022025132238.md",
     "1. lectures/Lecture 04032025133148.md",
     "1. lectures/Lecture 27022025131944.md",
-    "0. mocs/Linguaggi di programmazione.md",
     "1. lectures/Lecture 26022025111603.md",
     "1. lectures/Lecture 20022025131602.md",
     "1. lectures/Lecture 25022025133832.md",
@@ -186,13 +197,6 @@
     "2. notes/Monitor.md",
     "2. notes/Potere espressivo.md",
     "2. notes/Message passing.md",
-    "2. notes/Fattorizzazione LU.md",
-    "2. notes/Matrice minore.md",
-    "4. homeworks/Calcolo numerico - HW. 2.md",
-    "2. notes/Caratterizzazione delle primitive su un intervallo.md",
-    "2. notes/Algoritmo iterativo.md",
-    "2. notes/Normalizzazione.md",
-    "2. notes/Linguaggio generato.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

@@ -3,9 +3,11 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 24-11-2023 19:16:14
 links:
   - "[[Lecture 22112023151203]]"
+  - "[[Lecture 20032025151643]]"
 ---
 # Linking dinamico
 ---
@@ -17,8 +19,16 @@ Un metodo di implementazione del linking dinamico è attraverso l'utilizzo di un
 
 Questa implementazione "a trap" consente di non dover avere sempre in memoria tutte le librerie installate, ma solo quelle di volta in volta invocate.
 
-## Vantaggi
+In poche parole quindi **posticipa il caricamento delle librerie al momento della loro invocazione**. Questo è il motivo per cui il linking dinamico è spesso associato al _[[Loading dinamico|loading dinamico]]_: il sistema operativo carica le librerie solo quando vengono richiamate.
+
+## Considerazioni
+### Vantaggi
 Questo _velocizza molto il processo di compilazione nel caso in cui la procedura di un modulo esterno venga invocata rare volte_: non avrebbe senso creare, con tutto ciò che esso comporta, un unico modulo per invocazioni sporadiche.
+
+Inoltre, se si modifica una libreria, non è necessario ricompilare il programma che la utilizza. Il codice della libreria, infine, si dice essere _reentrant_: viene caricato in un'area di memoria condivisa, a cui tutti i processi che ne hanno bisogno ci accedono.
+
+### Svantaggi
+Puo' causare problemi di _versioning_: se una libreria viene aggiornata, il programma che la utilizza potrebbe non funzionare più. Bisogna fare attenzione all'aggiornamento delle librerie, per evitare di rompere i programmi che le utilizzano.
 
 ## Utilizzi
 Questo sistema viene usato nei [[DLL]] di [[Windows]]: sarebbe inutile inserire, in tutti gli eseguibili, le stesse librerie; inoltre, in caso di aggiornamento, bisognerebbe ricompilare tutti gli eseguibili che includono tali librerie.

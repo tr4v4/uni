@@ -26,7 +26,7 @@ Graficamente parlando, una lista si presenta, a partire da un puntatore **head**
 E' possibile implementare una lista con un [[Array|array]], e anzi offre vantaggi notevoli. L'ordine degli elementi è determinato dagli _indici_, e l'accesso a un suo elemento avviene in tempo costante ($O(1)$). Tuttavia lo _spazio è allocato staticamente_, e quindi è limitato.
 
 ### Liste concatenate
-L'ordinamento è in questo caso determinato da una _catena di [[Puntatori|puntatori]]_, e lo [[Allocazione dinamica della memoria|spazio viene allocato dinamicamente]]. Il [[Complessità computazionale|costo]] di accesso dipende dalla posizione in cui si trova l'elemento (per cui lineare).
+L'ordinamento è in questo caso determinato da una _catena di [[Puntatori|puntatori]]_, e lo [[Allocazione dinamica della memoria dei programmi|spazio viene allocato dinamicamente]]. Il [[Complessità computazionale|costo]] di accesso dipende dalla posizione in cui si trova l'elemento (per cui lineare).
 
 Le liste concatenate sono attribuite a [[Newell]], [[Shaw]], [[Simon]] (sviluppatori di [[IPL]]), che le idearono come soluzione al problema della _rilocalizzazione di un array_ (necessaria al suo ridimensionamento), che non sempre è possibile.
 

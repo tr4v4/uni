@@ -134,6 +134,6 @@ Il rischio principale della ricorsione è l'eventuale _ricorsione infinita_, ovv
 - [[Ricorsione in coda]]
 
 [^1]: vero, già visto in [[Logica proposizionale|logica proposizionale]] e nella [[Semantica classica#Definizione|definizione di semantica classica]]
-[^2]: fare riferimento all'[[Allocazione dinamica della memoria|allocazione dinamica della memoria]]
+[^2]: fare riferimento all'[[Allocazione dinamica della memoria dei programmi|allocazione dinamica della memoria]]
 [^3]: si veda [[ZF]]
 [^4]: e non solo: abbiamo studiato che [[Rappresentazione dell'informazione|non è possibile rappresentare tutti i numeri con il massimo grado di precisione]]: si veda la [[Codifica floating-point|codifica floating-point]]

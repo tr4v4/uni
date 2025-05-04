@@ -30,11 +30,15 @@ $$\begin{cases} A\bar{x} \leq b, \bar{x} \geq 0 \\ \bar{y}A \geq c, \bar{y} \geq
 #### Dimostrazione
 Se il primale e' illimitato, allora $\forall M \in \mathbb{R}$ esiste una soluzione ammissibile $x$ per il primale tale che $cx > M$; se per assurdo esistesse una soluzione ammissibile $y$ per il duale, allora troveremmo un $x$ ammissibile per il primale tale che $cx > yb$, in assurdo per il teorema debole di dualità.
 
+**Qed**.
+
 ### Uguaglianza $\implies$ ottimo
 > Se $\bar{x}$ e $\bar{y}$ sono soluzioni ammissibili per primale e duale, e $c\bar{x} = \bar{y}b$, allora $\bar{x}, \bar{y}$ sono soluzioni ottime[^1].
 
 #### Dimostrazione
 Se per assurdo $\bar{x}, \bar{y}$ non fossero ottime, allora esisterebbe un $x$ ammissibile per il primale tale che $cx > c\bar{x}$; ma allora $cx > c\bar{x} = \bar{y}b$, il che e' assurdo per il teorema debole di dualità.
+
+**Qed**.
 
 ## Referenze
 

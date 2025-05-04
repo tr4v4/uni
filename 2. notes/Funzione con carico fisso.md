@@ -30,6 +30,6 @@ Infatti
 $$g(0, 0) = 0$$
 $$g(x, 1) = b + cx$$
 
-<u>Nota bene</u>: quando $y = 0$ si ha $x = 0$ (per il vincolo aggiunto); ma quando $y = 1$ non e' dett che $x > 0$. Puo', in altre parole, capitare il caso in cui $y = 1$ e $x = 0$. In questo caso, vorrebbe dire che $g(0, 1)$ e $g(0, 0)$ corrispondono entrambe a soluzioni ammissibili, quando il valore $(0, 1)$ non dovrebbe esistere (è giusto per il modello ma non per la realtà). Se pero' assumiamo che $f$ sia da minimizzare, allora la scelta tra $g(0, 1)$ e $g(0, 0)$ darebbe sempre $(0, 0)$ come valore ottimale (ovvio, perche' $g(0, 1) > g(0, 0)$ in quanto $b > 0$).
+<u>Nota bene</u>: quando $y = 0$ si ha $x = 0$ (per il vincolo aggiunto); ma quando $y = 1$ non e' detto che $x > 0$. Puo', in altre parole, capitare il caso in cui $y = 1$ e $x = 0$. In questo caso, vorrebbe dire che $g(0, 1)$ e $g(0, 0)$ corrispondono entrambe a soluzioni ammissibili, quando il valore $(0, 1)$ non dovrebbe esistere (è giusto per il modello ma non per la realtà). Se pero' assumiamo che $f$ sia da minimizzare, allora la scelta tra $g(0, 1)$ e $g(0, 0)$ darebbe sempre $(0, 0)$ come valore ottimale (ovvio, perche' $g(0, 1) > g(0, 0)$ in quanto $b > 0$).
 
 ## Referenze

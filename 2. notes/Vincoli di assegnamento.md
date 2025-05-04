@@ -19,7 +19,7 @@ links:
 > $$\sum\limits_{j=1}^{m} x_{ij} = 1 \ \ \ \ \ \sum\limits_{i=1}^{n} x_{ij} = 1$$
 > <u>Attenzione</u>: **i vincoli di assegnamento possono essere applicati se e solo se $n = m$**[^1]!
 
-I vincoli di assegnamento possono essere usati per imporre gli $n$ oggetti (intesi come lavori) siano **eseguiti in un certo ordine** (il luogo $j$ indica l'ordine di esecuzione del lavoro $i$).
+I vincoli di assegnamento possono essere usati per imporre che gli $n$ oggetti (intesi come lavori) siano **eseguiti in un certo ordine** (il luogo $j$ indica l'ordine di esecuzione del lavoro $i$).
 
 ## Esempi
 ### Assegnamento di costo minimo

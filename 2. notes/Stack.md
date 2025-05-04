@@ -13,7 +13,7 @@ links:
 # Stack
 ---
 ## Definizione
-> Lo **stack** è quella parte di [[Allocazione dinamica della memoria|memoria]] riservata a un [[Processo|processo]] in esecuzione in cui vengono _allocati i [[Record di attivazione|record di attivazione]]_ delle [[Funzione informatica|funzioni]].
+> Lo **stack** è quella parte di [[Allocazione dinamica della memoria dei programmi|memoria]] riservata a un [[Processo|processo]] in esecuzione in cui vengono _allocati i [[Record di attivazione|record di attivazione]]_ delle [[Funzione informatica|funzioni]].
 
 E' una memoria di tipo [[LIFO]]. Ha un [[Registro|registro]] dedicato chiamato _Stack Pointer_ ([[SP]]).
 

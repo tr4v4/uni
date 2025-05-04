@@ -9,10 +9,10 @@ links:
   - "[[Lecture 03112023110813]]"
   - "[[Lecture 20022025131602]]"
 ---
-# Allocazione dinamica della memoria
+# Allocazione dinamica della memoria dei programmi
 ---
 ## Introduzione
-> Per **allocazione dinamica della memoria** si intende il meccanismo di allocazione della [[Memorie|memoria]] per il quale questa viene allocata a _run-time_.
+> Per **allocazione dinamica della memoria dei programmi** si intende il meccanismo di allocazione della [[Memorie|memoria]] per il quale questa viene allocata a _run-time_.
 
 In modo particolare, comprende [[Stack|stack]] e [[Heap|heap]].
 Ricordiamo, infatti che la [[RAM]] alloca a ogni [[Processo|processo]] in esecuzione un certo spazio diviso in 4 principali sezioni:

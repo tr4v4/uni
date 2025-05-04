@@ -8,6 +8,7 @@ date: 25-09-2023 18:51:36
 links:
   - "[[Lecture 25092023130405]]"
   - "[[Lecture 21022025091223]]"
+  - "[[Lecture 04042025092728]]"
 ---
 # SSD
 ---
@@ -18,7 +19,7 @@ Non ha parti in movimento, a differenza dell'[[HD]], e per questo si diffuse per
 - minori consumi
 - resistenza agli urti
 
-Sono più veloci ma meno capienti degli HD, e di principio sono simili alle _chiavette [[USB]]_.
+Sono più veloci ma meno capienti degli HD, e di principio sono simili alle _chiavette [[USB]]_. Inoltre la velocita' di lettura e' molto piu' elevata rispetto a quella di scrittura.
 
 Hanno inoltre un **numero di cicli di scrittura limitato**: tende a deteriorarsi in fase di scrittura. Si legge a blocchi ma si scrive a banchi (numerosi blocchi). 
 

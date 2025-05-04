@@ -10,7 +10,7 @@ links:
 # Invocazione di procedura
 ---
 ## Introduzione
-Nell'esecuzione di un [[Programma|programma]] informatico è estremamente frequente la chiamata di [[Funzione informatica|funzioni]]. A basso livello questo comporta una serie di operazioni che vengono svolte in quella porzione di [[RAM|memoria]] [[Allocazione dinamica della memoria|allocata]] all'esecuzione del programma chiamata [[Stack|stack]].
+Nell'esecuzione di un [[Programma|programma]] informatico è estremamente frequente la chiamata di [[Funzione informatica|funzioni]]. A basso livello questo comporta una serie di operazioni che vengono svolte in quella porzione di [[RAM|memoria]] [[Allocazione dinamica della memoria dei programmi|allocata]] all'esecuzione del programma chiamata [[Stack|stack]].
 
 ## Fasi
 L'invocazione di procedura si compone di 2 fasi:

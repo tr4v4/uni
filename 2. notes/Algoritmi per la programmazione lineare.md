@@ -7,6 +7,7 @@ date: 21-04-2025 18:43:16
 links:
   - "[[Lecture 09042025091244]]"
   - "[[Lecture 14042025091835]]"
+  - "[[Lecture 16042025091309]]"
 ---
 # Algoritmi per la programmazione lineare
 ---
@@ -116,6 +117,9 @@ Fatte queste premesse, possiamo enunciare alcuni teoremi fondamentali. In partic
 - [[Teorema di Motzkin]];
 - [[Teorema fondamentale della programmazione lineare]].
 
-Bisogna anche introdurre brevemente il concetto di dualita', della [[Teoria della dualita'|teoria della dualita']].
+Bisogna anche introdurre brevemente il concetto di dualita', della [[Teoria della dualita'|teoria della dualita']]. Infine mancano le nozioni di [[Direzione ammissibile|direzione ammissibile]] e [[Direzione di crescita|direzione di crescita]].
+
+## Algoritmo
+L'algoritmo che utilizza tutte queste nozioni per risolvere un problema di programmazione lineare e' l'[[Algoritmo del simplesso|algoritmo del simplesso]].
 
 ## Referenze

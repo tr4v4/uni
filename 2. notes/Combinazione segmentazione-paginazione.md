@@ -3,15 +3,17 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/sistemi-operativi
 date: 24-11-2023 17:11:15
 links:
   - "[[Lecture 20112023130829]]"
   - "[[Lecture 22112023151203]]"
+  - "[[Lecture 21032025091929]]"
 ---
 # Combinazione segmentazione-paginazione
 ---
 ## Introduzione
-> La **combinazione tra [[Segmentazione|segmentazione]] e [[Paginazione|paginazione]]** costituisce il rimedio principale al problema della [[Frammentazione esterna|frammentazione esterna]], nonché il meccanismo standard di gestione della [[RAM|memoria]] (e quindi implementato dal [[Sistema operativo|sistema operativo]]) utilizzato oggiogiorno.
+> La **combinazione tra [[Segmentazione|segmentazione]] e [[Paginazione|paginazione]]** costituisce il rimedio principale al problema della [[Frammentazione esterna|frammentazione esterna]], nonché il meccanismo standard di [[Gestione della memoria|gestione della memoria]] (e quindi implementato dal [[Sistema operativo|sistema operativo]]) utilizzato oggiogiorno.
 
 ## Principio di implementazione
 Fondamentalmente **ogni segmento viene suddiviso in pagine**, e **ogni segmento ha una sua tabella delle pagine**. Un indirizzo virtuale, ora, dovrà contenere:
@@ -26,7 +28,7 @@ In questo modo dal numero di segmento sapremo a quale segmento vogliamo accedere
 
 La gestione delle pagine in memoria sarà gestita dai già noti [[Algoritmi di paginazione|algoritmi di paginazione]], a prescindere dal segmento a cui una pagina appartiene!
 
-<u>Osservazione</u>: il _side-effect_ di questa combinazione sta nel maggiore lavoro da parte dell'[[MMU]].
+<u>Osservazione</u>: il _side-effect_ di questa combinazione sta nel maggiore lavoro da parte dell'[[MMU]]. Infatti questa deve supportare sia la segmentazione che la paginazione.
 
 ## Osservazione
 C'è un rapporto ortogonale che lega la paginazione con la segmentazione:

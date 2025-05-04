@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d1d38d7eba98b7e",
+        "id": "3f26d193ade78042",
         "type": "tabs",
         "children": [
           {
-            "id": "d140cc5a56b1692c",
+            "id": "724c1d8a7e39859d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,35 +22,34 @@
             }
           },
           {
-            "id": "09ecb33ac8b455a4",
+            "id": "b49ec94bcc99c780",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 10042025153553.md",
+                "file": "1. lectures/Lecture 11042025104834.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 10042025153553"
+              "title": "Lecture 11042025104834"
             }
           },
           {
-            "id": "c911933044331608",
+            "id": "02a2dd75bd59015a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 24042025152212.md",
+                "file": "1. lectures/Lecture 23042025152007.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 24042025152212"
+              "title": "Lecture 23042025152007"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -239,8 +239,8 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
             }
           }
         ],
@@ -257,7 +257,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2. notes/Variabile aleatoria continua.md",
+                "file": "0. mocs/Sistemi operativi.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -285,7 +285,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Variabile aleatoria continua"
+              "title": "Graph of Sistemi operativi"
             }
           }
         ]
@@ -324,47 +324,48 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "soundscapes:Soundscapes: My Music": false
     }
   },
-  "active": "c911933044331608",
+  "active": "724c1d8a7e39859d",
   "lastOpenFiles": [
-    "1. lectures/Lecture 10042025153553.md",
-    "1. lectures/Lecture 24042025152212.md",
+    "2. notes/Gestione della memoria.md",
+    "2. notes/Algoritmo del simplesso.md",
+    "0. mocs/Ottimizzazione combinatoria.md",
     "0. mocs/Sistemi operativi.md",
-    "2. notes/Funzione hash.md",
-    "2. notes/Uniformità semplice.md",
-    "0. mocs/Linguaggi di programmazione.md",
-    "1. lectures/Lecture 23042025111218.md",
-    "1. lectures/Lecture 24042025131115.md",
-    "2. notes/Eccezione.md",
     "1. lectures/Lecture 11042025104834.md",
     "1. lectures/Lecture 23042025152007.md",
-    "1. lectures/Lecture 16042025110927.md",
-    "0. mocs/Calcolo delle probabilità e statistica.md",
-    "1. lectures/Lecture 15042025131630.md",
-    "1. lectures/Lecture 23042025091502.md",
-    "2. notes/Formula delle probabilità totali.md",
-    "2. notes/Eventi indipendenti.md",
-    "1. lectures/Lecture 11042025131834.md",
-    "1. lectures/Lecture 08042025133009.md",
-    "2. notes/Variabile aleatoria continua.md",
-    "2. notes/Variabile aleatoria mista.md",
-    "2. notes/Variabile aleatoria discreta.md",
-    "2. notes/Funzione di ripartizione.md",
-    "2. notes/Funzione integrale.md",
-    "2. notes/Densita' continua.md",
-    "1. lectures/Lecture 04042025131943.md",
-    "media/variabili-aleatorie-continue-1.png",
-    "media/teoria-della-dualita'.png",
-    "media/algoritmi-programmazione-lineare-4.png",
-    "media/algoritmi-programmazione-lineare-3.png",
-    "media/algoritmi-programmazione-lineare-2.png",
-    "media/algoritmi-programmazione-lineare-1.png",
-    "media/accoppiamento-costo-minimo.png",
-    "media/cancellazione-cicli-2.png",
-    "media/cancellazione-cicli-1.png",
-    "media/passaggio-per-nome-chiusura.png",
+    "1. lectures/Lecture 04042025092728.md",
+    "2. notes/SSD.md",
+    "2. notes/File system.md",
+    "2. notes/File.md",
+    "2. notes/HD.md",
+    "2. notes/RAID.md",
+    "2. notes/RAID 6.md",
+    "2. notes/RAID 5.md",
+    "2. notes/RAID 1.md",
+    "2. notes/RAID 0.md",
+    "media/raid-5.png",
+    "2. notes/RAID 4.md",
+    "media/raid-4.png",
+    "media/raid-1.png",
+    "media/raid-0.png",
+    "2. notes/Memorie.md",
+    "2. notes/C-LOOK.md",
+    "2. notes/LOOK.md",
+    "2. notes/Disk scheduling.md",
+    "2. notes/Coda.md",
+    "2. notes/SSTF.md",
+    "2. notes/FCFS.md",
+    "2. notes/I-O.md",
+    "media/kernel-i-o.png",
+    "2. notes/Working set.md",
+    "media/trashing.png",
+    "media/memoria-virtuale.png",
+    "media/paginazione-vs-segmentazione.png",
+    "media/allocazione-dinamica-liste-puntatori.png",
+    "media/allocazione-dinamica-bitmap.png",
     "2. notes/Equivalenze regolari.canvas",
     "5. seminars",
     "media/jupiter.jpg.crdownload",

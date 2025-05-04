@@ -4,17 +4,21 @@ tags:
   - status/finished
   - topic/architettura-degli-elaboratori
   - topic/linguaggi-di-programmazione
+  - topic/sistemi-operativi
 date: 24-11-2023 17:17:21
 links:
   - "[[Lecture 20112023130829]]"
   - "[[Lecture 26022025111603]]"
+  - "[[Lecture 20032025151643]]"
 ---
 # Frammentazione esterna
 ---
 ## Introduzione
-> La **frammentazione esterna** è una [[Frammentazione|frammentazione]] della [[RAM]] che si verifica come conseguenza della [[Segmentazione|segmentazione]].
+> La **frammentazione esterna** è una [[Frammentazione|frammentazione]] della [[RAM]] che si verifica a seconda della strategia di [[Allocazione|allocazione]] della [[RAM|memoria]].
 
-Lo _swap_ di un segmento dalla memoria secondaria a quella principale non avviene in maniera così banale come per la [[Paginazione|paginazione]]. Questo perché i segmenti hanno grandezze distinte. In particolare la frammentazione esterna si verifica quando **un blocco di una certa dimensione viene sostituito da uno di dimensione minore**, lasciando in memoria un piccolo _gap_ che non è riempibile con nessun altro segmento.
+Nel caso dei sistemi operativi, se si ha allocazione a partizioni dinamiche, la memoria viene allocata in blocchi di dimensioni variabili, a seconda delle esigenze del programma. La **frammentazione esterna si verifica quando i blocchi di memoria allocati non sono contigui e ci sono spazi vuoti tra di essi**.
+
+Inoltre, nel caso della [[Segmentazione|segmentazione]], lo _swap_ di un segmento dalla memoria secondaria a quella principale non avviene in maniera così banale come per la [[Paginazione|paginazione]]. Questo perché i segmenti hanno grandezze distinte. In particolare la frammentazione esterna si verifica quando **un blocco di una certa dimensione viene sostituito da uno di dimensione minore**, lasciando in memoria un piccolo _gap_ che non è riempibile con nessun altro segmento.
 
 Questi gap, sparsi nella memoria, finiscono con l'accumularsi, portando ad una situazione di stallo, in cui _gli spazi rimasti non sono abbastanza grandi da contenere un nuovo segmento_.
 
@@ -29,5 +33,7 @@ Per risolvere, o almeno limitare il più possibile la frammentazione esterna, ci
 - [[Defrag|defrag]]
 
 Il metodo però migliore per evitare del tutto la frammentazione esterna consiste nel [[Combinazione segmentazione-paginazione|combinare la segmentazione con la paginazione]].
+
+Un altro sistema consiste nella [[Compattazione|compattazione]] della memoria.
 
 ## Referenze
