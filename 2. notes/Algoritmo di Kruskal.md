@@ -15,7 +15,7 @@ links:
 ## Idea
 L'idea è di _considerare gli archi in ordine non decrescente di peso_, e:
 - se l'arco $e = \{u, v\}$ **connette due alberi blu non della stessa [[Componenti connesse|componente]]** (sconnessi, disgiunti) --> lo coloriamo di **blu**;
-- se l'arco $e = \{u, v\}$ **connette due alberi blu della stesse componente** (connessi) --> lo coloriamo di **rosso**.
+- se l'arco $e = \{u, v\}$ **connette due alberi blu della stessa componente** (connessi) --> lo coloriamo di **rosso**.
 
 Quindi _ripetiamo lo stesso procedimento per $n-1$ volte, oppure fino a che tutti gli archi non sono colorati_.
 

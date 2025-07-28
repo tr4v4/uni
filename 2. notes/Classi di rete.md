@@ -26,5 +26,5 @@ Gli [[Indirizzo IP|indirizzi IP]] ([[IPv4|v4]]) si classificano in 3 classi prin
 
 ## Referenze
 [^1]: `127` è _indirizzo di loopback_, mentre `0` non viene usato
-[^2]: `255` è l'_indirizzo di broadcast_, mentre `0`
+[^2]: `255` è l'_indirizzo di broadcast_, mentre `0` e' l'indirizzo della rete
 [^3]: proprio come la [[Codifica di Huffman|codifica di Huffman]]

@@ -3,14 +3,16 @@ tags:
   - category/note
   - status/finished
   - topic/architettura-degli-elaboratori
+  - topic/reti-di-calcolatori
 date: 12-10-2023 22:47:06
 links:
   - "[[Lecture 11102023151203]]"
+  - "[[Lecture 15042025152135]]"
 ---
 # Bit di parità
 ---
 ## Introduzione
-> La tecnica del **bit di parità** è il più semplice [[Codici correttori|codice correttore]] che consente di rilevare, con 1 solo bit di controllo, un errore dei dati.
+> La tecnica del **bit di parità** è il più semplice [[Codici correttori|codice correttore]] (tecnica di [[Rilevamento degli errori|rilevamento degli errori]]) che consente di rilevare, con 1 solo bit di controllo, un errore dei dati.
 
 ## Funzionamento
 Fondamentalmente per qualunque parola del codice viene aggiunto 1 bit in più che:

@@ -23,7 +23,7 @@ Internamente un router si compone di:
 ![[router-inside.png]]
 
 ### Switching fabric
-Si tratta dei "binari" che consentono di attivare il percorso che collega un'interfaccia di input del router in una di output, sulla base della scelta di forwarding fatta dal _routing processor_. Opera in timeframes di nanosecondi, e se ne occupa il [[Data plane|data plane]]
+Si tratta dei "binari" che consentono di attivare il percorso che collega un'interfaccia di input del router in una di output, sulla base della scelta di forwarding fatta dal _routing processor_. Opera in timeframes di nanosecondi, e se ne occupa il [[Data plane|data plane]].
 
 Sono possibili 3 scelte implementative:
 - _memoria_;
@@ -63,7 +63,7 @@ In definitiva:
 - se perde pacchetti in buffer di input --> buffer [[Congestione di rete|congestionato]];
 - se perde pacchetti in buffer di output --> le linee di uscita sono sempre occupate dalle comunicazioni di altri.
 
-Per determinare la grandezza ottimale del buffer si usa la _regola del pollice_.
+Per determinare la grandezza ottimale del buffer si usa la _regola del pollice_: si usa il BDP, ossia _bandwidth delay product_, che è il prodotto della _larghezza di banda_ (in bit) e del _[[RTT]]_ (in secondi). Si tratta di un valore in bit, che va convertito in byte dividendo per 8.
 
 ## Referenze
 - [[Network scheduling]]

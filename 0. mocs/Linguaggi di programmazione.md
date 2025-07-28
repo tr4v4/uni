@@ -14,8 +14,9 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Note                                                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [[Lecture 30042025110449]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
+| [[Lecture 14052025105842]] | <ul><li>[[Linguaggi di programmazione]]</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
@@ -23,6 +24,9 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 14052025105842]] | 14-05-2025 10:58:42 |
+| [[Lecture 08052025131742]] | 08-05-2025 13:17:42 |
+| [[Lecture 07052025110754]] | 07-05-2025 11:07:54 |
 | [[Lecture 30042025110449]] | 30-04-2025 11:04:49 |
 | [[Lecture 24042025131115]] | 24-04-2025 13:11:15 |
 | [[Lecture 23042025111218]] | 23-04-2025 11:12:18 |
@@ -71,10 +75,13 @@ date: 16-09-2024 10:40:19
 | [[Lecture 21112024121059]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 18102024090854]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 16042025110927]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 14052025105842]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 12112024110924]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 10042025131105]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 09042025110710]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 08052025131742]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 07112024120244]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 07052025110754]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05112024110833]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
@@ -259,6 +266,7 @@ date: 16-09-2024 10:40:19
 | [[Heap]]                                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Array]]                                                                                       | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
+
 
 
 ## Referenze

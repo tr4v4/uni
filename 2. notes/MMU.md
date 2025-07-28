@@ -26,6 +26,6 @@ La MMU in questo caso pone prima del registro di rilocazione un _registro limite
 
 ![[registro-limite-e-rilocazione.png]]
 
-E' con questo registro che la MMU fornisce i **meccanismi di protezione della memoria**!
+E' con questo registro che la MMU fornisce i **[[Protezione hardware|meccanismi di protezione]] della memoria**!
 
 ## Referenze

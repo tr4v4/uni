@@ -21,7 +21,7 @@ L'idea è quindi di astrarre la rete locale, gestita già dal [[Livello MAC-LLC|
 
 ## Caratteristiche
 Il livello rete presenta le seguenti caratteristiche:
-- _connectionless_ -> non viene stabilita una connessione tra i dispositivi che si scambiano dati
+- _[[Servizio non orientato alla connessione|connectionless]]_ -> non viene stabilita una connessione tra i dispositivi che si scambiano dati
 - _best-effort_ -> non viene garantita la consegna dei dati (pacchetti) al destinatario (né l'ordine di arrivo)
 
 ## Sottolivelli

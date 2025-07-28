@@ -39,7 +39,7 @@ Queste operazioni devono essere fatte in modo controllato, attraverso un _sistem
 dove:
 - `EtichettaturaValida(G)` --> $d_{i} =$ lunghezza del cammino minimo da $i$ a $t$, quindi sarà più alto più si è lontani da $t$;
 - `PushForward(v, j)` --> aumento il flusso $(v, j)$ del minimo tra $e_{v}$ e $u_{vj} - x_{vj}$, formalmente $x_{vj} = x_{vj} + \min\{u_{vj} - x_{vj}, e_{v}\}$;
-- `PushBackward(i, v)` --> diminuzione del flusso $x_{iv}$, ossia $x_{iv} = x_{iv} - \min\{u_{iv} - x_{iv}, e_{i}\}$;
+- `PushBackward(i, v)` --> diminuzione del flusso $x_{iv}$, ossia $x_{iv} = x_{iv} - \min\{x_{iv}, e_{v}\}$;
 - `Relabel(v)` --> vogliamo aumentare la quota di $v$ aumentandola quanto basta per effettuare una `PushForward` o una `PushBackward`.
 
 ### Complessità

@@ -39,7 +39,7 @@ dove:
 ## Ipotesi semplificative
 Solitamente, per semplicita', si impone sempre
 $$l_{ij} = 0 \ \ \ \ \forall (i, j) \in A$$
-Questa imposizione non diminuisce l'espressivita' dei problemi di flusso. Infatti **e' sempre possibile trasformare un problema con capacita' inferiore nulla in uno con capacita' inferiore non nulla**.
+Questa imposizione non diminuisce l'espressivita' dei problemi di flusso. Infatti **e' sempre possibile trasformare un problema con capacita' inferiore non nulla in uno con capacita' inferiore nulla**.
 
 ### Dimostrazione
 Data una rete $G$, ne possiamo costruire una equivalente $H$ che abbia capacita' inferiori nulle nel seguente modo. Per ogni arco $(i, j) \in A$:

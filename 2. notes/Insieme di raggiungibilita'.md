@@ -10,6 +10,6 @@ links:
 # Insieme di raggiungibilita'
 ---
 ## Introduzione
-> Dato un nodo $n$ l'insieme dei nodi raggiungibili da $n$ viene detto **insieme  di raggiungibilita'** di $n$, indicato con $R(n)$.
+> Dato un nodo $n$ l'insieme dei nodi raggiungibili da $n$ viene detto **insieme di raggiungibilita'** di $n$, indicato con $R(n)$.
 
 ## Referenze

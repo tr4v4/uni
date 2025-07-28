@@ -15,7 +15,7 @@ links:
 L'idea di base e' che ogni [[Router|router]] della rete contenga una _local flow table_, calcolata da un _supervisore centrale_.
 ![[sdn.png]]
 
-Un software che consente di realizzare SDN e' [[OpenFlow]]. Questo definisce delle regole di gestione dei pacchetti, definendo in ogni local flow table:
+Un software/standard/protocollo che consente di realizzare SDN e' [[OpenFlow]]. Questo definisce delle regole di gestione dei pacchetti, definendo in ogni local flow table:
 - _pattern_, su cui fare match (un po' come le regex)
 - _azioni_, associati ai match dei pattern
 - _priorità_

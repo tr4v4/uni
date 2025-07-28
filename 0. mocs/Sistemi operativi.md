@@ -14,7 +14,7 @@ date: 16-09-2024 10:45:14
 
 | Lezione                                                           | Note                                                                   |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [[Lecture 24042025152212]] | <ul><li>[[Sistemi operativi]]</li></ul> |
+| [[Lecture 09052025092046]] | <ul><li>[[Sistemi operativi]]</li></ul> |
 <!-- SerializedQuery END -->
 
 
@@ -24,10 +24,11 @@ date: 16-09-2024 10:45:14
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 09052025092046]] | 09-05-2025 09:20:46 |
 | [[Lecture 24042025152212]] | 24-04-2025 15:22:12 |
 | [[Lecture 23042025152007]] | 23-04-2025 15:20:07 |
-| [[Lecture 11042025104834]] | 11-04-2025 10:48:34 |
 | [[Lecture 10042025153553]] | 10-04-2025 15:35:53 |
+| [[Lecture 11042025104834]] | 11-04-2025 10:48:34 |
 | [[Lecture 03042025152151]] | 03-04-2025 15:21:51 |
 | [[Lecture 04042025092728]] | 04-04-2025 09:27:28 |
 | [[Lecture 21032025091929]] | 21-03-2025 09:19:29 |
@@ -72,12 +73,12 @@ date: 16-09-2024 10:45:14
 | [[Lecture 23042025152007]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 21112024092345]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 12122024092737]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 11042025104834]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 10042025153553]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 09052025092046]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 05122024092457]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 04042025092728]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 03042025152151]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ## Note
 - Argomenti
@@ -110,11 +111,28 @@ date: 16-09-2024 10:45:14
 			- [[Context switch]]
 			- [[FCFS]], [[SJF]], [[Round-Robin]]
 		- [[Risorsa]], [[Deadlock]]
+			- [[Deadlock detection]], [[Deadlock recovery]]
+			- [[Deadlock prevention]]
+			- [[Deadlock avoidance]]
+				- [[Algoritmo del banchiere]]
 		- [[Gestione della memoria]]
+			- [[Binding]], [[Loading dinamico]], [[Linking]]
+			- [[MMU]]
+			- [[Allocazione]]
+				- [[Allocazione dinamica]]
+			- [[Paginazione]]
+				- [[TLB]]
+			- [[Segmentazione]]
+			- [[Memoria virtuale]]
+				- [[Algoritmi di paginazione]]
+				- [[Trashing]]
 		- [[I-O|gestione I-O]], gestione memoria secondaria, [[HD]], [[SSD]]
 			- [[Disk scheduling]]
 			- [[RAID]]
 		- [[File system]]
+			- [[File]]
+			- [[Semantica della coerenza]]
+			- [[Partizione di un disco]]
 		- sicurezza
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/sistemi-operativi SORT file.ctime DESC -->
@@ -122,6 +140,11 @@ date: 16-09-2024 10:45:14
 
 | Note                                                                                                                   | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [[Partizione di un disco]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[MBR]]                                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Semantica della coerenza]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Estensione]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[File]]                                                                                             | <ul><li>#status/finished</li></ul> |
 | [[RAID 6]]                                                                                         | <ul><li>#status/finished</li></ul> |
 | [[RAID 5]]                                                                                         | <ul><li>#status/finished</li></ul> |
 | [[RAID 4]]                                                                                         | <ul><li>#status/finished</li></ul> |
@@ -224,24 +247,24 @@ date: 16-09-2024 10:45:14
 | [[Processo]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[Programma]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Assioma di finite progress]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[Linking dinamico]]                                                                     | <ul><li>#status/finished</li></ul> |
-| [[Paginazione]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Combinazione segmentazione-paginazione]]                         | <ul><li>#status/finished</li></ul> |
 | [[Interrupt]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[Linking dinamico]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[Paginazione]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Risorsa]]                                                                                       | <ul><li>#status/finished</li></ul> |
 | [[SJF]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[I-O]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Best fit]]                                                                                     | <ul><li>#status/finished</li></ul> |
-| [[First fit]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[FIFO paginazione]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[First fit]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[LRU]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Frammentazione esterna]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[Segmentazione]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Frammentazione interna]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[CD]]                                                                                                 | <ul><li>#status/finished</li></ul> |
-| [[SSD]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[HD]]                                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[RAID]]                                                                                             | <ul><li>#status/finished</li></ul> |
+| [[SSD]]                                                                                               | <ul><li>#status/finished</li></ul> |
 | [[Architettura di von Neumann]]                                               | <ul><li>#status/finished</li></ul> |
 | [[Trap]]                                                                                             | <ul><li>#status/finished</li></ul> |
 | [[Memoria virtuale]]                                                                     | <ul><li>#status/finished</li></ul> |

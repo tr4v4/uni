@@ -12,11 +12,10 @@ date: 18-02-2025 13:29:59
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-delle-probabilità-e-statistica SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/calcolo-delle-probabilità-e-statistica SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note      |
-| ----------------------------------------------------------------- | --------- |
-| [[Lecture 29042025132447]] | <ul></ul> |
+| Lezione                                                           | Note                                                                                                             |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [[Lecture 16052025131618]] | <ul><li>[[Calcolo delle probabilità e statistica]]</li></ul> |
 <!-- SerializedQuery END -->
-
 
 
 ### Lista
@@ -25,6 +24,10 @@ date: 18-02-2025 13:29:59
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[Lecture 16052025131618]] | 16-05-2025 13:16:18 |
+| [[Lecture 15052025111542]] | 15-05-2025 11:15:42 |
+| [[Lecture 09052025132243]] | 09-05-2025 13:22:43 |
+| [[Lecture 06052025133022]] | 06-05-2025 13:30:22 |
 | [[Lecture 29042025132447]] | 29-04-2025 13:24:47 |
 | [[Lecture 23042025091502]] | 23-04-2025 09:15:02 |
 | [[Lecture 08042025133009]] | 08-04-2025 13:30:09 |
@@ -44,16 +47,18 @@ date: 18-02-2025 13:29:59
 | [[Lecture 18022025132744]] | 18-02-2025 13:27:44 |
 <!-- SerializedQuery END -->
 
+
 ### Da processare
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-delle-probabilità-e-statistica AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/calcolo-delle-probabilità-e-statistica AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[Lecture 29042025132447]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 23042025091502]] | <ul><li>#status/pending</li></ul> |
-| [[Lecture 15042025131630]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 16052025131618]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 15052025111542]] | <ul><li>#status/pending</li></ul> |
+| [[Lecture 09052025132243]] | <ul><li>#status/pending</li></ul> |
 | [[Lecture 08042025133009]] | <ul><li>#status/ongoing</li></ul> |
+| [[Lecture 06052025133022]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
 
 ## Note
@@ -64,6 +69,7 @@ Argomenti:
 	- [[Eventi indipendenti]]
 	- [[Formula delle probabilità totali]]
 	- [[Formula di Bayes]]
+	- [[Diagramma ad albero]]
 - [[Calcolo combinatorio]]
 	- [[Principio delle scelte successive]]
 	- [[Disposizione con ripetizione]], [[Disposizione semplice]], [[Permutazione]], [[Combinazione]]
@@ -73,12 +79,30 @@ Argomenti:
 	- [[Distribuzioni notevoli di variabili aleatorie discrete]]
 	- [[Variabile aleatoria continua]]
 	- [[Distribuzioni notevoli di variabili aleatorie continue]]
+- [[Vettore aleatorio]]
+	- [[Legge congiunta]], [[Leggi marginali]], [[Indipendenza di variabili aleatorie]]
+	- [[Vettore aleatorio discreto]]
+- [[Teoremi limite]]
+	- [[Legge dei grandi numeri]]
+	- [[Teorema centrale del limite]]
+- [[Catena di Markov]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/calcolo-delle-probabilità-e-statistica SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/calcolo-delle-probabilità-e-statistica SORT file.ctime DESC -->
 
 | Note                                                                                                                           | Status                             |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[Variabile aleatoria]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[Assiomi della probabilita']]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Coefficiente di correlazione]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[Covarianza]]                                                                                         | <ul><li>#status/finished</li></ul> |
+| [[Matrice delle covarianze]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[Densita' congiunta discreta]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[Vettore aleatorio discreto]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[Indipendenza di variabili aleatorie]]                                       | <ul><li>#status/finished</li></ul> |
+| [[Leggi marginali]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Legge congiunta]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[Vettore aleatorio]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Standardizzazione]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[Distribuzione normale standard]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[Distribuzione normale]]                                                                   | <ul><li>#status/finished</li></ul> |
@@ -109,7 +133,6 @@ Argomenti:
 | [[Eventi generati da una variabile aleatoria]]                         | <ul><li>#status/finished</li></ul> |
 | [[Variabile aleatoria indicatrice]]                                               | <ul><li>#status/finished</li></ul> |
 | [[Variabile aleatoria costante]]                                                     | <ul><li>#status/finished</li></ul> |
-| [[Variabile aleatoria]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[Formula delle probabilità totali]]                                             | <ul><li>#status/finished</li></ul> |
 | [[Formula di Bayes]]                                                                             | <ul><li>#status/finished</li></ul> |
 | [[Eventi indipendenti]]                                                                       | <ul><li>#status/finished</li></ul> |
@@ -123,7 +146,6 @@ Argomenti:
 | [[Delta di Dirac]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[Probabilita' discreta]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[Spazio di probabilita']]                                                                 | <ul><li>#status/finished</li></ul> |
-| [[Assiomi della probabilita']]                                                         | <ul><li>#status/finished</li></ul> |
 | [[Spazio campionario]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[Esiti favorevoli]]                                                                             | <ul><li>#status/finished</li></ul> |
 | [[Evento]]                                                                                                 | <ul><li>#status/finished</li></ul> |

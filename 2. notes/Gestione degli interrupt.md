@@ -24,8 +24,7 @@ A seguito di un [[Interrupt|interrupt]] spedito al [[CPU|processore]], avvengono
 2. il [[Sistema operativo|sistema operativo]]
 	1. salva lo stato del processore (per altre informazioni critiche non salvate lato hardware);
 	2. gestisce l'interrupt leggendo le informazioni trasmesse dal dispositivo;
-	3. ripristina lo stato del processore;
-	4. chiama lo [[Scheduler|scheduler]];
+	3. ripristina lo stato del processore oppure chiama lo [[Scheduler|scheduler]] (a seconda del tipo di interrupt);
 
 ## Interrupt multipli
 Se _avviene un interrupt durante la gestione di un altro interrupt_, ci sono due approcci utilizzati:

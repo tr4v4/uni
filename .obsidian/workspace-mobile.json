@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ed3e5e7adf8d0b56",
+        "id": "ee6a030762febab5",
         "type": "tabs",
         "children": [
           {
-            "id": "dd5a46989ccbe30e",
+            "id": "0000d80f3bdc98e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Deep binding.md",
+                "file": "2. notes/LFU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep binding"
+              "title": "LFU"
             }
           }
         ]
@@ -143,6 +143,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "2. notes/LFU.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -169,34 +170,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd5a46989ccbe30e",
+  "active": "0000d80f3bdc98e3",
   "lastOpenFiles": [
-    "0. mocs/Linguaggi di programmazione.md",
-    "2. notes/Passaggio dei parametri.md",
-    "2. notes/Funzione di ordine superiore.md",
-    "2. notes/Shallow binding.md",
-    "2. notes/Deep binding.md",
-    "2. notes/Scope statico.md",
-    "2. notes/Scope.md",
-    "2. notes/Binding.md",
-    "0. mocs/Calcolo delle probabilità e statistica.md",
-    "2. notes/Formula di Bayes.md",
-    "0. mocs/Ottimizzazione combinatoria.md",
-    "1. lectures/Lecture 20032025131726.md",
-    "2. notes/Notazione asintotica.md",
-    "1. lectures/Lecture 28022025132238.md",
-    "1. lectures/Lecture 04032025133148.md",
-    "1. lectures/Lecture 27022025131944.md",
-    "1. lectures/Lecture 26022025111603.md",
-    "1. lectures/Lecture 20022025131602.md",
-    "1. lectures/Lecture 25022025133832.md",
+    "2. notes/Algoritmi di paginazione.md",
+    "2. notes/LRU.md",
+    "2. notes/Disk scheduling.md",
+    "2. notes/SSTF.md",
+    "2. notes/HD.md",
+    "2. notes/MIN paginazione.md",
+    "2. notes/Ordinamento topologico.md",
+    "2. notes/DAG.md",
+    "2. notes/Standardizzazione.md",
+    "2. notes/Algoritmo euristico.md",
+    "2. notes/Problema di ottimizzazione.md",
+    "2. notes/Taglio s-t.md",
+    "2. notes/Tabella hash.md",
+    "2. notes/Dizionario.md",
+    "2. notes/Albero binario di ricerca.md",
+    "2. notes/Collisione hash.md",
+    "2. notes/Indirizzamento aperto.md",
+    "2. notes/Doppio hashing.md",
+    "2. notes/Ispezione quadratica.md",
+    "2. notes/Ispezione lineare.md",
+    "2. notes/Concatenamento separato.md",
+    "2. notes/Fattore di carico.md",
+    "2. notes/Funzione hash.md",
+    "2. notes/Uniformità semplice.md",
     "2. notes/Complessità computazionale.md",
-    "2. notes/Cross compiler.md",
-    "0. mocs/Tecnologie web.md",
-    "4. homeworks/Calcolo numerico - HW. 3.md",
-    "2. notes/Monitor.md",
-    "2. notes/Potere espressivo.md",
-    "2. notes/Message passing.md",
+    "2. notes/Metodo della codifica algebrica.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

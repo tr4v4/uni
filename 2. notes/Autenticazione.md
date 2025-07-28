@@ -24,7 +24,7 @@ Gli approcci più comuni per l'autenticazione web sono:
 - _[[Autenticazione token-based|token-based]]_ - il client mantiene un token rilasciato dal server, che spedisce ad ogni richiesta per la verifica.
 
 ## Sicurezza
-Nell'ambito della sicurezza, gia' abbiamo accennato al fatto che possiamo sfruttuare le potenzialita' dell'[[RSA]] per verificare l'autenticita' di un interlocutore. Per evitare attacchi di tipo replay, possiamo unire questa tecnica con l'utilizzo del [[Nonce|nonce]] ed ottenere uno scambio apparentemente sicuro:
+Nell'ambito della sicurezza, gia' abbiamo accennato al fatto che possiamo sfruttare le potenzialita' dell'[[RSA]] per verificare l'autenticita' di un interlocutore. Per evitare attacchi di tipo replay, possiamo unire questa tecnica con l'utilizzo del [[Nonce|nonce]] ed ottenere uno scambio apparentemente sicuro:
 ![[autenticazione-rsa-nonce-naive.png]]
 
 Per quanto questo scambio sembri funzionare, c'e' sempre la possibilita' che si palesi un [[Man-in-the-middle|man-in-the-middle]]: non possiamo essere certi del fatto che sia il nonce $R$ firmato con $K_{A}^{-}$ e $K_{A}^{+}$ in realta' non appartengano a un mal-intenzionato Trudy che si e' posto in mezzo nella comunicazione tra Alice e Bob.

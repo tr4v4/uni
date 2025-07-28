@@ -21,7 +21,7 @@ Se $A$ vuole mandare una email sicura $m$ a $B$, allora:
 2. cifra con una chiave simmetrica $K_{S}$ il tutto, e invia il risultato accoppiato a $K_{S}$ cifrato con la chiave pubblica di $B$ --> $K_{B}^{+}(K_{S})$.
 
 Raggruppando tutto, invia la coppia
-$$(K_{B}^{+}(K_{S}), K_{S}(K_{A}^{-}(h(m))))$$
+$$(K_{B}^{+}(K_{S}), K_{S}(m, K_{A}^{-}(h(m))))$$
 dove:
 - il primo elemento garantisce confidenzialita';
 - il secondo elemento garantisce confidenzalita', autenticazione e integrita';

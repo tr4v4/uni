@@ -14,7 +14,7 @@ links:
 > $$cx(\lambda) = c\bar{x} + \lambda c \xi > c\bar{x}$$
 > e quindi questo avviene $\iff$
 > $$c\xi > 0$$
-> <u>Nota bene</u>: la _direzione di crescita non dipende dal punto $\bar{x}$_, ma solo dalla funzione obiettivo $c$ e dalla direzione $\xi$. Questo _avviene in quanto ci troviamo in un contesto di linearita' lineare_!
+> <u>Nota bene</u>: la _direzione di crescita non dipende dal punto $\bar{x}$_, ma solo dalla funzione obiettivo $c$ e dalla direzione $\xi$. Questo _avviene in quanto ci troviamo in un contesto di linearita'_!
 
 Osserviamo che:
 - $c = \underline{0} \implies$ ogni soluzione ammissibile e' ottima, caso triviale;

@@ -10,11 +10,11 @@ links:
 # BGP
 ---
 ## Introduzione
-> Il **BGP** (_Border Gateway Protocol_) è un [[Protocollo di routing|protocollo di routing]] di tipo _path-vector_ utilizzato per il routing tra sistemi autonomi (AS) su Internet. È progettato per gestire la complessità e la scala della rete globale, consentendo agli AS di scambiare informazioni sui percorsi disponibili e le politiche di instradamento.
+> Il **BGP** (_Border Gateway Protocol_) è un [[Protocollo di routing|protocollo di routing]] di tipo _path-vector_ utilizzato per il routing tra sistemi autonomi ([[Sistema autonomo|AS]]) su Internet. È progettato per gestire la complessità e la scala della rete globale, consentendo agli AS di scambiare informazioni sui percorsi disponibili e le politiche di instradamento.
 
 BGP si compone di:
 - _eBGP_ --> per ottenere informazioni di routing tra AS;
-- _iBGP_ --> per propagare le informazioni ottenuto da eBGP all'interno di un AS.
+- _iBGP_ --> per propagare le informazioni ottenute da eBGP all'interno di un AS.
 
 ## Funzionamento
 Fondamentalmente quando un router BGP riceve un'informazione da un router BGP di un altro AS, lo comunica a tutti i router BGP del proprio AS. Quest'informazione arrivera' anche a un altro router BGP dello stesso AS, che la comunica a un router BGP di un altro AS, e cosi' via.

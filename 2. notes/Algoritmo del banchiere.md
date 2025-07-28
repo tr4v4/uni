@@ -18,7 +18,7 @@ Definiamo i parametri seguenti:
 - $N$ numero di clienti
 - $IC$ capitale iniziale
 - $c_{i}$ limite di credito del cliente $i$ ($c_{i} \leq IC$)
-- $p_{i}$ denaro prestato al cliente $i$ ($c_{i} \leq p_{i}$)
+- $p_{i}$ denaro prestato al cliente $i$ ($p_{i} \leq c_{i}$)
 - $n_{i} = c_{i} - p_{i}$ credito residuo del cliente $i$
 - $COH = IC - \sum\limits_{i=1}^{n} p_{i}$ (saldo di cassa)
 

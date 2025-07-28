@@ -27,6 +27,8 @@ Ma nel caso in cui si voglia implementare una politica di priorita' nello schedu
 1. si va a vedere il campo _TOS_ nei pacchetti che indica la loro priorita', e si inserisce il pacchetto nella coda "rossa" o "verde" a seconda di quel valore;
 2. poi il router guarda se la coda "rossa" non e' vuota, e se cosi' e' prende il pacchetto da li'; altrimenti lo prende dalla coda "verde".
 
+Si tratta a tutti gli effetti di un classico [[Scheduling a classi di priorita'|scheduling a classi di priorita']].
+
 #### Altre politiche
 Ci sono anche altre politiche prioritarie:
 - [[Round-Robin]] - si prende un pacchetto da una coda, poi da un'altra, e cosi' via, ciclicamente;

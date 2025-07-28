@@ -22,7 +22,7 @@ Se la gerarchia della rete non è ad albero, ossia quando siamo al livello della
 
 Il router di destinazione usa a sua volta una tabella di instradamento sulle sue sottoreti, che consente di inoltrare al router della sottorete di destinazione corretta - il router di destinazione, a sua volta, inoltra il pacchetto al destinatario finale.
 
-<u>Nota bene</u>: ogni router ha una linea dedicata per ognuno dei fratelli, ossia una scheda di rete.
+<u>Nota bene</u>: ogni router ha una linea dedicata per ognuno dei fratelli, ossia una [[Scheda di rete|scheda di rete]].
 
 ## Aggiornamento
 L'aggiornamento delle tabelle di forwarding dei router è un processo continuo, che può essere influenzato da un numero illimitato di ragioni, tra cui le modifiche degli accordi di servizio tra i gestori di [[Sistema autonomo|sistemi autonomi]] (AS).

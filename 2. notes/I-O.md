@@ -52,7 +52,9 @@ La gestione dei dispositivi di I/O è una delle responsabilità principali del [
 - **caching** --> mantenere una copia in memoria primaria di informazioni che si trovano in memoria secondaria
 	- e' diverso dal buffering! Il caching e' una copia di dati, mentre nel buffer si trova l'unica istanza di dati
 - **spooling** --> memorizzare i dati in un buffer temporaneo prima di inviarli al dispositivo di I/O
-	- come nel caso delle stampanti
+	- fondamentalmente è un buffer che mantiene output per un dispositivo che non può accettare flussi di dati distinti, come nel caso delle stampanti[^1]
 - **I/O scheduling** --> pianificare l'ordine in cui i processi accedono ai dispositivi di I/O
 
 ## Referenze
+
+[^1]: l'abbiamo gia' affrontato nell'ambito del [[Deadlock prevention|deadlock prevention]], in particolare col tentativo di eliminare la [[Mutua esclusione|mutua esclusione]] delle risorse

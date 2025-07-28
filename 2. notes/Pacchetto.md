@@ -69,7 +69,7 @@ Si mostra da esempio che un pacchetto da 4000 bytes se dev'essere inviato su un 
 
 <u>Nota bene</u>: l'offset, per una questione di risparmio di spazio, non e' propriamente il numero del byte del payload da cui riprendere, ma questo diviso 8.
 
-<u>Nota bene</u>: in totale devono essere inviato 3980 bytes di payload, per questo l'ultimo pacchetto non e' semplicemente da 1000 bytes ma da 1040 bytes! Infatti i 40 bytes aggiunti sarebbero quelli usati nei due pacchetti aggiuntivi per i due header in piu'.
+<u>Nota bene</u>: in totale devono essere inviati 3980 bytes di payload, per questo l'ultimo pacchetto non e' semplicemente da 1000 bytes ma da 1040 bytes!
 
 ## IPv6
 ![[ipv6-pacchetto.png]]

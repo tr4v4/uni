@@ -78,6 +78,8 @@ $$\mathbb{P}(A \cup A^{C}) = \mathbb{P}(A) + \mathbb{P}(A^{C}) = 1$$
 da cui
 $$\mathbb{P}(A^{C}) = 1 - \mathbb{P}(A)$$
 
+**Qed**.
+
 #### 4.
 Per dimostrare la monotonia, sfruttiamo l'equivalenza seguente:
 $$A \subseteq B \implies A \cup B \setminus A = B$$

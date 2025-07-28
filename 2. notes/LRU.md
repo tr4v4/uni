@@ -18,7 +18,7 @@ links:
 ## Implementazione
 Il problema di questo algoritmo e' che richiede uno specifico supporto hardware: nella tabella delle pagine dobbiamo registrare un _timestamp_ per ogni pagina, che indichi l'ultimo accesso a quella pagina (deve farlo l'[[MMU]]).
 
-Questo timestamp puo' essere ridotto a un contatore, che viene incrementato ad ogni accesso in memoria. Tuttavia in questo modo e' necessario tenere conto di eventuali overflow! Questo contatore dovrebbe essere di 128 bit per poter sostenere un upperbound del numero di accessi in memoria: troppo costoso.
+Questo timestamp puo' essere ridotto a un contatore, che viene incrementato ad ogni accesso in memoria e assegnato alla entry della pagina acceduta. Tuttavia in questo modo e' necessario tenere conto di eventuali overflow! Questo contatore dovrebbe essere di 128 bit per poter sostenere un upperbound del numero di accessi in memoria: troppo costoso.
 
 ### Idea
 Si potrebbe pensare, allora, di implementarlo attraverso uno [[Stack|stack]]: si mantiene uno stack di pagine, e tutte le volte che una pagina viene acceduta torna in cima; la pagina vittima è quella in fondo allo stack.
@@ -28,6 +28,7 @@ Tuttavia questo approccio e' pesante: se lo stack e' implementato attraverso una
 ### Realta'
 Nella realta' viene usata una forma **approssimata dell'LRU**, usando un _reference bit_: all'inizio ogni pagina ha questo bit a 0; quando vengono accedute mettono il bit a 1. Con il reference bit, quindi, andiamo a _uniformare i tempi di accesso al solo concetto di accesso_: **perdiamo l'informazione dell'ordine di accesso**.
 
+#### Additional-reference-bit-algorithm
 Un metodo che si basa sul reference bit e' l'_additional-reference-bit-algorithm_:
 - salviamo i reference bit a intervalli regolari (es. ogni 100ms);
 - manteniamo in ogni pagina una "storia" di reference bit, tipo 8 bit;

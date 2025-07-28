@@ -26,7 +26,7 @@ Si dimostra che in questo algoritmo _lo pseudoflusso rimane minimale ad ogni pas
 Il primo punto consiste nel trovare "manualmente" uno pseudoflusso minimale. Ma e' facile farlo se non si bada agli sbilanciamenti! Basta considerare lo pseudoflusso $x$ definito come
 $$x_{ij} = \begin{cases} 0 & c_{ij} \geq 0 \\ u_{ij} & c_{ij} < 0 \end{cases}$$
 
-E' ovvio intuitivamente, e si dimostra che e' uno pseudoflusso minimale perche' il [[Grafo residuo|grafo residuo]] $G_{x}$ non  conterra' archi di costo negativo --> di conseguenza non potra' avere cicli  aumentanti di costo negativo, e per [[Problema del flusso di costo minimo#Lemma|questo lemma]] si avra' che $x$ e' minimale.
+E' ovvio intuitivamente, e si dimostra che e' uno pseudoflusso minimale perche' il [[Grafo residuo|grafo residuo]] $G_{x}$ non conterra' archi di costo negativo --> di conseguenza non potra' avere cicli  aumentanti di costo negativo, e per [[Problema del flusso di costo minimo#Lemma|questo lemma]] si avra' che $x$ e' minimale.
 
 Nel punto 3 si cerca un cammino di costo minimo: possiamo usare gli algoritmi sui [[Cammino minimo|cammini minimi]]. In particolare, il grafo residuo di ogni pseudoflusso, in quanto preservata la minimalita', non conterra' mai archi di costo negativo: si puo' sempre usare l'[[Algoritmo di Djikstra|algoritmo di Dijkstra]]!
 

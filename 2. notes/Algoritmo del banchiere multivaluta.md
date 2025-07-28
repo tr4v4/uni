@@ -18,7 +18,7 @@ I parametri sono estensioni [[Vettore|vettoriali]] di quelli dell'algoritmo base
 - $N$ numero di clienti
 - $\underline{IC}$ capitale iniziale (vettore, uno per ogni valuta)
 - $\underline{c_{i}}$ limite di credito del cliente $i$ ($\underline{c_{i}} \leq \underline{IC}$)
-- $p_{i}$ denaro prestato al cliente $i$ ($\underline{p_{i}} \leq \underline{c_{i}}$)
+- $\underline{p_{i}}$ denaro prestato al cliente $i$ ($\underline{p_{i}} \leq \underline{c_{i}}$)
 - $\underline{n_{i}} = \underline{c_{i}} - \underline{p_{i}}$ credito residuo del cliente $i$
 - $\underline{COH} = \underline{IC} - \sum\limits_{i=1}^{n} \underline{p_{i}}$ (saldo di cassa)
 

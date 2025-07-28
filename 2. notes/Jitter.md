@@ -12,7 +12,7 @@ links:
 ## Introduzione
 > Il **jitter** è l'indice di [[Prestazione delle reti|prestazione]] di una [[Rete|rete]] legato alla _varianza del ritardo di arrivo dei pacchetti_.
 
-Ogni pacchetto di rete, infatti, arriva a destinazione con un tempo misurabile (latenza). Possiamo calcolare la media di questi tempi di arrivo, e la media della distanza di ogni tempo da questa media si chiama **varianza**[^1].
+Ogni pacchetto di rete, infatti, arriva a destinazione con un tempo misurabile (latenza). Possiamo calcolare la media di questi tempi di arrivo, e la media della distanza di ogni tempo da questa media si chiama **[[Varianza|varianza]]**[^1].
 
 Questa varianza, e quindi il jitter, indica la **stabilità della connessione**:
 - _più la varianza è bassa più la distanza di tempo di arrivo tra un pacchetto e l'altro è stabile_;

@@ -23,7 +23,7 @@ Serve per:
 Esistono tre tipologie di firewall:
 1. **stateless packet filters** - il filtraggio avviene pacchetto per pacchetto, senza salvare lo stato; si basano su:
 	- _source/destination [[IP]] address_;
-	- _[[TCP]]/[[UDP]] source/destination address_;
+	- _[[TCP]]/[[UDP]] source/destination ports_;
 	- _[[ICMP]]_;
 	- _TCP SYN e ACK bits_.
 2. **stateful packet filters** - mantiene lo stato di ogni connessione TCP, e quindi ha necessita' di memorizzare un campo in piu' rispetto ai firewall stateless, relativo allo stato della connessione.

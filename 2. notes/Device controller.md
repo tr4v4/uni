@@ -13,7 +13,7 @@ links:
 > Un **device controller** e' una scheda elettronica di controllo di un [[Device|dispositivo]] (device).
 
 ## Comunicazione con processore
-Il _[[CPU|processore]] accede ai controller dei dispositivi usando indirizzi opportuni_, come se accedesse in [[Memorie|memoria]] (molti degli indirizzi indirizzabili non sono in [[RAM]]!)
+Il _[[CPU|processore]] accede ai controller dei dispositivi usando indirizzi opportuni_, come se accedesse in [[Memorie|memoria]] (molti degli indirizzi indirizzabili non sono in [[RAM]]!).
 
 Ci sono due principali approcci per gestire questa comunicazione:
 - _programmed I/O_;

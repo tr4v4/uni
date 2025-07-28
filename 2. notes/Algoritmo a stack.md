@@ -27,7 +27,7 @@ Il riferimento in $s$ per l'istante $t+1$, che chiamiamo $p$, puo' essere:
 	- $p \notin S_{t}(s, A, m+1)$ --> c'e' page fault con $m+1$.
 
 In questo caso, dalla relazione del sottoinsieme, abbiamo 3 casi:
-1. $p \in S_{t}(s, A, m)$ e $p \in S_{t}(s, A, m)$ --> non c'e' mai page fault;
+1. $p \in S_{t}(s, A, m)$ e $p \in S_{t}(s, A, m+1)$ --> non c'e' mai page fault;
 2. $p \notin S_{t}(s, A, m)$ e $p \in S_{t}(s, A, m+1)$ --> c'e' page fault solo nel caso $m$;
 3. $p$ non c'e' da entrambi --> c'e' page fault su entrambi.
 

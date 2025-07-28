@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 > Il **working set** è un concetto utilizzato nella [[Gestione della memoria|gestione della memoria]] per descrivere l'_insieme di [[Paginazione|pagine]] in memoria, quindi frame, che un [[Processo|processo]] sta attualmente utilizzando_. Formalmente, si definisce **working set di finestra $\Delta$** l'insieme delle pagine accedute nei piu' recenti $\Delta$ riferimenti della stringa di riferimenti del processo.
-> Serve, nella sua essenza, a mitigare il fenomeno del [[Trashing|trashing]]
+> Serve, nella sua essenza, a mitigare il fenomeno del [[Trashing|trashing]].
 
 E' una rappresentazione approssimata del concetto di localita' della [[Cache|cache]].
 

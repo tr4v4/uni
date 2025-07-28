@@ -24,6 +24,6 @@ Per sbloccare la situazione si usano due [[Coda|code]]:
 - una per le richieste in salita;
 - una per le richieste in discesa.
 
-In questo modo, se si e' sul cilindro $x$ e arrivano ulteriori richieste per $x$ o superiore, queste verranno messe nella coda opposto a quella della direzione corrente, evitando cosi' la starvation.
+In questo modo, se si e' sul cilindro $x$ e arrivano ulteriori richieste per $x$ o superiore, queste verranno messe nella coda opposta a quella della direzione corrente, evitando cosi' la starvation.
 
 ## Referenze

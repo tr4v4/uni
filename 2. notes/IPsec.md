@@ -13,7 +13,7 @@ links:
 > **IPsec** e' un layer software appartenente al [[Modello ISO-OSI|modello ISO-OSI]] che si colloca tra il [[Livello rete|livello rete]] e il [[Livello trasporto|livello trasporto]], che _offre meccanismi di cifratura degli [[Indirizzo IP|indirizzi IP]] e di tutto cio' che viene incapsulato nel livello trasporto e nel [[Livello applicazione|livello applicazione]]_.
 
 ## Funzionamento
-Fondamentalmente IPsec consente di creare un **tunnelling**, **mantenendo visibili degli indirizzi IP esterni per consentire una corretta navigazione sui [[Router|router]], ma mascherando i reali indirizzi IP** (+ trasporto e applicazione) attraverso tecniche di [[Crittografia|cifratura]].
+Fondamentalmente IPsec consente di creare un **[[Protocollo di tunnelling|tunnelling]]**, **mantenendo visibili degli indirizzi IP esterni per consentire una corretta navigazione sui [[Router|router]], ma mascherando i reali indirizzi IP** (+ trasporto e applicazione) attraverso tecniche di [[Crittografia|cifratura]].
 
 In breve, IPsec garantisce:
 - integrità dei dati

@@ -72,7 +72,7 @@ Quindi
 $$\mathbb{P}(B_{2}) = \frac{5}{9} \frac{3}{5} + \frac{2}{3} \frac{2}{5} = \frac{1}{3} + \frac{4}{15} = \frac{9}{15} = \frac{3}{5}$$
 
 #### Con diagramma ad albero
-Allo stesso risultato ci si puo' arrivare costruendosi il diagramma ad albero:
+Allo stesso risultato ci si puo' arrivare costruendosi il [[Diagramma ad albero|diagramma ad albero]]:
 ![[diagramma-ad-albero-urne.png]]
 
 Una volta costruito, per conoscere $\mathbb{P}(B_{2})$, sara' sufficiente sommare le probabilita' di tutti i cammini che da $\Omega$ conducono a $B_{2}$.

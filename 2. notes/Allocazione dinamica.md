@@ -52,7 +52,7 @@ La deallocazione non e' cosi' semplice. Infatti ci sono 4 casi possibili:
 
 Per farlo in tempo $O(1)$ e' necessario implementarlo con _liste doppiamente concatenate_, il che aggiunge un certo overhead.
 
-### Considerazioni
+#### Considerazioni
 E' possibile ottimizzare il costo di allocazione mantenendo una lista di blocchi liberi separata ed eventualmente _ordinando tale lista per dimensione_ (in modo da poter applicare una [[Ricerca dicotomica|ricerca binaria]]).
 
 Le informazioni da mantenere sono salvate:

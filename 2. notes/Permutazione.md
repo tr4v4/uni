@@ -16,5 +16,7 @@ links:
 > $$\pi: \mathbb{A} \to \mathbb{A}$$
 > In [[Calcolo combinatorio|combinatoria]] consiste in tutti i possibili modi di arrangiare $n$ elementi in un insieme. Di fatto puo' essere vista come un caso speciale della [[Disposizione semplice|disposizione semplice]], in cui la dimensione delle sequenze ordinate con elementi distinti e' esattamente $n = |E|$:
 > $$P_{n} = D_{n,n}$$
+> e si ha
+> $$|P_{n}| = n!$$
 
 ## Referenze

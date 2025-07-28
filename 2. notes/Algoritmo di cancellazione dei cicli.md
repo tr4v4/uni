@@ -14,7 +14,7 @@ links:
 
 ## Algoritmo
 1. se `FlussoAmmissibile(G)` restituisce un flusso ammissibile, allora mettilo in $x$, altrimenti termina: il problema e' vuoto;
-2. cerca un ciclo di costo negativo  in $G_{x}$; se non lo trovi allora termina e restituisci $x$, altrimenti metti il ciclo in $C$;
+2. cerca un ciclo di costo negativo in $G_{x}$; se non lo trovi allora termina e restituisci $x$, altrimenti metti il ciclo in $C$;
 3. $x = x(C, \theta(C, x))$;
 4. torna al punto 2.
 

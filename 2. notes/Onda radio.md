@@ -58,7 +58,7 @@ Il guadagno di segnale è la _capacità di un'antenna di aumentare l'ampiezza de
 - **guadagno passivo**, che sfrutta il segnale proveniente dalla sorgente con una _parabola che fa convergere tutti i riflessi del segnale in un punto_ (fuoco), aumentando l'ampiezza senza usare energia aggiuntiva.
 
 ### Perdita di segnale
-Durante la trasmissione di un'onda radio, parte dell'energia viene dispersa in calore o viene riflessa. Questo fenomeno è noto come _perdita di segnale_. 
+Durante la trasmissione di un'onda radio, parte dell'energia viene dispersa in calore o viene riflessa. Questo fenomeno è noto come _perdita di segnale_.
 
 ### Effetti della propagazione
 La propagazione del segnale può essere influenzata da diversi fattori, tra cui:

@@ -14,7 +14,7 @@ links:
 
 ## Idea
 Possiamo vedere questo problema come un caso particolare del [[Problema del flusso massimo|flusso massimo]] in cui:
-- le sorgenti sono i nodi in $O$ e i pozzi i nodi i $D$;
+- le sorgenti sono i nodi in $O$ e i pozzi i nodi in $D$;
 - le capacita' sono tutte pari a 1;
 - i flussi sono interi.
 

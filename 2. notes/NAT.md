@@ -35,7 +35,7 @@ In poche parole, **il NAT permette che un unico indirizzo IP** (pubblico, dell'i
 Per poter permettere ad una macchina all'interno di una rete NAT, di essere raggiungibile dall'esterno, e' necessario configurare il [[Port forwarding|port forwarding]]. Il router, inoltre, puo' applicare delle _regole di filtraggio_:
 - **deny** --> rifiuta la comunicazione;
 - **pass** --> accetta la comunicazione;
-- **detour** --> il router prima di inoltrare la richiesta fa degli accertamenti per assicurars che la macchina non sia un eventuale attaccante.
+- **detour** --> il router prima di inoltrare la richiesta fa degli accertamenti per assicurarsi che la macchina non sia un eventuale attaccante.
 
 Per poter capire com'e' fatta una rete NAT al suo interno, si esegue un [[Port scanning|port scanning]]: una macchina dall'esterno prova ogni porta del NAT finche' non ha completamente capito come e' fatta l'architettura della rete e quali sono le potenziali debolezze di essa. Per evitare questo fenomeno, il router controlla se una macchina sta controllando tutte le porte in maniera sequenziale. Una volta individuato il comportamento sospetto, il router filtra la macchina in modo che non possa piu' comunicare con la rete (_blacklist_).
 

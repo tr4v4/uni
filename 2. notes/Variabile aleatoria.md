@@ -70,5 +70,6 @@ $$\mathbb{P}(\{w | X(w) \leq x\}) = 1 - \mathbb{P}(\{w | X(w) > x\})$$
 - [[Distribuzione di una variabile aleatoria]]
 - [[Funzione di ripartizione]]
 - [[Variabile aleatoria discreta]]
+- [[Variabile aleatoria continua]]
 
 [^1]: in realta' si dovrebbe dire che ogni funzione e' misurabile

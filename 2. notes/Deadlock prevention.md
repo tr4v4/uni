@@ -44,7 +44,7 @@ Si implementa questa rottura della simmetria introducendo una gerarchia delle ri
 Cosi' facendo, infatti, si rende impossibile la creazione di cicli nel [[Grafo di Holt|grafo di Holt]], e quindi di [[Knot|knot]].
 
 #### Problemi
-Il problema principale di questa tecnica e' che l'indisponibilità di una risorsa ad alta priorità ritarda processi che già detengono risorse ad alta prioritàl'indisponibilità di una risorsa ad alta priorità ritarda processi che già detengono risorse ad alta priorità.
+Il problema principale di questa tecnica e' che l'indisponibilità di una risorsa ad alta priorità ritarda processi che già detengono risorse ad alta priorità.
 
 ## Referenze
 

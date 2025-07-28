@@ -22,6 +22,10 @@ Inoltre la dimensione della finestra e' variabile, e si adatta allo stato di con
 
 Risolve quindi il problema del controllo della congestione, ma anche il controllo del flusso: _la grandezza della sliding window viene negoziata nel [[Three-way handshake|three-way handshake]] sulla base delle capacita' di ricezione del destinatario_!
 Infatti, la **finestra scorrevole viene calcolata come la minima tra la finestra di congestione** (calcolata di seguito) **e la finestra di flusso** (negoziata con il destinatario).
+$$\text{SegmentsSent} - \text{SegmentsAcked} \leq \min\{\text{cwnd}, \text{rwnd}\}$$
+
+"_Thus the sender’s send rate is roughly cwnd/RTT bytes/sec. By adjusting the value of cwnd, the sender can therefore adjust the rate at which it sends data into its connection_".
+Infatti, al suo massimo, la contention window (cwnd) e' esattamente uguale al channel bitrate (capacita' del canale) moltiplicato per il RTT (ossia il BDP). Il motivo per cui questo non e' mai raggiunto, e' per via appunto del controllo di congestione ma anche del flusso, che limita la velocita' di invio dei pacchetti!
 
 ### Funzionamento
 Fondamentalmente la **finestra parte da 1**, e ad ogni ricezione avvenuta correttamente **raddoppia**, fino ad arrivare a un limite massimo (definito nel three-way handshake). Ogni volta che si verifica una **congestione, segnalata dalla mancata ricezione di un ACK (scatta il timeout), la finestra torna ad 1**!

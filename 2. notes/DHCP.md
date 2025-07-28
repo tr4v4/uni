@@ -18,7 +18,7 @@ Il servizio DHCP fa parte della categoria di strumenti "_plug-and-play_", in cui
 
 ## Funzionamento
 Il protocollo DHCP si basa su un modello client-server, in cui il client richiede un indirizzo IP e il server lo assegna. Il processo di assegnazione degli indirizzi IP avviene in 4 fasi:
-1. **DHCP discover** --> il client invia un messaggio di broadcast per cercare un server DHCP disponibile;
+1. **DHCP discover** --> il client invia un messaggio di broadcast (`FF:FF:FF:FF:FF:FF`) per cercare un server DHCP disponibile;
 2. **DHCP offer** --> il server DHCP risponde con un messaggio di offerta, contenente un indirizzo IP disponibile e altre informazioni di configurazione;
 3. **DHCP request** --> il client invia un messaggio di richiesta al server DHCP per accettare l'offerta ricevuta;
 4. **DHCP acknowledgment** --> il server DHCP invia un messaggio di conferma al client, completando la configurazione;

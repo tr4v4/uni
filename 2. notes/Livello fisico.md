@@ -7,6 +7,7 @@ date: 19-11-2024 18:20:09
 links:
   - "[[Lecture 09102024132027]]"
   - "[[Lecture 23102024132952]]"
+  - "[[Lecture 08042025152354]]"
 ---
 # Livello fisico
 ---
@@ -33,5 +34,9 @@ In poche parole: **la capacità è un vincolo non della trasmissione ma della ri
 I dispositivi che operano a livello fisico sono:
 - [[Repeater|repeater]]: dispositivo che _ripete il segnale ricevuto amplificandolo_;
 - [[Hub|hub]]: dispositivo che _ripete il segnale ricevuto e lo invia a tutti i dispositivi connessi_ (in broadcast);
+- [[Access point|access point]]: dispositivo che _collega i dispositivi wireless alla rete cablata_ (solitamente un hub wireless);
+	- puo' operare in modalita' **infrastruttura**, in cui i dispositivi wireless si connettono all'access point;
+	- puo' operare in modalita' **ad-hoc**, in cui i dispositivi comunicano direttamente tra loro senza un access point;
 
 ## Referenze
+- [[Codifiche wireless]]

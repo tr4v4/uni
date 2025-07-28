@@ -51,7 +51,7 @@ La funzione di gestione della risorsa puo' rilasciarla a un processo prima che q
 
 Si gestisce sospendendo il processo che subisce il prerilascio, mettendolo in attesa di tale risorsa. Affinche' una risorsa sia prerilasciabile, pero', deve verificarsi che:
 - il suo stato non si modifichi durante l'utilizzo;
-- oppure il suo stato può essere facilmente salvato e ripristinato;
+- oppure il suo stato può essere facilmente salvato e ripristinato[^1];
 
 Per esempio, il processore e i blocchi/partizioni di memoria (nel caso di assegnazione dinamica) sono prerilasciabili.
 
@@ -61,3 +61,5 @@ La funzione di gestione della risorsa non puo' sottrarla al processo al quale e'
 Per esempio, le stampanti, le sezioni critiche, i blocchi/partizioni di memoria (nel caso di assegnazione statica) non sono prerilasciabili.
 
 ## Referenze
+
+[^1]: nel caso della risorsa [[CPU]] avviene proprio questo, attraverso il meccanismo del [[Context switch|context switch]]!
