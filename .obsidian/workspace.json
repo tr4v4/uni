@@ -140,19 +140,9 @@
               "icon": "lucide-file",
               "title": "Parser top-down"
             }
-          },
-          {
-            "id": "6baf5b762ad270e8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -273,12 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2. notes/Parser top-down.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Parser top-down"
             }
           },
           {
@@ -333,18 +324,8 @@
             "state": {
               "type": "toggl-report",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "4c445a93cd91b1ed",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "github-copilot-chat-view"
+              "icon": "clock",
+              "title": "Toggl Report"
             }
           },
           {
@@ -358,7 +339,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -371,6 +352,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2. notes/Parser top-down.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -398,7 +380,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Parser top-down"
             }
           }
         ]
@@ -441,15 +423,15 @@
       "soundscapes:Soundscapes: My Music": false
     }
   },
-  "active": "6baf5b762ad270e8",
+  "active": "87e166495810ccec",
   "lastOpenFiles": [
+    "0. mocs/Linguaggi di programmazione.md",
     "0. mocs/Ottimizzazione combinatoria.md",
     "0. mocs/Reti di calcolatori.md",
     "0. mocs/Algebra e geometria.md",
     "0. mocs/Sistemi operativi.md",
     "2. notes/Sistema operativo.md",
     "0. mocs/Calcolo delle probabilità e statistica.md",
-    "0. mocs/Linguaggi di programmazione.md",
     "1. lectures/Lecture 21112024121059.md",
     "2. notes/Parser top-down.md",
     "2. notes/Grammatiche LL(k).md",
