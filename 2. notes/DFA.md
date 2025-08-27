@@ -24,6 +24,8 @@ Si nota come l'unica differenza formale tra i DFA e gli [[NFA]] sta nella funzio
 - $\forall q \in Q \ \ \ \delta(q, \epsilon) = \varnothing$, ovvero **non esistono le transizioni-$\epsilon$**;
 - $\forall \sigma \in \Sigma, \forall q \in Q, \exists q'\in Q. \ \ \ \delta(q, \sigma) = \{q'\}$, ossia **ad ogni coppia (stato, carattere) è associato come output il [[Assioma del singoletto|singoletto]] di uno stato**.
 
+<u>Nota bene</u>: in realtà nell'ultima legge si dovrebbe avere $\delta(q, \sigma) = q'$, data la definizione della funzione di transizione. E' scritto come singoletto di $q'$ solo per far capire che in realtà i DFA sono un caso particolare degli NFA (vedi dopo)!
+
 Come conseguenza di queste proprietà, si ha che:
 - nei DFA è _garantita una scansione completa dell'input_, infatti l'output di $\delta$ è $\in Q$;
 - sappiamo se _$w \in L[D]$ in un tempo $O(|w|)$_, quindi lineare rispetto alla lunghezza della stringa;

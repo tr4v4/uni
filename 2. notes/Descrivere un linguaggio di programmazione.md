@@ -15,7 +15,7 @@ links:
 > - _[[Semantica|semantica]]_
 > - _[[Pragmatica|pragmatica]]_
 > 
-> Se il linguaggio sia eseguibile, come nel caso dei [[Linguaggio di programmazione|linguaggi di programmazione]], allora è necessaria anche descrivere la dimensione dell'_[[Implementazione|implementazione]]_.
+> Se il linguaggio e' eseguibile, come nel caso dei [[Linguaggio di programmazione|linguaggi di programmazione]], allora è necessaria anche descrivere la dimensione dell'_[[Implementazione|implementazione]]_.
 > Oltre a queste dimensioni, il linguaggio si compone di:
 > - _alfabeto_, tipicamente finito
 > - _lessico_, insieme di sequenze finite (parole) costruite con caratteri (simboli) dell'alfabeto

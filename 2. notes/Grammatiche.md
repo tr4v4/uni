@@ -32,6 +32,8 @@ Qualunque palindroma a partire da $A$ è generabile secondo questo schema: **que
 Ora, esistono diverse notazioni per rappresentarla:
 - _[[Backus-Naur Form]]_: $<P> ::= \epsilon | a | b | a <P> a | b <P> b$
 - _grammatica_ (notazione standard): $P \to \epsilon | a | b | aPa | bPb$
+	- dove $P$ è detto "simbolo nonterminale"
+	- dove $a, b$ sono "simboli terminali"
 - _[[Assioma|assiomi]] e [[Regole di inferenza|regole di inferenza]]_
 	- _assiomi_: $\epsilon \in L(P)$, $a \in L(P)$, $b \in L(P)$
 	- _regole di inferenza_: $w \in L(P) \implies awa \in L(P)$, $w \in L(P) \implies bwb \in L(P)$

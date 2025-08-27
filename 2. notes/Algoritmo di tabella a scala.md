@@ -16,7 +16,7 @@ links:
 Sulla base delle osservazioni sulla minimizzazione dei DFA possiamo definire un algoritmo efficace basato su una tabella:
 1. definiamo una tabella composta da solo coppie di stati "vere", ossia senza considerare quelle riflessive ($(q, q) \ \ \ \forall q$);
 2. al round 0 marco con `x0` tutte le celle della tabella di coppie (finale, non finale) e (non finale, finale);
-3. al round 1 marco con `x1` tutte le coppie $(q_{1}, q_{2})$ non ancora marcate che per un qualche $a \in \Sigma$ ha $(\delta(q_{1}, a), \delta(q_{2}, a))$ già marcata;
+3. al round 1 marco con `x1` tutte le coppie $(q_{1}, q_{2})$ non ancora marcate che per qualche $a \in \Sigma$ ha $(\delta(q_{1}, a), \delta(q_{2}, a))$ già marcata;
 4. idem per round $i$;
 5. quando a un $k$-esimo round non riesco a mettere nessuna nuova marca termino l'algoritmo;
 

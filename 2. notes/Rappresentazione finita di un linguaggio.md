@@ -10,7 +10,7 @@ links:
 # Rappresentazione finita di un linguaggio
 ---
 ## Introduzione
-Assumendo di avere chiara la definizione di [[Linguaggio formale|linguaggio formale]], ci si chiede, nel caso in cui il linguaggio in questione $L$ sia infinito (ossia praticamente sempre), **in che modo si possa rappresentare in maniera finita**. E non solo: ci si chiede anche **come verificare che se una stringa $w \in L$**.
+Assumendo di avere chiara la definizione di [[Linguaggio formale|linguaggio formale]], ci si chiede, nel caso in cui il linguaggio in questione $L$ sia infinito (ossia praticamente sempre), **in che modo si possa rappresentare in maniera finita**. E non solo: ci si chiede anche **come verificare se una stringa $w \in L$**.
 
 E' il problema centrale dell'informatica e dei programmatori: _rappresentare oggetti infiniti in una memoria finita_.
 

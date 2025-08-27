@@ -12,12 +12,12 @@ links:
 ## Introduzione
 > Data un'[[Espressione regolare|espressione regolare]] $s$ possiamo costruire un [[NFA]] $N[s]$ tale che
 > $$\mathscr{L}[s] = L[N[s]]$$
-> ossia che _il [[Linguaggio denotato da un'espressione regolare|linguaggio denotato]] da $s$ è lo stesso riconosciuto dal NFA di $s$_.
+> ossia che _il [[Linguaggio denotato da un'espressione regolare|linguaggio denotato]] da $s$ è lo stesso [[Linguaggio accettato|riconosciuto]] dal NFA di $s$_.
 
 In poche parole il teorema ci dice che **gli NFA riconoscono tutti i possibili [[Linguaggio regolare|linguaggi regolari]]**.
 
 ## Dimostrazione
-Dimostriamo il teorema per [[Induzione strutturale|induzione]] sulla [[Sintassi|sintassi]] ([[Sintassi astratta|astratta]]) dell'espressione regolare $s$. In particolare costruiremo l'NFA $N[s]$ in modo semplificando, ossia mantenendo sempre queste due proprietà:
+Dimostriamo il teorema per [[Induzione strutturale|induzione]] sulla [[Sintassi|sintassi]] ([[Sintassi astratta|astratta]]) dell'espressione regolare $s$. In particolare costruiremo l'NFA $N[s]$ in modo semplificato, ossia mantenendo sempre queste due proprietà:
 1. _lo stato iniziale non ha archi entranti_;
 2. _lo stato finale è unico e non ha archi uscenti_;
 

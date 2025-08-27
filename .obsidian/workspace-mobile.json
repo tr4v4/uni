@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ee6a030762febab5",
+        "id": "32f7b513b59392b0",
         "type": "tabs",
         "children": [
           {
-            "id": "0000d80f3bdc98e3",
+            "id": "88077d2427cb0d84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/LFU.md",
+                "file": "2. notes/Componenti connesse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LFU"
+              "title": "Componenti connesse"
             }
           }
         ]
@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Cantor",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -143,7 +143,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2. notes/LFU.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -157,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "random-note:Open random note": false,
@@ -170,8 +170,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0000d80f3bdc98e3",
+  "active": "88077d2427cb0d84",
   "lastOpenFiles": [
+    "2. notes/LFU.md",
+    "2. notes/Rappresentazione finita di un linguaggio.md",
+    "2. notes/Albero di derivazione.md",
+    "2. notes/Derivazione.md",
+    "2. notes/Linguaggio generato.md",
+    "2. notes/Grammatiche libere.md",
+    "2. notes/Grammatiche.md",
+    "2. notes/Linguaggio formale.md",
+    "2. notes/Sintassi.md",
     "2. notes/Algoritmi di paginazione.md",
     "2. notes/LRU.md",
     "2. notes/Disk scheduling.md",
@@ -189,15 +198,6 @@
     "2. notes/Albero binario di ricerca.md",
     "2. notes/Collisione hash.md",
     "2. notes/Indirizzamento aperto.md",
-    "2. notes/Doppio hashing.md",
-    "2. notes/Ispezione quadratica.md",
-    "2. notes/Ispezione lineare.md",
-    "2. notes/Concatenamento separato.md",
-    "2. notes/Fattore di carico.md",
-    "2. notes/Funzione hash.md",
-    "2. notes/Uniformità semplice.md",
-    "2. notes/Complessità computazionale.md",
-    "2. notes/Metodo della codifica algebrica.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

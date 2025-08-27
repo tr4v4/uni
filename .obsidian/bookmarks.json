@@ -1,26 +1,3 @@
 {
-  "items": [
-    {
-      "type": "group",
-      "ctime": 1733314234544,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1733314250463,
-          "path": "0. mocs/Sistemi operativi.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1733314262113,
-          "path": "1. lectures/Lecture 21112024092345.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1733314284104,
-          "path": "1. lectures/Lecture 28112024092134.md"
-        }
-      ],
-      "title": "Workflow - Sistemi operativi"
-    }
-  ]
+  "items": []
 }

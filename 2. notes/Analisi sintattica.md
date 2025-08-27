@@ -11,10 +11,12 @@ links:
 # Analisi sintattica
 ---
 ## Introduzione
-> L'**analisi sintattica** è la seconda fase attuata dal [[Compilatore|compilatore]], e consiste nella _produzione_ (da parte di un **parser**), _a partire dalla lista di token ricevuta dall'[[Analisi lessicale|analisi lessicale]], dell'[[Albero di derivazione|albero di derivazione]]_.
+> L'**analisi sintattica** è la seconda fase attuata dal [[Compilatore|compilatore]], e consiste nella _produzione_ (da parte di un **[[Parser|parser]]**), _a partire dalla lista di token ricevuta dall'[[Analisi lessicale|analisi lessicale]], dell'[[Albero di derivazione|albero di derivazione]]_.
 
 Per la realizzazione c'è bisogno di:
 - _[[Grammatiche libere|grammatiche libere]]_
+- _[[Linguaggio libero|linguaggi liberi]]_
 - _[[Automa a pila|automi a pila]]_
 
 ## Referenze
+- [[Parser]]

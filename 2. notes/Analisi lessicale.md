@@ -35,7 +35,7 @@ Sui token ci possono poi essere:
 - **pattern** - una descrizione generale della forma dei valori di una classe di token, un insieme dei valori ammissibili;
 - **lessemi** - stringhe istanze di un pattern;
 
-Per esempio `x1` è un lessema istanza del pattern $(x|y)(x|y|0|1)$.
+Per esempio `x1` è un lessema istanza del pattern $(x|y)(x|y|0|1)^{*}$.
 
 <u>Nota bene</u>: in realtà, ogni token contiene la coppia (_nome_, _puntatore al valore_), dove il [[Puntatori|puntatore]] al valore sarà l'indirizzo del lessema nella tabella dei simboli.
 

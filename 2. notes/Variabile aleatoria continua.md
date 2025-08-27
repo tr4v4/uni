@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/finished
+  - status/ongoing
   - topic/calcolo-delle-probabilità-e-statistica
 date: 22-04-2025 13:28:29
 links:

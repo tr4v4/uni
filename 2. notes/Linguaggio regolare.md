@@ -20,7 +20,7 @@ Fissato l'alfabeto $A = \{0, 1\}$, definiamo delle espressioni regolari e i ling
 - $0^{*}10^{*}$ è $L = \{w \in A^{*} | w \text{ contiene un solo 1}\}$
 - $(0|1)^{*}1(0|1)^{*}$ è $L = \{w \in A^{*} | w \text{ contiene almeno un 1}\}$
 - $(0|1)^{*}001(0|1)^{*}$ è $L = \{w \in A^{*} | w \text{ contiene 001 come sottostringa}\}$
-- $1^{*}(001^{*})^{*}$ è $L = \{w \in A^{*} | \text{ogni occorrenza di 0 è seguita immediatamente da almeno un 1}\}$
+- $1^{*}(011^{*})^{*}$ è $L = \{w \in A^{*} | \text{ogni occorrenza di 0 è seguita immediatamente da almeno un 1}\}$
 - $((0|1)\cdot(0|1))^{*}$ è $L = \{w \in A^{*} | w \text{ è di lunghezza pari}\}$
 - $(0|1)^{*}1$ è $L = \{w \in A^{*} | w \text{ termina con un 1}\}$
 
@@ -57,7 +57,7 @@ $$\mathscr{L}[s_{1}] \cup \mathscr{L}[s_{2}] = \mathscr{L}[s_{1}/s_{2}]$$
 $$\mathscr{L}[s_{1}] \cdot \mathscr{L}[s_{2}] = \mathscr{L}[s_{1} \cdot s_{2}]$$
 $$(\mathscr{L}[s_{1}])^{*} = \mathscr{L}[(s_{1})^{*}]$$
 
-La complementazione si dimostra introducendo un DFA $M$ che riconosca $L_{1}$ e costruendo il DFA $\bar{M}$ che riconosca il suo complementare. E' facile: se $M = (\Sigma, Q, \delta, q_{0}, F)$, allora $\bar{M} = (\Sigma, Q, \delta, q_{0}, Q \setminus F)$, ossia basta avere come stati finali di $\bar{M}$ gli stati non finali di $M$. Infatti vale che $w \in L[M] \iff w \notin L[\bar{M}]$, e quindi che
+La complementazione si dimostra introducendo un DFA $M$ che riconosca $L_{1}$ e costruendo il DFA $\bar{M}$ che riconosca il suo complementare. E' facile: se $M = (\Sigma, Q, \delta, q_{0}, F)$, allora $\bar{M} = (\Sigma, Q, \delta, q_{0}, Q \setminus F)$, ossia _basta avere come stati finali di $\bar{M}$ gli stati non finali di $M$_. Infatti vale che $w \in L[M] \iff w \notin L[\bar{M}]$, e quindi che
 $$L[\bar{M}] = \Sigma^{*} \setminus L[M]$$
 
 L'intersezione è una diretta conseguenza delle [[Leggi di De Morgan|leggi di De Morgan]]. Se abbiamo l'unione e la complementazione, allora ricaviamo l'intersezione:

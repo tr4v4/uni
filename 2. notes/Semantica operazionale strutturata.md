@@ -312,7 +312,7 @@ $$\text{exec}(c, \sigma) = \begin{cases} \sigma' & (c, \sigma) \to^{*}_{c} \sigm
 La _divergenza_ è quando si ha un ciclo infinito, come
 $$\gamma_{0} = (\text{while tt do skip}, \sigma)$$
 Invece il _deadlock_ è quello stato di blocco che avviene in caso di sottrazione che produce un numero negativo, come
-$$\gamma_{1} = (x := (3-5))$$
+$$\gamma_{1} = (x := (3-5), \sigma)$$
 
 Il punto è che
 $$\text{exec}(\gamma_{0}, \sigma) = \text{indefinito} = \text{exec}(\gamma_{1}, \sigma)$$
@@ -348,7 +348,7 @@ $$\begin{prooftree}
 
 $$\begin{prooftree}
 \AxiomC{$(e_{1}, \sigma) \to_{e} \text{err}$}
-\LL{($\text{Sum}_{4}$)}
+\LL{($\text{Sum}_{5}$)}
 \UIC{$(m+e_{1}, \sigma) \to_{e} \text{err}$}
 \end{prooftree}$$
 

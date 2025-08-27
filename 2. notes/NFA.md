@@ -45,7 +45,7 @@ Anche l'automa
 
 E' possibile deterministicizzare quest'ultimo automa con
 ![[nfa-deterministicizzato.png]]
-che accetta lo stesso linguaggio. E' importante notare lo $q_{2}$, chiamato **stato pozzo**, che consiste in uno stato di errore dell'automa: _può leggere all'infinito $a$ o $b$ senza mai terminare in uno stato finale_.
+che accetta lo stesso linguaggio. E' importante notare lo stato $q_{2}$, chiamato **stato pozzo**, che consiste in uno stato di errore dell'automa: _può leggere all'infinito $a$ o $b$ senza mai terminare in uno stato finale_.
 
 ## Rappresentazione
 Solitamente, la funzione di transizione viene rappresentata tramite una tabella di transizione:

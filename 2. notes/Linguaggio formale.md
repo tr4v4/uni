@@ -105,7 +105,7 @@ Si definisce induttivamente come:
 Definiamo ora la **chiusura** del linguaggio, anche detta **stella di Kleene** o **ripetizione**:
 $$L^{*} = \bigcup_{n\geq 0} L^{n}$$
 e la versione gemella, detta chiusura positiva
-$$L^{+} = \bigcup_{n > 1} L^{n}$$
+$$L^{+} = \bigcup_{n \geq 1} L^{n}$$
 (che semplicemente esclude $\epsilon$)
 
 ## Referenze

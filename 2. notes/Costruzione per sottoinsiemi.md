@@ -96,7 +96,7 @@ $$w \in L[N] \iff \exists p \in F : p \in \hat{\delta}(q_{0}, w)$$
 Il significato della funzione $\hat{\delta}$ può essere facilmente espresso come segue: presa una stringa $w$ e uno stato iniziale $q_{0}$, allora $\hat{\delta}(q_{0}, w)$ è l'$\epsilon\text{-closure}$ dell'insieme degli stati percorsi per riconoscere $w$, e quindi l'insieme di stati raggiungibili con transizioni-$\epsilon$ a partire dall'insieme degli stati attraversati per riconoscere $w$.
 
 ### Costruzione per sottoinsiemi
-Dato un NFA $N = (\Sigma, Q, \delta, q_{0}, F)$, l'algoritmo di costruzioner per sottoinsiemi è:
+Dato un NFA $N = (\Sigma, Q, \delta, q_{0}, F)$, l'algoritmo di costruzione per sottoinsiemi è:
 ```R
 S = eps_clos(q_0);    # S è lo stato iniziale del DFA
 T = {S}               # T è l'insieme degli stati del DFA

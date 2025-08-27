@@ -17,6 +17,7 @@ links:
 > 
 > per consentire un'attuazione delle istruzioni del suo linguaggio nella macchina al livello inferiore. Il processo di **traduzione** delle operazioni e della memoria è gestito dall'**[[Interprete|interprete]]**.
 > Ogni macchina astratta ha un suo [[Linguaggio macchina|linguaggio]].
+> Formalmente una macchina astratta e' un _insieme di [[Strutture dati|strutture dati]] e [[Algoritmo|algoritmi]] in grado di memorizzare ed eseguire programmi_.
 
 <u>Nota bene</u>: la macchina $M$ al livello inferiore potrebbe essere un'altra macchina astratta o la macchina fisica (quella al livello più basso $0$).
 

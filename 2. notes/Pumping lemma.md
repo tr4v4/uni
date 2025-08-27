@@ -33,7 +33,7 @@ Esiste il DFA associato:
 ![[dfa-linguaggio-regolare.png]]
 
 ## Teorema
-> Il **pumping lemma** è una proprietà [[Algoritmo|algoritmica]] di tutti i linguaggio regolari. Formalmente dice che se $L$ è un linguaggio regolare, allora
+> Il **pumping lemma** è una proprietà [[Algoritmo|algoritmica]] di tutti i linguaggi regolari. Formalmente dice che se $L$ è un linguaggio regolare, allora
 > $$\exists N > 0. \forall z \in L : |z| \geq N. \exists u, v, w :$$
 > - $z = uvw$
 > - $|uv| \leq N$
@@ -52,7 +52,7 @@ Allora, per definizione di linguaggio accettato, esiste un cammino del DFA tale 
 
 Il numero di stati attraversati è $m+1$, per cui $m+1 > N$. Ma sapendo che $N = |Q_{\min}|$, allora tra gli stati attraversati $q_{0}, \cdots, q_{m}$, per forza almeno due sono uguali. Formalmente
 $$\exists i, j. \ i \neq j : q_{i} = q_{j}$$
-ossia nel percorso di stati attraversati ne esistono almeno due che sono lo stesso stato. E queso è ovvio: alcuni stati devono per forza essere uguali, dato che se ne attraversa un numero strettamente maggiore di quanti ce ne sono! E' _importante notare che la ripetizione dello stato deve avvenire entro $N+1$ stati attraversati nella lettura di $z$_. In altri termini
+ossia nel percorso di stati attraversati ne esistono almeno due che sono lo stesso stato. E questo è ovvio: alcuni stati devono per forza essere uguali, dato che se ne attraversa un numero strettamente maggiore di quanti ce ne sono! E' _importante notare che la ripetizione dello stato deve avvenire entro $N+1$ stati attraversati nella lettura di $z$_. In altri termini
 $$0 \leq i < j \leq N$$
 ![[pumping-lemma-2.png]]
 
@@ -69,7 +69,7 @@ Inoltre avendo $i \neq j$ e in particolare $i < j$, per forza
 $$|v| \geq 1$$
 
 Non ci resta che dimostrare di poter "pompare" $v$, ma questo deriva direttamente dalle proprietà dei DFA e dalle equivalenze regolari. Infatti:
-- $k = 0$ devo dimostrare che $uv \in L$, ma è ovvio perché esiste il percorso di stati $q_{0}, \cdots, q_{i}=q_{j}, \cdots, q_{m}$ che accetta $uv$;
+- $k = 0$ devo dimostrare che $uw \in L$, ma è ovvio perché esiste il percorso di stati $q_{0}, \cdots, q_{i}=q_{j}, \cdots, q_{m}$ che accetta $uw$;
 - $k > 0$ è ovvio, perché dallo stato $q_{i}=q_{j}$ posso ciclare $k$ volte e decidere poi di proseguire verso $q_{m}$;
 
 **Qed**.

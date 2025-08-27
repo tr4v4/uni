@@ -25,7 +25,7 @@ mentre $\delta$ è definita come:
 
 Avendo definito $N_{G}$ in questo modo, si dimostra che
 $$S {\implies_{G}}^{*} w \iff (S, w) {\vdash_{N_{G}}}^{*} (\epsilon, \epsilon)$$
-ossia che dal simbolo iniziale $S$ si [[Derivazione|deriva]] una stringa $w$ sse dallo stato iniziale $S$ e con la lettura di $w$ si iterano delle [[Computazione|computazioni]] che portano allo stato finale $\epsilon$ e con la stringa di lettura $\epsilon$ (vuota).
+ossia che dal simbolo iniziale $S$ si [[Derivazione|deriva]] una stringa $w$ sse dallo stato iniziale $S$ e con la lettura di $w$ si iterano delle mosse (un cammino) che portano allo stato finale $\epsilon$ e con la stringa di lettura $\epsilon$ (vuota).
 
 La dimostrazione è omessa.
 

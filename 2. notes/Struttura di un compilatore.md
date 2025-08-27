@@ -15,7 +15,7 @@ Fissato un programma sorgente, un [[Compilatore|compilatore]] si compone di 6 mo
 2. [[Analisi sintattica]]
 3. [[Analisi semantica]]
 4. [[Generazione della forma intermedia]]
-5. [[Ottimizzazione di dati]]
+5. [[Ottimizzazione]]
 6. [[Generazione del codice]]
 
 ## Referenze

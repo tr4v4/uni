@@ -4,39 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "4c38e422c91520be",
+        "id": "bec1c7dc5f878fe7",
         "type": "tabs",
+        "dimension": 34.205488194001276,
         "children": [
           {
-            "id": "929dbe390625c43e",
+            "id": "bc5b6c47e1c00557",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Sistemi operativi.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemi operativi"
+              "title": "Linguaggi di programmazione"
+            }
+          }
+        ]
+      },
+      {
+        "id": "79b532f553372eb2",
+        "type": "tabs",
+        "dimension": 65.79451180599872,
+        "children": [
+          {
+            "id": "68c2bd69f6881a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Analisi sintattica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Analisi sintattica"
             }
           },
           {
-            "id": "ee99b1c356db1c11",
+            "id": "8a6f3d5de9b0cf28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. lectures/Lecture 05122024092457.md",
+                "file": "2. notes/NPDA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 05122024092457"
+              "title": "NPDA"
+            }
+          },
+          {
+            "id": "1421fbc664479c54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Linguaggio libero.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linguaggio libero"
+            }
+          },
+          {
+            "id": "ab2b57d412289ce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Pumping theorem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pumping theorem"
+            }
+          },
+          {
+            "id": "2fbaca65a666c0b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/DPDA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DPDA"
+            }
+          },
+          {
+            "id": "88c775695f2f5fcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Linguaggio libero deterministico.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linguaggio libero deterministico"
+            }
+          },
+          {
+            "id": "734ed60af81be150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Parser.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parser"
+            }
+          },
+          {
+            "id": "87e166495810ccec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Parser top-down.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parser top-down"
+            }
+          },
+          {
+            "id": "6baf5b762ad270e8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -89,12 +205,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -157,13 +273,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. notes/ICMP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ICMP"
+              "title": "Outline"
             }
           },
           {
@@ -218,8 +333,8 @@
             "state": {
               "type": "toggl-report",
               "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -228,8 +343,18 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
+            }
+          },
+          {
+            "id": "c2b32c795478986b",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
             }
           }
         ],
@@ -246,7 +371,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Reti di calcolatori.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -269,12 +393,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.13873223932666073,
+                  "scale": 0.09248815955110715,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Reti di calcolatori"
+              "title": "Graph view"
             }
           }
         ]
@@ -298,11 +422,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -317,46 +441,47 @@
       "soundscapes:Soundscapes: My Music": false
     }
   },
-  "active": "ee99b1c356db1c11",
+  "active": "6baf5b762ad270e8",
   "lastOpenFiles": [
-    "0. mocs/Sistemi operativi.md",
-    "1. lectures/Lecture 12122024092737.md",
-    "1. lectures/Lecture 28112024092134.md",
-    "1. lectures/Lecture 21112024092345.md",
-    "2. notes/RSA.md",
+    "0. mocs/Ottimizzazione combinatoria.md",
     "0. mocs/Reti di calcolatori.md",
-    "2. notes/Zona di Fresnel.md",
-    "2. notes/SSL.md",
-    "2. notes/IPsec.md",
-    "2. notes/Sicurezza di rete.md",
-    "2. notes/Internet2.md",
-    "2. notes/Configurazione di un host.md",
-    "2. notes/HTTP caching.md",
-    "2. notes/ACL.md",
-    "2. notes/Firewall.md",
-    "2. notes/Proxy.md",
-    "2. notes/HTTP.md",
-    "2. notes/IDS.md",
-    "2. notes/Posta elettronica sicura.md",
-    "2. notes/Attacchi informatici.md",
-    "2. notes/Funzione hash.md",
-    "2. notes/Crittografia asimmetrica.md",
-    "2. notes/Autenticazione.md",
-    "2. notes/Firma digitale.md",
-    "2. notes/Certification Authorities.md",
-    "2. notes/Crittografia.md",
-    "media/binary-exponential-backoff-cw.png",
-    "media/sifs-pifs-difs.png",
-    "media/pcf-dcf-cycle.png",
-    "media/protocollo-mac.png",
-    "media/rts-cts.png",
-    "media/problema-terminale-nascosto.png",
-    "media/mac-wireless-time-protocols-comparison.png",
-    "media/slotted-csma-collision-domain.png",
-    "media/csma-collision-domain.png",
-    "media/csma.png",
-    "media/Unconfirmed 595121.crdownload",
+    "0. mocs/Algebra e geometria.md",
+    "0. mocs/Sistemi operativi.md",
+    "2. notes/Sistema operativo.md",
+    "0. mocs/Calcolo delle probabilità e statistica.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "1. lectures/Lecture 21112024121059.md",
+    "2. notes/Parser top-down.md",
+    "2. notes/Grammatiche LL(k).md",
+    "2. notes/First e follow.md",
+    "2. notes/Parser.md",
+    "2. notes/Tabella di parsing LL(1).md",
+    "2. notes/Tabella di parsing LL(k).md",
+    "2. notes/Grammatiche LL(1).md",
+    "2. notes/Linguaggio LL(k).md",
+    "1. lectures/Lecture 12112024110924.md",
+    "media/dpda-lib-det-non-llk.png",
+    "media/gerarchia-linguaggi-llk.png",
+    "media/tabella-di-parsing-ll2.png",
+    "2. notes/Ricorsione sinistra.md",
+    "2. notes/Linguaggio libero deterministico.md",
+    "2. notes/DFA.md",
+    "1. lectures/Lecture 07112024120244.md",
+    "media/parser-top-down-ex-4.png",
+    "media/parser-top-down-ex-3.png",
+    "media/parser-top-down-ex-2.png",
+    "media/parser-top-down-ex-1-albero-derivazione.png",
+    "media/parser-top-down-ex-1.png",
+    "2. notes/Pila.md",
+    "2. notes/Fattorizzazione a sinistra.md",
+    "2. notes/Linguaggio ambiguo.md",
+    "2. notes/Grammatica ambigua.md",
+    "2. notes/Produzioni epsilon.md",
+    "2. notes/Untitled.base",
+    "media/parser-bottom-up-3.png",
+    "media/parser-bottom-up-2.png",
     "2. notes/Equivalenze regolari.canvas",
+    "media/Unconfirmed 595121.crdownload",
     "5. seminars",
     "media/jupiter.jpg.crdownload",
     "media/learning-rate.png.crdownload",
@@ -366,7 +491,6 @@
     "3. projects/aijsodijas.canvas",
     "media/1norm-2norm.jpg.crdownload",
     "netlify.toml~",
-    "ads.txt",
     "3. projects/TarBo/Untitled.canvas"
   ]
 }

@@ -56,6 +56,10 @@ Per garantire questi due meccanismi il DFA simulato procede nel seguente modo:
 	- _questo garantisce che se vengono riconosciuti più pattern per uno stesso lessema viene identificato sempre il pattern dichiarato prima_
 4. trovato il match corretto, elimina la sottostringa dell'input matchata e riparte da capo con la parte rimanente;
 
+E' per questo motivo che in `lex.l` le parole riservate del linguaggio (come `while`, `if`, ecc...) vanno messe prima degli identificatori. In questo modo:
+- se si scrive una parola riservata questa viene riconosciuta come tale (è scritto prima!);
+- se si scrive un identificatore che contiene la parola riservata questo viene riconosciuto come tale (prefisso più lungo!);
+
 ## Utilizzo con YACC
 In realtà l'analisi lessicale viene fatta in parallelo con l'[[Analisi sintattica|analisi sintattica]]. Preso [[YACC]] che produce l'analizzatore sintattico (come Lex con il lessicale), **il programma prodotto da Lex funge da subroutine del parser**. Si dice che `lex.yy.c` è usato _on-demand_ dall'analizzatore sintattico, che _richiede di volta in volta il token successivo_.
 

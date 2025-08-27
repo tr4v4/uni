@@ -135,7 +135,7 @@ $$\exists k < |\sim_{0}| : (\sim_{k} = \sim_{k+1} \implies \sim_{j} = \sim_{k} \
 
 Infatti nella peggiore delle ipotesi, da $\sim_{0}$ _ad ogni iterazione rimuovo 1_ (o meglio 2, per la simmetria) _coppia_.
 
-In realtà si potrebbe dimostrare che $k \leq |Q| - 1$, questo perché $|Q|-1$ è la _lunghezza del massimo [[Cammino|cammino]] aciclico_.
+In realtà si potrebbe dimostrare che $k \leq |Q| - 1$, questo perché $|Q|-1$ è la _lunghezza del massimo [[Cammino|cammino]] aciclico_ (numero di archi = numero di nodi - 1).
 
 ## Algoritmo
 L'algoritmo che implementa in modo sistematico la strategia adottata e i criteri di arresto elaborati, si chiama [[Algoritmo di tabella a scala|algoritmo di tabella a scala]].
@@ -156,7 +156,7 @@ Se per un DFA abbiamo definito $\hat{\delta}$ in un determinato modo, per il DFA
 Definiamo $\hat{\delta}_{\min}$ come:
 $$\hat{\delta}_{\min} : Q_{\min} \times \Sigma^{*} \to Q_{\min}$$
 $$\hat{\delta}_{\min}([q], \epsilon) = [q]$$
-$$\hat{\delta}_{\min}([q], xa) = \delta_{\min}(\hat{\delta}([q], x), a)$$
+$$\hat{\delta}_{\min}([q], xa) = \delta_{\min}(\hat{\delta}_{\min}([q], x), a)$$
 da cui
 $$w \in L[M_{\min}] \iff \hat{\delta}_{\min}([q_{0}], w) \in F_{\min}$$
 
@@ -200,7 +200,7 @@ Ugualmente, $M_{\min}$ non ha stati irraggiungibili per costruzione.
 Allora per l'osservazione precedente, _ogni stato di $M_{\min}$è equivalente ad almeno uno stato di $N$_. Questo perché $|Q| < |Q_{\min}|$, e tutti questi stati sono raggiungibili (sia in $N$ che in $M_{\min}$). Sapendo che gli stati iniziali di $N$ e $M_{\min}$ sono equivalenti, allora lo devono essere anche i successori, ed essendo tutti gli stati raggiungibili il ragionamento si protrae a catena per ogni stato di $M_{\min}$ e $N$.
 
 ###### 4.
-Si conclude facendo notare che poiché $M_{\min}$ ha meno stati di $N$, due stati $p, p'$ di $M_{\min}$ devono essere equivalenti ad uno stesso stato $q$ di $N$. Ma la relazione di equivalenza $\sim$ è transitiva! Perciò
+Si conclude facendo notare che poiché $M_{\min}$ ha più stati di $N$, due stati $p, p'$ di $M_{\min}$ devono essere equivalenti ad uno stesso stato $q$ di $N$. Ma la relazione di equivalenza $\sim$ è transitiva! Perciò
 $$p \sim q \land q \sim p' \implies p \sim p'$$
 e _questo è un assurdo considerato che non esistono due stati distinti in $M_{\min}$ che siano tra loro equivalenti_.
 

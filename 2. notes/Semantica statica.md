@@ -15,7 +15,7 @@ links:
 
 Per esempio
 - la verifica della [[Dichiarazione|dichiarazione]] di una [[Identificatore|variabile]] prima del suo utilizzo;
-- la compatibilità tra tipo di variabile e valore dell'[[Assegnamento|assegnamento]];
+- la compatibilità tra tipo di variabile e valore dell'[[Assegnamento|assegnamento]] ([[Type checking|type checking]]);
 - l'uguaglianza tra il numero/tipo di parametri attuali di una [[Invocazione di procedura|chiamata di procedura]] e il numero/tipo dei parametri formali della dichiarazione della [[Funzione informatica|funzione]];
 
 sono _tutti vincoli contestuali_, perché esulano da ciò che una grammatica libera riesce a esprimere.
