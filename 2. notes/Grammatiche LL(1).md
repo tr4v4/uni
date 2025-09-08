@@ -35,6 +35,8 @@ Lo sketch della dimostrazione prevede di utilizzare la tabella di parsing $LL(1)
 ### Linguaggi regolari
 > Ogni [[Linguaggio regolare|linguaggio regolare]] e' [[Linguaggio generato|generabile]] da una grammatica $G$ di classe $LL(1)$.
 
+Questo ci dice quindi che ogni linguaggio regolare e' di classe $LL(1)$.
+
 #### Dimostrazione
 Se $L$ e' regolare allora $\exists$ un [[DFA]] $M = (\Sigma, Q, \delta, q_{0}, F)$ tale che $L = L[M]$. A partire da $M$ costruiamo la grammatica regolare $G = (NT, T, S, R)$ con $NT = \{[q] | q \in Q\}$[^2], $T = \Sigma$, $S = [q_{0}]$ e $R$ definita da:
 - se $\delta(q, a) = q'$ allora $[q] \to a[q'] \in R$;

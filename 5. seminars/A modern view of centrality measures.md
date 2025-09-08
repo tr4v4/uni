@@ -1,7 +1,6 @@
 ---
 tags:
   - category/seminar
-  - topic/
 date: 15-02-2025 09:34:52
 lecturer: Paolo Boldi
 ---

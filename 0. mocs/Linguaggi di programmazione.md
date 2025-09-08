@@ -14,7 +14,7 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[1. lectures/Lecture 24102024120228.md\|Lecture 24102024120228]] | <ul><li>[[2. notes/Linguaggio libero deterministico.md\|Linguaggio libero deterministico]]</li><li>[[2. notes/Look-ahead.md\|Look-ahead]]</li><li>[[2. notes/Parser bottom-up.md\|Parser bottom-up]]</li><li>[[2. notes/Parser.md\|Parser]]</li><li>[[2. notes/Parser top-down.md\|Parser top-down]]</li><li>[[0. mocs/Linguaggi di programmazione.md\|Linguaggi di programmazione]]</li></ul> |
+| [[1. lectures/Lecture 24102024120228.md\|Lecture 24102024120228]] | <ul><li>[[0. mocs/Linguaggi di programmazione.md\|Linguaggi di programmazione]]</li><li>[[2. notes/Linguaggio libero deterministico.md\|Linguaggio libero deterministico]]</li><li>[[2. notes/Look-ahead.md\|Look-ahead]]</li><li>[[2. notes/Parser bottom-up.md\|Parser bottom-up]]</li><li>[[2. notes/Parser.md\|Parser]]</li><li>[[2. notes/Parser top-down.md\|Parser top-down]]</li></ul> |
 <!-- SerializedQuery END -->
 
 ### Da processare
@@ -26,7 +26,6 @@ date: 16-09-2024 10:40:19
 | [[1. lectures/Lecture 30042025110449.md\|Lecture 30042025110449]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 24042025131115.md\|Lecture 24042025131115]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 23042025111218.md\|Lecture 23042025111218]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 21112024121059.md\|Lecture 21112024121059]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 16042025110927.md\|Lecture 16042025110927]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 14052025105842.md\|Lecture 14052025105842]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 10042025131105.md\|Lecture 10042025131105]] | <ul><li>#status/pending</li></ul> |
@@ -34,7 +33,6 @@ date: 16-09-2024 10:40:19
 | [[1. lectures/Lecture 08052025131742.md\|Lecture 08052025131742]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 07052025110754.md\|Lecture 07052025110754]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
-
 
 ## Note
 - Argomenti
@@ -51,8 +49,7 @@ date: 16-09-2024 10:40:19
 		- [[Analisi sintattica]], [[Grammatiche libere]], [[Automa a pila]] ([[NPDA]], [[DPDA]]), [[Linguaggio libero]], [[Pumping theorem]]
 		- [[Classificazione di Chomsky]]
 		- [[DPDA]], [[Linguaggio libero deterministico]], [[Semplificazione delle grammatiche]]
-		- [[Parser]], [[Parser top-down]] ([[Look-ahead]], [[First e follow]], [[Tabella di parsing LL(1)]], [[Grammatiche LL(1)]], [[Tabella di parsing LL(k)]], [[Grammatiche LL(k)]]), [[Parser bottom-up]]
-		- parser: costruzione di analizzatori sintattici
+		- [[Parser]], [[Parser top-down]] ([[Look-ahead]], [[First e follow]], [[Tabella di parsing LL(1)]], [[Grammatiche LL(1)]], [[Tabella di parsing LL(k)]], [[Grammatiche LL(k)]], [[Linguaggio LL(k)]]), [[Parser bottom-up]] ([[Parser LR]], [[Prefisso viabile]], [[DFA dei prefissi viabili]], [[Tabella di parsing LR]], [[Tabella di parsing SLR(1)]], [[Grammatiche LR(1)]], [[Parser LALR]], [[Relazione tra grammatiche LL(k) e LR(k)]], [[Relazione tra linguaggi LL(k) e LR(k)]]), [[YACC]]
 		- fondamenti: esistono vincoli che un compilatore non può verificare; proprietà indecidibili; Macchine di Turing
 	- mod. 2
 		- [[Nome]], [[Oggetto denotabile]], [[Binding]], [[Blocco]], [[Ambiente]], [[Aliasing]], [[Scope]], [[Regole di visibilita' dei nomi]]
@@ -88,6 +85,20 @@ date: 16-09-2024 10:40:19
 
 | Note                                                                                                               | Status                             |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[2. notes/Relazione tra linguaggi LL(k) e LR(k).md\|Relazione tra linguaggi LL(k) e LR(k)]]                       | <ul><li>#status/pending</li></ul>  |
+| [[2. notes/Relazione tra grammatiche LL(k) e LR(k).md\|Relazione tra grammatiche LL(k) e LR(k)]]                   | <ul><li>#status/pending</li></ul>  |
+| [[2. notes/Grammatiche LALR(k).md\|Grammatiche LALR(k)]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Grammatiche SLR(k).md\|Grammatiche SLR(k)]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Grammatiche LR(k).md\|Grammatiche LR(k)]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tabella di parsing LALR(1).md\|Tabella di parsing LALR(1)]]                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Parser LALR.md\|Parser LALR]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Grammatiche LR(1).md\|Grammatiche LR(1)]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/DFA dei prefissi viabili.md\|DFA dei prefissi viabili]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tabella di parsing SLR(1).md\|Tabella di parsing SLR(1)]]                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Grammatiche LR(0).md\|Grammatiche LR(0)]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tabella di parsing LR.md\|Tabella di parsing LR]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Parser LR.md\|Parser LR]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Prefisso viabile.md\|Prefisso viabile]]                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Linguaggio LL(k).md\|Linguaggio LL(k)]]                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Tabella di parsing LL(k).md\|Tabella di parsing LL(k)]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Grammatiche LL(k).md\|Grammatiche LL(k)]]                                                               | <ul><li>#status/finished</li></ul> |
@@ -117,9 +128,9 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Equivalenza tra NFA ed espressioni regolari.md\|Equivalenza tra NFA ed espressioni regolari]]           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Semantica statica.md\|Semantica statica]]                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Analisi lessicale.md\|Analisi lessicale]]                                                               | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma di transizione.md\|Diagramma di transizione]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Costruzione per sottoinsiemi.md\|Costruzione per sottoinsiemi]]                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Algoritmo di tabella a scala.md\|Algoritmo di tabella a scala]]                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Costruzione per sottoinsiemi.md\|Costruzione per sottoinsiemi]]                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma di transizione.md\|Diagramma di transizione]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Lex.md\|Lex]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Pumping lemma.md\|Pumping lemma]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Semantica operazionale strutturata.md\|Semantica operazionale strutturata]]                             | <ul><li>#status/finished</li></ul> |
@@ -224,15 +235,15 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Linguaggio di programmazione imperativo.md\|Linguaggio di programmazione imperativo]]                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Categorie di linguaggi di programmazione.md\|Categorie di linguaggi di programmazione]]                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Evoluzione dei linguaggi di programmazione.md\|Evoluzione dei linguaggi di programmazione]]             | <ul><li>#status/finished</li></ul> |
-| [[2. notes/First fit.md\|First fit]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Best fit.md\|Best fit]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/First fit.md\|First fit]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Frammentazione esterna.md\|Frammentazione esterna]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Passaggio per costante.md\|Passaggio per costante]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Passaggio per riferimento.md\|Passaggio per riferimento]]                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Passaggio per valore.md\|Passaggio per valore]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Scope.md\|Scope]]                                                                                       | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Frammentazione interna.md\|Frammentazione interna]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Dichiarazione.md\|Dichiarazione]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Frammentazione interna.md\|Frammentazione interna]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Frammentazione.md\|Frammentazione]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Espressione.md\|Espressione]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Type safety.md\|Type safety]]                                                                           | <ul><li>#status/finished</li></ul> |

@@ -1,7 +1,6 @@
 ---
 tags:
   - category/seminar
-  - topic/
 date: 16-02-2025 11:17:41
 lecturer: Matteo Frigo
 ---

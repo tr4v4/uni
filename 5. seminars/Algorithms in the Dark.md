@@ -1,0 +1,201 @@
+---
+tags:
+  - category/seminar
+date: 01-09-2025 11:08:14
+lecturer: Flavio Chierichetti
+---
+# Algorithms in the Dark
+## Concetti
+- non hanno una completa visione dell'input
+	- algoritmi per esempio per la raccomandazione
+	- _matching ads to user_
+		- è un [[Problema di accoppiamento di massima cardinalita']], MA non sa quale utente arriverà - è spalmato nel tempo!
+		- deve fare decisioni che gli permetteranno di massimizzare in futuro la massima cardinalità dell'accoppiamento
+	- si vuole minimizzare la distanza della soluzione da quella che si otterrebbe con un algoritmo che conosce l'intero input dall'inizio
+	- sfide:
+		- il futuro è incerto
+		- le scelte fatte sono irreversibili (non si può tornare indietro nel tempo)
+		- in alcuni casi si vuole che l'algoritmo funzionino bene si input avversari (competizione tra aziende)
+- casi:
+	- experts problem
+	- online bipartite matching
+	- the secretary problem
+	- mining opinions in social networks
+- **experts problem**
+	- funzionamento
+		- ad ogni round riceviamo "advices" binari (per semplicità) da degli esperti
+		- quindi decidiamo cosa fare, sempre binario
+		- alla fine capiamo quale opzione era corretta --> e quindi quale esperto diceva la cosa giusta e quale no
+	- obiettivo: non vogliamo fare la cosa giusta ogni singola volta, quello che vogliamo fare è essere bravi quanto l'esperto che ci ha preso di più
+	- se vediamo il futuro il problema è triviale...
+	- è un problema molto legato al machine learning - le macchine sono gli esperti
+	- algoritmo ottimale - **Algoritmo di Littlestone & Warmuth**, o **Randomized Weighted Majority**:
+		- randomized --> IMPORTANTISSIMO, perché in contesti "dark" potrebbero esserci persone che ingannano l'algoritmo
+		- algoritmo
+			- assegna un peso $w_{i} = 1$ all'esperto $i$ $\forall i \in [n]$, dove $[n] = \{1, \cdots, n\}$
+			- per ogni round $t$ $1 \to T$:
+				- crea una distribuzione di probabilità $P_{t} : P_{t}(i) = \frac{w_{i}}{\sum\limits_{j=1}^{n}w_{j}}$
+				- prendi randomicamente $i$ da $P_{t}$ (con una probabilità proporzionale a quella di $P_{t}$)
+				- predici $z_{t} = y_{it}$ dove $y_{it}$ è la predizione dell'esperto $i$ al round $t$
+				- guarda il bit $x_{t}$ (la realtà) per il round $t$
+				- e paga 1€ se $z_{t} \neq x_{t}$
+				- per ogni esperto $i$ da $1, \cdots, n$
+					- $w_{i} = (1 - \epsilon)w_{i}$
+	- teorema: fissiamo $0 < \epsilon < \frac{1}{2}$ e $m$ il numero di errori dell'algoritmo e $m^{*}$ il numero di errori del miglior esperto; allora il numero aspettato di errori dell'algoritmo soddisfa l'espressione $$\mathbb{E}[m] \leq (1 + \epsilon) \cdot m^{*} + \frac{1}{\epsilon} \ln{n}$$
+		- dimostrazione
+			- fissiamo $w_{i}^{t}$ il peso dell'esperto $i$ _alla fine_ del round $t$ ($w_{i}^{0} = 1$ per ogni esperto $i$)
+			- fissiamo $W^{t} = \sum\limits_{i=1}^{n}w_{i}^{t}$, è il potenziale del round $t$
+			- fissiamo $I^{t}$ la frazione pesata di esperti che si sbagliano al tempo $t$ $$I^{t} = \frac{\sum\limits_{i, y_{it} \neq x_{t}}w_{i}^{t-1}}{\sum\limits_{i=1}^{n}w_{i}^{t-1}} = \frac{\sum\limits_{i, y_{it} \neq x_{t}}w_{i}^{t-1}}{W^{t-1}}$$
+			- supponiamo che $i^{*}$ sia un esperto che alla fine è il migliore, e $m^{*}$ il numero di suoi errori
+			- allora il peso finale di questo esperto sarà $w_{i^{*}}^{T} = w_{i^{*}}^{0}(1 - \epsilon)^{m^{*}}$
+			- quindi $W^{T} = \sum\limits_{i=1}^{n}w_{i}^{T} \geq w_{i^{*}}^{T} = (1 - \epsilon)^{m^{*}}$
+			- ci manca solo $\mathbb{E}[m] = \sum\limits_{t=1}^{T} \mathbb{P}(\text{l'algoritmo sbaglia al round t}) = \sum\limits_{t=1}^{T} \mathbb{P}(\text{l'algoritmo sceglie un esperto che sbaglia al round t})$
+			- e la probabilità di scegliere un esperto sbagliato al round $t$ è proprio $I^{t}$, quindi $\mathbb{E}[m] = \sum\limits_{t=1}^{T} I^{t}$
+				- l'idea poi è di upperboundarlo usando $W^{T}$
+				- in particolare $W^{T+1} = \sum\limits_{i=1}^{n}w_{i}^{t+1} = \sum\limits_{i=1}^{n} (w_{i}^{t}(1 - \epsilon \cdot [y_{i,t+1} \neq x_{t+1}]))$
+				- e quindi $W^{T+1} = W^{t} - \epsilon W^{t} \cdot I^{t+1} = W^{t}(1- \epsilon I^{t+1})$
+				- allora $W^{0} = \sum\limits_{i=1}^{n} w_{i}^{0} = n$
+				- $W^{1} = W^{0} (1 - \epsilon I^{1}) = n(1 - \epsilon I^{1})$
+				- $W^{2} = n(1 - \epsilon I^{1})(1 - \epsilon I^{2})$
+				- ...
+				- $W^{t} = n \prod_{s=1}^{t} (1 - \epsilon I^{s})$
+				- dobbiamo cambiare la produttoria in una sommatoria --> trick
+					- $n \prod_{s=1}^{T} (1 - \epsilon I^{s}) = W^{T} \geq (1 - \epsilon)^{m^{*}}$
+					- $\ln n + \sum\limits_{s=1}^{t} \ln(1 - \epsilon I^{s}) \geq m^{*} \ln(1 - \epsilon)$
+					- usiamo una diseguaglianza nota
+					- $\ln n - \epsilon \mathbb{E}[m] \geq m^{*} \ln(1 - \epsilon)$
+					- e facilmente si ottiene lo statement del teorema
+		- ottimalità? Sì --> e si basa tutta sulla randomizzazione, lo stesso algoritmo deterministico ha una peggiore performance
+			- pensiamo a 2 esperti, uno dice sempre 0 e l'altro sempre 1
+			- un _qualunque_ algoritmo deterministico fa un sacco di errori!
+				- ad ogni turno $t$ l'algoritmo dice $a_{t}$ e la natura $\neg a_{t}$
+				- ora l'algoritmo sbaglia ad ogni step
+				- ora fissiamo uno di questi algoritmi deterministici
+					- al tempo $T$ l'algoritmo $A$ ha fatto $T$ errori
+					- al tempo $T$ il miglior esperto ($E_{0}$ o $E_{1}$) avrà fatto al massimo $\frac{T}{2}$ errori
+					- e questo implica che nessun algoritmo deterministico può garantire un numero $m$ di errori più piccolo di $2m^{*}$
+					- se compariamo questo bound con quello del caso randomico è chiaro che quest'ultimo lo batte
+				- nota bene: questo sistema di prove in realtà guarda il caso pessimo dell'algoritmo deterministico, in cui la natura fa esattamente l'opposto; ma la natura chiaramente non è avversaria, e non cambia in base all'output dell'algoritmo!
+	- esercizi:
+		- give a deterministic algorithm with $m \leq (2 + \epsilon)m^{*} + \frac{O(1)}{\epsilon} \ln n$
+		- assume that there exists 3 experts $i_{1}, i_{2}, i_{3}$ such that their majority choice $\text{maj}(y_{i_{1}}, y_{i_{2}}, y_{i_{3}})$ is _always_ right (2 of them can't be wrong at the same turn); what's the best algorithm in this case? what's its $m$?
+- **online bipartite matching**
+	- è appunto un problema di accoppiamento di massima cardinalità, ma online
+	- grafo bipartito $G=(V, W, E)$, dove $V$ sono i nodi sinistra, $W$ di destra ed $E$ sono gli archi in mezzo ($\subseteq \{\{v, w\} | v \in V \land w \in W\}$)
+	- definizione di matching formale
+	- ma noi lo vogliamo online
+		- la randomizzazione può aiutare anche in questo caso, anche per tutelare l'algoritmo da avversari
+		- definizione: se $M \subseteq E$ è un matching diciamo che è massimale (non massimo!) se $\nexists e \in E \setminus M : M \cup \{e\}$ è un matching
+		- algoritmo per la risoluzione: `maximal`
+			- per ogni user $j$
+				- quando $j$ arriva, impariamo il set $N(j)$ di neighbours di $j$ (gli ads dal modello ML) che sono correntemente non matchati (li rimuoviamo direttamente)
+				- se $N(j) = \varnothing$
+					- lascia $j$ non matchato (caso brutto)
+				- altrimenti
+					- matcha $j$ su qualunque degli ad in $N(j)$
+		- notiamo allora che questo algoritmo, banale, produce sempre un match massimale
+		- lemma (proprietà maximal matching): supponiamo che $M$ sia un matching massimale di un grafo $G=(V, W, E)$ (bipartito ma non per forza), e fissiamo $M^{*}$ essere il matching massimo sempre di $G$, allora $$|M| \geq \frac{|M^{*}|}{2}$$
+			- dimostrazione
+				- fissiamo $S = \{v | \exists e \in M : v \in e\}$, e quindi $|S| = 2|M|$ (uguaglianza perché $M$ è un matching, non ci sono endpoints (in $S$) condivisi)
+				- ora:
+					- ogni $e \in M^{*}$ è incidente in almeno un nodo di $S$ (altrimenti $M \cup \{e\}$ sarebbe un matching, ma $M$ è massimale)
+					- ogni nodo in $S$ è incidente in al massimo un arco di $M^{*}$ (perché altrimenti $M^{*}$ non sarebbe un matching)
+				- a questo punto $|M^{*}| \leq S$ (infatti $\exists f: M^{*} \to S$ che è iniettiva)
+				- di conseguenza $|M| \geq \frac{|M^{*}|}{2}$
+			- corollario: `maximal` restituisce una _2-approximation_ del maximum matching problem
+		- teorema: nessun algoritmo deterministico può restituire una _$c$-approximation_ al BMM problem per $c < 2$
+			- simile alla stessa dimostrazione di ieri per il problema degli esperti!
+			- la natura si può comportare nel modo peggiore, e nel caso pessimo il determinismo sbaglia sempre
+		- vogliamo battere l'approssimazione 2: algoritmo di Karp-Vazirani-Vazirani, chiamato _Ranking_
+			- init():
+				- per ogni annuncio $a \in A$
+					- assegnamo ad $a$ un peso $z_{a} \in [0, 1]$ in modo indipendente
+					- questo peso è il ranking degli ads!
+			- runtime():
+				- per ogni utente $u \in U$
+					- fissiamo $N(u)$ come l'insieme di neighbours di $u$ non matchati
+					- se $N(u) = \varnothing$
+						- lasciare $u$ non matchato (caso brutto)
+					- altrimenti
+						- matchamo $u$ a $argmin_{a \in N(u)} z_{a}$, ossia all'annuncio libero che ha minore rank
+			- teorema: Ranking produce una $1- \frac{1}{e} \approx 0.63$-approximation, _ed è ottimale_!
+- **secretary problem**
+	- descrizione
+		- dobbiamo selezionare il migliore candidato in una sequenza di $n$
+		- i candidati sono mostrati in modo "online", uno alla volta
+		- e noi possiamo scegliere se bocciarlo o assumerlo:
+			- se lo bocciamo non possiamo più assumerlo in futuro, lo perdiamo per sempre;
+			- se lo assumiamo terminiamo il processo di selezione;
+		- in qualunche punto del processo, possiamo ordinare i candidati visti finora in termini di qualità
+		- quando arriva un candidato dobbiamo decidere _istantaneamente_ se vogliamo assumerlo o meno
+	- per poter fare qualcosa si assume che l'_ordine dei candidati non sia avversaria_, ossia dal più bravo al più scarso --> assumiamo quindi che i candidati ci siamo mostrati secondo una [[Distribuzione uniforme discreta|distribuzione uniforme]]
+		- in caso contrario non si può risolvere il problema
+	- esempio
+		- $B > A > C$
+		- elenchiamo tutti i possibili ordini (permutazioni) di questi 3 candidati che possono arrivare all'algoritmo
+		- algoritmo: assumiamo il primo candidato
+			- abbiamo $\frac{1}{3}$ di possibilità di assumere il candidato migliore
+		- altro algoritmo: assumiamo l'ultimo candidato
+			- abbiamo sempre $\frac{1}{3}$ di possibilità di assumere il miglior candidato
+		- possiamo fare di meglio? sì
+			- prendiamo il secondo candidato se è meglio del primo, e il terzo se il secondo è peggio del primo
+			- otteniamo una probabilità di $\frac{1}{2}$
+			- il costo è di non assumere mai il primo candidato
+	- generalizziamo nell'_algoritmo threshold$_{t}$_
+		- osserva i primi $t$ candidati, senza assumerli
+			- nota bene: $t$ non dev'essere troppo grande, rischi maggiori che il migliore sia tra i primi $t$ --> se $t = n-1$ la probabilità di prendere il migliore collassa in $\frac{1}{n}$
+		- assumi il primo candidato dopo $t$ che è meglio dei primi $t$ candidati
+	- ci chiediamo come performa l'algoritmo al variare di $t$
+		- probabilità di successo di threshold$_{t}$: $$\frac{t}{n}(H_{n-1} - H_{t-1})$$
+			- dove $H_{k} = \sum\limits_{i=1}^{k} = \frac{1}{i}$ (serie armonica)
+		- dimostrazione
+			- probabilità che il migliore sia stato selezionato
+			- questa diventa $\sum\limits_{i=1}^{n} \mathbb{P}(\text{assumiamo il candidato i ed è il migliore}) = \sum\limits_{i=1}^{n} \mathbb{P}(\text{i assunto | i è il migliore}) \mathbb{P}(\text{i è il migliore})$
+			- a questo punto otteniamo $\sum\limits_{i=1}^{n} \mathbb{P}(\text{i assunto | i è il migliore}) \cdot \frac{1}{n}$
+			- possiamo cancellare i primi $t$ candidati, quindi $\sum\limits_{i=t+1}^{n} \mathbb{P}(\text{i è assunto | i è migliore}) \cdot \frac{1}{n}$
+			- ora questo diventa $\sum\limits_{i=t+1}^{n} \mathbb{P}(\text{il secondo miglior candidato tra i primi i è tra i primi t | i è il migliore}) \cdot \frac{1}{n}$
+				- nota: miglior candidato tra i primi $i$, non tra tutti gli $n$!
+			- $\sum\limits_{i=t+1}^{n} \left(\frac{t}{i-1} \cdot \frac{1}{n}\right) = \frac{t}{n} \sum\limits_{i=t+1}^{n} \frac{1}{i-1} = \frac{t}{n} \sum\limits_{i=t}^{n-1} \frac{1}{i} = \frac{t}{n} (H_{n-1} - H_{t-1})$
+		- teorema: se $t = \lfloor \frac{n}{e} \rfloor$ allora la probabilità di successo è $\geq \frac{1}{e} - \frac{1}{n}$
+		- ma soprattutto, più forte: se $t = \lfloor \frac{n}{e} \rfloor$, allora la probabilità di successo in realtà è $\geq \frac{1}{e}$, e la costante $\frac{1}{e}$ è la minima probabilità di successo
+	- _prophet inequalities_
+		- supponiamo che l'i-esimo candidato ha uno score preso indipendentemente da una variabile aleatoria $X_{i} \geq 0$
+		- vediamo i candidati in ordine e dobbiamo selezionare esattamente uno di loro (nello stesso modo "online")
+		- variabili aleatorie
+			- $X_{1} = \begin{cases} 0 & pr. \frac{1}{2} \\ 1 & pr. \frac{1}{2} \end{cases}$
+			- $X_{2} = \begin{cases} \frac{1}{3} & pr. \frac{1}{2} \\ \frac{4}{3} & pr. \frac{1}{2} \end{cases}$
+			- algoritmo easy:
+				- se $X_{1} = 0$ allora seleziono il secondo candidato
+				- se $X_{1} = 1$ allora seleziono il primo candidato
+			- a sto punto $\mathbb{E}[A] = \frac{1}{2}\mathbb{E}[X_{2}] + \frac{1}{2} \cdot 1 = \frac{11}{12}$
+			- compariamolo con $\mathbb{E}[\max(X_{1}, X_{2})] = 1$
+			- quindi il nostro algoritmo va vicino al massimo ottenibile
+		- ci chiediamo allora: _possiamo sempre essere competitivi con $\mathbb{E}[\max(X_{1}, \cdots, X_{n})]?$_
+			- il ratio sarà al massimo 2
+			- algoritmo $\tau$
+				- per ogni $i$ da $1$ a $n$
+					- osserva un sample indipendente $v_{i} \sim X_{i}$
+					- se $v_{i} \geq \tau$
+						- assumi $i$ e fermati
+				- non assumere nessuno
+			- teorema: $\tau^{*} = \frac{\mathbb{E}[\max_{i=1, \cdots, n} X_{i}]}{2}$, allora $\mathbb{E}[ALG_{\tau^{*}}] = \tau^{*}$
+- **sampling vertices uniformly from a graph**
+	- vogliamo valutare le reti dei social network
+		- non possiamo chiedere a tutte le persone di valutare una certa cosa --> facciamo sampling randomico, uniformemente distribuito e indipendentemente --> per la legge di grandi numeri otteniamo un'approssimazione della media totale
+		- metodi per farlo
+			- _random walk_ (catene di Markov uniformemente distribuite)
+				- si dimostra che se il processo va avanti per sufficienti step (mixing time del grafo) allora il nodo in cui finisce sarà scelto con probabilità proporzionale al suo grado
+				- _algoritmo Folklore_:
+					- random walka per $T(G)$ turni (mixing time)
+					- returna il nodo $v$ con probabilità $\frac{1}{deg(v)}$, per rendere uniforme la scelta
+				- _algoritmo Max-Degree_:
+					- scegli $D$ come massimo grado del grafo
+					- aggiungi self-loops al grafo per renderlo $D$-regular, ossia in cui tutti i nodi circa hanno lo stesso grado --> in questo modo la random walk finisce uniformemente in un nodo
+					- random walk per $D \cdot T(G)$ turni
+					- ritorna il nodo in cui capiti
+				- un dottorando alla Sapienza ha dimostrato che l'algoritmo Folklore è ottimale
+
+## Domande
+- $\epsilon$ è dinamizzabile durante l'esecuzione di RWM$_{\epsilon}$?
+
+## Referenze

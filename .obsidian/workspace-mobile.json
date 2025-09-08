@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "32f7b513b59392b0",
+        "id": "414e7d950004d30d",
         "type": "tabs",
         "children": [
           {
-            "id": "88077d2427cb0d84",
+            "id": "3051bafd21713595",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. notes/Componenti connesse.md",
+                "file": "2. notes/Analisi lessicale.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Componenti connesse"
+              "title": "Analisi lessicale"
+            }
+          },
+          {
+            "id": "b885ad2b624117d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/DFA dei prefissi viabili.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DFA dei prefissi viabili"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,6 +158,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "2. notes/Sistema lineare.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -170,8 +186,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88077d2427cb0d84",
+  "active": "4b059c9fda0b3c7c",
   "lastOpenFiles": [
+    "media/automa-canonico-lr0-per-lr1.jpg",
+    "2. notes/Sistema lineare.md",
+    "2. notes/Grammatiche SLR(1).md",
+    "2. notes/Sistema lineare omogeneo.md",
+    "2. notes/Path loss.md",
+    "2. notes/Analisi lessicale.md",
+    "templates/seminar.md",
+    "templates/report.md",
+    "templates/project.md",
+    "templates/moc.md",
+    "templates/lecture.md",
+    "templates/homework.md",
+    "templates/kanban.md",
+    "5. seminars/Transformers - Argos, Babele e il Lego della Vita.md",
+    "5. seminars/Tecniche per l'elaborazione delle immagini digitali.md",
+    "5. seminars/Rappresentazioni succinte di alberi.md",
+    "5. seminars/Mens et manus, in libertate universis.md",
+    "5. seminars/A modern view of centrality measures.md",
+    "2. notes/Componenti connesse.md",
     "2. notes/LFU.md",
     "2. notes/Rappresentazione finita di un linguaggio.md",
     "2. notes/Albero di derivazione.md",
@@ -179,25 +214,6 @@
     "2. notes/Linguaggio generato.md",
     "2. notes/Grammatiche libere.md",
     "2. notes/Grammatiche.md",
-    "2. notes/Linguaggio formale.md",
-    "2. notes/Sintassi.md",
-    "2. notes/Algoritmi di paginazione.md",
-    "2. notes/LRU.md",
-    "2. notes/Disk scheduling.md",
-    "2. notes/SSTF.md",
-    "2. notes/HD.md",
-    "2. notes/MIN paginazione.md",
-    "2. notes/Ordinamento topologico.md",
-    "2. notes/DAG.md",
-    "2. notes/Standardizzazione.md",
-    "2. notes/Algoritmo euristico.md",
-    "2. notes/Problema di ottimizzazione.md",
-    "2. notes/Taglio s-t.md",
-    "2. notes/Tabella hash.md",
-    "2. notes/Dizionario.md",
-    "2. notes/Albero binario di ricerca.md",
-    "2. notes/Collisione hash.md",
-    "2. notes/Indirizzamento aperto.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

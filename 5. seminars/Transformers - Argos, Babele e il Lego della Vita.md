@@ -1,7 +1,6 @@
 ---
 tags:
   - category/seminar
-  - topic/
 date: 16-02-2025 17:38:58
 lecturer: Gianfranco Bilardi
 ---

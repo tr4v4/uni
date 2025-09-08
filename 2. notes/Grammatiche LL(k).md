@@ -23,6 +23,8 @@ links:
 
 Il punto fondamentale e' sicuramente l'ultimo: ci dice che **la classe dei linguaggi coperti da $LL(k)$ è più piccola di quella dei liberi deterministici**. Per questa ragione e' necessario introdurre i [[Parser bottom-up|parser bottom-up]].
 
+<u>Osservazione</u>: il punto 2 e il 3 sono sensati! Se la grammatica e' ambigua, allora significa che ammette piu' [[Albero di derivazione|alberi di derivazione]] per una stessa stringa $w$; quindi ammette piu' [[Derivazione canonica sinistra|derivazioni canoniche sinistre]] per $w$, il che significa che _per forza di cose la tabella di parsing $LL(k)$ deve contenere piu' produzioni per una stessa cella_.
+
 #### Esempio
 Il linguaggio
 $$L = \{a^{i}b^{j} | i \geq j\}$$

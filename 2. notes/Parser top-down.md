@@ -14,8 +14,8 @@ links:
 In realtà abbiamo già anticipato velatamente un parser top-down quando abbiamo enunciato il [[Linguaggio libero#Legame con PDA|teorema]] che lega i [[Linguaggio libero|linguaggi liberi]] ai [[Automa a pila|PDA]].
 
 Infatti, definita la [[Grammatiche libere|grammatica libera]] $G = (NT, T, S, R)$, possiamo costruire il PDA $M = (T, \{q\}, T \cup NT, \delta, q, S, \varnothing)$ tale che $\delta$ è definita:
-- $(q, \beta) \in \delta(q, \epsilon, A)$ se $A \to \beta \in R$ (_espandi_);
-- $(q, \epsilon) \in \delta(q, a, a)$ $\forall a \in T$ (_consuma_);
+- $(q, \beta) \in \delta(q, \epsilon, A)$ se $A \to \beta \in R$ - **espandi**;
+- $(q, \epsilon) \in \delta(q, a, a)$ $\forall a \in T$ - **consuma**;
 
 tale che [[Linguaggio accettato|riconosce]] per pila vuota $L(G)$, ossia $L(G) = P[M]$.
 
@@ -96,7 +96,7 @@ Questo parser non e' altro che l'implementazione pratica del parser [[DPDA]] mon
 Tuttavia, ovviamente, questo parser e' **estremamente inefficiente**: c'e' **nondeterminismo**, e addirittura nel caso peggiore avremmo necessita' di cercare tutte le strade possibili --> la [[Complessità computazionale|complessita']] diventa esponenziale sulla lunghezza della stringa $w$, dove la base $b$ e' data dal massimo numero di produzioni per uno stesso nonterminale
 $$O(b^{|w|})$$
 
-### De-nondeterminizazzione
+### Deterministicizzazione
 Dovremmo quindi cercare di guidare la scelta delle produzioni: come gia' anticipato **questo puo' essere fatto guardando il prossimo o i prossimi caratteri**, ossia con il meccanismo del [[Look-ahead|look-ahead]], e in particolare con le funzioni ausilierie di [[First e follow|first e follow]].
 
 Una volta fatta analizzati first e follow (caso 1 solo carattere look-ahead), si giunge alla composizione della [[Tabella di parsing LL(1)|tabella di parsing]] $LL(1)$.
