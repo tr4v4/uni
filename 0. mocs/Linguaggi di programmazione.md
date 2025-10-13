@@ -12,9 +12,52 @@ date: 16-09-2024 10:40:19
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/linguaggi-di-programmazione SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[1. lectures/Lecture 24102024120228.md\|Lecture 24102024120228]] | <ul><li>[[0. mocs/Linguaggi di programmazione.md\|Linguaggi di programmazione]]</li><li>[[2. notes/Linguaggio libero deterministico.md\|Linguaggio libero deterministico]]</li><li>[[2. notes/Look-ahead.md\|Look-ahead]]</li><li>[[2. notes/Parser bottom-up.md\|Parser bottom-up]]</li><li>[[2. notes/Parser.md\|Parser]]</li><li>[[2. notes/Parser top-down.md\|Parser top-down]]</li></ul> |
+| Lezione                                                           | Note                                                                                                                                     |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [[1. lectures/Lecture 24042025131115.md\|Lecture 24042025131115]] | <ul><li>[[0. mocs/Linguaggi di programmazione.md\|Linguaggi di programmazione]]</li><li>[[2. notes/Eccezione.md\|Eccezione]]</li></ul> |
+<!-- SerializedQuery END -->
+
+### Lista
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione  SORT file.ctime DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/linguaggi-di-programmazione  SORT file.ctime DESC -->
+
+| Lezione                                                           | Data                |
+| ----------------------------------------------------------------- | ------------------- |
+| [[1. lectures/Lecture 24042025131115.md\|Lecture 24042025131115]] | 24-04-2025 13:11:15 |
+| [[1. lectures/Lecture 24102024120228.md\|Lecture 24102024120228]] | 24-10-2024 12:02:28 |
+| [[1. lectures/Lecture 22102024110521.md\|Lecture 22102024110521]] | 22-10-2024 11:05:21 |
+| [[1. lectures/Lecture 18102024090854.md\|Lecture 18102024090854]] | 18-10-2024 09:08:54 |
+| [[1. lectures/Lecture 14052025105842.md\|Lecture 14052025105842]] | 14-05-2025 10:58:42 |
+| [[1. lectures/Lecture 08052025131742.md\|Lecture 08052025131742]] | 08-05-2025 13:17:42 |
+| [[1. lectures/Lecture 07052025110754.md\|Lecture 07052025110754]] | 07-05-2025 11:07:54 |
+| [[1. lectures/Lecture 30042025110449.md\|Lecture 30042025110449]] | 30-04-2025 11:04:49 |
+| [[1. lectures/Lecture 23042025111218.md\|Lecture 23042025111218]] | 23-04-2025 11:12:18 |
+| [[1. lectures/Lecture 16042025110927.md\|Lecture 16042025110927]] | 16-04-2025 11:09:27 |
+| [[1. lectures/Lecture 10042025131105.md\|Lecture 10042025131105]] | 10-04-2025 13:11:05 |
+| [[1. lectures/Lecture 09042025110710.md\|Lecture 09042025110710]] | 09-04-2025 11:07:10 |
+| [[1. lectures/Lecture 03042025131202.md\|Lecture 03042025131202]] | 03-04-2025 13:12:02 |
+| [[1. lectures/Lecture 02042025112213.md\|Lecture 02042025112213]] | 02-04-2025 11:22:13 |
+| [[1. lectures/Lecture 05032025111458.md\|Lecture 05032025111458]] | 05-03-2025 11:14:58 |
+| [[1. lectures/Lecture 19032025113725.md\|Lecture 19032025113725]] | 19-03-2025 11:37:25 |
+| [[1. lectures/Lecture 27022025131944.md\|Lecture 27022025131944]] | 27-02-2025 13:19:44 |
+| [[1. lectures/Lecture 12032025111631.md\|Lecture 12032025111631]] | 12-03-2025 11:16:31 |
+| [[1. lectures/Lecture 20022025131602.md\|Lecture 20022025131602]] | 20-02-2025 13:16:02 |
+| [[1. lectures/Lecture 26022025111603.md\|Lecture 26022025111603]] | 26-02-2025 11:16:03 |
+| [[1. lectures/Lecture 19022025111150.md\|Lecture 19022025111150]] | 19-02-2025 11:11:50 |
+| [[1. lectures/Lecture 21112024121059.md\|Lecture 21112024121059]] | 21-11-2024 12:10:59 |
+| [[1. lectures/Lecture 12112024110924.md\|Lecture 12112024110924]] | 12-11-2024 11:09:24 |
+| [[1. lectures/Lecture 07112024120244.md\|Lecture 07112024120244]] | 07-11-2024 12:02:44 |
+| [[1. lectures/Lecture 05112024110833.md\|Lecture 05112024110833]] | 05-11-2024 11:08:33 |
+| [[1. lectures/Lecture 17102024120438.md\|Lecture 17102024120438]] | 17-10-2024 12:04:38 |
+| [[1. lectures/Lecture 15102024110302.md\|Lecture 15102024110302]] | 15-10-2024 11:03:02 |
+| [[1. lectures/Lecture 10102024120505.md\|Lecture 10102024120505]] | 10-10-2024 12:05:05 |
+| [[1. lectures/Lecture 08102024111650.md\|Lecture 08102024111650]] | 08-10-2024 11:16:50 |
+| [[1. lectures/Lecture 03102024120247.md\|Lecture 03102024120247]] | 03-10-2024 12:02:47 |
+| [[1. lectures/Lecture 01102024110253.md\|Lecture 01102024110253]] | 01-10-2024 11:02:53 |
+| [[1. lectures/Lecture 26092024120454.md\|Lecture 26092024120454]] | 26-09-2024 12:04:54 |
+| [[1. lectures/Lecture 19092024125624.md\|Lecture 19092024125624]] | 19-09-2024 12:56:24 |
+| [[1. lectures/Lecture 17092024110611.md\|Lecture 17092024110611]] | 17-09-2024 11:06:11 |
+| [[1. lectures/Lecture 24092024110820.md\|Lecture 24092024110820]] | 24-09-2024 11:08:20 |
 <!-- SerializedQuery END -->
 
 ### Da processare
@@ -23,13 +66,7 @@ date: 16-09-2024 10:40:19
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[1. lectures/Lecture 30042025110449.md\|Lecture 30042025110449]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 24042025131115.md\|Lecture 24042025131115]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 23042025111218.md\|Lecture 23042025111218]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 16042025110927.md\|Lecture 16042025110927]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 14052025105842.md\|Lecture 14052025105842]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 10042025131105.md\|Lecture 10042025131105]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 09042025110710.md\|Lecture 09042025110710]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 08052025131742.md\|Lecture 08052025131742]] | <ul><li>#status/pending</li></ul> |
 | [[1. lectures/Lecture 07052025110754.md\|Lecture 07052025110754]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
@@ -72,21 +109,65 @@ date: 16-09-2024 10:40:19
 			- [[Funzione di ordine superiore]]
 		- [[Eccezione]]
 	- mod. 3
-		- [[Sistema di tipi]], [[Tipi di dato]]
-		- strutturare i dati
-		- astrarre i dati
-		- paradigma orientato agli oggetti
-		- cenni al paradigma funzionale
-		- cenni al paradigma logico
-		- cenni alla programmazione concorrente e service-oriented
+		- [[Sistema di tipi]]
+			- [[Tipi di dato]]
+				- [[Tipaggio statico]], [[Tipaggio dinamico]]
+				- [[Tipaggio manifest]], [[Tipaggio inferred]]
+			- [[Tipi di base]], [[Tipi composti]]
+			- [[Equivalenza di tipo]], [[Compatibilita' di tipo]], [[Inferenza di tipo]]
+				- [[Algoritmo di unificazione]]
+		- [[Polimorfismo]]
+			- [[Overloading]]
+			- [[Overriding]]
+				- [[Covarianza e controvarianza]]
+				- [[Sussunzione]]
+			- [[Generics]]
+			- [[Tipi monadici]]
+		- [[Eccezione]]
+		- [[Dangling pointer]], [[Garbage collection]], [[Borrow-checking]]
+		- [[Tipi di dato astratto]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/linguaggi-di-programmazione SORT file.ctime DESC -->
 
 | Note                                                                                                               | Status                             |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [[2. notes/Relazione tra linguaggi LL(k) e LR(k).md\|Relazione tra linguaggi LL(k) e LR(k)]]                       | <ul><li>#status/pending</li></ul>  |
-| [[2. notes/Relazione tra grammatiche LL(k) e LR(k).md\|Relazione tra grammatiche LL(k) e LR(k)]]                   | <ul><li>#status/pending</li></ul>  |
+| [[2. notes/Distribuzione congiunta.md\|Distribuzione congiunta]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipi copia.md\|Tipi copia]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Borrow-checking.md\|Borrow-checking]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Stop and copy.md\|Stop and copy]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Mark and sweep.md\|Mark and sweep]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Reference count.md\|Reference count]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Lock and keys.md\|Lock and keys]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tombstones.md\|Tombstones]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Dangling pointer.md\|Dangling pointer]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Garbage collection.md\|Garbage collection]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Generics.md\|Generics]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Eccezione.md\|Eccezione]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipi monadici.md\|Tipi monadici]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Sussunzione.md\|Sussunzione]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Covarianza e controvarianza.md\|Covarianza e controvarianza]]                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Overloading.md\|Overloading]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Algoritmo di unificazione.md\|Algoritmo di unificazione]]                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Inferenza di tipo.md\|Inferenza di tipo]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Casting di tipo.md\|Casting di tipo]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Coercizione di tipo.md\|Coercizione di tipo]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Compatibilita' di tipo.md\|Compatibilita' di tipo]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Equivalenza strutturale.md\|Equivalenza strutturale]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Duck typing.md\|Duck typing]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Equivalenza nominale.md\|Equivalenza nominale]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Equivalenza di tipo.md\|Equivalenza di tipo]]                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipo funzione.md\|Tipo funzione]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipo somma.md\|Tipo somma]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipo ricorsivo.md\|Tipo ricorsivo]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipo prodotto.md\|Tipo prodotto]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Riferimento.md\|Riferimento]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Overriding.md\|Overriding]]                                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Polimorfismo.md\|Polimorfismo]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Binding.md\|Binding]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/YACC.md\|YACC]]                                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Relazione tra linguaggi LL(k) e LR(k).md\|Relazione tra linguaggi LL(k) e LR(k)]]                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Relazione tra grammatiche LL(k) e LR(k).md\|Relazione tra grammatiche LL(k) e LR(k)]]                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Grammatiche LALR(k).md\|Grammatiche LALR(k)]]                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Grammatiche SLR(k).md\|Grammatiche SLR(k)]]                                                             | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Grammatiche LR(k).md\|Grammatiche LR(k)]]                                                               | <ul><li>#status/finished</li></ul> |
@@ -149,7 +230,6 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Tipaggio manifest.md\|Tipaggio manifest]]                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Tipaggio dinamico.md\|Tipaggio dinamico]]                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Tipaggio statico.md\|Tipaggio statico]]                                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Eccezione.md\|Eccezione]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Shallow binding.md\|Shallow binding]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Deep binding.md\|Deep binding]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Funzione di ordine superiore.md\|Funzione di ordine superiore]]                                         | <ul><li>#status/finished</li></ul> |
@@ -187,7 +267,6 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Aliasing.md\|Aliasing]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Blocco.md\|Blocco]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Ambiente.md\|Ambiente]]                                                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Binding.md\|Binding]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Oggetto denotabile.md\|Oggetto denotabile]]                                                             | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Nome.md\|Nome]]                                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Derivazione canonica destra.md\|Derivazione canonica destra]]                                           | <ul><li>#status/finished</li></ul> |
@@ -235,6 +314,9 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Linguaggio di programmazione imperativo.md\|Linguaggio di programmazione imperativo]]                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Categorie di linguaggi di programmazione.md\|Categorie di linguaggi di programmazione]]                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Evoluzione dei linguaggi di programmazione.md\|Evoluzione dei linguaggi di programmazione]]             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Garbage collector.md\|Garbage collector]]                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Insieme.md\|Insieme]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Pattern matching.md\|Pattern matching]]                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Best fit.md\|Best fit]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/First fit.md\|First fit]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Frammentazione esterna.md\|Frammentazione esterna]]                                                     | <ul><li>#status/finished</li></ul> |
@@ -252,6 +334,7 @@ date: 16-09-2024 10:40:19
 | [[2. notes/Heap.md\|Heap]]                                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Array.md\|Array]]                                                                                       | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ## Referenze
 - [virtuale]()

@@ -4,11 +4,13 @@ tags:
   - status/finished
   - topic/linguaggi-di-programmazione
   - topic/sistemi-operativi
+  - topic/ingegneria-del-software
 date: 20-02-2025 09:55:09
 links:
   - "[[Lecture 19022025111150]]"
   - "[[Lecture 13032025151745]]"
   - "[[Lecture 20032025151643]]"
+  - "[[Lecture 22092025100902]]"
 ---
 # Binding
 ---
@@ -22,6 +24,10 @@ Il binding puo' fondamentalmente essere:
 	- per la struttura del programma (es. i nomi delle variabili)
 - _dinamico_ --> a run-time
 	- durante l'esecuzione si legano tutti i nomi non ancora legati (es. le variabili locali ai [[Blocco|blocchi]])
+
+Inoltre, per la valutazione delle funzioni da eseguire in [[Linguaggio di programmazione orientato a oggetti|linguaggio di programmazione orientato a oggetti]], esistono:
+- [[Early binding|early binding]]
+- [[Late binding|late binding]]
 
 ## Basso livello
 A piu' basso livello non ci interessa il modo in cui viene risolto un nome non appartenente all'[[Ambiente|ambiente]] locale, ma _a quale indirizzo fisico viene associato ogni indirizzo logico_ (nome). Anche in questo caso si tratta comunque di binding.

@@ -10,7 +10,7 @@ links:
 # Regolarizzazione
 ---
 ## Introduzione
-> La **regolarizzazione** è una _tecnica usata nell'[[Approssimazione di dati|approssimazione di dati]] per risolvere il problema dell'[[Overfit|overfit]]_.
+> La **regolarizzazione** è una _tecnica usata nell'[[Approssimazione di dati|approssimazione di dati]] per risolvere il problema dell'[[Overfitting|overfit]]_.
 
 ## Idea
 > _Non è possibile diagnosticare l'overfit_, ma _è possibile risolverlo_.

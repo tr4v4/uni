@@ -4,24 +4,132 @@
     "type": "split",
     "children": [
       {
-        "id": "f2400024278351ca",
+        "id": "0cb844ebdbd7276a",
         "type": "tabs",
+        "dimension": 33.31545064377682,
         "children": [
           {
-            "id": "d3cec72ca39a5168",
+            "id": "9cc4e4379453fe4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "0. mocs/Basi di dati.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linguaggi di programmazione"
+              "title": "Basi di dati"
+            }
+          },
+          {
+            "id": "79c4dde49ecd4d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 09102025151427.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 09102025151427"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "663eb0f2ec21aa73",
+        "type": "tabs",
+        "dimension": 66.68454935622317,
+        "children": [
+          {
+            "id": "3c4f4e9f17ffbdb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Calcolo relazionale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo relazionale"
+            }
+          },
+          {
+            "id": "8f939c3591af975c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Calcolo relazionale sui domini.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo relazionale sui domini"
+            }
+          },
+          {
+            "id": "62fccb898949c62f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Calcolo relazionale su tuple con dichiarazioni del range.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo relazionale su tuple con dichiarazioni del range"
+            }
+          },
+          {
+            "id": "8a6b5366892ce513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Limiti del calcolo e dell'algebra relazionale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Limiti del calcolo e dell'algebra relazionale"
+            }
+          },
+          {
+            "id": "1302db28d4a85bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Datalog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Datalog"
+            }
+          },
+          {
+            "id": "4a89792ce3d32d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Chiusura transitiva.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chiusura transitiva"
+            }
+          }
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -78,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
+    "width": 239.5,
     "collapsed": true
   },
   "right": {
@@ -96,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "2. notes/Algebra relazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +214,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linguaggi di programmazione"
+              "title": "Backlinks for Algebra relazionale"
             }
           },
           {
@@ -144,13 +252,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "2. notes/Algebra relazionale.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linguaggi di programmazione"
+              "title": "Outline of Algebra relazionale"
             }
           },
           {
@@ -209,8 +317,7 @@
               "title": "Toggl Report"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -223,7 +330,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Linguaggi di programmazione.md",
+                "file": "2. notes/Algebra relazionale.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,7 +358,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Linguaggi di programmazione"
+              "title": "Graph of Algebra relazionale"
             }
           }
         ]
@@ -293,48 +400,47 @@
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "soundscapes:Soundscapes: My Music": false,
-      "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d3cec72ca39a5168",
+  "active": "1302db28d4a85bf7",
   "lastOpenFiles": [
-    "0. mocs/Calcolo numerico.md",
-    "0. mocs/Linguaggi di programmazione.md",
-    "2. notes/Semantica statica.md",
-    "2. notes/Semantica dinamica.md",
-    "2. notes/Analisi semantica.md",
-    "2. notes/Semantica.md",
-    "2. notes/Funzione di ordine superiore.md",
-    "2. notes/Chiusura.md",
-    "2. notes/Deep binding.md",
-    "2. notes/Passaggio dei parametri.md",
-    "2. notes/Parser bottom-up.md",
-    "2. notes/Parser LR.md",
-    "2. notes/Prefisso viabile.md",
-    "2. notes/DFA dei prefissi viabili.md",
-    "2. notes/Tabella di parsing LR.md",
-    "2. notes/Grammatiche LR(0).md",
-    "2. notes/Grammatiche LR(1).md",
-    "2. notes/Grammatiche LR(k).md",
-    "2. notes/Grammatiche SLR(k).md",
-    "2. notes/Grammatiche LALR(k).md",
-    "2. notes/Relazione tra grammatiche LL(k) e LR(k).md",
-    "2. notes/Relazione tra linguaggi LL(k) e LR(k).md",
-    "2. notes/Parser LALR.md",
-    "2. notes/Tabella di parsing LALR(1).md",
-    "2. notes/Lex.md",
-    "2. notes/YACC.md",
-    "media/yacc-regole-esempio.png",
-    "media/comunicazione-scanner-parser.png",
-    "media/yacc.png",
-    "media/relazione-linguaggi-llk-lrk.png",
-    "media/relazione-grammatiche-llk-lrk.png",
-    "media/riempimento-tabelle-parsing-ricapitolo.png",
-    "media/tabella-parsing-lalr1-1.png",
-    "media/tabella-parsing-lr1-1.png",
-    "media/automa-canonico-lr1-1.png",
-    "media/automa-canonico-lr0-per-lr1.jpg",
+    "0. mocs/Logica per l'informatica.md",
+    "2. notes/Datalog.md",
+    "1. lectures/Lecture 09102025151427.md",
+    "2. notes/Limiti del calcolo e dell'algebra relazionale.md",
+    "2. notes/Chiusura transitiva.md",
+    "media/chiusura-transitiva-2.png",
+    "media/chiusura-transitiva-1.png",
+    "2. notes/Calcolo relazionale su tuple con dichiarazioni del range.md",
+    "2. notes/Calcolo relazionale sui domini.md",
+    "2. notes/Calcolo relazionale.md",
+    "0. mocs/Basi di dati.md",
+    "1. lectures/Lecture 08102025101345.md",
+    "2. notes/Package.md",
+    "2. notes/Design di sistemi software.md",
+    "1. lectures/Lecture 13102025104920.md",
+    "2. notes/UML.md",
+    "2. notes/Diagramma delle classi.md",
+    "2. notes/Interfaccia.md",
+    "0. mocs/Ingegneria del software.md",
+    "2. notes/Diagramma delle collaborazioni.md",
+    "2. notes/Diagramma dei casi d'uso.md",
+    "2. notes/Diagramma delle attività.md",
+    "0. mocs/Introduzione all'apprendimento automatico.md",
+    "1. lectures/Lecture 10102025131023.md",
+    "2. notes/DBMS.md",
+    "2. notes/Algebra relazionale.md",
+    "2. notes/Forma canonica booleana.md",
+    "2. notes/Viste.md",
+    "media/natura-lineare-naive-bayes-3.png",
+    "media/natura-lineare-naive-bayes-2.png",
+    "media/natura-lineare-naive-bayes-1.png",
+    "media/distribuzione-congiunta-2.png",
+    "media/distribuzione-congiunta-1.png",
+    "media/cheat-sheet-class-diagram.png",
+    "media/rc-arc-rust.png",
+    "media/borrow-checking-1.png",
     "2. notes/Untitled.base",
     "2. notes/Equivalenze regolari.canvas",
     "media/Unconfirmed 595121.crdownload",

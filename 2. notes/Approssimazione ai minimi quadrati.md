@@ -70,7 +70,7 @@ Ricordando la definizione di _iperparametri_, nel caso del modello di approssima
 
 Tralasciando il caso del [[Problema test|problema test]], **noi non sappiamo a priori il grado della funzione polinomiale $f$ originaria, per cui la scelta di $d$ è arbitraria**. Tale valore, tuttavia, è proprio la causa dei due maggiori problemi nell'ambito dell'approssimazione dati:
 - $d$ _troppo bassi_ --> [[Underfit|underfit]];
-- $d$ _troppo alti_ --> [[Overfit|overfit]].
+- $d$ _troppo alti_ --> [[Overfitting|overfit]].
 
 ### Underfit
 Prendiamo il caso $d = 1$, ossia quello di una _retta come funzione approssimante_. Questa, nella maggior parte dei casi, **non cattura la complessità della $f$ originaria**: è una _semplificazione eccessiva dell'andamento dei dati_, per cui _di poca utilità_.

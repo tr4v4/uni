@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#topic/architettura-degli-elaboratori  ",
@@ -97,6 +97,34 @@
         "a": 1,
         "rgb": 16711816
       }
+    },
+    {
+      "query": "tag:#topic/basi-di-dati  ",
+      "color": {
+        "a": 1,
+        "rgb": 4556168
+      }
+    },
+    {
+      "query": "tag:#topic/ingegneria-del-software  ",
+      "color": {
+        "a": 1,
+        "rgb": 9934362
+      }
+    },
+    {
+      "query": "tag:#topic/introduzione-all-apprendimento-automatico  ",
+      "color": {
+        "a": 1,
+        "rgb": 16624392
+      }
+    },
+    {
+      "query": "tag:#topic/progetto-di-sistemi-virtuali  ",
+      "color": {
+        "a": 1,
+        "rgb": 1908769
+      }
     }
   ],
   "collapse-display": false,
@@ -109,6 +137,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.06165877303407148,
+  "scale": 0.09248815955110723,
   "close": true
 }

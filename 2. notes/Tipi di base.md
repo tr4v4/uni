@@ -39,7 +39,7 @@ Caratteristiche principali:
 
 ### Double
 Caratteristiche principali:
-- una variabile reale contiene un valore reale ($n \in {R}$)
+- una variabile reale contiene un valore reale ($n \in \mathbb{R}$)
 - in memoria un reale occupa _8 byte_
 - si possono scrivere nei seguenti modi
 	- `3.1415`
@@ -48,7 +48,7 @@ Caratteristiche principali:
 	- `31.415e-1`
 	- `0.16E-4`
 	- `12e1`
-- le operazioni della libreria `cmath` che lavorano con i reale sono: `pow()`, `log()`, `sqrt()`
+- le operazioni della libreria `cmath` che lavorano con i reali sono: `pow()`, `log()`, `sqrt()`
 - <u>attenzione</u> alla _precisione_
 
 ### Float

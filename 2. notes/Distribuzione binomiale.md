@@ -15,7 +15,7 @@ links:
 > $$X \sim Bin(n, p)$$
 
 ### Definizione
-In particolare si assume di avere $n$ prove indipendenti di Bernoulli, ossia $n$ sottoesperimenti aleatori che hanno come esito 0 e 1 con una certa probabilità $p$ e $1 - p$. Definiamo su ogni lancio $i = 1, \cdots, n$ la variabile aleatoria discreta $Y_{i}$ come
+In particolare si assume di avere $n$ prove [[Indipendenza di variabili aleatorie|indipendenti]] di Bernoulli, ossia $n$ sottoesperimenti aleatori che hanno come esito 0 e 1 con una certa probabilità $p$ e $1 - p$. Definiamo su ogni lancio $i = 1, \cdots, n$ la variabile aleatoria discreta $Y_{i}$ come
 $$Y_{i} = \mathbb{1}_{E_{i}} \sim B(p)$$
 con $E_{i} =$ "successo all'i-esima prova di Bernoulli" e ovviamente $p = \mathbb{P}(E_{i})$.
 

@@ -11,6 +11,7 @@ links:
   - "[[Lecture 18102023091849]]"
   - "[[Lecture 04032024091423]]"
   - "[[Lecture 03042025131202]]"
+  - "[[Lecture 09042025110710]]"
 ---
 # Array
 ---
@@ -89,14 +90,11 @@ In entrambi questi casi, non abbiamo modo di determinare la dimensione dell'arra
 - _tipo di elementi_
 - _rank_ (dimensione algebrica)
 - _lunghezza_
-- _estensione in uso_
-- _massima estensione_
-- _stride_
+- _estensione in uso_ - quante parti sono realmente usate
+- _massima estensione_ - quanta memoria massima e' disponibile
+- _stride_ - quanto saltare per accedere alla prossima riga/colonna in caso di array multidimensionali
 
 ![[dope-vector.png]]
-
-### Array dinamici
-Un'altra categoria di array sono quelli dinamici, per il quale la dimensione non è fissa, ma variabile durante a run-time.
 
 ## Rapporto con funzioni
 Se vogliamo utilizzare un array in una [[Funzione informatica|funzione]], passandoglielo come parametro, dovremo **per forza** usare il [[Passaggio per riferimento|passaggio per riferimento]]. Pensandoci bene, _non avrebbe senso copiare tutti i valori dell'array nella sezione di memoria della funzione_[^1].

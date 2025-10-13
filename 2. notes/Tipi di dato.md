@@ -16,11 +16,11 @@ links:
 Il [[Sistema di tipi|sistema di tipi]] e' nato per sfuggire al [[Paradosso di Russell|paradosso di Russell]], definendo un insieme di insiemi un tipo diverso dal semplice insieme.
 
 ## Definizione
-> Formalmente potremmo definire i **tipi di dato** come _un metodo sintattico praticabile per dimostrare l'assenza di determinati comportamenti del programma, fatto classificando le unità sintattiche in base ai tipi di valore che assumono_.
+> Un **tipo di dato** e' una _collezione di valori omogenei e rappresentabili_.
+
+L'_omogeneità si riflette anche nel modo in cui sono memorizzati in memoria_, ma per una questione di comodità.
 
 <u>Nota bene</u>: i comportamenti vietati, per esempio, sono "inserire una stringa in una variabile di tipo intero".
-
-Nella pratica i tipi si interpretano come **collezioni di valori omogenei e rappresentabili**. Tra l'altro l'_omogeneità si riflette anche nel modo in cui sono memorizzati in memoria_, ma per una questione di comodità.
 
 ## Proprieta'
 I tipi di dato aiutano il programmatore sotto molti aspetti diversi:

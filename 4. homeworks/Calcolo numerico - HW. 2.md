@@ -12,7 +12,7 @@ date: 07-12-2024 15:01:20
 #### Introduzione
 In questo esperimento si vogliono applicare le tecniche di [[Approssimazione di dati|approssimazione di dati]] studiate su un [[Problema test|problema test]] di cui (almeno inizialmente) non si conoscono gli _iperparametri_ esatti.
 
-In particolare, caricato il _dataset_ e fatte delle stime sul polinomio approssimante $f$ (e in particolare sul suo grado $d$), si vogliono trovare i coefficienti $\alpha$ risolvendo ai [[Approssimazione ai minimi quadrati|minimi quadrati]] mediante [[Fattorizzazione di Cholesky|Cholesky]], [[Fattorizzazione ai valori singolari|SVD]] e [[CGLS]], e poi applicare tecniche di [[Regolarizzazione|regolarizzazione]] ([[Regolarizzazione alla Tikhonov|Tikhonov]]) per risolvere l'[[Overfit|overfit]] per un certo grado $d$ ($=6$).
+In particolare, caricato il _dataset_ e fatte delle stime sul polinomio approssimante $f$ (e in particolare sul suo grado $d$), si vogliono trovare i coefficienti $\alpha$ risolvendo ai [[Approssimazione ai minimi quadrati|minimi quadrati]] mediante [[Fattorizzazione di Cholesky|Cholesky]], [[Fattorizzazione ai valori singolari|SVD]] e [[CGLS]], e poi applicare tecniche di [[Regolarizzazione|regolarizzazione]] ([[Regolarizzazione alla Tikhonov|Tikhonov]]) per risolvere l'[[Overfitting|overfit]] per un certo grado $d$ ($=6$).
 
 Infine, svelati gli iperparametri e i parametri esatti, si vogliono confrontare i risultati ottenuti con quelli reali, _calcolando gli errori relativi_.
 

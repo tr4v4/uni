@@ -3,10 +3,12 @@ tags:
   - category/note
   - status/finished
   - topic/logica-per-informatica
+  - topic/linguaggi-di-programmazione
 date: 04-10-2023 15:48:44
 links:
   - "[[Lecture 20092023125825]]"
   - "[[Lecture 28092023090721]]"
+  - "[[Lecture 09042025110710]]"
 ---
 # Insieme
 ---
@@ -55,6 +57,21 @@ $$
 ## Distinzioni
 - [[Insieme finito]]
 - [[Insieme infinito]]
+
+## Tipo di dato
+> Il [[Tipi di dato|tipo di dato]] [[Tipi composti|composto]] **insieme** deve denotare una _[[Strutture dati|struttura dati]] piatta e senza ordine con valori unici dello stesso tipo_.
+> Le operazioni di solito includono:
+> - _inclusione_;
+> - _unione_;
+> - _intersezione_;
+> - _differenza_;
+> - _complemento_;
+
+Le implementazioni degli insiemi possono essere:
+- **array caratteristico** - una bitmask lunga quanto la [[Cardinalità|cardinalita']] del tipo di base (se possibile), che indica se l'elemento $j$-esimo (secondo un certo ordinamento) appartiene o no all'insieme;
+	- tale ordinamento e' scelto su un criterio qualunque, come per esempio l'ordinamento lessicografico;
+	- questa tecnica non e' adatta a grandi insiemi;
+- **[[Tabella hash|tabella hash]]**;
 
 ## Referenze
 - [[Insiemi numerici]]
