@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/pending
+  - status/finished
   - topic/basi-di-dati
 date: 13-10-2025 12:20:42
 links:
