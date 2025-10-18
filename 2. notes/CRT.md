@@ -10,7 +10,7 @@ links:
 # CRT
 ---
 ## Introduzione
-> La **CRT** (**Central Reference Table**) e' una [[Strutture dati|struttura dati]] usata per implementare lo [[Scope dinamico|scope dinamico]] in modo efficiente.
+> La **CRT** (**Central Reference Table**) e' una [[Struttura dati|struttura dati]] usata per implementare lo [[Scope dinamico|scope dinamico]] in modo efficiente.
 
 ## Funzionamento
 E' il contrario delle [[A-list]]: e' una tabella di variabili, a ognuna delle quali e' associata una pila di blocchi contenenti le sue istanze in ordine di apparizione, tale che _la prima istanza e' la piu' recente_ e _tutte le altre sono nascoste_ (per implementare lo scope dinamico).

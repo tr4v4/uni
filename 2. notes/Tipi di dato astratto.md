@@ -30,10 +30,27 @@ Non si puo' quindi accedere dall'ADT `A` alla sua rappresentazione concreta `T`.
 Proprio come avviene per le [[Interfaccia|interfacce]] di programmazione, anche qui viene stabilito un _contratto_ tra produttore e consumatore, concordando i metodi che il primo espone con quelli che il secondo usa. L'[[Implementazione|implementazione]] non e' contemplata: avviene _information hiding_.
 
 ### Indipendenza dalla rappresentazione
-Come avviene per il [[Polimorfismo|polimorfismo]] [[Overriding|di sottotipo]] quando si nasconde il reale sottotipo di un tipo, abbiamo un certo grado di _indipendenza dalla rappresentazione_: i consumatori non notano alcuna differenza su ADT implementati dai produttori in modo diverso.
+Come avviene per il [[Polimorfismo|polimorfismo]] [[Sottotipaggio|di sottotipo]] quando si nasconde il reale sottotipo di un tipo, abbiamo un certo grado di _indipendenza dalla rappresentazione_: i consumatori non notano alcuna differenza su ADT implementati dai produttori in modo diverso.
 
 ### Moduli
 Sono anche un modo per aggregare il codice, ossia definizione e logica delle operazioni che appartengono allo stesso tipo di dato astratto. Si formano i cosiddetti _[[Package|package]]_.
+
+Concettualmente, _possiamo vedere gli ADT come un caso degenere di un modulo che trasporta un ADT_. Tuttavia, i moduli in realta' esprimono la visibilita' dei dati e delle operazioni in modo piu' fine rispetto agli ADT: _la "capsula" e' "permeabile" a piacere_!
+
+Qui sotto i moduli counter e sc incapsulano rispettivamente l'ADT e l'implementazione:
+```Rust
+mod counter { pub trait Counter { … } }
+mod sc {
+	use crate::counter::Counter;
+	pub struct SC { … }
+	impl Counter for SC { … }
+}
+
+use crate::counter::Counter;
+use crate::sc:SC;
+fn use_counter( c:&mut C ) where C: Counter{ … }
+fn main(){ … }
+```
 
 ## Linguaggi
 ### Rust
@@ -53,7 +70,7 @@ impl Counter for SC {
 	fn inc( &self ) -> Self { SC { counter: self.counter + 1 } }
 }
 
-fn use_counter( c: &mut C ) where C: Counter {
+fn use_counter<C>( c: &mut C ) where C: Counter {
 	let c = c.inc(c);
 	let c = c.inc(c);
 	print!( "{}", c.get() );

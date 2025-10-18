@@ -13,7 +13,7 @@ links:
 # Albero binario
 ---
 ## Introduzione
-> Un **albero binario** è un tipo di [[Albero informatico|albero]] cui _ogni nodo può essere una foglia oppure diramarsi in un sottoalbero sinistro e un sottoalbero destro_.
+> Un **albero binario** è un tipo di [[Albero|albero]] cui _ogni nodo può essere una foglia oppure diramarsi in un sottoalbero sinistro e un sottoalbero destro_.
 
 ![[albero-binario.png]]
 
@@ -45,12 +45,12 @@ $$\sum\limits_{i = 0}^{h} 2^{i} = 2^{h+1} - 1$$
 
 ## Implementazione
 Ogni nodo ha:
-- `parent` --> [[Puntatori|puntatore]] al nodo padre
+- `parent` --> [[Puntatore|puntatore]] al nodo padre
 - `key`, `data` --> associazione chiave-valore
 - `left`, `right` --> puntatore ai figli
 
 ### In [[C++]]
-Si utilizzano [[Strutture dati|strutture]] con 3 campi:
+Si utilizzano [[Struttura dati|strutture]] con 3 campi:
 ```cpp
 struct btree {
 	int val;

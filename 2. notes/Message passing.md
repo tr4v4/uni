@@ -41,7 +41,7 @@ _Sintassi `receive`_: `msg_t sreceive(pid_t snd)`.
 
 ### MP asincrono
 Nel message passing asincrono, invece, la `send` non blocca il processo mittente, mentre la `receive` sì.
-Questo **impone l'utilizzo di una [[Strutture dati|struttura dati]] per mantenere in memoria tutti i messaggi inviati ma non ancora ricevuti**.
+Questo **impone l'utilizzo di una [[Struttura dati|struttura dati]] per mantenere in memoria tutti i messaggi inviati ma non ancora ricevuti**.
 
 _Sintassi `send`_: `void asend(msg_t msg, pid_t dst)`;
 _Sintassi `receive`_: `msg_t sreceive(pid_t snd)`.

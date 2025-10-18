@@ -16,7 +16,7 @@ Il [[Gestione della memoria|gestore della memoria]] deve mantenere informazioni 
 
 ## Strutture dati
 ### Bitmap
-La memoria viene divisa in _unita' di allocazione_, ognuna delle quali e' rappresentata da un bit in una _bitmap_ ([[Strutture dati|struttura dati]]). Le unita' libere avranno bit a 0, mentre quelle occupate avranno bit a 1.
+La memoria viene divisa in _unita' di allocazione_, ognuna delle quali e' rappresentata da un bit in una _bitmap_ ([[Struttura dati|struttura dati]]). Le unita' libere avranno bit a 0, mentre quelle occupate avranno bit a 1.
 ![[allocazione-dinamica-bitmap.png]]
 
 La **dimensione dell'unita' di allocazione e' determinante**:

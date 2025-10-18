@@ -10,7 +10,7 @@ links:
 # Sussunzione
 ---
 ## Introduzione
-> L'atto di decidere se $S <: T$, ossia $S$ [[Overriding|sottotipo]] di $T$, si chiama **sussunzione**.
+> L'atto di decidere se $S <: T$, ossia $S$ [[Sottotipaggio|sottotipo]] di $T$, si chiama **sussunzione**.
 
 Esistono 2 modi per definire la sussunzione:
 - _estensionale_ -> $\forall s \in S, [[s]] \in T$;

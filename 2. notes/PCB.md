@@ -10,7 +10,7 @@ links:
 # PCB
 ---
 ## Introduzione
-> Un **PCB** (**Process Control Block**) e' una [[Strutture dati|struttura dati]] contenente le informazioni che identificano un [[Processo|processo]], in particolare:
+> Un **PCB** (**Process Control Block**) e' una [[Struttura dati|struttura dati]] contenente le informazioni che identificano un [[Processo|processo]], in particolare:
 > - _identificazione del processo_
 > 	- `pid`, che potrebbe essere l'indice dell'array della tabella, ma questo causerebbe il problema della reincarnazione, quindi e' un numero progressivo;
 > 	- identificatore del padre, o di processi correlati;

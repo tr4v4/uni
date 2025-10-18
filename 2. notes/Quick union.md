@@ -14,7 +14,7 @@ links:
 > Il **Quick union** è un'[[Prototipo vs Implementazione|implementazione]] della [[Struttura union-find|struttura union-find]] che _privilegia l'operazione di `union` in termini di efficienza a discapito di `find`_.
 
 ## Implementazione
-La quick union si implementa usando [[Albero informatico|alberi]] _generali_ (implementazione basata su _foresta_), tale che ogni albero rappresenta un insieme e il rappresentante è la radice, e gli elementi sono tutti i nodi dell'albero (foglie comprese). Si veda la figura:
+La quick union si implementa usando [[Albero|alberi]] _generali_ (implementazione basata su _foresta_), tale che ogni albero rappresenta un insieme e il rappresentante è la radice, e gli elementi sono tutti i nodi dell'albero (foglie comprese). Si veda la figura:
 ![[quick-union.png|500]]
 
 ### `makeSet`

@@ -19,7 +19,7 @@ Se il sistema non lo permette allora si dice essere _monomorfico_; se il sistema
 ## Tipologie
 Esistono 3 tipi di polimorfismo:
 - _ad hoc_ --> [[Overloading|overloading]];
-- _subtyping/virtual function_ --> [[Overriding|overriding]];
+- _subtyping/virtual function_ --> [[Sottotipaggio|overriding]];
 - _parametrico/universale_ --> [[Generics|generics]].
 
 Esistono poi i [[Tipi monadici|tipi monadici]].

@@ -3,9 +3,11 @@ tags:
   - category/note
   - status/finished
   - topic/ingegneria-del-software
+  - topic/linguaggi-di-programmazione
 date: 29-09-2025 22:15:14
 links:
   - "[[Lecture 29092025103533]]"
+  - "[[Lecture 14052025105842]]"
 ---
 # Ereditarietà
 ---
@@ -14,4 +16,13 @@ links:
 
 L'ereditarietà può essere multipla, se una classe estende due altre classi.
 
+## Fenomeni
+I fenomeni principali derivanti dall'ereditarieta' si riassumono in:
+- [[Shadowing]]
+- [[Sottotipaggio#Comportamento|Overriding]]
+
+Una differenza sostanziale tra questi 2 metodi e' che lo **shadowing e' risolto staticamente** mentre l'**overriding dinamicamente**.
+
 ## Referenze
+- [[Ereditarieta' multipla]]
+- [[Vtable]]

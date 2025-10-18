@@ -13,7 +13,7 @@ links:
 # Dizionario
 ---
 ## Introduzione
-> Il **dizionario** (o **array associativo**) è una [[Strutture dati|struttura dati]] che contiene un _[[Insieme|insieme]] di chiavi univoche, ognuna delle quali è associata a dei dati_. Il [[Prototipo vs Implementazione|prototipo]] di dizionario prevede i dati possano essere duplicati, mentre le chiavi no.
+> Il **dizionario** (o **array associativo**) è una [[Struttura dati|struttura dati]] che contiene un _[[Insieme|insieme]] di chiavi univoche, ognuna delle quali è associata a dei dati_. Il [[Prototipo vs Implementazione|prototipo]] di dizionario prevede i dati possano essere duplicati, mentre le chiavi no.
 
 ## Operazioni
 Le operazioni esposte dal dizionario sono:

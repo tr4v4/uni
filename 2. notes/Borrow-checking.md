@@ -10,7 +10,7 @@ links:
 # Borrow-checking
 ---
 ## Introduzione
-> Il **borrow-checking** e' un meccanismo di protezione della memoria, implementato per esempio in [[Rust]], che funziona limitando il modo in cui si possono utilizzare i [[Puntatori|puntatori]].
+> Il **borrow-checking** e' un meccanismo di protezione della memoria, implementato per esempio in [[Rust]], che funziona limitando il modo in cui si possono utilizzare i [[Puntatore|puntatori]].
 
 Un programma scritto in un linguaggio che implementa borrow-checking, se viene [[Compilatore|compilato]], allora e':
 - privo di [[Dangling pointer|puntatori dangling]] e puntatori wild;

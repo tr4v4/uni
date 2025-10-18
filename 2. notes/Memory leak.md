@@ -10,7 +10,7 @@ links:
 # Memory leak
 ---
 ## Introduzione
-> Il **memory leak** è un evento che avviene nel momento in cui _vengono persi [[Puntatori|puntatori]] a locazioni dell'[[Heap|heap]]_, che perciò _non sono più recuperabili e quindi liberabili_. Queste locazioni occupano memoria, e se accumulate _portano al totale riempimento dello spazio disponibile per l'allocazione dinamica_.
+> Il **memory leak** è un evento che avviene nel momento in cui _vengono persi [[Puntatore|puntatori]] a locazioni dell'[[Heap|heap]]_, che perciò _non sono più recuperabili e quindi liberabili_. Queste locazioni occupano memoria, e se accumulate _portano al totale riempimento dello spazio disponibile per l'allocazione dinamica_.
 
 In particolare, per linguaggi come [[C]] e [[C++]], la liberazione della memoria dinamica non avviene automaticamente, attraverso un _meccanismo di [[Garbage collector|garbage collection]]_[^1], ma dev'essere attuata manualmente dal programmatore al fine di non evitare il memory leak, attraverso istruzioni come:
 ```cpp

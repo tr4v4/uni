@@ -35,7 +35,7 @@ L'albero di derivazione **fornisce informazioni semantiche sulla derivazione**. 
 Di solito, infatti, da un albero di derivazione si ricava l'[[Albero sintattico|albero sintattico]].
 
 ## Definizione formale
-> Data una [[Grammatiche libere|grammatica libera]] $G=(NT, T, S, R)$, un **albero di derivazione** (o di **parsing**) è un [[Albero informatico|albero]] ordinato in cui:
+> Data una [[Grammatiche libere|grammatica libera]] $G=(NT, T, S, R)$, un **albero di derivazione** (o di **parsing**) è un [[Albero|albero]] ordinato in cui:
 > - _ogni nodo è etichettato con un simbolo $\in NT \cup \{\epsilon\} \cup T$_;
 > - _la radice è etichettata con $S$_;
 > - _ogni nodo interno è etichettato con un simbolo $\in NT$_;

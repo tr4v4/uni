@@ -4,56 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "373f2b27bd2ff843",
+        "id": "48a880d08a42a892",
         "type": "tabs",
         "children": [
           {
-            "id": "0d6e892643ee0058",
+            "id": "89b3638d4365f954",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Ingegneria del software.md",
+                "file": "0. mocs/Università.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ingegneria del software"
-            }
-          },
-          {
-            "id": "1fb6a2d1303ada9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 13102025104920.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 13102025104920"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cdb43ddedcf02d31",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a14a6eb5ed313e76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. lectures/Lecture 13102025151054.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 13102025151054"
+              "title": "Università"
             }
           }
         ]
@@ -113,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -131,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. notes/Algebra relazionale.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algebra relazionale"
+              "title": "Backlinks for Linguaggi di programmazione"
             }
           },
           {
@@ -179,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. notes/Algebra relazionale.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algebra relazionale"
+              "title": "Outline of Linguaggi di programmazione"
             }
           },
           {
@@ -244,7 +208,8 @@
               "title": "Toggl Report"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -257,7 +222,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2. notes/Algebra relazionale.md",
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -285,7 +250,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Algebra relazionale"
+              "title": "Graph of Linguaggi di programmazione"
             }
           }
         ]
@@ -330,44 +295,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a14a6eb5ed313e76",
+  "active": "89b3638d4365f954",
   "lastOpenFiles": [
-    "1. lectures/Lecture 13102025104920.md",
-    "1. lectures/Lecture 13102025151054.md",
-    "0. mocs/Ingegneria del software.md",
+    "0. mocs/Università II anno.md",
+    "0. mocs/Università III anno.md",
+    "0. mocs/Università.md",
+    "1. lectures/Lecture 16102025151651.md",
+    "1. lectures/Lecture 17102025151336.md",
+    "2. notes/Architettura di un DBMS.md",
+    "2. notes/Transazione.md",
+    "2. notes/Memorie.md",
+    "2. notes/Albero di sintassi astratta.md",
+    "2. notes/Albero sintattico.md",
+    "2. notes/DBMS.md",
     "0. mocs/Basi di dati.md",
-    "2. notes/Datalog.md",
+    "0. mocs/Basi di dati (nicola-mint's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18).md",
+    "0. mocs/Basi di dati (nicola-mint's conflicted copy 2025-10-18).md",
+    "0. mocs/Basi di dati (nicola-mint's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18).md",
+    "0. mocs/Basi di dati (nicola-mint's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18) (travamx's conflicted copy 2025-10-18).md",
+    "2. notes/DML.md",
+    "0. mocs/Basi di dati (travamx's conflicted copy 2025-10-18).md",
+    "2. notes/DDL.md",
     "2. notes/Limiti del calcolo e dell'algebra relazionale.md",
-    "2. notes/Calcolo relazionale sui domini.md",
-    "2. notes/Calcolo relazionale.md",
-    "2. notes/SQL.md",
-    "2. notes/Calcolo relazionale su tuple con dichiarazioni del range.md",
-    "1. lectures/Lecture 09102025151427.md",
     "2. notes/Chiusura transitiva.md",
-    "2. notes/Ricorsione strutturale.md",
-    "2. notes/Induzione strutturale.md",
-    "0. mocs/Logica per l'informatica.md",
-    "media/chiusura-transitiva-2.png",
-    "media/chiusura-transitiva-1.png",
-    "1. lectures/Lecture 08102025101345.md",
-    "2. notes/Package.md",
-    "2. notes/Design di sistemi software.md",
-    "2. notes/UML.md",
-    "2. notes/Diagramma delle classi.md",
-    "2. notes/Interfaccia.md",
-    "2. notes/Diagramma delle collaborazioni.md",
-    "2. notes/Diagramma dei casi d'uso.md",
-    "2. notes/Diagramma delle attività.md",
-    "0. mocs/Introduzione all'apprendimento automatico.md",
-    "1. lectures/Lecture 10102025131023.md",
-    "media/natura-lineare-naive-bayes-3.png",
-    "media/natura-lineare-naive-bayes-2.png",
-    "media/natura-lineare-naive-bayes-1.png",
-    "media/distribuzione-congiunta-2.png",
-    "media/distribuzione-congiunta-1.png",
-    "media/cheat-sheet-class-diagram.png",
-    "media/rc-arc-rust.png",
-    "media/borrow-checking-1.png",
+    "2. notes/Modello relazionale dei dati.md",
+    "2. notes/Modellizzazione logica.md",
+    "2. notes/Modellizzazione concettuale.md",
+    "2. notes/Tipo intersezione.md",
+    "2. notes/Costruttore.md",
+    "media/vtable-1.png",
+    "media/oggetti-implementazione.png",
+    "media/scope-statico-deep-shallow.png",
+    "media/deadly-diamond-of-death.png",
+    "media/ereditarietà-multipla.png",
+    "media/architettura-dbms-relazionale.png",
+    "media/naive-bayes-gaussiano-errori.png",
+    "media/classi-e-oggetti.png",
+    "media/componenti-stereotipi.png",
+    "media/componente-uml.png",
     "2. notes/Untitled.base",
     "2. notes/Equivalenze regolari.canvas",
     "media/Unconfirmed 595121.crdownload",

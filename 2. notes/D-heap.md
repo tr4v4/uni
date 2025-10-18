@@ -10,7 +10,7 @@ links:
 # D-heap
 ---
 ## Introduzione
-> Un **d-heap** è una [[Strutture dati|struttura dati]] che [[Prototipo vs Implementazione|implementa]] la [[Coda con priorità|coda con priorità]] attraverso la [[Struttura heap|struttura heap]]. Si tratta quindi di un _[[Albero informatico|albero]] d-ario_ con le seguenti proprietà:
+> Un **d-heap** è una [[Struttura dati|struttura dati]] che [[Prototipo vs Implementazione|implementa]] la [[Coda con priorità|coda con priorità]] attraverso la [[Struttura heap|struttura heap]]. Si tratta quindi di un _[[Albero|albero]] d-ario_ con le seguenti proprietà:
 > 1. è un _min-heap_ d-ario;
 > 2. ogni nodo è costituito da una coppia chiave-elemento (_key_, _data_).
 

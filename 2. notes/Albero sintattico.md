@@ -10,7 +10,7 @@ links:
 # Albero sintattico
 ---
 ## Introduzione
-> Un **albero sintattico** è un [[Albero informatico|albero]] ricavato da un [[Albero di derivazione|albero di derivazione]] _sostituendo ai nodi non-terminali gli operatori e gli operandi, ossia i nodi terminali_.
+> Un **albero sintattico** è un [[Albero|albero]] ricavato da un [[Albero di derivazione|albero di derivazione]] _sostituendo ai nodi non-terminali gli operatori e gli operandi, ossia i nodi terminali_.
 
 ### Esempio
 ![[albero-di-derivazione-to-albero-sintattico-1.png]]

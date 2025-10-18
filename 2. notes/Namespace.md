@@ -10,7 +10,7 @@ links:
 # Namespace
 ---
 ## Introduzione
-> I **namespace** sono aggregatori di [[Funzione informatica|funzioni]]/[[Classe informatica|classi]] usati nelle [[Libreria|librerie]].
+> I **namespace** sono aggregatori di [[Funzione informatica|funzioni]]/[[Classe|classi]] usati nelle [[Libreria|librerie]].
 
 ### Esempi
 Si scriverà:

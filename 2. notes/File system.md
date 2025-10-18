@@ -45,7 +45,7 @@ Svantaggi:
 - si ripropongono tutti i problemi dell'[[Allocazione dinamica|allocazione dinamica]] della memoria primaria, quindi _[[Frammentazione|frammentazione]] e politiche di scelta dei blocchi liberi_;
 - per _aumentare la dimensione di un file devo riallocare l'intero file da un'altra parte_!
 
-Notare come quest'ultimo problema e' proprio la ragione per cui sono nate le [[Lista|liste]] come [[Strutture dati|struttura dati]]: in un [[Array|array]] se volevo inserire un elemento in mezzo dovevo spostare tutta la parte restante avanti.
+Notare come quest'ultimo problema e' proprio la ragione per cui sono nate le [[Lista|liste]] come [[Struttura dati|struttura dati]]: in un [[Array|array]] se volevo inserire un elemento in mezzo dovevo spostare tutta la parte restante avanti.
 
 Chiaramente, in file system di sola lettura risulta ottimo.
 

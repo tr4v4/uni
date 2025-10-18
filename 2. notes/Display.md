@@ -13,7 +13,7 @@ links:
 > Il **display** e' una tecnica usata per rendere piu' efficiente l'implementazione della [[Scope statico|regola di scope statico]] rispetto alla [[Catena statica|catena statica]].
 
 ## Funzionamento
-L'idea e' di avere un vettore di [[Puntatori|puntatori]], _in cui in ogni cella $i$ si trova il puntatore al [[Record di attivazione|record di attivazione]] di livello $i$ che e' stato creato piu' recentemente e che e' attualmente attivo_.
+L'idea e' di avere un vettore di [[Puntatore|puntatori]], _in cui in ogni cella $i$ si trova il puntatore al [[Record di attivazione|record di attivazione]] di livello $i$ che e' stato creato piu' recentemente e che e' attualmente attivo_.
 
 Per esempio, se si considera il programma
 ![[catena-statica-1.png]]

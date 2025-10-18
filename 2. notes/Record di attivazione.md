@@ -32,7 +32,7 @@ Tecnicamente, a seconda del tipo di [[Blocco|blocco]] cambia il tipo di dato sal
 
 ### Blocchi anonimi
 I record di attivazione dei blocchi anonimi contengono:
-- [[Puntatori|puntatore]] di [[Catena dinamica|catena dinamica]];
+- [[Puntatore|puntatore]] di [[Catena dinamica|catena dinamica]];
 - variabili locali;
 - risultati intermedi;
 

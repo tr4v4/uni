@@ -16,7 +16,7 @@ links:
 L'obiettivo è di descrivere un [[Sistema operativo|SO]] come una collezione di processi sequenziali che cooperano. Il principio alla base dei semafori, descritto da [[Edsger Dijkstra|Dijkstra]], consiste in due o più processi che cooperano attraverso segnali, in modo tale che _un processo possa essere bloccato finché non riceve un segnale da un altro processo_.
 
 ## Definizione
-> Un **semaforo** è un [[Strutture dati|tipo di dato astratto]] per il quale sono definite due operazioni:
+> Un **semaforo** è un [[Struttura dati|tipo di dato astratto]] per il quale sono definite due operazioni:
 > - `V` (dall'olandese _verhogen_) --> invocata per inviare un segnale, quale il verificarsi di un evento o il rilascio di una risorsa;
 > - `P` (dall'olandese _proberen_) --> invocata per attendere il segnale (un evento o il rilascio di una risorsa).
 > 

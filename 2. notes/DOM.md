@@ -10,7 +10,7 @@ links:
 # DOM
 ---
 ## Introduzione
-> Il **DOM** (_Document Object Model_) è un'[[API]] del [[Browser|browser]] usato per la _rappresentazione di documenti strutturati ad [[Albero informatico|albero]]_, che permette di modificare la struttura, lo stile e il contenuto di un documento [[HTML]] o [[XML]].
+> Il **DOM** (_Document Object Model_) è un'[[API]] del [[Browser|browser]] usato per la _rappresentazione di documenti strutturati ad [[Albero|albero]]_, che permette di modificare la struttura, lo stile e il contenuto di un documento [[HTML]] o [[XML]].
 
 Il [[Parsing|parsing]] di HTML è complicato perché deve tenere conto di tutte le possibili versioni. Per questo è stato introdotto il _DOM, un riassunto della pagina realizzato dal browser cui costruzione è comune a tutte le pagine web_. Con questo modello, i programmatori possono costruire documenti, navigare attraverso la loro struttura, aggiungere, modificare o cancellare elementi.
 

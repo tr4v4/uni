@@ -16,7 +16,7 @@ links:
 > - _controllo di uguaglianza_;
 > - _dereferenziazione_;
 
-L'implementazione piu' comune di questo tipo di dato sono i [[Puntatori|puntatori]].
+L'implementazione piu' comune di questo tipo di dato sono i [[Puntatore|puntatori]].
 
 <u>Nota bene</u>: i riferimenti possono fare riferimento a riferimenti!
 

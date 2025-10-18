@@ -38,6 +38,7 @@ restituisce i dipendenti che guadagnano più di 40 soldi.
 Consente di fare le query ricorsive, realizzando la [[Chiusura transitiva|chiusura transitiva]]. Prendiamo l'esempio della relazione `SUPERVISOR`. Vogliamo per ogni dipendente trovare tutti i suoi supervisori, allora definiamo i predicati in modo [[Ricorsione strutturale|ricorsivo strutturale]]:
 - caso base - $$HIGHGRADE(Employee: e, SuperChief: c) \leftarrow SUPERVISOR(Employee: e, Chief: c)$$
 - caso induttivo - $$HIGHGRADE(Employee: e, SuperChief: c) \leftarrow SUPERVISOR(Employee: e, Chief: c'), HIGHGRADE(Employee: c', SuperChief: c)$$
+
 ## Potere espressivo
 Valgono le seguenti equivalenze:
 - Datalog non ricorsivo senza negazione è espressiva quanto il [[Calcolo relazionale|calcolo]] senza negazione e senza quantificatori universali;

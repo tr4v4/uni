@@ -10,7 +10,7 @@ links:
 # Prototipo vs Implementazione
 ---
 ## Introduzione
-> Il modello **prototipo vs implementazione**, nel campo della [[Programmazione|programmazione]] e delle [[Strutture dati|strutture dati]], è un modello astratto di visione concettuale che tenta di _separare i dettagli implementativi di un qualunque oggetto da come esso interagisce con l'esterno_.
+> Il modello **prototipo vs implementazione**, nel campo della [[Programmazione|programmazione]] e delle [[Struttura dati|strutture dati]], è un modello astratto di visione concettuale che tenta di _separare i dettagli implementativi di un qualunque oggetto da come esso interagisce con l'esterno_.
 
 E' molto simile al [[Principio di astrazione-implementazione|principio di astrazione-implementazione]], e si sposa perfettamente con le [[Interfaccia|interfacce]] di [[Java]].
 

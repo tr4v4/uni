@@ -26,7 +26,7 @@ Le pietre miliari della storia di Unix sono raccolte qui:
 
 ## Caratteristiche
 ### File system
-E' una metafora del contenuto della memoria, che organizza i file ad [[Albero informatico|albero]]. In Unix la radice è la **root** `/`, che contiene directory standard del sistema:
+E' una metafora del contenuto della memoria, che organizza i file ad [[Albero|albero]]. In Unix la radice è la **root** `/`, che contiene directory standard del sistema:
 - `boot` contiene i file del kernel per far partire il sistema operativo
 - `dev` contiene i "file" dei devices (in realtà non sono file)
 - `etc` contiene la configurazione del sistema

@@ -7,6 +7,8 @@ date: 29-09-2025 21:58:39
 links:
   - "[[Lecture 29092025103533]]"
   - "[[Lecture 06102025105214]]"
+  - "[[Lecture 13102025104920]]"
+  - "[[Lecture 13102025151054]]"
 ---
 # UML
 ---
@@ -20,6 +22,7 @@ L'UML contiene più di 9 tipi di diagrammi, tra cui 4 _strutturali_:
 - [[Diagramma delle classi]]
 - [[Diagramma degli oggetti]]
 - [[Diagramma dei componenti]]
+- [[Diagramma dei nodi]]
 - [[Diagramma del deployment]]
 
 e altri 5 di _comportamento_:
@@ -32,3 +35,4 @@ e altri 5 di _comportamento_:
 
 ## Referenze
 - [[OOD]]
+- [[Real time UML]]

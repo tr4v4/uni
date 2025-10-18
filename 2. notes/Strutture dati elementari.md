@@ -11,7 +11,7 @@ links:
 # Strutture dati elementari
 ---
 ## Introduzione
-> Le **strutture dati elementari** sono le [[Strutture dati|strutture dati]] fondamentali, e sono:
+> Le **strutture dati elementari** sono le [[Struttura dati|strutture dati]] fondamentali, e sono:
 > - [[Lista|liste]]
 > - [[Pila|pile]]
 > - [[Coda|code]]

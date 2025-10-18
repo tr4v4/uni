@@ -59,7 +59,7 @@ $$
 - [[Insieme infinito]]
 
 ## Tipo di dato
-> Il [[Tipi di dato|tipo di dato]] [[Tipi composti|composto]] **insieme** deve denotare una _[[Strutture dati|struttura dati]] piatta e senza ordine con valori unici dello stesso tipo_.
+> Il [[Tipi di dato|tipo di dato]] [[Tipi composti|composto]] **insieme** deve denotare una _[[Struttura dati|struttura dati]] piatta e senza ordine con valori unici dello stesso tipo_.
 > Le operazioni di solito includono:
 > - _inclusione_;
 > - _unione_;

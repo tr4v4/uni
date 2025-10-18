@@ -10,13 +10,13 @@ links:
 # Coda
 ---
 ## Introduzione
-> La **coda** è una [[Strutture dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[FIFO]] che supporta due operazioni: `ENQUEUE` e `DEQUEUE`. Viene utilizzata per esempio nello [[Scheduling|scheduling]] dei processi nei [[Sistema operativo|sistemi operativi]], o nella visita [[BFS|breadth-first-search]] su [[Grafo|grafi]].
+> La **coda** è una [[Struttura dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[FIFO]] che supporta due operazioni: `ENQUEUE` e `DEQUEUE`. Viene utilizzata per esempio nello [[Scheduling|scheduling]] dei processi nei [[Sistema operativo|sistemi operativi]], o nella visita [[BFS|breadth-first-search]] su [[Grafo|grafi]].
 
 ## Implementazioni
 ### [[Lista|Liste]] concatenate circolari
 Si può implementare una coda attraverso liste concatenate circolari, e ciò comporta i seguenti vantaggi e svantaggi:
 - _pro_: dimensione illimitata
-- _con_: overhead di memoria (addirittura 2 [[Puntatori|puntatori]])
+- _con_: overhead di memoria (addirittura 2 [[Puntatore|puntatori]])
 
 ### Liste concatenate semplici con puntatore a testa e a coda
 Anche in questo casi i vantaggi e gli svantaggi sono simili a quelli delle liste circolari, con l'unica differenza che non c'è overhead.

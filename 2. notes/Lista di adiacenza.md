@@ -10,7 +10,7 @@ links:
 # Lista di adiacenza
 ---
 ## Introduzione
-> Per **[[Lista|lista]] di adiacenza** si intende una [[Strutture dati|struttura dati]] per la rappresentazione di [[Grafo|grafi]].
+> Per **[[Lista|lista]] di adiacenza** si intende una [[Struttura dati|struttura dati]] per la rappresentazione di [[Grafo|grafi]].
 
 ## Implementazione
 Dividiamo l'implementazione per i due tipi di grafo, nonostante la differenza sia solo concettuale.

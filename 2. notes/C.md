@@ -16,7 +16,7 @@ Le caratteristiche di C sono:
 - delega tutto il possibile alla _libreria standard C_
 - non ha bisogno di software di supporto (senza nessuna libreria)
 - il `;` trasforma le espressioni in istruzioni
-- gli argomenti delle funzioni sono sempre passati per valore (ma si può passare per valore l'indirizzo di una variabile, ossia il suo [[Puntatori|puntatore]])
+- gli argomenti delle funzioni sono sempre passati per valore (ma si può passare per valore l'indirizzo di una variabile, ossia il suo [[Puntatore|puntatore]])
 - quando si nomina un vettore `T` si ottiene l'indirizzo di partenza del vettore (puntatore `T*`) e si alloca memoria per la sua lunghezza
 
 ### Conversione dei tipi

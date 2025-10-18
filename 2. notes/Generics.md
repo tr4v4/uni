@@ -74,7 +74,7 @@ In Java il meccanismo dei generics è gestito mediante [[Type erasure|type erasu
 
 In Java c'e' il **polimorfismo parametrico ibrido**: viene fornito l'_operatore di introspezione `instanceof` per verificare se un valore appartiene a un determinato tipo_.
 
-Altre volte e' utile esprimere dei vincoli sul quantificatore universale $T$. Si fa mescolando polimorfismo parametrico con il [[Overriding|sottotipaggio]] Per esempio
+Altre volte e' utile esprimere dei vincoli sul quantificatore universale $T$. Si fa mescolando polimorfismo parametrico con il [[Sottotipaggio|sottotipaggio]] Per esempio
 ```rust
 ∀T, T <: Comparable, max: T -> T -> T
 ```

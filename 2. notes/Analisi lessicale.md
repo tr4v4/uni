@@ -37,7 +37,7 @@ Sui token ci possono poi essere:
 
 Per esempio `x1` è un lessema istanza del pattern $(x|y)(x|y|0|1)^{*}$.
 
-<u>Nota bene</u>: in realtà, ogni token contiene la coppia (_nome_, _puntatore al valore_), dove il [[Puntatori|puntatore]] al valore sarà l'indirizzo del lessema nella tabella dei simboli.
+<u>Nota bene</u>: in realtà, ogni token contiene la coppia (_nome_, _puntatore al valore_), dove il [[Puntatore|puntatore]] al valore sarà l'indirizzo del lessema nella tabella dei simboli.
 
 L'idea è che _ad ogni categoria sintattica è associato un pattern_.
 

@@ -10,7 +10,7 @@ links:
 # Tabella hash
 ---
 ## Introduzione
-> Una **tabella hash** (o **hashmap**) è una [[Strutture dati|struttura dati]] fondamentale che permette un'[[Prototipo vs Implementazione|implementazione]] estremamente efficiente della struttura dati [[Dizionario|dizionario]]. L'idea che caratterizza le tabelle hash è quella di _generalizzare l'indicizzazione di un [[Array|array]] ordinario_. Il [[Complessità computazionale|costo]] medio di accesso/inserimento/rimozione di una tabella hash è $O(1)$, per cui costante.
+> Una **tabella hash** (o **hashmap**) è una [[Struttura dati|struttura dati]] fondamentale che permette un'[[Prototipo vs Implementazione|implementazione]] estremamente efficiente della struttura dati [[Dizionario|dizionario]]. L'idea che caratterizza le tabelle hash è quella di _generalizzare l'indicizzazione di un [[Array|array]] ordinario_. Il [[Complessità computazionale|costo]] medio di accesso/inserimento/rimozione di una tabella hash è $O(1)$, per cui costante.
 
 ### Utilità
 Le tabelle hash sono usate ovunque per le loro formidabili proprietà, in particolare i [[Compilatore|compilatori]] fanno uso delle cosiddette [[Look-up table|look-up tabels]] per creare un'associazione tra il nome degli [[Identificatore|identificatori]] (_chiavi_) e il loro indirizzo in memoria (_dati_).
@@ -41,7 +41,7 @@ Ed è proprio la memoria occupata che crea problemi. Si analizzino infatti i seg
 - $|K| \sim |U| \implies$ la soluzione è accettabile;
 - $|K| << |U| \implies$ la soluzione non è accettabile, se non irrealizzabile.
 
-Si pensi per esempio all'insieme $U$ di tutti gli identificatori lunghi massimo 20 caratteri, e un array `T` di [[Puntatori|puntatori]] a tali stringhe. La cardinalità di $U$ è $24^{20}$, per cui l'array `T` occuperà almeno
+Si pensi per esempio all'insieme $U$ di tutti gli identificatori lunghi massimo 20 caratteri, e un array `T` di [[Puntatore|puntatori]] a tali stringhe. La cardinalità di $U$ è $24^{20}$, per cui l'array `T` occuperà almeno
 $$26^{20} \cdot 4 \text{ bytes} > 10^{19} \text{ Terabytes}$$
 
 decisamente inaccettabile... E questo _imponendo una limitazione sulla lunghezza delle chiavi_!

@@ -20,7 +20,7 @@ Di fatto per alcuni algoritmi l'_analisi del costo pessimo può essere troppo pe
 - il **costo medio** è il valore medio di _una singola operazione_;
 - il **costo ammortizzato** è il costo medio di una _sequenza di operazioni_;
 
-Il costo ammortizzato funziona bene con [[Strutture dati|strutture dati]].
+Il costo ammortizzato funziona bene con [[Struttura dati|strutture dati]].
 
 ## Metodi
 - [[Metodo dell'aggregazione]]

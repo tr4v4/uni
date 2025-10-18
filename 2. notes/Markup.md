@@ -10,14 +10,14 @@ links:
 # Markup
 ---
 ## Introduzione
-I dati non esistono in natura, richiede un intervento umano che identifica una quantità e attribuisce un valore, per scopi vari. I più complessi, sono organizzati in **[[Strutture dati|strutture dati]], che ne esplicitano il significato**. Il dato di per sé, infatti, non ha scopo ed è privo di utilizzabilità; se al dato si associa un'etichetta otteniamo una _coppia chiave-valore_ che diventa informazione; se inseriamo ogni coppia chiave-valore all'interno di una struttura chiamata _record_ diamo del contesto a quell'informazione, che diventa parte delle _proprietà_ di quell'entità.
+I dati non esistono in natura, richiede un intervento umano che identifica una quantità e attribuisce un valore, per scopi vari. I più complessi, sono organizzati in **[[Struttura dati|strutture dati]], che ne esplicitano il significato**. Il dato di per sé, infatti, non ha scopo ed è privo di utilizzabilità; se al dato si associa un'etichetta otteniamo una _coppia chiave-valore_ che diventa informazione; se inseriamo ogni coppia chiave-valore all'interno di una struttura chiamata _record_ diamo del contesto a quell'informazione, che diventa parte delle _proprietà_ di quell'entità.
 
 Un record, per definizione, è una collezione di elementi di dati etichettati, che descrivono una singola entità.
 
 Le strutture dati si dividono per tipologie:
 - [[Lista|liste]]
 - [[Tabella|tabelle]], liste di _record_
-- [[Albero informatico|alberi]], per ovviare alla ridigità delle tabelle; offrono due forme di gerarchia
+- [[Albero|alberi]], per ovviare alla ridigità delle tabelle; offrono due forme di gerarchia
 	- _dominio_, gerarchia di potere (come negli eserciti);
 	- _contenimento_, gerarchia per gli elementi geometrici;
 - [[Grafo|grafi]]

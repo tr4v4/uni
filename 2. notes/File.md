@@ -59,7 +59,7 @@ Di fatto ogni device e' gestito come un file (speciale), perche' in questo modo 
 A seconda del tipo di file, questo puo' essere strutturato come:
 - _sequenza di byte_;
 - _sequenza di record logici_;
-- _file indicizzati_ (ad [[Albero informatico|albero]]).
+- _file indicizzati_ (ad [[Albero|albero]]).
 
 La gestione della struttura cambia a seconda del sistema operativo:
 - **minimale** --> i file sono semplici stringhe di byte, a parte i file eseguibili cui struttura e' dettata dal sistema operativo (Unix e [[MS-DOS]]);

@@ -21,7 +21,7 @@ L'insieme degli output $Y$ puo' essere:
 - _continuo_ - problema di [[Regressione|regressione]].
 
 ## Definizione
-> Un **albero di decisione** e' un [[Albero informatico|albero]] che ha associato ad ogni nodo una [[Features di un dato|feature]], e i figli sono altri nodi o delle foglie (_label_, l'output della funzione). Gli archi che collegano i nodi, sono etichettati con i possibili valori _discreti_ assunti dalla feature genitore.
+> Un **albero di decisione** e' un [[Albero|albero]] che ha associato ad ogni nodo una [[Features di un dato|feature]], e i figli sono altri nodi o delle foglie (_label_, l'output della funzione). Gli archi che collegano i nodi, sono etichettati con i possibili valori _discreti_ assunti dalla feature genitore.
 
 ## Espressivita'
 Ci chiediamo quanto siano espressivi gli alberi di decisione, ossia quanti problemi possano risolvere: la risposta e' _tanti quanti ne possono risolvere i connettivi booleani_!

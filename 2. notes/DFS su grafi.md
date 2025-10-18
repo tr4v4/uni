@@ -80,7 +80,7 @@ Quindi, una volta impostata una variabile globale `time` a `0`, procediamo con l
 
 <u>Nota bene</u>: la funzione _`DFS` esterna è proprio quella che ci consente di ottenere una foresta di alberi liberi_. Infatti, **terminata una visita ricorsiva di un vertice $v \in V$ che a sua volta esplorerà un intero sottografo di $G$, passerà a un vertice ancora inesplorato (`white`), e quindi a un altro sottografo di $G$**. Nessun vertice, fondamentalmente, verrà escluso dalla visita.
 
-<u>Nota bene</u>: trattandosi di una visita basata sull'approccio DFS, non è necessario usare una [[Strutture dati|struttura dati]] ausiliaria, e in particolare una [[Pila|pila]], perché _sfruttiamo lo [[Stack|stack]] delle chiamate ricorsive per ottenere lo stesso risultato_.
+<u>Nota bene</u>: trattandosi di una visita basata sull'approccio DFS, non è necessario usare una [[Struttura dati|struttura dati]] ausiliaria, e in particolare una [[Pila|pila]], perché _sfruttiamo lo [[Stack|stack]] delle chiamate ricorsive per ottenere lo stesso risultato_.
 
 ### Costo computazionale
 Il [[Complessità computazionale|costo computazionale]] della DFS è assolutamente identico alla BFS:

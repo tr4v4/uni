@@ -32,7 +32,7 @@ Sappiamo che `Dog` $<:$ `Animal` in larghezza (aggiunge un campo), e che `DogHou
 
 In particolare si dice che `DogHouse` e `AnimalHouse` sono **covarianti** rispetto a `Dog` e `Animal`, perche' **mantengono la stessa direzione di sottotipaggio dei tipi di riferimento**.
 
-Ma attenzione: Possiamo usare `DogHouse` al posto di `AnimalHouse`, e quindi _in maniera covariante_, **SOLO in lettura**!
+Ma attenzione: possiamo usare `DogHouse` al posto di `AnimalHouse`, e quindi _in maniera covariante_, **SOLO in lettura**!
 
 Invece, se vogliamo accedere in scrittura, dobbiamo usare `DogHouse` e `AnimalHouse` **in maniera controvariante**! Ossia nel senso opposto rispetto al sottotipaggio dei tipi di riferimento. Infatti possiamo dare `AnimalHouse` al posto di `DogHouse` se vogliamo scrivere nel campo `tenant` un `Dog`, perche' `AnimalHouse` vuole un `Animal`, e quindi `Dog` va bene.
 
@@ -102,7 +102,7 @@ Il compilatore lo accetta: infatti accediamo alla `AnimalHouse` in lettura, per 
 
 Il problema comincia qui:
 ```rust
-Cat c = { name: "Marco", bark: "Maiooo!" };
+Cat c = { name: "Marco", meow: "Maiooo!" };
 ah.tenant = c;
 ```
 

@@ -42,7 +42,7 @@ Un processo si può trovare in 3 stati:
 ## Strutture dati
 ### Code di processi
 Per implementare gli stati, si implementano le seguenti code dei processi:
-- **ready queue** - [[Strutture dati|struttura dati]] da cui lo [[Scheduler|scheduler]] sceglie il processo da eseguire;
+- **ready queue** - [[Struttura dati|struttura dati]] da cui lo [[Scheduler|scheduler]] sceglie il processo da eseguire;
 - **waiting queue** - sono in realta' implementate dai [[Semafori|semafori]] --> per ogni device ci sara' un semaforo con associata una coda di attesa.
 
 ![[code-dei-processi.png]]
@@ -51,7 +51,7 @@ Piu' precisamente si avra':
 ![[processo-in-scheduler.png]]
 
 ### Gerarchie di processi
-Si vuole anche che quando un processo crea un nuovo processo, il creante sia il padre e il creato il figlio: ci dev'essere una struttura dati ([[Albero informatico|albero]]) che gestisca questo legame di "parentela" tra i processi.
+Si vuole anche che quando un processo crea un nuovo processo, il creante sia il padre e il creato il figlio: ci dev'essere una struttura dati ([[Albero|albero]]) che gestisca questo legame di "parentela" tra i processi.
 
 Questo e' un meccanismo molto comodo: **quando creiamo un processo questo eredita tutti i campi dal genitore**, tranne quelli che vogliamo specificare.
 

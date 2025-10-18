@@ -10,7 +10,7 @@ links:
 # Vincoli di integrita' referenziale
 ---
 ## Introduzione
-> I **vincoli di integrita' referenziale** (anche detti vincoli inter-relazionali), sono quei [[Vincoli di integrita'|vincoli di integrita']] che rappresentano i vincoli tra due o più tabelle.
+> I **vincoli di integrita' referenziale** (anche detti **vincoli inter-relazionali**), sono quei [[Vincoli di integrita'|vincoli di integrita']] che rappresentano i vincoli tra due o più tabelle.
 > Formalmente gli $FK$ (_foreign keys_) tra gli attributi $X$ di una relazione $R_{1}$ e un'altra $R_{2}$, assicurano che i valori di $X$ in $R_{1}$ appaiano come [[Chiave primaria|chiavi primarie]] in $R_{2}$.
 > Quindi, un attributo $A$ in $R_{1}$ è una $FK$ che fa riferimento a $R_{2}$ se soddisfa le seguenti regole:
 > 1. l'attributo $A$ ha lo stesso dominio della chiave primaria di $R_{2}$;

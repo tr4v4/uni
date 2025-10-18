@@ -11,7 +11,7 @@ links:
 # BFS
 ---
 ## Introduzione
-> La **BFS** (**Breadth First Search**) è un paradigma di visita di [[Albero informatico|alberi]] e [[Grafo|grafi]], che prevede di visitare livello per livello. Solitamente si implementa usando una [[Coda|coda]] come [[Strutture dati|struttura dati]] d'appoggio.
+> La **BFS** (**Breadth First Search**) è un paradigma di visita di [[Albero|alberi]] e [[Grafo|grafi]], che prevede di visitare livello per livello. Solitamente si implementa usando una [[Coda|coda]] come [[Struttura dati|struttura dati]] d'appoggio.
 
 ## Alberi
 - [[Albero binario#BFS]]

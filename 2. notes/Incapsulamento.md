@@ -11,7 +11,7 @@ links:
 # Incapsulamento
 ---
 ## Introduzione
-> Per **incapsulamento**, in informatica, si intende una _caratteristica chiave della [[OOP|programmazione a oggetti]] che consente di nascondere i dettagli implementativi di una [[Classe informatica|classe]]_, proteggendo _attributi_ e _metodi_ dall'esterno e garantendo perciò _[[Information hiding|information hiding]]_ e una _maggiore modularità del codice_[^1].
+> Per **incapsulamento**, in informatica, si intende una _caratteristica chiave della [[OOP|programmazione a oggetti]] che consente di nascondere i dettagli implementativi di una [[Classe|classe]]_, proteggendo _attributi_ e _metodi_ dall'esterno e garantendo perciò _[[Information hiding|information hiding]]_ e una _maggiore modularità del codice_[^1].
 
 ## Implementazione
 In [[C++]] si utilizzano speciali _keyword_ per definire quali attributi e quali metodi siano accessibili dall'esterno, e secondo quali criteri:

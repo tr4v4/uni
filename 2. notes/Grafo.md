@@ -12,7 +12,7 @@ links:
 # Grafo
 ---
 ## Introduzione
-> Un **grafo** è una [[Strutture dati|struttura dati]] molto importante da cui si originano [[Albero informatico|alberi]] e [[Lista|liste]]. E' caratterizzata da _nodi interconnessi da archi_. Matematicamente si dice che si tratta di una [[Coppia ordinata|coppia]] $(V, E)$ dove $V$ è un [[Insieme finito|insieme finito]] di vertici (nodi) e $E$ un insieme degli archi, ovvero di coppie (o insiemi) di due vertici.
+> Un **grafo** è una [[Struttura dati|struttura dati]] molto importante da cui si originano [[Albero|alberi]] e [[Lista|liste]]. E' caratterizzata da _nodi interconnessi da archi_. Matematicamente si dice che si tratta di una [[Coppia ordinata|coppia]] $(V, E)$ dove $V$ è un [[Insieme finito|insieme finito]] di vertici (nodi) e $E$ un insieme degli archi, ovvero di coppie (o insiemi) di due vertici.
 
 ### Notazione
 Si userò per indicare la [[Cardinalità|cardinalità]] di $V$ la lettera $n$, e per la cardinalità di $E$ la lettera $m$, perciò

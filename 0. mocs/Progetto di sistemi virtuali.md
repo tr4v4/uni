@@ -14,8 +14,9 @@ date: 25-09-2025 11:30:18
 
 | Lezione                                                           | Note      |
 | ----------------------------------------------------------------- | --------- |
-| [[1. lectures/Lecture 26092025093227.md\|Lecture 26092025093227]] | <ul></ul> |
+| [[1. lectures/Lecture 16102025092124.md\|Lecture 16102025092124]] | <ul></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/progetto-di-sistemi-virtuali SORT file.ctime DESC -->
@@ -23,6 +24,10 @@ date: 25-09-2025 11:30:18
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[1. lectures/Lecture 16102025092124.md\|Lecture 16102025092124]] | 16-10-2025 09:21:24 |
+| [[1. lectures/Lecture 10102025091431.md\|Lecture 10102025091431]] | 10-10-2025 09:14:31 |
+| [[1. lectures/Lecture 09102025092808.md\|Lecture 09102025092808]] | 09-10-2025 09:28:08 |
+| [[1. lectures/Lecture 02102025091756.md\|Lecture 02102025091756]] | 02-10-2025 09:17:56 |
 | [[1. lectures/Lecture 26092025093227.md\|Lecture 26092025093227]] | 26-09-2025 09:32:27 |
 | [[1. lectures/Lecture 25092025091607.md\|Lecture 25092025091607]] | 25-09-2025 09:16:07 |
 <!-- SerializedQuery END -->
@@ -33,28 +38,22 @@ date: 25-09-2025 11:30:18
 
 | Lezione                                                           | Status                            |
 | ----------------------------------------------------------------- | --------------------------------- |
-| [[1. lectures/Lecture 26092025093227.md\|Lecture 26092025093227]] | <ul><li>#status/pending</li></ul> |
+| [[1. lectures/Lecture 16102025092124.md\|Lecture 16102025092124]] | <ul><li>#status/pending</li></ul> |
+| [[1. lectures/Lecture 10102025091431.md\|Lecture 10102025091431]] | <ul><li>#status/pending</li></ul> |
+| [[1. lectures/Lecture 09102025092808.md\|Lecture 09102025092808]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
+
+
 
 
 ## Note
 - Argomenti
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/basi-di-dati SORT file.ctime DESC -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/basi-di-dati SORT file.ctime DESC -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/progetto-di-sistemi-virtuali SORT file.ctime DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/progetto-di-sistemi-virtuali SORT file.ctime DESC -->
 
-| Note                                                                       | Status                             |
-| -------------------------------------------------------------------------- | ---------------------------------- |
-| [[2. notes/DML.md\|DML]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[2. notes/DDL.md\|DDL]]                                                   | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Modellizzazione logica.md\|Modellizzazione logica]]             | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Modellizzazione concettuale.md\|Modellizzazione concettuale]]   | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Modello relazionale dei dati.md\|Modello relazionale dei dati]] | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Transazione.md\|Transazione]]                                   | <ul><li>#status/finished</li></ul> |
-| [[2. notes/DBMS.md\|DBMS]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Informazione.md\|Informazione]]                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Dato.md\|Dato]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Database.md\|Database]]                                         | <ul><li>#status/finished</li></ul> |
+| Note | Status |
+| ---- | ------ |
 <!-- SerializedQuery END -->
 
 ## Referenze

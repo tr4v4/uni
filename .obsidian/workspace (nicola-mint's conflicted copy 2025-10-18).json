@@ -1,0 +1,347 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "036da0da39d525ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a39496ee0c2ab03",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "dimension": 45.80520732883318,
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "11575a6bd2823201",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          },
+          {
+            "id": "2ecae89c4bdda11b",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f5e1dd67658d5a90",
+        "type": "tabs",
+        "dimension": 20.829315332690452,
+        "children": [
+          {
+            "id": "b36b98e17ac7f398",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.09248815955110715,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Linguaggi di programmazione"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c31ec5abd0f1721f",
+        "type": "tabs",
+        "dimension": 33.365477338476374,
+        "children": [
+          {
+            "id": "580e6e077148dbf7",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "3a39496ee0c2ab03",
+  "lastOpenFiles": [
+    "0. mocs/Basi di dati (travamx's conflicted copy 2025-10-18).md",
+    "2. notes/Tipo intersezione.md",
+    "2. notes/Costruttore.md",
+    "2. notes/Overloading.md",
+    "2. notes/Classe astratta.md",
+    "2. notes/Ereditarieta' multipla.md",
+    "2. notes/Dispatch.md",
+    "2. notes/Static dispatch.md",
+    "2. notes/Dynamic dispatch.md",
+    "2. notes/Late binding.md",
+    "2. notes/Vtable.md",
+    "2. notes/Shadowing.md",
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Classe.md",
+    "2. notes/OOP.md",
+    "2. notes/Ereditarietà.md",
+    "2. notes/Sottotipaggio.md",
+    "2. notes/Prototipo.md",
+    "2. notes/Oggetto.md",
+    "media/vtable-1.png",
+    "2. notes/Struttura dati.md",
+    "2. notes/Puntatore.md",
+    "2. notes/Tipaggio statico.md",
+    "media/oggetti-implementazione.png",
+    "2. notes/Early binding.md",
+    "media/scope-statico-deep-shallow.png",
+    "2. notes/Polimorfismo.md",
+    "1. lectures/Lecture 14052025105842.md",
+    "media/deadly-diamond-of-death.png",
+    "media/ereditarietà-multipla.png",
+    "2. notes/Simmetria di una relazione.md",
+    "media/architettura-dbms-relazionale.png",
+    "media/naive-bayes-gaussiano-errori.png",
+    "media/classi-e-oggetti.png",
+    "media/componenti-stereotipi.png",
+    "media/componente-uml.png",
+    "2. notes/Untitled.base",
+    "2. notes/Equivalenze regolari.canvas",
+    "media/Unconfirmed 595121.crdownload",
+    "5. seminars",
+    "media/jupiter.jpg.crdownload",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "4. homeworks",
+    "3. projects/Untitled",
+    "3. projects/aijsodijas.canvas",
+    "media/1norm-2norm.jpg.crdownload",
+    "netlify.toml~",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

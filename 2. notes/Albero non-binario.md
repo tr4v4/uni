@@ -10,12 +10,12 @@ links:
 # Albero non-binario
 ---
 ## Introduzione
-> Un **albero non-binario** è un tipo di [[Albero informatico|albero]] cui ogni nodo può essere una foglia o diramarsi in $n$ figli.
+> Un **albero non-binario** è un tipo di [[Albero|albero]] cui ogni nodo può essere una foglia o diramarsi in $n$ figli.
 
 ## Implementazione
 ### 1° metodo
-Si può implementare con la seguente [[Strutture dati|struttura dati]]:
-- `parent` --> [[Puntatori|puntatore]] al nodo padre
+Si può implementare con la seguente [[Struttura dati|struttura dati]]:
+- `parent` --> [[Puntatore|puntatore]] al nodo padre
 - `key`, `data` --> associazione chiave-valore
 - `array` di puntatori ai figli`
 

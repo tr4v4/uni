@@ -19,7 +19,7 @@ L'approccio _orientato a oggetti_ costringe il programmatore a modellizzare il m
 - riuso
 
 Quando si parla di _oggetti_ si intendono 2 significati:
-1. la classe come [[Strutture dati|struttura dati]] che contiene _campi_ e _metodi_;
+1. la classe come [[Struttura dati|struttura dati]] che contiene _campi_ e _metodi_;
 2. la computazione come interazione tra gli oggetti;
 
 All'inizio le due parti erano un tutt'uno, ma negli anni '70 la parte di computazione tramite interazione si è scissa dalla definizione di oggetto --> è diventata parte della _programmazione ad attori/agenti_.
@@ -56,7 +56,7 @@ Per poter stabilire a che classe appartiene un oggetto possiamo usare 2 modelli:
 	- si usa per esempio nelle [[JUnit]]
 
 E' possibile cambiare a runtime la classe di un oggetto, usando:
-- in [[C++]]/[[Java]] il polimorfismo (in particolare l'[[Overriding|overriding]]);
+- in [[C++]]/[[Java]] il polimorfismo (in particolare l'[[Sottotipaggio|overriding]]);
 - in [[C]] usando i puntatori void (`void*`).
 
 ## Referenze

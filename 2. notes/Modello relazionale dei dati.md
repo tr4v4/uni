@@ -60,7 +60,7 @@ Per legare una relazione con un'altra, si _aggiungono dei campi nelle tuple_ (nu
 ![[relazione-legami.png]]
 
 #### Pointer vs. value-based
-Nelle strutture pointer-based il legame avviene mediante [[Puntatori|puntatori]], nel seguente modo:
+Nelle strutture pointer-based il legame avviene mediante [[Puntatore|puntatori]], nel seguente modo:
 ![[relazione-legami-pointer-based.png]]
 
 Nelle value-based, invece, è l'_equivalenza dei valori che crea il legame_!

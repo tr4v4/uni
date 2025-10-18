@@ -8,7 +8,7 @@
           {
             "id": "d6b6808c51293eef",
             "type": "tabs",
-            "dimension": 33.637339055793994,
+            "dimension": 27.57510729613734,
             "children": [
               {
                 "id": "af03d65dae5bb745",
@@ -25,34 +25,6 @@
                 }
               },
               {
-                "id": "050f997686cf4c76",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. lectures/Lecture 07052025110754.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Lecture 07052025110754"
-                }
-              },
-              {
-                "id": "d9dacf9e65d9852c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. lectures/Lecture 08052025131742.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Lecture 08052025131742"
-                }
-              },
-              {
                 "id": "16f290bf11435316",
                 "type": "leaf",
                 "state": {
@@ -66,29 +38,253 @@
                   "title": "Lecture 14052025105842"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "e8d3cec15a026510",
             "type": "tabs",
-            "dimension": 66.36266094420601,
+            "dimension": 72.42489270386267,
             "children": [
               {
-                "id": "9e9542c1b113b02d",
+                "id": "c37f058d57d635ca",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. notes/Tipi di dato astratto.md",
+                    "file": "2. notes/OOP.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Tipi di dato astratto"
+                  "title": "OOP"
+                }
+              },
+              {
+                "id": "c9ca907f4dbe0011",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Oggetto.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Oggetto"
+                }
+              },
+              {
+                "id": "5036e9e03e5dfdc3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Prototipo.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Prototipo"
+                }
+              },
+              {
+                "id": "4130e2d401e011f1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Classe.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Classe"
+                }
+              },
+              {
+                "id": "cfef6d18b40e828c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Shadowing.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Shadowing"
+                }
+              },
+              {
+                "id": "65a4cfe60b9a727c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Vtable.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Vtable"
+                }
+              },
+              {
+                "id": "a6de62208e3067c8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Sottotipaggio.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Sottotipaggio"
+                }
+              },
+              {
+                "id": "28c4068e78d7c6d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Ereditarietà.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Ereditarietà"
+                }
+              },
+              {
+                "id": "f80ff75b4793cf51",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Tipo intersezione.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Tipo intersezione"
+                }
+              },
+              {
+                "id": "992fe40a4b162cf8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Costruttore.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Costruttore"
+                }
+              },
+              {
+                "id": "ec6c4714fcf5647b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Overloading.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Overloading"
+                }
+              },
+              {
+                "id": "5e9b5dfa89a7692a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Classe astratta.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Classe astratta"
+                }
+              },
+              {
+                "id": "8fb2e00b3d2345b6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Ereditarieta' multipla.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Ereditarieta' multipla"
+                }
+              },
+              {
+                "id": "fa8c32e63e278059",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Dispatch.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Dispatch"
+                }
+              },
+              {
+                "id": "48bb6d2eefd2a0a1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Static dispatch.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Static dispatch"
+                }
+              },
+              {
+                "id": "11a4e685e2da340a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Dynamic dispatch.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Dynamic dispatch"
+                }
+              },
+              {
+                "id": "fde33fe8cc9485f0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. notes/Late binding.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Late binding"
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -145,8 +341,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 239.5,
-        "collapsed": true
+        "width": 239.5
       },
       "right": {
         "id": "d2a30276f1a920cd",
@@ -363,416 +558,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "9e9542c1b113b02d",
-      "mtime": "2025-10-11T16:08:44+02:00"
-    },
-    "Database": {
-      "main": {
-        "id": "472e90a515bdb311",
-        "type": "split",
-        "children": [
-          {
-            "id": "0cb844ebdbd7276a",
-            "type": "tabs",
-            "dimension": 33.31545064377682,
-            "children": [
-              {
-                "id": "9cc4e4379453fe4f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "0. mocs/Basi di dati.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Basi di dati"
-                }
-              },
-              {
-                "id": "79c4dde49ecd4d93",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. lectures/Lecture 09102025151427.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Lecture 09102025151427"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "663eb0f2ec21aa73",
-            "type": "tabs",
-            "dimension": 66.68454935622317,
-            "children": [
-              {
-                "id": "3c4f4e9f17ffbdb3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/Calcolo relazionale.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Calcolo relazionale"
-                }
-              },
-              {
-                "id": "3634ca6715f76312",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/SQL.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "SQL"
-                }
-              },
-              {
-                "id": "8f939c3591af975c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/Calcolo relazionale sui domini.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Calcolo relazionale sui domini"
-                }
-              },
-              {
-                "id": "62fccb898949c62f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/Calcolo relazionale su tuple con dichiarazioni del range.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Calcolo relazionale su tuple con dichiarazioni del range"
-                }
-              },
-              {
-                "id": "8a6b5366892ce513",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/Limiti del calcolo e dell'algebra relazionale.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Limiti del calcolo e dell'algebra relazionale"
-                }
-              },
-              {
-                "id": "1302db28d4a85bf7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. notes/Datalog.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Datalog"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "cf7ab60d695759ef",
-        "type": "split",
-        "children": [
-          {
-            "id": "700edbdca6467b73",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fde22237f1d4b81b",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "byModifiedTime",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "84188f4c6672f9d8",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "8808a1c54be8d13b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 239.5
-      },
-      "right": {
-        "id": "d2a30276f1a920cd",
-        "type": "split",
-        "children": [
-          {
-            "id": "534c93fde21f83cd",
-            "type": "tabs",
-            "dimension": 45.80520732883318,
-            "children": [
-              {
-                "id": "c7c5c6af0f3637b7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "2. notes/Algebra relazionale.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Algebra relazionale"
-                }
-              },
-              {
-                "id": "8296ae9f9b6fbbb9",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "0. mocs/Linguaggi di programmazione.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from Linguaggi di programmazione"
-                }
-              },
-              {
-                "id": "bb4dff6f9dab22b8",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "b6848b986be9c4a1",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "2. notes/Algebra relazionale.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Algebra relazionale"
-                }
-              },
-              {
-                "id": "9981f3c73eda2539",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "37f6c573762e5d8c",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "6a36b9b141e49926",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "0. mocs/Linguaggi di programmazione.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for Linguaggi di programmazione"
-                }
-              },
-              {
-                "id": "11575a6bd2823201",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
-                "id": "2ecae89c4bdda11b",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              }
-            ]
-          },
-          {
-            "id": "f5e1dd67658d5a90",
-            "type": "tabs",
-            "dimension": 20.829315332690452,
-            "children": [
-              {
-                "id": "b36b98e17ac7f398",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "2. notes/Algebra relazionale.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.09248815955110715,
-                      "close": true
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of Algebra relazionale"
-                }
-              }
-            ]
-          },
-          {
-            "id": "c31ec5abd0f1721f",
-            "type": "tabs",
-            "dimension": 33.365477338476374,
-            "children": [
-              {
-                "id": "580e6e077148dbf7",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 296.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "bases:Create new base": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "random-note:Open random note": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "templater-obsidian:Templater": false,
-          "soundscapes:Soundscapes: My Music": false,
-          "workspaces:Manage workspace layouts": false
-        }
-      },
-      "active": "3634ca6715f76312",
-      "mtime": "2025-10-13T15:03:52+02:00"
+      "active": "fde22237f1d4b81b",
+      "mtime": "2025-10-18T12:36:42+02:00"
     }
   },
-  "active": "Database"
+  "active": "Linguaggi"
 }

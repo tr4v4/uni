@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/linguaggi-di-programmazione
 date: 11-10-2025 15:40:21
 links:
@@ -10,7 +10,7 @@ links:
 # Tipi esistenziali
 ---
 ## Introduzione
-> I **tipi esistenziali** sono un [[Tipi di dato|tipo di dato]] derivato dai [[Tipi di dato astratto|tipi di dato astratto]].
+> I **tipi esistenziali** sono uno strumento della [[Teoria dei tipi|teoria dei tipi]] per fare _information hiding_. Consentono di implementare gli [[Tipi di dato astratto|ADT]] e gli [[Oggetti esistenziali|oggetti esistenziali]].
 
 Un tipo come
 ```Rust
@@ -29,8 +29,9 @@ Qui facciamo una serie di cose:
 - specifichiamo che stiamo implementando il tipo esistenziale $CounterADT$;
 - "spacchettiamo" l'ADT in $Counter$, il tipo che prende il posto del tipo concreto, e in $c$, il record delle operazioni del tipo $Counter$.
 
-Una volta fatto lo spacchettamento, _$Counter$ rimarra' vincolato alla sua implementazione $*int$ per tutto il resto del programma_.
+Una volta fatto lo spacchettamento, _$Counter$ rimarra' vincolato alla sua implementazione $*int$ per tutto il resto del programma_. Ma il programma vedra' solo il suo dato astratto $Counter$, non l'implementazione! E stessa cosa per $c$: il programma potra' accede ai metodi $c.new, c.get, c.inc$, ma non sapra' come sono implementati.
 
-Ora, _potremmo sostituire l'implementazione dell'ADT senza incorrere in errori nel resto del codice che usa $Counter$ e $c$_!
+Ora, _potremmo sostituire l'implementazione dell'ADT senza incorrere in errori nel resto del codice che usa $Counter$ e $c$_! Infatti, **se anche cambiassimo l'implementazione con $*string$, il programma rimarrebbe type safe**: perche' lavora sui tipi astratti, e non direttamente con la loro implementazione concreta!
 
 ## Referenze
+- [[Oggetti esistenziali]]

@@ -34,7 +34,7 @@ Se abbiamo un array di `int` (che occupano 4 byte l'uno), per riferirci alle cel
 Per un array `double` avremo 8 byte per locazione.
 
 ## Definizione
-> In definitiva gli array sono [[Strutture dati|strutture dati]] costituite da una sequenza di _elementi omogenei_ accessibili tramite un _indice_; hanno _dimensione fissa_[^2] e soprattutto ha un _costo di accesso costante per tutti gli elementi_: vale a dire che non fa distinzione tra l'accesso alla prima cella e all'ultima.
+> In definitiva gli array sono [[Struttura dati|strutture dati]] costituite da una sequenza di _elementi omogenei_ accessibili tramite un _indice_; hanno _dimensione fissa_[^2] e soprattutto ha un _costo di accesso costante per tutti gli elementi_: vale a dire che non fa distinzione tra l'accesso alla prima cella e all'ultima.
 
 ## Sintassi
 ### Dichiarazione

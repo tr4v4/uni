@@ -14,14 +14,14 @@ links:
 > Il **Quick find** è un'[[Prototipo vs Implementazione|implementazione]] della [[Struttura union-find|struttura union-find]] che _privilegia l'operazione di `find` in termini di efficienza a discapito di `union`_.
 
 ## Implementazione
-Si implementa usando [[Albero informatico|alberi]] di _altezza uno_ per rappresentare gli [[Insieme|insiemi]] disgiunti, tali che le foglie contengono tutti gli elementi dell'insieme e il rappresentante è la radice, come da immagine.
+Si implementa usando [[Albero|alberi]] di _altezza uno_ per rappresentare gli [[Insieme|insiemi]] disgiunti, tali che le foglie contengono tutti gli elementi dell'insieme e il rappresentante è la radice, come da immagine.
 ![[quick-find.png|700]]
 
 ### `makeSet`
 Il `makeSet` è sempre un'operazione elementare, con [[Complessità computazionale|costo]] costante $O(1)$.
 
 ### `find`
-L'operazione di `find`, assumendo di avere accesso diretto al nodo-foglia in questione, consiste nell'accedere al [[Puntatori|puntatore]] `father` e ricavare così il rappresentante.
+L'operazione di `find`, assumendo di avere accesso diretto al nodo-foglia in questione, consiste nell'accedere al [[Puntatore|puntatore]] `father` e ricavare così il rappresentante.
 
 Il costo è costante, $O(1)$.
 

@@ -24,7 +24,7 @@ Nei [[Linguaggio di programmazione funzionale|linguaggi di programmazione funzio
 Nei [[Linguaggio di programmazione logico|linguaggi di programmazione logici]] le variabili **denotano sempre un valore**, ma **sono modificabili** entro certi limiti.
 
 ### A riferimento
-In alcuni linguaggi di programmazione, invece, una variabile costituisce un riferimento a un valore, che ha un [[Nome|nome]]. E' analogo alla nozione di [[Puntatori|puntatore]], ma non si può modificare la loro locazione.
+In alcuni linguaggi di programmazione, invece, una variabile costituisce un riferimento a un valore, che ha un [[Nome|nome]]. E' analogo alla nozione di [[Puntatore|puntatore]], ma non si può modificare la loro locazione.
 
 In modelli di variabili del genere, ovviamente, è facile che si verifichi [[Aliasing|aliasing]].
 

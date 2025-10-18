@@ -1,11 +1,14 @@
 {
   "accentColor": "",
   "showViewHeader": true,
-  "cssTheme": "Obsidian gruvbox",
+  "cssTheme": "",
   "baseFontSize": 16,
   "theme": "obsidian",
   "showRibbon": true,
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "enabledCssSnippets": [
+    "line_length"
+  ]
 }

@@ -33,7 +33,7 @@ Nella OOD si trattano:
 ## Diagrammi
 Si hanno ancora i [[Diagramma delle classi|diagrammi delle classi]] e [[Diagramma degli oggetti|diagrammi degli oggetti]], ma sono raffinati per dare riferimento al design del sistema. In più, si presentano i:
 - _diagrammi comportamentali_, di cui
-	- diagrammi di interazione, in particolare i [[Diagramma delle sequenze|diagrammi di sequenza]];
+	- diagrammi di interazione, in particolare i [[Diagramma delle sequenze|diagrammi di sequenza]]/[[Diagramma delle collaborazioni|diagrammi delle collaborazioni]]
 	- [[Diagramma di stato|diagrammi degli stati]];
 	- [[Diagramma delle attività|diagrammi delle attività]];
 

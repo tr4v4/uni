@@ -10,7 +10,7 @@ links:
 # Coda con priorità
 ---
 ## Introduzione
-> Una **coda con priorità** (o **priority queue**) è una [[Strutture dati|struttura dati]] che _restituisce il minimo in un insieme dinamico di coppie_ (_key_, _data_) _ordinate secondo una relazione d'ordine totale definita sulle chiavi_.
+> Una **coda con priorità** (o **priority queue**) è una [[Struttura dati|struttura dati]] che _restituisce il minimo in un insieme dinamico di coppie_ (_key_, _data_) _ordinate secondo una relazione d'ordine totale definita sulle chiavi_.
 
 A differenza di [[Coda|code]] e [[Pila|pile]], per le quali _la scelta di chi dev'essere estratto dipende da quanto tempo ogni elemento è presente nella lista_, una coda con priorità _sceglie chi estrarre in base alla priorità_ (_chiave_) assegnata a ogni elemento[^1].
 

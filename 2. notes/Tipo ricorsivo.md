@@ -12,7 +12,7 @@ links:
 ## Introduzione
 > I [[Tipi di dato|tipi di dato]] [[Tipi composti|composti]] **ricorsivi** sono _tipi che nella loro definizioni contengono loro stessi_.
 
-Anche se da un punto di vista astratto/logico non hanno alcun senso[^1], i tipi ricorsivi sono _estremamente utili per definire [[Strutture dati|strutture dati]] modificabili dinamicamente_, come [[Lista|liste]], [[Albero informatico|alberi]], ecc...
+Anche se da un punto di vista astratto/logico non hanno alcun senso[^1], i tipi ricorsivi sono _estremamente utili per definire [[Struttura dati|strutture dati]] modificabili dinamicamente_, come [[Lista|liste]], [[Albero|alberi]], ecc...
 
 Si esprimono, di solito, attraverso i [[Tipo prodotto|tipi prodotto]]. Ma si possono anche esprimere attraverso i [[Tipo somma|tipi somma]] (per evitare di dover scrivere il `NULL` per indicare la fine).
 

@@ -43,7 +43,7 @@ Sotto le quinte, in realtà, quello che succede è che un'eccezione è un tipo r
 E' importante notare che **il blocco `try` non è eseguito [[Azione atomica|atomicamente]]**! Ma viene eseguito passo passo fino a che un'istruzione non solleva un'eccezione: _lì subentra il codice del gestore di riferimento_, definito nel `catch`.
 
 #### Eccezioni
-Il blocco `catch` fa riferimento a un'eccezione, [[Overriding|sottotipo]] di `Throwable`, legata a un nome. In [[Java]] la gerarchia di sottotipaggio dei `Throwable` è la seguente:
+Il blocco `catch` fa riferimento a un'eccezione, [[Sottotipaggio|sottotipo]] di `Throwable`, legata a un nome. In [[Java]] la gerarchia di sottotipaggio dei `Throwable` è la seguente:
 ![[throwable-java.png]]
 
 Di fatto quindi i `Throwable` si dividono principalmente in:

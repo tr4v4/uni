@@ -18,7 +18,7 @@ Furono introdotti nel 1974 da [[Tony Hoare|Hoare]], e oggigiorno sono implementa
 ### Idea
 I [[Semafori|semafori]] servivano per proteggere dati condivisi da accessi concorrenti. Se riuscissimo a trovare un **meccanismo per nascondere tali dati**, _potremmo evitare l'uso di semafori con tutte le problematiche che ne conseguono_.
 
-L'idea è allora quella di _mettere i dati in una sorta di [[Classe informatica|classe]] con metodi per accederci_, e implementare un _meccanismo che consenta a un solo [[Thread|thread]] alla volta di accederci_.
+L'idea è allora quella di _mettere i dati in una sorta di [[Classe|classe]] con metodi per accederci_, e implementare un _meccanismo che consenta a un solo [[Thread|thread]] alla volta di accederci_.
 
 ## Architettura
 Un monitor è costituito da:

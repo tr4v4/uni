@@ -10,7 +10,7 @@ links:
 # Matrice di adiacenza
 ---
 ## Introduzione
-> Per **[[Matrice|matrice]] di adiacenza** si intende una [[Strutture dati|struttura dati]] per la rappresentazione di [[Grafo|grafi]].
+> Per **[[Matrice|matrice]] di adiacenza** si intende una [[Struttura dati|struttura dati]] per la rappresentazione di [[Grafo|grafi]].
 
 ## Implementazione
 Dividiamo l'implementazione a seconda del tipo di grafo in questione, nonostante in realtà si tratti di una differenza prettamente teorica.

@@ -10,13 +10,13 @@ links:
 # Pila
 ---
 ## Introduzione
-> Una **pila** è una [[Strutture dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[LIFO]] che supporta due operazioni principali: `PUSH` e `POP`. Viene utilizzata in ambiti dell'informatica piuttosto disparati, dalla gestione dei [[Record di attivazione|record di attivazione]], a numerosi [[Linguaggio di programmazione|linguaggi di programmazione]] _stack-oriented_[^1], fino all'implementazione di specifici [[Algoritmo|algoritmi]][^2].
+> Una **pila** è una [[Struttura dati|struttura dati]] [[Strutture dati elementari|elementare]] basata sul modello [[LIFO]] che supporta due operazioni principali: `PUSH` e `POP`. Viene utilizzata in ambiti dell'informatica piuttosto disparati, dalla gestione dei [[Record di attivazione|record di attivazione]], a numerosi [[Linguaggio di programmazione|linguaggi di programmazione]] _stack-oriented_[^1], fino all'implementazione di specifici [[Algoritmo|algoritmi]][^2].
 
 ## Implementazioni
 ### [[Lista]] concatenata semplice
 E' possibile implementare questa struttura mediante una lista concatenata semplice. Anzi, si tratta di una delle migliori opzioni, con i seguenti vantaggi e svantaggi:
 - _pro_: dimensione illimitata;
-- _con_: piccolo overhead di memoria (i [[Puntatori|puntatori]])
+- _con_: piccolo overhead di memoria (i [[Puntatore|puntatori]])
 
 Inoltre i [[Complessità computazionale|costi]] delle operazioni di `PUSH` e `POP` sono costanti.
 ![[pila-lista.png]]

@@ -16,7 +16,7 @@ links:
 I tipi composti si raccolgono in:
 - [[Array|array]];
 - [[Insieme|insiemi]];
-- [[Riferimento|riferimenti]] o [[Puntatori|puntatori]];
+- [[Riferimento|riferimenti]] o [[Puntatore|puntatori]];
 - [[Tipo prodotto|prodotto]];
 - [[Tipo ricorsivo|ricorsivi]];
 - [[Tipo somma|somma]];

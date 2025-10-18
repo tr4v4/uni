@@ -11,7 +11,7 @@ links:
 # Struttura union-find
 ---
 ## Introduzione
-> Una **struttura union-find** è una _[[Strutture dati|struttura dati]] usata per gestire e rappresentare [[Insieme|insiemi]] disgiunti_, ovvero la cui [[Definizione di intersezione|intersezione]] è l'[[Definizione di insieme vuoto|insieme vuoto]] $\varnothing$. Sono composti da una collezione $S$ di $k$ elementi, del tipo
+> Una **struttura union-find** è una _[[Struttura dati|struttura dati]] usata per gestire e rappresentare [[Insieme|insiemi]] disgiunti_, ovvero la cui [[Definizione di intersezione|intersezione]] è l'[[Definizione di insieme vuoto|insieme vuoto]] $\varnothing$. Sono composti da una collezione $S$ di $k$ elementi, del tipo
 > $$S = \{s_{1}, \cdots, s_{k}\}$$
 > dove $s_{1}, \cdots, s_{k}$ sono appunto insiemi disgiunti. Complessivamente il numero di elementi $n$ in $S$ è sempre maggiore uguale al numero di insiemi $k$, ovvero
 > $$n \geq k$$

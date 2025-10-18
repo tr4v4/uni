@@ -13,7 +13,7 @@ links:
 > L'**algoritmo di Prim** è un [[Algoritmo|algoritmo]] che consente di identificare il [[Minimum spanning tree|minimum spanning tree]] di un [[Grafo|grafo]], _facendo uso soltanto della regola del taglio_.
 
 ## Idea
-L'idea è di, a partire da un vertice radice $r$, di _accrescere il minimum spanning tree mantenendo la proprietà di minimizzazione del peso_. In particolare si associa ad ogni nodo un valore di distanza, all'inizio $\infty$ per tutti; quindi a partire da $r$ si aggiungono le adiacenze in una [[Strutture dati|struttura dati]] che mantenga l'ordine dei vertici sulla base della loro distanza. Quindi, per ogni adiacenza:
+L'idea è di, a partire da un vertice radice $r$, di _accrescere il minimum spanning tree mantenendo la proprietà di minimizzazione del peso_. In particolare si associa ad ogni nodo un valore di distanza, all'inizio $\infty$ per tutti; quindi a partire da $r$ si aggiungono le adiacenze in una [[Struttura dati|struttura dati]] che mantenga l'ordine dei vertici sulla base della loro distanza. Quindi, per ogni adiacenza:
 - se tale nodo ha **distanza infinita si aggiunge alla struttura dati** (in fondo);
 - se tale nodo ha una **distanza maggiore del peso dell'arco che collega il vertice analizzato a tale nodo**, allora si **aggiunge alla struttura dati con distanza uguale al peso dell'arco**.
 

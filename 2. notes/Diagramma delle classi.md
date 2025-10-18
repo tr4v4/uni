@@ -7,6 +7,7 @@ date: 29-09-2025 22:41:08
 links:
   - "[[Lecture 29092025150827]]"
   - "[[Lecture 06102025105214]]"
+  - "[[Lecture 13102025104920]]"
 ---
 # Diagramma delle classi
 ---
@@ -56,7 +57,14 @@ Esistono poi 4 tipi di associazioni particolari.
 - l'oggetto e' parte integrante di un tuttuno, e muore se muore il tuttuno;
 - ![[diagramma-classi-composizione.png]]
 
-##### Generalizzazione
+##### Realizzazione
+- e' letteralmente l'implementazione di un'interfaccia in Java;
+
+##### Dipendenza
+- mmmh boh?
+- "quando per lavorare ho necessariemente bisogno di un'altra classe"
+
+##### Ereditarietà o Generalizzazione
 - anche detto sottotipaggio
 - diversa da istanziazione
 	- infatti la generalizzazione e' transitiva, mentre l'istanziazione no
@@ -65,10 +73,6 @@ Esistono poi 4 tipi di associazioni particolari.
 - la generalizzazione di solito si può concretizzare in:
 	- _estensione_ - metodo standard, in cui la sottoclasse eredita tutto dalla superclasse;
 	- _restrizione_ - di difficile realizzazione, in cui la sottoclasse vincola attributi o metodi della superclasse;
-
-##### Contenimento
-
-##### Ereditarietà
 - ![[diagramma-classi-ereditarietà.png]]
 - esiste anche l'ereditarietà multipla!
 	- in tal caso può avvenire che le gerarchie si sovrappongano, come nel seguente caso:

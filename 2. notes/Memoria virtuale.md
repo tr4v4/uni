@@ -17,7 +17,7 @@ links:
 Il motivo per cui funziona è che i processi non utilizzano sempre tutta la memoria a loro disposizione, vale a dire che non accedono al loro spazio di indirizzamento in [[Distribuzione uniforme discreta|modo uniforme]], ma tendono a farlo in _modo contiguo_.
 
 ### Motivazioni
-Ciò risulta particolarmente utile nel momento in cui la memoria risulta non sufficientemente grande per le operazioni richieste. Ma nella pratica, **serve per risparmiare memoria primaria**: per esempio, la _routine di gestione degli errori potrebbe non essere mai chiamata da un programma_, e quindi si puo' benissimo mantenere in memoria secondaria; lo stesso vale per i [[Compilatore|compilatori]], che usano [[Strutture dati|strutture dati]] differenti a seconda delle fasi.
+Ciò risulta particolarmente utile nel momento in cui la memoria risulta non sufficientemente grande per le operazioni richieste. Ma nella pratica, **serve per risparmiare memoria primaria**: per esempio, la _routine di gestione degli errori potrebbe non essere mai chiamata da un programma_, e quindi si puo' benissimo mantenere in memoria secondaria; lo stesso vale per i [[Compilatore|compilatori]], che usano [[Struttura dati|strutture dati]] differenti a seconda delle fasi.
 
 ## Implementazione
 Si assegna ad ogni processo uno **spazio di indirizzamento virtuale** che puo' essere piu' grande di quello fisico. Gli indirizzi virtuali, quindi, saranno mappati:

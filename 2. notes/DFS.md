@@ -10,13 +10,13 @@ links:
 # DFS
 ---
 ## Introduzione
-> La **DFS** (**Depth First Search**) è un paradigma di visita di [[Albero informatico|alberi]] e [[Grafo|grafi]], che prevede di andare in profondità il più possibile prima di visitare il nodo successivo allo stesso livello. Esistono tre varianti: _pre-ordine_, _post-ordine_ e _in-ordine_.
+> La **DFS** (**Depth First Search**) è un paradigma di visita di [[Albero|alberi]] e [[Grafo|grafi]], che prevede di andare in profondità il più possibile prima di visitare il nodo successivo allo stesso livello. Esistono tre varianti: _pre-ordine_, _post-ordine_ e _in-ordine_.
 
 ## Alberi
 - [[Albero binario#DFS]]
 
 ## Osservazione
-Nota come l'approccio DFS, a differenza del [[BFS]], non abbia bisogno nell'implementazione pratica di una [[Strutture dati|struttura dati]] d'appoggio come la [[Pila|pila]], perché **utilizza lo [[Stack|stack]] stesso della macchina come struttura per visitare alberi e grafi in profondità**.
+Nota come l'approccio DFS, a differenza del [[BFS]], non abbia bisogno nell'implementazione pratica di una [[Struttura dati|struttura dati]] d'appoggio come la [[Pila|pila]], perché **utilizza lo [[Stack|stack]] stesso della macchina come struttura per visitare alberi e grafi in profondità**.
 
 ## Referenze
 - [[BFS]]

@@ -53,7 +53,7 @@ Quando si affronta un algoritmo si deve perciò:
 - **capire** bene gli input, gli output e le proprietà matematiche ad esso correlato
 - **apprendere** attraverso delle stime l'efficienza dell'algoritmo in termini di _tempo e memoria_ (esistono tecniche per valutare l'efficienza di un algoritmo senza testarlo praticamente)
 - **studiare** tecniche algoritmiche, perché _spesso problemi differenti condividono la stessa struttura di base_[^1]
-	- ad esempio gli [[Algoritmo di ordinamento|algoritmi di ordinamento]] sono correlati ad [[Albero informatico|alberi]]
+	- ad esempio gli [[Algoritmo di ordinamento|algoritmi di ordinamento]] sono correlati ad [[Albero|alberi]]
 	- quindi si cerca di _mappare un problema da un dominio a un altro_
 
 <u>Attenzione</u>: si deve fare tutto ciò per la sola ragione che **non esiste un algoritmo che genera una soluzione a partire da un problema**.

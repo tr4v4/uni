@@ -46,7 +46,7 @@ Una dipendenza è per forza necessario, per esempio:
 	- grande mito: con gerarchie di classi si riducono i costi di produzione
 	- si e' scoperto empiricamente invece che la presenza di grandi gerarchie di classi produce una sostanziale incomprensione di quello che succede
 		- [[Ereditarietà|ereditarieta']]
-		- [[Overriding|funzioni virtuali]] e non virtuali
+		- [[Sottotipaggio|funzioni virtuali]] e non virtuali
 	- insomma dopo tot. livelli di ereditarieta' il programma diventa illeggibile
 	- GO e Rust (pseudo-oggetti) ha abolito l'ereditarieta' per questo
 	- Java ha l'ereditarieta' singola! (solo 1 superclasse)

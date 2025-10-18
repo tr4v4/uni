@@ -11,7 +11,7 @@ links:
 ---
 ## Introduzione
 ### Tipo opzione
-E' utile per gestire in maniera strutturata [[Puntatori|puntatori]] nulli (abitante `null`).
+E' utile per gestire in maniera strutturata [[Puntatore|puntatori]] nulli (abitante `null`).
 Mescolano [[Generics|tipi parametrici]] con [[Tipo somma|tipi somma]]:
 ```rust
 type Maybe<T>: Some<T> + None

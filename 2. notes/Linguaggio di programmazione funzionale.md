@@ -17,7 +17,7 @@ links:
 > Un **linguaggio di programmazione funzionale** è un tipo di [[Linguaggio di programmazione|linguaggio di programmazione]] che, a differenza degli [[Linguaggio di programmazione imperativo|imperativi]], si _concentrano sul cosa fare piuttosto che sul come_, demandando al [[Compilatore|compilatore]] il "lavoro sporco".
 > Il risultato di un programma è il valore esplicito di un'espressione: programmare diventa essere in grado di costruire la funzione che calcola il risultato voluto, e tale costruzione di solito utilizza come unico costrutto di base la [[Ricorsione|ricorsione]][^3].
 
-Si basa sulle [[Funzione informatica|funzioni]], avvicinando il più possibile quelle informatiche a quelle [[Funzione matematica|matematiche]]. Non esistono [[Iterazione|cicli]], [[Memorie|memorie]] né [[Strutture dati|strutture dati]]. Di fatto la maggior parte di questi linguaggi adotta come unico tipo di dato "base" il [[ADT|tipo di dato astratto]].
+Si basa sulle [[Funzione informatica|funzioni]], avvicinando il più possibile quelle informatiche a quelle [[Funzione matematica|matematiche]]. Non esistono [[Iterazione|cicli]], [[Memorie|memorie]] né [[Struttura dati|strutture dati]]. Di fatto la maggior parte di questi linguaggi adotta come unico tipo di dato "base" il [[ADT|tipo di dato astratto]].
 
 I più importanti e riconosciuti linguaggi di programmazione funzionale sono:
 - [[Haskell]]
@@ -46,7 +46,7 @@ L'invocazione di una funzione avviene per mezzo del meccanismo di [[Pattern matc
 Questi linguaggi si distinguono dagli imperativi per una serie di caratteristiche peculiari. Per esempio:
 - _non ci sono assegnamenti_
 - _non ci sono cicli_
-- _non c'è una gestione a basso livello della [[RAM|memoria]]_ (per esempio dei [[Puntatori|puntatori]], compresa l'allocazione e deallocazione della memoria)[^2]
+- _non c'è una gestione a basso livello della [[RAM|memoria]]_ (per esempio dei [[Puntatore|puntatori]], compresa l'allocazione e deallocazione della memoria)[^2]
 - _non esiste la randomicità_
 
 Le proprietà, invece, che li contrappongono in modo netto dai linguaggi imperativi sono:

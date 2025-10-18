@@ -11,7 +11,7 @@ links:
 # Albero di deduzione naturale
 ---
 ## Introduzione
-> Un **albero di deduzione naturale** per $\Gamma \vdash F$ (dove $\Gamma$ sono le _ipotesi globali_ e $F$ la _tesi da dimostrare_) è una [[Strutture dati|struttura dati]] _arborescente_.
+> Un **albero di deduzione naturale** per $\Gamma \vdash F$ (dove $\Gamma$ sono le _ipotesi globali_ e $F$ la _tesi da dimostrare_) è una [[Struttura dati|struttura dati]] _arborescente_.
 
 I nodi dell'albero fanno a loro volta partire sotto-alberi, fino ad arrivare a delle foglie, in una _struttura [[Ricorsione|ricorsiva]]_.
 
