@@ -1,5 +1,5 @@
 [build]
-command = "echo \"<html><a href='https://uni.mindra.ddns.net'>New site here!</a></html>\" > public/index.html && echo \"google.com, pub-1346441900263190, DIRECT, f08c47fec0942fa0\" > public/ads.txt"
+command = "mkdir -p public && echo \"<html><a href='https://uni.mindra.ddns.net'>New site here!</a></html>\" > public/index.html && echo \"google.com, pub-1346, DIRECT, f08c47fec0942fa0\" > public/ads.txt"
 publish = "public"
 
 [build.environment]
