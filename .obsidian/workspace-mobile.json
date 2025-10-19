@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. mocs/Reti di calcolatori.md",
+                "file": "2. notes/Covarianza e controvarianza.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti di calcolatori"
+              "title": "Covarianza e controvarianza"
             }
           }
         ],
@@ -189,6 +189,7 @@
   },
   "active": "550bf9c6ebccfda7",
   "lastOpenFiles": [
+    "0. mocs/Reti di calcolatori.md",
     "2. notes/Covarianza e controvarianza.md",
     "2. notes/Overriding.md",
     "2. notes/Generics.md",
@@ -215,7 +216,6 @@
     "5. seminars/Tecniche per l'elaborazione delle immagini digitali.md",
     "5. seminars/Rappresentazioni succinte di alberi.md",
     "5. seminars/Mens et manus, in libertate universis.md",
-    "5. seminars/A modern view of centrality measures.md",
     "media/insieme-semplice-asse-y.jpg",
     "media/insieme-semplice-asse-x.jpg",
     "media/architettura-von-neumann.png",

@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/ongoing
+  - status/finished
   - topic/basi-di-dati
 date: 18-10-2025 15:35:57
 links:
@@ -54,19 +54,12 @@ Sappiamo che in un database acceduto contemporaneamente da più utenti è necess
 
 Il manager delle transazioni, allora, gestisce:
 - _logging and recovery_
-- _concurrency control_
+- _[[Controllo della concorrenza nei DBMS|concurrency control]]_
 
 #### Logging and recovery
 Si compone di:
 - _manager dei log_ --> segna su un file separato tutte le operazioni svolte dal database (e quindi le transazioni); inizialmente le scrive sul buffer, e poi negozia con il buffer manager per assicurarsi che tali log siano scritti anche sul disco;
 - _manager del recovery_ --> esamina i log changes e in caso di system failure ripristinano il database a uno stato consistente.
 
-#### Concurrency control
-Anche se le transazioni appunto sono eseguite in "isolamento", _nella realtà non sono eseguite in sequenza_! Si cerca di parallelizzare il più possibile tali transazioni, ma per farlo nella maniera più corretta sono necessari dei meccanismi di controllo delle concorrenze.
-
-In particolare, si vuole assicurere che:
-> L'**ordine di esecuzione delle transazioni sia scelto in modo tale che l'effetto sia lo stesso del caso di esecuzione sequenziale** (una alla volta).
-
-Questa proprietà si può ottenere usando un meccanismo di **lock**: _quando due query accedono alla stessa tabella, viene creato un lucchetto che fa passare una transizione alla volta_. Tuttavia, questo può portare addirittura a casi di [[Deadlock|deadlock]]!
-
 ## Referenze
+- [[Implementazione della join]]
