@@ -1,5 +1,5 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh && echo \"google.com, pub-1346441900263190, DIRECT, f08c47fec0942fa0\" > public/ads.txt"
+command = "echo \"<html><a href='https://uni.mindra.ddns.net'>New site here!</a></html>\" > public/index.html && echo \"google.com, pub-1346441900263190, DIRECT, f08c47fec0942fa0\" > public/ads.txt"
 publish = "public"
 
 [build.environment]

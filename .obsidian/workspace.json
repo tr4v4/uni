@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -420,6 +419,7 @@
   },
   "active": "1146ca0520949ebc",
   "lastOpenFiles": [
+    "0. mocs/Seminari.md",
     "2. notes/Strict 2PL.md",
     "2. notes/Controllo della concorrenza nei DBMS.md",
     "2. notes/Schedule di un DBMS.md",
@@ -456,7 +456,6 @@
     "2. notes/DBMS.md",
     "0. mocs/Università.md",
     "0. mocs/Università II anno.md",
-    "0. mocs/Università III anno.md",
     "media/vtable-1.png",
     "media/oggetti-implementazione.png",
     "media/scope-statico-deep-shallow.png",
