@@ -17,8 +17,6 @@ date: 21-09-2025 20:46:48
 | [[1. lectures/Lecture 20102025152255.md\|Lecture 20102025152255]] | <ul><li>[[0. mocs/Ingegneria del software.md\|Ingegneria del software]]</li></ul> |
 <!-- SerializedQuery END -->
 
-
-
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/ingegneria-del-software SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/ingegneria-del-software SORT file.ctime DESC -->
@@ -74,6 +72,9 @@ date: 21-09-2025 20:46:48
 
 | Note                                                                                                               | Status                             |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[2. notes/Architectural styles.md\|Architectural styles]]                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipi di dato astratto.md\|Tipi di dato astratto]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Pipes and filters.md\|Pipes and filters]]                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Design patterns comportamentali.md\|Design patterns comportamentali]]                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Mediator.md\|Mediator]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Chain of responsibility.md\|Chain of responsibility]]                                                   | <ul><li>#status/finished</li></ul> |

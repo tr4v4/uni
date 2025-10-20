@@ -1,7 +1,7 @@
 ---
 tags:
   - category/note
-  - status/pending
+  - status/finished
   - topic/ingegneria-del-software
 date: 20-10-2025 19:13:35
 links:
