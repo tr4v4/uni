@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "472e90a515bdb311",
+    "type": "split",
+    "children": [
+      {
+        "id": "94822d61a32ff3ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "895eddae770f9b6f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7ab60d695759ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "700edbdca6467b73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde22237f1d4b81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84188f4c6672f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8808a1c54be8d13b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d2a30276f1a920cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "534c93fde21f83cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7c5c6af0f3637b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. notes/Chain of responsibility.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chain of responsibility"
+            }
+          },
+          {
+            "id": "8296ae9f9b6fbbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. notes/Chain of responsibility.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Chain of responsibility"
+            }
+          },
+          {
+            "id": "bb4dff6f9dab22b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6848b986be9c4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. notes/Chain of responsibility.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chain of responsibility"
+            }
+          },
+          {
+            "id": "9981f3c73eda2539",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "37f6c573762e5d8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a36b9b141e49926",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "2. notes/Chain of responsibility.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Chain of responsibility"
+            }
+          },
+          {
+            "id": "2ecae89c4bdda11b",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          },
+          {
+            "id": "1aceefe32945ee1e",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 344.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
+    }
+  },
+  "active": "895eddae770f9b6f",
+  "lastOpenFiles": [
+    "1. lectures/Lecture 20102025152255.md",
+    "0. mocs/Ingegneria del software.md",
+    "0. mocs/Ingegneria del software (travamx's conflicted copy 2025-10-20).md",
+    "2. notes/Design patterns.md",
+    "2. notes/Mediator.md",
+    "2. notes/Chain of responsibility.md",
+    "2. notes/Strategy.md",
+    "2. notes/Visitor.md",
+    "2. notes/Design patterns strutturali.md",
+    "2. notes/Proxy pattern.md",
+    "2. notes/Decorator.md",
+    "2. notes/Bridge pattern.md",
+    "2. notes/Adapter.md",
+    "2. notes/Design patterns comportamentali.md",
+    "media/mediator-uml.png",
+    "media/chain-of-responsibility-uml.png",
+    "2. notes/Design di sistemi software.md",
+    "media/strategy-uml.png",
+    "media/visitor-uml.png",
+    "media/proxy-uml.png",
+    "media/decorator-example-uml.png",
+    "media/decorator-uml.png",
+    "2. notes/Design patterns creazionali.md",
+    "2. notes/Builder.md",
+    "2. notes/Livello MAC-LLC.md",
+    "media/bridge-uml.png",
+    "media/adapter-uml.png",
+    "media/adapter-mul-uml.png",
+    "2. notes/Abstract factory.md",
+    "2. notes/Proxy.md",
+    "2. notes/Singleton.md",
+    "2. notes/Prototype.md",
+    "2. notes/Factory method.md",
+    "2. notes/Ereditarieta' multipla.md",
+    "2. notes/Use case.md",
+    "2. notes/SQL.md",
+    "media/Unconfirmed 203446.crdownload",
+    "media/Unconfirmed 326543.crdownload",
+    "media/Unconfirmed 612643.crdownload",
+    "Unconfirmed 560457.crdownload",
+    "2. notes/Untitled.base",
+    "2. notes/Equivalenze regolari.canvas",
+    "media/Unconfirmed 595121.crdownload",
+    "5. seminars",
+    "media/jupiter.jpg.crdownload",
+    "media/learning-rate.png.crdownload",
+    "media/funzione-convessa.png.crdownload",
+    "3. projects/aijsodijas.canvas",
+    "3. projects/TarBo/Untitled.canvas"
+  ]
+}

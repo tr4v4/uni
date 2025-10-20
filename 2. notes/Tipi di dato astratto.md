@@ -3,6 +3,7 @@ tags:
   - category/note
   - status/finished
   - topic/linguaggi-di-programmazione
+  - topic/ingegneria-del-software
 date: 11-10-2025 14:22:30
 links:
   - "[[Lecture 07052025110754]]"
@@ -78,6 +79,9 @@ fn use_counter<C>( c: &mut C ) where C: Counter {
 
 fn main(){ use_counter( &mut SC::new() ) }
 ```
+
+## Architettura
+Nel contesto degli [[Architectural styles|architectural styles]], gli ADT fanno da "manager" dei componenti.
 
 ## Referenze
 - [[Tipi esistenziali]]

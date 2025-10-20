@@ -1,0 +1,2 @@
+
+"smart_sources:templates/report.md": {"path":"templates/report.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"xf45z3","at":1760976443859},"class_name":"SmartSource","last_import":{"mtime":1695151682000,"size":217,"at":1760976443860,"hash":"xf45z3"},"blocks":{"#---frontmatter---":[1,6],"#Report":[7,12],"#Report#{1}":[8,8],"#Report#Note":[9,10],"#Report#Referenze":[11,12],"#Report#Referenze#{1}":[12,12]},"outlinks":[],"metadata":{"tags":["#category/report","#status/pending"],"date":"<%tp.file.creation_date(\"DD-MM-YYYY HH:mm:ss\")%>"},"task_lines":[]},

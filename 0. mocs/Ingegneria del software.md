@@ -12,10 +12,12 @@ date: 21-09-2025 20:46:48
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/ingegneria-del-software SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/ingegneria-del-software SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [[1. lectures/Lecture 13102025151054.md\|Lecture 13102025151054]] | <ul><li>[[0. mocs/Ingegneria del software.md\|Ingegneria del software]]</li><li>[[2. notes/Design patterns.md\|Design patterns]]</li><li>[[2. notes/OCL.md\|OCL]]</li><li>[[2. notes/Real time UML.md\|Real time UML]]</li><li>[[2. notes/Refactoring.md\|Refactoring]]</li><li>[[2. notes/UML.md\|UML]]</li></ul> |
+| Lezione                                                           | Note                                                                               |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [[1. lectures/Lecture 20102025152255.md\|Lecture 20102025152255]] | <ul><li>[[0. mocs/Ingegneria del software.md\|Ingegneria del software]]</li></ul> |
 <!-- SerializedQuery END -->
+
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/ingegneria-del-software SORT file.ctime DESC -->
@@ -23,6 +25,7 @@ date: 21-09-2025 20:46:48
 
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
+| [[1. lectures/Lecture 20102025152255.md\|Lecture 20102025152255]] | 20-10-2025 15:22:55 |
 | [[1. lectures/Lecture 13102025151054.md\|Lecture 13102025151054]] | 13-10-2025 15:10:54 |
 | [[1. lectures/Lecture 13102025104920.md\|Lecture 13102025104920]] | 13-10-2025 10:49:20 |
 | [[1. lectures/Lecture 06102025160756.md\|Lecture 06102025160756]] | 06-10-2025 16:07:56 |
@@ -38,11 +41,10 @@ date: 21-09-2025 20:46:48
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/ingegneria-del-software AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/ingegneria-del-software AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione | Status |
-| ------- | ------ |
+| Lezione                                                           | Status                            |
+| ----------------------------------------------------------------- | --------------------------------- |
+| [[1. lectures/Lecture 20102025152255.md\|Lecture 20102025152255]] | <ul><li>#status/pending</li></ul> |
 <!-- SerializedQuery END -->
-
-
 
 ## Note
 - Argomenti
@@ -65,12 +67,29 @@ date: 21-09-2025 20:46:48
 		- [[OCL]]
 		- [[Refactoring]]
 	- [[Design patterns]]
+	- [[Architectural styles]]
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/ingegneria-del-software SORT file.ctime DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Note, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing" OR t="#status/finished") AS Status FROM #category/note AND #topic/ingegneria-del-software SORT file.ctime DESC -->
 
 | Note                                                                                                               | Status                             |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [[2. notes/Design patterns comportamentali.md\|Design patterns comportamentali]]                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Mediator.md\|Mediator]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Chain of responsibility.md\|Chain of responsibility]]                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Strategy.md\|Strategy]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Visitor.md\|Visitor]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design patterns strutturali.md\|Design patterns strutturali]]                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Proxy pattern.md\|Proxy pattern]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Decorator.md\|Decorator]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Adapter.md\|Adapter]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Bridge pattern.md\|Bridge pattern]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Singleton.md\|Singleton]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design patterns creazionali.md\|Design patterns creazionali]]                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Prototype.md\|Prototype]]                                                                               | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Factory method.md\|Factory method]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Abstract factory.md\|Abstract factory]]                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Builder.md\|Builder]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Design patterns.md\|Design patterns]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/OCL.md\|OCL]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Real time UML.md\|Real time UML]]                                                                       | <ul><li>#status/finished</li></ul> |
@@ -86,14 +105,14 @@ date: 21-09-2025 20:46:48
 | [[2. notes/Diagramma delle classi.md\|Diagramma delle classi]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/UML.md\|UML]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Generics.md\|Generics]]                                                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Use case.md\|Use case]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Design di sistemi software.md\|Design di sistemi software]]                                             | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Ereditarietà.md\|Ereditarietà]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Use case.md\|Use case]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Refactoring.md\|Refactoring]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Diagramma dei casi d'uso.md\|Diagramma dei casi d'uso]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Early binding.md\|Early binding]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Sottotipaggio.md\|Sottotipaggio]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Polimorfismo.md\|Polimorfismo]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Sottotipaggio.md\|Sottotipaggio]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Late binding.md\|Late binding]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Binding.md\|Binding]]                                                                                   | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->

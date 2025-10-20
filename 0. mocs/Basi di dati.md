@@ -12,10 +12,11 @@ date: 21-09-2025 20:49:55
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/basi-di-dati SORT file.ctime DESC LIMIT 1 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS Lezione, file.inlinks AS Note FROM #category/lecture AND #topic/basi-di-dati SORT file.ctime DESC LIMIT 1 -->
 
-| Lezione                                                           | Note                                                                                                                                                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[1. lectures/Lecture 16102025151651.md\|Lecture 16102025151651]] | <ul><li>[[2. notes/DBMS.md\|DBMS]]</li><li>[[0. mocs/Basi di dati.md\|Basi di dati]]</li><li>[[2. notes/Architettura di un DBMS.md\|Architettura di un DBMS]]</li></ul> |
+| Lezione                                                           | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[1. lectures/Lecture 16102025151651.md\|Lecture 16102025151651]] | <ul><li>[[0. mocs/Basi di dati.md\|Basi di dati]]</li><li>[[2. notes/DBMS.md\|DBMS]]</li><li>[[2. notes/Hash-based join.md\|Hash-based join]]</li><li>[[2. notes/Implementazione della join.md\|Implementazione della join]]</li><li>[[2. notes/Nested-loop join.md\|Nested-loop join]]</li><li>[[2. notes/Sort-merge join.md\|Sort-merge join]]</li><li>[[2. notes/Architettura di un DBMS.md\|Architettura di un DBMS]]</li><li>[[2. notes/ACID.md\|ACID]]</li><li>[[2. notes/Schedule di un DBMS.md\|Schedule di un DBMS]]</li><li>[[2. notes/Strict 2PL.md\|Strict 2PL]]</li><li>[[2. notes/Controllo della concorrenza nei DBMS.md\|Controllo della concorrenza nei DBMS]]</li><li>[[2. notes/Transazione.md\|Transazione]]</li><li>[[2. notes/ARIES.md\|ARIES]]</li><li>[[2. notes/Crash recovery nei DBMS.md\|Crash recovery nei DBMS]]</li><li>[[2. notes/Single-loop join.md\|Single-loop join]]</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ### Lista
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS Lezione, date AS Data FROM #category/lecture AND #topic/basi-di-dati SORT file.ctime DESC -->
@@ -40,10 +41,8 @@ date: 21-09-2025 20:49:55
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/basi-di-dati AND (#status/pending OR #status/ongoing) SORT date DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as Lezione, filter(file.tags, (t) => t="#status/pending" OR t="#status/ongoing") AS Status FROM #category/lecture AND #topic/basi-di-dati AND (#status/pending OR #status/ongoing) SORT date DESC -->
 
-| Lezione                                                           | Status                            |
-| ----------------------------------------------------------------- | --------------------------------- |
-| [[1. lectures/Lecture 17102025151336.md\|Lecture 17102025151336]] | <ul><li>#status/pending</li></ul> |
-| [[1. lectures/Lecture 16102025151651.md\|Lecture 16102025151651]] | <ul><li>#status/ongoing</li></ul> |
+| Lezione | Status |
+| ------- | ------ |
 <!-- SerializedQuery END -->
 
 
@@ -74,16 +73,29 @@ date: 21-09-2025 20:49:55
 
 | Note                                                                                                                               | Status                             |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
-| [[2. notes/Architettura di un DBMS.md\|Architettura di un DBMS]]                                                                   | <ul><li>#status/ongoing</li></ul>  |
+| [[2. notes/Indice.md\|Indice]]                                                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/ARIES.md\|ARIES]]                                                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Crash recovery nei DBMS.md\|Crash recovery nei DBMS]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Strict 2PL.md\|Strict 2PL]]                                                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Controllo della concorrenza nei DBMS.md\|Controllo della concorrenza nei DBMS]]                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Schedule di un DBMS.md\|Schedule di un DBMS]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Transazione.md\|Transazione]]                                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Architettura di un DBMS.md\|Architettura di un DBMS]]                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/ACID.md\|ACID]]                                                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Hash-based join.md\|Hash-based join]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Sort-merge join.md\|Sort-merge join]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Single-loop join.md\|Single-loop join]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Nested-loop join.md\|Nested-loop join]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Implementazione della join.md\|Implementazione della join]]                                                             | <ul><li>#status/finished</li></ul> |
 | [[2. notes/DBMS.md\|DBMS]]                                                                                                         | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Chiusura transitiva.md\|Chiusura transitiva]]                                                                           | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Calcolo relazionale sui domini.md\|Calcolo relazionale sui domini]]                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Calcolo relazionale su tuple con dichiarazioni del range.md\|Calcolo relazionale su tuple con dichiarazioni del range]] | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Calcolo relazionale sui domini.md\|Calcolo relazionale sui domini]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Chiusura transitiva.md\|Chiusura transitiva]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Datalog.md\|Datalog]]                                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Limiti del calcolo e dell'algebra relazionale.md\|Limiti del calcolo e dell'algebra relazionale]]                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/SQL.md\|SQL]]                                                                                                           | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Calcolo relazionale.md\|Calcolo relazionale]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Algebra relazionale.md\|Algebra relazionale]]                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Calcolo relazionale.md\|Calcolo relazionale]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Viste virtuali.md\|Viste virtuali]]                                                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Viste.md\|Viste]]                                                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Equivalenze nell'algebra relazionale.md\|Equivalenze nell'algebra relazionale]]                                         | <ul><li>#status/finished</li></ul> |
@@ -93,7 +105,6 @@ date: 21-09-2025 20:49:55
 | [[2. notes/Superchiave.md\|Superchiave]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Vincoli di integrita'.md\|Vincoli di integrita']]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Modello relazionale dei dati.md\|Modello relazionale dei dati]]                                                         | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Transazione.md\|Transazione]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Modellizzazione logica.md\|Modellizzazione logica]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/DDL.md\|DDL]]                                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/DML.md\|DML]]                                                                                                           | <ul><li>#status/finished</li></ul> |
