@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4896adcf077ad526",
+        "id": "89f7f512daa7ac41",
         "type": "tabs",
         "children": [
           {
-            "id": "2b7150160d3cf1e2",
+            "id": "09a0812519a022ed",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -285,15 +285,8 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2b7150160d3cf1e2",
+  "active": "09a0812519a022ed",
   "lastOpenFiles": [
-    "0. mocs/Ingegneria del software.md",
-    "2. notes/UML.md",
-    "2. notes/Diagramma di stato.md",
-    "media/diagramma-degli-stati-sincronizzazione.png",
-    "2. notes/Diagramma delle attività.md",
-    "media/diagramma-degli-stati-composto.png",
-    "media/uml-diagrammi.png",
     "0. mocs/Linguaggi di programmazione.md",
     "2. notes/Type erasure.md",
     "2. notes/VTable.md",
@@ -315,13 +308,21 @@
     "2. notes/Shadowing.md",
     "2. notes/Classe base fragile.md",
     "2. notes/Dynamic Method Dispatch.md",
+    "1. lectures/Lecture 14052025105842.md",
+    "2. notes/Generics.md",
     "media/vtable-2.png",
     "media/v-tables-1.png",
+    "0. mocs/Ingegneria del software.md",
+    "0. mocs/Ingegneria del software (travamx's conflicted copy 2025-10-20).md",
+    "2. notes/Pipes and filters.md",
     "media/pipe-and-filters.png",
     "media/mediator-uml.png",
     "media/chain-of-responsibility-uml.png",
     "media/strategy-uml.png",
     "media/visitor-uml.png",
+    "media/proxy-uml.png",
+    "media/decorator-example-uml.png",
+    "media/decorator-uml.png",
     "media/Unconfirmed 203446.crdownload",
     "media/Unconfirmed 326543.crdownload",
     "media/Unconfirmed 612643.crdownload",

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4896adcf077ad526",
+        "id": "9f1109576e2a88a7",
         "type": "tabs",
         "children": [
           {
-            "id": "2b7150160d3cf1e2",
+            "id": "3b01d4220fa7f7fb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -84,7 +84,7 @@
       {
         "id": "534c93fde21f83cd",
         "type": "tabs",
-        "dimension": 45.80520732883318,
+        "dimension": 68.74095513748192,
         "children": [
           {
             "id": "c7c5c6af0f3637b7",
@@ -92,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Linguaggi di programmazione"
             }
           },
           {
@@ -110,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Linguaggi di programmazione"
             }
           },
           {
@@ -138,22 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "9981f3c73eda2539",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline of Linguaggi di programmazione"
             }
           },
           {
@@ -191,23 +184,14 @@
               "icon": "clock",
               "title": "Toggl Report"
             }
-          },
-          {
-            "id": "2ecae89c4bdda11b",
-            "type": "leaf",
-            "state": {
-              "type": "toggl-report",
-              "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "f5e1dd67658d5a90",
         "type": "tabs",
-        "dimension": 20.829315332690452,
+        "dimension": 31.25904486251809,
         "children": [
           {
             "id": "b36b98e17ac7f398",
@@ -215,6 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "0. mocs/Linguaggi di programmazione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,24 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c31ec5abd0f1721f",
-        "type": "tabs",
-        "dimension": 33.365477338476374,
-        "children": [
-          {
-            "id": "580e6e077148dbf7",
-            "type": "leaf",
-            "state": {
-              "type": "toggl-report",
-              "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
+              "title": "Graph of Linguaggi di programmazione"
             }
           }
         ]
@@ -285,43 +253,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2b7150160d3cf1e2",
+  "active": "3b01d4220fa7f7fb",
   "lastOpenFiles": [
-    "0. mocs/Ingegneria del software.md",
-    "2. notes/UML.md",
-    "2. notes/Diagramma di stato.md",
     "media/diagramma-degli-stati-sincronizzazione.png",
-    "2. notes/Diagramma delle attività.md",
     "media/diagramma-degli-stati-composto.png",
+    "media/diagramma-degli-stati-composti.png",
     "media/uml-diagrammi.png",
-    "0. mocs/Linguaggi di programmazione.md",
-    "2. notes/Type erasure.md",
     "2. notes/VTable.md",
-    "2. notes/Late binding.md",
-    "2. notes/Dynamic dispatch.md",
-    "2. notes/Static dispatch.md",
-    "2. notes/Dispatch.md",
-    "2. notes/Ereditarieta' multipla.md",
-    "2. notes/Classe astratta.md",
-    "2. notes/Overloading.md",
-    "2. notes/Costruttore.md",
-    "2. notes/Tipo intersezione.md",
-    "2. notes/Ereditarietà.md",
-    "2. notes/Sottotipaggio.md",
-    "2. notes/OOP.md",
-    "2. notes/Oggetto.md",
-    "2. notes/Prototipo.md",
-    "2. notes/Classe.md",
-    "2. notes/Shadowing.md",
-    "2. notes/Classe base fragile.md",
+    "2. notes/Type erasure.md",
     "2. notes/Dynamic Method Dispatch.md",
     "media/vtable-2.png",
-    "media/v-tables-1.png",
+    "2. notes/Classe base fragile.md",
+    "0. mocs/Ingegneria del software.md",
+    "0. mocs/Ingegneria del software (travamx's conflicted copy 2025-10-20).md",
+    "2. notes/Pipes and filters.md",
+    "2. notes/Tipi di dato astratto.md",
+    "2. notes/Architectural styles.md",
+    "2. notes/Mediator.md",
+    "2. notes/Struttura di un compilatore.md",
     "media/pipe-and-filters.png",
     "media/mediator-uml.png",
     "media/chain-of-responsibility-uml.png",
+    "2. notes/Chain of responsibility.md",
+    "2. notes/Chain of responsability.md",
     "media/strategy-uml.png",
+    "2. notes/Strategy.md",
     "media/visitor-uml.png",
+    "2. notes/Visitor.md",
+    "2. notes/Design patterns comportamentali.md",
+    "media/proxy-uml.png",
+    "2. notes/Proxy pattern.md",
+    "2. notes/Decorator.md",
+    "2. notes/Bridge pattern.md",
+    "2. notes/Bridge.md",
+    "2. notes/Adapter.md",
+    "2. notes/Design patterns strutturali.md",
+    "2. notes/Singleton.md",
+    "2. notes/Prototype.md",
+    "2. notes/Factory method.md",
     "media/Unconfirmed 203446.crdownload",
     "media/Unconfirmed 326543.crdownload",
     "media/Unconfirmed 612643.crdownload",

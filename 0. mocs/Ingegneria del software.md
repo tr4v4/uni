@@ -24,14 +24,14 @@ date: 21-09-2025 20:46:48
 | Lezione                                                           | Data                |
 | ----------------------------------------------------------------- | ------------------- |
 | [[1. lectures/Lecture 20102025152255.md\|Lecture 20102025152255]] | 20-10-2025 15:22:55 |
-| [[1. lectures/Lecture 13102025151054.md\|Lecture 13102025151054]] | 13-10-2025 15:10:54 |
 | [[1. lectures/Lecture 13102025104920.md\|Lecture 13102025104920]] | 13-10-2025 10:49:20 |
+| [[1. lectures/Lecture 13102025151054.md\|Lecture 13102025151054]] | 13-10-2025 15:10:54 |
 | [[1. lectures/Lecture 06102025160756.md\|Lecture 06102025160756]] | 06-10-2025 16:07:56 |
 | [[1. lectures/Lecture 06102025105214.md\|Lecture 06102025105214]] | 06-10-2025 10:52:14 |
 | [[1. lectures/Lecture 29092025150827.md\|Lecture 29092025150827]] | 29-09-2025 15:08:27 |
 | [[1. lectures/Lecture 29092025103533.md\|Lecture 29092025103533]] | 29-09-2025 10:35:33 |
-| [[1. lectures/Lecture 22092025100902.md\|Lecture 22092025100902]] | 22-09-2025 10:09:02 |
 | [[1. lectures/Lecture 22092025160544.md\|Lecture 22092025160544]] | 22-09-2025 16:05:44 |
+| [[1. lectures/Lecture 22092025100902.md\|Lecture 22092025100902]] | 22-09-2025 10:09:02 |
 <!-- SerializedQuery END -->
 
 
@@ -72,51 +72,52 @@ date: 21-09-2025 20:46:48
 
 | Note                                                                                                               | Status                             |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [[2. notes/Architectural styles.md\|Architectural styles]]                                                         | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Tipi di dato astratto.md\|Tipi di dato astratto]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma di stato.md\|Diagramma di stato]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/UML.md\|UML]]                                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Ereditarietà.md\|Ereditarietà]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Generics.md\|Generics]]                                                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Late binding.md\|Late binding]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Pipes and filters.md\|Pipes and filters]]                                                               | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Design patterns comportamentali.md\|Design patterns comportamentali]]                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Architectural styles.md\|Architectural styles]]                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Mediator.md\|Mediator]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Chain of responsibility.md\|Chain of responsibility]]                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Strategy.md\|Strategy]]                                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Visitor.md\|Visitor]]                                                                                   | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Design patterns strutturali.md\|Design patterns strutturali]]                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design patterns comportamentali.md\|Design patterns comportamentali]]                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Proxy pattern.md\|Proxy pattern]]                                                                       | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Decorator.md\|Decorator]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Adapter.md\|Adapter]]                                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Bridge pattern.md\|Bridge pattern]]                                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Adapter.md\|Adapter]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design patterns strutturali.md\|Design patterns strutturali]]                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Singleton.md\|Singleton]]                                                                               | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Design patterns creazionali.md\|Design patterns creazionali]]                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Prototype.md\|Prototype]]                                                                               | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Factory method.md\|Factory method]]                                                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Abstract factory.md\|Abstract factory]]                                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Builder.md\|Builder]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design patterns creazionali.md\|Design patterns creazionali]]                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Linguaggio di programmazione orientato a oggetti.md\|Linguaggio di programmazione orientato a oggetti]] | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Early binding.md\|Early binding]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Sottotipaggio.md\|Sottotipaggio]]                                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Design di sistemi software.md\|Design di sistemi software]]                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Polimorfismo.md\|Polimorfismo]]                                                                         | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Tipi di dato astratto.md\|Tipi di dato astratto]]                                                       | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma delle classi.md\|Diagramma delle classi]]                                                     | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma dei nodi.md\|Diagramma dei nodi]]                                                             | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma dei componenti.md\|Diagramma dei componenti]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Design patterns.md\|Design patterns]]                                                                   | <ul><li>#status/finished</li></ul> |
 | [[2. notes/OCL.md\|OCL]]                                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Real time UML.md\|Real time UML]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma dei nodi.md\|Diagramma dei nodi]]                                                             | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma dei componenti.md\|Diagramma dei componenti]]                                                 | <ul><li>#status/finished</li></ul> |
+| [[2. notes/OOD.md\|OOD]]                                                                                           | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Refactoring.md\|Refactoring]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Package.md\|Package]]                                                                                   | <ul><li>#status/finished</li></ul> |
+| [[2. notes/Diagramma delle sequenze.md\|Diagramma delle sequenze]]                                                 | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Diagramma delle collaborazioni.md\|Diagramma delle collaborazioni]]                                     | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Diagramma delle attività.md\|Diagramma delle attività]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma delle sequenze.md\|Diagramma delle sequenze]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma di stato.md\|Diagramma di stato]]                                                             | <ul><li>#status/finished</li></ul> |
-| [[2. notes/OOD.md\|OOD]]                                                                                           | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Linguaggio di programmazione orientato a oggetti.md\|Linguaggio di programmazione orientato a oggetti]] | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Diagramma delle classi.md\|Diagramma delle classi]]                                                     | <ul><li>#status/finished</li></ul> |
-| [[2. notes/UML.md\|UML]]                                                                                           | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Generics.md\|Generics]]                                                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Design di sistemi software.md\|Design di sistemi software]]                                             | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Ereditarietà.md\|Ereditarietà]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Use case.md\|Use case]]                                                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Refactoring.md\|Refactoring]]                                                                           | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Diagramma dei casi d'uso.md\|Diagramma dei casi d'uso]]                                                 | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Early binding.md\|Early binding]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Polimorfismo.md\|Polimorfismo]]                                                                         | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Sottotipaggio.md\|Sottotipaggio]]                                                                       | <ul><li>#status/finished</li></ul> |
-| [[2. notes/Late binding.md\|Late binding]]                                                                         | <ul><li>#status/finished</li></ul> |
 | [[2. notes/Binding.md\|Binding]]                                                                                   | <ul><li>#status/finished</li></ul> |
 <!-- SerializedQuery END -->
+
 
 ## Referenze
 - [virtuale]()

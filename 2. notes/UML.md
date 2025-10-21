@@ -33,6 +33,8 @@ e altri 5 di _comportamento_:
 - [[Diagramma statechart]]
 - [[Diagramma delle attività]]
 
+![[uml-diagrammi.png]]
+
 ## Referenze
 - [[OOD]]
 - [[Real time UML]]
