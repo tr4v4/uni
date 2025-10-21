@@ -1,2 +1,0 @@
-
-"smart_sources:templates/kanban.md": {"path":"templates/kanban.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1vhmd10","at":1760976443856},"class_name":"SmartSource","last_import":{"mtime":1694984022000,"size":261,"at":1760976443856,"hash":"1vhmd10"},"blocks":{"#---frontmatter---":[1,5],"##To-Do":[7,10],"##In Progress":[11,14],"##Testing":[15,18],"##Done":[19,30],"##Done#{1}":[21,30]},"outlinks":[],"metadata":{"kanban-plugin":"basic"},"task_lines":[]},

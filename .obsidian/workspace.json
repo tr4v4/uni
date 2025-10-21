@@ -84,7 +84,7 @@
       {
         "id": "534c93fde21f83cd",
         "type": "tabs",
-        "dimension": 68.7409551374819,
+        "dimension": 68.74095513748192,
         "children": [
           {
             "id": "c7c5c6af0f3637b7",
@@ -191,7 +191,7 @@
       {
         "id": "f5e1dd67658d5a90",
         "type": "tabs",
-        "dimension": 31.259044862518085,
+        "dimension": 31.25904486251809,
         "children": [
           {
             "id": "b36b98e17ac7f398",
@@ -239,9 +239,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": true,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
