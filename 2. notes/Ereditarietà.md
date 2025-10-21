@@ -25,4 +25,4 @@ Una differenza sostanziale tra questi 2 metodi e' che lo **shadowing e' risolto 
 
 ## Referenze
 - [[Ereditarieta' multipla]]
-- [[Vtable]]
+- [[VTable]]

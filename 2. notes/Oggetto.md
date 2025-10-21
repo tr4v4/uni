@@ -41,7 +41,7 @@ o = new B();
 
 Strutturando le cose in questa maniera, semplifichiamo molto la gestione del [[Tipaggio statico|tipaggio statico]] (assumendo [[Ereditarietà|ereditarieta' singola]]): per conoscere per esempio cos'e' `o.c`, ci basta _calcolare l'offset del blocco di partenza appartenente alla superclasse `A`_, e quindi ad esso sommare l'offset standard per arrivare a `o.c`.
 
-Questo _e' anche il modo in cui viene semplicemente implementato il [[Dynamic dispatch|dynamic dispatch]]_! Tuttavia e' parecchio inefficiente: **bisogna scorrere la [[Lista#Liste concatenate|lista concatenata]]**! Per questo si preferiscono e si adottano le [[Vtable|vtable]].
+Questo _e' anche il modo in cui viene semplicemente implementato il [[Dynamic dispatch|dynamic dispatch]]_! Tuttavia e' parecchio inefficiente: **bisogna scorrere la [[Lista#Liste concatenate|lista concatenata]]**! Per questo si preferiscono e si adottano le [[VTable|vtable]].
 
 ### Late _self_ binding
 Quando un metodo viene invocato, il procedimento e' lo stesso dell'[[Invocazione di procedura|invocazione di procedura]]: bisogna caricare sullo [[Stack|stack]] le variabili locali e altre cose...

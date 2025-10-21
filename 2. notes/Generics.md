@@ -10,6 +10,7 @@ links:
   - "[[Lecture 12032024111356]]"
   - "[[Lecture 22092025100902]]"
   - "[[Lecture 23042025111218]]"
+  - "[[Lecture 14052025105842]]"
 ---
 # Generics
 ---
@@ -20,7 +21,7 @@ La sintassi per definire una classe generic è `NomeDellaClasse<T>`. Alcune [[In
 
 ## Funzionamento
 Il [[Tipi di dato|tipo di dato]] `Set` e' parametrico: _le operazioni di unione, intersezione, inclusione, sono parametriche agli elementi dell'insieme_. Solo quando si istanzia un `Set` con un certo tipo allora il tipo e' il parametro attuale dell'insieme.
-Un [[Sistema di tipi|sistema di tipi]] allora si dice parametrico se introduce la possibilita' del polimorfismo parametrico/universale.
+Un [[Sistema di tipi|sistema di tipi]] allora si dice parametrico se introduce la possibilita' del [[Polimorfismo|polimorfismo]] parametrico/universale.
 
 ### Theorems for free
 Con questo polimorfismo si ottengono prove di correttezza di programmi "gratuitamente"! Soprattutto, consente di fare ottimizzazione.
@@ -68,6 +69,8 @@ In [[C]] non ci sono nativamente i generics, ma è possibile implementare il [[P
 In [[C++]] i generics si fanno attraverso la keyword `template`. Nella fattispecie, a compile-time (di preciso prima del binding), i template _generano per quella classe o funzione tutti i codici per ogni tipo possibile_, andando di fatto a far "esplodere" la dimensione del codice sorgente.
 
 <u>Nota bene</u>: con la _template specialization_ si possono addirittura creare gerarchie di template.
+
+Questo processo si chiama **monomorfismo**.
 
 ### Java
 In Java il meccanismo dei generics è gestito mediante [[Type erasure|type erasure]].

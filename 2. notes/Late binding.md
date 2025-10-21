@@ -14,7 +14,7 @@ links:
 ## Introduzione
 In presenza delle funzioni virtuali ([[Sottotipaggio|overriding]]) non è possibile fare binding a compile-time ([[Early binding|early binding]]). Il compilatore al massimo può creare dei meccanismi che consentano a _run-time_ di identificare correttamente il codice della funzione [[Invocazione di procedura|invocata]].
 
-Si implementa mediante [[Vtable|v-tables]].
+Si implementa mediante [[VTable|v-tables]].
 ![[v-tables-1.png]]
 
 L'esecuzione di una chiamata a run-time di una certa funzione su un'oggetto che contiene metodi virtuali, funziona in questo modo:
