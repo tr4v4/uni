@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a0ecf00f4d54fcd6",
+        "id": "4b09343c43fce273",
         "type": "tabs",
         "children": [
           {
-            "id": "e815939855468911",
+            "id": "b6083febc1521139",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Diagramma delle attività.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Diagramma delle attività"
+            }
+          },
+          {
+            "id": "b2275e9e6639f1a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Diagramma delle sequenze.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diagramma delle sequenze"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -91,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. mocs/Introduzione all'apprendimento automatico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduzione all'apprendimento automatico"
+              "title": "Backlinks"
             }
           },
           {
@@ -138,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. mocs/Introduzione all'apprendimento automatico.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduzione all'apprendimento automatico"
+              "title": "Outline"
             }
           },
           {
@@ -203,8 +221,7 @@
               "title": "Toggl Report"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "f5e1dd67658d5a90",
@@ -217,7 +234,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. mocs/Introduzione all'apprendimento automatico.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +261,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Introduzione all'apprendimento automatico"
+              "title": "Graph view"
             }
           }
         ]
@@ -269,7 +285,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,41 +304,40 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fde22237f1d4b81b",
+  "active": "b2275e9e6639f1a2",
   "lastOpenFiles": [
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1) (nicola-mint's conflicted copy 2025-10-22).md",
-    "0. mocs/Introduzione all'apprendimento automatico.md",
-    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22 1).md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 2).md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1).md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22).md",
     "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22).md",
-    "1. lectures/Lecture 16102025131029.md",
-    "2. notes/Approccio probabilistico.md",
-    "2. notes/Regressione logistica.md",
-    "2. notes/Naive Bayes.md",
-    "2. notes/Naive Bayes gaussiano.md",
-    "2. notes/MLE.md",
-    "2. notes/Distribuzione normale.md",
-    "2. notes/Metodo di discesa del gradiente.md",
-    "2. notes/Metodo dell'iterazione.md",
     "media/funzione-logistica.png",
-    "2. notes/Spazio vettoriale.md",
+    "2. notes/Regressione logistica.md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22) (travamx's conflicted copy 2025-10-22).md",
-    "2. notes/Delta di Dirac.md",
-    "2. notes/Distribuzione normale standard.md",
+    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22 1).md",
+    "0. mocs/Introduzione all'apprendimento automatico.md",
+    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22).md",
     "2. notes/distribuzione.md",
     "media/naive-bayes-gaussiano-esempio.png",
+    "2. notes/Diagramma delle attività.md",
     "media/diagrammi-delle-attivita'-componenti.png",
     "0. mocs/Basi di dati.md",
     "2. notes/SQL.md",
     "2. notes/Algebra relazionale.md",
     "1. lectures/Lecture 22102025094240.md",
     "2. notes/Transazione.md",
+    "2. notes/Indice.md",
     "media/sql-joins.png",
+    "0. mocs/Ingegneria del software.md",
+    "2. notes/UML.md",
+    "2. notes/Diagramma di stato.md",
     "media/diagramma-degli-stati-sincronizzazione.png",
     "media/diagramma-degli-stati-composto.png",
     "media/uml-diagrammi.png",
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Type erasure.md",
+    "2. notes/VTable.md",
+    "2. notes/Late binding.md",
+    "2. notes/Dynamic dispatch.md",
+    "2. notes/Static dispatch.md",
+    "2. notes/Dispatch.md",
+    "2. notes/Ereditarieta' multipla.md",
     "media/vtable-2.png",
     "media/v-tables-1.png",
     "media/pipe-and-filters.png",

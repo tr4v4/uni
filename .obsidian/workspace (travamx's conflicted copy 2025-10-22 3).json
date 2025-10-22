@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a0ecf00f4d54fcd6",
+        "id": "4b09343c43fce273",
         "type": "tabs",
         "children": [
           {
-            "id": "e815939855468911",
+            "id": "65c4516c73cb7abb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Introduzione all'apprendimento automatico.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introduzione all'apprendimento automatico"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 465.5
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -287,15 +291,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fde22237f1d4b81b",
+  "active": "65c4516c73cb7abb",
   "lastOpenFiles": [
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1) (nicola-mint's conflicted copy 2025-10-22).md",
-    "0. mocs/Introduzione all'apprendimento automatico.md",
-    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22 1).md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 2).md",
+    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1) (nicola-mint's conflicted copy 2025-10-22).md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1).md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22).md",
     "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22).md",
+    "0. mocs/Introduzione all'apprendimento automatico.md",
     "1. lectures/Lecture 16102025131029.md",
     "2. notes/Approccio probabilistico.md",
     "2. notes/Regressione logistica.md",
@@ -307,6 +310,7 @@
     "2. notes/Metodo dell'iterazione.md",
     "media/funzione-logistica.png",
     "2. notes/Spazio vettoriale.md",
+    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22 1).md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22) (travamx's conflicted copy 2025-10-22).md",
     "2. notes/Delta di Dirac.md",
     "2. notes/Distribuzione normale standard.md",

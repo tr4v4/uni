@@ -12,6 +12,10 @@ links:
 ## Introduzione
 > I **diagrammi delle attività** servono a descrivere il workflow di un sistema software.
 
+![[diagrammi-delle-attivita'-componenti.png]]
+
+Sono i precursori dei [[Diagrammi di flusso|diagrammi di flusso]].
+
 ## Diagramma
 Si basa su 3 strutture di base:
 - _fork_ - spezza l'esecuzione in 2 o più "[[Thread|threads]]" indipendenti;

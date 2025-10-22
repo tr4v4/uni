@@ -4,17 +4,113 @@
     "type": "split",
     "children": [
       {
-        "id": "a0ecf00f4d54fcd6",
+        "id": "4b09343c43fce273",
         "type": "tabs",
+        "dimension": 34.817596566523605,
         "children": [
           {
-            "id": "e815939855468911",
+            "id": "f739b503b3286814",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. mocs/Introduzione all'apprendimento automatico.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introduzione all'apprendimento automatico"
+            }
+          },
+          {
+            "id": "1cfc7d282adee15a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. lectures/Lecture 16102025131029.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 16102025131029"
+            }
+          }
+        ]
+      },
+      {
+        "id": "02a9743489742926",
+        "type": "tabs",
+        "dimension": 65.1824034334764,
+        "children": [
+          {
+            "id": "f95af685448485f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Approccio probabilistico.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Approccio probabilistico"
+            }
+          },
+          {
+            "id": "f3bffa105129f5e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Naive Bayes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Naive Bayes"
+            }
+          },
+          {
+            "id": "dc217e91c06fdaae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Naive Bayes gaussiano.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Naive Bayes gaussiano"
+            }
+          },
+          {
+            "id": "dbf7abc35f8c5840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/MLE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MLE"
+            }
+          },
+          {
+            "id": "64b53ee74b22842a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. notes/Distribuzione normale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distribuzione normale"
             }
           }
         ]
@@ -74,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "d2a30276f1a920cd",
@@ -287,44 +384,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fde22237f1d4b81b",
+  "active": "f739b503b3286814",
   "lastOpenFiles": [
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1) (nicola-mint's conflicted copy 2025-10-22).md",
-    "0. mocs/Introduzione all'apprendimento automatico.md",
-    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22 1).md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 2).md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22 1).md",
     "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22).md",
-    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22).md",
     "1. lectures/Lecture 16102025131029.md",
     "2. notes/Approccio probabilistico.md",
-    "2. notes/Regressione logistica.md",
-    "2. notes/Naive Bayes.md",
+    "2. notes/Delta di Dirac.md",
+    "0. mocs/Introduzione all'apprendimento automatico.md",
+    "0. mocs/Introduzione all'apprendimento automatico (travamx's conflicted copy 2025-10-22).md",
     "2. notes/Naive Bayes gaussiano.md",
     "2. notes/MLE.md",
     "2. notes/Distribuzione normale.md",
-    "2. notes/Metodo di discesa del gradiente.md",
-    "2. notes/Metodo dell'iterazione.md",
-    "media/funzione-logistica.png",
-    "2. notes/Spazio vettoriale.md",
-    "0. mocs/Introduzione all'apprendimento automatico (nicola-mint's conflicted copy 2025-10-22) (travamx's conflicted copy 2025-10-22).md",
-    "2. notes/Delta di Dirac.md",
     "2. notes/Distribuzione normale standard.md",
     "2. notes/distribuzione.md",
     "media/naive-bayes-gaussiano-esempio.png",
+    "2. notes/Naive Bayes.md",
     "media/diagrammi-delle-attivita'-componenti.png",
     "0. mocs/Basi di dati.md",
     "2. notes/SQL.md",
     "2. notes/Algebra relazionale.md",
     "1. lectures/Lecture 22102025094240.md",
     "2. notes/Transazione.md",
+    "2. notes/Indice.md",
     "media/sql-joins.png",
+    "0. mocs/Ingegneria del software.md",
+    "2. notes/UML.md",
+    "2. notes/Diagramma di stato.md",
     "media/diagramma-degli-stati-sincronizzazione.png",
+    "2. notes/Diagramma delle attività.md",
     "media/diagramma-degli-stati-composto.png",
     "media/uml-diagrammi.png",
+    "0. mocs/Linguaggi di programmazione.md",
+    "2. notes/Type erasure.md",
+    "2. notes/VTable.md",
+    "2. notes/Late binding.md",
     "media/vtable-2.png",
     "media/v-tables-1.png",
     "media/pipe-and-filters.png",
+    "media/mediator-uml.png",
     "media/Unconfirmed 203446.crdownload",
     "media/Unconfirmed 326543.crdownload",
     "media/Unconfirmed 612643.crdownload",

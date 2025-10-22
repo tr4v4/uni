@@ -6,6 +6,7 @@ tags:
 date: 11-10-2025 10:48:43
 links:
   - "[[Lecture 09102025131347]]"
+  - "[[Lecture 16102025131029]]"
 ---
 # Approccio probabilistico
 ---
@@ -35,5 +36,8 @@ dove:
 - $\sum\limits_{k} \mathbb{P}(Y = y_{k}) \cdot \mathbb{P}(X = x_{j} | Y = y_{k})$ viene detta **marginal likelihood**, e _identifica la probabilita' totale che $X = x_{j}$_;
 
 Qual e' il risultato? **Sia il prior, che il likelihood, che il marginal likelihood, sono calcolabili a partire dal training set**!
+
+## Regressione logistica
+Sempre gli approcci probabilistici, comprendono l'idea di [[Regressione logistica|regressione logistica]].
 
 ## Referenze

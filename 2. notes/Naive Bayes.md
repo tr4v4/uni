@@ -11,7 +11,7 @@ links:
 # Naive Bayes
 ---
 ## Introduzione
-> Il **naive Bayes** e' un [[Classificatori bayesiani|classificatore bayesiano]] che assume l'[[Indipendenza di variabili aleatorie|indipendenza]] delle $n$ features.
+> Il **naive Bayes** e' un [[Classificatori bayesiani|classificatore bayesiano]] che assume l'[[Indipendenza di variabili aleatorie|indipendenza]] delle $n$ [[Features di un dato|features]].
 
 Infatti, sappiamo che i classificatori bayesiano devono calcolare
 $$\frac{\mathbb{P}(Y = y_{k}) \cdot \mathbb{P}(X_{1} = x_{1j}, \cdots, X_{n} = x_{nj} | Y = y_{k})}{\sum\limits_{i} \mathbb{P}(Y = y_{i}) \cdot \mathbb{P}(X_{1} = x_{1j}, \cdots, X_{n} = x_{nj} | Y = y_{i})}$$

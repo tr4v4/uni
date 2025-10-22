@@ -16,6 +16,13 @@ links:
 ![[diagramma-delle-sequenze-1.png]]
 ![[diagramma-delle-sequenze-2.png]]
 
+Di solito si mettono le istanze, [[Oggetto|oggetti]], e non le [[Classe|classi]]. In particolare si distinguono:
+- istanze - oggetti specifici
+- lifeline - ruoli, oggetti piu' generici
+
+Esistono dei messaggi di creazione e distruzione degli oggetti. Si possono mettere anche gli stati.
+E' possibile racchiudere una parte del diagramma all'interno di un frammento. Questi frammenti possono essere identificati da degli operatori: _loop_, _opt_, _alt_, ecc...
+
 ## Azioni
 Le azioni sono:
 - _sincrone_ - freccia completa, bloccano il chiamante;
